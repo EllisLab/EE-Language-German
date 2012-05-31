@@ -3,7 +3,11 @@ $lang = array(
 
 
 'tools' => 
-'Tools -',
+<<<<<<< HEAD
+'Tools',
+=======
+'Tools',
+>>>>>>> 5524fa9a63b611ae2579c80902e18cb16632b66b
 
 'tools_data' => 
 'Daten',
