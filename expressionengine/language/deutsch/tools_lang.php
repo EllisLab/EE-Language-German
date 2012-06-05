@@ -3,11 +3,7 @@ $lang = array(
 
 
 'tools' => 
-<<<<<<< HEAD
 'Tools',
-=======
-'Tools',
->>>>>>> 5524fa9a63b611ae2579c80902e18cb16632b66b
 
 'tools_data' => 
 'Daten',
@@ -149,9 +145,6 @@ $lang = array(
 
 'logs_deleted' => 
 'Logs gelöscht',
-
-'import_from_mt' => 
-'Movable Type Import Hilfe',
 
 'member_import' => 
 'Mitglieder Import Hilfe',

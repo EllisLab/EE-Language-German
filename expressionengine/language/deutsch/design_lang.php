@@ -458,11 +458,11 @@ $lang = array(
 'preferences_updated' => 
 'Einstellungen aktualisiert',
 
-'choose_default_data' => 
-'Standard Template Daten',
+'do_not_duplicate_template' => 
+'Template nicht duplizieren',
 
-'blank_template' => 
-'Keine - Leeres Template erstellen',
+'duplicate_existing_template' => 
+'Ein bestehendes Template duplizieren?',
 
 'template_from_library' => 
 'Template aus Ihrer Sammlung benutzen',
@@ -963,7 +963,7 @@ $lang = array(
 'Das Modul ist nicht installiert',
 
 'tag_no_closing_tag_error' => 
-'Kein schließender Tag gefunden. Hinweis: Einige Tags benötigen das Schließen nicht.',
+'Keinen schließenden Tag gefunden. Hinweis: Einige Tags benötigen das Schließen nicht.',
 
 'tag_docs_link_error' => 
 'Bitte die Dokumentation des Moduls konsultieren, falls Probleme auftauchen.',

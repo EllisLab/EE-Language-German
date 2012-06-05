@@ -36,7 +36,7 @@ $lang = array(
 'Felder wählen',
 
 'fb_non_images' => 
-'* Bezeichnet Nicht-Bilder. Nur Bilder können gezeigt werden.',
+'* Bezeichnet Nicht-Bilder. Nur Bilder können angezeigt werden.',
 
 'fb_insert_link' => 
 'Link einfügen',

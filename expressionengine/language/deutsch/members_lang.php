@@ -791,6 +791,9 @@ $lang = array(
 'include_in_mailinglists' => 
 'Mitglied in Mailingliste und verwandten Möglichkeiten zulassen (wie Gruppe im Bereich Kommunikation)',
 
+'member_delete_dont_reassign_entries' => 
+'Die Einträge dieses Mitglieds nicht jemand anderem zuweisen,sondern ALLE löschen',
+
 'translate' => 
 'Update',
 
