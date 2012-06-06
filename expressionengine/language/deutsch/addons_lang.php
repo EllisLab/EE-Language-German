@@ -26,6 +26,9 @@ $lang = array(
 'extension' => 
 'Extension',
 
+'rte_tool' => 
+'Rich Text Editor Tool',
+
 'addons_accessories' => 
 'Accessories',
 

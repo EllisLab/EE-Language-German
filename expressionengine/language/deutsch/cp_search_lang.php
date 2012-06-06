@@ -42,7 +42,7 @@ $lang = array(
 'Mitglied suchen',
 
 'data_sql_manager' => 
-'Sql Manager',
+'SQL Manager',
 
 'data_search_and_replace' => 
 'Suchen und Ersetzen',
@@ -85,9 +85,6 @@ $lang = array(
 
 'util_member_import' => 
 'Mitglieder Import',
-
-'util_import_from_mt' => 
-'Import von MT',
 
 'util_import_from_xml' => 
 'Import von XML',
