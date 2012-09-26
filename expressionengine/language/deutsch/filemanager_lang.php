@@ -659,6 +659,9 @@ $lang = array(
 'credit' => 
 'Quellenangabe',
 
+'upload_directory' => 
+'Upload-Verzeichnis',
+
 'translate' => 
 'Update',
 

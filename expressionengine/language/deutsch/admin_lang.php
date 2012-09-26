@@ -603,7 +603,7 @@ $lang = array(
 'Benötigt',
 
 'plugin_zlib_missing' => 
-'Zlib library fehlt.  Bitte Handbuch konsultieren.',
+'Zlib Library fehlt.  Bitte Handbuch konsultieren.',
 
 'plugin_can_not_fetch' => 
 'Fernbedienter Abruf des Plugins nicht möglich',
@@ -1488,7 +1488,7 @@ $lang = array(
 'In welchem Datenbank-Feld soll das Ersetzen erfolgen?',
 
 'search_replace_disclaimer' => 
-'Abhängig der Syntax kann diese Funktion unerwünschte Resultate erbringen. Konsultieren Sie das Handbuch und machen Sie ein Backup der Datenbank.',
+'Abhängig von der Syntax kann diese Funktion unerwünschte Resultate erbringen. Konsultieren Sie das Handbuch und machen Sie ein Backup der Datenbank.',
 
 'title' => 
 'Titel',
@@ -1549,9 +1549,6 @@ $lang = array(
 
 'add_new_html_button' => 
 'Neuen HTML Button anfügen',
-
-'import_from_mt' => 
-'Movable Type Import Utility',
 
 'member_import' => 
 'Mitglieder Import Utility',

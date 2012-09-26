@@ -146,9 +146,6 @@ $lang = array(
 'logs_deleted' => 
 'Logs gelöscht',
 
-'import_from_mt' => 
-'Movable Type Import Hilfe',
-
 'member_import' => 
 'Mitglieder Import Hilfe',
 

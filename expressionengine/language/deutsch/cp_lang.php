@@ -255,7 +255,7 @@ $lang = array(
 'Globale Channel-Einstellungen verwalten',
 
 'nav_admin_content' => 
-'Upload u. a.',
+'Content Administration',
 
 'nav_file_upload_preferences' => 
 'Datei Upload Einstellungen',
@@ -739,6 +739,9 @@ $lang = array(
 
 'select_all' => 
 'Alle wählen',
+
+'name' => 
+'Name',
 
 'sites' => 
 'Sites',
