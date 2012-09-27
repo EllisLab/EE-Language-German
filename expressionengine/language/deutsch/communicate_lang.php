@@ -120,7 +120,7 @@ $lang = array(
 'Anhang',
 
 'attachment_problem' => 
-'Es gab ein Problem, die Datei anzuhängen.',
+'Es gab ein Problem die Datei anzuhängen.',
 
 'attachment_unavailable' => 
 'Um Anhänge zu versenden muss ein Upload-Ordner definiert sein.',

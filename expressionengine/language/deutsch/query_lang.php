@@ -6,7 +6,7 @@ $lang = array(
 'Query',
 
 'query_module_description' => 
-'SQL Abfrage Modul für Templates',
+'SQL Abfrage Modul auf Templates',
 
 'translate' => 
 'Update',

@@ -1629,10 +1629,10 @@ $lang = array(
 'Verhalten Sites Tab',
 
 'is_site_on' => 
-'Ist die Site On?',
+'Ist die Site Online?',
 
 'is_site_on_explanation' => 
-'Wenn die Site Off ist, sieht nur ein Super Admin die Site',
+'Wenn die Site Offline ist, sieht nur ein Super Admin die Site',
 
 'theme_folder_path' => 
 'Pfad zum Verzeichnis themes',

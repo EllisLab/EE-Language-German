@@ -45,7 +45,7 @@ $lang = array(
 'Installieren',
 
 'update_modules' => 
-'Module Update starten',
+'Module-Update starten',
 
 'updated' => 
 'Aktualisiert',

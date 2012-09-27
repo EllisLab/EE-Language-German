@@ -101,6 +101,9 @@ $lang = array(
 'curl_not_installed' => 
 'Die cURL library für PHP installiert sein, um Formulare zu verarbeiten die an Dritte ausserhalb ser Site gesendet werden.',
 
+'form_decryption_failed' => 
+'Entschlüsselung der Formular-Einstellungen fehlgeschlagen.',
+
 'required' => 
 '%s muss ausgefüllt sein.',
 

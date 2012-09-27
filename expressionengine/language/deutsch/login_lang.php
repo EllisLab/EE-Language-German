@@ -24,7 +24,7 @@ $lang = array(
 'Zurück zum Login.',
 
 'password_lockout_in_effect' => 
-'Es darf innerhalb von %x Minuten nur vier Mal ein Login versucht werden',
+'Es darf innerhalb von %d Minuten nur vier Mal ein Login versucht werden',
 
 'unauthorized_request' => 
 'Sie haben keine Berechtigung zum Ausführen dieser Aktion',

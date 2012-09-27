@@ -47,9 +47,6 @@ $lang = array(
 'existing_un' => 
 'Ihr bisheriger Benutzername',
 
-'existing_pw' => 
-'Ihr bisheriges Passwort',
-
 'un_len' => 
 'Benutzernamen müssen mindestens %x Zeichen haben',
 

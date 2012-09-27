@@ -6,13 +6,13 @@ $lang = array(
 'Rich Text Editor',
 
 'rte_module_description' => 
-'Aktiviert den Rich text Editor in Textfeldern',
+'Aktiviert den Rich Text Editor in Textfeldern',
 
 'nav_rte_settings' => 
 'Rich Text Editor Einstellungen',
 
 'nav_rte_settings_short_desc' => 
-'Verwalten von Rich Text Edotor Tools und Toolsets',
+'Verwalten von Rich Text Editor Tools und Toolsets',
 
 'rte_settings' => 
 'Site Einstellungen',

@@ -804,7 +804,7 @@ $lang = array(
 'Building An ExpressionEngine Site - Chapter 01',
 
 'designing_ee_architecture' => 
-'Designen und ExpressionEngine Architektur',
+'Designing und ExpressionEngine Architektur',
 
 'troubleshooting_file_uploads' => 
 'Problemlösung mit Datei-Uploads',

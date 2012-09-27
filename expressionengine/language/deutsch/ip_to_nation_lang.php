@@ -23,6 +23,12 @@ $lang = array(
 'ip_result' => 
 'Die eingegebene IP gehört zu folgendem Land:',
 
+'ip_not_valid' => 
+'Die angegebene IP ist keine gültige IP-Adresse.',
+
+'ip_not_found' => 
+'Keine Ergebnisse für die angegebene IP.',
+
 'manage_banlist' => 
 'Verwaltung der ausgesperrten Länder',
 
@@ -50,14 +56,20 @@ $lang = array(
 'update_blurb' => 
 'Für ein Update muss die ungezippte Datei mit den ip2nation sql Daten auf den Server gelegt werden und dann der Ort der Datei angegeben werden.',
 
-'ip2nation_file_loc' => 
-'Ort der SQL-Datei',
-
-'unable_to_read_file' => 
-'Kann Datei nicht lesen.',
+'update_data_provider' => 
+'Daenquelle: <a href="maxmind.com">maxmind.com</a>',
 
 'last_update' => 
 'Letztes Update:',
+
+'ip_db_updating' => 
+'Download des Updates',
+
+'ip_db_downloaded' => 
+'IP Datenbank heruntergeladen. Entpacke ...',
+
+'ip_db_unpacked' => 
+'IP Datenbank entpackt. Füge Daten ein ...',
 
 'ip_db_updated' => 
 'IP-Datenbank update erfolgreich',
