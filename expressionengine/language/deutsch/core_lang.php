@@ -159,7 +159,7 @@ $lang = array(
 'Es wurde eine Template-Endlosschlaufe erzeugt. Grund: falsches Verschachteln von Sub-Templates.',
 
 'forgotten_email_sent' => 
-'Anweisungen zum Andern Ihres Passwortes wurden zugesandt.',
+'Anweisungen zum Ändern Ihres Passwortes wurden zugesandt.',
 
 'error_sending_email' => 
 'E-Mail senden im Moment nicht möglich .',

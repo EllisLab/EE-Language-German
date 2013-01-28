@@ -189,7 +189,7 @@ $lang = array(
 'Formatierung löschen',
 
 'underline_rte' => 
-'Unterstrichen',
+'Unterstreichen',
 
 'unordered_list_rte' => 
 'Aufzählzeichen',

@@ -77,6 +77,12 @@ $lang = array(
 'ip_db_failed' => 
 'Unerlaubte Zeichen in der Import-Datei',
 
+'ip_db_connection_403' => 
+'403 Verbindungsfehler, bitte 24 Stunden warten bevor die Datenbank erneut abgefragt wird.',
+
+'ip_db_connection_error' => 
+'Kann nicht mit dem Daten-Provider verbinden.',
+
 'translate' => 
 'Update',
 

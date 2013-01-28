@@ -24,7 +24,7 @@ $lang = array(
 'Dateimanager',
 
 'nav_batch_upload' => 
-'Stappe-Upload',
+'Stappel-Upload',
 
 'nav_sync_files' => 
 'Synchronisiere Dateien',

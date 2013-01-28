@@ -17,6 +17,9 @@ $lang = array(
 'forum_post' => 
 'Forum Thema',
 
+'password_auth' => 
+'Ihr aktuelles Super Admin-Passwort eingeben, um speichern zu können.',
+
 'existing_password_exp' => 
 'Sie müssen das aktuelle Kennwort eingeben um diese Seite zu aktualisieren',
 
