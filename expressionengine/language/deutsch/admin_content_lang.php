@@ -881,6 +881,9 @@ $lang = array(
 'duplicate_field_name' => 
 'Der gewählte Feldname ist schon vergeben.',
 
+'duplicate_truncated_field_name' => 
+'Der Feldname ist zu lange und die verkürzte Version ist schon vergeben.',
+
 'taken_field_group_name' => 
 'Der gewählte Name ist schon vergeben.',
 

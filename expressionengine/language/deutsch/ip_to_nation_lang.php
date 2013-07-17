@@ -29,6 +29,9 @@ $lang = array(
 'ip_not_found' => 
 'Keine Ergebnisse für die angegebene IP.',
 
+'cache_full' => 
+'Der Cache ist voll und muss manuell geleert werden, um fortzufahren.',
+
 'manage_banlist' => 
 'Verwaltung der ausgesperrten Länder',
 

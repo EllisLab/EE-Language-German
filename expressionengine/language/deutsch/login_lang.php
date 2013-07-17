@@ -35,6 +35,30 @@ $lang = array(
 'session_auto_timeout' => 
 'Ihre Session ist wegen Inaktivität abgelaufen',
 
+'forgotten_password' => 
+'Passwort zurücksetzen',
+
+'no_reset_id' => 
+'Die angegebene ID-Nummer scheint ungültig zu sein. Überprüfen Sie den Link, dem Sie gefolgt waren.',
+
+'id_not_found' => 
+'Die angegebene Codenummer wurde in der Datenbank nicht gefunden.',
+
+'password_changed' => 
+'Passwort erfolgreich geändert',
+
+'successfully_changed_password' => 
+'Sie haben Ihr Passwort erfolgreich geändert. Bitte loggen Sie sich mit dem neuen Passwort ein.',
+
+'new_password' => 
+'Neues Passwort',
+
+'new_password_confirm' => 
+'Neues Passwort bestätigen',
+
+'enter_new_password' => 
+'Ein neues Passwort eingeben',
+
 'translate' => 
 'Update',
 

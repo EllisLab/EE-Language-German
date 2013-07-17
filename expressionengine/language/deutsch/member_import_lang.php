@@ -68,9 +68,6 @@ $lang = array(
 'convert_from_delimited_blurb' => 
 'Erlaubt ein ExpressionEngine Mitglied XML File zu erstellen - aus einem Feldgetrennten File einer anderen Applikation',
 
-'daylight_savings' => 
-'Sommerzeit',
-
 'auto_custom_field' => 
 'Eigene Felder erstellen',
 
@@ -97,9 +94,6 @@ $lang = array(
 
 'download' => 
 'Download XML File',
-
-'dst_enabled' => 
-'Sommerzeit aktiviert',
 
 'duplicate_email' => 
 'E-Mail duplizieren: ',
@@ -159,7 +153,7 @@ $lang = array(
 'Um dieses Hilfsprogramm zu nutzen muss zuerst die Datei der exportierten Mitglieder auf dem Server abgelegt sein und der Ort angegeben, wo sich diese Datei befindet.',
 
 'invalid_element' => 
-'MFehlendes oder ungültiges Element - &lt;member&gt; erwartet',
+'Fehlendes oder ungültiges Element - &lt;member&gt; erwartet',
 
 'invalid_path' => 
 'Ungültiger Pfad!  Datei existiert nicht: ',

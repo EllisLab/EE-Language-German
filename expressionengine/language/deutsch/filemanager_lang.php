@@ -293,6 +293,9 @@ $lang = array(
 'max_size' => 
 'Maximale Dateigrösse (in Bytes)',
 
+'php_max_filesize' => 
+'Maximaler Uploadgrösse von PHP ist %s',
+
 'max_height' => 
 'Maximale Bildhöhe (in Pixel)',
 

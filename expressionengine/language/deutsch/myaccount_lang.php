@@ -224,9 +224,6 @@ $lang = array(
 'localization_updated' => 
 'Lokales aktualisiert',
 
-'daylight_savings_time' => 
-'Sommerzeit',
-
 'timezone' => 
 'Zeitzone wählen',
 
@@ -568,6 +565,9 @@ $lang = array(
 
 'no_unlocked_member_groups' => 
 'Sie haben keine Berechtigung, neue Mitglieder in irgend eine Gruppe einzufügen. Bitte <a href="%s">kontaktieren Sie den Systen Administrator</a> wenn Sie meinen, das sei nicht korrekt.',
+
+'invalid_group_id' => 
+'Sie müssen eine gültige Gruppe wählen',
 
 'translate' => 
 'Update',

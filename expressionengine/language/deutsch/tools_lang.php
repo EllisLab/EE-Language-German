@@ -101,9 +101,6 @@ $lang = array(
 'db_caching' => 
 'Datenbank Dateien cachen',
 
-'cached_relationships' => 
-'Relationship Einträge Dateien cachen',
-
 'all_caching' => 
 'Alle Caches',
 
@@ -193,6 +190,12 @@ $lang = array(
 
 'deprecated_use_instead' => 
 'Bitte %s stattdessen benützen',
+
+'deprecated_template' => 
+'Von Template Tag %s in %s.',
+
+'deprecated_snippets' => 
+'Dieser Tag könnte von einem dieser Snippets geparsed worden sein: %s',
 
 'deprecation_detected' => 
 'Das System hat eine Erweiterung entdeckt die veralteten Code benutzt, der womöglich nicht mehr läuft oder dem System Probleme bereiten kann.',

@@ -1052,15 +1052,6 @@ $lang = array(
 'server_timezone' => 
 'Server Zeitzone',
 
-'server_offset' => 
-'Server Offset (in Minuten)',
-
-'server_offset_explain' => 
-'Um Minuten abzuziehen das Minus-Zeichen verwenden: -15',
-
-'daylight_savings' => 
-'Sommerzeit',
-
 'cookie_cfg' => 
 'Cookie Einstellungen',
 
@@ -1129,6 +1120,9 @@ $lang = array(
 
 'smtp_server' => 
 'SMTP Serveradresse',
+
+'smtp_port' => 
+'SMTP Server Port',
 
 'smtp_username' => 
 'SMTP Username',
@@ -1594,9 +1588,6 @@ $lang = array(
 
 'update_and_return' => 
 'Update und beenden',
-
-'cached_relationships' => 
-'Gecachete Relationship Einträge',
 
 'template_debugging' => 
 'Template Debugging anzeigen?',

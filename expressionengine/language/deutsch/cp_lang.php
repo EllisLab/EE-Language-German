@@ -257,6 +257,9 @@ $lang = array(
 'nav_admin_content' => 
 'Content Administration',
 
+'nav_file_manager_short_desc' => 
+'Datei-Upload Einstellungen',
+
 'nav_file_upload_preferences' => 
 'Datei Upload Einstellungen',
 
@@ -265,9 +268,6 @@ $lang = array(
 
 'nav_file_watermark_preferences' => 
 'Wasserzeichen Einstellungen',
-
-'nav_file_manager_short_desc' => 
-'Datei-Upload Einstellungen',
 
 'nav_file_watermark_preferences_short_desc' => 
 'Wasserzeichen Einstellungen',

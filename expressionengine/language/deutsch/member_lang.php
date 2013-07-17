@@ -371,6 +371,9 @@ $lang = array(
 'login_required' => 
 'Login erforderlich',
 
+'sign_in' => 
+'Anmeldung für Ihr Konto',
+
 'must_be_logged_in' => 
 'Diese Seite ist nur für angemeldete Benutzer mit den entsprechenden Zugangsberechtigungen sichtbar.',
 
@@ -384,7 +387,7 @@ $lang = array(
 'Alle Beiträge dieses Mitglieds ansehen',
 
 'mbr_captcha' => 
-'Geben Sie das folgende Wort ein:',
+'Geben Sie den folgenden Code ein:',
 
 'mbr_menu' => 
 'Menü',
@@ -567,7 +570,7 @@ $lang = array(
 'Registrierung erfolgreich',
 
 'mbr_registration_completed' => 
-'Ihre Registrierung wurde erfolgreich abgeschlossen. completed.',
+'Ihre Registrierung wurde erfolgreich abgeschlossen.',
 
 'mbr_admin_will_activate' => 
 'Ein Administrator wird Ihre Konto aktivieren und Sie dann benachrichtigen.',
@@ -883,6 +886,21 @@ $lang = array(
 
 'powered_by_ee' => 
 'Realisiert mit ExpressionEngine',
+
+'mbr_reset_password' => 
+'Bitte ein neues Passwort eingeben',
+
+'mbr_missing_password' => 
+'Bitte ein neues Passwort eingeben.',
+
+'mbr_missing_confirm' => 
+'Sie müssen Ihr neues Passwort bestätigen',
+
+'mbr_password_changed' => 
+'Passwort erfolgreich geändert',
+
+'mbr_successfully_changed_password' => 
+'Sie haben erfolgreich Ihr Passwort geändert. Bitte loggen Sie sich mit dem neuen Passwort ein.',
 
 'translate' => 
 'Update',

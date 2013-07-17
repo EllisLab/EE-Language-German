@@ -35,6 +35,9 @@ $lang = array(
 'unauthorized_action' => 
 'Für diese Aktion haben Sie keine Erlaubnis.',
 
+'new_entry_errors' => 
+'Validierungsfehler:',
+
 'entry_uneditable' => 
 'Diesen Eintrag dürfen Sie nicht bearbeiten. Bitte prüfen Sie die Rechte der Mitgliedergruppe.',
 

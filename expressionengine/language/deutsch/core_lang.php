@@ -482,6 +482,12 @@ $lang = array(
 'UP14' => 
 '(UTC +14:00) Line Islands',
 
+'select_timezone' => 
+'Zeitzone wählen',
+
+'no_timezones' => 
+'Keine Zeitzonen',
+
 'translate' => 
 'Update',
 

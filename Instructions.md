@@ -1,7 +1,7 @@
-Deutsches Sprachpaket für ExpressionEngine 2.5.3
+Deutsches Sprachpaket für ExpressionEngine 2.6.1
 inkl. der CodeIgniter Sprachfiles
 
-Letzte Korrekturen: 27.09.2012
+Letzte Korrekturen: 17.07.2013
 
 Inhalt vom Verzeichnis /system in das Verzeichnis /system Ihrer
 Installation kopieren.

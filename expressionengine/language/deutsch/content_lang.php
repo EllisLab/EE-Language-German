@@ -62,9 +62,6 @@ $lang = array(
 'revision_saved' => 
 'Überarbeitung gespeichert',
 
-'dst_enabled' => 
-'Sommerzeit aktiv für Eingabedatum',
-
 'multi_entries_updated' => 
 'Einträge wurden aktualisiert',
 
@@ -1111,6 +1108,9 @@ $lang = array(
 
 'menu_forum' => 
 'Foren',
+
+'rel_ft_no_entries' => 
+'Keine Einträge',
 
 'translate' => 
 'Update',

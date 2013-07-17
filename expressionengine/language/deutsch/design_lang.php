@@ -743,6 +743,9 @@ $lang = array(
 'registration_form' => 
 'Registraturformular',
 
+'reset_password_form' => 
+'Passwort Reset Formular',
+
 'stylesheet' => 
 'CSS Stylesheet',
 
