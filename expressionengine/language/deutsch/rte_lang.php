@@ -149,17 +149,17 @@ $lang = array(
 'rte_center_error' => 
 'Sie können kein Element zentrieren das umhüllt ist',
 
-'url' => 
+'rte_url' => 
 'URL',
 
-'title' => 
+'rte_title' => 
 'Titel',
 
-'relationship' => 
+'rte_relationship' => 
 'Relationship',
 
-'selection_error' => 
-'Bitte zuerst etwas Text oder ein Bild auswählen.',
+'rte_selection_error' => 
+'Bitte zuerst etwas Text oder ein Bild wählen',
 
 'blockquote_rte' => 
 'Zitat',

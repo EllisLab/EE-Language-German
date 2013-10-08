@@ -224,12 +224,6 @@ $lang = array(
 'search_results_url_exp' => 
 'Der URL auf den die Ergebnisse dieses Channels zeigen sollen.',
 
-'ping_return_url' => 
-'Ping Return URL',
-
-'ping_return_url_exp' => 
-'Der URL auf den die Besucher gelangen sollen, wenn sie einen Link auf einer Site finden, die Sie pingt.',
-
 'comment_expiration' => 
 'Ablauf für Kommentare',
 
@@ -455,9 +449,6 @@ $lang = array(
 'invalid_field_group_selected' => 
 'Ungültige Felder-Gruppe',
 
-'missing_channel_data_for_pings' => 
-'Damit Pings gesendet werden können, muss der Channel einen Titel und URL haben. Bitte die Channel-Einstellungen nachführen.',
-
 'open' => 
 'Offen',
 
@@ -493,33 +484,6 @@ $lang = array(
 
 'row' => 
 'Reihe',
-
-'server_name' => 
-'Server Name',
-
-'server_url' => 
-'Server URL/Pfad',
-
-'port' => 
-'Port',
-
-'protocol' => 
-'Protokoll',
-
-'is_default' => 
-'Standard',
-
-'server_order' => 
-'Reihenfolge',
-
-'define_ping_servers' => 
-'Das Formular erlaubt die Angabe einer Liste von Servern, die gepingt werden, wenn ein Channel-Eintrag erstellt wurde.',
-
-'pingserver_delete_instructions' => 
-'Um eine Einheit zu löschen, das Formular mit leerem Servername absenden.',
-
-'assign_channels' => 
-'Bitte die Channels auswählen, denen diese Gruppe zugewiesen werden sollen',
 
 'group' => 
 'Gruppe',
@@ -908,12 +872,6 @@ $lang = array(
 'field_content_text' => 
 'Feldinhalt:',
 
-'field_content_file' => 
-'Datei-Typ:',
-
-'allowed_dirs_file' => 
-'Erlaubtes Verzeichnis',
-
 'type_numeric' => 
 'Nummer',
 
@@ -1042,6 +1000,27 @@ $lang = array(
 
 'field_name_too_lrg' => 
 'Der Feldname ist länger als die maximale erlaubte Länge und wurde gekürzt. Bitte beachten.',
+
+'channel_form_settings' => 
+'Channel Form Einstellungen',
+
+'channel_form_settings_updated' => 
+'Channel Form Einstellungen gespeichert',
+
+'channel_form_default_status' => 
+'Standard Status',
+
+'channel_form_allow_guest_posts' => 
+'Erlaube Gäste-Posting',
+
+'channel_form_guest_captcha' => 
+'Gäste Captcha',
+
+'channel_form_guest_author' => 
+'Gast Autor',
+
+'channel_form_default_status_empty' => 
+'-- Benutze Channel Standard --',
 
 'invalid_api_parameter' => 
 'Eintrag konnte nicht erstellt/aktualisiert werden. Fehlender API-Parameter ',

@@ -122,9 +122,6 @@ $lang = array(
 'comment' => 
 'Kommentar',
 
-'localization_is_site_default' => 
-'Lokale Einstellungen dieses Mitglieds als Standard für die Masterseite verwenden?',
-
 'preferences_updated' => 
 'Einstellungen aktualisiert',
 
@@ -256,9 +253,6 @@ $lang = array(
 
 'european' => 
 'Europa',
-
-'your_ping_servers' => 
-'Ping Server',
 
 'your_html_buttons' => 
 'HTML Format Buttons',
@@ -472,12 +466,6 @@ $lang = array(
 
 'password_change_warning' => 
 'Hinweis: Sie haben Ihr Passwort geändert, also müssen Sie sich neu einloggen.',
-
-'ping_servers' => 
-'Ping Servers',
-
-'pingservers_updated' => 
-'Ping Servers aktualisiert',
 
 'html_buttons' => 
 'HTML Format Buttons',

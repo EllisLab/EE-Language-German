@@ -242,6 +242,12 @@ $lang = array(
 'nav_field_group_management_short_desc' => 
 'Erstellen, bearbeiten und löschen von eigendefinierten Feldern',
 
+'nav_channel_form_settings' => 
+'Channel Form',
+
+'nav_channel_form_settings_short_desc' => 
+'Verwalte Frontend Channel Form Einstellungen',
+
 'nav_status_group_management' => 
 'Eigene Status-Gruppen',
 
@@ -271,12 +277,6 @@ $lang = array(
 
 'nav_file_watermark_preferences_short_desc' => 
 'Wasserzeichen Einstellungen',
-
-'nav_default_ping_servers' => 
-'Standard Ping-Server',
-
-'nav_default_ping_servers_short_desc' => 
-'Erstellen, bearbeiten und löschen von Standard Ping-Servern',
 
 'nav_default_html_buttons' => 
 'Standard HTML Buttons',
@@ -589,9 +589,6 @@ $lang = array(
 
 'any' => 
 'Alle',
-
-'mobile_not_supported' => 
-'Diese Funktion ist in mobilen Browsern nicht unterstützt.',
 
 'required_fields' => 
 'Bezeichnet erforderliche Felder',

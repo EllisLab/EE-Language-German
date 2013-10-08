@@ -1019,6 +1019,12 @@ $lang = array(
 'used_in_meta_tags' => 
 'Verwendet in den Meta Tags des Control Panels',
 
+'use_newrelic' => 
+'Aktiviere New Relic RUM Javascript',
+
+'use_newrelic_explanation' => 
+'Wenn aktiviert, wird <a href="https://newrelic.com/docs/features/real-user-monitoring" rel="external">Real User Monitoring JavaScript</a> bei allen Seiten angefügt.',
+
 'gzip_output' => 
 'GZIP Output einschalten?',
 
@@ -1049,8 +1055,8 @@ $lang = array(
 'european' => 
 'Europa',
 
-'server_timezone' => 
-'Server Zeitzone',
+'default_site_timezone' => 
+'Site Zeitzone',
 
 'cookie_cfg' => 
 'Cookie Einstellungen',
@@ -1237,9 +1243,6 @@ $lang = array(
 
 'missing_required_fields' => 
 'Benötigte(s) Feld(er) wurde(n) ausgelassen:',
-
-'default_ping_servers' => 
-'Standard Ping Server',
 
 'statuses' => 
 'Status',
@@ -1642,6 +1645,9 @@ $lang = array(
 
 'illegal_characters' => 
 'Der angegebene Name darf nur alpha-numerische Zeichen, Unterstriche und Bindestriche enthalten',
+
+'developer_logs' => 
+'Es sind %d nicht eingesehene Einträge im <a href="%s">Developer Log</a>',
 
 'translate' => 
 'Update',
