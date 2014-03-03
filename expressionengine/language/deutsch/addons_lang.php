@@ -83,14 +83,20 @@ $lang = array(
 'extensions_disabled' => 
 'Extensions deaktiviert',
 
+'ext_enabled_short' => 
+'aktiviert',
+
+'ext_disabled_short' => 
+'deaktiviert',
+
 'delete_fieldtype_confirm' => 
 'Wollen Sie diesen Feldtyp wirklich löschen?',
 
 'delete_fieldtype' => 
 'Feldtyp löschen',
 
-'data_will_be_lost' => 
-'Alle mit diesem Feldtypen verbundenen Daten, inklusive aller Channel-Daten, werden definitiv gelöscht!',
+'fieldtype_data_will_be_lost' => 
+'Alle mit diesem Fielddtyp verbundenen Daten, inkl. Channel-Daten,werden endgültig gelöscht!',
 
 'global_settings_saved' => 
 'Einstellungen gespeichert',
@@ -106,6 +112,9 @@ $lang = array(
 
 'required_by' => 
 'Verlangt von:',
+
+'extensions_disabled_warning' => 
+'Um dieses Add-On installieren zu können, muss Extensions aktiviert sein. Wollen Sie Extensions aktivieren?',
 
 'available_to_member_groups' => 
 'Verfügbar für Mitgliedergruppe',

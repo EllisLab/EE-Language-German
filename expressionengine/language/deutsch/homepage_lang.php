@@ -2,12 +2,6 @@
 $lang = array(
 
 
-'install_lock_warning' => 
-'Warnung: Das Installationsverzeichnis ist noch immer auf Ihrem Server.',
-
-'install_lock_removal' => 
-'Aus Sicherheitsgründen entfernen Sie bitte das Verzeichnis mit dem Namen installer von Ihrem Server. Benutzen Sie dazu ein FTP-Programm.',
-
 'checksum_changed_warning' => 
 'Einer oder mehrere Core Dateien wurden geändert:',
 
@@ -154,9 +148,6 @@ $lang = array(
 
 'close' => 
 'Schließen',
-
-'developer_logs' => 
-'Es sind %d nicht eingesehene Einträge im <a href="%s">Developer Log</a>',
 
 'version_mismatch' => 
 'Die installierte Version (%s) von ExpressionEngine ist nicht konsistent  mit der raportierten (%s). <a href="http://expressionengine.com/user_guide/installation/update.html">Bitte machen Sie erneut ein Update von ExpressionEngine</a>.',

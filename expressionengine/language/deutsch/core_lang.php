@@ -53,6 +53,9 @@ $lang = array(
 'dot' => 
 'Punkt',
 
+'and' => 
+'und',
+
 'or' => 
 'oder',
 
@@ -110,6 +113,9 @@ $lang = array(
 'invalid_action' => 
 'Die angeforderte Aktion ist nicht zugelassen.',
 
+'csrf_token_expired' => 
+'Dieses Formular ist abgelaufen. Bitte neu laden und nochmals probieren.',
+
 'current_password_required' => 
 'Ihr aktuelles Passwort ist verlangt.',
 
@@ -158,6 +164,15 @@ $lang = array(
 'template_loop' => 
 'Es wurde eine Template-Endlosschlaufe erzeugt. Grund: falsches Verschachteln von Sub-Templates.',
 
+'template_load_order' => 
+'Template Ladereihenfolge',
+
+'error_multiple_layouts' => 
+'Mehrfach Layouts gefunden. Bitte sicherstellen, dass nur ein Layout-Tag pro Template vorhanden ist.',
+
+'error_layout_too_late' => 
+'Plugin oder Modul-Tag vor der Layout-Deklaration gefunden. Bitte den Layout-Tag an den Anfang des Templates stellen.',
+
 'forgotten_email_sent' => 
 'Anweisungen zum Ändern Ihres Passwortes wurden zugesandt.',
 
@@ -173,6 +188,9 @@ $lang = array(
 'password_has_been_reset' => 
 'Ihr Passwort wurde geändert. Das neues Passwort wird per E-Mail zugestellt.',
 
+'ago' => 
+'her',
+
 'year' => 
 'Jahr',
 
@@ -184,6 +202,12 @@ $lang = array(
 
 'months' => 
 'Monate',
+
+'fortnight' => 
+'vierzehn Tage',
+
+'fortnights' => 
+'vierzehn Tagen',
 
 'week' => 
 'Woche',

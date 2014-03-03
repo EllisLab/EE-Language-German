@@ -632,6 +632,27 @@ $lang = array(
 'enable_http_authentication_subtext' => 
 'Wenn aktiviert, müssen sich Benutzer der oben erlaubten Gruppen mit Benutzername und Passwort anmelden, um das Template zu sehen. Damit kann zum Beispiel ein RSS/Atom Feed für einen bestimmten Channel vor unautorisierten Benutzern geschützt werden. Feed Reader mit HTTP Authentification können aber auf den Feed zugreifen. Mit HTTP Authentification sind Sicherheitsaspekte zu beachten. Bitte die Dokumentation lesen.',
 
+'template_route' => 
+'Template-Route',
+
+'template_route_subtext' => 
+'Wird eine route angegeben, überschreibt diese die Standard gruppe/template URL-Struktur.',
+
+'enable_template_routes' => 
+'Template Routes aktivieren',
+
+'enable_template_routes_exp' => 
+'Template Route deaktivieren wird die Route Optionen entfernen und Templates werden nur über die Standard gruppe/template URL erreichbar sein.',
+
+'route_required' => 
+'Benötige alle Segmente:',
+
+'route_required_subtext' => 
+'Wenn Route Segmente  verlangt sind, müssen alle Segmente in der in der  aufgerüfenen URL vorhanden sein.',
+
+'template_routes_saved' => 
+'Template Routes gespeichert',
+
 'http_auth_protected' => 
 'HTTP Auth geschützt',
 
@@ -655,6 +676,12 @@ $lang = array(
 
 'template_manager' => 
 'Template Manager',
+
+'url_manager' => 
+'Template Route Manager',
+
+'template_route_notice' => 
+'Routes sind in der Reihenfolge gespeichert, die der Template Router als Übereinstimmung nimmt.',
 
 'template_id_not_found' => 
 'Ungültiges Template gewählt',

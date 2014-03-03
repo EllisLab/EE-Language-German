@@ -275,6 +275,9 @@ $lang = array(
 'no_upload_prefs' => 
 'Es gibt momentan keine Datei-Upload Einstellungen',
 
+'no_upload_directories' => 
+'Es bestehen noch keine Upoload-Verzeichnisse. Bitte erstellen sie eines oder mehre um den Feldtyp benutzen zu können.',
+
 'please_add_upload' => 
 'Es bestehen noch keine Upoload-Verzeichnisse. Bitte erstellen sie eines oder mehre um den Feldtyp benutzen zu können.',
 
@@ -640,6 +643,9 @@ $lang = array(
 
 'security_failure' => 
 'Diesen Dateityp dürfen Sie nicht hochladen.',
+
+'gd_not_installed' => 
+'Vorschaubild konnte nicht erstellt werden. GD ist für das erstellen von Vorschaubildern verlangt.',
 
 'thumb_not_created' => 
 'Vorschaubild konnte für das Bild nicht erstellt werden',

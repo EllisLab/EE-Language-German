@@ -80,6 +80,12 @@ $lang = array(
 'nav_template_manager_short_desc' => 
 'Erstellen, bearbeiten, löschen und verwalten von Templates und Template-Gruppen',
 
+'nav_template_route_manager' => 
+'',
+
+'nav_template_route_manager_short_desc' => 
+'',
+
 'nav_template_preferences' => 
 'Template Einstellungen',
 
@@ -479,9 +485,6 @@ $lang = array(
 'nav_add_tab' => 
 'Anfügen',
 
-'session_expiring' => 
-'Ihre Session ist abgelaufen. Bitte zurück einloggen, um Datenverlust zu vermeiden',
-
 'loading' => 
 'Lade',
 
@@ -527,14 +530,17 @@ $lang = array(
 'user_guide' => 
 'Handbuch',
 
-'logout_confirm' => 
-'Wollen Sie wirklich ausloggen?',
-
 'logout' => 
 'Log-out',
 
-'session_timeout' => 
-'Ihre Session ist wegen Inaktivität im Begriff abzulaufen',
+'session_idle' => 
+'Ausgesperrte Sitzung festgestellt',
+
+'session_idle_description' => 
+'Sie sind im Moment ausgesperrt, bitte geben Sie zum Weiterfahren Ihr Passwort ein.',
+
+'session_idle_not_name' => 
+'Nicht %s?',
 
 'login' => 
 'Login',

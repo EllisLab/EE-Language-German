@@ -26,20 +26,11 @@ $lang = array(
 'channel' => 
 'Channel',
 
-'ping_sites' => 
-'Sites zum Pingen',
-
-'ping_servers' => 
-'Ping Servers',
-
 'invalid_upload_directory' => 
 'Ungültiges Upload-Verzeichnis',
 
 'upload_directory_unwriteable' => 
 'Datei kann nicht ins Upload-Verzeichnis geschrieben werden',
-
-'pings_sent' => 
-'Pings gesendet:',
 
 'moblog_entry_settings' => 
 'Channel Eintrags-Einstellungen',

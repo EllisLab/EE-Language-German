@@ -113,8 +113,14 @@ $lang = array(
 'topic' => 
 'Thema',
 
+'title' => 
+'Titel',
+
 'author' => 
 'Autor',
+
+'comment' => 
+'Kommentar',
 
 'comments' => 
 'Kommentare',
@@ -793,6 +799,9 @@ $lang = array(
 
 'member_delete_dont_reassign_entries' => 
 'Die Einträge dieses Mitglieds nicht jemand anderem zuweisen,sondern ALLE löschen',
+
+'member_delete_reassign_entries' => 
+'Neu zuweisen der Einträge an',
 
 'translate' => 
 'Update',

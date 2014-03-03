@@ -77,12 +77,6 @@ $lang = array(
 'mbr_activation_instructions_desc' => 
 'Dieses Template enthält die Anweisungen zur Aktivierung der Mitgliedschaft bei einer neuen Registrierung',
 
-'reset_password_notification' => 
-'Benachrichtigung für Passwort-Änderung',
-
-'reset_password_notification_desc' => 
-'Dieses Template enthält die Anweisungen zur Änderung des Passwortes.',
-
 'validated_member_notify' => 
 'Benachrichtigung über die Prüfung eines Mitglieder-Kontos',
 

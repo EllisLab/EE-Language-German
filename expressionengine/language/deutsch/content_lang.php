@@ -236,15 +236,6 @@ $lang = array(
 'publish_form' => 
 'Formular',
 
-'pings' => 
-'Pings',
-
-'no_ping_sites' => 
-'Es gibt derzeit keine Pingserver.',
-
-'add_ping_sites' => 
-'Ping-Server zufügen',
-
 'entry_date' => 
 'Eintragsdatum',
 
@@ -500,18 +491,6 @@ $lang = array(
 'allow_comments' => 
 'Kommentare zulassen',
 
-'ping_sites' => 
-'Server für Pings',
-
-'select_entries_to_ping' => 
-'Wählen Sie die Einträge, die Sie anpingen wollen',
-
-'view_previous_pings' => 
-'Frühere Pings zeigen',
-
-'previously_pinged_urls' => 
-'Sie haben die folgenden URL schon angepingt',
-
 'date' => 
 'Datum',
 
@@ -622,9 +601,6 @@ $lang = array(
 
 'entry_has_been_updated' => 
 'Eintrag wurde aktualisiert',
-
-'xmlrpc_ping_errors' => 
-'Die folgenden XML-RPC-Pings wurden nicht akzeptiert:',
 
 'click_to_view_your_entry' => 
 'Hier klicken, um Ihren Eintrag anzusehen',
@@ -1093,9 +1069,6 @@ $lang = array(
 
 'menu_date' => 
 'Datum',
-
-'menu_pings' => 
-'Pings',
 
 'menu_pages' => 
 'Seiten',

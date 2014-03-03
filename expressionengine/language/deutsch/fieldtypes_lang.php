@@ -167,6 +167,9 @@ $lang = array(
 'grid_col_searchable' => 
 'durchsuchbar?',
 
+'grid_show_fmt_btns' => 
+'Zeige Formatierungs-Buttons',
+
 'grid_output_format' => 
 'Ausgabe-Formatierung?',
 

@@ -311,6 +311,9 @@ $lang = array(
 'illegal_characters' => 
 'Der eingegebene Name darf nur alphanumerische Zeichen, Leerzeichen, Unterstriche und Bindestriche enthalten.',
 
+'illegal_tab_name' => 
+'Tab Namen dürfen folgende Zeichen nicht enthalten: *, >, :, +, (, ), [, ], =, |, ", \', ., #, or $',
+
 'comment_require_membership' => 
 'Zum Schreiben von Kommentaren Mitgliedschaft verlangen?',
 

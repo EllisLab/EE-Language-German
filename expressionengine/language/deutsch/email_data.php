@@ -210,43 +210,6 @@ EOF;
 }
 
 
-
-
-//---------------------------------------------------
-//	Reset Password Notification
-//--------------------------------------------------
-
-if ( ! function_exists('reset_password_notification_title'))
-{
-	function reset_password_notification_title()
-	{
-return <<<EOF
-Neue Login Information
-EOF;
-	}
-}
-
-if ( ! function_exists('reset_password_notification'))
-{
-	function reset_password_notification()
-	{
-return <<<EOF
-{name},
-
-Hier sind Ihre neuen Daten für den Login:
-
-Username: {username}
-Passwort: {password}
-
-{site_name}
-{site_url}
-EOF;
-	}
-}
-
-
-
-
 //---------------------------------------------------
 //	Validated Member Notification
 //--------------------------------------------------
@@ -256,7 +219,7 @@ if ( ! function_exists('validated_member_notify_title'))
 	function validated_member_notify_title()
 	{
 return <<<EOF
-Ihr Mitgliedskonto ist aktiviert
+Ihr Mitgliedschaftskonto wurde aktiviert.
 EOF;
 	}
 }
@@ -268,7 +231,7 @@ if ( ! function_exists('validated_member_notify'))
 return <<<EOF
 {name},
 
-Ihr Mitgliedskonto ist aktiviert. Sie können nun darüber verfügen.
+Ihr Mitgliedschaftskonto wurde aktiviert und ist für den Einsatz bereit.
 
 Besten Dank!
 
@@ -289,19 +252,19 @@ if ( ! function_exists('decline_member_validation_title'))
 	function decline_member_validation_title()
 	{
 return <<<EOF
-Ihre Mitgliedschaft wurde abgelehnt
+Ihr Mitgliedschaftkonto wurde abgelehnt
 EOF;
 	}
 }
 
-if ( ! function_exists('decline_member_validation'))
+if ( ! function_exists('validated_member_notify'))
 {
-	function decline_member_validation()
+	function validated_member_notify()
 	{
 return <<<EOF
 {name},
 
-Entschuldigen Sie. Der Betreiber hat entschieden, Ihr Konto abzulehnen.
+Entschuldigen Sie bitte, doch unsere Mitarbeiter haben entschieden, Ihre Mitgliedschaft nicht zu aktivieren.
 
 {site_name}
 {site_url}

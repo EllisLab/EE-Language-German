@@ -221,6 +221,339 @@ $lang = array(
 'file_writing_instructions' => 
 'Sie können dieses Template nicht speichern, solange Sie die Schreibrechte auf dem Server nicht angepasst haben.',
 
+'login' => 
+'Login',
+
+'register' => 
+'Registrieren',
+
+'member_list' => 
+'Mitglieder-Liste',
+
+'logged_in_as' => 
+'EIngeloggt als',
+
+'your_profile' => 
+'Ihr Profil',
+
+'your_control_panel' => 
+'Ihr Control-Panel',
+
+'logout' => 
+'Logout',
+
+'wiki_home' => 
+'Wiki Home',
+
+'editing' => 
+'Bearbeiten',
+
+'source' => 
+'Quelle',
+
+'history' => 
+'Historie',
+
+'revision' => 
+'Revision',
+
+'navigation' => 
+'Navigation',
+
+'wiki_help' => 
+'Wiki Hilfe',
+
+'categories' => 
+'Kategorien',
+
+'list_of_titles' => 
+'Liste der Titel',
+
+'title_list' => 
+'Titelliste',
+
+'uncategorized_pages' => 
+'Seiten ohne Kategorie',
+
+'random_page' => 
+'Zufällige Seite',
+
+'uploads' => 
+'Upload',
+
+'file_upload' => 
+'Dateiupload',
+
+'uploaded_files' => 
+'Hochgeladene Dateien',
+
+'recent_changes' => 
+'Kürzlich geändert',
+
+'recent_changes_page' => 
+'Kürzlich geändert Seite',
+
+'rss' => 
+'RSS',
+
+'recent_changes_rss' => 
+'Kürzliche Änderungen in RSS',
+
+'atom' => 
+'Atom',
+
+'recent_changes_atom' => 
+'Kürzliche Änderungen in Atom',
+
+'what_links_here' => 
+'',
+
+'active_members' => 
+'',
+
+'search' => 
+'',
+
+'go' => 
+'',
+
+'special_page' => 
+'',
+
+'file_page' => 
+'',
+
+'create_or_find_page' => 
+'',
+
+'view' => 
+'',
+
+'edit' => 
+'',
+
+'view_source' => 
+'',
+
+'viewing_history' => 
+'',
+
+'redirected_from' => 
+'',
+
+'page_redirects_to' => 
+'',
+
+'no_article' => 
+'',
+
+'click_edit_to_create' => 
+'',
+
+'cannot_add' => 
+'',
+
+'cannot_edit' => 
+'',
+
+'revision_from' => 
+'',
+
+'subcategories' => 
+'',
+
+'submissions_moderated' => 
+'',
+
+'old_revision_warning' => 
+'',
+
+'preview_warning' => 
+'',
+
+'recent_file_uploads' => 
+'',
+
+'recent_files' => 
+'',
+
+'add_file' => 
+'',
+
+'add_image' => 
+'',
+
+'notes' => 
+'',
+
+'redirect' => 
+'',
+
+'rename' => 
+'',
+
+'lock_article' => 
+'',
+
+'moderate_article' => 
+'',
+
+'delete_category' => 
+'',
+
+'delete_article' => 
+'',
+
+'submit' => 
+'',
+
+'preview' => 
+'',
+
+'uploaded' => 
+'',
+
+'download_file' => 
+'',
+
+'mime_type' => 
+'',
+
+'delete' => 
+'',
+
+'no_summary' => 
+'',
+
+'quick_links' => 
+'',
+
+'no_file' => 
+'',
+
+'no_files' => 
+'',
+
+'no_history' => 
+'',
+
+'open' => 
+'',
+
+'closed' => 
+'',
+
+'no_search_results' => 
+'',
+
+'keywords' => 
+'',
+
+'last_updated' => 
+'',
+
+'by' => 
+'',
+
+'choose_namespace' => 
+'',
+
+'no_namespace_results' => 
+'',
+
+'no_uncategorized_results' => 
+'',
+
+'image_uploads_only' => 
+'',
+
+'allowed_file_types' => 
+'',
+
+'new_filename' => 
+'',
+
+'summary' => 
+'',
+
+'no_image_uploads' => 
+'',
+
+'no_uploads' => 
+'',
+
+'page' => 
+'',
+
+'of' => 
+'',
+
+'pages' => 
+'',
+
+'no_articles_link_to' => 
+'',
+
+'articles_that_link_to' => 
+'',
+
+'pages_link_to' => 
+'',
+
+'there' => 
+'',
+
+'is' => 
+'',
+
+'are' => 
+'',
+
+'subcategory' => 
+'',
+
+'for_this_category' => 
+'',
+
+'article' => 
+'',
+
+'articles' => 
+'',
+
+'articles_in_category' => 
+'',
+
+'powered_by_ee' => 
+'',
+
+'ee_wiki' => 
+'',
+
+'version' => 
+'',
+
+'elapsed_time' => 
+'',
+
+'moderated_wiki_revision' => 
+'',
+
+'new_revision' => 
+'',
+
+'url_to_view_revision' => 
+'',
+
+'url_to_open_revision' => 
+'',
+
+'view_topic' => 
+'',
+
+'revision_content' => 
+'',
+
 'translate' => 
 'Update',
 

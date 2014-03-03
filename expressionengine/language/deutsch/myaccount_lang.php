@@ -245,14 +245,20 @@ $lang = array(
 'localization' => 
 'Lokale Einstellungen',
 
+'date_format' => 
+'',
+
 'time_format' => 
 'Zeitformat',
 
-'united_states' => 
-'United States',
+'24_hour' => 
+'',
 
-'european' => 
-'Europa',
+'12_hour' => 
+'',
+
+'include_seconds' => 
+'',
 
 'your_html_buttons' => 
 'HTML Format Buttons',

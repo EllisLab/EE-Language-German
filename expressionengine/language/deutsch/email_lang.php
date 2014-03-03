@@ -71,6 +71,9 @@ $lang = array(
 'email_no_hostname' => 
 'Es wurde kein SMTP Hostname angegeben.',
 
+'email_no_port' => 
+'Sie haben keinen SMTP-Port angegeben.',
+
 'email_smtp_error' => 
 'Folgender SMTP-Fehler trat auf: %s',
 

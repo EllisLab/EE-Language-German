@@ -155,6 +155,9 @@ $lang = array(
 'enable_extensions' => 
 'Extensions aktivieren?',
 
+'extensions_disabled_manage' => 
+'Extensions muss <a href="%s">aktiviert sein</a>, um Extensions zu verwalten.',
+
 'disable_extension' => 
 'Deaktivieren?',
 
@@ -286,6 +289,15 @@ $lang = array(
 
 'enable_throttling_explanation' => 
 'Es wird ein 404 Header und eine Meldung generiert, falls auf Ihrer Website eine Anfrage erfolgt, für die es keine Vorlagen-Gruppe im URL gibt. Das soll Suchmaschinen-Crawler davon abhalten, nichtexistierende Seiten wiederholt anzufordern. ',
+
+'caching_driver' => 
+'Caching Treiber',
+
+'caching_driver_failover' => 
+'Kann nicht mit %s verbinden, benutze %s Treiber anstelle.',
+
+'caching_driver_file_fail' => 
+'Kann %s Treiber nicht benützen. Bitte Cache Pfad Berechtigungen überprüfen für % Treiber',
 
 'max_caches' => 
 'Maximale Zahl von URLs für Cache',
@@ -869,10 +881,10 @@ $lang = array(
 'group_assignment_defaults_to_two' => 
 'Wurde Kontoaktivierung gefordert, werden Mitglieder dieser Gruppe zugeteilt wenn sie ihr Konto aktiviert haben.',
 
-'user_session_type' => 
-'User Session Typ',
+'website_session_type' => 
+'Website Session Typ',
 
-'admin_session_type' => 
+'cp_session_type' => 
 'Control Panel Session Typ',
 
 'security_cfg' => 
@@ -893,17 +905,11 @@ $lang = array(
 's_session' => 
 'Nur Session ID',
 
-'secure_forms' => 
-'Formulare im Secure Mode verarbeiten?',
-
 'deny_duplicate_data' => 
 'Verweigere doppelte Daten?',
 
 'deny_duplicate_data_explanation' => 
 'Diese Einstellung verhindert die Entgegennahme von Daten wie Kommentare etc. von Usern, wenn ein genaues Duplikat der Daten schon vorhanden ist.',
-
-'secure_forms_explanation' => 
-'Verhindert automatisches Spammen und beabsichtigte Doppeleingaben.',
 
 'allow_multi_logins' => 
 'Mehrfaches Log-In eines einzelnen Kontos erlauben?',
@@ -1025,6 +1031,12 @@ $lang = array(
 'use_newrelic_explanation' => 
 'Wenn aktiviert, wird <a href="https://newrelic.com/docs/features/real-user-monitoring" rel="external">Real User Monitoring JavaScript</a> bei allen Seiten angefügt.',
 
+'newrelic_app_name' => 
+'Neuer Relic Application Name',
+
+'newrelic_app_name_explanation' => 
+'Ändert den Namen der Applikation der im New Relic Dashboard für diese Installation von ExpressionEngine erscheint',
+
 'gzip_output' => 
 'GZIP Output einschalten?',
 
@@ -1046,14 +1058,20 @@ $lang = array(
 'localization_cfg' => 
 'Lokale Einstellungen',
 
+'date_format' => 
+'Standard Datumformat',
+
 'time_format' => 
-'Voreingestelltes Zeit-Format',
+'Standard Zeit-Format',
 
-'united_states' => 
-'United States',
+'24_hour' => 
+'24-Stunden',
 
-'european' => 
-'Europa',
+'12_hour' => 
+'12-Stunden mit AM/PM',
+
+'include_seconds' => 
+'Sekunden beim Standard Zeitformat auch angeben',
 
 'default_site_timezone' => 
 'Site Zeitzone',
@@ -1129,6 +1147,9 @@ $lang = array(
 
 'smtp_port' => 
 'SMTP Server Port',
+
+'empty_stmp_fields' => 
+'Das %s Feld ist für SMTP Bedingung.',
 
 'smtp_username' => 
 'SMTP Username',

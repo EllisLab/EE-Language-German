@@ -236,8 +236,20 @@ $lang = array(
 'tab' => 
 'Tab',
 
+'date_format' => 
+'Datum Format',
+
 'time_format' => 
-'Standard Zeit-Format',
+' Zeit Format',
+
+'24_hour' => 
+'24 Stunden',
+
+'12_hour' => 
+'12 Stunden mit AM/PM',
+
+'include_seconds' => 
+'Sekunden im Zeitformat anzeigen',
 
 'timezones' => 
 'Voreingestellte Zeitzone',
