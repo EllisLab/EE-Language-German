@@ -209,6 +209,9 @@ $lang = array(
 'your_profile' => 
 'Ihr öffentliches Profil',
 
+'update_preferences' => 
+'Einstellungen aktualisiert',
+
 'edit_signature' => 
 'Signatur bearbeiten',
 

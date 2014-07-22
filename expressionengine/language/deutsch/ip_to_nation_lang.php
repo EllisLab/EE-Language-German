@@ -3,7 +3,7 @@ $lang = array(
 
 
 'ip_to_nation_module_name' => 
-'IP to Nation',
+'IP zu Nation',
 
 'ip_to_nation_module_description' => 
 'Programm zur Länderzuweisung von IP-Addressen',
@@ -60,7 +60,7 @@ $lang = array(
 'Für ein Update muss die ungezippte Datei mit den ip2nation sql Daten auf den Server gelegt werden und dann der Ort der Datei angegeben werden.',
 
 'update_data_provider' => 
-'Daenquelle: <a href="maxmind.com">maxmind.com</a>',
+'Datenquelle: <a href="maxmind.com">maxmind.com</a>',
 
 'last_update' => 
 'Letztes Update:',

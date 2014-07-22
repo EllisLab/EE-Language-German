@@ -81,10 +81,10 @@ $lang = array(
 'Erstellen, bearbeiten, löschen und verwalten von Templates und Template-Gruppen',
 
 'nav_template_route_manager' => 
-'',
+'Template Route Manager',
 
 'nav_template_route_manager_short_desc' => 
-'',
+'Überprüfen, bearbeiten und verwalten der Template Routes',
 
 'nav_template_preferences' => 
 'Template Einstellungen',
@@ -292,6 +292,9 @@ $lang = array(
 
 'nav_security_and_privacy' => 
 'Sicherheit / Privatsphäre',
+
+'nav_software_registration' => 
+'Software-Registratur',
 
 'nav_admin_system' => 
 'System Administration',

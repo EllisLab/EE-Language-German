@@ -188,6 +188,9 @@ $lang = array(
 'parse_stage' => 
 'PHP Parsing bei',
 
+'protect_javascript' => 
+'Schütze Javascript',
+
 'access' => 
 'Zugriff',
 
@@ -682,6 +685,18 @@ $lang = array(
 
 'template_route_notice' => 
 'Routes sind in der Reihenfolge gespeichert, die der Template Router als Übereinstimmung nimmt.',
+
+'route_manager_group' => 
+'Gruppe',
+
+'route_manager_template' => 
+'Template',
+
+'route_manager_route' => 
+'Route',
+
+'route_manager_required' => 
+'Segmente verlangt',
 
 'template_id_not_found' => 
 'Ungültiges Template gewählt',

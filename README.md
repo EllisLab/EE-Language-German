@@ -42,8 +42,8 @@ Developer's Certificate of Origin 1.1
 
 By making a contribution to this project, I certify that:
 
-(1) The contribution was created in whole or in part by me and I 
-    have the right to submit it under the open source license 
+(1) The contribution was created in whole or in part by me and I
+    have the right to submit it under the open source license
     indicated in the file; or
 
 (2) The contribution is based upon previous work that, to the best

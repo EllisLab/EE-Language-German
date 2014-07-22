@@ -101,8 +101,11 @@ $lang = array(
 'error' => 
 'Fehler',
 
+'generic_fatal_error' => 
+'Etwas ging schief und dieser URL kann im Moment nicht verarbeitet werden.',
+
 'invalid_url' => 
-'Der angegebene URL ist ungültig',
+'Der angegebene URL ist ungültig.',
 
 'submission_error' => 
 'Das abgeschickte Formular enthielt folgende Fehler:',
@@ -133,6 +136,15 @@ $lang = array(
 
 'unable_to_load_field_type' => 
 'Kann diese Filetype Datei nicht laden: %s. Bestätigen Sie dass die Filetyp Datei im Ordner expressionengine/third_party liegt',
+
+'unwritable_cache_folder' => 
+'Der Cache-Ordner hat nicht die richtigen Berechtigungen. Abhilfe: Die Berechtigung für die config-Datei (/expressionengine/config/config.php) muss auf 666 (oder das Equivalent Ihres Servers) gesetzt werden.',
+
+'unwritable_config_file' => 
+'Der die Config-Datei hat nicht die richtigen Berechtigungen. Abhilfe: Die Berechtigung für die config-Datei (/expressionengine/config/config.php) muss auf 666 (oder das Equivalent Ihres Servers) gesetzt werden.',
+
+'redirect_xss_fail' => 
+'Der Link, auf den Sie umgeleitet wurden enthielt potentiellen Schadcode. Wir empfehlen, den Back-Button zu klicken und per E-Mail an %s den Link zu rapportieren, der diese Mitteilung hervor rief.',
 
 'banned' => 
 'Gesperrt',
@@ -172,6 +184,12 @@ $lang = array(
 
 'error_layout_too_late' => 
 'Plugin oder Modul-Tag vor der Layout-Deklaration gefunden. Bitte den Layout-Tag an den Anfang des Templates stellen.',
+
+'error_invalid_conditional' => 
+'Sie haben ein ungültiges Conditional in Ihrem Template. Bitte überprüfen Sie Ihre Conditionals auf nicht geschlossene Zeichenketten, ungültige Operatoren, ein fehlendes }, oder ein fehlendes {/if}.',
+
+'layout_contents_reserved' => 
+'Der Name "contents" ist für Templatedaten reserviert und kann nicht als Layoutvariable dienen (als Beispiel {layout:set name="contents"} oder {layout=foo/bar" contents=""}).',
 
 'forgotten_email_sent' => 
 'Anweisungen zum Ändern Ihres Passwortes wurden zugesandt.',

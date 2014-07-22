@@ -246,19 +246,19 @@ $lang = array(
 'Lokale Einstellungen',
 
 'date_format' => 
-'',
+'Datumsformat',
 
 'time_format' => 
 'Zeitformat',
 
 '24_hour' => 
-'',
+'24 Std.',
 
 '12_hour' => 
-'',
+'12 Std. mit AM/PM',
 
 'include_seconds' => 
-'',
+'Sekunden im Zeitformat einschliessen',
 
 'your_html_buttons' => 
 'HTML Format Buttons',
@@ -375,7 +375,7 @@ $lang = array(
 'Als Super-Admin dürfen Sie Ihre eigene Gruppenzugehörigkeit nicht ändern!',
 
 'username' => 
-'Username',
+'admin',
 
 'username_change_not_allowed' => 
 'Der Administrator erlaubt keine Änderung des Usernamens.',

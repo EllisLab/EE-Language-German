@@ -299,6 +299,9 @@ $lang = array(
 'caching_driver_file_fail' => 
 'Kann %s Treiber nicht benützen. Bitte Cache Pfad Berechtigungen überprüfen für % Treiber',
 
+'disable_caching' => 
+'Cache deaktivieren',
+
 'max_caches' => 
 'Maximale Zahl von URLs für Cache',
 
@@ -776,8 +779,17 @@ $lang = array(
 'debug_cfg' => 
 'Debugging Einstellungen',
 
+'software_registration' => 
+'Software Registratur',
+
+'license_contact' => 
+'Lizenzinhaber Kontakt-E-mail',
+
 'license_number' => 
 'Lizenznummer',
+
+'invalid_license_number' => 
+'Die angegebene Lizennummer ist ungültig',
 
 'word_separator' => 
 'Wort-Separator für URL Titles',
@@ -958,6 +970,12 @@ $lang = array(
 
 'dictionary_explanation' => 
 'Der Name der Datei welche die Wortliste enthält',
+
+'license_contact_explanation' => 
+'Die Kontak-E-Mail-Adresse des Inhabers der Softwarelizenz',
+
+'license_number_explanation' => 
+'Sie finden und verwalten die Softwarelizenzen auf EllisLab.com unter <a href="https://store.ellislab.com/manage">Manage Purchases</a>',
 
 'image_path' => 
 'Pfad zum Bild-Verzeichnis',
