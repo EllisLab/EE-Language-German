@@ -17,11 +17,11 @@ Die Codeigniter Sprachdateien liegen in
 
 Übersetzer der EE-Sprachdateien seit 2004:
 
-Werner Gusset
-Octave 2 GmbH
-Ringstrasse 8
-CH-2560 Nidau /Biel
-Schweiz
+Werner Gusset  
+Octave 2 GmbH  
+Ringstrasse 8  
+CH-2560 Nidau /Biel  
+Schweiz  
 
 Bitte Fehler und Anregungen zur Verbesserung per E-Mail an
 
