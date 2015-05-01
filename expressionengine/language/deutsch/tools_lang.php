@@ -197,6 +197,9 @@ $lang = array(
 'deprecated_snippets' => 
 'Dieser Tag könnte von einem dieser Snippets geparsed worden sein: %s',
 
+'deprecated_hook' => 
+'Veralteter Extension Hook aufgerufen durch die folgende Erweiterung  (Class::method) %s',
+
 'deprecation_detected' => 
 'Das System hat eine Erweiterung entdeckt die veralteten Code benutzt, der womöglich nicht mehr läuft oder dem System Probleme bereiten kann.',
 

@@ -146,6 +146,12 @@ $lang = array(
 'redirect_xss_fail' => 
 'Der Link, auf den Sie umgeleitet wurden enthielt potentiellen Schadcode. Wir empfehlen, den Back-Button zu klicken und per E-Mail an %s den Link zu rapportieren, der diese Mitteilung hervor rief.',
 
+'missing_mime_config' => 
+'Kann Ihre Mime-Typ Whitelist nicht importieren: die Datei %s existiert nicht oder kann nicht gelesen werden.',
+
+'file_not_found' => 
+'Datei %s existiert nicht.',
+
 'banned' => 
 'Gesperrt',
 
@@ -200,11 +206,29 @@ $lang = array(
 'no_email_found' => 
 'Die angegebene E-Mail-Adresse ist nicht in der Datenbank zu finden.',
 
+'password_reset_flood_lock' => 
+'Sie haben heute Ihr Passwort zu viele Male zurückgesetzt. Prüfen Sie Ihre Inbox und den Spam-Ordner nach früheren Anfragen, oder kontaktieren Sie den Administrator der Site.',
+
 'your_new_login_info' => 
 'Login Information',
 
 'password_has_been_reset' => 
 'Ihr Passwort wurde geändert. Das neues Passwort wird per E-Mail zugestellt.',
+
+'singular' => 
+'eins',
+
+'less_than' => 
+'kleiner als',
+
+'about' => 
+'ungefähr',
+
+'past' => 
+'%s her',
+
+'future' => 
+'in %s',
 
 'ago' => 
 'her',

@@ -72,7 +72,7 @@ $lang = array(
 'aufsteigender Folge',
 
 'rel_ft_order_desc' => 
-'bbsteigender Folge',
+'absteigender Folge',
 
 'rel_ft_allow_multi' => 
 'Mehrfachbeziehungen erlauben?',

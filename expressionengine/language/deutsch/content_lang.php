@@ -1025,6 +1025,9 @@ $lang = array(
 'invalid_date' => 
 'Das eingegebene Datum ist ungültig.',
 
+'invalid_date_ambiguous' => 
+'Das gesendete Datum ist widersprüchlich, benutzen Sie eine vierstellige Jahreszahl oder benutzen Sie Slashes oder Bindestriche.',
+
 'comment_moved' => 
 'Kommentar verschoben',
 

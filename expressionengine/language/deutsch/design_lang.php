@@ -704,6 +704,9 @@ $lang = array(
 'index_delete_disallowed' => 
 'Die Template-Gruppe muss ein index Template haben',
 
+'toggle_editor' => 
+'Editor umschalten',
+
 'template_set_names' => 
 'Verfügbare Template Sets',
 

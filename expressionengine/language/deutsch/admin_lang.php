@@ -431,6 +431,9 @@ $lang = array(
 'pm_cfg' => 
 'Private Mitteilung Einstellungen',
 
+'prv_msg_enabled' => 
+'Erlaube Private Mitteilungen zwischen Mitgliedern?',
+
 'prv_msg_storage_limit' => 
 'Maximale Anzahl Private Nachrichten ein User speichern kann',
 
@@ -440,17 +443,20 @@ $lang = array(
 'prv_msg_max_chars' => 
 'Maximale Anzahl Zeichen in Privaten Mitteilungen',
 
+'prv_msg_allow_attachments' => 
+'Erlaube Anhänge in Privaten Mitteilungen?',
+
 'prv_msg_max_attachments' => 
-'Maximale Anzahl Attachments pro Private Nachricht',
+'Maximale Anzahl Anhänge pro Private Nachricht',
 
 'prv_msg_upload_path' => 
-'Serverpfad für das Attachement Upload Verzeichnis',
+'Serverpfad für das Anhänge Upload Verzeichnis',
 
 'prv_msg_attach_maxsize' => 
-'Maximal Größe von Attachement für eine Private Mitteilung (in Kilobytes)',
+'Maximal Größe von Anhänge für eine Private Mitteilung (in Kilobytes)',
 
 'prv_msg_attach_total' => 
-'Maximale Größe aller Attachements (in Megabytes)',
+'Maximale Größe aller Anhänge (in Megabytes)',
 
 'prv_msg_html_format' => 
 'HTML Formatierung in Privaten Mitteilungen',
@@ -1684,6 +1690,9 @@ $lang = array(
 
 'illegal_characters' => 
 'Der angegebene Name darf nur alpha-numerische Zeichen, Unterstriche und Bindestriche enthalten',
+
+'invalid_xss_check' => 
+'Die gesendeten Daten haben den Sicherheitscheck nicht bestanden. Wenn Sie dieses Formular nicht vorlegen wollten,  <a href="%s">bitte hier klicken</a> und keine der Einstellungen werden verändert.',
 
 'developer_logs' => 
 'Es sind %d nicht eingesehene Einträge im <a href="%s">Developer Log</a>',

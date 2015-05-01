@@ -93,13 +93,13 @@ $lang = array(
 'Bildeditor',
 
 'download_selected' => 
-'Download gewählter Dateien',
+'Download der ausgewählten Dateien',
 
 'email_files' => 
-'Emailen gewählter Dateien',
+'Emailen der ausgewählten Dateien',
 
 'delete_selected_files' => 
-'Löschen gewählter Dateien',
+'Löschen der ausgewählten Dateien',
 
 'rename_file' => 
 'Datei umbenennen',
@@ -483,7 +483,7 @@ $lang = array(
 'Suche Dateien',
 
 'dir_name' => 
-'Upload Verzeichnis Name',
+'Upload Verzeichnisname',
 
 'thumbnail' => 
 'Vorschaubild',

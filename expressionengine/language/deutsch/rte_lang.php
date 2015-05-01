@@ -110,6 +110,9 @@ $lang = array(
 'unique_name_required' => 
 'Der Toolset Name muss einmalig sein.',
 
+'valid_name_required' => 
+'Derr Toolset Name darf keine Sonderzeichen enthalten.',
+
 'enable_rte_globally' => 
 'Rich Text Editor aktivieren',
 

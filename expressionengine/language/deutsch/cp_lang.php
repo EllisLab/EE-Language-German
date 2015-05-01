@@ -296,6 +296,9 @@ $lang = array(
 'nav_software_registration' => 
 'Software-Registratur',
 
+'nav_software_registration_short_desc' => 
+'Bearbeiten der Software-Registratur-Infos',
+
 'nav_admin_system' => 
 'System Administration',
 
@@ -516,7 +519,7 @@ $lang = array(
 'Username',
 
 'password' => 
-'Passwort',
+'Password',
 
 'logged_back_in' => 
 'Sie sind wieder eingeloggt.',
@@ -545,6 +548,15 @@ $lang = array(
 'session_idle_not_name' => 
 'Nicht %s?',
 
+'password_label' => 
+'Passwort:',
+
+'user_label' => 
+'Benutzer:',
+
+'user_avatar_alt' => 
+'Benutzer Avatar',
+
 'login' => 
 'Login',
 
@@ -562,6 +574,12 @@ $lang = array(
 
 'build' => 
 'Build:',
+
+'license_number' => 
+'Lizenznummer',
+
+'invalid_license' => 
+'LIZENZ UNGÜLTIG',
 
 'forgot_password' => 
 'Passwort vergessen?',

@@ -725,6 +725,9 @@ $lang = array(
 'no_custom_profile_fields' => 
 'Zur Zeit gibt es keine benutzerdefinierten Profil-Felder',
 
+'delete_profile_field_confirmation' => 
+'Sind Sie sicher beim Löschen dieses Mitglied-Profil Feldes?',
+
 'member_search_results' => 
 'Ergebnisse der Mitglied-Suche',
 

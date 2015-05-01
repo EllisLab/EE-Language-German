@@ -2,7 +2,7 @@
 German Translation Pack for ExpressionEngine 2.x
 ================================================
 
-| Copyright (C) 2009-2013 EllisLab, Inc.
+| Copyright (C) 2009-2015 EllisLab, Inc.
 | Original German translation provided by: Werner Gusset (gusset@octave2.ch)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
