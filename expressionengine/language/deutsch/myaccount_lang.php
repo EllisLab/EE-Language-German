@@ -375,7 +375,7 @@ $lang = array(
 'Als Super-Admin dürfen Sie Ihre eigene Gruppenzugehörigkeit nicht ändern!',
 
 'username' => 
-'admin',
+'Username',
 
 'username_change_not_allowed' => 
 'Der Administrator erlaubt keine Änderung des Usernamens.',
