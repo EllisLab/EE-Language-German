@@ -1,19 +1,15 @@
-# Deutsches Sprachpaket für ExpressionEngine 2.9.0 inkl. der CodeIgniter Sprachfiles
+# Deutsches Sprachpaket für ExpressionEngine 3.0
 
 (nicht vollständig übersetzt ist das Sprachfile für das Wiki)
 
-Letzte Korrekturen: 22.07.2014
+Letzte Korrekturen: 01.01.2016
 
-Inhalt vom Verzeichnis `/system` in das Verzeichnis `/system` Ihrer Installation
+Das Verzeichnis `/system/user/deutsch` in das Verzeichnis `//system/user/` Ihrer Installation
 kopieren.
 
 Die ExpressionEngine-Sprachdateien liegen in
 
-	/system/expressionengine/language/deutsch
-
-Die Codeigniter Sprachdateien liegen in
-
-	/system/codeigniter/system/language/deutsch
+	/system/user/deutsch
 
 Übersetzer der EE-Sprachdateien seit 2004:
 
@@ -23,6 +19,10 @@ Ringstrasse 8
 CH-2560 Nidau /Biel  
 Schweiz  
 
-Bitte Fehler und Anregungen zur Verbesserung per E-Mail an
+Weitere Anpassungen und Ergänzungen seit 2016: 
 
-gusset@octave2.ch
+Tom Jaisle
+EYELABEL
+Oelkersallee 14a
+22769 Hamburg
+Deutschland
