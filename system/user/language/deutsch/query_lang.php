@@ -11,4 +11,5 @@ $lang = array(
 ''=>''
 );
 
-// End of File
+/* End of file query_lang.php */
+/* Location: ./system/user/language/deutsch/query_lang.php */

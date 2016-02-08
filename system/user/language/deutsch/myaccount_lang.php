@@ -376,9 +376,163 @@ $lang = array(
 
 'invalid_group_id' => 'Sie müssen eine gültige Gruppe wählen',
 
+  'profile_header' => '%s Profil',
+
+  'language_desc' => 'Bevorzugte Sprache, nur im Control Panel.',
+
+  'administration' => 'Administration',
+
+  'search_subscriptions' => 'Abonnements durchsuchen',
+
+  'unsubscribe_success' => 'Sie sind ausgetragen worden.',
+
+  'no_subscriptions_found' => 'Keine <b>Abonnements</b> gefunden.',
+
+  'settings_save_error' => 'Fehler',
+
+  'settings_save_error_desc' => 'Profileinstellungen konnten nicht gesichert werden.',
+
+  'btn_save_settings' => 'Einstellugen speichern',
+
+  'preferences' => 'Einstellungen',
+
+  'preferences_desc' => 'Folgendes zulassen.',
+
+  'timezone_desc' => 'Lokale Zeitzone für jedes Datum und jede Zeit.',
+
+  'auth_settings' => 'Benutzername & Passwort',
+
+  'date_settings' => 'Datum- & Zeiteinstellungen',
+
+  'publishing_settings' => 'Veröffentlichungseinstellungen',
+
+  'email_options_desc' => 'Schich mir E-Mails',
+
+  'email_description' => 'E-Mail-Adresse für dieses Konto.',
+
+  'url_desc' => 'URL-Adresse der eigenen Website',
+
+  'biography' => 'Selbstdarstellung',
+
+  'biography_desc' => 'Beschreiben Sie sich.',
+
+  'birthday_desc' => 'Geburtstag.',
+
+  'location_desc' => 'Ort.',
+
+  'include_in_author_list' => 'In die Autorenliste aufnehmen?',
+
+  'include_in_author_list_desc' => 'Wenn auf <b>ja</b> gesetzt wird der Nuterz in der Autorenliste für die Channel Einträge.',
+
+  'new_password_desc' => 'Klein- und Großbuchstaben, Zahlen, und Sonderzeichen für starke Passwörter benutzen.',
+
+  'new_password_confirm_desc' => 'Bitte das Passwort durch nochmalige Eingabe bestätigen.',
+
+  'username_too_long' => 'Der Nutzername darf nicht mehr als 50 Zeichen lang sein',
+
+  'create_html_buttons_success' => '<abbr title="Hyper-Text Markup Language">HTML</abbr>-Button angelegt',
+  'create_html_buttons_success_desc' => 'Der <abbr title="Hyper-Text Markup Language">HTML</abbr>-Button <b>%s</b> wurde angelegt.',
+
+  'create_html_buttons_error' => 'Der <abbr title="Hyper-Text Markup Language">HTML</abbr>-Button konnte nicht angelegt werden',
+  'create_html_buttons_error_desc' => 'Der <abbr title="Hyper-Text Markup Language">HTML</abbr>-Button konnte nicht angelegt werden, bitte die untenstehenden Fehler ansehen und beheben.',
+
+  'edit_html_buttons_success' => '<abbr title="Hyper-Text Markup Language">HTML</abbr>-Button aktualisiert',
+  'edit_html_buttons_success_desc' => 'Der <abbr title="Hyper-Text Markup Language">HTML</abbr>-Button <b>%s</b> wurde aktualisiert.',
+
+  'edit_html_buttons_error' => 'Der <abbr title="Hyper-Text Markup Language">HTML</abbr>-Button konnte nicht aktualisiert werden',
+  'edit_html_buttons_error_desc' => 'Der <abbr title="Hyper-Text Markup Language">HTML</abbr>-Button konnte nicht aktualisiert werden, bitte die untenstehenden Fehler ansehen und beheben.',
+
+  'quick_link' => 'Sprungmarken',
+
+  'quick_links_removed_desc' => 'Sprungmarke wurde entfernt.',
+
+  'create_quick_link' => 'Sprungmarke anlegen',
+
+  'edit_quick_link' => 'Sprungmarke bearbeiten',
+  
+  'save_bookmarklet' => 'Bookmarklet sichern',
+
+  'create_bookmarklet' => 'Bookmarklet anlegen',
+
+  'edit_bookmarklet' => 'Bookmarklet bearbeiten',
+
+  'no_bookmarklets_found' => 'Keine <b>Bookmarklets</b> gefunden.',
+
+  'create_new' => 'Neu anlegen',
+
+  'bookmarklets' => 'Bookmarklets',
+
+  'allow_messages' => 'Nachrichten von anderen Nutzern erlauben',
+
+  'display_avatars' => "Die Avatare anderer Nutzer zeigen",
+
+  'parse_smileys' => 'Emoticons im Text zeigen? ',
+
+  'avatar_settings' => 'Avatar-Einstellungen',
+
+  'current_avatar' => 'Aktueller Avatar',
+
+  'current_avatar_desc' => 'Dieser Avatar wird zur Zeit benutzt.',
+
+  'change_avatar' => 'Avatar ändern',
+
+  'change_avatar_desc' => 'Einen Avatar zum Profil hinzufügen.',
+
+  'blocked_members' => 'Gesperrte Nutzer',
+
+  'no_blocked_members_found' => 'Keine <b>gesperrten Nutzer</b> gefunden.',
+
+  'cp_settings' => 'CP-Einstellungen',
+
+  'default_cp_homepage_myaccount_desc' => 'Eingangsseite für das Control Panel setzen.',
+
+  'member_group_default' => 'Nutzergruppen Standard',
+
+  'email_username' => 'E-Mail %s',
+
+  'login_as' => 'Anmelden als %s',
+
+  'cp_index' => 'CP Index',
+
+  'delete_username' => '%s löschen',
+
+  'choose_avatar' => 'Aus vorhandenen Avataren auswählen',
+
+  'update_avatar_path' => '</em><em>Bitte die <a href="%s">Avatar</a> Hochlade-Einstellungen aktualisieren.',
+
+  'upload_avatar' => 'Hochladen — .gif, .jpg, .png (max 50kb)',
+
+  'link_avatar' => ' Link auf Avatar',
+
+  'rte_settings' => 'RTE Einstellungen',
+
+  'rte_enabled' => 'Rich Text Editor aktivieren?',
+
+  'rte_enabled_desc' => 'Wenn auf <b>aktivieren</b>  wird der unten gewählte RTE in den Formularen benutzt.',
+
+  'rte_toolset' => 'RTE Werkzeug',
+
+  'rte_toolset_desc' => 'Das bevorzugte RTE Werkzeug auswählen.',
+
+  'login_as_warning' => "<b>Warnung</b>: Sie werden als der Nutzer '%s' angemeldet und auf die folgende Seite weitergeleitet.",
+
+  'redirect_to' => 'Anmelden und weiterleiten zu',
+
+  'redirect_to_desc' => 'Nachdem Sie sich als %s angemeldet haben werden Sie auf die gewählte Seite weitergeleitet werden.',
+
+  'site_index' => 'Site Index',
+
+  'btn_login' => 'Anmelden',
+
+  'quick_links_ajax_reorder_fail' => 'Achtung: Konnte die Reihenfolge der Sprungmarken nicht sichern',
+  'quick_links_ajax_reorder_fail_desc' => 'Die Reihenfolge der Sprungmarken konnte nicht gesichert werden. Bitte die Seite aktualisieren und sicherstellen, dass Sie angemeldet sind.',
+
+  'no_quick_links_found' => 'Keine <b>Sprungmarken</b> gefunden.',
+
 'translate' => 'Update',
 
 ''=>''
 );
 
-// End of File
+/* End of file myaccount_lang.php */
+/* Location: ./system/user/language/deutsch/myaccount_lang.php */

@@ -1,37 +1,37 @@
 <?php
 
-$lang['alpha']				= "This field may only contain alphabetical characters.";
-$lang['alpha_dash']			= "This field may only contain alpha-numeric characters, underscores, and dashes.";
-$lang['alpha_dash_space']	= "This field may only contain alpha-numeric characters, underscores, dashes, and spaces.";
-$lang['alpha_numeric']		= "This field may only contain alpha-numeric characters.";
-$lang['boolean']			= "This field must be a boolean value.";
-$lang['enum']				= "This field must be one of: %s.";
-$lang['exact_length']		= "This field must be exactly %s characters in length.";
-$lang['file_exists']		= "The path you submitted is not valid.";
-$lang['hex_color']			= "This field must contain a valid hex color code.";
-$lang['integer']			= "This field must contain an integer.";
-$lang['is_natural']			= "This field must contain only positive numbers.";
-$lang['is_natural_no_zero']	= "This field must contain a number greater than zero.";
-$lang['is_numeric']			= "This field must contain only numeric characters.";
-$lang['matches']			= "This field does not match the %s field.";
-$lang['max_length']			= "This field cannot exceed %s characters in length.";
-$lang['min_length']			= "This field must be at least %s characters in length.";
-$lang['numeric']			= "This field must contain only numbers.";
-$lang['regex']				= "This field must match the regular expression `%s`.";
-$lang['required']			= "This field is required.";
-$lang['unique']				= "This field must be unique.";
-$lang['valid_base64']		= "This field may only contain characters in the base64 character set (alpha-numeric, slash, plus, and equals).";
-$lang['valid_email']		= "This field must contain a valid email address.";
-$lang['valid_emails']		= "This field must contain all valid email addresses.";
-$lang['valid_ip']			= "This field must contain a valid IP.";
-$lang['valid_url']			= "This field must contain a valid URL.";
-$lang['writable']			= "The path you submitted is not writable.";
-$lang['invalid_xss_check']  = 'The data you submitted did not pass our security check. If you did not intend to submit this form, please <a href="%s">click here</a> and no settings will be changed.';
-$lang['no_html']  			= 'This field cannot contain HTML.';
+$lang['alpha']				= "Dieses Feld darf nur Buchstaben enthalten.";
+$lang['alpha_dash']			= "Dieses Feld darf nur alphanummerische Zeichen, Unterstriche und Bindestriche enthalten.";
+$lang['alpha_dash_space']	= "Dieses Feld darf nur alphanummerische Zeichen, Unterstriche, Bindestriche und Leerzeichen enthalten.";
+$lang['alpha_numeric']		= "Dieses Feld darf nur alphanummerische Zeichen enthalten.";
+$lang['boolean']			= "Dieses Feld darf nur boolschen Wert enthalten.";
+$lang['enum']				= "Dieses Feld darf nur: %s sein";
+$lang['exact_length']		= "Dieses Feld muss exakt %s Zeichen lang sein.";
+$lang['file_exists']		= "Der angegebene Pfad ist nicht gültig.";
+$lang['hex_color']			= "Das Feld muss einen gültigen Hex-Code enthalten.";
+$lang['integer']			= "Das Feld darf nur ganze Zahlen enthalten.";
+$lang['is_natural']			= "Das Feld darf nur positive Zahlen enthalten.";
+$lang['is_natural_no_zero']	= "Dieses Feld muss eine Zahl größer als Null enthalten.";
+$lang['is_numeric']			= "ieses Feld darf nur nummerische Zeichen enthalten";
+$lang['matches']			= "Dieses Feld stimmt nicht mit dem Feld %s überein.";
+$lang['max_length']			= "Dieses Feld kann nicht länger als %s Zeichen lang sein.";
+$lang['min_length']			= "Dieses Feld muss mindestens %s Zeichen lang sein.";
+$lang['numeric']			= "Dieses Feld darf nur Zahlen enthalten.";
+$lang['regex']				= "Dieses Feld muss der Regular Expression `%s` entsprechen.";
+$lang['required']			= "Dieses Feld wird benötigt.";
+$lang['unique']				= "Dieses Feld muss eindeutig sein.";
+$lang['valid_base64']		= "Dieses Feld darf nur Zeichen aus dem base64 Zeichensatz enthalten (alphanummerische Zeichen, Bindestriche, Plus und Gleichheitszeichen).";
+$lang['valid_email']		= "Dieses Feld muss eine gültige E-Mail-Adresse enthalten.";
+$lang['valid_emails']		= "Dieses Feld darf nur gültige E-Mail-Adressen enthalten.";
+$lang['valid_ip']			= "Dieses Feld muss eine gültige IP-Adresse enthalten.";
+$lang['valid_url']			= "Dieses Feld muss einen gültigen URL enthalten.";
+$lang['writable']			= "Der angegebene Pfad ist nicht beschreibbar.";
+$lang['invalid_xss_check']  = 'Die angegebenen Daten haben den Sicherheitscheck nicht bestanden. Falls Sie das Formluar nicht abschicken wollten, <a href="%s">klicken Sie hier</a> und keine Einstellung wird geändert.';
+$lang['no_html']  			= 'Das Feld darf kein HTML enthalten.';
 
 // special and legacy things
-$lang['isset']				= "The %s field must have a value.";
-$lang['auth_password']		= "The password entered is incorrect.";
+$lang['isset']				= "Das %s muss einen Wert enthalten.";
+$lang['auth_password']		= "Das eingebebene Passwort ist nicht richtig.";
 
 /* End of file form_validation_lang.php */
 /* Location: ./system/language/english/form_validation_lang.php */

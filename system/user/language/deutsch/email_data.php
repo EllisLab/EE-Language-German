@@ -1,35 +1,6 @@
 <?php
 
 //---------------------------------------------------
-//	Admin Notification of Mailinglist subscription
-//--------------------------------------------------
-
-if ( ! function_exists('admin_notify_mailinglist_title'))
-{
-	function admin_notify_mailinglist_title()
-	{
-return <<<EOF
-Jemand hat sich in die Mailingliste eingetragen
-EOF;
-	}
-}
-
-if ( ! function_exists('admin_notify_mailinglist'))
-{
-	function admin_notify_mailinglist()
-	{
-return <<<EOF
-Ein neues Mailingliste-Abo wurde angenommen.
-
-E-Mail-Adresse: {email}
-Mailingliste: {mailing_list}
-EOF;
-	}
-}
-
-
-
-//---------------------------------------------------
 //	Admin Notification of New Entry
 //--------------------------------------------------
 
@@ -271,44 +242,6 @@ Entschuldigen Sie bitte, doch unsere Mitarbeiter haben entschieden, Ihre Mitglie
 EOF;
 	}
 }
-
-
-
-//---------------------------------------------------
-//	Mailinglist Activation Instructions
-//--------------------------------------------------
-
-if ( ! function_exists('mailinglist_activation_instructions_title'))
-{
-	function mailinglist_activation_instructions_title()
-	{
-return <<<EOF
-E-Mail Bestätigung
-EOF;
-	}
-}
-
-if ( ! function_exists('mailinglist_activation_instructions'))
-{
-	function mailinglist_activation_instructions()
-	{
-return <<<EOF
-Danke für das Interesse an unserer Mailingliste "{mailing_list}"!
-
-Bitte auf den Link unten klicken, um Ihre E-Mail-Adresse zu bestätigen.
-
-Wollen Sie nicht auf unsere Mailingliste, dann ignorieren Sie bitte dieses E-Mail.
-
-{unwrap}{activation_url}{/unwrap}
-
-Besten Dank!
-
-{site_name}
-EOF;
-	}
-}
-
-
 
 
 //---------------------------------------------------
@@ -800,27 +733,5 @@ EOF;
 	}
 }
 
-
-
-/* -------------------------------------
-//  Mailing List Template
-/* -------------------------------------*/
-if ( ! function_exists('mailinglist_template'))
-{
-	function mailinglist_template()
-	{
-return <<<EOF
-{message_text}
-
-Um Ihre E-Mail-Adresse aus der Mailingliste zu entfernen, bitte hier klicken:
-{if html_email}<a href="{unsubscribe_url}">{unsubscribe_url}</a>{/if}
-{if plain_email}{unsubscribe_url}{/if}
-EOF;
-	}
-}
-
-
-
-
 /* End of file email_data.php */
-/* Location: ./system/expressionengine/language/english/email_data.php */
+/* Location: ./system/user/language/deutsch/email_data.php */

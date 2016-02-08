@@ -13,4 +13,5 @@ $lang = array(
 ''=>''
 );
 
-// End of File
+/* End of file rss_lang.php */
+/* Location: ./system/user/language/deutsch/rss_lang.php */

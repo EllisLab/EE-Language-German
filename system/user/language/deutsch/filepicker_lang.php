@@ -2,10 +2,10 @@
 
 $lang = array(
 
-'filepicker_module_name' => 'FilePicker',
-'picker_type' => 'view as',
-'thumbnails' => 'thumbnails',
-'list' => 'list'
+'filepicker_module_name' => 'Dateiauswahl',
+'picker_type' => 'Ansicht',
+'thumbnails' => 'Thumbnails',
+'list' => 'Liste'
 
 );
 

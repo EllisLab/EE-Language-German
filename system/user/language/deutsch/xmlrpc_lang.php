@@ -1,12 +1,11 @@
 <?php
+
 $lang = array(
 
-
 'invalid_license' => 'Ungültige Lizenz',
-
-'translate' => 'Update',
 
 ''=>''
 );
 
-// End of File
+/* End of file xmlrpc_lang.php */
+/* Location: ./system/user/language/deutsch/xmlrpc_lang.php */

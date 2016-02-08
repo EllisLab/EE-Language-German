@@ -9,4 +9,5 @@ $lang = array(
 ''=>''
 );
 
-// End of File
+/* End of file publish_tabs_custom_lang.php */
+/* Location: ./system/user/language/deutsch/publish_tabs_custom_lang.php */

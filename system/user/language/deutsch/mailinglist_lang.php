@@ -157,4 +157,5 @@ $lang = array(
 ''=>''
 );
 
-// End of File
+/* End of mailinglist_lang.php */
+/* Location: ./system/user/language/deutsch/mailinglist_lang.php */

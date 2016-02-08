@@ -2,120 +2,120 @@
 
 $lang = array(
 
-'system_utilities' => 'System Utilities',
+'system_utilities' => 'System Dienstprogramme',
 
 /**
  * Menu
  */
 
-'communicate' => 'Communicate',
+'communicate' => 'Rundmail',
 
-'sent' => 'Sent',
+'sent' => 'Gesendet',
 
-'cp_translation' => '<abbr title="Control Panel">CP</abbr> Translation',
+'cp_translation' => '<abbr title="Control Panel">CP</abbr> Übersetzung',
 
-'debug_extensions' => 'Debug Extensions',
+'debug_extensions' => 'Extensions von Fehlern bereinigen',
 
 'php_info' => '<abbr title="PHP: Hypertext Processor">PHP</abbr> Info',
 
-'import_tools' => 'Import Tools',
+'import_tools' => 'Importwerkzeuge',
 
-'file_converter' => 'File Converter',
+'file_converter' => 'Dateien konvertieren',
 
-'member_import' => 'Member Import',
+'member_import' => 'Nutzer Import',
 
-'sql_manager' => 'SQL Manager',
+'sql_manager' => 'SQL Verwaltung',
 
-'sql_manager_abbr' => '<abbr title="Structured Query Language">SQL</abbr> Manager',
+'sql_manager_abbr' => '<abbr title="Structured Query Language">SQL</abbr> Verwaltung',
 
-'query_form' => 'Query Form',
+'query_form' => 'Abfrage Form',
 
-'data_operations' => 'Data Operations',
+'data_operations' => 'Datenbearbeitung',
 
-'cache_manager' => 'Cache Manager',
+'cache_manager' => 'Cache Verwaltung',
 
-'statistics' => 'Statistics',
+'statistics' => 'Statistiken',
 
-'search_and_replace' => 'Search and Replace',
+'search_and_replace' => 'Suchen und ersetzen',
 
-'default' => 'Default',
+'default' => 'Standard',
 
 /**
  * Communicate
  */
 
-'email_subject' => 'Email Subject',
+'email_subject' => 'E-Mail Betreff',
 
-'email_body' => 'Email Body',
+'email_body' => 'E-Mail Inhalt',
 
-'send_as' => 'send as',
+'send_as' => 'gesendet als',
 
-'word_wrap' => 'word wrap',
+'word_wrap' => 'Wortumbruch',
 
-'your_email' => 'Your email',
+'your_email' => 'Ihre E-Mail',
 
-'attachment' => 'Attachment',
+'attachment' => 'Anhang',
 
-'attachment_desc' => 'Attachments are <b>not</b> saved, after sending.',
+'attachment_desc' => 'Anhänge werden  <b>nicht </b> gesichert nach dem Versand.',
 
-'recipient_options' => 'Recipient Options',
+'recipient_options' => 'Empfänger Optionen',
 
-'primary_recipients' => 'Primary recipient(s)',
+'primary_recipients' => 'Hauptempfänger',
 
-'primary_recipients_desc' => 'To Email(s). Separate multiple recipients with a comma.',
+'primary_recipients_desc' => '"AN:"-Email-Adressse(n), mehrere Empfänger mit einem Komma trennen.',
 
-'cc_recipients' => '<abbr title="Carbon Copied">CC</abbr> recipient(s)',
+'cc_recipients' => '<abbr title="Carbon Copied">CC</abbr> E-Mail-Adresse(n)',
 
-'cc_recipients_desc' => '<abbr title="Carbon Copied">CC</abbr> Email(s). Separate multiple recipients with a comma.',
+'cc_recipients_desc' => '<abbr title="Carbon Copied">CC</abbr> E-Mail-Adresse(n), mehrere Empfänger mit einem Komma trennen.',
 
-'bcc_recipients' => '<abbr title="Blind Carbon Copied">BCC</abbr> recipient(s)',
+'bcc_recipients' => '<abbr title="Blind Carbon Copied">BCC</abbr> E-Mail-Adresse(n)',
 
-'bcc_recipients_desc' => '<abbr title="Blind Carbon Copied">BCC</abbr> Email(s). Separate multiple recipients with a comma.',
+'bcc_recipients_desc' => '<abbr title="Blind Carbon Copied">BCC</abbr> E-Mail-Adresse(n), mehrere Empfänger mit einem Komma trennen.',
 
-'add_member_groups' => 'Add member group(s)',
+'add_member_groups' => 'Nutzergruppe(n) hinzufügen',
 
-'add_member_groups_desc' => 'Send Email to <b>all</b> members in chosen group(s).',
+'add_member_groups_desc' => 'E-Mail an <b>alle</b> Nutzer der gewähten Gruppe(n) senden.',
 
-'btn_send_email' => 'Send Email',
+'btn_send_email' => 'Sende E-Mail',
 
-'btn_send_email_working' => 'Sending...',
+'btn_send_email_working' => 'Sende...',
 
-'none'		=> 'Plain Text',
+'none'		=> 'Nur Text',
 'auto_br'	=> 'Auto &lt;br /&gt;',
 'xhtml'		=> 'XHTML',
 
-'no_cached_emails' => 'No <b>Sent emails</b> found.',
+'no_cached_emails' => 'Keine <b>gesendeten E-Mails</b> gefunden.',
 
-'create_new_email' => 'Create new Email',
+'create_new_email' => 'Neue E-Mail schreiben',
 
-'communicate_error' => 'Attention: Email not sent',
+'communicate_error' => 'Achtung: : E-Mail nicht gesendet',
 
-'communicate_error_desc' => 'We were unable to send this Email, please review and fix errors below.',
+'communicate_error_desc' => 'Die E-Mail konnte nicht gesendet werden, sehen Sie sich bitte die unten aufgeführten Fehler an und beheben diese.',
 
-'view_email' => 'View Email',
+'view_email' => 'E-Mail ansehen',
 
-'resend' => 'Send Email again',
+'resend' => 'E-Mail noch einmal senden',
 
-'emails_removed' => 'Emails removed',
+'emails_removed' => 'E-Mails entfernt',
 
 /**
  * CP Translation
  */
 
-'language_files'		=>	'Language Files',
-'search_files_button'	=>	'Search Files',
-'file_name'				=>	'File Name',
+'language_files'		=>	'Sprachdateien',
+'search_files_button'	=>	'Dateien durchsuchen',
+'file_name'				=>	'Dateiname',
 'export_download'		=>	'Export (Download)',
-'cannot_access'			=>	'cannot be accessed',
-'cannot_create_zip'		=>	'Cannot create a .zip file',
-'no_files_selected'		=>	'No files were selected for export',
-'invalid_path' 			=> 'The path you submitted is not valid:',
-'file_saved'			=> 'The translation file has been saved to <b>system/ee/legacy/translations/%s</b>',
-'trans_file_not_writable'=> 'Translation file is not writeable.',
-'translate_btn' 		=>	'Save Translations',
-'translations_saved'	=>	'Translations Saved',
-'translate_error'		=> 'Attention: translation not saved',
-'translate_error_desc'	=> 'We were unable to save the translation, pelase review and fix errors below.',
+'cannot_access'			=>	'kann nicht drauf zugegriffen werden',
+'cannot_create_zip'		=>	'Kann keine .zip-Datei anlegen',
+'no_files_selected'		=>	'Keine Dateien ausgewählt für den Export',
+'invalid_path' 			=> 'Der angegebene Pfad ist nicht gültig:',
+'file_saved'			=> 'Die übersetzte Datei wurde nach <b>system/ee/legacy/translations/%s</b> gesichert',
+'trans_file_not_writable'=> 'Die übersetzte Datei ist nicht beschreibbar.',
+'translate_btn' 		=>	'Übersetzungen sichern',
+'translations_saved'	=>	'Übersetzungen gesichert',
+'translate_error'		=> 'Achtung: Übersetzung nicht gesichert',
+'translate_error_desc'	=> 'Wir konnten die Übersetzung nicht sichern, sehen Sie sich bitte die unten aufgeführten Fehler an und beheben diese.',
 
 /**
  * PHP Info
@@ -127,216 +127,216 @@ $lang = array(
  * Cache Manager
  */
 
-'caches_to_clear' => 'Caches to clear',
+'caches_to_clear' => 'Caches zum Löschen',
 
-'caches_to_clear_desc' => 'All caches selected will be cleared.',
+'caches_to_clear_desc' => 'Alle ausgewählten Caches werden gelöscht.',
 
 'templates' => 'Templates',
 
 'tags' => 'Tags',
 
-'database' => 'Database',
+'database' => 'Datenbank',
 
-'all_caches' => 'All Caches',
+'all_caches' => 'Alle Caches',
 
-'btn_clear_caches' => 'Clear Caches',
+'btn_clear_caches' => 'Caches löschen',
 
-'btn_clear_caches_working' => 'Clearing...',
+'btn_clear_caches_working' => 'Lösche...',
 
-'caches_cleared' => 'Caches cleared',
+'caches_cleared' => 'Caches gelöscht',
 
-'caches_cleared_error' => 'You must select at least one cache type to clear.',
+'caches_cleared_error' => 'Mindestens ein Cache muss zum Löschen ausgewählt sein.',
 
 /**
  * Search and Replace
  */
 
-'sandr' => 'Data Search and Replace',
+'sandr' => 'Daten suchen und ersetzen',
 
-'sandr_warning' => '<p><b>Warning</b>: <b class="no">Advanced users only.</b> Please be very careful with using this feature.</p>
-<p>Depending on the syntax used, this function can produce undesired results. Consult the user guide and backup your database.</p>',
+'sandr_warning' => '<p><b>Warnung</b>: <b class="no">Nur für fortgeschrittene Nutzer!</b> Sehr vorsichtig sein bei der Benutzung dieses Werkzeuges.</p>
+<p>Abhängig von der benutzen Syntax kann diese Funktion zu ungewollte Ergebnissen führen. Bitte zurerst ein Backup der Datenbank machen sowie die Dokumentation lesen.</p>',
 
-'sandr_search_text' => 'Search for this text',
+'sandr_search_text' => 'Suche nach diesem Text',
 
-'sandr_replace_text' => 'Replace with this text',
+'sandr_replace_text' => 'Ersetze mit diesem Text',
 
-'sandr_in' => 'Search and replace in',
+'sandr_in' => 'Suche und ersetze in',
 
-'sandr_in_desc' => 'Select the field you want to run this search and replace on.',
+'sandr_in_desc' => 'Feldauswahl für das Suchen und Ersetzen.',
 
-'rows_replaced' => 'Number of database records in which a replacement occurred: %s',
+'rows_replaced' => 'Anzahl an geänderten Datenbankeinträgen: %s',
 
-'current_password' => 'Current password',
+'current_password' => 'Derzeitiges Passwort',
 
-'sandr_password_desc' => 'You <b>must</b> enter your password to search and replace.',
+'sandr_password_desc' => 'Sie <b>müssen</b> Ihr Passwort eingeben zum Suchen und Ersetzen.',
 
-'site_preferences'		=> 'Site Preferences',
-'channel_entry_title'	=> 'Channel Entry Titles',
-'channel_fields'		=> 'Channel Fields',
-'replace_in_templates'	=> 'In ALL Templates',
-'template_groups'		=> 'Template Groups',
-'choose_below'			=> '(Choose from the following)',
+'site_preferences'		=> 'Site Einstellungen',
+'channel_entry_title'	=> 'Channel Titel Einträge',
+'channel_fields'		=> 'Channel Felder',
+'replace_in_templates'	=> 'In ALLEN Templates',
+'template_groups'		=> 'Template-Gruppen',
+'choose_below'			=> '(Aus dem folgenden auswählen)',
 
-'btn_sandr' => 'Search and Replace',
+'btn_sandr' => 'Suchen und ersetzen',
 
-'btn_sandr_working' => 'Replacing...',
+'btn_sandr_working' => 'Ersetze...',
 
-'no_tables_match' => 'No tables match the search criteria',
+'no_tables_match' => 'Keine Tabellen haben zur den Suchkriterien gepasst',
 
-'sandr_error' => 'Attention: Search and replace not run',
+'sandr_error' => 'Achtung: "Suchen und ersetzen" nicht durchgefüht',
 
-'sandr_error_desc' => 'We were unable to run your search and replace, please review and fix errors below.',
+'sandr_error_desc' => 'Suchen und ersetzen konnte nicht durchgeführt werden, sehen Sie sich bitte die unten aufgeführten Fehler an und beheben diese.',
 
 /**
  * Import Converter
  */
 
-'import_converter' => 'Import File Converter',
+'import_converter' => 'Import-Datei konvertieren',
 
-'file_location' => 'File location',
+'file_location' => 'Datei Pfad',
 
-'file_location_desc' => 'Path location of your <mark>delimited</mark> file.',
+'file_location_desc' => 'Path der <mark>gewählten</mark> Datei.',
 
-'delimiting_char' => 'Delimiting character',
+'delimiting_char' => 'Eingeschränkte Zeichen',
 
-'delimiting_char_desc' => 'Character used to delimit the above file.',
+'delimiting_char_desc' => 'Zeichen um obige Datei einzuschränken.',
 
-'comma_delimit' => 'Comma',
+'comma_delimit' => 'Komma',
 
-'tab_delimit' => 'Tab',
+'tab_delimit' => 'Reiter',
 
 'pipe_delimit' => 'Pipe',
 
-'other_delimit' => 'Other <i>Type character below</i>',
+'other_delimit' => 'Andere <i>Typ-Zeichen unten</i>',
 
-'enclosing_char' => 'Enclosing character',
+'enclosing_char' => 'Umgebende Zeichen',
 
-'enclosing_char_desc' => 'Character that encloses your data.',
+'enclosing_char_desc' => 'Zeichen, die die entsprechenden Daten umgeben.',
 
-'import_convert_btn' => 'Convert File',
+'import_convert_btn' => 'Datei konvertieren',
 
-'import_convert_btn_saving' => 'Converting...',
+'import_convert_btn_saving' => 'Konvertiere...',
 
-'assign_fields' => 'Assign Fields',
+'assign_fields' => 'Felder zuordnen',
 
-'import_password_warning' => '<b>Warning</b>: If you don\'t map one of your data points to "Password", a random encrypted password will be assigned to each imported user. These users will need to reset their password via the "Forgot Password" link.',
+'import_password_warning' => '<b>Warnung</b>: Wenn Sie kein Passwort vergeben, wird bei jedem Nutzer autotisch ein Passwort gesetzt. Diese Nutzer müssen im nachhinein über den "Passwort vergessen"-Link ein neues Passwort setzen.',
 
-'plain_text_passwords' => 'Plain text passwords?',
+'plain_text_passwords' => 'Klarext Passwörter?',
 
-'plain_text_passwords_desc' => 'When set to <b>yes</b>, passwords will be imported in plain text.',
+'plain_text_passwords_desc' => 'Wenn auf <b>ja</b> gesetzt werden Passwörter als Klartext abgespeichert.',
 
-'btn_assign_fields' => 'Assign Fields',
+'btn_assign_fields' => 'Felder zuordnen',
 
-'duplicate_field_assignment' => 'Duplicate field assignment: %x',
+'duplicate_field_assignment' => 'Feldzuordnung duplizieren: %x',
 
-'duplicate_member_id' => 'Duplicate Member ID: "%x"<br />It is recommended that you do not use a &lt;member_id&gt; tag and allow ExpressionEngine to auto-increment member_id',
+'duplicate_member_id' => 'Doppelte Nutzer-ID: "%x"<br />Es wird empfohlen, keine Nutzer-ID Tag zu benutzen und ExpressionEngine selbständig die Member-ID hochzählen lassen',
 
-'duplicate_username' => 'Duplicate username: ',
+'duplicate_username' => 'Nutzernamen verdoppeln: ',
 
-'member_id_warning' => 'WARNING: If you have &lt;member_id&gt; tags in your XML, existing members with the same member_id will be OVERWRITTEN!  Proceed with caution!',
+'member_id_warning' => 'WARNUNG: Wenn &lt;member_id&gt; Tags im XML enthalten sind,  werden bestehende Nutzer mit der selben member_id ÜBERSCHRIEBEN!  Fahren Sie mit Vorsicht fort!',
 
-'missing_email_field' => 'You must assign a field to "email"',
+'missing_email_field' => ' "E-Mail" muss ein Feld zugewiesen werden',
 
-'missing_screen_name_field' => 'You must assign a field to "screen_name"',
+'missing_screen_name_field' => '"screen_name"  muss ein Feld zugewiesen werden',
 
-'missing_username_field' => 'You must assign a field to "username"',
+'missing_username_field' => '"username" muss ein Feld zugewiesen werden',
 
-'not_enough_fields' => 'Not enough fields',
+'not_enough_fields' => 'Nicht genügend Felder',
 
-'not_enough_fields_desc' => 'You must have at least 3 fields: username, screen_name, and email address',
+'not_enough_fields_desc' => 'Sie brauchen mindestens 3 Felder: username, screen_name, and E-Mail-Adress',
 
-'select' => 'Select field',
+'select' => 'Auswahl treffen',
 
-'confirm_assignments' => 'Confirm Assignments',
+'confirm_assignments' => 'Zuweisungen bestätigen',
 
-'plaintext_passwords' => 'Passwords are plain text.',
+'plaintext_passwords' => 'Passwörter sind im Klartext.',
 
-'encrypted_passwords' => 'Passwords are encrypted.',
+'encrypted_passwords' => 'Passwörter sind verschlüsselt.',
 
-'btn_create_file' => 'Create [file]',
+'btn_create_file' => '[Datei] anlegen',
 
-'btn_create_file_working' => 'Creating...',
+'btn_create_file_working' => 'Lege an...',
 
 'xml_code' => 'XML Code',
 
-'btn_download_file' => 'Download File',
+'btn_download_file' => 'Datei herunterladen',
 
-'btn_copy_to_clipboard' => 'Copy to Clipboard',
+'btn_copy_to_clipboard' => 'In den Zwischenspeicher kopieren',
 
-'file_not_converted' => 'Attention: File not converted',
+'file_not_converted' => 'Achtung: Datei nicht konvertiert',
 
-'file_not_converted_desc' => 'We were unable to convert this file, please review and fix errors below.',
+'file_not_converted_desc' => 'Die Datei konnte nicht konvertiert werden, sehen Sie sich bitte die unten aufgeführten Fehler an und beheben diese.',
 
 /**
  * Member Import
  */
 
-'mbr_xml_file' => '<abbr title="Extensible Markup Language">XML</abbr> file location',
+'mbr_xml_file' => '<abbr title="Extensible Markup Language">XML</abbr> Datei-Pfad',
 
-'mbr_xml_file_location' => 'Server path to your <abbr title="Extensible Markup Language"><mark>xml</mark></abbr> file.',
+'mbr_xml_file_location' => 'Server Pfad zur <abbr title="Extensible Markup Language"><mark>XML</mark></abbr>-Datei.',
 
-'mbr_import_default_options' => 'Default Options',
+'mbr_import_default_options' => 'Standard Optionen',
 
-'member_group' => 'Member group',
+'member_group' => 'Nutzergruppe',
 
-'mbr_language' => 'Language',
+'mbr_language' => 'Sprache',
 
-'mbr_datetime_fmt' => 'Date &amp; time format',
+'mbr_datetime_fmt' => 'Datum &amp; Zeit Format',
 
-'mbr_create_custom_fields' => 'Create custom fields?',
+'mbr_create_custom_fields' => 'Eigene Felder anlegen?',
 
-'mbr_create_custom_fields_desc' => 'When set to <b>yes</b>, import will automatically create custom member fields for any data that does not match a default member field.',
+'mbr_create_custom_fields_desc' => 'Wenn auf <b>ja</b> gesetzt, wird der Import automatisch automatisch eingene Nutzerfelder anlegen, wenn diese nicht im Standard enthalten sind.',
 
-'mbr_import_btn' => 'Import Members',
+'mbr_import_btn' => 'Nutzer importieren',
 
-'mbr_import_btn_saving' => 'Importing...',
+'mbr_import_btn_saving' => 'Importiere...',
 
-'confirm_import' => 'Confirm Import',
+'confirm_import' => 'Import bestätigen',
 
-'confirm_import_warning' => '<p class="caution"><span title="excercise caution"></span> <b>Caution</b>: If your <abbr title="Extensible Markup Language">XML</abbr> file contains a tag named "<b>member_id</b>", stop.</p>
-<p>Members in your database with matching <abbr title="Identifier">ID</abbr>s will be <b>overwritten</b> if you confirm this import.</p>',
+'confirm_import_warning' => '<p class="caution"><span title="Vorsichtig vorgehen"></span> <b>Vorsicht</b>: Wenn die <abbr title="Extensible Markup Language">XML</abbr>-Datei einen Tag names "<b>member_id</b>" enthält, stoppen.</p>
+<p>Nutzer in der Datenbank mit übereinstimmenden <abbr title="Identifier">ID</abbr>s werden <b>überschrieben</b> wenn dieser Import bestätigt wird.</p>',
 
 'option' => 'Option',
 
-'value' => 'Value',
+'value' => 'Wert',
 
-'btn_confirm_import_working' => 'Importing...',
+'btn_confirm_import_working' => 'Importiere...',
 
-'custom_fields' => 'Custom Fields',
+'custom_fields' => 'Eigene Felder',
 
-'map_custom_fields' => 'Map Custom Fields',
+'map_custom_fields' => 'Eingene Felder eintragen',
 
-'map_custom_fields_desc' => 'Your <abbr title="Extensible Markup Language">XML</abbr> file has fields that don\'t map directly to our importer, please review and assign custom fields as needed.',
+'map_custom_fields_desc' => 'Die <abbr title="Extensible Markup Language">XML</abbr>-Datei enthält Felder, die nicht mit dem Importer übereinstimmen, bitte überprüfen und eigene Felder anlegen, wenn notwendig.',
 
-'field_name' => 'Field Name',
+'field_name' => 'Feldname',
 
-'field_label' => 'Field Label',
+'field_label' => 'Feldlabel',
 
-'field_required' => 'Required?',
+'field_required' => 'Benötigt?',
 
-'field_public' => 'Public?',
+'field_public' => 'Öffentlich?',
 
-'field_registration' => 'Registration?',
+'field_registration' => 'Registrierung?',
 
-'btn_add_fields' => 'Add Fields',
+'btn_add_fields' => 'Felder hinzufügen',
 
-'btn_add_fields_working' => 'Adding...',
+'btn_add_fields_working' => 'Füge hinzu...',
 
-'new_fields_success' => 'The following custom member fields were successfully added:',
+'new_fields_success' => 'Die folgenden eigenen Felder wurden erfolgreich hinzugefügt:',
 
-'import_success' => 'Import was successful',
+'import_success' => 'Import war erfolgreich',
 
-'file_read_error' => 'Unable to read file',
+'file_read_error' => 'Datei konnte nicht gelesen werden',
 
-'file_read_error_desc' => 'The XML file was not able to be read, check that the file exists and has proper read permissions.',
+'file_read_error_desc' => 'Die XML-Datei konnte nicht gelesen werden, bitte überprüfen, ob die Datei existiert und die erforderlichen Rechte besitzt.',
 
-'xml_parse_error' => 'Unable to parse XML',
+'xml_parse_error' => 'Kann XML nicht parsen',
 
-'xml_parse_error_desc' => 'Check the XML file for any incorrect syntax.',
+'xml_parse_error_desc' => 'XML-Datei auf fehlerhafte Syntax überprüfen.',
 
-'member_import_error' => 'Attention: Import not completed',
+'member_import_error' => 'Achtung: Import nicht durchgeführt',
 
-'member_import_error_desc' => 'We were unable to complete the import, please review and fix errors below.',
+'member_import_error_desc' => 'Der Import konnte nicht durchgeführt werden, sehen Sie sich bitte die unten aufgeführten Fehler an und beheben diese.',
 
 /**
  * SQL Query Form
@@ -344,66 +344,66 @@ $lang = array(
 
 'sql_query_form' => 'SQL Query Form',
 
-'sql_query_form_abbr' => '<abbr title="Structured Query Language">SQL</abbr> Query Form',
+'sql_query_form_abbr' => '<abbr title="Structured Query Language">SQL</abbr>-Abfrageformular',
 
-'sql_query_abbr' => '<abbr title="Structured Query Language">SQL</abbr> Query',
+'sql_query_abbr' => '<abbr title="Structured Query Language">SQL</abbr>-Abfrage',
 
-'sql_warning' => '<p><b>Warning</b>: <b class="no">Advanced users only.</b> Please be very careful with using this feature.</p>
-<p>Depending on the syntax used, this function can produce undesired results. Consult the user guide and backup your database.</p>',
+'sql_warning' => '<p><b>Warnung</b>: <b class="no">Nur für erfahrene Nutzer.</b> Bitte sehr vorsichtig sein mit diesem Werkzeug.</p>
+<p>Abhängig von der benutzen Syntax kann diese Funktion ungewünschte Ergebnisse zur Folge haben. Bitte ein Backup machen und die Dokumentation lesen.</p>',
 
-'common_queries' => 'Common queries',
+'common_queries' => 'Allgemeine Abfragen',
 
-'common_queries_desc' => 'Some common queries you can run, to learn more about your database content.',
+'common_queries_desc' => 'Einige allgemeine Abfragen um mehr über den Datenbankinhalt zu lernen.',
 
-'sql_query_to_run' => 'Query to run',
+'sql_query_to_run' => 'Datenbank-Abfrage',
 
-'sql_password_desc' => 'You <b>must</b> enter your password to run queries.',
+'sql_password_desc' => 'Sie <b>müssen</b> Ihr Passwort eingeben um Abfragen senden zu können.',
 
-'query_btn' => 'Run Query',
+'query_btn' => 'Abfragen',
 
-'query_btn_saving' => 'Running...',
+'query_btn_saving' => 'Frage ab...',
 
-'query_results' => 'Query Results',
+'query_results' => 'Abfrage-Ergebnis',
 
-'total_results' => 'Total Results',
+'total_results' => 'Ergebnisse gesamt',
 
-'affected_rows' => 'Affected Rows',
+'affected_rows' => 'Betroffene Datensätze',
 
-'sql_not_allowed' => 'Query type not allowed',
+'sql_not_allowed' => 'Abfragetyp nicht erlaubt',
 
-'sql_not_allowed_desc' => 'You cannot run FLUSH, REPLACE, GRANT, REVOKE, LOCK or UNLOCK queries.',
+'sql_not_allowed_desc' => 'Folgende Abfragen können nicht gesendet werden: FLUSH, REPLACE, GRANT, REVOKE, LOCK oder UNLOCK.',
 
-'search_table' => 'search table',
+'search_table' => 'Tabelle durchsuchen',
 
-'type_phrase' => 'type phrase...',
+'type_phrase' => 'Phrase eingaben...',
 
-'query_form_error' => 'Attention: Query not run',
+'query_form_error' => 'Achtung: Abfrage nicht durchgeführt',
 
-'query_form_error_desc' => 'We were unable to run your query, please review and fix errors below.',
+'query_form_error_desc' => 'Die Abfrage konnte nicht durchgeführt werden, sehen Sie sich bitte die unten aufgeführten Fehler an und beheben diese.',
 
 /**
  * Statistics
  */
 
-'manage_stats' => 'Manage Statistics',
+'manage_stats' => 'Statistiken verwalten',
 
-'source' => 'Source',
+'source' => 'Quelle',
 
-'record_count' => 'Record Count',
+'record_count' => 'Anzahl Datensätze',
 
-'members' => 'Members',
+'members' => 'Nutzer',
 
-'channel_titles' => 'Channel Entries',
+'channel_titles' => 'Channel Einträge',
 
 'sites' => 'Sites',
 
-'forums' => 'Forums',
+'forums' => 'Foren',
 
-'forum_topics' => 'Forum Topics',
+'forum_topics' => 'Foren Themen',
 
-'sync' => 'Sync',
+'sync' => 'Synchronisieren',
 
-'sync_completed' => 'Synchronization Completed',
+'sync_completed' => 'Synchronisation erfolgt',
 
 /**
  * SQL Manager
@@ -411,42 +411,42 @@ $lang = array(
 
 'mysql' => 'My<abbr title="Structured Query Language">SQL</abbr>',
 
-'total_records' => 'Total Records',
+'total_records' => 'Datensätze gesamt',
 
-'uptime' => 'Uptime',
+'uptime' => 'Betriebszeit',
 
-'database_tables' => 'Database Tables',
+'database_tables' => 'Datenbank-Tabellen',
 
-'search_tables' => 'search tables',
+'search_tables' => 'Tabellen durchsuchen',
 
-'table_name' => 'Table Name',
+'table_name' => 'Tabellenname',
 
-'records' => 'Records',
+'records' => 'Datensätze',
 
-'size' => 'Size',
+'size' => 'Größe',
 
-'manage' => 'Manage',
+'manage' => 'Verwalten',
 
-'repair' => 'Repair',
+'repair' => 'Reparieren',
 
-'optimize' => 'Optimize',
+'optimize' => 'Optimieren',
 
-'no_tables_selected' => 'You must select the tables in which to perform this action.',
+'no_tables_selected' => 'Keine Tabellen ausgewählt in denen diese Aktion ausgeführt werden soll.',
 
-'no_action_selected' => 'You must select an action to perform on the selected tables.',
+'no_action_selected' => 'Es muss eine Aktion gewählt werden, die in den Tabellen ausgeführt werden soll.',
 
-'optimize_tables_results' => 'Optimized Table Results',
+'optimize_tables_results' => 'Optimierte Tabellenergebnisse',
 
-'repair_tables_results' => 'Repair Table Results',
+'repair_tables_results' => 'Tabellenergebnisse reparieren',
 
-'table' => 'Table',
+'table' => 'Tabelle',
 
 'status' => 'Status',
 
-'message' => 'Message',
+'message' => 'Nachricht',
 
 ''=>''
 );
 
 /* End of file utilities_lang.php */
-/* Location: ./system/expressionengine/language/english/utilities_lang.php */
+/* Location: ./system/user/language/deutsch/utilities_lang.php */

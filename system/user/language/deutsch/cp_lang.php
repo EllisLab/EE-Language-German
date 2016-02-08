@@ -3,8 +3,7 @@
 $lang = array(
 
   /* no Javascript Warning */
-  'no_js_warning'	=>
-    'Javascript muss zur korrekten Funktion dieses Themes aktiviert sein. Bitte kontrollieren Sie die Browser-Einstellungen.',
+  'no_js_warning'	=> 'Javascript muss zur korrekten Funktion dieses Themes aktiviert sein. Bitte kontrollieren Sie die Browser-Einstellungen.',
 
 
 //----------------------------
@@ -36,7 +35,7 @@ $lang = array(
   'nav_sync_templates_short_desc' => 'Synchronisieren der Templates mit ihren zugeordneten Dateien.',
   'nav_global_variables' => 'Globale Variablen',
   'nav_global_variables_short_desc' => 'Erstellen, bearbeiten und löschen von User definierten Globalen Variablen',
-  'nav_template_manager' => 'Template Manager',
+  'nav_template_manager' => 'Template-Verwaltung',
   'nav_template_manager_short_desc' => 'Erstellen, bearbeiten, löschen und verwalten von Templates und Template-Gruppen',
   'nav_template_route_manager' => 'Template Route Manager',
   'nav_template_route_manager_short_desc' => 'Überprüfen, bearbeiten und verwalten der Template Routes',
@@ -196,11 +195,11 @@ $lang = array(
 //----------------------------
 
   'nav_developer_tools'  => 'Developer Tools',
-  'channel_manager'  => 'Channel Manager',
-  'template_manager' => 'Template Manager',
-  'msm_manager'      => 'Site Manager',
-  'addon_manager'    => 'Add-On Manager',
-  'utilities'        => 'Utilities',
+  'channel_manager'  => 'Channel-Verwaltung',
+  'template_manager' => 'Template-Verwaltung',
+  'msm_manager'      => 'Site-Verwaltung',
+  'addon_manager'    => 'Add-On-Verwaltung',
+  'utilities'        => 'Dienstprogramme',
   'logs'             => 'Logs',
 
 //----------------------------
@@ -376,7 +375,7 @@ $lang = array(
   'or_delete' => 'oder löschen',
   'view' => 'Zeigen',
   'switch' => 'Schalter',
-  'manage'						=>	'Manage',
+  'manage'						=>	'Verwalten',
   'edit'							=>	'Bearbeiten',
 
   'entry' 						=>	'Eintrag',
@@ -497,7 +496,7 @@ $lang = array(
   'form_validation_error' => 'Ein Problem ist aufgetreten, bitte überprüfen Sie unten alles und beseitigen Sie alle Fehler.',
   'image' => 'Bild',
   'log_out' => 'abmelden',
-  'manage' => 'Manage',
+  'manage' => 'Verwalten',
   'menu_create' => 'Anlegen',
   'menu_edit' => 'Bearbeiten',
   'menu_files' => 'Dateien',
@@ -505,7 +504,7 @@ $lang = array(
   'my_profile' => 'Mein Profil',
   'name' => 'Name',
   'name_your_site' => 'Webseitenname',
-  'new' => 'New',
+  'new' => 'Neu',
   'new_channel' => 'Neuer Channel',
   'new_link' => 'Neuer Link',
   'new_site' => 'Neue Site',
@@ -622,4 +621,4 @@ $lang = array(
 );
 
 /* End of file cp_lang.php */
-/* Location: ./system/expressionengine/language/english/cp_lang.php */
+/* Location: ./system/user/language/deutsch/cp_lang.php */

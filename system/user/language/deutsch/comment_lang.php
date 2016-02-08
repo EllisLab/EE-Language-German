@@ -1,208 +1,217 @@
 <?php
+
+
 $lang = array(
 
+//----------------------------------------
+// Required for MODULES page
+//----------------------------------------
 
-'comment_module_name' => 'Kommentar',
+  'comment_module_name' => 'Kommentar',
 
-'comment_module_description' => 'Kommentarsystem für Benutzer',
+  'comment_module_description' => 'Kommentarsystem für Benutzer',
 
-'comment_moved' => 'Kommentar verschoben',
+//----------------------------------------
 
-'comments_moved' => 'Komentare verschoben',
 
-'filter_comments' => 'Kommentare filtern',
+  'comment_moved' => 'Kommentar verschoben',
 
-'comment' => 'Kommentar',
+  'comments_moved' => 'Komentare verschoben',
 
-'comments' => 'Kommentare',
+  'filter_comments' => 'Kommentare filtern',
 
-'edit_comment' => 'Kommentar bearbeiten',
+  'comment' => 'Kommentar',
 
-'settings' => 'Einstellungen',
+  'comments' => 'Kommentare',
 
-'comment_settings' => 'Kommentar Einstellungen',
+  'edit_comment' => 'Kommentar bearbeiten',
 
-'delete_confirm' => 'Kommentar löschen Bestätigung',
+  'settings' => 'Einstellungen',
 
-'delete_comment_confirm' => 'Soll dieser Kommentar wirklich endgültig gelöscht werden?',
+  'comment_settings' => 'Kommentar Einstellungen',
 
-'delete_comments_confirm' => 'Sollen diese Kommentare wirklich endgültig gelöscht werden?',
+  'delete_confirm' => 'Kommentar löschen Bestätigung',
 
-'comment_deleted' => 'Kommentare gelöscht',
+  'delete_comment_confirm' => 'Soll dieser Kommentar wirklich endgültig gelöscht werden?',
 
-'status_changed' => 'Status geändert',
+  'delete_comments_confirm' => 'Sollen diese Kommentare wirklich endgültig gelöscht werden?',
 
-'comment_word_censoring' => 'Wortzensur bei Kommentaren anwenden',
+  'comment_deleted' => 'Kommentare gelöscht',
 
-'comment_moderation_override' => 'Abgelaufene Beiträge moderieren',
+  'status_changed' => 'Status geändert',
 
-'comment_smart_notifications' => 'Smart-Benachrichtigung aktivieren',
+  'comment_word_censoring' => 'Wortzensur bei Kommentaren anwenden',
 
-'selection_required' => 'Zum Versenden muss mindestens eine Auswahl getroffen werden',
+  'comment_moderation_override' => 'Abgelaufene Beiträge moderieren',
 
-'close_selected' => 'Status auf Geschlossen setzen',
+  'comment_smart_notifications' => 'Smart-Benachrichtigung aktivieren',
 
-'open_selected' => 'Status auf Offen setzen',
+  'selection_required' => 'Zum Versenden muss mindestens eine Auswahl getroffen werden',
 
-'pending_selected' => 'Status auf Unerledigt',
+  'close_selected' => 'Status auf Geschlossen setzen',
 
-'move_selected' => 'Gewähltes verschieben',
+  'open_selected' => 'Status auf Offen setzen',
 
-'instructions' => 'Instruktionen',
+  'pending_selected' => 'Status auf Unerledigt',
 
-'move' => 'Verschieben',
+  'move_selected' => 'Gewähltes verschieben',
 
-'move_comment_instr' => 'Neue Entry-ID Nummer angeben',
+  'instructions' => 'Instruktionen',
 
-'registered_member' => 'Registriertes Mitglied',
+  'move' => 'Verschieben',
 
-'url' => 'URL',
+  'move_comment_instr' => 'Neue Entry-ID Nummer angeben',
 
-'location' => 'Ort',
+  'registered_member' => 'Registrierte Nutzer',
 
-'choose_entry_for_comment_move' => 'Zum Kommentar Verschieben Eintrag wählen',
+  'url' => 'URL',
 
-'move_comments_to_entry' => 'Verschiebe Kommentare zum Eintrag',
+  'location' => 'Ort',
 
-'filter_by_channel' => 'Filter auf Channel',
+  'choose_entry_for_comment_move' => 'Zum Kommentar Verschieben Eintrag wählen',
 
-'filter_by_status' => 'Filter auf Status',
+  'move_comments_to_entry' => 'Verschiebe Kommentare zum Eintrag',
 
-'filter_by_author' => 'Filter auf Autor',
+  'filter_by_channel' => 'Filter auf Channel',
 
-'collapsed_display' => 'Minimiertes Display',
+  'filter_by_status' => 'Filter auf Status',
 
-'expanded_display' => 'Erweitertes Display',
+  'filter_by_author' => 'Filter auf Autor',
 
-'date_range' => 'Datumsbereich',
+  'collapsed_display' => 'Minimiertes Display',
 
-'keywords' => 'Suchworte',
+  'expanded_display' => 'Erweitertes Display',
 
-'open' => 'Offen',
+  'date_range' => 'Datumsbereich',
 
-'closed' => 'Geschlossen',
+  'keywords' => 'Suchworte',
 
-'entry_title' => 'Eintrags-Titel',
+  'open' => 'Offen',
 
-'email' => 'E-Mail',
+  'closed' => 'Geschlossen',
 
-'name' => 'Name',
+  'entry_title' => 'Eintrags-Titel',
 
-'ip_address' => 'IP',
+  'email' => 'E-Mail',
 
-'delete_selected' => 'Gewähltes löschen',
+  'name' => 'Name',
 
-'blacklist' => 'IPs zur Blackliste anfügen',
+  'ip_address' => 'IP',
 
-'search_in_comments' => 'Suche in Kommentaren',
+  'delete_selected' => 'Gewähltes löschen',
 
-'search_in_ips' => 'Suche in IPs',
+  'blacklist' => 'IPs zur Blackliste anfügen',
 
-'search_in_entry_titles' => 'Suche in Titeln',
+  'search_in_comments' => 'Suche in Kommentaren',
 
-'search_in_names' => 'Suche in Namen',
+  'search_in_ips' => 'Suche in IPs',
 
-'search_in_emails' => 'Suche in E-Mail-Adressen',
+  'search_in_entry_titles' => 'Suche in Titeln',
 
-'today' => 'Heute',
+  'search_in_names' => 'Suche in Namen',
 
-'past_day' => 'Letzte 24 Stunden',
+  'search_in_emails' => 'Suche in E-Mail-Adressen',
 
-'past_week' => 'Letze 7 Tage',
+  'today' => 'Heute',
 
-'past_month' => 'Letzte 30 Tage',
+  'past_day' => 'Letzte 24 Stunden',
 
-'past_six_months' => 'Letzte 180 Tage',
+  'past_week' => 'Letze 7 Tage',
 
-'past_year' => 'Letzte 365 Tage',
+  'past_month' => 'Letzte 30 Tage',
 
-'any_date' => 'Eigener Datumsbereich',
+  'past_six_months' => 'Letzte 180 Tage',
 
-'cmt_commenting_has_expired' => 'Kommentieren in diesem Channel-Eintrag nicht möglich',
+  'past_year' => 'Letzte 365 Tage',
 
-'cmt_name_not_allowed' => 'Der Name, unter dem kommentiert werden soll, ist reserviert. Bitte einen anderen Namen wählen.',
+  'any_date' => 'Eigener Datumsbereich',
 
-'cmt_must_be_member' => 'Nur registrierte Mitglieder dürfen Kommentare abgeben.',
 
-'cmt_no_authorized_for_comments' => 'Sie haben keine Erlaubnis zum Kommentieren vorhanden.',
+//
 
-'cmt_account_not_active' => 'Ihr Mitglieder-Konto ist noch nicht aktiviert.',
+  'cmt_commenting_has_expired' => 'Kommentieren in diesem Channel-Eintrag nicht möglich',
 
-'cmt_comments_not_allowed' => 'In diesem Channel sind Kommentare nicht erlaubt.',
+  'cmt_name_not_allowed' => 'Der Name, unter dem kommentiert werden soll, ist reserviert. Bitte einen anderen Namen wählen.',
 
-'cmt_missing_name' => 'Eingabe eines Namens erforderlich.',
+  'cmt_must_be_member' => 'Nur registrierte Nutzer dürfen Kommentare abgeben.',
 
-'cmt_missing_comment' => 'Die Eingabe eines Kommentars ist erforderlich',
+  'cmt_no_authorized_for_comments' => 'Sie haben keine Erlaubnis zum Kommentieren vorhanden.',
 
-'cmt_missing_email' => 'Angabe der E-Mail-Adresse erforderlich.',
+  'cmt_account_not_active' => 'Ihr Nutzer-Konto ist noch nicht aktiviert.',
 
-'cmt_invalid_email' => 'Die angegebene E-Mail-Adresse ist nicht gültig.',
+  'cmt_comments_not_allowed' => 'In diesem Channel sind Kommentare nicht erlaubt.',
 
-'cmt_banned_email' => 'Die angegebene E-Mail-Adresse ist gesperrt',
+  'cmt_missing_name' => 'Eingabe eines Namens erforderlich.',
 
-'cmt_too_large' => 'Der Kommentar ist %n Zeichen lang. Es sind aber nur %x Zeichen erlaubt.',
+  'cmt_missing_comment' => 'Die Eingabe eines Kommentars ist erforderlich',
 
-'cmt_comments_timelock' => 'Es darf nur alle %s Sekunden ein Kommentar abgeschickt werden.',
+  'cmt_missing_email' => 'Angabe der E-Mail-Adresse erforderlich.',
 
-'cmt_duplicate_comment_warning' => 'Der Kommentar kann zur Zeit nicht angenommen werden.',
+  'cmt_invalid_email' => 'Die angegebene E-Mail-Adresse ist nicht gültig.',
 
-'cmt_no_preview_template_specified' => 'Der Kommentarformular-Tag enthält keine Angabe, wo das Vorschau-Template zu finden ist.',
+  'cmt_banned_email' => 'Die angegebene E-Mail-Adresse ist gesperrt',
 
-'cmt_comment_response_title' => 'Jemand hat auf den Kommentar geantwortet.',
+  'cmt_too_large' => 'Der Kommentar ist %n Zeichen lang. Es sind aber nur %x Zeichen erlaubt.',
 
-'cmt_comment_response_body' => 'Jemand hat gerade einen Kommentar zum abonnierten Eintrag abgegeben bei:',
+  'cmt_comments_timelock' => 'Es darf nur alle %s Sekunden ein Kommentar abgeschickt werden.',
 
-'cmt_comment_title' => 'Der Titel des Beitrages lautet:',
+  'cmt_duplicate_comment_warning' => 'Der Kommentar kann zur Zeit nicht angenommen werden.',
 
-'cmt_comment_url' => 'Sie finden den Kommentar unter dem folgenden URL:',
+  'cmt_no_preview_template_specified' => 'Der Kommentarformular-Tag enthält keine Angabe, wo das Vorschau-Template zu finden ist.',
 
-'cmt_comment_removal' => 'Wenn gar keine Benachrichtigungen mehr folgen sollen, bitte hier klicken:',
+  'cmt_comment_response_title' => 'Jemand hat auf den Kommentar geantwortet.',
 
-'cmt_notification_removal' => 'Benachrichtigung entfernen',
+  'cmt_comment_response_body' => 'Jemand hat gerade einen Kommentar zum abonnierten Eintrag abgegeben bei:',
 
-'cmt_you_have_been_removed' => 'Es werden keine weiteren Benachrichtigungen mehr an Sie versendet.',
+  'cmt_comment_title' => 'Der Titel des Beitrages lautet:',
 
-'cmt_comment_accepted' => 'Kommentar angenommen',
+  'cmt_comment_url' => 'Sie finden den Kommentar unter dem folgenden URL:',
 
-'cmt_will_be_reviewed' => 'Der Kommentar wird vor der Freigabe von einem Moderator geprüft.',
+  'cmt_comment_removal' => 'Wenn gar keine Benachrichtigungen mehr folgen sollen, bitte hier klicken:',
 
-'cmt_return_to_comments' => 'Zurück zu den Kommentaren',
+  'cmt_notification_removal' => 'Benachrichtigung entfernen',
 
-'you_have_been_subscribed' => 'Sie sind nun abonniert beim folgenden Eintrag:',
+  'cmt_you_have_been_removed' => 'Es werden keine weiteren Benachrichtigungen mehr an Sie versendet.',
 
-'you_have_been_unsubscribed' => 'Das Abonnement für den folgenden Eintrag wurde entfernt:',
+  'cmt_comment_accepted' => 'Kommentar angenommen',
 
-'cmt_subscribe' => 'Diesen Kommentar abonnieren',
+  'cmt_will_be_reviewed' => 'Der Kommentar wird vor der Freigabe von einem Moderator geprüft.',
 
-'cmt_unsubscribe' => 'Abonnement für diesen Kommentar auflösen',
+  'cmt_return_to_comments' => 'Zurück zu den Kommentaren',
 
-'invalid_entry_id' => 'Ungültige Entry-ID',
+  'you_have_been_subscribed' => 'Sie sind nun abonniert beim folgenden Eintrag:',
 
-'no_valid_comments' => 'Keine gültigen Kommentare',
+  'you_have_been_unsubscribed' => 'Das Abonnement für den folgenden Eintrag wurde entfernt:',
 
-'comment_edit_time_limit' => 'Kommentar Ablaufzeit-Limit (in Sekunden, auf 0 setzen für kein Limit)',
+  'cmt_subscribe' => 'Diesen Kommentar abonnieren',
 
-'already_subscribed' => 'Sie haben diesen Kommentar schon abonniert.',
+  'cmt_unsubscribe' => 'Abonnement für diesen Kommentar auflösen',
 
-'not_currently_subscribed' => 'Sie scheinen nicht die angegebene Entry-ID abonniert zu haben',
+  'invalid_entry_id' => 'Ungültige Entry-ID',
 
-'invalid_subscription' => 'Der angegebene URL ist ungültig',
+  'no_valid_comments' => 'Keine gültigen Kommentare',
 
-'settings_updated' => 'Einstellungen aktualisiert',
+  'comment_edit_time_limit' => 'Kommentar Ablaufzeit-Limit (in Sekunden, auf 0 setzen für kein Limit)',
 
-'comment_updated' => 'Kommentar aktualisiert',
+  'already_subscribed' => 'Sie haben diesen Kommentar schon abonniert.',
 
-'start_date' => 'Start-Datum',
+  'not_currently_subscribed' => 'Sie scheinen nicht die angegebene Entry-ID abonniert zu haben',
 
-'end_date' => 'Ende-Datum',
+  'invalid_subscription' => 'Der angegebene URL ist ungültig',
 
-'expand' => 'Erweitern',
+  'settings_updated' => 'Einstellungen aktualisiert',
 
-'no_results' => 'Keine Ergebnisse',
+  'comment_updated' => 'Kommentar aktualisiert',
 
-'translate' => 'Update',
+  'start_date' => 'Start-Datum',
 
-''=>''
+  'end_date' => 'Ende-Datum',
+
+  'expand' => 'Erweitern',
+
+  'no_results' => 'Keine Ergebnisse',
+
 );
 
-// End of File
+/* End of file comment_lang.php */
+/* Location: ./system/user/language/deutsch/comment_lang.php */

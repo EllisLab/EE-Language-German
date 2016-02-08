@@ -136,13 +136,13 @@ $lang = array(
 
 'admin_email_template' => 'Admin E-Mail Template',
 
-'member_group' => 'Neue Mitglieder-Gruppe',
+'member_group' => 'Neue Nutzergruppe',
 
 'admin_email_template_unsubscribe' => 'Admin E-Mail Abo abbestellen Template',
 
-'member_group_subscribe' => 'Mitglieder-Gruppe abonnieren',
+'member_group_subscribe' => 'Nutzergruppe abonnieren',
 
-'member_group_unsubscribe' => 'Mitglieder-Gruppe abbestellen',
+'member_group_unsubscribe' => 'Nutzergruppe abbestellen',
 
 'send_no_email' => 'E-Mail nicht senden',
 
@@ -194,7 +194,7 @@ $lang = array(
 
 'emails_deleted' => 'E-Mail Templates gelöscht!',
 
-'member_not_found' => 'Mitglied nicht gefunden',
+'member_not_found' => 'Nutzer nicht gefunden',
 
 'purchaser_screen_name' => 'Bildschirmname des Käufers',
 
@@ -245,4 +245,5 @@ $lang = array(
 ''=>''
 );
 
-// End of File
+/* End of file simple_commerce_lang.php */
+/* Location: ./system/user/language/deutsch/simple_commerce_lang.php */

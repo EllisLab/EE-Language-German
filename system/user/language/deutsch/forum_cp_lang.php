@@ -6,143 +6,143 @@ $lang = array(
 // Required for MODULES page
 //----------------------------------------
 
-'forum_module_name' => 'Discussion Forum',
-'forum_module_description' => 'Discussion Forum Module',
+'forum_module_name' => 'Diskussions Forum',
+'forum_module_description' => 'Diskussions Forum Modul',
 
-'forum_listing' => 'Forum Listing',
-'forum_manager' => 'Forum Manager',
+'forum_listing' => 'Forum Liste',
+'forum_manager' => 'Forum Verwaltung',
 
-'new_category' => 'New Category',
+'new_category' => 'Neue Kategorie',
 
 // Sidebar
 'templates' => 'Templates',
-'member_ranks' => 'Member Ranks',
+'member_ranks' => 'Nutzer Ranks',
 'forum_board' => 'Forum Board',
-'create_new_board' => 'Create new forum board',
+'create_new_board' => 'Neues Forum Board anlegen',
 
 // List / Index
-'forum_listing' => 'Forum listing',
-'create_new_category' => 'Create new category',
-'categories' => 'Categories',
+'forum_listing' => 'Forum Liste',
+'create_new_category' => 'Neue Kategorie anlegen',
+'categories' => 'Kategorien',
 
-'new_forum' => 'New forum',
-'create_new_forum' => 'Create new forum',
+'new_forum' => 'Neues Forum',
+'create_new_forum' => 'Neues Forum anlegen',
 
-'forums_ajax_reorder_fail' => 'Attention: Failed to save forum order',
-'forums_ajax_reorder_fail_desc' => 'We failed to save your new forum order. Refresh the page and make sure you\'re logged in.',
+'forums_ajax_reorder_fail' => 'Achtung: Forum-Reihenfolge konnte nicht gespeichert werden',
+'forums_ajax_reorder_fail_desc' => 'Die Forum-Reihenfolge konnte nicht gespeichert werden. Aktualisieren Sie die Seite und überprüfen Sie, ob Sie angemeldet sind.',
 
 // "Common"
-'recipients' => 'recipients',
+'recipients' => 'Empfänger',
 
 // Create / Edit Forum Board Form
-'create_forum_board' => 'Create Forum Board',
-'edit_forum_board' => 'Edit %s',
+'create_forum_board' => 'Forum Board anlegen',
+'edit_forum_board' => '%s bearbeiten',
 'board' => 'Board',
 'forums' => 'Forums',
-'permissions' => 'Permissions',
+'permissions' => 'Rechte',
 
-'enable' => 'Enable',
-'disable' => 'Disable',
-'input' => 'Input',
-'output' => 'Output',
+'enable' => 'Aktivieren',
+'disable' => 'Deaktivieren',
+'input' => 'Eingabe',
+'output' => 'Ausgabe',
 
-'enable_board' => 'Enable board',
-'enable_board_desc' => 'When set to <b>enable</b>, this forum board will be accessible to member groups with proper permissions.',
+'enable_board' => 'Board aktivieren',
+'enable_board_desc' => 'Wenn auf <b>aktivieren</b> gesetzt wirde dieses Board für alle Nutzer mit entsprechenden Rechten zugänglich sein.',
 
 'name' => 'Name',
-'name_desc' => 'Full descriptive name of this board.',
+'name_desc' => 'Ganzer, beschreibender Boardname.',
 
 'short_name' => 'Kurzname',
-'short_name_desc' => 'Short name for this board.<br><i>No spaces. Underscores and dashes are allowed.</i>',
+'short_name_desc' => 'Kurzname für das Board.<br><i>Keine Leerzeichen. Unterstriche und Bindestriche sind erlaubt.</i>',
 
-'forum_directory' => 'Forum directory',
-'forum_directory_desc' => '<abbr title="Unified Resource Locator">URL</abbr> location to the forum.',
+'forum_directory' => 'Forum Verzeichnis',
+'forum_directory_desc' => '<abbr title="Unified Resource Locator">URL</abbr>-Adresse des Forums.',
 
 'site' => 'Site',
 
-'forum_url_segment' => 'Forum <abbr title="Unified Resource Locator">URL</abbr> segment',
-'forum_url_segment_desc' => 'Word that triggers forum display. <b>Cannot</b> be the same as a template or template group.',
+'forum_url_segment' => 'Forum <abbr title="Unified Resource Locator">URL</abbr> Segment',
+'forum_url_segment_desc' => 'Das Wort, das das Forum zeigt. <b>Darf nicht</b> dem Names eines Template oder einer Template-Gruppe gleichen.',
 
-'default_theme' => 'Default theme',
+'default_theme' => 'Standard Theme',
 'default_theme_desc' => '',
 
 'php_parsing' => '<abbr title="PHP: Hypertext Preprocessor">PHP</abbr> Parsing',
 
-'php_in_templates_warning' => '<b>Warning</b>: Allowing PHP in templates has security implications.',
-'php_in_templates_warning2' => 'Any setting marked with %s should be used with caution.',
+'php_in_templates_warning' => '<b>Warnung</b>: PHP in den Templates zuzulassen hat Einfluss auf die Sicherheit.',
+'php_in_templates_warning2' => 'Jede Einstellunge mit einem %s gekennzeichnet sollte mit Vorsicht gewählt werden.',
 
-'allow_php' => 'Allow PHP?',
-'allow_php_desc' => 'Allows the use of standard PHP within forum templates.',
+'allow_php' => 'PHP zulassen?',
+'allow_php_desc' => 'Läßt die Benutzung von PHP in Foren Templates zu.',
 
-'php_parsing_stage' => 'PHP parsing stage',
-'php_parsing_stage_desc' => 'When set to <b>output</b>, PHP will be parsed after the template.',
+'php_parsing_stage' => 'PHP Parsing Reihenfolge',
+'php_parsing_stage_desc' => 'Wenn auf <b>Ausgabe</b> gesetzt, wird PHP nach Aufrufes des Templates geparst.',
 
-'attachment_settings' => 'Attachment Settings',
+'attachment_settings' => 'Anlagen Einstellungen',
 
-'attachments_per_post' => 'Attachments per post',
-'attachments_per_post_desc' => 'Maximum attachments allowed per post.',
+'attachments_per_post' => 'Anlagen pro Post',
+'attachments_per_post_desc' => 'Maximale Anlagen erlaubt pro Post.',
 
-'upload_directory' => 'Upload directory',
-'upload_directory_desc' => '<abbr title="Uniform Resource Location">URL</abbr> location of this <mark>upload</mark> directory.',
+'upload_directory' => 'Upload-Verzeichnis',
+'upload_directory_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Adresse des <mark>Upload</mark>-Verzeichnisses.',
 
-'allowed_file_types' => 'Allowed file types?',
+'allowed_file_types' => 'Zugelassene Dateitypen?',
 'allowed_file_types_desc' => '',
 
-'images_only' => 'Images only',
-'all_files' => 'All file types',
+'images_only' => 'Nur Bilder',
+'all_files' => 'Jeder Dateityp',
 
-'file_size' => 'File size',
-'file_size_desc' => 'Maximum file size in megabytes.',
+'file_size' => 'Dateigröße',
+'file_size_desc' => 'Maximale Dateigröße in Megabytes.',
 
-'image_width' => 'Image width',
-'image_width_desc' => 'Maximum image width in pixels.',
+'image_width' => 'Bildbreite',
+'image_width_desc' => 'Maximale Bildbreite in Pixel.',
 
-'image_height' => 'Image height',
-'image_height_desc' => 'Maximum image height in pixels.',
+'image_height' => 'Bildhöhe',
+'image_height_desc' => 'Maximale Bildhöhe in Pixel.',
 
-'enable_thumbnail_creation' => 'Enable thumbnail creation?',
-'enable_thumbnail_creation_desc' => 'When set to <b>enable</b>, clickable thumbnails will be shown in posts.',
+'enable_thumbnail_creation' => 'Automatisch Thumbnails generieren ?',
+'enable_thumbnail_creation_desc' => 'Wenn auf <b>aktivieren</b> gesetzt werden klickbare Thumbnails in den Posts gezeigt.',
 
-'thumbnail_width' => 'Thumbnail width',
-'thumbnail_width_desc' => 'Maximum thumbnail width in pixels.',
+'thumbnail_width' => 'Thumbnail-Breite',
+'thumbnail_width_desc' => 'Maximale Thumbnail-Breite in Pixel.',
 
-'thumbnail_height' => 'Thumbnail height',
-'thumbnail_height_desc' => 'Maximum thumbnail height in pixels.',
+'thumbnail_height' => 'Thumbnail-Höhe',
+'thumbnail_height_desc' => 'Maximale Thumbnail-Höhe in Pixel.',
 
-'topics_per_page' => 'Topics per page',
-'topics_per_page_desc' => 'Maximum number of topics that will be shown per page.',
+'topics_per_page' => 'Themen pro Seite',
+'topics_per_page_desc' => 'Maximale Anzahl an Themen, die pro Seite angezeigt wird.',
 
-'posts_per_page' => 'Posts per page',
-'posts_per_page_desc' => 'Maximum number of posts that will be shown per page.',
+'posts_per_page' => 'Posts pro Seite',
+'posts_per_page_desc' => 'Maximale Anzahl an Post, die pro Seite angezeigt wird.',
 
-'topic_ordering' => 'Topic ordering',
-'topic_ordering_desc' => 'Order of topics in forum listing.',
+'topic_ordering' => 'Themen Reihenfolge',
+'topic_ordering_desc' => 'Themen Reihenfolge in der Forenauflistung.',
 
-'most_recent_post' => 'By most recent post',
-'most_recent_first' => 'Most recent first',
-'most_recent_last' => 'Most recent last',
+'most_recent_post' => 'Ab dem neusten Post',
+'most_recent_first' => 'Neuster Post zuerst',
+'most_recent_last' => 'Neuster Post zuletzt',
 
-'post_ordering' => 'Post ordering',
-'post_ordering_desc' => 'Order of posts in topic listing.',
+'post_ordering' => 'Post Reihenfolge',
+'post_ordering_desc' => 'Post Reihenfolge in der Themenauflistung.',
 
-'most_recent_first' => 'Most recent first',
-'most_recent_last' => 'Most recent last',
+'most_recent_first' => 'Neuster zuerst',
+'most_recent_last' => 'Neuster zuletzt',
 
-'hot_topics' => 'Hot topics',
-'hot_topics_desc' => 'Number of posts required to mark a topic as hot.',
+'hot_topics' => 'Angesagte Themen',
+'hot_topics_desc' => 'Anzahl an Posts um ein Thema als angesagt zu markieren.',
 
-'allowed_characters' => 'Allowed characters',
-'allowed_characters_desc' => 'Maximum number of characters allowed within a single post.',
+'allowed_characters' => 'Erlaubte Zeichen',
+'allowed_characters_desc' => 'Maximale Zeichenanzahl in einem Post erlaubt.',
 
-'posting_throttle' => 'Posting throttle',
-'posting_throttle_desc' => 'Number of seconds that must pass before a member can post a new post or topic.',
+'posting_throttle' => 'Post Drosselung',
+'posting_throttle_desc' => 'Anzahl an Sekunden, bevor ein Nutzer wieder einen neuen Post oder ein neues Thema posten kann.',
 
-'show_editing_dates' => 'Show editing dates?',
-'show_editing_dates_desc' => 'When set to <b>yes</b>, the date and time a post was edited will be shown in the post.',
+'show_editing_dates' => 'Bearbeitbare Daten zeigen?',
+'show_editing_dates_desc' => 'Wenn auf <b>ja</b> gesetzt werden Zeit und Datum angezeigt, wann ein Post bearbeitet wurde.',
 
-'notification_settings' => 'Notification Settings',
+'notification_settings' => 'Einstellungen zur Benachrichtigung',
 
-'topic_notifications' => 'Topic notifications',
+'topic_notifications' => 'Thema Benachrichtiung',
 'topic_notifications_desc' => 'When set to <b>enable</b>, all recipients listed will receive e-mail notification when a <b>new</b> topic is posted.</em><em>Separate multiple e-mails with a <mark>comma (,)</mark>.',
 
 'reply_notification' => 'Reply notification',
@@ -428,4 +428,4 @@ $lang = array(
 );
 
 /* End of file forum_cp_lang.php */
-/* Location: ./system/expressionengine/language/english/forum_cp_lang.php */
+/* Location: ./system/user/language/deutsch/forum_cp_lang.php */

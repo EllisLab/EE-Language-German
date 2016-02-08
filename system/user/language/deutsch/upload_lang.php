@@ -1,22 +1,22 @@
 <?php
 
-$lang['upload_userfile_not_set'] = "Unable to find a post variable called userfile.";
-$lang['upload_file_exceeds_limit'] = "The uploaded file exceeds the maximum allowed size in your PHP configuration file.";
-$lang['upload_file_exceeds_form_limit'] = "The uploaded file exceeds the maximum size allowed by the submission form.";
-$lang['upload_file_partial'] = "The file was only partially uploaded.";
-$lang['upload_no_temp_directory'] = "The temporary folder is missing.";
-$lang['upload_unable_to_write_file'] = "The file could not be written to disk.";
-$lang['upload_stopped_by_extension'] = "The file upload was stopped by extension.";
-$lang['upload_no_file_selected'] = "You did not select a file to upload.";
-$lang['upload_invalid_file'] = "File not allowed.";
-$lang['upload_invalid_filesize'] = "The file you are attempting to upload is larger than the permitted size.";
-$lang['upload_invalid_dimensions'] = "The image you are attempting to upload exceedes the maximum height or width.";
-$lang['upload_destination_error'] = "A problem was encountered while attempting to move the uploaded file to the final destination.";
-$lang['upload_no_filepath'] = "The upload path does not appear to be valid.";
-$lang['upload_no_file_types'] = "You have not specified any allowed file types.";
-$lang['upload_bad_filename'] = "The file name you submitted already exists on the server.";
-$lang['upload_not_writable'] = "The upload destination folder does not appear to be writable.";
+$lang['upload_userfile_not_set'] = "Konnte keine POST-Variable namens userfile finden.";
+$lang['upload_file_exceeds_limit'] = "Die hochgeladene Datei überschreitet die maximal erlaubte Größe der PHP Konfiguration.";
+$lang['upload_file_exceeds_form_limit'] = "Die hochgeladene Datei überschreitet die maximal erlaubte Größe des Formulars.";
+$lang['upload_file_partial'] = "Die Datei wurde nur teilweise hochgeladen.";
+$lang['upload_no_temp_directory'] = "Das temporäre Verzeichnis fehlt.";
+$lang['upload_unable_to_write_file'] = "Die Datei konnte nicht auf die Festplatte geschrieben werden.";
+$lang['upload_stopped_by_extension'] = "Der Dateiupload wurde von der Extension gestoppt.";
+$lang['upload_no_file_selected'] = "Es wurde keine Datei zum Hochladen ausgewählt.";
+$lang['upload_invalid_file'] = "Datei nicht erlaubt.";
+$lang['upload_invalid_filesize'] = "Die Datei, die hochgeladen werden soll, überschreitet die erlaubte Größe.";
+$lang['upload_invalid_dimensions'] = "Die Datei, die hochgeladen werden soll, überschreitet die maximale Höhe oder Breite.";
+$lang['upload_destination_error'] = "Ein Problem trat auf während die hochgeladene Datei an ihren Zielort bewegt wurde.";
+$lang['upload_no_filepath'] = "Der Upload-Pfad scheint nicht gültig zu sein.";
+$lang['upload_no_file_types'] = "Es wurden keine erlaubten Dateitypen definiert.";
+$lang['upload_bad_filename'] = "Die hochgeladene Datei existiert bereits auf dem Server.";
+$lang['upload_not_writable'] = "Der Zielorder für die hochgeladene Datei scheint nicht beschreibbar zu sein.";
 
 
 /* End of file upload_lang.php */
-/* Location: ./system/language/english/upload_lang.php */
+/* Location: ./system/user/language/deutsch/upload_lang.php */

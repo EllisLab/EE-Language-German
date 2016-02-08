@@ -62,4 +62,4 @@ $lang = array(
 );
 
 /* End of file login_lang.php */
-/* Location: ./system/expressionengine/language/english/login_lang.php */
+/* Location: ./system/user/language/deutsch/login_lang.php */

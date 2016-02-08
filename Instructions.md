@@ -1,17 +1,18 @@
+------------------------------------------------
 # Deutsches Sprachpaket für ExpressionEngine 3.0
+------------------------------------------------
 
-(nicht vollständig übersetzt ist das Sprachfile für das Wiki)
+Letzte Korrekturen: 08.02.2016
+(nicht vollständig übersetzt)
 
-Letzte Korrekturen: 01.01.2016
-
-Das Verzeichnis `/system/user/deutsch` in das Verzeichnis `//system/user/` Ihrer Installation
+Das Verzeichnis `/system/user/language/deutsch` in das Verzeichnis `/system/user/language/deutsch` der Installation
 kopieren.
 
-Die ExpressionEngine-Sprachdateien liegen in
+Die original ExpressionEngine-Sprachdateien liegen in
 
-	/system/user/deutsch
+/system/ee/legacy/language/english
 
-Übersetzer der EE-Sprachdateien seit 2004:
+##Übersetzer der EE-Sprachdateien für EE 2.+ seit 2004:
 
 Werner Gusset  
 Octave 2 GmbH  
@@ -19,10 +20,13 @@ Ringstrasse 8
 CH-2560 Nidau /Biel  
 Schweiz  
 
-Weitere Anpassungen und Ergänzungen seit 2016: 
+##Anpassungen basierend auf den Sprachdateien von EE 2.+ und Ergänzungen für EE 3.+ seit 2016: 
 
 Tom Jaisle
 EYELABEL
 Oelkersallee 14a
 22769 Hamburg
-Deutschland
+Germany
+
+Bitte Fehler und Anregungen zur Verbesserung per E-Mail an
+jaisle@eyelabel.com

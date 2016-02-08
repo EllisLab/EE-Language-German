@@ -1,34 +1,32 @@
 <?php
+
 $lang = array(
 
+  'expressionengine_info' => 'ExpressionEngine Info',
 
-'expressionengine_info' => 'ExpressionEngine Info',
+  'resources' => 'Ressourcen',
+  'documentation' => 'Online Dokumentation',
+  'support_resources' => 'Support Ressourcen',
+  'downloads' => 'Meine ExpressionEngine Store Downloads',
 
-'resources' => 'Ressourcen',
+  'running_current' => 'Sie arbeiten mit der aktuellen Version von ExpressionEngine: Version %v Build %b',
+  'version_update_available' => 'Eine neuere Version von ExpressionEngine ist erhältlich!',
+  'version_update_inst' => 'Bitte downloaden Sie die <a class="update" href="%d" title="Download hier" rel="external">aktuellste Version</a> und folgen Sie den <a class="update" href="%i" title="Update Instructions" rel="external">Update Instructionen</a></a>.',
 
-'documentation' => 'Online Dokumentation',
+  /*
+  'build_update_available'	=> 'A newer build of ExpressionEngine is available!',
+  'build_update_inst'			=> 'Please download the <a class="update" href=\'%d\' title=\'Download Here\'>latest build</a> and follow the <a class="update" href=\'%i\' title=\'Build Update Instructions\'>Build Update Instructions</a>.',
+  */
 
-'support_resources' => 'Support Ressourcen',
+  'current_version' => '&nbsp;&nbsp;&nbsp;Aktuell: %v',
+  'installed_version' => 'Installiert: %v',
 
-'downloads' => 'Meine ExpressionEngine Store Downloads',
 
-'running_current' => 'Sie arbeiten mit der aktuellen Version von ExpressionEngine: Version %v Build %b',
+  'version_and_build' => 'Derzeitige Version',
+  'error_getting_version' => 'Sie arbeiten mit ExpressionEngine %v. Ob eine aktuellere Version vorliegt kann im Moment nicht ermittelt werden.',
 
-'version_update_available' => 'Eine neuere Version von ExpressionEngine ist erhältlich!',
-
-'version_update_inst' => 'Bitte downloaden Sie die <a class="update" href=\\\'%d\\\' title=\\\'Download hier\\\'>aktuellste Version</a> und folgen Sie den <a class="update" href=\\\'%i\\\' title=\\\'Version Update Instruktionen\\\'>Version Update Instruktionen</a>.',
-
-'current_version' => 'Aktuell: %v Build %b',
-
-'installed_version' => 'Installiert: %v Build %b',
-
-'version_and_build' => 'Version und Build',
-
-'error_getting_version' => 'Sie arbeiten mit ExpressionEngine %v Build %b. Die aktuellste Versionnummer kann im Moment nicht ermittelt werden.',
-
-'translate' => 'Update',
-
-''=>''
+  ''=>''
 );
 
-// End of File
+/* End of file expressionengine_info_lang.php */
+/* Location: ./system/user/language/deutsch/expressionengine_info_lang.php */

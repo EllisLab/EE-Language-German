@@ -1,26 +1,36 @@
 <?php
+
 $lang = array(
 
+//----------------------------------------
+// Required for MODULES page
+//----------------------------------------
 
-'emoticon_module_name' => 'Emoticon',
+  'emoticon_module_name' => 'Emoticon',
 
-'emoticon_module_description' => 'Emoticon (Smiley) Modul',
+  'emoticon_module_description' => 'Emoticon (Smiley) Modul',
 
-'emoticon_heading' => 'Emoticons',
 
-'emoticon_glyph' => 'Glyphe',
+//----------------------------------------
+// Emoticon language lines
+//----------------------------------------
 
-'emoticon_image' => 'Bild',
+  'emoticon_heading' => 'Emoticons',
 
-'emoticon_width' => 'Breite',
+  'emoticon_glyph' => 'Glyphe',
 
-'emoticon_height' => 'Höhe',
+  'emoticon_image' => 'Bild',
 
-'emoticon_alt' => 'Alt Tag',
+  'emoticon_width' => 'Breite',
 
-'translate' => 'Update',
+  'emoticon_height' => 'Höhe',
 
-''=>''
+  'emoticon_alt' => 'Alt Tag',
+
+
+
+  ''=>''
 );
 
-// End of File
+/* End of file emoticon_lang.php */
+/* Location: ./system/user/language/deutsch/emoticon_lang.php */

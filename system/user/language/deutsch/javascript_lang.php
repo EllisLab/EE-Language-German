@@ -7,4 +7,4 @@ $lang = array(
 );
 
 /* End of file lang.javascript.php */
-/* Location: ./system/expressionengine/language/english/lang.javascript.php */
+/* Location: ./system/user/language/deutsch/lang.javascript.php */

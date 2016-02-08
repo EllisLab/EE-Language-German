@@ -1,110 +1,65 @@
 <?php
+
 $lang = array(
 
+  'type_phrase' => 'Phrase eingeben...',
 
-'checksum_changed_warning' => 'Einer oder mehrere Core Dateien wurden geändert:',
+  'search_content' => 'Inhalt durchsuchen',
 
-'checksum_changed_accept' => 'Änderungen annehmen',
+  'settings' => 'Einstellungen',
 
-'checksum_email_subject' => 'Eine Core-Datei wurde auf Ihrer Site geändert.',
+  'overview' => 'Überblick',
 
-'checksum_email_message' => 'ExpressionEngine hat die Modifikation einer Core Datei festgestellt auf: {url} Die folgenden Dateien sind dabei betroffen: {changed} Wenn Sie diese Änderungen vorgenommen haben, bestätigen Sie bitte dies auf der Homeseite im Control Panel. Wenn Sie diese Dateien nicht geändert haben, könnte das auf einen Hackversuch hinweisen. Überprüfen Sie die Dateien nach verdächtigen Inhalten (Javascript oder iFrames) und kontaktieren Sie den Support von ExpressionEngine: http://expressionengine.com/forums/viewcategory/4/ Lesen Sie bitte vor dem Schreiben ins Forum die Supportbestimmungen: http://expressionengine.com/support/policy/',
+  'comments' => 'Kommentare',
 
-'new_version_notice' => 'ExpressionEngine Version %s ist verfügbar.   Hier ist der <a href="%s" title="Download">Download</a>. Folgend Sie den Anweisungen für ein <a href="%s" title="Versionen Update">Versionen Update</a>..',
+  'review_all_new' => 'Alles neue überprüfen',
 
-'new_version_notice_high_priority' => '<span style="font-size:18px;color:#3BA1DB;font-weight:bold">Security Update vorhanden</span><br /> ExpressionEngine Version %s, Build %s wurde als Sicherheitsgründen veröffentlicht. Die letzte Version ist: %s, und der letzte Build ist: %s. <br /><br />Bitte <a href="%s" title="Download hier">hier</a> herunterladen und der <a href="%s" title="Update Doku">Update Doku</a> folgen, um sicher die aktuellste Version installiert zu bekommen.',
+  'there_were' => 'Es gibt',
 
-'new_version_error' => 'Ein unerwarteter Fehler ist beim Download der aktuellen ExpressionEngine-Version aufgetreten. Besuchen Sie Ihren <a href=\'%s\' title=\'download account\'>Download Account</a>, um sicher zu stellen, dass Sie bei der aktuellen Version sind. Bleibt der Fehler, kontaktieren Sie Ihren Systemadministrator',
+  'new_comments' => '<em>neue</em> Kommentare',
 
-'important_messages' => 'Hinweis',
+  'since_last_login' => 'seit Ihrer letzten Anmeldung',
 
-'cp_home' => 'Meine Homepage',
+  'are' => 'müssen',
 
-'current_user' => 'Aktueller User:',
+  'awaiting_moderation' => 'moderiert werden',
 
-'system_status' => 'System Status',
+  'and' => 'und',
 
-'offline' => 'Offline',
+  'have_been' => 'wurden',
 
-'online' => 'Online',
+  'flagged_as_spam' => 'als potentieller Spam gekennzeichnet',
 
-'member_search' => 'Mitglied-Suche',
+  'channels' => 'Channel',
 
-'search_instructions' => 'Einen Teil oder das ganze Wort eingeben',
+  'create_new' => 'Neu anlegen',
 
-'member_group' => 'Mitgliedergruppe',
+  'channels_desc' => 'Channel werden benutzt, um Inhalte Ihrer Website zu speichern, z.B. für einen Blog. Sie müssen zuerst einen Channel anlegen, um die Einträge zu speichern.',
 
-'search_by' => 'Suchfeld',
+  'has' => 'hat',
 
-'screen_name' => 'Bildschirmname',
+  'field_groups' => 'Feldgruppen',
 
-'email_address' => 'E-Mail-Adresse',
+  'members' => 'Mitglieder',
 
-'url' => 'URL',
+  'register_new' => 'Neu registrieren',
 
-'site_statistics' => 'Site Statistik',
+  'members_desc' => 'Mitglieder sind angemeldete Benutzer Ihrer Website. Sie <em>müssen</em> mindestens ein Mitglied als Administrator anlegen.',
 
-'value' => 'Wert',
+  'new_members_permission_desc' => 'Sie können <a href="%s">die Einstellungen ändern</a> um neue Mitglieder zu erlauben oder auszuschliessen.',
 
-'total_members' => 'Anzahl Mitglieder',
+  'banned_members' => 'Ausgeschlossene Mitglieder',
 
-'total_validating_members' => 'Mitglieder im Wartestand',
+  'content' => 'Inhalt',
 
-'total_validating_comments' => 'Kommentare für Freischaltung',
+  'content_desc' => 'Channel Einträge.',
 
-'total_entries' => 'Total Channel Einträge',
+  'entries_with_comments' => '<b>%d</b> Einträge mit %d Kommentaren',
 
-'total_comments' => 'Total Kommentare',
+  'closed_entries_with_comments' => '<b>%d</b> geschlossene Einträge mit %d Kommentaren.',
 
-'most_recent_entries' => 'Letzte Channel Einträge',
-
-'most_recent_comments' => 'Letzte Kommentare',
-
-'no_comments' => 'Es gibt im Moment keine Kommentare',
-
-'no_entries' => 'Es gibt im Moment keine Channel-Einträge',
-
-'entry_title' => 'Channel Eintrags-Titel',
-
-'comments' => 'Kommentar',
-
-'no_channels_exist' => 'Es bestehen aktuelle keine Channels',
-
-'no_templates_available' => 'Es bestehen keine Template-Gruppen. Eine Template-Gruppe erstellen',
-
-'select_channel_to_post_in' => 'Einen Channel für den Eintrag wählen',
-
-'recent_members' => 'Letzte neue Mitglieder',
-
-'join_date' => 'Eintrittsdatum',
-
-'total_hits' => 'Total kombinierte Seitenaufrufe',
-
-'demo_expiration' => 'Ihr Demo-Account endet in:',
-
-'bulletin_board' => 'Pinwand',
-
-'no_bulletins' => 'Keine Berichte',
-
-'bulletin_sender' => 'Bericht Sender',
-
-'bulletin_date' => 'Bericht Datum',
-
-'exact_match' => 'Genaue Übereinstimmung',
-
-'no_news' => 'Keine News verfügbar',
-
-'more_news' => 'Weitere News...',
-
-'site_status' => 'Site Status',
-
-'close' => 'Schließen',
-
-'version_mismatch' => 'Die installierte Version (%s) von ExpressionEngine ist nicht konsistent  mit der raportierten (%s). <a href="http://expressionengine.com/user_guide/installation/update.html">Bitte machen Sie erneut ein Update von ExpressionEngine</a>.',
-
-'translate' => 'Update',
-
-''=>''
+  ''=>''
 );
 
-// End of File
+/* End of file homepage_lang.php */
+/* Location: ./system/user/language/deutsch/homepage_lang.php */

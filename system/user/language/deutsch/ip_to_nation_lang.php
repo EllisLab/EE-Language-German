@@ -36,7 +36,7 @@ $lang = array(
 
 'update_ips' => 'IP Datenbank updaten',
 
-'update_info' => 'IP und Ländercodeinformationen mit dem aktuellen Export von <a href=\\\'%d\\\' title=\\\'Download hier\\\'>ip2nation.com</a> updaten',
+'update_info' => 'IP und Ländercodeinformationen mit dem aktuellen Export von <a href="%d" title="Download hier">ip2nation.com</a> updaten',
 
 'update_blurb' => 'Für ein Update muss die ungezippte Datei mit den ip2nation sql Daten auf den Server gelegt werden und dann der Ort der Datei angegeben werden.',
 

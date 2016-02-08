@@ -65,4 +65,5 @@ $lang = array(
 ''=>''
 );
 
-// End of File
+/* End of file referrer_lang.php */
+/* Location: ./system/user/language/deutsch/referrer_lang.php */

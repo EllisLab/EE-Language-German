@@ -9,7 +9,7 @@ $lang = array(
   'manage_extensions'				=>		'Erweiterungen verwalten',
   'manage_addon_extensions'		=>		'Externe Add-Ons verwalten',
 
-  'addon_manager'					=>		'Add-On Manager',
+  'addon_manager'					=>		'Add-On-Verwaltung',
   'search_addons_button'			=>		'Add-Ons durchsuchen',
 
   'addon'							=>		'Add-On',
@@ -17,8 +17,7 @@ $lang = array(
   'no_addon_search_results'		=>		'Keine <b>Add-Ons</b> gefunden',
   'no_addon_extensions_search_results'	=>		'Keine <b>Add-on Extension</b> gefunden',
 
-  'requested_module_not_installed' =>
-    'Das angefragte Modul ist nicht installiert:',
+  'requested_module_not_installed' => 'Das angefragte Modul ist nicht installiert:',
 
   'manual'						=>		'Manual',
   'author'						=> 		'Author',
@@ -111,14 +110,14 @@ $lang = array(
   'required_by'					=>		'Benötigt von:',
   'extensions_disabled_warning'	=>		'Um dieses Add-On zu installieren müssen Sie Extensions aktivieren. Wollen Sie Extensions aktivieren?',
 
-  'available_to_member_groups'	=>		'Verfügbar für diese Mitglieder-Gruppen',
+  'available_to_member_groups'	=>		'Verfügbar für diese Nutzergruppen',
   'specific_page'					=>		'Bestimmte Seite?',
   'description'					=>		'Beschreibung',
   'version'						=>		'Version',
 // 'status'						=>		'Status',
   'fieldtype'						=>		'Fieldtype',
 
-  'member_group_assignment'		=>		'Zugewiesene Mitglieder-Gruppe',
+  'member_group_assignment'		=>		'Zugewiesene Nutzerruppe',
   'page_assignment'				=>		'Zugewiesene Seiten',
 
   'none'							=>		'Nichts',
@@ -130,5 +129,5 @@ $lang = array(
 // IGNORE
   ''=>'');
 /* End of file addons_lang.php */
-/* Location: ./system/expressionengine/language/english/addons_lang.php */
+/* Location: ./system/user/language/deutsch/addons_lang.php */
 

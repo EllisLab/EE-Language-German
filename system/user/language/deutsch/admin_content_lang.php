@@ -36,7 +36,7 @@ $lang = array(
 
   'create_field_group_error' => 'Feldgruppe kann nicht angelegt werden.',
 
-  'create_field_group_error_desc' => 'Diese Feldgruppe konnte nicht angelegt werden, schauen Sie sich die aufgeführten Fehler unten durch und verbessern Sie die Fehler.',
+  'create_field_group_error_desc' => 'Diese Feldgruppe konnte nicht angelegt werden, sehen Sie sich die aufgeführten Fehler unten durch und verbessern Sie diese.',
 
   'edit_field_group_success' => 'Feldgruppe aktualisiert.',
 
@@ -44,7 +44,7 @@ $lang = array(
 
   'edit_field_group_error' => 'Feldgruppe kann nicht aktualisiert werden',
 
-  'edit_field_group_error_desc' => 'Diese Feldgruppe konnte nicht aktualisiert werden, schauen Sie sich die aufgeführten Fehler unten durch und verbessern Sie die Fehler.',
+  'edit_field_group_error_desc' => 'Diese Feldgruppe konnte nicht aktualisiert werden, sehen Sie sich die aufgeführten Fehler unten durch und verbessern Sie diese.',
 
   'field_groups_removed_desc' => 'Die folgenden Feldgruppen wurden entfernt',
 
@@ -74,7 +74,7 @@ $lang = array(
 
   'create_field_error' => 'Das Feld kann nicht angelegtwerden',
 
-  'create_field_error_desc' => 'Dieses Feld konnte nicht angelegt werden, schauen Sie sich die aufgeführten Fehler unten durch und verbessern Sie die Fehler.',
+  'create_field_error_desc' => 'Dieses Feld konnte nicht angelegt werden, sehen Sie sich die aufgeführten Fehler unten durch und verbessern Sie die Fehler.',
 
   'edit_field_success' => 'Feld aktualisiert',
 
@@ -82,7 +82,7 @@ $lang = array(
 
   'edit_field_error' => 'Das Feld kann nicht aktualisiert werden',
 
-  'edit_field_error_desc' => 'Dieses Feld konnte nicht aktualisiert werden, schauen Sie sich die aufgeführten Fehler unten durch und verbessern Sie die Fehler.',
+  'edit_field_error_desc' => 'Dieses Feld konnte nicht aktualisiert werden, sehen Sie sich die aufgeführten Fehler unten durch und verbessern Sie die Fehler.',
 
   'field_content_text' => 'Erlaubter Inhalt',
 
@@ -120,7 +120,7 @@ $lang = array(
 
 // @since 2.x
 
-  'reserved_word' => 'Der gewählte Feldname ist ein reserviertes Wort und kann nicht benutzt werden. Bitte im Handbuch nachschauen.',
+  'reserved_word' => 'Der gewählte Feldname ist ein reserviertes Wort und kann nicht benutzt werden. Bitte im Handbuch nachsehen.',
 
   'list_edit_warning' => 'Wenn Sie auf dieser Seite ungesicherte Änderungen haben, gehen diese verloren wenn Sie zum Formateditor transferiert werden.',
 
@@ -266,7 +266,7 @@ $lang = array(
 
   'comment_expiration_desc' => 'WievieleTage nach Posten des Eintrages darf noch kommentiert werden? 0 (Null) eingeben für unendlich.',
 
-  'restrict_status_to_group' => 'Status auf eine Mitgliedergruppe einschränken',
+  'restrict_status_to_group' => 'Status auf eine Nutzergruppe einschränken',
 
   'status_updated' => 'Status wurde aktualisiert',
 
@@ -578,9 +578,9 @@ $lang = array(
   'exclude_from_publish' 		=> 'Channel-Zuweisung',
   'exclude_from_files'		=> 'Datei-Zuweisung',
 
-  'member_group' => 'Mitglieder-Gruppe',
+  'member_group' => 'Nutzerruppe',
 
-  'member_groups' => 'Mitglieder-Gruppen',
+  'member_groups' => 'Nutzerruppen',
 
   'missing_required_fields' => 'Folgende(s) Feld(er) werden benötigt:',
 
@@ -861,4 +861,5 @@ $lang = array(
 );
 
 /* End of file admin_content_lang.php */
-/* Location: ./system/expressionengine/language/english/admin_content_lang.php */
+/* Location: ./system/user/language/deutsch/admin_content_lang.php */
+

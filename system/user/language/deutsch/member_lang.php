@@ -609,4 +609,5 @@ $lang = array(
 ''=>''
 );
 
-// End of File
+/* End of file member_lang.php */
+/* Location: ./system/user/language/deutsch/member_lang.php */

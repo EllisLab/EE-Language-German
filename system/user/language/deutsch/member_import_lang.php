@@ -205,4 +205,5 @@ $lang = array(
 ''=>''
 );
 
-// End of File
+/* End of file member_import_lang.php */
+/* Location: ./system/user/language/deutsch/member_import_lang.php */

@@ -48,7 +48,7 @@ $lang = array(
 
 'mailinglist_activation_instructions_desc' => 'Dieses Template enthält die Anweisungen zur Aktivierung in der Mailing-Liste.',
 
-'mbr_activation_instructions' => 'Anweisungen für die Aktivierung des Mitglieder-Kontos',
+'mbr_activation_instructions' => 'Anweisungen für die Aktivierung des Nutzer-Kontos',
 
 'mbr_activation_instructions_desc' => 'Dieses Template enthält die Anweisungen zur Aktivierung der Mitgliedschaft bei einer neuen Registrierung',
 

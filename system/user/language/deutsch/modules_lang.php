@@ -55,4 +55,5 @@ $lang = array(
 ''=>''
 );
 
-// End of File
+/* End of file modules_lang.php */
+/* Location: ./system/user/language/deutsch/modules_lang.php */

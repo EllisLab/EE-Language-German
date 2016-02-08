@@ -1,20 +1,20 @@
 <?php
 
 $lang = array(
-	'date_year' => "Year",
-	'date_years' => "Years",
-	'date_month' => "Month",
-	'date_months' => "Months",
-	'date_week' => "Week",
-	'date_weeks' => "Weeks",
-	'date_day' => "Day",
-	'date_days' => "Days",
-	'date_hour' => "Hour",
-	'date_hours' => "Hours",
-	'date_minute' => "Minute",
-	'date_minutes' => "Minutes",
-	'date_second' => "Second",
-	'date_seconds' => "Seconds",
+	'date_year' => 'Jahr',
+	'date_years' => 'Jahre',
+	'date_month' => 'Monat',
+	'date_months' => 'Monate',
+	'date_week' => 'Woche',
+	'date_weeks' => 'Wochen',
+	'date_day' => 'Tag',
+	'date_days' => 'Tag',
+	'date_hour' => 'Stunde',
+	'date_hours' => 'Stunden',
+	'date_minute' => 'Minute',
+	'date_minutes' => 'Minuten',
+	'date_second' => 'Sekunde',
+	'date_seconds' => 'Sekunden',
 	'UM12'	=> '(UTC -12:00) Baker/Howland Island',
 	'UM11'	=> '(UTC -11:00) Samoa Time Zone, Niue',
 	'UM10'	=> '(UTC -10:00) Hawaii-Aleutian Standard Time, Cook Islands, Tahiti',
@@ -59,4 +59,4 @@ $lang = array(
 
 
 /* End of file date_lang.php */
-/* Location: ./system/language/english/date_lang.php */
+/* Location: ./system/user/language/deutsch/date_lang.php */

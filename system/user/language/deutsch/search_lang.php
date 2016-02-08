@@ -155,4 +155,5 @@ $lang = array(
 ''=>''
 );
 
-// End of File
+/* End of file search_lang.php */
+/* Location: ./system/user/language/deutsch/search_lang.php */

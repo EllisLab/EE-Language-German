@@ -7,4 +7,4 @@ $lang = array(
 );
 
 /* End of file lang.css.php */
-/* Location: ./system/expressionengine/language/english/lang.css.php */
+/* Location: ./system/user/language/deutsch/lang.css.php */

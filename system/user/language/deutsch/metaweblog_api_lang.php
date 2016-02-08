@@ -26,7 +26,7 @@ $lang = array(
 
 'new_entry_errors' => 'Validierungsfehler:',
 
-'entry_uneditable' => 'Diesen Eintrag dürfen Sie nicht bearbeiten. Bitte prüfen Sie die Rechte der Mitgliedergruppe.',
+'entry_uneditable' => 'Diesen Eintrag dürfen Sie nicht bearbeiten. Bitte prüfen Sie die Rechte der Nutzergruppe.',
 
 'no_metaweblog_configs' => 'Im Moment gibt es keine MetaWeblog API Konfigurationen',
 
@@ -103,4 +103,5 @@ $lang = array(
 ''=>''
 );
 
-// End of File
+/* End of file metaweblog_api_lang.php */
+/* Location: ./system/user/language/deutsch/metaweblog_api_lang.php */

@@ -735,4 +735,4 @@ $lang = array(
 );
 
 /* End of file forum_lang.php */
-/* Location: ./system/expressionengine/language/english/forum_lang.php */
+/* Location: ./system/user/language/deutsch/forum_lang.php */

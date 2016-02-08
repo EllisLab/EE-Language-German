@@ -20,6 +20,8 @@ $lang = array(
 
 'create_new_toolset' => 'Neues Toolset erstellen',
 
+'create_new' => 'Neu anlegen',
+
 'edit_toolset' => 'Toolset bearbeiten',
 
 'edit_my_toolset' => 'Mein Toolset bearbeiten',
@@ -209,4 +211,5 @@ $lang = array(
 ''=>''
 );
 
-// End of File
+/* End of file rte_lang.php */
+/* Location: ./system/user/language/deutsch/rte_lang.php */
