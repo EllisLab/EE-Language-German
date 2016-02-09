@@ -1,9 +1,10 @@
-================================================
 German Translation Pack for ExpressionEngine 2.x
 ================================================
 
-| Copyright (C) 2009-2015 EllisLab, Inc.
-| Original German translation provided by: Werner Gusset (gusset@octave2.ch)
+![Build Status](https://travis-ci.org/EllisLab/EE-Language-German.svg?branch=2.x)
+
+- Copyright (C) 2009-2015 EllisLab, Inc.
+- Original German translation provided by: Werner Gusset (gusset@octave2.ch)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -26,7 +27,6 @@ Except as contained in this notice, the name of EllisLab, Inc. shall not be
 used in advertising or otherwise to promote the sale, use or other dealings
 in this Software without prior written authorization from EllisLab, Inc.
 
-============================================
 How to help contribute to this language pack
 ============================================
 
@@ -36,7 +36,6 @@ How to help contribute to this language pack
 4. Submit a pull request
 5. Bug us until we merge it!
 
-=====================================
 Developer's Certificate of Origin 1.1
 =====================================
 
