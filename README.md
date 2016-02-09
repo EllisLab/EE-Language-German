@@ -1,7 +1,7 @@
 German Translation Pack for ExpressionEngine 2.x
 ================================================
 
-![Build Status](https://travis-ci.org/EllisLab/EE-Language-German.svg?branch=2.x)
+[![Build Status](https://travis-ci.org/EllisLab/EE-Language-German.svg?branch=2.x)](https://travis-ci.org/EllisLab/EE-Language-German/branches)
 
 - Copyright (C) 2009-2015 EllisLab, Inc.
 - Original German translation provided by: Werner Gusset (gusset@octave2.ch)
