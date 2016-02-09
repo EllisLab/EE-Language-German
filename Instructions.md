@@ -1,21 +1,18 @@
-# Deutsches Sprachpaket für ExpressionEngine 2.9.0 inkl. der CodeIgniter Sprachfiles
+------------------------------------------------
+# Deutsches Sprachpaket für ExpressionEngine 3.0
+------------------------------------------------
 
-(nicht vollständig übersetzt ist das Sprachfile für das Wiki)
+Letzte Korrekturen: 08.02.2016
+(nicht vollständig übersetzt)
 
-Letzte Korrekturen: 22.07.2014
-
-Inhalt vom Verzeichnis `/system` in das Verzeichnis `/system` Ihrer Installation
+Das Verzeichnis `/system/user/language/deutsch` in das Verzeichnis `/system/user/language/deutsch` der Installation
 kopieren.
 
-Die ExpressionEngine-Sprachdateien liegen in
+Die original ExpressionEngine-Sprachdateien liegen in
 
-	/system/expressionengine/language/deutsch
+/system/ee/legacy/language/english
 
-Die Codeigniter Sprachdateien liegen in
-
-	/system/codeigniter/system/language/deutsch
-
-Übersetzer der EE-Sprachdateien seit 2004:
+##Übersetzer der EE-Sprachdateien für EE 2.+ seit 2004:
 
 Werner Gusset  
 Octave 2 GmbH  
@@ -23,6 +20,13 @@ Ringstrasse 8
 CH-2560 Nidau /Biel  
 Schweiz  
 
-Bitte Fehler und Anregungen zur Verbesserung per E-Mail an
+##Anpassungen basierend auf den Sprachdateien von EE 2.+ und Ergänzungen für EE 3.+ seit 2016: 
 
-gusset@octave2.ch
+Tom Jaisle
+EYELABEL
+Oelkersallee 14a
+22769 Hamburg
+Germany
+
+Bitte Fehler und Anregungen zur Verbesserung per E-Mail an
+jaisle@eyelabel.com
