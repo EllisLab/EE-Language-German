@@ -6,9 +6,9 @@ $lang = array(
 // Required for MODULES page
 //----------------------------------------
 
-  'blacklist_module_name' ='Blacklist/Whitelist',
+  'blacklist_module_name' => 'Blacklist/Whitelist',
 
-  'blacklist_module_description' ='Blacklist und Whitelist Modul',
+  'blacklist_module_description' => 'Blacklist und Whitelist Modul',
 
 //----------------------------------------
 
