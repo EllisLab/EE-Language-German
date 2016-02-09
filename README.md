@@ -27,7 +27,6 @@ Except as contained in this notice, the name of EllisLab, Inc. shall not be
 used in advertising or otherwise to promote the sale, use or other dealings
 in this Software without prior written authorization from EllisLab, Inc.
 
-============================================
 How to help contribute to this language pack
 ============================================
 
@@ -37,7 +36,6 @@ How to help contribute to this language pack
 4. Submit a pull request
 5. Bug us until we merge it!
 
-=====================================
 Developer's Certificate of Origin 1.1
 =====================================
 
