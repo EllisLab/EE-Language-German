@@ -193,8 +193,8 @@ $lang = array(
 //----------------------------
 // Develop Menu
 //----------------------------
-
-  'nav_developer_tools'  => 'Developer Tools',
+  'nav_developer'  => 'Entwickler',
+  'nav_developer_tools'  => 'Entwicker Tools',
   'channel_manager'  => 'Channel-Verwaltung',
   'template_manager' => 'Template-Verwaltung',
   'msm_manager'      => 'Site-Verwaltung',
@@ -481,6 +481,7 @@ $lang = array(
   'btn_fix_errors' => 'Fehler gefunden',
   'btn_save' => '%s sichern',
   'btn_saving' => 'Sichern...',
+  'btn_save_and_close' => 'Speichern &amp; beenden',
   'no_found' => '<b>%s</b> nicht gefunden.',
   'clear_filters' => 'Filter aufheben',
   'col_id' => 'ID#',
