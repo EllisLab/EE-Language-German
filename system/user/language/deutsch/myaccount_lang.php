@@ -264,7 +264,7 @@ $lang = array(
 
 'new_password_confirm' => 'Neues Passwort bestätigen',
 
-'existing_password' => 'Aktuelles Passwort',
+'existing_password' => 'Ihr Aktuelles Passwort',
 
 'invalid_email_address' => 'Die angegebene E-Mail-Adresse ist ungültig.',
 
