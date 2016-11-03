@@ -32,6 +32,8 @@ $lang = array(
 
 'word_censoring' => 'Wortzensierung',
 
+'menu_manager' => 'Menü Manager',
+
 'members' => 'Nutzer',
 
 'messages' => 'Nachrichten',
@@ -82,6 +84,8 @@ $lang = array(
 'language' => 'Sprache',
 
 'date_time_settings' => 'Datum &amp; Uhrzeit-Einstellungen',
+
+'site_default' => 'Die Standardeinstellung verwenden?',
 
 'timezone' => 'Zeitzone',
 
@@ -252,6 +256,10 @@ $lang = array(
 'show_profiler' => 'Debugging aktivieren?',
 
 'show_profiler_desc' => 'Wenn auf <b>aktivieren</b> gesetzt werden Super Admins und Nutzergruppen mit entsprechenden Rechten Benchmark-Ergebnisse, alle SQL-Abfragen, und abgesandte Formular-Daten am Fuss der Seite sehen.',
+
+'enable_devlog_alerts' => 'Developer-Log Warnungen anzeigen?',
+
+'enable_devlog_alerts_desc' => 'Wenn diese Einstellung auf <b>aktivieren</b> gesetzt wird, dann sehen Super-Admins im Warnungen im Control Panel, falls neue <a href="%s">Developer-Log Einträge</a> hinzu kommen. Zur Zeit gibt es <b>%s Einträge</b>.',
 
 'output_options' => 'Output Optionen',
 
@@ -463,6 +471,14 @@ $lang = array(
 
 'req_mbr_activation_opt_manual' => 'Vom Administrator freigeben',
 
+'approved_member_notification' => 'Bbenachrichtigung bei Bestätigung?',
+
+'approved_member_notification_desc' => 'Wird die Einstellung auf <b>ja</b> gesetzt, dann werden Mitglieder per E-Mail benachrichtigt, wenn ihre Registrierung genehmigt wird.',
+
+'declined_member_notification' => 'Bbenachrichtigung bei Ablehnung?',
+
+'declined_member_notification_desc' => 'Wird die Einstellung auf <b>ja</b> gesetzt, dann werden Mitglieder per E-Mail benachrichtigt, wenn ihre Registrierung abgelehnt wird.',
+
 'require_terms_of_service' => 'AGBs akzeptieren?',
 
 'require_terms_of_service_desc' => 'Wenn auf <b>ja</b> gesett müssen Nutzer den AGB zustimmen bei der Registrierung.',
@@ -516,6 +532,48 @@ $lang = array(
 'mbr_notification_emails' => 'Benachrichtigungsempfänger',
 
 'mbr_notification_emails_desc' => 'Mehrere E-Mail-Adressen mit Komma trennen.',
+
+
+/**
+ * Menü Manager
+ */
+
+'menu_sets' => 'Menü Sets',
+'menu_set' => 'Menü Set',
+'edit_menu_set' => 'Menü Set bearbeiten',
+'create_menu_set' => 'Menü Set erstellen',
+'menu_set_updated' => 'Menü Set aktualisiert',
+'menu_set_created' => 'Menü Set erstelt',
+'menu_set_created_desc' => 'Das Menü Set <b>%s</b> wurde erstellt.',
+'menu_set_updated_desc' => 'Das Menü Set <b>%s</b> wurde aktualisiert.',
+'menu_sets_removed' => 'Menü Sets entfernt',
+'menu_sets_removed_desc' => 'Menü Sets wurden entfernt (%d).',
+'no_menu_items' => 'Kein <b>Menüeintrag</b> wurde gefunden.',
+'create_menu_item' => 'Neuen Menüeintrag anlegen',
+'set_name' => 'Name',
+'set_assigned' => 'Zugeordnet',
+'assigned_to' => 'zugeordnet zu',
+'set_member_groups' => 'Benutzergruppe(n)?',
+'set_member_groups_desc' => 'Benutzergruppe(n) auswählen, denen dieses Menü zugeordnet werden soll.',
+'menu_options' => 'Menü Optionen',
+'menu_items' => 'Menüeinträge',
+'menu_items_desc' => 'Die Inhalte dieses Menüs bearbeiten',
+'menu_type' => 'Typ',
+'menu_addon' => 'Add-On',
+'menu_single' => 'Link',
+'menu_dropdown' => 'Dropdown',
+'submenu' => 'Untermenü',
+'submenu_desc' => 'Link in dropdown',
+'menu_label' => 'Name',
+'menu_label_desc' => 'Link label',
+'menu_url' => '<abbr title="Uniform Resource Locator">URL</abbr>',
+'menu_url_desc' => 'Link <abbr title="Uniform Resource Locator">URL</abbr>',
+'menu_addon' => 'Add-On',
+'menu_addon_desc' => 'Navigation aus installiertem Add-On',
+'menu_no_addons' => 'Keine <b>Add-ons mit Menüs</b> gefunden.',
+'edit_menu_item' => 'Menüeintrag bearbeiten',
+'add_menu_item' => 'Menüeintrag hinzufügen',
+
 
 /**
  * Messages
@@ -715,6 +773,10 @@ $lang = array(
 'xss_clean_uploads' => '<abbr title="Cross Site Scripting">XSS</abbr>-Filter aktivieren?',
 
 'xss_clean_uploads_desc' => 'Wenn auf <b>ja</b> gesetzt können werden Formulare <abbr title="Cross Site Scripting">XSS</abbr>-Filter anwenden auf Eingaben.',
+
+'enable_rank_denial' => 'Rank Denial für gepostete Links verwenden?',
+
+'enable_rank_denial_desc' => 'Wird diese Einstellung auf <b>aktivieren</b> gesetzt, dann werden alle ausgehenden links über eine interne Umleitungsseite geleitet. Diese Maßnahme verhindert, dass Spammer einen höheren <a href="%s" rel="external">Page Rank</a> erreichen können.',
 
 /**
  * Access Throttling
