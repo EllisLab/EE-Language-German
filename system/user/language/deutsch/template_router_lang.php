@@ -11,8 +11,10 @@ $lang = array(
   'validation_failed' => 'Validierung gescheitert.',
   'variable_in_use' => 'Segment-Variable wird bereits verwendet:',
   'template_routes_header' => 'Template Routen',
+  'template_routes_header_desc' => 'Die einzelnen Routen sind in jener Reihenfolge angeführt, in der sie vom Template-Router abgearbeitet werden.',
   'route' => 'Route',
   'segments_required' => 'Alle Segments anfordern?',
+  'new_route' => 'Neue Route',
 );
 
 /* End of file template_router_lang.php */
