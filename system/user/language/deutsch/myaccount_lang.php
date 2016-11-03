@@ -174,6 +174,8 @@ $lang = array(
 
 'include_seconds' => 'Sekunden im Zeitformat einschliessen',
 
+'site_default' => 'Die Standardeinstellung verwenden?',
+
 'your_html_buttons' => 'HTML Format Buttons',
 
 'change_password' => 'Passwort ändern',
