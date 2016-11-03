@@ -153,6 +153,10 @@ $lang = array(
   'channel_publishing_options_warning' => '<b>Warnung</b>: Channels benötigen eigene Feldgruppen um andere Daten außer Titel und Datum speichern zu können.',
   'channel_publishing_options_warning2' => 'Wenn Sie weitere Inhalte abspeichern möchten in diesem Channel, ist es das beste zuerst eine <a href="%s">eigene Feldgruppe</a> anzulegen.',
 
+  'channel_max_entries' => 'Maximal erlaubte Anzahl an Einträgen',
+
+  'channel_max_entries_desc' => 'Das Feld leer lassen, falls kein Limit gewünscht wird.',
+
   'status_groups_desc' => '',
 
   'default_status_group' => 'Standard Status',
