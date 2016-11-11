@@ -45,6 +45,8 @@ $lang = array(
   'location' => 'Ort',
 
   'btn_edit_file_meta' => 'File Meta bearbeiten',
+  
+  'file_data' => 'Dateiinformationen',
 
   'edit_file_metadata_success' => 'Datei Meta-Daten aktualisiert',
 
