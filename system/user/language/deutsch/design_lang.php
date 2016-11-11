@@ -105,6 +105,8 @@ $lang = array(
   'btn_create_partial' => 'Partial erstellen',
 
   'btn_edit_partial' => 'Partial bearbeiten',
+  
+  'btn_edit_partial_working' => 'Partial wird gespeichert',
 
   'snippet_name' => 'Name',
 
