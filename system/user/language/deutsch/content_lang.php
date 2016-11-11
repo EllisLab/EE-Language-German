@@ -169,6 +169,10 @@ $lang = array(
   'calendar' => 'Kalender',
 
   'edit_categories' => 'Kategorien bearbeiten',
+  
+  'no_categories_assigned' => 'Keine Kategorien zugewiesen',
+
+  'no_categories_assigned_desc' => 'Diesem Channel wurden keine Kategorien zugewiesen. <a href="%s">Kategorie-Gruppe zuweisen.</a>',
 
   'revision' => 'Überarbeitung',
 
