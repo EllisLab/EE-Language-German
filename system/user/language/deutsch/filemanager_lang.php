@@ -82,6 +82,10 @@ $lang = array(
   'size_gb' => '<abbr title="Gigabyte">gb</abbr>',
   'size_tb' => '<abbr title="Terabyte">tb</abbr>',
 
+  'file_categories_desc' => 'Kategorisiere diese Datei',
+
+  'no_categories_assigned_file_desc' => 'Dieser Datei wurden keine Kategorien zugewiesen. <a href="%s">Kategorie-Gruppe zuweisen.</a>',
+
   'success' => 'Erfolg',
 
   'files_removed_desc' => 'Die folgenden Dateien wurden hochgeladen',
@@ -282,9 +286,9 @@ $lang = array(
   'upload_member_groups_desc' => 'Die folgenden Nutzergruppen dürfen in dieses Verzeichnis hochladen.</em>
 <em>Super Administratoren dürfen <b>immer</b>.',
 
-  'upload_category_groups' => 'Erlaubte Nutzergruppen',
+  'upload_category_groups' => 'Erlaubte Kategorie-Gruppen',
 
-  'upload_category_groups_desc' => 'Die folgenden Kategorie-Gruppen dürfen in dieses Verzeichnis hochladen.',
+  'upload_category_groups_desc' => 'Kategorien aus folgenden Kategorie-Gruppen dürfen den Dateien zugewiesen werden.',
 
   'directory_saved' => 'Upload-Verzeichnis gesichert',
 
