@@ -780,5 +780,6 @@ $lang = array(
 
   ''=>''
 );
+
 /* End of file filemanager_lang.php */
 /* Location: ./system/user/language/deutsch/filemanager_lang.php */
