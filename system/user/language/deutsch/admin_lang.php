@@ -1157,9 +1157,13 @@ $lang = array(
 
   'illegal_characters' => 'Der angegebene Name darf nur alpha-numerische Zeichen, Unterstriche und Bindestriche enthalten',
 
+  'deprecation_notice' => 'Ablaufwarnung',
+
   'invalid_xss_check' => 'Die gesendeten Daten haben den Sicherheitscheck nicht bestanden. Wenn Sie dieses Formular nicht vorlegen wollten,  <a href="%s">bitte hier klicken</a> und keine der Einstellungen werden verändert.',
 
   'developer_logs' => 'Es sind %d nicht eingesehene Einträge im <a href="%s">Developer Log</a>',
+
+  'developer_one_log' => 'Es gibt %d ungelesene Einträge im <a href="%s">Developer Log</a>.',
 
   ''=>''
 );
