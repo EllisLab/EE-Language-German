@@ -148,6 +148,7 @@ $lang = array(
   'mbrs' => 'Nutzer',
   'edit_profile' => 'Profil bearbeiten',
   'edit_group' => 'Gruppe bearbeiten',
+  'general_access' => "Allgemeine Einstellungen",
   'group_title' => 'Gruppen-Titel',
   'security_lock' => 'Sicherheitssperre',
   'group_lock' => 'Gruppen-Sicherheitssperre',
