@@ -49,6 +49,8 @@ $lang = array(
   'or' => 'oder',
 
   'id' => 'ID',
+  
+  'and_n_others' => 'und %d weitere...',
 
   'encoded_email' => '(Javascript muss aktiviert sein, um diese E-Mail-Adresse zu sehen)',
 
