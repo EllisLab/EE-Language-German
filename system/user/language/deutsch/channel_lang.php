@@ -82,11 +82,9 @@ $lang = array(
 
   'layout_options' => 'Layout Optionen',
 
-  'name_desc' => '',
+  'layout_member_groups' => 'Nutzer-Gruppe(n)?',
 
-  'member_group(s)' => 'Nutzer-Gruppe(n)?',
-
-  'member_group(s)_desc' => 'Nutzer-Gruppe(n) auswählen zu diesem Layout.',
+  'member_groups_desc' => 'Nutzer-Gruppe(n) auswählen zu diesem Layout.',
 
   'create_layout_success' => 'Formular-Layout angelegt',
 
