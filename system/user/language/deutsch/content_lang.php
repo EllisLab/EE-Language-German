@@ -110,7 +110,7 @@ $lang = array(
 
   'url_title_desc' => '<abbr title="Unified Resource Locator">URL</abbr> Ort des Eintrages.',
 
-  'entry_date' => 'Datum des Eintrag',
+  'entry_date' => 'Datum des Eintrags',
 
   'entry_date_desc' => 'Datum der Veröfentlichung dieses Eintrages.',
 
