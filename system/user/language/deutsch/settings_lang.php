@@ -147,6 +147,14 @@ $lang = array(
 
 'url_path_settings_title' => '<abbr title="Uniform Resource Location">URL</abbr>- und Pfad-Einstellungen',
 
+'base_url' => 'Basis URL',
+
+'base_url_desc' => 'Verwende das Kürzel <code>{base_url}</code> um die Basis URL in anderen Control Panel URL-Feldern zu nutzen.',
+
+'base_path' => 'Basispfad',
+
+'base_path_desc' => 'Verwende das Kürzel <code>{base_path}</code> um den Basispfad in anderen Control Panel Pfad-Feldern zu nutzen.',
+
 'site_index' => 'Website Index Seite',
 
 'site_index_desc' => 'Normalerweise <mark>index.php</mark>.',
