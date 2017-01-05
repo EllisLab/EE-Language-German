@@ -130,13 +130,13 @@ $lang = array(
 
   'channel_desc' => 'Channel in dem der Eintrag gepostet werden soll.',
 
-  'author' => 'Author',
+  'author' => 'Autor',
 
   'author_desc' => 'Nutzer, der den Eintrag geschrieben hat.',
 
   'sticky' => 'Eintrag permanent oben anzeigen?',
 
-  'sticky_desc' => 'Wenn auf <b>ja</b> gessetzt wird dieser Eintrag innerhalb der sortierten Listen oben ausgegeben.',
+  'sticky_desc' => 'Wenn auf <b>ja</b> gesetzt wird dieser Eintrag innerhalb der sortierten Listen oben ausgegeben.',
 
   'allow_comments' => 'Kommentare erlaubt?',
 
@@ -162,7 +162,7 @@ $lang = array(
 
   'no_related_entries' => 'Keine Einträge in diesem verknüpften Channel vorhanden',
 
-  'localized_date' => 'Ortbezogen',
+  'localized_date' => 'Ortsbezogen',
 
   'fixed_date' => 'Feststehend',
 
@@ -208,7 +208,7 @@ $lang = array(
 
   'edit_selected' => 'Markierte bearbeiten',
 
-  'confirm_exit' => 'Wenn Sie verlassen gehen alle eingegebenen Daten verloren. Wollen Sie wirklich verlassen?',
+  'confirm_exit' => 'Wenn Sie die Seite verlassen gehen alle eingegebenen Daten verloren. Wollen Sie das wirklich?',
 
   'delete_selected' => 'Markierte löschen',
 
@@ -226,7 +226,7 @@ $lang = array(
 
   'forums_unavailable' => 'Es gibt kein Forum zum Posten',
 
-  'view_comments' => 'Kommentare&nbsp;zeigen',
+  'view_comments' => 'Kommentare zeigen',
 
   'live_look' => 'Live Look',
 
@@ -240,7 +240,7 @@ $lang = array(
 
   'select_action' => 'Platzieroptionen wählen',
 
-  'image_location' => 'Bild Ort',
+  'image_location' => 'Ort des Bildes',
 
   'file_uploaded' => 'Datei hochgeladen:',
 
@@ -258,11 +258,11 @@ $lang = array(
 
   'popup_thumb' => 'Vorschau-Bild in Pop-up-Fenster anzeigen',
 
-  'thumb_info' => 'Wenn Sie die Größe nicht ändern oder kein Vorschau-Bild erstellen wollen lassen Sie die unten stehenden Optionen aus',
+  'thumb_info' => 'Wenn Sie die Größe nicht ändern oder kein Vorschau-Bild erstellen wollen, lassen Sie die unten stehenden Optionen aus',
 
   'check_spelling' => 'Rechtschreibung prüfen',
 
-  'spell_check' => 'Rechtschreibeprüfung',
+  'spell_check' => 'Rechtschreibprüfung',
 
   'no_spellcheck_lib' => 'Fehler:  Die Pspell Library scheint nicht installiert zu sein.',
 
@@ -366,7 +366,7 @@ $lang = array(
 
   'unauthorized_for_any_channels' => 'Sie haben keine Berechtigung in Channels zu schreiben',
 
-  'unauthorized_to_delete_others' => 'Sie haben keine Berechtigung zum Löschen von Channel-Einträgen die Sie verfassten',
+  'unauthorized_to_delete_others' => 'Sie haben keine Berechtigung zum Löschen von Channel-Einträgen, die Sie verfassten',
 
   'unauthorized_to_delete_self' => 'Sie haben keine Berechtigung zum Löschen Ihrer eigenen Channel-Einträge',
 
@@ -423,7 +423,7 @@ $lang = array(
 
   'preview_entry' => 'Eintrag Vorschau',
 
-  'edit_entry' => 'Eintrag&nbsp;bearbeiten',
+  'edit_entry' => 'Eintrag bearbeiten',
 
   'continue_editing' => 'Bearbeitung fortsetzen',
 
@@ -669,7 +669,7 @@ $lang = array(
 
   'height' => 'Höhe',
 
-  'pixels' => 'Pixels',
+  'pixels' => 'Pixel',
 
   'percent' => 'Prozent',
 
@@ -720,7 +720,7 @@ $lang = array(
 
   'url_only' => 'Nur URL',
 
-  'no_channels' => 'Es sind keine Channels dieser Website Ihnen zugewiesen.',
+  'no_channels' => 'Sie haben dieser Website keine Channels zugewiesen.',
 
   'no_channels_exist' => 'Es gibt noch keine Channels',
 
