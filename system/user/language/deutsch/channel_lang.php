@@ -12,7 +12,7 @@ $lang = array(
 
 //----------------------------------------
 
-  'channel_no_preview_template' => 'Ein Template zur Voransicht ist nicht in im Tag angegeben',
+  'channel_no_preview_template' => 'Ein Template zur Voransicht ist nicht im Tag angegeben',
 
   'channel_must_be_logged_in' => 'Sie müssen ein angemeldeter Nutzer dieser Seite sein, damit Sie diese Aktion vornehmen können.',
 
@@ -46,15 +46,15 @@ $lang = array(
 
   'custom_fields_for' => 'Eigenes Feld für %s',
 
-  'field_group' => 'Feldgruppe',
+  'field_group' => 'Feldergruppe',
 
-  'field_groups' => 'Feldgruppen',
+  'field_groups' => 'Feldergruppen',
 
-  'category_groups' => 'Kategorie-Gruppen',
+  'category_groups' => 'Kategorien-Gruppen',
 
   'status_groups' => 'Status Gruppen',
 
-  'no_channels' => 'Kein <b>Channels</b> gefunden.',
+  'no_channels' => 'Keine <b>Channels</b> gefunden.',
 
   'create_channel' => 'Channel anlegen',
 
@@ -100,7 +100,7 @@ $lang = array(
 
   'edit_form_layout' => 'Formular-Layout bearbeiten &ndash; %s',
 
-  'edit_layout_success' => 'Formular-Layout aktualsiert',
+  'edit_layout_success' => 'Formular-Layout aktualisiert',
 
   'edit_layout_success_desc' => 'Das Formular-Layout <b>%s</b> wurde aktualisiert.',
 
@@ -112,7 +112,7 @@ $lang = array(
 
   'add_tab' => 'Reiter hinzufügen',
 
-  'tab_name' => 'Reiter Name',
+  'tab_name' => 'Reiter-Name',
 
   'tab_name_desc' => 'Kurzname für diesen Reiter.',
 
@@ -120,7 +120,7 @@ $lang = array(
 
   'duplicate_tab_name' => 'Ein Reiter mit diesem Namen existiert bereits.',
 
-  'illegal_tab_name' => 'Reiter Namen dürfen nicht die folgenden Charakter enthalten: *, >, :, +, (, ), [, ], =, |, ", \', ., #, or $',
+  'illegal_tab_name' => 'Reiter-Namen dürfen nicht die folgenden Charakter enthalten: *, >, :, +, (, ), [, ], =, |, ", \', ., #, or $',
 
   'error_cannot_hide_tab' => 'Reiter läßt sich nicht verbergen',
 
@@ -130,7 +130,7 @@ $lang = array(
 
   'error_tab_has_fields' => '<b>%s</b> enthält mindestens ein Feld und kann nicht gelöscht werden. Bewegen Sie das (oder die) Felder zu einem anderen Reiter.',
 
-  'assigned_to' => 'zugewiesen an',
+  'assigned_to' => 'zugewiesen',
 
   /**
    * Channel Create/Edit
@@ -148,8 +148,8 @@ $lang = array(
 
   'channel_publishing_options' => 'Optionen der Veröffentlichung',
 
-  'channel_publishing_options_warning' => '<b>Warnung</b>: Channels benötigen eigene Feldgruppen um andere Daten außer Titel und Datum speichern zu können.',
-  'channel_publishing_options_warning2' => 'Wenn Sie weitere Inhalte abspeichern möchten in diesem Channel, ist es das beste zuerst eine <a href="%s">eigene Feldgruppe</a> anzulegen.',
+  'channel_publishing_options_warning' => '<b>Warnung</b>: Channels benötigen eigene Feldergruppen um andere Daten außer Titel und Datum speichern zu können.',
+  'channel_publishing_options_warning2' => 'Wenn Sie weitere Inhalte abspeichern möchten in diesem Channel, legen Sie zuerst eine <a href="%s">eigene Feldergruppe</a> an.',
 
   'channel_max_entries' => 'Maximal erlaubte Anzahl an Einträgen',
 
@@ -157,27 +157,27 @@ $lang = array(
 
   'status_groups_desc' => '',
 
-  'default_status_group' => 'Standard Status',
+  'default_status_group' => 'Standard-Status',
 
   'status_groups_not_found' => 'Keine <b>Status-Gruppe</b> gefunden',
 
   'create_new_status_group' => 'Neue Status-Gruppe anlegen',
 
-  'custom_field_group' => 'Eigene Feldgruppe',
+  'custom_field_group' => 'Eigene Feldergruppe',
 
   'custom_field_group_desc' => '',
 
-  'custom_field_groups_not_found' => 'Keine <b>eigene Feldgruppe</b> gefunden',
+  'custom_field_groups_not_found' => 'Keine <b>eigene Feldergruppe</b> gefunden',
 
-  'create_new_field_group' => 'Neue Feldgruppe anlegen',
+  'create_new_field_group' => 'Neue Feldergruppe anlegen',
 
-  'custom_fields_desc' => 'Wählen Sie die Felder, die in dieser Feldgruppe gebraucht werden.',
+  'custom_fields_desc' => 'Wählen Sie die Felder, die in dieser Feldergruppe gebraucht werden.',
 
   'category_groups_desc' => '',
 
-  'category_groups_not_found' => 'Keine <b>Kategorie-Gruppe</b> gefunden',
+  'category_groups_not_found' => 'Keine <b>Kategorien-Gruppe</b> gefunden',
 
-  'create_new_category_group' => 'Neue Kategorie-Gruppe anlegen',
+  'create_new_category_group' => 'Neue Kategorien-Gruppe anlegen',
 
   'channel_created' => 'Channel angelegt',
 
@@ -197,7 +197,7 @@ $lang = array(
 
   'invalid_short_name' => 'Der Channel darf nur alpha-nummerische Zeichen und keine Leerzeichen enthalten.',
 
-  'taken_channel_name' => 'Diesen Channel-Name gibt es bereits.',
+  'taken_channel_name' => 'Diesen Channel-Namen gibt es bereits.',
 
   /**
    * Channel Settings
@@ -211,7 +211,7 @@ $lang = array(
 
   'xml_language' => '<abbr title="Extensible Markup Language">XML</abbr> language',
 
-  'xml_language_desc' => 'Standard Sprache für <abbr title="Extensible Markup Language">XML</abbr> Dateien, durch diesen Channel generiert.',
+  'xml_language_desc' => 'Standard Sprache für <abbr title="Extensible Markup Language">XML</abbr> Dateien, die durch diesen Channel generiert.',
 
   'url_path_settings' => '<abbr title="Unified Resource Locator">URL</abbr> und Pfad-Einstellungen',
 
@@ -248,13 +248,13 @@ $lang = array(
 
   'default_status' => 'Status',
 
-  'default_status_desc' => 'Status wurde allen <b>neuen </b> Einträgen in diesem Channel zugewiesen.',
+  'default_status_desc' => 'Status wurde allen <b>neuen</b> Einträgen in diesem Channel zugewiesen.',
 
   'default_category' => 'Kategorie',
 
-  'default_category_desc' => 'Kategorie wurde allen <b>neuen </b> Einträgen in diesem Channel zugewiesen.',
+  'default_category_desc' => 'Kategorie wurde allen <b>neuen</b> Einträgen in diesem Channel zugewiesen.',
 
-  'search_excerpt' => 'Such Ausschnitt',
+  'search_excerpt' => 'Such-Ausschnitt',
 
   'search_excerpt_desc' => 'Feld wird benutzt für alles Suchergebnis-Ausschnitte für diesen Channel.',
 
@@ -266,7 +266,7 @@ $lang = array(
 
   'extra_publish_controls' => 'Sollen extra Veröffentlichungskontrollen gezeigt werden?',
 
-  'extra_publish_controls_desc' => 'Wenn auf <b>ja</b> gesetzt erscheint ein zweites Set an Veröffentlichungskontrollen am oberen Ende des Publish-Formulars für diesen Channel erscheinen.',
+  'extra_publish_controls_desc' => 'Wenn auf <b>ja</b> gesetzt, erscheint ein zweites Set an Veröffentlichungskontrollen am oberen Ende des Publish-Formulars für diesen Channel.',
 
   'convert_image_urls' => 'Bild <abbr title="Unified Resource Locator">URL</abbr>s zulassen?',
 
@@ -274,7 +274,7 @@ $lang = array(
 
   'convert_urls_emails_to_links' => '<abbr title="Unified Resource Locator">URL</abbr>s und Email-Adressen als Links darstellen?',
 
-  'convert_urls_emails_to_links_desc' => 'Wenn auf <b>jas</b> gesetzt werden <abbr title="Unified Resource Locator">URL</abbr>s und Email-Adressen als Links in den Einträgen dieses Channels dargestellt.',
+  'convert_urls_emails_to_links_desc' => 'Wenn auf <b>jas</b> gesetzt, werden <abbr title="Unified Resource Locator">URL</abbr>s und Email-Adressen automatisch als Links in den Einträgen dieses Channels dargestellt.',
 
   'channel_form' => 'Channel-Formular',
 
@@ -286,23 +286,23 @@ $lang = array(
 
   'allow_guest_submission' => 'Gast-Beiträge erlauben?',
 
-  'allow_guest_submission_desc' => 'Wenn auf <b>ja</b> gesetzt dürfen Gäste in diesem Channel posten.',
+  'allow_guest_submission_desc' => 'Wenn auf <b>ja</b> gesetzt, dürfen Gäste in diesem Channel posten.',
 
-  'versioning' => 'Versisonierung',
+  'versioning' => 'Versionierung',
 
   'enable_versioning' => 'Überarbeitete Versionen für Einträge einschalten?',
 
-  'enable_versioning_desc' => 'Wenn auf <b>ja</b> gesetzt wird ExpressinEngine überarbeitete Versionen für alle Einträge in diesem Channel speichern.',
+  'enable_versioning_desc' => 'Wenn auf <b>ja</b> gesetzt, wird ExpressionEngine überarbeitete Versionen für alle Einträge in diesem Channel speichern.',
 
-  'max_versions' => 'Maximale Anzahl an Überarbeitung pro Eintrag',
+  'max_versions' => 'Maximale Anzahl an Überarbeitungen pro Eintrag',
 
-  'max_versions_desc' => 'Maximale Anzahl an Überarbeitung pro Eintrag, die für jeden Eintrag gespeichert wird.',
+  'max_versions_desc' => 'Maximale Anzahl an Überarbeitungen pro Eintrag, die für jeden Eintrag gespeichert werden.',
 
   'notifications' => 'Benachrichtigungen',
 
   'enable_author_notification' => 'Autoren-Benachrichtigung einschalten?',
 
-  'enable_author_notification_desc' => 'Wenn <b>aktivieren</b> gewählt wird der Autor des Eintrages benachrichtigt, sobald der Eintrag kommentiert wird.',
+  'enable_author_notification_desc' => 'Wenn <b>aktivieren</b> gewählt, wird der Autor des Eintrages benachrichtigt, sobald der Eintrag kommentiert wird.',
 
   'enable_channel_entry_notification' => 'Benachrichtigung für Channel-Einträge einschalten?',
 
@@ -318,24 +318,24 @@ $lang = array(
 
   'allow_comments' => 'Kommentare erlauben?',
 
-  'allow_comments_desc' => 'Wenn auf <b>ja</b> gesetzt können Nutzer die Einträge dieses Channels kommentieren.',
+  'allow_comments_desc' => 'Wenn auf <b>ja</b> gesetzt, können Nutzer die Einträge dieses Channels kommentieren.',
 
   'allow_comments_checked' => 'Standardmäßig Kommentare erlauben?',
 
-  'allow_comments_checked_desc' => 'Wenn auf <b>ja</b> gesetzt wird die "Kommentare erlauben"-Option standardmäßig auf "ja" gesetzt',
+  'allow_comments_checked_desc' => 'Wenn auf <b>ja</b> gesetzt, wird die "Kommentare erlauben"-Option standardmäßig auf "ja" gesetzt',
 
   'require_membership' => 'Mitgliedschaft notwendig?',
 
-  'require_membership_desc' => 'Wenn auf <b>ja</b> gesetzt können nur registrierte Nutzer die Channel Einträge kommentieren.',
+  'require_membership_desc' => 'Wenn auf <b>ja</b> gesetzt, können nur registrierte Nutzer die Channel-Einträge kommentieren.',
 
   'require_email' => 'E-mail-Adresse notwendig?',
 
   'require_email_desc'=>
-    'Wenn auf <b>ja</b> gesetzt muss ein Nutzer eine valide E-Mail-Adresse angeben um Kommentieren zu können.',
+    'Wenn auf <b>ja</b> gesetzt, muss ein Nutzer eine valide E-Mail-Adresse angeben, um kommentieren zu können.',
 
   'moderate_comments' => 'Kommentare moderieren?',
 
-  'moderate_comments_desc' => 'Wenn auf <b>ja</b> gesetzt müssen Kommentare erst durch einen Super Admin oder eine Gruppe mit Moderatorrechten die Kommentare sichten und freigeben.',
+  'moderate_comments_desc' => 'Wenn auf <b>ja</b> gesetzt, müssen Kommentare erst durch einen Super Admin oder eine Gruppe mit Moderatorenrechten gesichtet und freigegeben werden.',
 
   'max_characters' => 'Wieviele Zeichen sind maximal erlaubt?',
 
@@ -343,7 +343,7 @@ $lang = array(
 
   'comment_time_limit' => 'Zeitfenster zwischen Kommentaren',
 
-  'comment_time_limit_desc' => 'Anzahl an Sekunden, die vergehen müssen bevor ein Nutzer einen weiteren Kommentar absenden kann.</em>
+  'comment_time_limit_desc' => 'Anzahl an Sekunden, die vergehen müssen, bevor ein Nutzer einen weiteren Kommentar absenden kann.</em>
 <em>0 eingeben für kein Zeitlimit.',
 
   'comment_expiration' => 'Kommentare Zeitfenster einschränken',
@@ -357,9 +357,9 @@ $lang = array(
 
   'html_formatting' => '<abbr title="Hyper-Text Markup Language">HTML</abbr> Formatierung',
 
-  'html_formatting_desc' => 'Erlaubtes HTML-Nivea.',
+  'html_formatting_desc' => 'Erlaubtes HTML.',
 
-  'comment_convert_image_urls_desc' => 'Wenn auf <b>ja</b> gesetzt werden <abbr title="Unified Resource Locator">URL</abbr>s zu Bildern automatisch als Bilder in den Kommentaren des Channel ausgegeben.',
+  'comment_convert_image_urls_desc' => 'Wenn auf <b>ja</b> gesetzt, werden <abbr title="Unified Resource Locator">URL</abbr>s zu Bildern automatisch als Bilder in den Kommentaren des Channel ausgegeben.',
 
   'comment_convert_urls_emails_to_links_desc' => 'Wenn auf <b>ja</b> gesetzt werden <abbr title="Unified Resource Locator">URL</abbr>s und E-Mail-Adressen automatisch als Links in Kommentaren des Channel ausgegeben.',
 
@@ -385,7 +385,7 @@ $lang = array(
 
   'invalid_url_title_prefix' => 'Dieses Feld darf keine Leerzeichen enthalten.',
 
-  'clear_versioning_data' => 'Alle Daten aller überarbeiteten Versionen in diesem Channel löschen??',
+  'clear_versioning_data' => 'Alle Daten aller überarbeiteten Versionen in diesem Channel löschen?',
 
   'apply_comment_enabled_to_existing' => 'Alle vorhandenen Einträge mit dieser Einstellung aktualisieren?',
 
@@ -409,19 +409,19 @@ $lang = array(
 
   'category' => 'Kategorie',
 
-  'category_group' => 'Kategorie-Gruppe',
+  'category_group' => 'Kategorien-Gruppe',
 
   'group_name' => 'Gruppen-Name',
 
-  'no_category_groups' => 'Keine <b>Kategorie-Gruppe</b> gefunden.',
+  'no_category_groups' => 'Keine <b>Kategorien-Gruppe</b> gefunden.',
 
-  'create_category_group' => 'Kategorie-Gruppe anlegen',
+  'create_category_group' => 'Kategorien-Gruppe anlegen',
 
-  'edit_category_group' => 'Kategorie-Gruppe bearbeiten',
+  'edit_category_group' => 'Kategorien-Gruppe bearbeiten',
 
-  'category_groups_removed' => 'Kategorie-Gruppe gelöscht',
+  'category_groups_removed' => 'Kategorien-Gruppe gelöscht',
 
-  'category_groups_removed_desc' => '%d Kategorie-Gruppen wurden gelöscht',
+  'category_groups_removed_desc' => '%d Kategorien-Gruppen wurden gelöscht',
 
   'categories_removed' => 'Kategorien gelöscht',
 
@@ -431,7 +431,7 @@ $lang = array(
 
   'fields' => 'Felder',
 
-  'edit_category_group' => 'Kategorie-Gruppe bearbeiten',
+  'edit_category_group' => 'Kategorien-Gruppe bearbeiten',
 
   'group_name_desc' => '',
 
@@ -455,7 +455,7 @@ $lang = array(
 
   'permissions' => 'Rechte',
 
-  'category_permissions_warning' => '<b>Warnung</b>: Bitte sehr vorsichtig mit den Zugangsrechten umgehen bei der Vergabe.',
+  'category_permissions_warning' => '<b>Warnung</b>: Bitte sehr vorsichtig mit der Vergabe von Zugangsrechten umgehen.',
 
   'category_permissions_warning2' => 'Alles mit %s Markierte sollte nur wirklich vertrauenswürdigen Benutzern zugeteilt werden.',
 
@@ -473,23 +473,23 @@ $lang = array(
 
   'exclude_group_form' => 'Gruppe davon ausschliessen?',
 
-  'exclude_group_form_desc' => 'Diese Kategorie-Gruppe darf nicht für Channel und Verzeichnisse ausgewählt werden.',
+  'exclude_group_form_desc' => 'Diese Kategorien-Gruppe darf nicht für Channel und Verzeichnisse ausgewählt werden.',
 
-  'category_group_created' => 'Kategorie-Gruppe angelegt',
+  'category_group_created' => 'Kategorien-Gruppe angelegt',
 
-  'category_group_created_desc' => 'Die Kategorie-Gruppe <b>%s</b> wurde angelegt.',
+  'category_group_created_desc' => 'Die Kategorien-Gruppe <b>%s</b> wurde angelegt.',
 
-  'category_group_not_created' => 'Kategorie-Gruppe kann nicht angelegt werden',
+  'category_group_not_created' => 'Kategorien-Gruppe kann nicht angelegt werden',
 
-  'category_group_not_created_desc' => 'Die Kategorie-Gruppe konnte nicht agelegt werden, bitte die unten aufgeführten Fehler ansehen und berichtigen.',
+  'category_group_not_created_desc' => 'Die Kategorien-Gruppe konnte nicht angelegt werden, bitte die unten aufgeführten Fehler ansehen und berichtigen.',
 
-  'category_group_updated' => 'Kategorie-Gruppe aktualisiert',
+  'category_group_updated' => 'Kategorien-Gruppe aktualisiert',
 
-  'category_group_updated_desc' => 'Die Kategorie-Gruppe  <b>%s</b> wurde aktualisert.',
+  'category_group_updated_desc' => 'Die Kategorien-Gruppe  <b>%s</b> wurde aktualisiert.',
 
-  'category_group_not_updated' => 'Kategorie-Gruppe kann nicht aktualisiert werden',
+  'category_group_not_updated' => 'Kategorien-Gruppe kann nicht aktualisiert werden',
 
-  'category_group_not_updated_desc' => 'Die Kategorie-Gruppe konnte nicht aktualisiert werden, bitte die unten aufgeführten Fehler ansehen und berichtigen.',
+  'category_group_not_updated_desc' => 'Die Kategorien-Gruppe konnte nicht aktualisiert werden, bitte die unten aufgeführten Fehler ansehen und berichtigen.',
 
   'cat_image_none' => 'Keins <i>&mdash; kein Bild</i>',
 
@@ -515,31 +515,31 @@ $lang = array(
 
   'category_not_updated_desc' => 'Die Kategorie konnte nicht aktualisiert werden, bitte die unten aufgeführten Fehler ansehen und berichtigen.',
 
-  'category_field' => 'Kategoriefeld',
+  'category_field' => 'Kategorienfeld',
 
-  'category_fields' => 'Kategoriefelder',
+  'category_fields' => 'Kategorienfelder',
 
-  'no_category_fields' => 'Keine <b>Kategoriefelder</b> gefunden.',
+  'no_category_fields' => 'Keine <b>Kategorienfelder</b> gefunden.',
 
   'create_category_field' => 'Kategoriefeld anlegen',
 
-  'edit_category_field' => 'Kategoriefeld bearbeiten',
+  'edit_category_field' => 'Kategorienfeld bearbeiten',
 
   'category_fields_removed' => 'Kategoriefelder entfernt',
 
-  'category_fields_removed_desc' => '%d Kategoriefelder wurden entfernt.',
+  'category_fields_removed_desc' => '%d Kategorienfelder wurden entfernt.',
 
-  'category_ajax_reorder_fail' => 'Achtung: Die Kategorie-Reihenfolge konnte nicht gesichert werden',
+  'category_ajax_reorder_fail' => 'Achtung: Die Kategorien-Reihenfolge konnte nicht gesichert werden',
 
-  'category_ajax_reorder_fail_desc' => 'Die neue Kategorie-Reihenfolge konnte nicht gesichert werden. Aktualisieren Sie die Seite und gehen Sie sicher, dass Sie angemeldet sind.',
+  'category_ajax_reorder_fail_desc' => 'Die neue Kategorien-Reihenfolge konnte nicht gesichert werden. Aktualisieren Sie die Seite und gehen Sie sicher, dass Sie angemeldet sind.',
 
-  'duplicate_category_group_name' => 'Eine Kategorie-Gruppe mit dem gleichen Namen existiert bereits.',
+  'duplicate_category_group_name' => 'Eine Kategorien-Gruppe mit dem gleichen Namen existiert bereits.',
 
   'label' => 'Label',
 
   'require_field' => 'Feld notwendig?',
 
-  'cat_require_field_desc' => 'Wenn auf <b>ja</b> gesetzt muss dieses Feld beim Absenden gefüllt sein.',
+  'cat_require_field_desc' => 'Wenn auf <b>ja</b> gesetzt, muss dieses Feld beim Absenden ausgefüllt sein.',
 
   'text_input' => 'Text Input',
 
@@ -549,27 +549,27 @@ $lang = array(
 
   'field' => 'Feld',
 
-  'category_field_created' => 'Kategoriefeld angelegt',
+  'category_field_created' => 'Kategorienfeld angelegt',
 
-  'category_field_created_desc' => 'Das Kategoriefeld <b>%s</b> wurde angelegt.',
+  'category_field_created_desc' => 'Das Kategorienfeld <b>%s</b> wurde angelegt.',
 
-  'category_field_not_created' => 'Kategoriefeld nicht angelegt',
+  'category_field_not_created' => 'Kategorienfeld nicht angelegt',
 
-  'category_field_not_created_desc' => 'Das Kategoriefeld konnte nicht angelegt werden, bitte die unten aufgeführten Fehler ansehen und berichtigen.',
+  'category_field_not_created_desc' => 'Das Kategorienfeld konnte nicht angelegt werden, bitte die unten aufgeführten Fehler ansehen und berichtigen.',
 
-  'category_field_updated' => 'Kategoriefeld aktualisiert',
+  'category_field_updated' => 'Kategorienfeld aktualisiert',
 
-  'category_field_updated_desc' => 'Das Kategoriefeld <b>%s</b> wurde aktualisiert.',
+  'category_field_updated_desc' => 'Das Kategorienfeld <b>%s</b> wurde aktualisiert.',
 
-  'category_field_not_updated' => 'Kategoriefeld nicht aktualisiert',
+  'category_field_not_updated' => 'Kategorienfeld nicht aktualisiert',
 
-  'category_field_not_updated_desc' => 'Das Kategoriefeld konnte nicht aktualisiert werden, bitte die unten aufgeführten Fehler ansehen und berichtigen.',
+  'category_field_not_updated_desc' => 'Das Kategorienfeld konnte nicht aktualisiert werden, bitte die unten aufgeführten Fehler ansehen und berichtigen.',
 
   'duplicate_field_name' => 'Der Name für dieses Feld wird bereits verwendet.',
 
-  'cat_field_ajax_reorder_fail' => 'Achtung: Die Kategoriefeld-Reihenfolge konnte nicht gesichert werden',
+  'cat_field_ajax_reorder_fail' => 'Achtung: Die Kategorienfeld-Reihenfolge konnte nicht gesichert werden',
 
-  'cat_field_ajax_reorder_fail_desc' => 'Die neue Kategoriefeld-Reihenfolge konnte nicht gesichert werden. Aktualisieren Sie die Seite und gehen Sie sicher, dass Sie angemeldet sind.',
+  'cat_field_ajax_reorder_fail_desc' => 'Die neue Kategorienfeld-Reihenfolge konnte nicht gesichert werden. Aktualisieren Sie die Seite und gehen Sie sicher, dass Sie angemeldet sind.',
 
   /**
    * Status Groups
@@ -631,7 +631,7 @@ $lang = array(
 
   'status_access' => 'Status Zugriff',
 
-  'status_access_desc' => 'Nutzer in den gewählten GRuppen dürfen diesen Status wählen.</em><em>Super Administratoren dürfen <b>immer</b>.',
+  'status_access_desc' => 'Nutzer in den gewählten Gruppen dürfen diesen Status wählen.</em><em>Super Administratoren dürfen <b>immer</b>.',
 
   'status_created' => 'Status angelegt',
 
@@ -641,7 +641,7 @@ $lang = array(
 
   'status_not_created_desc' => 'Der Status konnte nicht angelegt werden, bitte die unten aufgeführten Fehler ansehen und berichtigen.',
 
-  'status_updated' => 'Status aktualisert',
+  'status_updated' => 'Status aktualisiert',
 
   'status_updated_desc' => 'Der Status <b>%s</b> wurde aktualisiert.',
 
