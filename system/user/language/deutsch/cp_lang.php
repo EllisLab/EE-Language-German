@@ -32,17 +32,17 @@ $lang = array(
   'nav_snippets' => 'Snippets',
   'nav_snippets_short_desc' => 'Erstellen, bearbeiten und löschen von Snippets für die Templates',
   'nav_sync_templates' => 'Templates synchronisieren',
-  'nav_sync_templates_short_desc' => 'Synchronisieren der Templates mit ihren zugeordneten Dateien.',
+  'nav_sync_templates_short_desc' => 'Synchronisieren der Templates mit den zugeordneten Dateien.',
   'nav_global_variables' => 'Globale Variablen',
-  'nav_global_variables_short_desc' => 'Erstellen, bearbeiten und löschen von User definierten Globalen Variablen',
+  'nav_global_variables_short_desc' => 'Erstellen, bearbeiten und löschen vom Benutzer definierten Globalen Variablen',
   'nav_template_manager' => 'Template-Verwaltung',
   'nav_template_manager_short_desc' => 'Erstellen, bearbeiten, löschen und verwalten von Templates und Template-Gruppen',
   'nav_template_route_manager' => 'Template Route Manager',
   'nav_template_route_manager_short_desc' => 'Überprüfen, bearbeiten und verwalten der Template Routes',
-  'nav_template_preferences' => 'Template Einstellungen',
-  'nav_template_preferences_short_desc' => 'Stappel-Modifikation der Template Einstellungen',
+  'nav_template_preferences' => 'Template-Einstellungen',
+  'nav_template_preferences_short_desc' => 'Stappel-Modifikation der Template-Einstellungen',
   'nav_global_preferences' => 'Globale Einstellungen',
-  'nav_global_preferences_short_desc' => 'Template Handhabung und Einstellungen verwalten',
+  'nav_global_preferences_short_desc' => 'Template-Handhabung und Einstellungen verwalten',
   'nav_message_pages' => 'Seiten für Mitteilungen',
   'nav_email_notification' => 'E-Mail Benachrichtigungen',
   'nav_email_notification_short_desc' => 'Templates für E-Mail-Benachrichtigungen bearbeiten',
@@ -193,8 +193,8 @@ $lang = array(
 //----------------------------
 // Develop Menu
 //----------------------------
-  'nav_developer'  => 'Entwickler',
-  'nav_developer_tools'  => 'Entwicker Tools',
+  'nav_developer'  => 'CMS-Verwaltung',
+  'nav_developer_tools'  => 'Konfigurations-Tools',
   'channel_manager'  => 'Channel-Verwaltung',
   'template_manager' => 'Template-Verwaltung',
   'msm_manager'      => 'Site-Verwaltung',
@@ -220,7 +220,7 @@ $lang = array(
 
   'consult_user_guide' => 'Handbuch konsultieren',
 
-  'powered_by' => 'Powered By',
+  'powered_by' => 'Powered by',
 
   'control_panel' => 'Control Panel',
 
@@ -307,11 +307,11 @@ $lang = array(
 
   'notepad_no_content' => 'Keine Notizen. Klicken, um zu erstellen.',
 
-  'edit_quicklinks' => 'QuickLinks bearbeiten',
+  'edit_quicklinks' => 'Quicklinks bearbeiten',
 
-  'quick_links' => 'Quick Links',
+  'quick_links' => 'Quicklinks',
 
-  'quicklinks_manager' => 'Quick Links Manager',
+  'quicklinks_manager' => 'Quicklinks-Manager',
 
   'hide_sidebar' => 'Seitenleiste verstecken',
 
@@ -335,7 +335,7 @@ $lang = array(
 
   'save' => 'Speichern',
 
-  'sync' => 'Sinchronisieren',
+  'sync' => 'Synchronisieren',
 
   'cancel' => 'Abbruch',
 
@@ -412,19 +412,19 @@ $lang = array(
 // Sites and Channels
 //----------------------------
 
-  'sites' 						=> 	'Webseiten',
+  'sites' 						=> 	'Websites',
   'view_site'						=>	'Site ansehen',
   'edit_sites' 					=>	'Sites',
   'edit_channels' 				=>	'Channels bearbeiten',
   'site_id'						=>	'Site ID',
   'site'							=>	'Site',
-  'site_specific_data' => 'Diese Daten sind Site spezifisch. Wenn Sie Daten von anderen Sites bearbeiten wollen, wählen Sie den Sites Menü-Tab zum Umschalten auf eine andere Site.',
+  'site_specific_data' => 'Diese Daten sind site-spezifisch. Wenn Sie Daten von anderen Sites bearbeiten wollen, wählen Sie den Sites-Menü-Tab zum Umschalten auf eine andere Site.',
 
 
-  'sig_img_path' => 'Signatur Bild Pfad',
-  'avatar_path' => 'Avatar Pfad',
-  'photo_path' => 'Mitgliedsfoto Pfad',
-  'prv_msg_upload_path' => 'Private Mitteilungen Uploadpfad',
+  'sig_img_path' => 'Signatur: Bild-Pfad',
+  'avatar_path' => 'Avatar-Pfad',
+  'photo_path' => 'Mitgliedsfoto-Pfad',
+  'prv_msg_upload_path' => 'Private Mitteilungen Upload-Pfad',
   'not_writable_path' => 'Folgende Verzeichnisse sind nicht beschreibbar:',
 
 //----------------------------
@@ -433,19 +433,19 @@ $lang = array(
 
   'videos'						=>	'Videos',
   'community_tutorials' => 'Community Tutorials',
-  'community_resources' => 'Community Resourcen',
+  'community_resources' => 'Community Ressourcen',
   'support' => 'Support',
 
 
-  'installing_ee'					=>	'InstalliereExpressionEngine',
+  'installing_ee'					=>	'Installiere ExpressionEngine',
   'introduction_to_templates'		=>	'Einführung in Templates',
   'channels_custom_fields'		=>	'Channels und eigene Felder',
-  'channel_template_relationship'	=>	'Channel Template Verknüpfung',
+  'channel_template_relationship'	=>	'Channel-Template-Verknüpfung',
   'building_ee_site_01'			=>	'Eine ExpressionEngine Webseite bauen - Kapitel 01',
-  'designing_ee_architecture'		=>	'Design and ExpressionEngine Architektur',
+  'designing_ee_architecture'		=>	'Design- und ExpressionEngine-Architektur',
   'troubleshooting_file_uploads'	=>	'Probleme finden beim Hochladen von Dateien',
-  'ee_cp_overview'				=>	'ExpressionEngine Control Panel Überblick',
-  'ee_seach_bookmarklet'			=>	'ExpressionEngine Lesezeichen',
+  'ee_cp_overview'				=>	'ExpressionEngine: Control Panel Überblick',
+  'ee_seach_bookmarklet'			=>	'ExpressionEngine-Lesezeichen',
   'wiki'							=>	'Wiki',
   'support_forums'				=>	'Support Foren',
   'knowledge_base'				=>	'Wissensdatenbank',
@@ -481,7 +481,7 @@ $lang = array(
   'btn_fix_errors' => 'Fehler gefunden',
   'btn_save' => '%s sichern',
   'btn_saving' => 'Sichern...',
-  'btn_save_and_close' => 'Speichern &amp; beenden',
+  'btn_save_and_close' => 'Speichern und beenden',
   'no_found' => '<b>%s</b> nicht gefunden.',
   'clear_filters' => 'Filter aufheben',
   'col_id' => 'ID#',
@@ -496,7 +496,7 @@ $lang = array(
   'enable' => 'Aktivieren',
   'form_validation_error' => 'Ein Problem ist aufgetreten, bitte überprüfen Sie unten alles und beseitigen Sie alle Fehler.',
   'image' => 'Bild',
-  'log_out' => 'abmelden',
+  'log_out' => 'Abmelden',
   'manage' => 'Verwalten',
   'menu_create' => 'Anlegen',
   'menu_edit' => 'Bearbeiten',
@@ -550,9 +550,9 @@ $lang = array(
 
   'out_of_date_upgrade' => 'Abgelaufen, bitte aktualisieren',
 
-  'out_of_date_recommended' => 'Abgelaufen, Aktualiserung empfohlen',
+  'out_of_date_recommended' => 'Abgelaufen, Aktualisierung empfohlen',
 
-  'recommended_upgrade' => '<b>Aktualiserung </b> empfohlen.',
+  'recommended_upgrade' => '<b>Aktualisierung </b> empfohlen.',
 
   'installed' => 'Installiert',
 
