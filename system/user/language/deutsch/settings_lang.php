@@ -185,7 +185,7 @@ $lang = array(
 
 'category_segment_trigger' => '<abbr title="Uniform Resource Location">URL</abbr>-Segment für Kategorien',
 
-'category_segment_trigger_desc' => 'Das Wort, das im URL <b>vor</a> einer Kategorie stehen soll. <b>Darf nicht</b> identisch sein mit einem Template- oder Templategruppe-Namen.',
+'category_segment_trigger_desc' => 'Das Wort, das im URL <b>vor</b> einer Kategorie stehen soll. <b>Darf nicht</b> identisch sein mit einem Template- oder Templategruppen-Namen.',
 
 'category_url' => 'Kategorie <abbr title="Uniform Resource Location">URL</abbr>',
 
