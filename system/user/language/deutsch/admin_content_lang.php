@@ -4,49 +4,49 @@ $lang = array(
 
 // @since 3.0
 
-  'custom_fields' => 'Custom Fields',
+  'custom_fields' => 'Benutzerdefinierte Felder',
 
-  'field' => 'Field',
+  'field' => 'Feld',
 
-  'fields' => 'Fields',
+  'fields' => 'Felder',
 
-  'filter_by_group' => 'Feld Gruppe',
+  'filter_by_group' => 'Feldergruppe',
 
-  'field_groups' => 'Feld Gruppe',
+  'field_groups' => 'Feldergruppe',
 
   'field_groups_desc' => 'Wird benutzt, um miteinander verknüpfte eigene Felder zu gruppieren.',
 
   'id' => 'ID#',
 
-  'create_field_group_warning' => '<b>Warnung</b>: Für Feldgruppen müssen eigene Felder angelegt werden.',
+  'create_field_group_warning' => '<b>Warnung</b>: Für Feldergruppen müssen eigene Felder angelegt werden.',
 
-  'create_field_group_warning2' => 'Empfohlen wird zuerst ein <a href="%s">eigenes Feld</a>anzulegen.',
+  'create_field_group_warning2' => 'Empfohlen wird, zuerst ein <a href="%s">eigenes Feld</a> anzulegen.',
 
-  'create_field_group' => 'Feldgruppe anlegen',
+  'create_field_group' => 'Feldergruppe anlegen',
 
   'custom_fields_not_found' => 'Keine <b>eigenen Felder</b> gefunden',
 
   'create_new_field' => 'Neues Feld anlegen',
 
-  'edit_field_group' => 'Feldgruppe bearbeiten',
+  'edit_field_group' => 'Feldergruppe bearbeiten',
 
-  'create_field_group_success' => 'Feldgruppe angelegt',
+  'create_field_group_success' => 'Feldergruppe angelegt',
 
-  'create_field_group_success_desc' => 'Die Feldgruppe <b>%s</b> wurde angelegt.',
+  'create_field_group_success_desc' => 'Die Feldergruppe <b>%s</b> wurde angelegt.',
 
-  'create_field_group_error' => 'Feldgruppe kann nicht angelegt werden.',
+  'create_field_group_error' => 'Feldergruppe kann nicht angelegt werden.',
 
-  'create_field_group_error_desc' => 'Diese Feldgruppe konnte nicht angelegt werden, sehen Sie sich die aufgeführten Fehler unten durch und verbessern Sie diese.',
+  'create_field_group_error_desc' => 'Diese Feldergruppe konnte nicht angelegt werden, sehen Sie sich die aufgeführten Fehler unten durch und verbessern Sie diese.',
 
-  'edit_field_group_success' => 'Feldgruppe aktualisiert.',
+  'edit_field_group_success' => 'Feldergruppe aktualisiert.',
 
-  'edit_field_group_success_desc' => 'Die Feldgruppe <b>%s</b> .wurde aktualisiert.',
+  'edit_field_group_success_desc' => 'Die Feldergruppe <b>%s</b> .wurde aktualisiert.',
 
-  'edit_field_group_error' => 'Feldgruppe kann nicht aktualisiert werden',
+  'edit_field_group_error' => 'Feldergruppe kann nicht aktualisiert werden',
 
-  'edit_field_group_error_desc' => 'Diese Feldgruppe konnte nicht aktualisiert werden, sehen Sie sich die aufgeführten Fehler unten durch und verbessern Sie diese.',
+  'edit_field_group_error_desc' => 'Diese Feldergruppe konnte nicht aktualisiert werden, sehen Sie sich die aufgeführten Fehler unten durch und verbessern Sie diese.',
 
-  'field_groups_removed_desc' => 'Die folgenden Feldgruppen wurden entfernt',
+  'field_groups_removed_desc' => 'Die folgenden Feldergruppen wurden entfernt',
 
   'fields_removed_desc' => 'Die folgenden Felder wurden entfernt',
 
@@ -56,23 +56,23 @@ $lang = array(
 
   'instructions' => 'Anweisungen',
 
-  'instructions_desc' => 'Feld Anweisungen, die im Publish-Formular erscheinen.',
+  'instructions_desc' => 'Feld-Anweisungen, die im Publish-Formular erscheinen.',
 
-  'require_field_desc' => 'Wenn auf <b>ja</b> gesetzt, dann muss dieses Feld ausgefüllt werden um das Publish-Formular abzuschicken.',
+  'require_field_desc' => 'Wenn auf <b>ja</b> gesetzt, muss dieses Feld ausgefüllt sein, um den Eintrag speichern zu können.',
 
-  'include_in_search' => 'In der Suche berücksichtigt?',
+  'include_in_search' => 'In der Suche berücksichtigen?',
 
-  'include_in_search_desc' => 'Wenn auf <b>ja</b> gesetzt wird dieses Feld bei der Suche berücksichtigt.',
+  'include_in_search_desc' => 'Wenn auf <b>ja</b> gesetzt, wird dieses Feld bei der Suche berücksichtigt.',
 
   'hide_field' => 'Feld verstecken?',
 
-  'hide_field_desc' => 'Wenn auf <b>ja</b> gesetzt wird dieses Feld im Publish-Formular verborgen mit einem sichtbaren Link.',
+  'hide_field_desc' => 'Wenn auf <b>ja</b> gesetzt, wird dieses Feld im Publish-Formular mit einem sichtbaren Link verborgen.',
 
   'create_field_success' => 'Feld angelegt',
 
   'create_field_success_desc' => 'Das Feld <b>%s</b> wurde angelegt.',
 
-  'create_field_error' => 'Das Feld kann nicht angelegtwerden',
+  'create_field_error' => 'Das Feld kann nicht angelegt werden',
 
   'create_field_error_desc' => 'Dieses Feld konnte nicht angelegt werden, sehen Sie sich die aufgeführten Fehler unten durch und verbessern Sie die Fehler.',
 
@@ -86,11 +86,11 @@ $lang = array(
 
   'field_content_text' => 'Erlaubter Inhalt',
 
-  'field_content_text_desc' => 'Art des Inhaltes, dass dieses Feld beinhalten darf.',
+  'field_content_text_desc' => 'Art des Inhaltes, den dieses Feld enthalten darf.',
 
   'field_tools' => 'Feld Werkzeuge',
 
-  'show_smileys' => 'Emoji <i>&mdash; Bildbasierte Form Gefühle auszudrücken.</i>',
+  'show_smileys' => 'Emoji <i>&mdash; Bildbasierte Emotionen auszudrücken.</i>',
 
   'show_file_selector' => 'Asset Manager <i>&mdash; Startet den Asset Manager.</i>',
   'show_formatting_btns' => 'Formatierungsleiste<i>&mdash;  Funktionen, um den Text zu formatieren.</i>',
@@ -98,31 +98,31 @@ $lang = array(
   'field_populate_manually' => 'Manuell <i>&mdash; Jede Option in eine eigene Zeile schreiben.</i>',
   'field_populate_from_channel' => 'Aus Channel vorbelegen<i>&mdash; Feld auswählen.</i>',
 
-  'checkbox_options' => 'Checkbox options',
-  'checkbox_options_desc' => 'Wie soll dieses Feld generiert werden?</em><em><i>Jeder Punkt wird als Checkbox mit passendem Label im Publish-Formular erscheinen.</i>',
+  'checkbox_options' => 'Checkbox: Optionen',
+  'checkbox_options_desc' => 'Wie soll dieses Feld generiert werden? </em><em> <i>Jeder Punkt wird als Checkbox mit passendem Label im Publish-Formular erscheinen.</i>',
 
-  'select_options' => 'Select menu options',
-  'select_options_desc' => 'Wie soll dieses Feld generiert werden?</em><em><i>Jeder Punkt wird in einem Select Drop Down im Publish-Formular erscheinen.</i>',
+  'select_options' => 'Drop-Down-Feld: Optionen',
+  'select_options_desc' => 'Wie soll dieses Feld generiert werden? </em><em> <i>Jeder Punkt wird in einem Drop-Down-Feld im Publish-Formular erscheinen.</i>',
 
-  'multiselect_options' => 'Multi-Select options',
-  'multiselect_options_desc' => 'Wie soll dieses Feld generiert werden?</em><em><i>Jeder Punkt wird in einem Multiselect-Feld angezeigt im Publish-Formular.</i>',
+  'multiselect_options' => 'Multi-Select-Feld: Optionen',
+  'multiselect_options_desc' => 'Wie soll dieses Feld generiert werden? </em><em> <i>Jeder Punkt wird in einem Multi-Select-Feld im Publish-Formular angezeigt.</i>',
 
-  'radio_options' => 'Radio options',
-  'radio_options_desc' => 'Wie soll dieses Feld generiert werden?</em><em><i>Jeder Punkt wird als Radio-Button mit passendem Label im Publish-Formular erscheinen.</i>',
+  'radio_options' => 'Radio-Button: Optionen',
+  'radio_options_desc' => 'Wie soll dieses Feld generiert werden? </em><em> <i>Jeder Punkt wird als Radio-Button mit passendem Label im Publish-Formular erscheinen.</i>',
 
   'grid_checkbox_options_desc' => 'Jeder Punkt wird als Checkbox mit passendem Label im Publish-Formular erscheinen.',
-  'grid_select_options_desc' => 'Jeder Punkt wird in einem Select Drop Down im Publish-Formular erscheinen.',
-  'grid_multiselect_options_desc' => 'Jeder Punkt wird in einem Multiselect-Feld angezeigt im Publish-Formular.',
+  'grid_select_options_desc' => 'Jeder Punkt wird in einem Drop-Down-Feld im Publish-Formular erscheinen.',
+  'grid_multiselect_options_desc' => 'Jeder Punkt wird in einem Multi-Select-Feld im Publish-Formular angezeigt.',
   'grid_radio_options_desc' => 'Jeder Punkt wird als Radio-Button mit passendem Label im Publish-Formular erscheinen.',
 
   'localize_date' => 'Datum lokalisieren?',
-  'localize_date_desc' => 'Wenn auf <b>ja</b> gesetzt wird das Datum basieren auf den <a href="%s">Zeiteinstellungen</a> dargestellt.',
+  'localize_date_desc' => 'Wenn auf <b>ja</b> gesetzt, wird das Datum basierend auf den <a href="%s">Zeiteinstellungen</a> dargestellt.',
 
 // @since 2.x
 
   'reserved_word' => 'Der gewählte Feldname ist ein reserviertes Wort und kann nicht benutzt werden. Bitte im Handbuch nachsehen.',
 
-  'list_edit_warning' => 'Wenn Sie auf dieser Seite ungesicherte Änderungen haben, gehen diese verloren wenn Sie zum Formateditor transferiert werden.',
+  'list_edit_warning' => 'Wenn Sie auf dieser Seite ungesicherte Änderungen haben, gehen diese verloren, wenn Sie zum Formateditor transferiert werden.',
 
   'fmt_has_changed' => 'Hinweis: Sie haben ein unterschiedliches Feldformat gewählt, als das was vorher eingestellt war.',
 
@@ -146,7 +146,7 @@ $lang = array(
 
   'field_label_info' => 'Das ist die Feldbezeichnung, die auf der VERFASSEN-Seite erscheinen wird',
 
-  'deft_field_formatting' => 'Standard Textformat für dieses Feld',
+  'deft_field_formatting' => 'Standard-Textformat für dieses Feld',
 
   'formatting_no_available' => 'Textformatierung ist für diesen Feldtyp nicht verfügbar',
 
@@ -156,7 +156,7 @@ $lang = array(
 
   'field_options' => 'Feld Einstellungen',
 
-  'date_field' => 'Datum-Feld',
+  'date_field' => 'Datums-Feld',
 
   'relationship' => 'Relationship',
 
@@ -166,7 +166,7 @@ $lang = array(
 
   'rss_url' => 'RSS Feed URL',
 
-  'rss_url_exp' => 'Der URL unter dem der RSS Feed für diesen Channel angezeigt wird.',
+  'rss_url_exp' => 'Der URL, unter dem der RSS-Feed für diesen Channel angezeigt wird.',
 
   'update_publish_cats' => 'Fenster schließen und Kategorien auf der VERFASSEN-Seite aktualisieren',
 
@@ -182,13 +182,13 @@ $lang = array(
 
   'field_populate_manually' => 'Menü manuell vorbelegen',
 
-  'field_populate_from_channel' => 'Menü aus einem anderen eigenen (custom) Feld vorbelegen',
+  'field_populate_from_channel' => 'Menü aus einem anderen benutzerdefinierten Feld vorbelegen',
 
   'select_channel_for_field' => 'Feld wählen, aus welchem vorbelegt werden soll:',
 
   'field_val' => 'Es muss ein Feldname aus diesem Menü gewählt werden, nicht ein Channel-Name',
 
-  'channel_notify' => 'Aktivieren der nachstehenden Empfängerliste für Benachrichtigungen bei Channel Einträgen?',
+  'channel_notify' => 'Aktivieren der nachstehenden Empfängerliste für Benachrichtigungen bei Channel-Einträgen?',
 
   'no_statuses' => 'Es wurde kein Status gefunden',
 
@@ -196,9 +196,9 @@ $lang = array(
 
   'field_is_hidden' => 'Dieses Feld standardmäßig zeigen?',
 
-  'hidden_field_blurb' => 'Diese Einstellung bestimmt ob das Feld auf der Seite VERFASSEN bereits geöffnet ist. Wenn auf &quot;Nein&quot;, wird ein Link zum Öffnen des Feldes gezeigt.',
+  'hidden_field_blurb' => 'Diese Einstellung bestimmt, ob das Feld auf der Seite VERFASSEN bereits geöffnet ist. Wenn auf &quot;Nein&quot;, wird ein Link zum Öffnen des Feldes gezeigt.',
 
-  'include_rss_templates' => 'RSS Templates einschließen',
+  'include_rss_templates' => 'RSS-Templates einschließen',
 
   'notification_settings' => 'Benachrichtigungs-Einstellungen',
 
@@ -206,9 +206,9 @@ $lang = array(
 
   'comment_notify' => 'Die untenstehende Empfängerliste für Kommentar-Benachrichtigungen einschalten?',
 
-  'update_existing_comments_mod' => 'Alle Kommentare updaten damit sie mit diesen Einstellungen übereinstimmen?',
+  'update_existing_comments_mod' => 'Alle Kommentare updaten, damit sie mit diesen Einstellungen übereinstimmen?',
 
-  'update_existing_comments' => 'Alle bestehenden Kommentare mit diesen Verfall-Einstellungen updaten?',
+  'update_existing_comments' => 'Alle bestehenden Kommentare mit diesen Einstellungen updaten?',
 
   'category_order_confirm_text' => 'Soll diese Kategoriengruppe wirklich alphabetisch sortiert werden?',
 
@@ -236,7 +236,7 @@ $lang = array(
 
   'category_description' => 'Kategoriebeschreibung',
 
-  'category_updated' => 'Kategorie upgedated',
+  'category_updated' => 'Kategorie aktualisert',
 
   'new_category' => 'Neue Kategorie erstellen',
 
@@ -246,13 +246,13 @@ $lang = array(
 
   'duplicate_group' => 'Eine bestehende Template-Gruppe duplizieren',
 
-  'template_group_name' => 'Neuer Template Gruppen-Name',
+  'template_group_name' => 'Neuer Template-Gruppenname',
 
-  'template_group_choose' => 'Bitte eine Template Gruppe wählen',
+  'template_group_choose' => 'Bitte eine Template-Gruppe wählen',
 
-  'new_group_instructions' => 'Das Feld ist Bedingung, wenn eine neue Template Gruppe erstellt wird',
+  'new_group_instructions' => 'Das Feld ist Bedingung, wenn eine neue Template-Gruppe erstellt wird',
 
-  'publish_page_customization' => 'Anpassungen Verfassen-Seite',
+  'publish_page_customization' => 'Anpassungen: Verfassen-Seite',
 
   'paths' => 'Pfad-Einstellungen',
 
@@ -260,11 +260,11 @@ $lang = array(
 
   'search_results_url' => 'Suchergebnisse URL',
 
-  'search_results_url_exp' => 'Der URL auf den die Ergebnisse dieses Channels zeigen sollen.',
+  'search_results_url_exp' => 'Der URL, auf den die Ergebnisse dieses Channels zeigen sollen.',
 
   'comment_expiration' => 'Ablauf für Kommentare',
 
-  'comment_expiration_desc' => 'WievieleTage nach Posten des Eintrages darf noch kommentiert werden? 0 (Null) eingeben für unendlich.',
+  'comment_expiration_desc' => 'Wieviele Tage nach Posten des Eintrages darf noch kommentiert werden? 0 (Null) eingeben für unendlich.',
 
   'restrict_status_to_group' => 'Status auf eine Nutzergruppe einschränken',
 
@@ -276,45 +276,45 @@ $lang = array(
 
   'search_excerpt' => 'Welches Feld soll für den Textauszug bei Suchergebnissen dienen',
 
-  'channel_prefs' => 'Channel Einstellungen',
+  'channel_prefs' => 'Channel-Einstellungen',
 
-  'channel_settings' => 'Channel-Posting Einstellungen',
+  'channel_settings' => 'Channel-Posting-Einstellungen',
 
-  'comment_prefs' => 'Kommentar-Posting Einstellungen',
+  'comment_prefs' => 'Kommentar-Posting-Einstellungen',
 
   'comment_use_captcha' => 'Captcha für Kommentar-Postings einschalten? ',
 
   'comment_moderate' => 'Kommentare moderieren?',
 
-  'comment_moderate_exp' => 'Auf Ja gesetzt werden Kommentare erst sichtbar, wenn ein Moderator sie freigegeben hat.',
+  'comment_moderate_exp' => 'Wenn auf Ja gesetzt, werden Kommentare erst sichtbar, wenn ein Moderator sie freigegeben hat.',
 
   'comment_system_enabled' => 'Kommentare in diesem Channel erlauben?',
 
-  'edit_channel_prefs' => 'Channel Einstellungen bearbeiten',
+  'edit_channel_prefs' => 'Channel-Einstellungen bearbeiten',
 
-  'edit_group_prefs' => 'Gruppen Einstellungen bearbeiten',
+  'edit_group_prefs' => 'Gruppen-Einstellungen bearbeiten',
 
-  'edit_group_assignments' => 'Gruppen Zuweisungen bearbeiten',
+  'edit_group_assignments' => 'Gruppen-Zuweisungen bearbeiten',
 
   'duplicate_channel_prefs' => 'Bestehende Channel-Einstellungen kopieren',
 
   'do_not_duplicate' => 'Nicht duplizieren',
 
-  'no_channels_exist' => 'Es gibt im Moment keine Channels',
+  'no_channels_exist' => 'Es gibt zur Zeit keine Channels',
 
   'create_new_channel' => 'Neuen Channel erstellen',
 
-  'channel_base_setup' => 'Allgemeine Channel Einstellungen',
+  'channel_base_setup' => 'Allgemeine Channel-Einstellungen',
 
   'default_settings' =>'Administrative Einstellungen',
 
-  'channel_name' => 'Channel Name',
+  'channel_name' => 'Channel-Name',
 
-  'channel_url' => 'Channel URL',
+  'channel_url' => 'Channel-URL',
 
-  'channel_lang' => 'XML Sprache',
+  'channel_lang' => 'XML-Sprache',
 
-  'channel_description' => 'Channel Beschreibung',
+  'channel_description' => 'Channel-Beschreibung',
 
   'illegal_characters' => 'Der eingegebene Name darf nur alphanumerische Zeichen, Leerzeichen, Unterstriche und Bindestriche enthalten.',
 
@@ -330,17 +330,17 @@ $lang = array(
 
   'comment_max_chars' => 'Maximale Anzahl erlaubter Zeichen in Kommentaren?',
 
-  'comment_timelock' => 'Zeitintervall zum neu Einreichen eines Kommentars',
+  'comment_timelock' => 'Zeitintervall zum erneuten Einreichen eines Kommentars',
 
-  'comment_timelock_desc' => 'Die Anzahl vergangener Sekunden, bevor ein User einen neuen Kommentar absenden kann. Ohne Limit das Feld leer lassen oder 0 eintragen.',
+  'comment_timelock_desc' => 'Die Anzahl vergangener Sekunden, bevor ein User einen neuen Kommentar absenden kann. Ohne Limit einfach das Feld leer lassen oder 0 eintragen.',
 
   'comment_text_formatting' => 'Textformat für Kommentare',
 
   'channel_text_formatting' => 'Standard-Textformat in Channel-Einträgen',
 
-  'comment_html_formatting' => 'HTML Formatierung für Kommentare',
+  'comment_html_formatting' => 'HTML-Formatierung für Kommentare',
 
-  'channel_html_formatting' => 'Standard HTML Format in Channel-Einträgen',
+  'channel_html_formatting' => 'Standard-HTML-Format in Channel-Einträgen',
 
   'convert_to_entities' => 'HTML in Entities konvertieren',
 
@@ -358,15 +358,15 @@ $lang = array(
 
   'channel_allow_img_urls' => 'URLs für Bilder in Channel-Einträgen zulassen?',
 
-  'auto_link_urls' => 'Urls und E-Mail-Adressen automatisch in Links umwandeln?',
+  'auto_link_urls' => 'URLs und E-Mail-Adressen automatisch in Links umwandeln?',
 
   'single_word_no_spaces' => 'einzelnes Wort, kein Leerzeichen',
 
-  'channel_title' => 'Channel Titel',
+  'channel_title' => 'Channel-Titel',
 
   'edit_channel' => 'Channel bearbeiten',
 
-  'channel_full_name' => 'Channel Titel',
+  'channel_full_name' => 'Channel-Titel',
 
   'new_channel' => 'Neuer Channel',
 
@@ -400,9 +400,9 @@ $lang = array(
 
   'category' => 'Kategorie',
 
-  'deft_status' => 'Standard Status',
+  'deft_status' => 'Standard-Status',
 
-  'deft_category' => 'Standard Kategorie',
+  'deft_category' => 'Standard-Kategorie',
 
   'deft_comments' => '&quot;Kommentare zulassen&quot; Button auf der Verfassen-Seite als Standard anzeigen?',
 
@@ -416,7 +416,7 @@ $lang = array(
 
   'none' => 'Keine',
 
-  'html_button' => 'HTML Button',
+  'html_button' => 'HTML-Button',
 
   'html_buttons' => '<abbr title="Hyper-Text Markup Language">HTML</abbr> Buttons',
 
@@ -452,7 +452,7 @@ $lang = array(
 
   'row' => 'Reihe',
 
-  'no_buttons_found' => 'Keine <b>HTML Button</b> gefunden.',
+  'no_buttons_found' => 'Keine <b>HTML-Buttons</b> gefunden.',
 
 //----------------------------
 // Generic Phrases
@@ -486,7 +486,7 @@ $lang = array(
 
   'no_category_group_message' => 'Es gibt zur Zeit keine Kategorien',
 
-  'no_category_message' => 'Dieser Gruppe sind zur Zeit keine Kategorien zugewiesen worden',
+  'no_category_message' => 'Dieser Gruppe sind zur Zeit keine Kategorien zugewiesen.',
 
   'create_new_category_group' => 'Neue Kategorien-Gruppe',
 
@@ -520,19 +520,19 @@ $lang = array(
 
   'category_deleted' => 'Kategorie gelöscht',
 
-  'category_url_title' => 'Kategorie URL Titel',
+  'category_url_title' => 'Kategorie-URL-Titel',
 
-  'cat_url_title_is_numeric' => 'Keine Zahlen für den Kategorie URL Titel verwenden',
+  'cat_url_title_is_numeric' => 'Keine Zahlen für den Kategorie-URL-Titel verwenden',
 
-  'unable_to_create_cat_url_title' => 'Ein gültiger Kategorie URL Titel konnte nicht erstellt werden',
+  'unable_to_create_cat_url_title' => 'Ein gültiger Kategorie-URL-Titel konnte nicht erstellt werden',
 
-  'duplicate_cat_url_title' => 'Für den vorgeschlagenen Kategorie URL Titel besteht bereits eine Kategorie in dieser Kategorie-Gruppe',
+  'duplicate_cat_url_title' => 'Für den vorgeschlagenen Kategorie-URL-Titel besteht bereits eine Kategorie in dieser Kategorie-Gruppe',
 
   'category_name' => 'Name der Kategorie',
 
-  'category_url_title' => 'Kategorie URL Titel',
+  'category_url_title' => 'Kategorie-URL-Titel',
 
-  'category_image' => 'Kategorie Bild',
+  'category_image' => 'Kategorie-Bild',
 
   'category_img_blurb' => 'Dies ist ein optionales Feld, um einer Kategorie ein Bild zuzuweisen.',
 
@@ -544,7 +544,7 @@ $lang = array(
 
   'delete_cat_field' => 'Eigene Kategorie-Felder löschen',
 
-  'delete_cat_field_confirmation' => 'Soll das Kategorie-Feld wirklich definitiv gelöscht werden?',
+  'delete_cat_field_confirmation' => 'Soll das Kategorie-Feld definitiv gelöscht werden?',
 
   'cat_field_deleted' => 'Kategorie-Feld gelöscht',
 
@@ -568,7 +568,7 @@ $lang = array(
 
   'formatting' => 'Formatierung:',
 
-  'cat_field_html_formatting' => 'Kategorie-Feld HTML Formatierung',
+  'cat_field_html_formatting' => 'Kategorie-Feld HTML-Formatierung',
 
   'can_edit_categories' => 'Darf Kategorie bearbeiten',
 
@@ -578,13 +578,13 @@ $lang = array(
   'exclude_from_publish' 		=> 'Channel-Zuweisung',
   'exclude_from_files'		=> 'Datei-Zuweisung',
 
-  'member_group' => 'Nutzerruppe',
+  'member_group' => 'Nutzergruppe',
 
-  'member_groups' => 'Nutzerruppen',
+  'member_groups' => 'Nutzergruppen',
 
   'missing_required_fields' => 'Folgende(s) Feld(er) werden benötigt:',
 
-  'update_category_image' => 'Bitte aktualisieren Sie das Kategorie-Bild um das Datei-Feld benutzen zu können., oder der Bild-URL vom alten Stil wird beim Speichern gelöscht.',
+  'update_category_image' => 'Bitte aktualisieren Sie das Kategorie-Bild, um das Datei-Feld benutzen zu können, oder der Bild-URL vom alten Stil wird beim Speichern gelöscht.',
 
 //----------------------------
 // Custom field Administration
@@ -592,21 +592,21 @@ $lang = array(
 
   'field_settings' => 'Einstellungen Eigene Felder',
 
-  'field_group' => 'Channel Feld-Gruppe',
+  'field_group' => 'Channel Felder-Gruppe',
 
-  'field_groups' => 'Feld-Gruppe',
+  'field_groups' => 'Felder-Gruppe',
 
   'no_field_group_message' => 'Es gibt im Moment keine eigenen Channel-Felder',
 
-  'create_new_field_group' => 'Neue Channel Feld-Gruppe erstellen',
+  'create_new_field_group' => 'Neue Channel-Felder-Gruppe erstellen',
 
-  'new_field_group' => 'Neue Feld-Gruppe',
+  'new_field_group' => 'Neue Felder-Gruppe',
 
   'add_edit_fields' => 'Felder erstellen/bearbeiten',
 
   'edit_field_group_name' => 'Umbenennen',
 
-  'delete_field_group' => 'Feld-Gruppe löschen',
+  'delete_field_group' => 'Felder-Gruppe löschen',
 
   'create_new_field' => 'Neues Feld anlegen',
 
@@ -622,7 +622,7 @@ $lang = array(
 
   'field_deleted' => 'Eigenes Feld gelöscht:',
 
-  'edit_field_order' => 'Feld-Reihenfolge',
+  'edit_field_order' => 'Felder-Reihenfolge',
 
   'create_new_custom_field' => 'Neues eigenes Feld anlegen',
 
@@ -662,7 +662,7 @@ $lang = array(
 
   'edit_list' => 'Liste bearbeiten',
 
-  'formatting_options' => 'Feld-Formatierung Moöglichkeiten',
+  'formatting_options' => 'Feld-Formatierung: Optionen',
 
   'field_formatting_cont' => 'Wenn Sie Textarea wählen (mehrere Eingabezeilen)',
 
@@ -684,7 +684,7 @@ $lang = array(
 
   'select_list' => 'Select Liste',
 
-  'auto_br' => 'Auto &lt;br /&gt;',
+  'auto_br' => 'Auto <br />;',
 
   'xhtml' => 'XHTML',
 
@@ -698,19 +698,19 @@ $lang = array(
 
   'duplicate_field_name' => 'Der gewählte Feldname ist schon vergeben.',
 
-  'duplicate_truncated_field_name' => 'Der Feldname ist zu lange und die verkürzte Version ist schon vergeben.',
+  'duplicate_truncated_field_name' => 'Der Feldname ist zu lang und die verkürzte Version ist schon vergeben.',
 
   'taken_field_group_name' => 'Der gewählte Name ist schon vergeben.',
 
-  'field_group_created' => 'Feld-Gruppe erstellt:',
+  'field_group_created' => 'Felder-Gruppe erstellt:',
 
-  'field_group_updated' => 'Feld-Gruppe aktualisiert:',
+  'field_group_updated' => 'Felder-Gruppe aktualisiert:',
 
-  'field_group_deleted' => 'Feld-Gruppe gelöscht:',
+  'field_group_deleted' => 'Felder-Gruppe gelöscht:',
 
-  'delete_field_group_confirmation' => 'Soll diese eigendefinierte Felder-Gruppe wirklich definitiv gelöscht werden?',
+  'delete_field_group_confirmation' => 'Soll diese benutzerdefinierte Felder-Gruppe definitiv gelöscht werden?',
 
-  'delete_field_confirmation' => 'Soll diese eigendefinierte Channel-Feld wirklich definitiv gelöscht werden?',
+  'delete_field_confirmation' => 'Soll dieses benutzerdefinierte Channel-Feld definitiv gelöscht werden?',
 
   'channel_entries_will_be_deleted' => 'Alle Channel-Einträge in den obenstehenden Feldern werden definitiv gelöscht',
 
@@ -748,13 +748,13 @@ $lang = array(
 
   'status_group_updated' => 'Status-Gruppe aktualisiert:',
 
-  'add_edit_statuses' => 'Status zufügen/bearbeiten',
+  'add_edit_statuses' => 'Status hinzufügen/bearbeiten',
 
   'edit_status_group_name' => 'Status-Gruppe bearbeiten',
 
   'delete_status_group' => 'Status-Gruppe löschen',
 
-  'delete_status_group_confirmation' => 'Soll diese Status-Gruppe wirklich definitiv gelöscht werden?',
+  'delete_status_group_confirmation' => 'Soll diese Status-Gruppe definitiv gelöscht werden?',
 
   'status_group_deleted' => 'Status-Gruppe gelöscht:',
 
@@ -779,7 +779,7 @@ $lang = array(
 
   'no_live_look_template' => '- Kein Live Look Template -',
 
-  'default_entry_title' => 'Standard Beitrag-Titel',
+  'default_entry_title' => 'Standard-Beitrags-Titel',
 
   'invalid_url_title_prefix' => 'Ungültiger URL Title Prefix',
 
@@ -797,28 +797,28 @@ $lang = array(
 
   'field_instructions_info' => 'Instruktionen für Autoren, wie und was in dieses eigene Feld eingetragen werden kann.',
 
-  'show_pages_cluster' => 'Zeige Seiten Eingabe-Felder',
+  'show_pages_cluster' => 'Zeige Seiten-Eingabe-Felder',
 
-  'content_type_changed' => 'Der Feldtype %s wird geändert. Die Einstellungen für den Feldtyp zu ändern kann Datenverluste zur Folge haben. Seien Sie vorsichtig.',
+  'content_type_changed' => 'Der Feldtyp %s wird geändert. Die Einstellungen für den Feldtyp zu ändern, kann Datenverluste zur Folge haben. Seien Sie vorsichtig.',
 
-  'field_name_too_lrg' => 'Der Feldname ist länger als die maximale erlaubte Länge und wurde gekürzt. Bitte beachten.',
+  'field_name_too_lrg' => 'Bitte beachten: Der Feldname ist länger als die maximal erlaubte Länge und wurde gekürzt.',
 
 
 //----------------------------
 // Channel Form Settings
 //----------------------------
 
-  'channel_form_settings' => 'Channel Form Einstellungen',
+  'channel_form_settings' => 'Channel-Formular-Einstellungen',
 
-  'channel_form_settings_updated' => 'Channel Form Einstellungen gespeichert',
+  'channel_form_settings_updated' => 'Channel-Formular-Einstellungen gespeichert',
 
-  'channel_form_default_status' => 'Standard Status',
+  'channel_form_default_status' => 'Standard-Status',
 
-  'channel_form_allow_guest_posts' => 'Erlaube Gäste-Posting',
+  'channel_form_allow_guest_posts' => 'Erlaube Gäste-Postings',
 
-  'channel_form_guest_captcha' => 'Gäste Captcha?',
+  'channel_form_guest_captcha' => 'Gäste-Captcha?',
 
-  'channel_form_guest_author' => 'Gast Autor',
+  'channel_form_guest_author' => 'Gastautor',
 
   'channel_form_default_status_empty' => '-- Benutze Channel Standard --',
 
@@ -837,19 +837,19 @@ $lang = array(
 
   'field_max_length' => 'Maximale Zeichenanzahl',
 
-  'field_fmt' => 'Text Formatierung',
+  'field_fmt' => 'Text-Formatierung',
 
   'field_show_fmt' => 'Überschreiben erlaubt?',
 
-  'field_show_fmt_desc' => 'Wenn auf <b>ja</b> gesetzt, dürfen Authoren die Standardtextformatierung überschreiben im Publish-Formular.',
+  'field_show_fmt_desc' => 'Wenn auf <b>ja</b> gesetzt, dürfen Autoren die Standardtextformatierung im Publish-Formular überschreiben.',
 
-  'field_text_direction' => 'Text Richtung',
+  'field_text_direction' => 'Textrichtung',
 
   'field_text_direction_ltr' => 'Von links nach rechts',
 
   'field_text_direction_rtl' => 'Von rechts nach links',
 
-  'textarea_height' => 'Textarea Zeilenhöhe',
+  'textarea_height' => 'Textarea-Zeilenhöhe',
 
   'textarea_height_desc' => 'Eingabefeldhöhe in Zeilen.',
 
