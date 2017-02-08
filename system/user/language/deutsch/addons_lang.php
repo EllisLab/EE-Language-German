@@ -20,7 +20,7 @@ $lang = array(
   'requested_module_not_installed' => 'Das angefragte Modul ist nicht installiert:',
 
   'manual'						=>		'Manual',
-  'author'						=> 		'Author',
+  'author'						=> 		'Autor',
   'example_usage'					=>		'Beispiel zur Benutzung',
   'available_parameters'			=>		'Verfügbare Parameter',
 
@@ -33,7 +33,7 @@ $lang = array(
 
   'confirm_uninstall' => 'Deinstallation bestätigen',
   'confirm_uninstall_desc' => 'Sie wollen die folgenden Punkte installieren. Bitte bestätigen Sie Ihre Aktion.',
-  'btn_confirm_and_uninstall' => 'Bestätigen und Deinsallieren',
+  'btn_confirm_and_uninstall' => 'Bestätigen und Deinstallieren',
   'btn_confirm_and_uninstall_working' => 'Deinstalliere...',
 
   /* Filters */
@@ -64,13 +64,13 @@ $lang = array(
   'default_map'					=>		'Standard Karte',
   'manual_override'				=>		'Manueller Eingriff',
   'latitude'						=>		'Breitengrad',
-  'latitude_desc'					=>		'Standard Breitengrad für dieses Feld.',
+  'latitude_desc'					=>		'Standard-Breitengrad für dieses Feld.',
   'longitude'						=>		'Längengrad',
-  'longitude_desc'				=>		'Standard Längengrad für dieses Feld.',
+  'longitude_desc'				=>		'Standard-Längengrad für dieses Feld.',
   'zoom'							=>		'Zoom',
-  'zoom_desc'						=>		'Standard Zoom Stufe für dieses Feld.',
+  'zoom_desc'						=>		'Standard-Zoom-Stufe für dieses Feld.',
   'preview'						=>		'Vorschau',
-  'preview_desc'					=>		'Standard Kartenansicht für das Feld.',
+  'preview_desc'					=>		'Standard-Kartenansicht für das Feld.',
 
 // 2.x
 
@@ -85,9 +85,9 @@ $lang = array(
   'addons_modules'				=>		'Module',
   'addons_plugins'				=>		'Plugins',
   'addons_extensions'				=>		'Extensions',
-  'addons_fieldtypes'				=>		'Fieldtype',
+  'addons_fieldtypes'				=>		'Feldtyp',
 
-  'fieldtype_name'				=>		'Fieldtype Name',
+  'fieldtype_name'				=>		'Feldtyp-Name',
   'not_installed'					=>		'Nicht installiert',
   'remove'						=>		'Entfernen',
   'extension_enabled'				=>		'Extension installiert',
@@ -99,30 +99,30 @@ $lang = array(
   'ext_enabled_short'				=>		'installiert',
   'ext_disabled_short'			=>		'deinstalliert',
 
-  'delete_fieldtype_confirm'		=>		'Wollen Sie wirklich diesen Fieldtype entfernen?',
-  'delete_fieldtype'				=>		'Fieldtype entfernen',
-  'fieldtype_data_will_be_lost'	=>		'Alle mit diesem Fieldtype verbundenen Daten, inklusive aller verknüpften Daten in den Channels, werden unwiderruflich gelöscht!',
+  'delete_fieldtype_confirm'		=>		'Wollen Sie wirklich diesen Feldtyp entfernen?',
+  'delete_fieldtype'				=>		'Feldtyp entfernen',
+  'fieldtype_data_will_be_lost'	=>		'Alle mit diesem Feldtyp verbundenen Daten, inklusive aller verknüpften Daten in den Channels, werden unwiderruflich gelöscht!',
   'global_settings_saved'			=>		'Einstellungen gespeichert',
 
   'package_settings'				=>		'Package Einstellungen',
   'component'						=>		'Bestandteil',
   'current_status'				=>		'Derzeitiger Status',
   'required_by'					=>		'Benötigt von:',
-  'extensions_disabled_warning'	=>		'Um dieses Add-On zu installieren müssen Sie Extensions aktivieren. Wollen Sie Extensions aktivieren?',
+  'extensions_disabled_warning'	=>		'Um dieses Add-On zu installieren, müssen Sie Extensions aktivieren. Wollen Sie Extensions aktivieren?',
 
   'available_to_member_groups'	=>		'Verfügbar für diese Nutzergruppen',
   'specific_page'					=>		'Bestimmte Seite?',
   'description'					=>		'Beschreibung',
   'version'						=>		'Version',
 // 'status'						=>		'Status',
-  'fieldtype'						=>		'Fieldtype',
+  'fieldtype'						=>		'Feldtyp',
 
-  'member_group_assignment'		=>		'Zugewiesene Nutzerruppe',
+  'member_group_assignment'		=>		'Zugewiesene Nutzergruppe',
   'page_assignment'				=>		'Zugewiesene Seiten',
 
   'none'							=>		'Nichts',
   'and_more'						=>		'und %x mehr...',
-  'plugins_not_available'			=> 		'Plugin Feed deaktiviert in der Beta Version.',
+  'plugins_not_available'			=> 		'Plugin-Feed ist in der Beta Version deaktiviert.',
   'no_extension_id'				=>		'Keine Extension angegeben',
   'configuration'					=>		'Konfiguration',
 
