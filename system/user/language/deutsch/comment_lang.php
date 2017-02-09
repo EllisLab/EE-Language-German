@@ -28,13 +28,13 @@ $lang = array(
 
   'settings' => 'Einstellungen',
 
-  'comment_settings' => 'Kommentar Einstellungen',
+  'comment_settings' => 'Kommentar-Einstellungen',
 
-  'delete_confirm' => 'Kommentar löschen Bestätigung',
+  'delete_confirm' => 'Kommentar löschen bestätigen',
 
-  'delete_comment_confirm' => 'Soll dieser Kommentar wirklich endgültig gelöscht werden?',
+  'delete_comment_confirm' => 'Soll dieser Kommentar definitiv gelöscht werden?',
 
-  'delete_comments_confirm' => 'Sollen diese Kommentare wirklich endgültig gelöscht werden?',
+  'delete_comments_confirm' => 'Sollen diese Kommentare definitiv gelöscht werden?',
 
   'comment_deleted' => 'Kommentare gelöscht',
 
@@ -60,7 +60,7 @@ $lang = array(
 
   'move' => 'Verschieben',
 
-  'move_comment_instr' => 'Neue Entry-ID Nummer angeben',
+  'move_comment_instr' => 'Neue Entry-ID-Nummer angeben',
 
   'registered_member' => 'Registrierte Nutzer',
 
@@ -68,7 +68,7 @@ $lang = array(
 
   'location' => 'Ort',
 
-  'choose_entry_for_comment_move' => 'Zum Kommentar Verschieben Eintrag wählen',
+  'choose_entry_for_comment_move' => 'Zum Kommentar verschieben einen Eintrag wählen',
 
   'move_comments_to_entry' => 'Verschiebe Kommentare zum Eintrag',
 
@@ -114,15 +114,15 @@ $lang = array(
 
   'today' => 'Heute',
 
-  'past_day' => 'Letzte 24 Stunden',
+  'past_day' => 'Letzten 24 Stunden',
 
-  'past_week' => 'Letze 7 Tage',
+  'past_week' => 'Letzen 7 Tage',
 
-  'past_month' => 'Letzte 30 Tage',
+  'past_month' => 'Letzten 30 Tage',
 
-  'past_six_months' => 'Letzte 180 Tage',
+  'past_six_months' => 'Letzten 180 Tage',
 
-  'past_year' => 'Letzte 365 Tage',
+  'past_year' => 'Letzten 365 Tage',
 
   'any_date' => 'Eigener Datumsbereich',
 
@@ -135,7 +135,7 @@ $lang = array(
 
   'cmt_must_be_member' => 'Nur registrierte Nutzer dürfen Kommentare abgeben.',
 
-  'cmt_no_authorized_for_comments' => 'Sie haben keine Erlaubnis zum Kommentieren vorhanden.',
+  'cmt_no_authorized_for_comments' => 'Sie haben keine Erlaubnis zum Kommentieren.',
 
   'cmt_account_not_active' => 'Ihr Nutzer-Konto ist noch nicht aktiviert.',
 
@@ -145,11 +145,11 @@ $lang = array(
 
   'cmt_missing_comment' => 'Die Eingabe eines Kommentars ist erforderlich',
 
-  'cmt_missing_email' => 'Angabe der E-Mail-Adresse erforderlich.',
+  'cmt_missing_email' => 'Angabe der Email-Adresse erforderlich.',
 
-  'cmt_invalid_email' => 'Die angegebene E-Mail-Adresse ist nicht gültig.',
+  'cmt_invalid_email' => 'Die angegebene Email-Adresse ist nicht gültig.',
 
-  'cmt_banned_email' => 'Die angegebene E-Mail-Adresse ist gesperrt',
+  'cmt_banned_email' => 'Die angegebene Email-Adresse ist gesperrt',
 
   'cmt_too_large' => 'Der Kommentar ist %n Zeichen lang. Es sind aber nur %x Zeichen erlaubt.',
 
@@ -163,7 +163,7 @@ $lang = array(
 
   'cmt_comment_response_body' => 'Jemand hat gerade einen Kommentar zum abonnierten Eintrag abgegeben bei:',
 
-  'cmt_comment_title' => 'Der Titel des Beitrages lautet:',
+  'cmt_comment_title' => 'Der Titel des Beitrags lautet:',
 
   'cmt_comment_url' => 'Sie finden den Kommentar unter dem folgenden URL:',
 
@@ -191,7 +191,7 @@ $lang = array(
 
   'no_valid_comments' => 'Keine gültigen Kommentare',
 
-  'comment_edit_time_limit' => 'Kommentar Ablaufzeit-Limit (in Sekunden, auf 0 setzen für kein Limit)',
+  'comment_edit_time_limit' => 'Kommentar-Ablaufzeit-Limit (in Sekunden, auf 0 setzen für kein Limit)',
 
   'already_subscribed' => 'Sie haben diesen Kommentar schon abonniert.',
 
