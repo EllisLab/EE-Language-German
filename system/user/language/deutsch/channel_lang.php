@@ -52,7 +52,7 @@ $lang = array(
 
   'category_groups' => 'Kategorien-Gruppen',
 
-  'status_groups' => 'Status Gruppen',
+  'status_groups' => 'Status-Gruppen',
 
   'no_channels' => 'Keine <b>Channels</b> gefunden.',
 
@@ -62,7 +62,7 @@ $lang = array(
 
   'channels_removed_desc' => '%d Channels wurden gelöscht.',
 
-  'maximum_channels_reached' => 'Die Maximalzahl an möglich anlegbaren Channnels wurde erreicht.',
+  'maximum_channels_reached' => 'Die Maximalzahl an möglich anlegbaren Channels wurde erreicht.',
 
   'edit' => 'bearbeiten',
 
@@ -80,7 +80,7 @@ $lang = array(
 
   'create_form_layout' => 'Formular-Layout anlegen',
 
-  'layout_options' => 'Layout Optionen',
+  'layout_options' => 'Layout-Optionen',
 
   'layout_member_groups' => 'Nutzer-Gruppe(n)?',
 
@@ -120,7 +120,7 @@ $lang = array(
 
   'duplicate_tab_name' => 'Ein Reiter mit diesem Namen existiert bereits.',
 
-  'illegal_tab_name' => 'Reiter-Namen dürfen nicht die folgenden Charakter enthalten: *, >, :, +, (, ), [, ], =, |, ", \', ., #, or $',
+  'illegal_tab_name' => 'Reiter-Namen dürfen nicht die folgenden Zeichen enthalten: *, >, :, +, (, ), [, ], =, |, ", \', ., #, or $',
 
   'error_cannot_hide_tab' => 'Reiter läßt sich nicht verbergen',
 
@@ -148,7 +148,7 @@ $lang = array(
 
   'channel_publishing_options' => 'Optionen der Veröffentlichung',
 
-  'channel_publishing_options_warning' => '<b>Warnung</b>: Channels benötigen eigene Feldergruppen um andere Daten außer Titel und Datum speichern zu können.',
+  'channel_publishing_options_warning' => '<b>Warnung</b>: Channels benötigen eigene Feldergruppen, um andere Daten außer Titel und Datum speichern zu können.',
   'channel_publishing_options_warning2' => 'Wenn Sie weitere Inhalte abspeichern möchten in diesem Channel, legen Sie zuerst eine <a href="%s">eigene Feldergruppe</a> an.',
 
   'channel_max_entries' => 'Maximal erlaubte Anzahl an Einträgen',
@@ -195,7 +195,7 @@ $lang = array(
 
   'channel_not_updated_desc' => 'Der Channel konnte nicht aktualisiert werden, bitte unten die Fehler ansehen und berichtigen.',
 
-  'invalid_short_name' => 'Der Channel darf nur alpha-nummerische Zeichen und keine Leerzeichen enthalten.',
+  'invalid_short_name' => 'Der Channel darf nur alphanummerische Zeichen und keine Leerzeichen enthalten.',
 
   'taken_channel_name' => 'Diesen Channel-Namen gibt es bereits.',
 
@@ -203,7 +203,7 @@ $lang = array(
    * Channel Settings
    */
 
-  'channel_settings' => 'Channel Einstellungen',
+  'channel_settings' => 'Channel-Einstellungen',
 
   'channel_description' => 'Beschreibung',
 
@@ -211,9 +211,9 @@ $lang = array(
 
   'xml_language' => '<abbr title="Extensible Markup Language">XML</abbr> language',
 
-  'xml_language_desc' => 'Standard Sprache für <abbr title="Extensible Markup Language">XML</abbr> Dateien, die durch diesen Channel generiert.',
+  'xml_language_desc' => 'Standard-Sprache für <abbr title="Extensible Markup Language">XML</abbr>-Dateien, die durch diesen Channel generiert werden.',
 
-  'url_path_settings' => '<abbr title="Unified Resource Locator">URL</abbr> und Pfad-Einstellungen',
+  'url_path_settings' => '<abbr title="Unified Resource Locator">URL</abbr>- und Pfad-Einstellungen',
 
   'channel_url_desc' => '<abbr title="Unified Resource Locator">URL</abbr>-Adresse dieses Channels.',
 
@@ -225,9 +225,9 @@ $lang = array(
 
   'search_results_desc' => '<abbr title="Unified Resource Locator">URL</abbr>-Adresse des Suchergebnisses für diesen Channel.',
 
-  'rss_feed' => '<abbr title="Really Simple Syndication">RSS</abbr> Feed',
+  'rss_feed' => '<abbr title="Really Simple Syndication">RSS</abbr>-Feed',
 
-  'rss_feed_desc' => '<abbr title="Unified Resource Locator">URL</abbr>-Adresse des <abbr title="Really Simple Syndication">RSS</abbr> Feed für diesen Channel.',
+  'rss_feed_desc' => '<abbr title="Unified Resource Locator">URL</abbr>-Adresse des <abbr title="Really Simple Syndication">RSS</abbr>-Feeds für diesen Channel.',
 
   'live_look_template' => 'Live Look Template',
 
@@ -242,9 +242,9 @@ $lang = array(
 
   'default_title_desc' => 'Titel wurde allen <b>neuen</b> Einträgen in diesem Channel zugewiesen.',
 
-  'url_title_prefix' => '<abbr title="Unified Resource Locator">URL</abbr> Titel Präfix',
+  'url_title_prefix' => '<abbr title="Unified Resource Locator">URL</abbr>-Titel-Präfix',
 
-  'url_title_prefix_desc' => '<abbr title="Unified Resource Locator">URL</abbr> Titel Präfix wurde allen <b>neuen </b> Einträgen in diesem Channel zugewiesen.',
+  'url_title_prefix_desc' => '<abbr title="Unified Resource Locator">URL</abbr>-Titel-Präfix wurde allen <b>neuen</b> Einträgen in diesem Channel zugewiesen.',
 
   'default_status' => 'Status',
 
@@ -260,31 +260,31 @@ $lang = array(
 
   'publishing' => 'Veröffentlichen',
 
-  'html_formatting' => '<abbr title="Hyper-Text Markup Language">HTML</abbr> Format',
+  'html_formatting' => '<abbr title="Hyper-Text Markup Language">HTML</abbr>-Format',
 
-  'html_formatting_desc' => 'Nivea von <abbr title="Hyper-Text Markup Language">HTML</abbr> erlaubt.',
+  'html_formatting_desc' => 'Niveau von <abbr title="Hyper-Text Markup Language">HTML</abbr> erlaubt.',
 
-  'extra_publish_controls' => 'Sollen extra Veröffentlichungskontrollen gezeigt werden?',
+  'extra_publish_controls' => 'Sollen weitere Veröffentlichungskontrollen gezeigt werden?',
 
   'extra_publish_controls_desc' => 'Wenn auf <b>ja</b> gesetzt, erscheint ein zweites Set an Veröffentlichungskontrollen am oberen Ende des Publish-Formulars für diesen Channel.',
 
-  'convert_image_urls' => 'Bild <abbr title="Unified Resource Locator">URL</abbr>s zulassen?',
+  'convert_image_urls' => 'Bild-<abbr title="Unified Resource Locator">URL</abbr>s zulassen?',
 
-  'convert_image_urls_desc' => 'Wenn auf <b>ja</b> gesetzt werden <abbr title="Unified Resource Locator">URL</abbr>s zu Bildern automatisch wie Bilder behandelt und ausgegeben in den Einträgen dieses Channels.',
+  'convert_image_urls_desc' => 'Wenn auf <b>ja</b> gesetzt, werden <abbr title="Unified Resource Locator">URL</abbr>s zu Bildern automatisch wie Bilder in den Einträgen dieses Channels behandelt und ausgegeben.',
 
   'convert_urls_emails_to_links' => '<abbr title="Unified Resource Locator">URL</abbr>s und Email-Adressen als Links darstellen?',
 
-  'convert_urls_emails_to_links_desc' => 'Wenn auf <b>jas</b> gesetzt, werden <abbr title="Unified Resource Locator">URL</abbr>s und Email-Adressen automatisch als Links in den Einträgen dieses Channels dargestellt.',
+  'convert_urls_emails_to_links_desc' => 'Wenn auf <b>ja</b> gesetzt, werden <abbr title="Unified Resource Locator">URL</abbr>s und Email-Adressen automatisch als Links in den Einträgen dieses Channels dargestellt.',
 
   'channel_form' => 'Channel-Formular',
 
-  'channel_form_status_desc' => 'Standard Status für Formulare in diesem Channel.',
+  'channel_form_status_desc' => 'Standard-Status für Formulare in diesem Channel.',
 
   'channel_form_default_author' => 'Autor',
 
-  'channel_form_default_author_desc' => 'Standard-Autor für Gast-Einträge über das Channel-Formular gepostet.',
+  'channel_form_default_author_desc' => 'Standard-Autor für Gast-Einträge, die über das Channel-Formular gepostet werden.',
 
-  'allow_guest_submission' => 'Gast-Beiträge erlauben?',
+  'allow_guest_submission' => 'Gast-Einträge erlauben?',
 
   'allow_guest_submission_desc' => 'Wenn auf <b>ja</b> gesetzt, dürfen Gäste in diesem Channel posten.',
 
@@ -302,16 +302,16 @@ $lang = array(
 
   'enable_author_notification' => 'Autoren-Benachrichtigung einschalten?',
 
-  'enable_author_notification_desc' => 'Wenn <b>aktivieren</b> gewählt, wird der Autor des Eintrages benachrichtigt, sobald der Eintrag kommentiert wird.',
+  'enable_author_notification_desc' => 'Wenn <b>aktivieren</b> gewählt, wird der Autor des Eintrages benachrichtigt, sobald der Eintrag kommentiert wurde.',
 
   'enable_channel_entry_notification' => 'Benachrichtigung für Channel-Einträge einschalten?',
 
-  'enable_channel_entry_notification_desc' => 'Wenn <b>aktivieren</b> gewählt ist, bekommen alle Empfänger eine E-Mail-Benachrichtigung, wenn eine neuer Artikel in diesem Channel veröffentlicht wird.</em>
+  'enable_channel_entry_notification_desc' => 'Wenn <b>aktivieren</b> gewählt ist, bekommen alle Empfänger eine Email-Benachrichtigung, wenn ein neuer Artikel in diesem Channel veröffentlicht wurde.</em>
 <em>Mehrere E-Mail-Adressen mit einem <mark>Komma (,)</mark> trennen.',
 
   'enable_comment_notification' => 'Kommentarbenachrichtigung anschalten?',
 
-  'enable_comment_notification_desc' => 'Wenn <b>aktivieren</b> gewählt ist, bekommen alle Empfänger eine E-Mail-Benachrichtigung, wenn eine neuer Kommentar in diesem Channel veröffentlicht wird.</em>
+  'enable_comment_notification_desc' => 'Wenn <b>aktivieren</b> gewählt ist, bekommen alle Empfänger eine Email-Benachrichtigung, wenn ein neuer Kommentar in diesem Channel veröffentlicht wurde.</em>
 <em>Mehrere E-Mail-Adressen mit einem <mark>Komma (,)</mark> trennen.',
 
   'commenting' => 'Kommentieren',
@@ -328,14 +328,14 @@ $lang = array(
 
   'require_membership_desc' => 'Wenn auf <b>ja</b> gesetzt, können nur registrierte Nutzer die Channel-Einträge kommentieren.',
 
-  'require_email' => 'E-mail-Adresse notwendig?',
+  'require_email' => 'Email-Adresse notwendig?',
 
   'require_email_desc'=>
     'Wenn auf <b>ja</b> gesetzt, muss ein Nutzer eine valide E-Mail-Adresse angeben, um kommentieren zu können.',
 
   'moderate_comments' => 'Kommentare moderieren?',
 
-  'moderate_comments_desc' => 'Wenn auf <b>ja</b> gesetzt, müssen Kommentare erst durch einen Super Admin oder eine Gruppe mit Moderatorenrechten gesichtet und freigegeben werden.',
+  'moderate_comments_desc' => 'Wenn auf <b>ja</b> gesetzt, müssen Kommentare erst durch einen Super-Admin oder eine Gruppe mit Moderatorenrechten gesichtet und freigegeben werden.',
 
   'max_characters' => 'Wieviele Zeichen sind maximal erlaubt?',
 
@@ -346,22 +346,22 @@ $lang = array(
   'comment_time_limit_desc' => 'Anzahl an Sekunden, die vergehen müssen, bevor ein Nutzer einen weiteren Kommentar absenden kann.</em>
 <em>0 eingeben für kein Zeitlimit.',
 
-  'comment_expiration' => 'Kommentare Zeitfenster einschränken',
+  'comment_expiration' => 'Kommentare-Zeitfenster einschränken',
 
   'comment_expiration_desc' => 'Anzahl an Tagen nach der Veröffentlichung eines Eintrages, innerhalb derer der Eintrag noch kommentiert werden kann.</em>
 <em>Leer lassen für keine Einschränkung.',
 
-  'text_formatting' => 'Text Formatierung',
+  'text_formatting' => 'Text-Formatierung',
 
   'text_formatting_desc' => 'Art der Formatierung für Kommentartext.',
 
-  'html_formatting' => '<abbr title="Hyper-Text Markup Language">HTML</abbr> Formatierung',
+  'html_formatting' => '<abbr title="Hyper-Text Markup Language">HTML</abbr>-Formatierung',
 
   'html_formatting_desc' => 'Erlaubtes HTML.',
 
-  'comment_convert_image_urls_desc' => 'Wenn auf <b>ja</b> gesetzt, werden <abbr title="Unified Resource Locator">URL</abbr>s zu Bildern automatisch als Bilder in den Kommentaren des Channel ausgegeben.',
+  'comment_convert_image_urls_desc' => 'Wenn auf <b>ja</b> gesetzt, werden <abbr title="Unified Resource Locator">URL</abbr>s zu Bildern automatisch als Bilder in den Kommentaren des Channels ausgegeben.',
 
-  'comment_convert_urls_emails_to_links_desc' => 'Wenn auf <b>ja</b> gesetzt werden <abbr title="Unified Resource Locator">URL</abbr>s und E-Mail-Adressen automatisch als Links in Kommentaren des Channel ausgegeben.',
+  'comment_convert_urls_emails_to_links_desc' => 'Wenn auf <b>ja</b> gesetzt, werden <abbr title="Unified Resource Locator">URL</abbr>s und Email-Adressen automatisch als Links in Kommentaren des Channels ausgegeben.',
 
   'btn_save_settings' => 'Einstellungen speichern',
 
@@ -373,7 +373,7 @@ $lang = array(
 
   'allow_all_html_not_recommended' => 'Alles HTML erlauben (nicht empfohlen)',
 
-  'auto_br' => 'Auto &lt;br /&gt;',
+  'auto_br' => 'Auto <br />',
 
   'xhtml' => 'XHTML',
 
@@ -393,13 +393,13 @@ $lang = array(
 
   'channel_form_default_status_empty' => '-- Channel Standard benutzen --',
 
-  'channel_settings_saved' => 'Channel Einstellungen gesichert',
+  'channel_settings_saved' => 'Channel-Einstellungen gesichert',
 
   'channel_settings_saved_desc' => 'Die Einstellungen für Channel <b>%s</b> wurde gesichert.',
 
-  'channel_settings_not_saved' => 'Die Channel Einstellungen konnten nicht gesichert werden',
+  'channel_settings_not_saved' => 'Die Channel-Einstellungen konnten nicht gesichert werden',
 
-  'channel_settings_not_saved_desc' => 'Die Channel Einstellungen konnten nicht gesichert werden, bitte die unten aufgeführten Fehler ansehen und berichtigen.',
+  'channel_settings_not_saved_desc' => 'Die Channel-Einstellungen konnten nicht gesichert werden, bitte die unten aufgeführten Fehler ansehen und berichtigen.',
 
   /**
    * Categories
@@ -449,7 +449,7 @@ $lang = array(
 
   'cat_image_desc' => '',
 
-  'html_formatting' => 'HTML Formatierung',
+  'html_formatting' => 'HTML-Formatierung',
 
   'html_formatting_desc' => '',
 
@@ -457,15 +457,15 @@ $lang = array(
 
   'category_permissions_warning' => '<b>Warnung</b>: Bitte sehr vorsichtig mit der Vergabe von Zugangsrechten umgehen.',
 
-  'category_permissions_warning2' => 'Alles mit %s Markierte sollte nur wirklich vertrauenswürdigen Benutzern zugeteilt werden.',
+  'category_permissions_warning2' => 'Alles mit %s markierte sollte nur wirklich vertrauenswürdigen Benutzern zugeteilt werden.',
 
   'edit_categories' => 'Kategorie bearbeiten',
 
-  'edit_categories_desc' => 'Benutzer in den gewählten Gruppen dürfen Kategorien bearbeiten in dieser Kategoriegruppe.</em><em>Super Administratoren dürfen <b>immer</b>.',
+  'edit_categories_desc' => 'Benutzer in den gewählten Gruppen dürfen Kategorien bearbeiten in dieser Kategoriegruppe. Super-Admins dürfen <b>immer</b>.',
 
   'delete_categories' => 'Kategorien löschen',
 
-  'delete_categories_desc' => 'Benutzer in den gewählten Gruppen dürfen Kategorien löschen in dieser Kategoriegruppe.</em><em>Super Administratoren dürfen <b>immer</b>.',
+  'delete_categories_desc' => 'Benutzer in den gewählten Gruppen dürfen Kategorien löschen in dieser Kategoriegruppe. Super-Admins dürfen <b>immer</b>.',
 
   'cat_group_no_member_groups_found' => 'Keine <b>Nutzergruppen</b> mit Rechten gefunden',
 
@@ -495,7 +495,7 @@ $lang = array(
 
   'cat_image_choose' => 'Aus Verzeichnis auswählen',
 
-  'parent_category' => 'Mutter Kategorie',
+  'parent_category' => 'Mutter-Kategorie',
 
   'parent_category_desc' => '',
 
@@ -605,7 +605,7 @@ $lang = array(
 
   'status_group_not_updated_desc' => 'Die Statusgruppe konnte nicht aktualisiert werden, bitte die unten aufgeführten Fehler ansehen und berichtigen.',
 
-  'status_name' => 'Status Name',
+  'status_name' => 'Status-Name',
 
   'statuses' => 'Status',
 
@@ -629,9 +629,9 @@ $lang = array(
 
   'highlight_color_desc' => 'Text-Farbe für diesen Status. Nimmt HEX-Werte an.',
 
-  'status_access' => 'Status Zugriff',
+  'status_access' => 'Status-Zugriff',
 
-  'status_access_desc' => 'Nutzer in den gewählten Gruppen dürfen diesen Status wählen.</em><em>Super Administratoren dürfen <b>immer</b>.',
+  'status_access_desc' => 'Nutzer in den gewählten Gruppen dürfen diesen Status wählen. Super-Admins dürfen <b>immer</b>.',
 
   'status_created' => 'Status angelegt',
 
