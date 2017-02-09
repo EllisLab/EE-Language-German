@@ -4,7 +4,7 @@ $lang = array(
 
 // 3.0
 
-  'edit_channel_entries' => 'Channel Einträge bearbeiten',
+  'edit_channel_entries' => 'Channel-Einträge bearbeiten',
 
   'all_channel_entries' => 'Alle %s Einträge',
 
@@ -59,15 +59,15 @@ $lang = array(
 
   'btn_edit_comment' => 'Kommentar bearbeiten',
 
-  'author_information' => 'Author Information',
+  'author_information' => 'Autor-Information',
 
-  'author_information_desc' => 'Information über den Author dieses Kommentares, nicht bearbeitbar.',
+  'author_information_desc' => 'Informationen über den Autor dieses Kommentares, nicht bearbeitbar.',
 
-  'comment_status_desc' => 'Status dieses Kommentares.',
+  'comment_status_desc' => 'Status dieses Kommentars.',
 
-  'comment_content' => 'Kommentar Inhalt',
+  'comment_content' => 'Kommentar-Inhalt',
 
-  'comment_content_desc' => 'Inhalt dieses Kommentares.',
+  'comment_content_desc' => 'Inhalt dieses Kommentars.',
 
   'move_comment' => 'Kommentar bewegen?',
 
@@ -106,9 +106,9 @@ $lang = array(
 
   'edit_entry_error_desc' => 'Der Eintrag konnte nicht aktualisiert werden, bitte sehen Sie sich die Fehler unten an und beheben diese.',
 
-  'url_title' => '<abbr title="Unified Resource Locator">URL</abbr> Titel',
+  'url_title' => '<abbr title="Unified Resource Locator">URL</abbr>-Titel',
 
-  'url_title_desc' => '<abbr title="Unified Resource Locator">URL</abbr> Ort des Eintrages.',
+  'url_title_desc' => '<abbr title="Unified Resource Locator">URL</abbr>-Ort des Eintrages.',
 
   'entry_date' => 'Datum des Eintrags',
 
@@ -128,7 +128,7 @@ $lang = array(
 
   'channel' => 'Channel',
 
-  'channel_desc' => 'Channel in dem der Eintrag gepostet werden soll.',
+  'channel_desc' => 'Channel, in dem der Eintrag gepostet werden soll.',
 
   'author' => 'Autor',
 
@@ -136,11 +136,11 @@ $lang = array(
 
   'sticky' => 'Eintrag permanent oben anzeigen?',
 
-  'sticky_desc' => 'Wenn auf <b>ja</b> gesetzt wird dieser Eintrag innerhalb der sortierten Listen oben ausgegeben.',
+  'sticky_desc' => 'Wenn auf <b>ja</b> gesetzt, wird dieser Eintrag innerhalb der sortierten Listen oben ausgegeben.',
 
   'allow_comments' => 'Kommentare erlaubt?',
 
-  'allow_comments_desc' => 'Wenn auf <b>ja</b> gesetzt dürfen Nutzer mit Berechtigung diesen Eintrag kommentieren.',
+  'allow_comments_desc' => 'Wenn auf <b>ja</b> gesetzt, dürfen Nutzer mit Berechtigung diesen Eintrag kommentieren.',
 
   'categories' => 'Kategorien',
 
@@ -181,7 +181,7 @@ $lang = array(
   'live_view' => 'Klicken zum Zeigen',
 
   'versioning_enabled' => 'Versionierung für diesen Eintrag einschalten',
-  'versioning_enabled_desc' => 'Wenn auf <b>ja</b> gesetzt werden pro Eintrag bis zu %d Überarbeitungen gespeichert.',
+  'versioning_enabled_desc' => 'Wenn auf <b>ja</b> gesetzt, werden pro Eintrag bis zu %d Überarbeitungen gespeichert.',
 
   'revision_warning' => 'Eine ältere Version soll geladen werden: Nicht gespeicherter Inhalt dieser Seite wird verloren gehen.',
 
@@ -200,7 +200,7 @@ $lang = array(
 
   'multi_entries_updated' => 'Einträge wurden aktualisiert',
 
-  'multi_entry_editor' => 'Multi Eintrag Editor',
+  'multi_entry_editor' => 'Multi-Eintrag-Editor',
 
   'unauthorized_to_edit' => 'Es liegt keine Erlaubnis vor, den gewählten Beitrag zu bearbeiten.',
 
@@ -208,21 +208,21 @@ $lang = array(
 
   'edit_selected' => 'Markierte bearbeiten',
 
-  'confirm_exit' => 'Wenn Sie die Seite verlassen gehen alle eingegebenen Daten verloren. Wollen Sie das wirklich?',
+  'confirm_exit' => 'Wenn Sie die Seite verlassen, gehen alle eingegebenen Daten verloren. Wollen Sie das wirklich?',
 
   'delete_selected' => 'Markierte löschen',
 
   'forum' => 'Forum',
 
-  'forum_topic_id' => 'Forum Thema ID',
+  'forum_topic_id' => 'Forum-Thema-ID',
 
   'forum_topic_id_info' => 'Dieses Feld erlaubt den Weblog-Eintrag mit einem Forum-Thema zu verknüpfen.',
 
-  'forum_topic_id_exitsts' => 'Besteht ein Forum-Thema bereits und es soll mit dem Eintrag verknüpft werden, geben Sie die Thema ID ein und lassen das obere Feld leer.',
+  'forum_topic_id_exitsts' => 'Besteht ein Forum-Thema bereits und es soll mit dem Eintrag verknüpft werden, geben Sie die Thema-ID ein und lassen das obere Feld leer.',
 
-  'forum_title' => 'Forum-Thema Titel',
+  'forum_title' => 'Forum-Thema-Titel',
 
-  'forum_body' => 'Forum-Thema Text',
+  'forum_body' => 'Forum-Thema-Text',
 
   'forums_unavailable' => 'Es gibt kein Forum zum Posten',
 
@@ -230,7 +230,7 @@ $lang = array(
 
   'live_look' => 'Live Look',
 
-  'delete_comments_confirm' => 'Wollen Sie diese Kommentare wirklich definitiv löschen?',
+  'delete_comments_confirm' => 'Wollen Sie diese Kommentare definitiv löschen?',
 
   'comment_updated' => 'Kommentar aktualisiert',
 
@@ -264,7 +264,7 @@ $lang = array(
 
   'spell_check' => 'Rechtschreibprüfung',
 
-  'no_spellcheck_lib' => 'Fehler:  Die Pspell Library scheint nicht installiert zu sein.',
+  'no_spellcheck_lib' => 'Fehler:  Die Bibliothek für die Rechtschreibung scheint nicht installiert zu sein.',
 
   'html_glossary' => 'Wörterbuch',
 
@@ -350,7 +350,7 @@ $lang = array(
 
   'content' => 'Inhalt',
 
-  'no_channel_exists' => 'Sie haben versucht auf einen Channel zuzugreifen, den es nicht gibt.',
+  'no_channel_exists' => 'Sie haben versucht, auf einen Channel zuzugreifen, den es nicht gibt.',
 
   'no_entries_matching_that_criteria' => 'Es gibt keine Einträge, die Ihren Suchkriterien entsprechen.',
 
@@ -385,10 +385,10 @@ $lang = array(
 
   'fields' => 'Felder',
 
-  'publish_layout' => 'Formular Layout',
+  'publish_layout' => 'Formular-Layout',
   'save_layout' => 'Layout speichern',
   'remove_layout' => 'Layout entfernen',
-  'preview_layout' => 'Layout Vorschau',
+  'preview_layout' => 'Layout-Vorschau',
   'refresh_layout' => 'Layout aktualisieren',
 
   'tab_count_zero' => 'Es muss ein Tab übrig bleiben für die Felder.',
@@ -403,7 +403,7 @@ $lang = array(
 
   'autosave_success' => 'Eintrag automatisch gespeichert',
   'autosave_title' => 'Gespeicherte Daten verfügbar',
-  'autosave_warning_1' => 'ExpressionEngine hat Daten von diesem Eintrag gespeichert bevor er das letzte Mal gespeichert wurde.',
+  'autosave_warning_1' => 'ExpressionEngine hat Daten von diesem Eintrag gespeichert, bevor er das letzte Mal gespeichert wurde.',
   'autosave_warning_2' => 'Gespeicherte Daten werden entfernt, wenn ein Eintrag gespeichert oder erneut gespeichert wurde.',
   'autosave_warning_3' => 'Wollen Sie diese Daten jetzt laden?',
 
@@ -413,7 +413,7 @@ $lang = array(
   'hide_toolbar' => 'Toolbar verbergen',
   'show_toolbar' => 'Toolbar zeigen',
 
-  'button_mode' => 'Button Mode:',
+  'button_mode' => 'Button-Mode:',
 
   'guided' => 'Geführt',
 
@@ -471,19 +471,19 @@ $lang = array(
 
   'xhtml' => 'XHTML',
 
-  'auto_br' => 'Auto &lt;br /&gt;',
+  'auto_br' => 'Auto <br />',
 
   'link' => 'Link',
 
   'image' => 'Bild',
 
-  'email' => 'E-Mail',
+  'email' => 'Email',
 
   'upload' => 'Upload',
 
-  'upload_file' => 'Upload Datei',
+  'upload_file' => 'Upload-Datei',
 
-  'file_upload' => 'Datei Upload',
+  'file_upload' => 'Datei-Upload',
 
   'upload_dir_choose' => 'Ein Upload-Verzeichnis wählen',
   'upload_to' => 'Hochladen nach %s',
@@ -533,17 +533,17 @@ $lang = array(
 
   'date_range' => 'Datumsbereich',
 
-  'today' => 'Today',
+  'today' => 'Heute',
 
-  'past_day' => 'Letzte 24 Stunden',
+  'past_day' => 'Letzten 24 Stunden',
 
-  'past_week' => 'Letzte 7 Tage',
+  'past_week' => 'Letzten 7 Tage',
 
-  'past_month' => 'Letzte 30 Tage',
+  'past_month' => 'Letzten 30 Tage',
 
-  'past_six_months' => 'Letzte 180 Tage',
+  'past_six_months' => 'Letzten 180 Tage',
 
-  'past_year' => 'Letzte 365 Tage',
+  'past_year' => 'Letzten 365 Tage',
 
   'any_date' => 'Jedes Datum',
 
@@ -559,9 +559,9 @@ $lang = array(
 
   'delete_confirm' => 'Löschen bestätigen',
 
-  'delete_entry_confirm' => 'Soll dieser Eintrag wirklich definitiv gelöscht werden?',
+  'delete_entry_confirm' => 'Soll dieser Eintrag definitiv gelöscht werden?',
 
-  'delete_entries_confirm' => 'Sollen diese Einträge wirklich definitiv gelöscht werden?',
+  'delete_entries_confirm' => 'Sollen diese Einträge definitiv gelöscht werden?',
 
   'entries_deleted' => 'Gelöscht',
 
@@ -575,9 +575,9 @@ $lang = array(
 
   'html_buttons_image_text' => 'Bild-URL eingeben',
 
-  'html_buttons_email_text' => 'E-Mail-Adresse eingeben',
+  'html_buttons_email_text' => 'Email-Adresse eingeben',
 
-  'html_buttons_email_title' => 'Linktitel eingeben (oder leer lassen, um die E-Mail-Adresse als Link zu verwenden)',
+  'html_buttons_email_title' => 'Linktitel eingeben (oder leer lassen, um die Email-Adresse als Link zu verwenden)',
 
   'html_buttons_enter_text' => 'Text eingeben, der formatiert werden soll',
 
@@ -591,7 +591,7 @@ $lang = array(
 
   'action_delete' => 'Löschen',
 
-  'overwrite_instructions' => 'Sie können entweder einen neuen Dateinamen wählen, oder Sie schicken dieses Formular mit diesem Namen ab, und die alte Datei wird überschrieben.',
+  'overwrite_instructions' => 'Sie können entweder einen neuen Dateinamen wählen oder Sie schicken dieses Formular mit diesem Namen ab und die alte Datei wird überschrieben.',
 
   'select_destination_dir' => 'Zielverzeichnis auswählen',
 
@@ -601,7 +601,7 @@ $lang = array(
 
   'file_saved' => 'Datei gespeichert',
 
-  'image' => 'Image',
+  'image' => 'Bild',
 
   'non_image' => 'Nicht-Bild',
 
@@ -615,7 +615,7 @@ $lang = array(
 
   'comment_date' => 'Datum:',
 
-  'comment_email' => 'E-Mail:',
+  'comment_email' => 'Email:',
 
   'comment_url' => 'URL:',
 
@@ -639,7 +639,7 @@ $lang = array(
 
   'status_changed' => 'Status geändert',
 
-  'delete_comment_confirm' => 'Soll dieser Kommentar wirklich definitiv gelöscht werden?',
+  'delete_comment_confirm' => 'Soll dieser Kommentar definitiv gelöscht werden?',
 
   'name' => 'Name',
 
@@ -649,15 +649,15 @@ $lang = array(
 
   'continue' => 'Weiter',
 
-  'image_options' => 'Bild Optionen',
+  'image_options' => 'Bild-Optionen',
 
-  'create_popup' => 'Pop-up für das Bild erstellen??',
+  'create_popup' => 'Pop-up für das Bild erstellen?',
 
   'create_thumb' => 'Vorschaubild erstellen',
 
   'constrain_proportions' => 'Proportionen beibehalten',
 
-  'thumb_settings' => 'Bild Einstellungen',
+  'thumb_settings' => 'Bild-Einstellungen',
 
   'choose_a_destination_for_thumb' => 'Wo soll das Bild angezeigt werden?',
 
@@ -697,7 +697,7 @@ $lang = array(
 
   'choose_entry_for_comment_move' => 'Eintrag wählen für das Verschieben des Kommentars',
 
-  'move_comments_to_entry' => 'Verschieben des Kommentars zu Eintrag',
+  'move_comments_to_entry' => 'Verschieben des Kommentars zum Eintrag',
 
   'move_selected' => 'Verschiebe Markiertes',
 
@@ -711,7 +711,7 @@ $lang = array(
 
   'no_autosave_data' => 'Keine automatisch gespeicherten Einträge',
 
-  'autosave_data_available' => 'automatisch gespeicherte Daten verfügbar',
+  'autosave_data_available' => 'Automatisch gespeicherte Daten verfügbar',
   'autosaved_entries' => 'Automatisch gesicherte Einträge',
 
   'no_category_group_match' => 'Für alle Einträge wurde keine Übereinstimmung in den Kategorien-Gruppen gefunden. Bitte Einträge wählen mit mindestens einer gemeinsamen Kategorien-Gruppe.',
@@ -767,7 +767,7 @@ $lang = array(
   'add_new_row' => 'Neue Zeile hinzugefügt',
   'remove_row' => 'Zeile entfernen',
 
-  'add_new_html_button' => 'Neuen HTML Button hinzufügen',
+  'add_new_html_button' => 'Neuen HTML-Button hinzufügen',
 
   'show' => 'Zeigen',
   'hide' => 'Verbergen',
@@ -775,7 +775,7 @@ $lang = array(
 
 // writemode
   'wm_discard_changes' => 'Änderungen verwerfen',
-  'wm_publish_to_field' => 'Ind Feld publizieren',
+  'wm_publish_to_field' => 'Ins Feld publizieren',
 
   'edit_modes' => 'Bearbeiten-Modi',
   'resize' => 'Verändern',
@@ -804,7 +804,7 @@ $lang = array(
 
   'layout_failure_invalid_name' => 'Folgende Felder haben ungültige Zeichen in ihrem Kurznamen.',
 
-  'layout_preview' => 'Sie sehen eine Publish Layout-Vorschau für',
+  'layout_preview' => 'Sie sehen eine Publish-Layout-Vorschau für',
 
   'no_entry_to_update' => 'Sie wollten einen Eintrag bearbeiten, den es nicht gibt.',
 
