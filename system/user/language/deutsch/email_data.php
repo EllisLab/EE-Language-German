@@ -46,7 +46,7 @@ if ( ! function_exists('admin_notify_reg_title'))
 	function admin_notify_reg_title()
 	{
 return <<<EOF
-Benachrichtigung über Neue Mitglied-Registratur
+Benachrichtigung über neue Mitgliederregistrierung
 EOF;
 	}
 }
@@ -56,10 +56,10 @@ if ( ! function_exists('admin_notify_reg'))
 	function admin_notify_reg()
 	{
 return <<<EOF
-Mitgliederregistratur auf Site: {site_name}
+Mitgliederregistrierung auf Site: {site_name}
 
 Bildschirmname: {name}
-Username: {username}
+Benutzername: {username}
 E-Mail: {email}
 
 URL zur Administration: {control_panel_url}
@@ -154,7 +154,7 @@ if ( ! function_exists('forgot_password_instructions_title'))
 	function forgot_password_instructions_title()
 	{
 return <<<EOF
-Login Information
+Login-Informationen
 EOF;
 	}
 }
@@ -170,9 +170,9 @@ Um das Passwort zurückzusetzen, gehen Sie bitte zu folgender Seite:
 
 {reset_url}
 
-Ihr Passwort wird automatisch zurückgesetzt und das neues Passwort erhalten Sie per E-Mail.
+Ihr Passwort wird automatisch zurückgesetzt. Das neues Passwort erhalten Sie via E-Mail.
 
-Soll das Passwort nicht zurückgesetzt werden, ignorieren Sie bitte diese Meldung. Sie wird in 24 Studen verfallen.
+Soll das Passwort nicht zurückgesetzt werden, ignorieren Sie bitte diese Meldung. Sie wird in 24 Stunden verfallen.
 
 {site_name}
 {site_url}
@@ -190,7 +190,7 @@ if ( ! function_exists('validated_member_notify_title'))
 	function validated_member_notify_title()
 	{
 return <<<EOF
-Ihr Mitgliedschaftskonto wurde aktiviert.
+Ihr Mitgliedskonto wurde aktiviert.
 EOF;
 	}
 }
@@ -202,7 +202,7 @@ if ( ! function_exists('validated_member_notify'))
 return <<<EOF
 {name},
 
-Ihr Mitgliedschaftskonto wurde aktiviert und ist für den Einsatz bereit.
+Ihr Mitgliedskonto wurde aktiviert und ist für den Einsatz bereit.
 
 Besten Dank!
 
@@ -223,7 +223,7 @@ if ( ! function_exists('decline_member_validation_title'))
 	function decline_member_validation_title()
 	{
 return <<<EOF
-Ihr Mitgliedschaftkonto wurde abgelehnt
+Ihr Mitgliedskonto wurde abgelehnt
 EOF;
 	}
 }
@@ -269,7 +269,7 @@ Jemand hat auf Ihren abonnierten Beitrag geantwortet. Hier:
 Titel das Beitrages:
 {entry_title}
 
-Den Kommentar finden Sie bei diesem URL:
+Den Kommentar finden Sie mit diesem URL:
 {comment_url}
 
 {comment}
@@ -299,7 +299,7 @@ if ( ! function_exists('comments_opened_notification'))
 	function comments_opened_notification()
 	{
 return <<<EOF
-Antworten wurden geschrieben bei EInträgen die Sie abonniert haben :
+Antworten wurden geschrieben für Einträge, die Sie abonniert haben :
 {channel_name}
 
 Der Titel des Eintrages:
@@ -414,14 +414,14 @@ return <<<EOF
 
 {sender_name} sendet eine Private Mitteilung, mit Titel '{message_subject}'.
 
-Zum Lesen bitte Anmelden und die InBox prüfen hier:
+Zum Lesen bitte Anmelden und hier die Inbox prüfen:
 {site_url}
 
 Inhalt:
 
 {message_content}
 
-Zum Stoppen der Benachrichtigungen für Private Mitteilungen, die entsprechende Option in den E-Mail-Einstellungen vornehmen.
+Zum Stoppen der Benachrichtigungen für Private Mitteilungen bitte die entsprechende Option in den Email-Einstellungen vornehmen.
 
 {site_name}
 {site_url}
@@ -454,7 +454,7 @@ return <<<EOF
 {sender_name} hat gerade versucht, eine Private Mitteilung zu
 versenden, aber die Mailbox ist voll. Das Limit von {pm_storage_limit} ist erreicht.
 
-Bitte einloggen und unbenötigte Mitteilungen in der InBox hier löschen: 
+Bitte einloggen und unbenötigte Mitteilungen hier in der Inbox löschen: 
 {site_url}
 EOF;
 	}
