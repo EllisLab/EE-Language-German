@@ -32,7 +32,7 @@ $lang = array(
 
   'email' => 'E-Mail',
 
-  'members' => 'Nutzer',
+  'members' => 'Mitglieder',
 
   'forums' => 'Foren',
 
@@ -244,9 +244,9 @@ $lang = array(
 
   'hit_counter_desc' => 'Zeigt, wie oft dieses Template von der Website aus aufgerufen wurde.',
 
-  'allowed_member_groups' => 'Zugelassene Nutzergruppen',
+  'allowed_member_groups' => 'Zugelassene Mitgliedergruppen',
 
-  'allowed_member_groups_desc' => 'Die folgenden Nutzergruppen dürfen auf diese Template-Gruppe zugreifen.',
+  'allowed_member_groups_desc' => 'Die folgenden Mitgliedergruppen dürfen auf diese Template-Gruppe zugreifen.',
 
   'allowed_member_groups_super_admin' => 'Super Administratoren dürfen <b>immer</b>.',
 
@@ -256,7 +256,7 @@ $lang = array(
 
   'enable_http_authentication' => 'HTTP Authentifizierung aktivieren?',
 
-  'enable_http_authentication_desc' => 'Wenn auf <b>aktivieren</b> gesetzt, werden sich Nutzer mit Zugriffsrechten anmelden müssen.',
+  'enable_http_authentication_desc' => 'Wenn auf <b>aktivieren</b> gesetzt, werden sich Mitglieder mit Zugriffsrechten anmelden müssen.',
 
   'template_route_override' => 'Template Routes überschreiben',
 
@@ -298,7 +298,7 @@ $lang = array(
 
   'offline_template' => 'Site offline',
 
-  'message_template' => 'Benutzer-Nachrichten',
+  'message_template' => 'Mitglieder-Nachrichten',
 
   'message_template_warning' => '<b>Warnung</b>: Keine der folgenden 5 benötigten Variablen löschen: {title} {meta_refresh} {heading} {content} {link}',
 
@@ -318,7 +318,7 @@ $lang = array(
 
   'comments' => 'Kommentare',
 
-  'members' => 'Nutzer',
+  'members' => 'Mitglieder',
 
   'private_messages' => 'Private Nachrichten',
 
@@ -352,7 +352,7 @@ $lang = array(
 
   'forum_themes'					=>	'Forum Themes',
   'wiki_themes'					=>	'Wiki Themes',
-  'member_profile_templates'		=>	'Nutzerprofil-Templates',
+  'member_profile_templates'		=>	'Mitgliederprofil-Templates',
 
 //----------------------------
 // Templates
@@ -411,9 +411,9 @@ $lang = array(
 
   'email_notification' => 'E-Mail-Benachrichtigung',
 
-  'user_message' => 'Benutzer-Mitteilung',
+  'user_message' => 'Mitglieder-Mitteilung',
 
-  'user_messages_template' => 'Benutzer-Mitteilung-Template',
+  'user_messages_template' => 'Mitglieder-Mitteilung-Template',
 
   'offline_template' => 'System-Offline-Template',
 
@@ -639,17 +639,17 @@ $lang = array(
 
   'you_must_submit_a_name' => 'Das Template braucht einen Namen.',
 
-  'member_group' => 'Benutzer-Gruppe',
+  'member_group' => 'Mitglieder-Gruppe',
 
   'can_view_template' => 'Kann diese Seite sehen',
 
-  'require_logged_in' => 'Müssen Benutzer angemeldet sein, um diese Seite zu sehen?',
+  'require_logged_in' => 'Müssen Mitglieder angemeldet sein, um diese Seite zu sehen?',
 
-  'logged_out_select_blurb' => 'Wenn Sie &quot;Ja&quot; gewählt haben, soll ein nicht angemeldeter Benutzer anstelle dieser Seite die folgende angezeigt bekommen:',
+  'logged_out_select_blurb' => 'Wenn Sie &quot;Ja&quot; gewählt haben, soll ein nicht angemeldeter Mitglieder anstelle dieser Seite die folgende angezeigt bekommen:',
 
   'no_access_select_blurb' => 'Wenn Sie bei einem der obigen &quot;Nein&quot; gewählt haben:',
 
-  'no_access_instructions' => 'Wenn unautorisierte Benutzer diese Seite anzusehen versuchen, sollen sie stattdessen die folgende Seite zu sehen bekommen:',
+  'no_access_instructions' => 'Wenn unautorisierte Mitglieder diese Seite anzusehen versuchen, sollen sie stattdessen die folgende Seite zu sehen bekommen:',
 
   'template_notes' => 'Template Notizen',
 
@@ -818,9 +818,9 @@ ziehen Sie besser <a href ="%s">Globale Variablen</a> in Betracht.',
 
   'login_form' => 'Login-Formular',
 
-  'memberlist' => 'Nutzerliste',
+  'memberlist' => 'Mitgliederliste',
 
-  'memberlist_rows' => 'Nutzerliste-Zeilen',
+  'memberlist_rows' => 'Mitgliederliste-Zeilen',
 
   'menu' => 'Mitglieds-Profil-Menü',
 
@@ -840,7 +840,7 @@ ziehen Sie besser <a href ="%s">Globale Variablen</a> in Betracht.',
 
   'username_change_disallowed' => 'Nachricht: Benutzernamen-Änderung nicht erlaubt',
 
-  'username_password_form' => 'Formular: Username und Passwort',
+  'username_password_form' => 'Formular: Benutzername und Passwort',
 
   'username_row' => 'Username Formulare Zeile',
 
@@ -862,7 +862,7 @@ ziehen Sie besser <a href ="%s">Globale Variablen</a> in Betracht.',
 
   'submit_and_return' => 'Gesendet und beendet',
 
-  'group_description' => 'Nutzergruppen-Beschreibung',
+  'group_description' => 'Mitgliedergruppen-Beschreibung',
 
   'can_send_bulletins' => 'Kann Bulletins senden',
 
@@ -978,7 +978,7 @@ ziehen Sie besser <a href ="%s">Globale Variablen</a> in Betracht.',
 
   'browse_avatars' => 'Browse Avatar Seite',
 
-  'custom_profile_fields' => 'Eigene Nutzer-Felder',
+  'custom_profile_fields' => 'Eigene Mitglieder-Felder',
 
   'bulletin_board' => 'Pinwand',
 
