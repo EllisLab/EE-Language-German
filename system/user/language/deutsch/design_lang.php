@@ -16,13 +16,13 @@ $lang = array(
 
   'zero_template_groups_found' => 'Keine <b>Template-Gruppe</b> gefunden',
 
-  'system_templates' => 'System Templates',
+  'system_templates' => 'System-Templates',
 
-  'template_partials' => 'Template Partials',
+  'template_partials' => 'Template-Partials',
 
-  'template_variables' => 'Template Variablen',
+  'template_variables' => 'Template-Variablen',
 
-  'template_routes' => 'Template Routes',
+  'template_routes' => 'Template-Routes',
 
   'routes' => 'Routen',
 
@@ -30,9 +30,9 @@ $lang = array(
 
   'messages' => 'Nachrichten',
 
-  'email' => 'E-Mail',
+  'email' => 'Email',
 
-  'members' => 'Nutzer',
+  'members' => 'Benutzer',
 
   'forums' => 'Foren',
 
@@ -64,7 +64,7 @@ $lang = array(
 
   'create_template_group_error' => 'Template-Gruppe nicht angelegt',
 
-  'create_template_group_error_desc' => 'Die Gruppe konnte nicht angelegt werden, sehen Sie sich die Fehler unten an und beheben Sie diese.',
+  'create_template_group_error_desc' => 'Die Gruppe konnte nicht angelegt werden, bitte sehen Sie sich die unten aufgeführten Fehler an und beheben Sie diese.',
 
   'edit_template_group_success' => 'Template-Gruppe aktualisiert',
 
@@ -72,7 +72,7 @@ $lang = array(
 
   'edit_template_group_error' => 'Template-Gruppe nicht aktualisiert',
 
-  'edit_template_group_error_desc' => 'Die Gruppe konnte nicht aktualisiert werden, sehen Sie sich die Fehler unten an und beheben Sie diese.',
+  'edit_template_group_error_desc' => 'Die Gruppe konnte nicht aktualisiert werden, bitte sehen Sie sich die unten aufgeführten Fehler an und beheben Sie diese.',
 
   'template_group_removed' => 'Template-Gruppe entfernt',
 
@@ -82,15 +82,15 @@ $lang = array(
 
   'reserved_name' => 'Der gewählte Name ist ein reserviertes Wort und darf nicht benutzt werden.',
 
-  'template_group_taken' => 'Der Template-Gruppen Name ist bereits vorhanden',
+  'template_group_taken' => 'Der Template-Gruppen-Name ist bereits vorhanden',
 
-  'template_partials_header' => 'Template Partials<br><i>Wiederbenutzbarer dynamischer Inhalt als Template- und Tag-Parts.</i>',
+  'template_partials_header' => 'Template-Partials<br><i>Wiederbenutzbarer dynamischer Inhalt als Template- und Tag-Parts.</i>',
 
   'partial' => 'Partial',
 
   'all_sites' => 'Alle Sites',
 
-  'template_partial' => 'Template Partial',
+  'template_partial' => 'Template-Partial',
 
   'export_partials' => 'Partials exportieren',
 
@@ -120,63 +120,63 @@ $lang = array(
 
   'create_template_partial_error' => 'Template Partial nicht angelegt',
 
-  'create_template_partial_error_desc' => 'Dieses Partial konnte nicht angelegt werden, bitte sehen Sie unten aufgeführte Fehler an und berichtigen diese.',
+  'create_template_partial_error_desc' => 'Dieses Partial konnte nicht angelegt werden, bitte sehen Sie sich die unten aufgeführten Fehler an und beheben Sie diese.',
 
-  'edit_template_partial_success' => 'Template Partial aktualisiert',
+  'edit_template_partial_success' => 'Template-Partial aktualisiert',
 
-  'edit_template_partial_success_desc' => 'Das Template Partial <b>%s</b> wurde aktualisiert.',
+  'edit_template_partial_success_desc' => 'Das Template-Partial <b>%s</b> wurde aktualisiert.',
 
-  'edit_template_partial_error' => 'Template Partial nicht aktualisiert',
+  'edit_template_partial_error' => 'Template-Partial nicht aktualisiert',
 
-  'edit_template_partial_error_desc' => 'Template Partial kann nicht aktualisiert werden, bitte sehen Sie unten aufgeführte Fehler an und berichtigen diese.',
+  'edit_template_partial_error_desc' => 'Template-Partial kann nicht aktualisiert werden, bitte sehen Sie sich die unten aufgeführten Fehler an und beheben Sie diese.',
 
   'error_no_template_group' => 'Die Template-Gruppe <b>%s</b> existiert nicht.',
 
   'error_no_template' => 'Dieses Template ist nicht vorhanden.',
 
-  'template_name_taken' => 'Der angegebene Template Name ist bereits vorhanden',
+  'template_name_taken' => 'Der angegebene Template-Name ist bereits vorhanden',
 
-  'snippet_name_taken' => 'Der angegebene Template Partial Name ist bereits vorhanden',
+  'snippet_name_taken' => 'Der angegebene Template-Partial-Name ist bereits vorhanden',
 
   'snippets_removed_desc' => 'Die folgenden Snippets wurden entfernt',
 
-  'template_variables_header' => 'Template Variablen<br><i>Wiederbenutzbare Codeteile mit statischem Inhalt.</i>',
+  'template_variables_header' => 'Template-Variablen<br><i>Wiederbenutzbare Codeteile mit statischem Inhalt.</i>',
 
-  'template_variable' => 'Template Variable',
+  'template_variable' => 'Template-Variable',
 
-  'template_variables' => 'Template Variablen',
+  'template_variables' => 'Template-Variablen',
 
   'variable' => 'Variable',
 
-  'no_template_routes' => 'Keine <b>Template Routes</b> gefunden.',
+  'no_template_routes' => 'Keine <b>Template-Routes</b> gefunden.',
 
-  'no_template_variables' => 'Keine <b>Template Variablen</b> gefunden.',
+  'no_template_variables' => 'Keine <b>Template-Variablen</b> gefunden.',
 
-  'no_snippets' => 'Keine <b>Template Partials</b> gefunden.',
+  'no_snippets' => 'Keine <b>Template-Partials</b> gefunden.',
 
-  'btn_create_template_variable' => 'Template Variable anlegen',
+  'btn_create_template_variable' => 'Template-Variable anlegen',
 
-  'btn_edit_template_variable' => 'Template Variable bearbeiten',
+  'btn_edit_template_variable' => 'Template-Variable bearbeiten',
 
-  'create_template_variable_success' => 'Template Variable angelegt',
+  'create_template_variable_success' => 'Template-Variable angelegt',
 
-  'create_template_variable_success_desc' => 'Die Template Variable <b>%s</b> wurde angelegt.',
+  'create_template_variable_success_desc' => 'Die Template-Variable <b>%s</b> wurde angelegt.',
 
-  'create_template_variable_error' => 'Template Variable nicht angelegt',
+  'create_template_variable_error' => 'Template-Variable nicht angelegt',
 
-  'create_template_variable_error_desc' => 'Die Variable kann nicht angelegt werden, bitte sehen Sie unten aufgeführte Fehler an und berichtigen diese.',
+  'create_template_variable_error_desc' => 'Die Variable kann nicht angelegt werden, bitte sehen Sie sich die unten aufgeführten Fehler an und beheben Sie diese.',
 
-  'edit_template_variable_success' => 'Template Variable aktualisiert',
+  'edit_template_variable_success' => 'Template-Variable aktualisiert',
 
-  'edit_template_variable_success_desc' => 'Die Template Variable <b>%s</b> wurde aktualisiert.',
+  'edit_template_variable_success_desc' => 'Die Template-Variable <b>%s</b> wurde aktualisiert.',
 
-  'edit_template_variable_error' => 'Template Variable nicht aktualisiert',
+  'edit_template_variable_error' => 'Template-Variable nicht aktualisiert',
 
-  'edit_template_variable_error_desc' => 'Die Variable kann nicht aktualisiert werden, bitte sehen Sie unten aufgeführte Fehler an und berichtigen diese.',
+  'edit_template_variable_error_desc' => 'Die Variable kann nicht aktualisiert werden, bitte sehen Sie sich die unten aufgeführten Fehler an und beheben Sie diese.',
 
-  'create_template_variable' => 'Template Variable anlegen',
+  'create_template_variable' => 'Template-Variable anlegen',
 
-  'edit_template_variable' => 'Template Variable bearbeiten',
+  'edit_template_variable' => 'Template-Variable bearbeiten',
 
   'variable_name' => 'Name',
 
@@ -184,9 +184,9 @@ $lang = array(
 
   'enable_template_variable_on_all_sites' => 'Auf allen Sites aktivieren?',
 
-  'enable_template_variable_on_all_sites_desc' => 'Wenn auf <b>aktivieren</b> gesetzt wird diese Variable für alle Sites verfügbar sein.',
+  'enable_template_variable_on_all_sites_desc' => 'Wenn auf <b>aktivieren</b> gesetzt, wird diese Variable für alle Sites verfügbar sein.',
 
-  'template_variables_removed_desc' => 'Die folgenden Template Variablen wurden entfernt',
+  'template_variables_removed_desc' => 'Die folgenden Template-Variablen wurden entfernt',
 
   'create_template' => 'Template anlegen',
 
@@ -198,7 +198,7 @@ $lang = array(
 
   'btn_create_template' => 'Template anlegen',
 
-  'btn_create_and_edit_template' => 'Template sichern &amp; bearbeiten',
+  'btn_create_and_edit_template' => 'Template sichern und bearbeiten',
 
   'create_template_success' => 'Template angelegt',
 
@@ -220,13 +220,13 @@ $lang = array(
 
   'no_revisions' => 'Keine Überabeitungen',
 
-  'template_notes' => 'Template Notizen',
+  'template_notes' => 'Template-Notizen',
 
   'template_notes_desc' => 'Dieses Feld zum Speichern von Notizen und Informationen zum Template benutzen',
 
   'enable_caching' => 'Caching einschalten?',
 
-  'enable_caching_desc' => 'Wenn auf <b>aktivieren</b> gesetzt wird ExpressionEngine dieses Template im Cache speichern.',
+  'enable_caching_desc' => 'Wenn auf <b>aktivieren</b> gesetzt, wird ExpressionEngine dieses Template im Cache speichern.',
 
   'refresh_interval' => 'Auffrisch-Interval',
 
@@ -238,27 +238,27 @@ $lang = array(
 
   'parse_stage' => 'PHP Parsing Stage',
 
-  'parse_stage_desc' => 'Wenn auf <b>Output</b> gesetzt wird PHP erst nach dem Template ausgeführt.',
+  'parse_stage_desc' => 'Wenn auf <b>Output</b> gesetzt, wird PHP erst nach dem Template ausgeführt.',
 
-  'hit_counter' => 'Hit Counter',
+  'hit_counter' => 'Hit-Counter',
 
   'hit_counter_desc' => 'Zeigt, wie oft dieses Template von der Website aus aufgerufen wurde.',
 
-  'allowed_member_groups' => 'Zugelassene Nutzergruppen',
+  'allowed_member_groups' => 'Zugelassene Benutzergruppen',
 
-  'allowed_member_groups_desc' => 'Die folgenden Nutzergruppen dürfen auf diese Template-Gruppe zugreifen.',
+  'allowed_member_groups_desc' => 'Die folgenden Benutzergruppen dürfen auf diese Template-Gruppe zugreifen.',
 
-  'allowed_member_groups_super_admin' => 'Super Administratoren dürfen <b>immer</b>.',
+  'allowed_member_groups_super_admin' => 'Super-Admins dürfen <b>immer</b>.',
 
   'no_access_redirect' => 'Weiterleitung bei nicht erlaubtem Zugriff',
 
   'no_access_redirect_desc' => 'Die Seite, auf die nicht berechtigte Zugriffe weitergeleitet werden.',
 
-  'enable_http_authentication' => 'HTTP Authentifizierung aktivieren?',
+  'enable_http_authentication' => 'HTTP-Authentifizierung aktivieren?',
 
-  'enable_http_authentication_desc' => 'Wenn auf <b>aktivieren</b> gesetzt, werden sich Nutzer mit Zugriffsrechten anmelden müssen.',
+  'enable_http_authentication_desc' => 'Wenn auf <b>aktivieren</b> gesetzt, werden sich Benutzer mit Zugriffsrechten anmelden müssen.',
 
-  'template_route_override' => 'Template Routes überschreiben',
+  'template_route_override' => 'Template-Routes überschreiben',
 
   'template_route_override_desc' => 'Überschreibt das standardmäßige ExpressionEngine <mark>gruppe/template</mark> Routing.',
 
@@ -266,17 +266,17 @@ $lang = array(
 
   'require_all_segments_desc' => 'Wenn auf <b>ja</b> gesetzt, müssen alle Segmente in der <abbr title="Unified Resource Identifier">URI</abbr>-Anfrage vorhanden sein.',
 
-  'btn_update_and_finish_editing' => 'Bearbeitung speichern &amp; beenden',
+  'btn_update_and_finish_editing' => 'Bearbeitung speichern und beenden',
 
   'update_template_error' => 'Template nicht aktualisiert',
 
-  'update_template_error_desc' => 'Das Template kann nicht aktualisiert werden, bitte sehen Sie unten aufgeführte Fehler an und berichtigen diese.',
+  'update_template_error_desc' => 'Das Template kann nicht aktualisiert werden, bitte sehen Sie sich die unten aufgeführten Fehler an und beheben Sie diese.',
 
   'update_template_success' => 'Template aktualisiert',
 
   'update_template_success_desc' => 'Das Template <b>%s</b> wurde aktualisiert.',
 
-  'template_settings_and_access' => 'Template Einstellungen &amp; Zugriff',
+  'template_settings_and_access' => 'Template-Einstellungen und Zugriff',
 
   'btn_save_settings' => 'Einstellungen sichern',
 
@@ -294,7 +294,7 @@ $lang = array(
 
   'system' => 'System',
 
-  'system_message_templates' => 'System Nachrichten Templates',
+  'system_message_templates' => 'System-Nachrichten-Templates',
 
   'offline_template' => 'Site offline',
 
@@ -304,21 +304,21 @@ $lang = array(
 
 // System Templates -> Email
 
-  'email_message_templates' => 'E-Mail Templates',
+  'email_message_templates' => 'Email-Templates',
 
   'variables' => 'Variablen',
 
-  'variables_desc' => 'Liste der verfügbaren Variablen für dieses E-Mail Template.',
+  'variables_desc' => 'Liste der verfügbaren Variablen für dieses Email-Template.',
 
   'enable_template' => 'Template aktivieren?',
 
-  'enable_template_desc' => 'Wenn auf <b>aktivieren</b> gesetzt, wird dieses Template benutzt an Stelle einer automatisch generierten E-Mail in der Sprache des Nutzers.',
+  'enable_template_desc' => 'Wenn auf <b>aktivieren</b> gesetzt, wird dieses Template an Stelle einer automatisch generierten Email in der Sprache des Nutzers benutzt.',
 
   'content' => 'Inhalt',
 
   'comments' => 'Kommentare',
 
-  'members' => 'Nutzer',
+  'members' => 'Benutzer',
 
   'private_messages' => 'Private Nachrichten',
 
@@ -350,28 +350,28 @@ $lang = array(
   'themes'						=>	'Themes',
   'specialty_templates'			=>	'Spezial-Templates',
 
-  'forum_themes'					=>	'Forum Themes',
-  'wiki_themes'					=>	'Wiki Themes',
-  'member_profile_templates'		=>	'Nutzerprofil-Templates',
+  'forum_themes'					=>	'Forum-Themes',
+  'wiki_themes'					=>	'Wiki-Themes',
+  'member_profile_templates'		=>	'Benutzerprofil-Templates',
 
 //----------------------------
 // Templates
 //----------------------------
 
-  '404_page' => '404 Seite',
+  '404_page' => '404-Seite',
 
   'id_not_found' => 'Gruppe nicht gefunden',
 
-  'site_404_exp' => 'Legt fest, welche Vorlage angezeigt wird, wenn jemand einen ungültigen URL aufruft. Hinweis: Wenn Sie &quot;Keine&quot; ausw&auml;hlen, wird Ihre Index-Seite angezeigt, falls ein ungültiger URL aufgerufen wird.',
+  'site_404_exp' => 'Legt fest, welche Vorlage angezeigt wird, wenn jemand einen ungültigen URL aufruft. Hinweis: Wenn Sie &quot;Keine&quot; auswählen, wird Ihre Index-Seite angezeigt, falls ein ungültiger URL aufgerufen wird.',
 
-  'strict_urls' => 'Strict URLs aktivieren',
+  'strict_urls' => 'Strikte URLs aktivieren',
 
   'strict_urls_exp' => 'Diese Funktion erlaubt striktere Regeln für URLs und interagiert mit den 404-Funktionen weiter unten. Bitte die Dokumentation konsultieren.',
 
 
   'none' => 'Keine',
 
-  'save_tmpl_revisions' => 'Template Versionen speichern',
+  'save_tmpl_revisions' => 'Template-Versionen speichern',
 
   'sync_templates' => 'Templates synchronisieren',
 
@@ -397,7 +397,7 @@ $lang = array(
 
   'folder_exists_warning' => 'Ein Ordner für Textdateien dieser Gruppe besteht. Das Verzeichnis und alle Inhalte werden als Folge dieser Aktion gelöscht. ',
 
-  'template_rev_msg' => 'Hinweis: Überarbeitungen zu speichern kann viel Datenbank-Speicher belegen. Darum sollte ein Limit eingestellt werden',
+  'template_rev_msg' => 'Hinweis: Überarbeitungen zu speichern, kann viel Datenbank-Speicher belegen. Darum sollte ein Limit eingestellt werden',
 
   'max_tmpl_revisions' => 'Maximale Anzahl von gespeicherten Versionen',
 
@@ -407,9 +407,9 @@ $lang = array(
 
   'save_tmpl_files_exp' => 'Beim Speichern Ihrer Templates können Sie festlegen, ob sie als Textdateien auf Ihrem Server gespeichert werden sollen. Mehr dazu finden Sie im Benutzerhandbuch.',
 
-  'email_notification_template' => 'E-Mail-Benachrichtigungen-Templates',
+  'email_notification_template' => 'Email-Benachrichtigungen-Templates',
 
-  'email_notification' => 'E-Mail-Benachrichtigung',
+  'email_notification' => 'Email-Benachrichtigung',
 
   'user_message' => 'Benutzer-Mitteilung',
 
@@ -457,13 +457,13 @@ $lang = array(
 
   'php_in_templates_warning' => '<b>Warnung</b>: PHP in Templates hat Auswirkungen auf die Sicherheit.',
 
-  'php_in_templates_warning2' => 'Jede Einstellung mit %s markiert sollte mit Vorsicht benutzt werden.',
+  'php_in_templates_warning2' => 'Jede Einstellung, die mit %s markiert, sollte mit Vorsicht benutzt werden.',
 
   'input' => 'Input',
 
   'output' => 'Output',
 
-  'template_intro' => 'Das ist die Seite wo Templates verwaltet werden.',
+  'template_intro' => 'Das ist die Seite, auf der Templates verwaltet werden.',
 
   'new_template_group' => 'Neue Gruppe',
 
@@ -539,7 +539,7 @@ $lang = array(
 
   'last_file_edit' => 'Datei bearbeitet:',
 
-  'template_management' => 'Template Verwaltung',
+  'template_management' => 'Template-Verwaltung',
 
   'current_template' => 'Aktuelles Template:',
 
@@ -617,7 +617,7 @@ $lang = array(
 
   'close_window' => 'Fenster schließen',
 
-  'template_preferences' => 'Template Einstellungen',
+  'template_preferences' => 'Template-Einstellungen',
 
   'delete_template' => 'Template löschen',
 
@@ -627,7 +627,7 @@ $lang = array(
 
   'default_site_page' => 'Kennzeichnet die Startseite der Website',
 
-  'is_site_default' => 'Soll das Index-Template in dieser Gruppe zur Start-Seite Ihrer Website gemacht werden?',
+  'is_site_default' => 'Soll das Index-Template in dieser Gruppe zur Startseite Ihrer Website gemacht werden?',
 
   'preferences_updated' => 'Einstellungen aktualisiert',
 
@@ -639,7 +639,7 @@ $lang = array(
 
   'you_must_submit_a_name' => 'Das Template braucht einen Namen.',
 
-  'member_group' => 'Benutzer-Gruppe',
+  'member_group' => 'Benutzergruppe',
 
   'can_view_template' => 'Kann diese Seite sehen',
 
@@ -651,7 +651,7 @@ $lang = array(
 
   'no_access_instructions' => 'Wenn unautorisierte Benutzer diese Seite anzusehen versuchen, sollen sie stattdessen die folgende Seite zu sehen bekommen:',
 
-  'template_notes' => 'Template Notizen',
+  'template_notes' => 'Template-Notizen',
 
   'template_notes_desc' => 'Nutzen Sie dieses Feld, um Notizen und Informationen zu diesem Template zu speichern:',
 
@@ -681,13 +681,13 @@ $lang = array(
 
   'snippets' => 'Snippets',
 
-  'snippets_explanation' => 'Snippets sind praktische kleine Teile von wieder verwendbarem Programmcode von
-Template- oder Tag-Teilen. Für statischen Inhalt der keine ExpressionEngine-Tags enthält oder PHP,
-ziehen Sie besser <a href ="%s">Globale Variablen</a> in Betracht.',
+  'snippets_explanation' => 'Snippets sind praktische Schnipsel von wiederverwendbarem Programmcode mit Tags für
+Templates. Für statischen Inhalt, der keine ExpressionEngine-Tags oder PHP enthält,
+ziehen Sie besser <a href ="%s">Globale Variablen</a> vor.',
 
   'create_new_snippet' => 'Neues Snippet anlegen',
 
-  'snippet_syntax' => 'Snippet Syntax',
+  'snippet_syntax' => 'Snippet-Syntax',
 
   'snippet_edit' => 'Snippet: %s bearbeiten',
 
@@ -726,7 +726,7 @@ ziehen Sie besser <a href ="%s">Globale Variablen</a> in Betracht.',
 
   'export_template' => 'Template-Export ',
 
-  'default_template_group' => 'Standard-Gruppe:',
+  'default_template_group' => 'Standardgruppe:',
 
   'alphabetize_group_order' => 'Gruppen-Reihenfolge alphabetisch',
 
@@ -734,23 +734,23 @@ ziehen Sie besser <a href ="%s">Globale Variablen</a> in Betracht.',
 
   'template_route_subtext' => 'Wird eine Route angegeben, überschreibt diese die Standard-Template-URL-Struktur.',
 
-  'enable_template_routes' => 'Template Routes aktivieren',
+  'enable_template_routes' => 'Template-Routes aktivieren',
 
-  'enable_template_routes_exp' => 'Template Route deaktivieren bedeutet: Die Route-Optionen werden entfernt und Templates werden nur über die Standard-Template-URL-Struktur erreichbar sein.',
+  'enable_template_routes_exp' => 'Template-Route deaktivieren bedeutet: Die Route-Optionen werden entfernt und Templates werden nur über die Standard-Template-URL-Struktur erreichbar sein.',
 
   'route_required' => 'Benötige alle Segmente:',
 
   'route_required_subtext' => 'Wenn Route-Segmente verlangt sind, müssen alle Segmente in der aufgerufenen URL vorhanden sein.',
 
-  'template_routes_saved' => 'Template Routes gespeichert',
+  'template_routes_saved' => 'Template-Routes gespeichert',
 
   'template_routes_saved_desc' => 'Template Routes wurden gespeichert.',
 
-  'template_routes_not_saved' => 'Template Routes nicht gespeichert.',
+  'template_routes_not_saved' => 'Template-Routes nicht gespeichert.',
 
-  'template_routes_not_saved_desc' => 'Die Template Routes wurden nicht gespeichert, bitte sehen Sie sich unten aufgeführte Fehler an und berichtigen diese.',
+  'template_routes_not_saved_desc' => 'Die Template Routes wurden nicht gespeichert, bitte sehen Sie sich die unten aufgeführten Fehler an und beheben Sie diese.',
 
-  'http_auth_protected' => 'HTTP Auth geschützt',
+  'http_auth_protected' => 'HTTP-Auth geschützt',
 
   'template_preferences_manager' => 'Template-Einstellungen-Manager',
 
@@ -764,9 +764,9 @@ ziehen Sie besser <a href ="%s">Globale Variablen</a> in Betracht.',
 
   'no_templates_found' => 'Keine <b>Templates</b> gefunden.',
 
-  'url_manager' => 'Template Route Manager',
+  'url_manager' => 'Template-Route-Manager',
 
-  'template_route_notice' => 'Routes sind in der Reihenfolge gespeichert, die der Template Router als Übereinstimmung nimmt.',
+  'template_route_notice' => 'Routes sind in der Reihenfolge gespeichert, die der Template-Router als Übereinstimmung nimmt.',
 
   'route_manager_group' => 'Gruppe',
 
@@ -802,11 +802,11 @@ ziehen Sie besser <a href ="%s">Globale Variablen</a> in Betracht.',
 
   'edit_profile_form' => 'Mitglieds-Profil-Formular',
 
-  'email_form' => 'E-Mail-Konsole',
+  'email_form' => 'Email-Konsole',
 
-  'email_prefs_form' => 'Formular: E-Mail-Einstellungen',
+  'email_prefs_form' => 'Formular: Email-Einstellungen',
 
-  'email_user_message' => 'E-Mail-Nachrichten',
+  'email_user_message' => 'Email-Nachrichten',
 
   'forgot_form' => 'Formular: Passwort vergessen',
 
@@ -818,9 +818,9 @@ ziehen Sie besser <a href ="%s">Globale Variablen</a> in Betracht.',
 
   'login_form' => 'Login-Formular',
 
-  'memberlist' => 'Nutzerliste',
+  'memberlist' => 'Benutzerliste',
 
-  'memberlist_rows' => 'Nutzerliste-Zeilen',
+  'memberlist_rows' => 'Benutzerliste-Zeilen',
 
   'menu' => 'Mitglieds-Profil-Menü',
 
@@ -832,17 +832,17 @@ ziehen Sie besser <a href ="%s">Globale Variablen</a> in Betracht.',
 
   'public_profile' => 'Öffentliches Mitglieds-Profil',
 
-  'registration_form' => 'Registratur-Formular',
+  'registration_form' => 'Registrierungsformular',
 
   'reset_password_form' => 'Formular: Passwort-Reset',
 
-  'stylesheet' => 'CSS Stylesheet',
+  'stylesheet' => 'CSS-Stylesheet',
 
   'username_change_disallowed' => 'Nachricht: Benutzernamen-Änderung nicht erlaubt',
 
-  'username_password_form' => 'Formular: Username und Passwort',
+  'username_password_form' => 'Formular: Benutzername und Passwort',
 
-  'username_row' => 'Username Formulare Zeile',
+  'username_row' => 'Benutzername: Formular-Zeile',
 
   'signature_form' => 'Signatur: Bearbeiten-Seite',
 
@@ -856,33 +856,33 @@ ziehen Sie besser <a href ="%s">Globale Variablen</a> in Betracht.',
 
   'emoticon_page' => 'Emoticon-Seite',
 
-  'update_un_pw_form' => 'Formular: Username und Passwort',
+  'update_un_pw_form' => 'Formular: Benutzername und Passwort',
 
-  'update_and_return' => 'Aktualisieren und Beenden',
+  'update_and_return' => 'Aktualisieren und beenden',
 
   'submit_and_return' => 'Gesendet und beendet',
 
-  'group_description' => 'Nutzergruppen-Beschreibung',
+  'group_description' => 'Benutzergruppen-Beschreibung',
 
   'can_send_bulletins' => 'Kann Bulletins senden',
 
-  'login_as_user' => 'Super Admin einloggen als User',
+  'login_as_user' => 'Super-Admin einloggen als User',
 
   'control_panel' => 'Control Panel',
 
   'site_homepage' => 'Website',
 
-  'login_as_member_description' => 'Wenn Sie Senden klicken, werden Sie als Mitglied  &#39;%screen_name%&#39; eingeloggt und auf folgende Seite geleitet.',
+  'login_as_member_description' => 'Wenn Sie "Senden" klicken, werden Sie als Mitglied  &#39;%screen_name%&#39; eingeloggt und auf folgende Seite geleitet.',
 
   'other' => 'Andere',
 
-  'resend_activation_emails' => 'Aktivierungs-E-Mails nochmals senden',
+  'resend_activation_emails' => 'Aktivierungs-Emails nochmals senden',
 
-  'activation_emails_resent' => 'Aktivierungs-E-Mails nochmals gesendet',
+  'activation_emails_resent' => 'Aktivierungs-Emails nochmals gesendet',
 
-  'resend_activation_email' => 'Aktivierungs-E-Mail nochmals senden',
+  'resend_activation_email' => 'Aktivierungs-Email nochmals senden',
 
-  'activation_email_resent' => 'Aktivierungs-E-Mail nochmals gesendet',
+  'activation_email_resent' => 'Aktivierungs-Email nochmals gesendet',
 
   'bulletin' => 'Bulletin',
 
@@ -916,9 +916,9 @@ ziehen Sie besser <a href ="%s">Globale Variablen</a> in Betracht.',
 
   'message_folder' => 'Private Mitteilung - Mitteilung Verzeichnis',
 
-  'message_folder_rows' => 'Private Mitteilung - Mitteilung Verzeichnis Zeile',
+  'message_folder_rows' => 'Private Mitteilung - Mitteilung: Verzeichnis-Zeile',
 
-  'message_no_folder_rows' => 'Private Mitteilung - Mitteilung Kein Verzeichnis Zeilen',
+  'message_no_folder_rows' => 'Private Mitteilung - Mitteilung: Keine Verzeichnis-Zeilen',
 
   'search_members' => 'Private Mitteilung - Mitglied suchen',
 
@@ -926,7 +926,7 @@ ziehen Sie besser <a href ="%s">Globale Variablen</a> in Betracht.',
 
   'member_results_row' => 'Private Mitteilung - Mitglied suchen: Resultate Zeilen',
 
-  'message_submission_error' => 'Private Mitteilung - Senden Fehler',
+  'message_submission_error' => 'Private Mitteilung - Senden-Fehler',
 
   'message_attachment_link' => 'Private Mitteilung - Attachment-Link',
 
@@ -936,25 +936,25 @@ ziehen Sie besser <a href ="%s">Globale Variablen</a> in Betracht.',
 
   'message_edit_folders' => 'Private Mitteilung - Verzeichnisse bearbeiten',
 
-  'message_edit_folders_row' => 'Private Mitteilung - Verzeichnisse Zeilen',
+  'message_edit_folders_row' => 'Private Mitteilung - Verzeichnisse: Zeilen',
 
-  'buddies_block_list' => 'Private Mitteilung - Freunde und Block Liste',
+  'buddies_block_list' => 'Private Mitteilung - Freunde und Block-Liste',
 
-  'buddies_block_row' => 'Private Mitteilung - Freunde und Block Liste Zeilen',
+  'buddies_block_row' => 'Private Mitteilung - Freunde und Block-Liste: Zeilen',
 
   'empty_list' => 'Private Mitteilung - Leere Liste',
 
-  'subscriptions_form' => 'Abonnements Seite',
+  'subscriptions_form' => 'Abonnements-Seite',
 
-  'no_subscriptions_message' => 'Keine Abonnements Mitteilung',
+  'no_subscriptions_message' => 'Keine Abonnements-Mitteilung',
 
-  'subscription_result_heading' => 'Abonnements Resultate Titel',
+  'subscription_result_heading' => 'Abonnements-Resultate: Titel',
 
-  'subscription_result_rows' => 'Abonnements Resultate Zeilen',
+  'subscription_result_rows' => 'Abonnements-Resultate: Zeilen',
 
   'subscription_pagination' => 'Abonnements-Paginierung',
 
-  'delete_confirmation_form' => 'Konto-Löschung Bestätigungs-Formular',
+  'delete_confirmation_form' => 'Konto-Löschung: Bestätigungs-Formular',
 
   'html_header' => 'HTML-Header',
 
@@ -970,15 +970,15 @@ ziehen Sie besser <a href ="%s">Globale Variablen</a> in Betracht.',
 
   'breadcrumb_current_page' => 'Brotkrumen-Navigation: Aktuelle Seite',
 
-  'signature_form' => 'Signatur: Bearbeiten Seite',
+  'signature_form' => 'Signatur: Bearbeiten: Seite',
 
-  'edit_avatar' => 'Avatar: Bearbeiten Seite',
+  'edit_avatar' => 'Avatar: Bearbeiten: Seite',
 
   'avatar_folder_list' => 'Vorinstallierte Avatar-Verzeichnisliste',
 
-  'browse_avatars' => 'Browse Avatar Seite',
+  'browse_avatars' => 'Browse Avatar-Seite',
 
-  'custom_profile_fields' => 'Eigene Nutzer-Felder',
+  'custom_profile_fields' => 'Eigene Benutzer-Felder',
 
   'bulletin_board' => 'Pinwand',
 
