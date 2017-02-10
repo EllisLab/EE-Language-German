@@ -266,7 +266,7 @@ $lang = array(
 
   'comment_expiration_desc' => 'Wieviele Tage nach Posten des Eintrages darf noch kommentiert werden? 0 (Null) eingeben für unendlich.',
 
-  'restrict_status_to_group' => 'Status auf eine Nutzergruppe einschränken',
+  'restrict_status_to_group' => 'Status auf eine Mitgliedergruppe einschränken',
 
   'status_updated' => 'Status wurde aktualisiert',
 
@@ -578,9 +578,9 @@ $lang = array(
   'exclude_from_publish' 		=> 'Channel-Zuweisung',
   'exclude_from_files'		=> 'Datei-Zuweisung',
 
-  'member_group' => 'Nutzergruppe',
+  'member_group' => 'Mitgliedergruppe',
 
-  'member_groups' => 'Nutzergruppen',
+  'member_groups' => 'Mitgliedergruppen',
 
   'missing_required_fields' => 'Folgende(s) Feld(er) werden benötigt:',
 
