@@ -10,9 +10,9 @@ $lang = array(
 
   'yes' => 'Ja',
 
-  'on' => 'ein',
+  'on' => 'Ein',
 
-  'off' => 'aus',
+  'off' => 'Aus',
 
   'first' => 'Erste',
 
@@ -60,7 +60,7 @@ $lang = array(
 
   'not_authorized' => 'Die erforderliche Berechtigung für diese Aktion liegt nicht vor.',
 
-  'auto_redirection' => 'Sie werden in %x Sekunden automatisch weitegeleitet',
+  'auto_redirection' => 'Sie werden in %x Sekunden automatisch weitergeleitet',
 
   'click_if_no_redirect' => 'Bitte hier klicken, falls nicht automatisch weitergeleitet wird',
 
@@ -93,7 +93,7 @@ $lang = array(
 
   'csrf_token_expired' => 'Dieses Formular ist abgelaufen. Bitte neu laden und nochmals probieren.',
 
-  'current_password_required' => 'Ihr aktuelles Passwort ist verlangt.',
+  'current_password_required' => 'Ihr aktuelles Passwort wird verlangt.',
 
   'current_password_incorrect' => 'Ihr aktuelles Passwort wurde nicht korrekt eingegeben.',
 
@@ -103,36 +103,36 @@ $lang = array(
 
   'nonexistent_page' => 'Die gewünschte Seite wurde nicht gefunden',
 
-  'unable_to_load_field_type' => 'Kann diese Filetype Datei nicht laden: %s.<br />Bestätigen Sie dass die Filetyp Datei im Ordner in the /system/user/addons/ liegt',
+  'unable_to_load_field_type' => 'Kann diese Feldtypen-Datei nicht laden: %s.<br />Bestätigen Sie dass die Feldtypen-Datei im Ordner in the /system/user/addons/ liegt',
 
-  'unwritable_cache_folder' => 'Der Cache-Ordner hat nicht die richtigen Berechtigungen.<br>Abhilfe: Die Berechtigung für den Cache (/system/user/cache/) auf 777 (oder das Equivalent Ihres Servers) gesetzt werden..',
+  'unwritable_cache_folder' => 'Der Cache-Ordner hat nicht die richtigen Berechtigungen.<br>Abhilfe: Die Berechtigung für den Cache (/system/user/cache/) auf 777 setzen - oder auf das Equivalent Ihres Servers.',
 
-  'unwritable_config_file' => 'Die Konfigurationsdatei hat nicht die richtigen Berechtigungen.<br>Abhilfe: Die Berechtigung für die config-Datei  (/system/user/config/config.php) muss auf 666 (oder das Equivalent Ihres Servers) gesetzt werden.',
+  'unwritable_config_file' => 'Die Konfigurationsdatei hat nicht die richtigen Berechtigungen.<br>Abhilfe: Die Berechtigung für die config-Datei  (/system/user/config/config.php) auf 666 setzen - oder auf das Equivalent Ihres Servers.',
 
 
-  'redirect_xss_fail' => 'Der Link, auf den Sie umgeleitet wurden enthielt potentiellen Schadcode. Wir empfehlen, den Back-Button zu klicken und per E-Mail an %s den Link zu melden, der diese Mitteilung hervor rief.',
+  'redirect_xss_fail' => 'Der Link, auf den Sie umgeleitet wurden, enthielt potentiellen Schadcode. Wir empfehlen, den Back-Button zu klicken und per E-Mail den Link an %s zu melden, der diese Mitteilung hervorrief.',
 
-  'missing_mime_config' => 'Kann Ihre Mime-Typ Whitelist nicht importieren: die Datei %s existiert nicht oder kann nicht gelesen werden.',
+  'missing_mime_config' => 'Kann Ihre Mime-Typ-Whitelist nicht importieren: die Datei %s existiert nicht oder kann nicht gelesen werden.',
 
   'version_mismatch' => 'Your ExpressionEngine installation&rsquo;s version (%s) is not consistent with the reported version (%s). <a href="https://ellislab.com/expressionengine/user-guide/installation/update.html" rel="external">Please update your installation of ExpressionEngine again</a>.',
 
-  'checksum_changed_warning' => 'One or more core files have been altered:',
+  'checksum_changed_warning' => 'Eine oder mehrere Core-Dateien wurden geändert:',
 
-  'checksum_changed_accept' => 'Accept Changes',
+  'checksum_changed_accept' => 'Änderungen akzeptieren',
 
-  'checksum_email_subject' => 'A core file was modified on your site.',
+  'checksum_email_subject' => 'Eine Core-Datei wurde auf Ihrer Website geändert.',
 
-  'checksum_email_message' => 'ExpressionEngine has detected the modification of a core file on: {url}
+  'checksum_email_message' => 'ExpressionEngine hat die Änderung einer Core-Datei entdeckt: {url}
 
-The following files are affected:
+Die folgenden Dateien sind betroffen:
 {changed}
 
-If you made these changes, please accept the modifications on the control panel homepage.  If you did not alter these files it may indicate a hacking attempt. Check the files for any suspicious contents (JavaScript or iFrames) and contact ExpressionEngine support:
+Wenn Sie diese Änderungen gemacht haben, akzeptieren Sie diese bitte im Control-Panel. Wenn Sie diese Dateien nicht geändert haben, kann das möglicherweise auf einen Hackerangriff hinweisen. Überprüfen Sie die Dateien auf verdächtige Inhalte (JavaScript oder iFrames) und kontaktieren Sie den von ExpressionEngine-Support: 
 https://support.ellislab.com/',
 
-  'new_version_error' => 'An unexpected error occurred attempting to download the current ExpressionEngine version number.  Please visit your <a href="%s" title="download account" rel="external">Download Account</a> to verify you are on the current version.  If this error persists, please contact your system administrator',
+  'new_version_error' => 'Es trat ein unerwarteter Fehler auf bei dem Versuch, die aktuelle Versionsnummer von ExpressionEngine herunterzuladen.  Bitte besuchen Sie Ihren <a href="%s" title="download account" rel="external">Download Account</a>, um zu überprüfen, ob Sie mit der aktuellen Version arbeiten. Bleibt dieser Fehler weiterhin bestehen, kontaktieren Sie bitte Ihren Systemadministrator',
 
-  'file_not_found' => 'File %s does not exist.',
+  'file_not_found' => 'Die Datei %s existiert nicht.',
 
 //----------------------------
 // Member Groups
@@ -146,7 +146,7 @@ https://support.ellislab.com/',
 
   'pending' => 'Im Wartezustand',
 
-  'super_admins' => 'Super Admins',
+  'super_admins' => 'Super-Admins',
 
 
 //----------------------------
@@ -159,15 +159,15 @@ https://support.ellislab.com/',
 
   'error_tag_module_processing' => 'Folgender Tag kann nicht verarbeitet werden:',
 
-  'error_fix_module_processing' => 'Bitte überprüfen, ob das &#39;%x&#39; Modul installiert ist und dass &#39;%y%&#39; eine verfügbare Methode für das Modul ist.',
+  'error_fix_module_processing' => 'Bitte überprüfen, ob das &#39;%x&#39; Modul installiert ist und das &#39;%y%&#39; eine verfügbare Methode für das Modul ist.',
 
-  'template_loop' => 'Es wurde eine Template-Endlosschlaufe erzeugt. Grund: falsches Verschachteln von Sub-Templates.',
+  'template_loop' => 'Es wurde eine Template-Endlosschleife erzeugt. Grund: Falsches Verschachteln von Sub-Templates.',
 
-  'template_load_order' => 'Template Ladereihenfolge',
+  'template_load_order' => 'Template-Ladereihenfolge',
 
-  'error_multiple_layouts' => 'Mehrfach Layouts gefunden. Bitte sicherstellen, dass nur ein Layout-Tag pro Template vorhanden ist.',
+  'error_multiple_layouts' => 'Mehrfach-Layouts gefunden. Bitte sicherstellen, dass nur ein Layout-Tag pro Template vorhanden ist.',
 
-  'error_layout_too_late' => 'Plugin oder Modul-Tag vor der Layout-Deklaration gefunden. Bitte den Layout-Tag an den Anfang des Templates stellen.',
+  'error_layout_too_late' => 'Plugin- oder Modul-Tag vor der Layout-Deklaration gefunden. Bitte den Layout-Tag an den Anfang des Templates stellen.',
 
   'error_invalid_conditional' => 'Sie haben ein ungültiges Conditional in Ihrem Template. Bitte überprüfen Sie Ihre Conditionals auf nicht geschlossene Zeichenketten, ungültige Operatoren, ein fehlendes }, oder ein fehlendes {/if}.',
 
@@ -179,15 +179,15 @@ https://support.ellislab.com/',
 
   'forgotten_email_sent' => 'Anweisungen zum Ändern Ihres Passwortes wurden zugesandt.',
 
-  'error_sending_email' => 'E-Mail senden im Moment nicht möglich .',
+  'error_sending_email' => 'Email senden im Moment nicht möglich .',
 
-  'no_email_found' => 'Die angegebene E-Mail-Adresse ist nicht in der Datenbank zu finden.',
+  'no_email_found' => 'Die angegebene Email-Adresse ist nicht in der Datenbank zu finden.',
 
-  'password_reset_flood_lock' => 'Sie haben heute Ihr Passwort zu viele Male zurückgesetzt. Prüfen Sie Ihre Inbox und den Spam-Ordner nach früheren Anfragen, oder kontaktieren Sie den Administrator der Site.',
+  'password_reset_flood_lock' => 'Sie haben heute Ihr Passwort zu oft zurückgesetzt. Prüfen Sie Ihre Inbox und den Spam-Ordner nach früheren Anfragen, oder kontaktieren Sie den Administrator der Site.',
 
-  'your_new_login_info' => 'Login Information',
+  'your_new_login_info' => 'Login-Information',
 
-  'password_has_been_reset' => 'Ihr Passwort wurde geändert. Das neues Passwort wird per E-Mail zugestellt.',
+  'password_has_been_reset' => 'Ihr Passwort wurde geändert. Das neue Passwort wird per E-Mail zugestellt.',
 
 //----------------------------
 // Date
