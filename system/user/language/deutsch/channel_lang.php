@@ -14,7 +14,7 @@ $lang = array(
 
   'channel_no_preview_template' => 'Ein Template zur Voransicht ist nicht im Tag angegeben',
 
-  'channel_must_be_logged_in' => 'Sie müssen ein angemeldeter Nutzer dieser Seite sein, damit Sie diese Aktion vornehmen können.',
+  'channel_must_be_logged_in' => 'Sie müssen ein angemeldetes Mitglied dieser Seite sein, damit Sie diese Aktion vornehmen können.',
 
   'channel_not_specified' => 'Ein Channel muss definiert sein, damit das Eingabeformular benutzt werden kann.',
 
@@ -74,7 +74,7 @@ $lang = array(
 
   'channel_form_layouts' => '%s &ndash; Formular-Layouts',
 
-  'member_group' => 'Nutzer-Gruppen',
+  'member_group' => 'Mitgliedergruppen',
 
   'no_layouts' => 'Keine Layouts',
 
@@ -82,9 +82,9 @@ $lang = array(
 
   'layout_options' => 'Layout-Optionen',
 
-  'layout_member_groups' => 'Nutzer-Gruppe(n)?',
+  'layout_member_groups' => 'Mitgliedergruppe(n)?',
 
-  'member_groups_desc' => 'Nutzer-Gruppe(n) auswählen zu diesem Layout.',
+  'member_groups_desc' => 'Mitgliedergruppe(n) auswählen zu diesem Layout.',
 
   'create_layout_success' => 'Formular-Layout angelegt',
 
@@ -318,7 +318,7 @@ $lang = array(
 
   'allow_comments' => 'Kommentare erlauben?',
 
-  'allow_comments_desc' => 'Wenn auf <b>ja</b> gesetzt, können Nutzer die Einträge dieses Channels kommentieren.',
+  'allow_comments_desc' => 'Wenn auf <b>ja</b> gesetzt, können Benutzer die Einträge dieses Channels kommentieren.',
 
   'allow_comments_checked' => 'Standardmäßig Kommentare erlauben?',
 
@@ -326,12 +326,12 @@ $lang = array(
 
   'require_membership' => 'Mitgliedschaft notwendig?',
 
-  'require_membership_desc' => 'Wenn auf <b>ja</b> gesetzt, können nur registrierte Nutzer die Channel-Einträge kommentieren.',
+  'require_membership_desc' => 'Wenn auf <b>ja</b> gesetzt, können nur registrierte Mitglieder die Channel-Einträge kommentieren.',
 
   'require_email' => 'Email-Adresse notwendig?',
 
   'require_email_desc'=>
-    'Wenn auf <b>ja</b> gesetzt, muss ein Nutzer eine valide E-Mail-Adresse angeben, um kommentieren zu können.',
+    'Wenn auf <b>ja</b> gesetzt, muss ein Benutzer eine valide E-Mail-Adresse angeben, um kommentieren zu können.',
 
   'moderate_comments' => 'Kommentare moderieren?',
 
@@ -343,7 +343,7 @@ $lang = array(
 
   'comment_time_limit' => 'Zeitfenster zwischen Kommentaren',
 
-  'comment_time_limit_desc' => 'Anzahl an Sekunden, die vergehen müssen, bevor ein Nutzer einen weiteren Kommentar absenden kann.</em>
+  'comment_time_limit_desc' => 'Anzahl an Sekunden, die vergehen müssen, bevor ein Benutzer einen weiteren Kommentar absenden kann.</em>
 <em>0 eingeben für kein Zeitlimit.',
 
   'comment_expiration' => 'Kommentare-Zeitfenster einschränken',
@@ -461,15 +461,15 @@ $lang = array(
 
   'edit_categories' => 'Kategorie bearbeiten',
 
-  'edit_categories_desc' => 'Benutzer in den gewählten Gruppen dürfen Kategorien bearbeiten in dieser Kategoriegruppe. Super-Admins dürfen <b>immer</b>.',
+  'edit_categories_desc' => 'Mitglieder in den gewählten Gruppen dürfen Kategorien bearbeiten in dieser Kategoriegruppe. Super-Admins dürfen <b>immer</b>.',
 
   'delete_categories' => 'Kategorien löschen',
 
-  'delete_categories_desc' => 'Benutzer in den gewählten Gruppen dürfen Kategorien löschen in dieser Kategoriegruppe. Super-Admins dürfen <b>immer</b>.',
+  'delete_categories_desc' => 'Mitglieder in den gewählten Gruppen dürfen Kategorien löschen in dieser Kategoriegruppe. Super-Admins dürfen <b>immer</b>.',
 
-  'cat_group_no_member_groups_found' => 'Keine <b>Nutzergruppen</b> mit Rechten gefunden',
+  'cat_group_no_member_groups_found' => 'Keine <b>Mitgliedergruppen</b> mit Rechten gefunden',
 
-  'edit_member_groups' => 'Nutzergruppe bearbeiten',
+  'edit_member_groups' => 'Mitgliedergruppe bearbeiten',
 
   'exclude_group_form' => 'Gruppe davon ausschliessen?',
 
@@ -631,7 +631,7 @@ $lang = array(
 
   'status_access' => 'Status-Zugriff',
 
-  'status_access_desc' => 'Nutzer in den gewählten Gruppen dürfen diesen Status wählen. Super-Admins dürfen <b>immer</b>.',
+  'status_access_desc' => 'Mitglieder in den gewählten Gruppen dürfen diesen Status wählen. Super-Admins dürfen <b>immer</b>.',
 
   'status_created' => 'Status angelegt',
 
