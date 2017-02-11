@@ -2,7 +2,7 @@
 $lang = array(
 
 
-'alphanumeric_not_allowed' => 'Alphanumerische Begrenzer nicht zugelassen (a-z / 0-9)',
+'alphanumeric_not_allowed' => 'Alphanumerische Begrenzer sind nicht zugelassen (a-z / 0-9)',
 
 's_required' => 'Bedingung',
 
@@ -10,11 +10,11 @@ $lang = array(
 
 'field_label' => 'Feld-Label',
 
-'map_elements' => 'Map Elemente',
+'map_elements' => 'Map-Elemente',
 
 'create_xml' => 'XML erstellen',
 
-'parse_error' => 'Parse Fehler',
+'parse_error' => 'Parse-Fehler',
 
 'unable_to_parse_custom_fields' => 'Eigene Felder unmöglich zu parsen.',
 
@@ -24,59 +24,59 @@ $lang = array(
 
 'field_name' => 'Feldname',
 
-'custom_member_fields' => 'Eigenes Mitglied-Feld',
+'custom_member_fields' => 'Eigenes Mitglieder-Feld',
 
 'new_fields_success' => 'Die folgenden eigenen Felder wurden erfolgreich zugefügt:',
 
 'assign_fields' => 'Felder zuweisen',
 
-'assign_fields_blurb' => 'Anpassen Ihrer Daten-Felder an ExpressionEngine Mitglied-Felder.',
+'assign_fields_blurb' => 'Anpassen Ihrer Daten-Felder an ExpressionEngine Mitglieder-Felder.',
 
 'comma' => 'Komma',
 
 'confirm_details' => 'Details bestätigen',
 
-'confirm_details_blurb' => 'Bitte die untenstehenden Details überprüfen, bevor Daten importiert werden. Ist etwas nicht korrekt, zurück gehen und die nötigen Änderungen vornehmen.',
+'confirm_details_blurb' => 'Bitte die untenstehenden Details überprüfen, bevor Daten importiert werden. Ist etwas nicht korrekt, zurückgehen und die nötigen Änderungen vornehmen.',
 
 'confirm_field_assignment' => 'Feldzuweisungen bestätigen',
 
-'confirm_field_assignment_blurb' => 'Feldzuweisungen überprüfen.  Ist etwas nicht korrekt, zurück gehen und die nötigen Änderungen vornehmen.',
+'confirm_field_assignment_blurb' => 'Feldzuweisungen überprüfen.  Ist etwas nicht korrekt, zurückgehen und die nötigen Änderungen vornehmen.',
 
 'convert_from_delimited' => 'Feldgetrennter Text nach XML konvertieren ',
 
-'convert_from_delimited_blurb' => 'Erlaubt ein ExpressionEngine Mitglied XML File zu erstellen - aus einem Feldgetrennten File einer anderen Applikation',
+'convert_from_delimited_blurb' => 'Erlaubt ein ExpressionEngine-Mitglied XML-File zu erstellen - aus einem feldgetrennten File einer anderen Applikation',
 
 'auto_custom_field' => 'Eigene Felder erstellen',
 
-'auto_custom_field_blurb' => 'Auto-generiere eigene Felder für die Elemente die auf kein Standard Mitglied-Feld passen',
+'auto_custom_field_blurb' => 'Autogeneriere eigene Felder für die Elemente, die auf kein Standard-Mitglieder-Feld passen',
 
-'default_group_id' => 'Standard Gruppen ID',
+'default_group_id' => 'Standard-Gruppen-ID',
 
 'default_settings' => 'Standardoptionen verwenden',
 
 'default_settings_blurb' => 'Setzen Sie die gewünschten Optionen als Standard. Diese Standardoptionen kommen nur zur Anwendung, wenn der entsprechende Wert im XML-File nicht vorhanden ist. Diese Optionen überschreiben die XML-Daten NICHT.',
 
-'delimited_file_loc' => 'Ort der Mitglied-Datei',
+'delimited_file_loc' => 'Ort der Mitglieder-Datei',
 
 'delimiter' => 'Trennzeichen',
 
 'delimiter_blurb' => 'Dieses Zeichen trennt die Daten, z.B. Tab, Komma, Pipe-Symbol,etc.',
 
-'download' => 'Download XML File',
+'download' => 'Download XML-File',
 
-'duplicate_email' => 'E-Mail duplizieren: ',
+'duplicate_email' => 'Email duplizieren: ',
 
 'duplicate_field_assignment' => 'Duplizierte Feldzuweisung: %x',
 
-'duplicate_member_id' => 'Duplizierte Mitglieder ID: &quot;%x&quot;&lt;br /&gt;Es ist empfohlen den &lt;member_id&gt; Tag nicht zu nutzen und ExpressionEngine die member_id selber hochzählen zu lassen.',
+'duplicate_member_id' => 'Duplizierte Mitglieder-ID: &quot;%x&quot;<br />;Es wird empfohlen, den &lt;member_id&gt;-Tag nicht zu nutzen und ExpressionEngine die "member_id" selber hochzählen zu lassen.',
 
-'duplicate_screen_name' => 'Duplizierte screen_name: ',
+'duplicate_screen_name' => 'Duplizierter Bildschirmname: ',
 
-'duplicate_username' => 'Duplizierte username: ',
+'duplicate_username' => 'Duplizierter Benutzername: ',
 
 'enclosure' => 'Einschließende Zeichen',
 
-'enclosure_blurb' => 'Dieses Zeichen umschliesst die Daten, falls vorhanden. Im folgenden Beispiel ist das einschließende Zeichen ein doppelter Anführungsstrich: &quot;&lt;br /&gt;',
+'enclosure_blurb' => 'Dieses Zeichen umschliesst die Daten, falls vorhanden. Im folgenden Beispiel ist das einschließende Zeichen ein doppelter Anführungsstrich: &quot;<br />',
 
 'enclosure_example' => '&quot;John Doe&quot;, &quot;jdoe&quot;, &quot;john@example.com&quot;, ...',
 
@@ -86,7 +86,7 @@ $lang = array(
 
 'file_loc_blurb' => 'Der Ort der Datei befindet sich relativ zum Control Panel Ordner. z.B.: ../members.txt, wenn im Root-Verzeichnis.',
 
-'group_id' => 'Standard Mitglieder-Gruppe',
+'group_id' => 'Standard-Mitglieder-Gruppe',
 
 'import' => 'Import!',
 
@@ -100,13 +100,13 @@ $lang = array(
 
 'import_success_blurb' => 'Die XML Mitglieder wurden erfolgreich in die Datenbank importiert!',
 
-'info_blurb' => 'Um dieses Hilfsprogramm zu nutzen muss zuerst die Datei der exportierten Mitglieder auf dem Server abgelegt sein und der Ort angegeben, wo sich diese Datei befindet.',
+'info_blurb' => 'Um dieses Hilfsprogramm zu nutzen, muss zuerst die Datei der exportierten Mitglieder auf dem Server abgelegt und der Ort angegeben sein, wo sich diese Datei befindet.',
 
 'invalid_element' => 'Fehlendes oder ungültiges Element - &lt;member&gt; erwartet',
 
-'invalid_path' => 'Ungültiger Pfad!  Datei existiert nicht: ',
+'invalid_path' => 'Ungültiger Pfad! Datei existiert nicht: ',
 
-'invalid_tag' => 'Ungültiger XML Tag!',
+'invalid_tag' => 'Ungültiger XML-Tag!',
 
 'invalid_xml' => 'Es besteht ein Problem mit dem XML-File.  Bitte die Dokumentation von ExpressionEngine konsultieren.',
 
@@ -116,9 +116,9 @@ $lang = array(
 
 'member_fields' => 'Mitglieder-Felder',
 
-'member_id_warning' => 'Warnung: Es sind &lt;member_id&gt; Tags im XML, bestehende Mitglieder mit selber member_id werden überschrieben!  Mit Vorsicht weiterfahren!',
+'member_id_warning' => 'Warnung: Es sind &lt;member_id&gt;-Tags im XML, bestehende Mitglieder mit selber "member_id" werden überschrieben!  Mit Vorsicht fortfahren!',
 
-'member_import_utility' => 'Mitglieder Import Hilfsprogramm',
+'member_import_utility' => 'Mitglieder-Import: Hilfsprogramm',
 
 'member_import_welcome' => 'Dieses Hilfsprogramm erlaubt Mitglieder aus einem anderen System in ExpressionEngine zu importieren.',
 
@@ -132,9 +132,9 @@ $lang = array(
 
 'no' => 'Nein',
 
-'no_delimiter' => 'Es muss ein Trennzeichen mit der &quot;%x&quot; option zugewiesen sein.',
+'no_delimiter' => 'Es muss ein Trennzeichen mit der &quot;%x&quot;-Option zugewiesen sein.',
 
-'no_file_submitted' => 'Es muss ein relativer Pfad für das Mitglieder Datenfile angegeben werden',
+'no_file_submitted' => 'Es muss ein relativer Pfad für das Mitglieder-Datenfile angegeben werden',
 
 'no_read_access' => 'Kann Datei nicht lesen: ',
 
@@ -148,9 +148,9 @@ $lang = array(
 
 'password_field_warning' => 'Hinweis: Wird keines der Felder auf &quot;Password&quot; abgestimmt, wird dem Mitglied zufällig ein Passwort zugeteilt. Es muss dann mit &quot;Passwort vergessen?&quot; einloggen.',
 
-'password_warning' => 'Passwort Warnung',
+'password_warning' => 'Passwort-Warnung',
 
-'password_warning_blurb' => 'Wird kein Passwort mitgegeben, muss das Mitglied sich mit dem Link &quot;Passwort vergessen?&quot; einloggen. Passen die ExpressionEngine encryption settings (sha1/md5) nicht zur Verschlüsselung der importierten Daten funktioniert das Passwort auch nicht und Mitglieder müssen den selben Link aufrufen. Passworte mit dem Type=&quot;text&quot; werden beim Import verschlüsselt.',
+'password_warning_blurb' => 'Wird kein Passwort mitgegeben, muss das Mitglied sich mit dem Link &quot;Passwort vergessen?&quot; einloggen. Passen die ExpressionEngine encryption settings (sha1/md5) nicht zur Verschlüsselung der importierten Daten, funktioniert das Passwort auch nicht und Mitglieder müssen denselben Link aufrufen. Passworte mit dem Type=&quot;text&quot; werden beim Import verschlüsselt.',
 
 'plaintext_passwords' => 'Passworte sind normaler Text',
 
@@ -158,9 +158,9 @@ $lang = array(
 
 'tab' => 'Tab',
 
-'date_format' => 'Datum Format',
+'date_format' => 'Datums-Format',
 
-'time_format' => ' Zeit Format',
+'time_format' => ' Zeit-Format',
 
 '24_hour' => '24 Stunden',
 
@@ -178,15 +178,15 @@ $lang = array(
 
 'view_xml' => ' XML zeigen',
 
-'within_user_record' => 'innerhalb des User-Datensatzes',
+'within_user_record' => 'innerhalb des Mitglieder-Datensatzes',
 
-'xml_file' => 'XML Datei',
+'xml_file' => 'XML-Datei',
 
 'xml_file_loc' => 'Ort der XML Mitglieder Datei',
 
-'xml_file_loc_blurb' => 'Der Ort der Datei befindet sich relativ zum Control Panel Ordner. z.B.: ../members.txt, wenn im Root-Verzeichnis.',
+'xml_file_loc_blurb' => 'Der Ort der Datei befindet sich relativ zum Control Panel-Ordner. z.B.: ../members.txt, wenn im Root-Verzeichnis.',
 
-'xml_imported' => 'XML Mitglieder Daten importiert',
+'xml_imported' => 'XML-Mitglieder-Daten importiert',
 
 'yes' => 'Ja',
 
@@ -194,7 +194,7 @@ $lang = array(
 
 'order' => 'Reihenfolge',
 
-'is_reg_form' => 'Registraturformular',
+'is_reg_form' => 'Registrierungsformular',
 
 'is_public' => 'Öffentlich',
 
