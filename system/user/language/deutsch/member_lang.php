@@ -12,13 +12,13 @@ $lang = array(
 
 'parse_smileys' => 'Smileys in Einträgen anzeigen.',
 
-'invalid_email_address' => 'Es wurde keine gültige E-Mail-Adresse angegeben',
+'invalid_email_address' => 'Es wurde keine gültige Email-Adresse angegeben',
 
-'disallowed_screen_chars' => 'Der Bildschirm-Namen enthält ungültige Zeichen',
+'disallowed_screen_chars' => 'Der Bildschirm-Name enthält ungültige Zeichen',
 
 'return_to_forum' => 'Zurück zum Forum',
 
-'settings_update' => 'Einstellungen Aktualisierungsformular',
+'settings_update' => 'Einstellungen: Aktualisierungsformular',
 
 'your_current_un_pw' => 'Aktueller Benutzername und Passwort',
 
@@ -52,7 +52,7 @@ $lang = array(
 
 'return_to_login' => 'Zurück zur Login-Seite',
 
-'member_login' => 'Mitglieder Login',
+'member_login' => 'Mitglieder-Login',
 
 'member_results_row' => 'Private Nachricht - Ergebnisse der Mitgliedersuche',
 
@@ -62,9 +62,9 @@ $lang = array(
 
 'statistics' => 'Statistik',
 
-'post_statistics' => 'Posting Statistik',
+'post_statistics' => 'Posting-Statistik',
 
-'photo' => 'Mitglied-Foto',
+'photo' => 'Mitglieds-Foto',
 
 'no_photo' => 'Kein Foto',
 
@@ -84,7 +84,7 @@ $lang = array(
 
 'sig_too_big' => 'Signaturen dürfen maximal %x Zeichen haben',
 
-'signature_image' => 'Signatur Bild',
+'signature_image' => 'Signatur-Bild',
 
 'sig_img_not_enabled' => 'Signatur-Bilder sind nicht eingeschaltet',
 
@@ -102,7 +102,7 @@ $lang = array(
 
 'upload_image' => 'Bild hochladen',
 
-'uploads_not_allowed' => 'Bild hochladen ist nicht eingeschaltet',
+'uploads_not_allowed' => 'Bilder hochladen ist nicht eingeschaltet',
 
 'my_photo' => 'Mein Foto',
 
@@ -110,11 +110,11 @@ $lang = array(
 
 'view_private_messages' => 'Private Mitteilungen zeigen',
 
-'add_to_buddy' => 'Füge mich der Freundesliste zu',
+'add_to_buddy' => 'Füge mich der Freundesliste hinzu',
 
 'elapsed_time' => 'Skript in {elapsed_time} Sekunden ausgeführt',
 
-'email_console' => 'Email Konsole',
+'email_console' => 'Email-Konsole',
 
 'edit_photo' => 'Foto bearbeiten',
 
@@ -124,13 +124,13 @@ $lang = array(
 
 'current_photo' => 'Aktuelles Foto',
 
-'no_photo_exists' => 'Mitglied-Foto existiert nicht',
+'no_photo_exists' => 'Mitglieder-Foto existiert nicht',
 
 'upload_photo' => 'Foto hochladen',
 
 'remove_photo' => 'Foto entfernen',
 
-'photo_updated' => 'Mitglied-Foto wurde aktualisiert',
+'photo_updated' => 'Mitglieder-Foto wurde aktualisiert',
 
 'photo_removed' => 'Foto wurde entfernt',
 
@@ -192,11 +192,11 @@ $lang = array(
 
 'remove_avatar' => 'Avatar entfernen',
 
-'gd_required' => 'Für diese Aktion wird die GD Grafikbibliothek benötigt.',
+'gd_required' => 'Für diese Aktion wird die GD-Grafikbibliothek benötigt.',
 
 'close_tags' => 'Tags schliessen',
 
-'font_formatting' => 'Font Formatierung',
+'font_formatting' => 'Font-Formatierung',
 
 'size' => 'Größe',
 
@@ -232,21 +232,21 @@ $lang = array(
 
 'orange' => 'Orange',
 
-'mbr_forum_post' => 'Forum Thema',
+'mbr_forum_post' => 'Forums-Thema',
 
-'forum_posts' => 'Total Beiträge',
+'forum_posts' => 'Gesamte Beiträge',
 
 'mbr_required' => 'Zeigt Pflichtfelder an',
 
 'mbr_screen_name_explanation' => 'Wenn Sie dieses Feld leer lassen, wird Ihr Benutzername als Bildschirm-Name verwendet',
 
-'mbr_message_disclaimer' => 'Wenn Sie diese Nachricht absenden, erfährt der Empfänger Ihre E-Mail-Adresse.',
+'mbr_message_disclaimer' => 'Wenn Sie diese Nachricht absenden, erfährt der Empfänger Ihre Email-Adresse.',
 
 'mbr_message_logged' => 'Hinweis: Emails werden archiviert und können vom Betreiber der Seite gelesen werden',
 
-'most_recent_forum_topic' => 'Letztes Forum Thema',
+'most_recent_forum_topic' => 'Letztes Forums-Thema',
 
-'most_recent_forum_post' => 'Letzter Forumsbeitrag',
+'most_recent_forum_post' => 'Letzter Forums-Beitrag',
 
 'login_required' => 'Login erforderlich',
 
@@ -254,7 +254,7 @@ $lang = array(
 
 'must_be_logged_in' => 'Diese Seite ist nur für angemeldete Benutzer mit den entsprechenden Zugangsberechtigungen sichtbar.',
 
-'member_registration' => 'Mitglieder Registrierung',
+'member_registration' => 'Mitglieder-Registrierung',
 
 'mbr_image_gallery' => 'Fotogalerie',
 
@@ -278,7 +278,7 @@ $lang = array(
 
 'mbr_logout' => 'Logout',
 
-'mbr_member_registration' => 'Mitglied Registrierung',
+'mbr_member_registration' => 'Mitglieder-Registrierung',
 
 'mbr_forgotten_password' => 'Passwort vergessen',
 
@@ -298,9 +298,9 @@ $lang = array(
 
 'cannot_delete_self' => 'Es ist nicht erlaubt, das eigene Mitglieder-Konto zu löschen.',
 
-'cannot_delete_super_admin' => 'Ein Super Admin kann nicht gelöscht werden, wenn kein anderer vorhanden ist.',
+'cannot_delete_super_admin' => 'Ein Super-Admin kann nicht gelöscht werden, wenn kein anderer vorhanden ist.',
 
-'mbr_account_deleted' => 'Sie haben erfolgreich Konto und dazugehörende Daten gelöscht',
+'mbr_account_deleted' => 'Sie haben erfolgreich das Konto und die dazugehörenden Daten gelöscht',
 
 'mbr_delete_notify_title' => 'Mitglieder-Konto-Löschung bei {site_name}',
 
@@ -314,11 +314,11 @@ $lang = array(
 
 'mbr_of' => 'von',
 
-'mbr_passwd_email_sent' => 'Passwort zurücksetzen E-Mail gesandt',
+'mbr_passwd_email_sent' => 'Passwort zurücksetzen: Email gesandt',
 
 'mbr_form_empty' => 'Sie müssen Benutzernamen und Passwort angeben.',
 
-'mbr_account_not_active' => 'Ihr Mitglied-Konto ist noch nicht aktiviert.',
+'mbr_account_not_active' => 'Ihr Mitglieder-Konto ist noch nicht aktiviert.',
 
 'mbr_you_are_logged_in' => 'Sie sind jetzt eingeloggt.',
 
@@ -336,29 +336,29 @@ $lang = array(
 
 'mbr_update' => 'Update',
 
-'mbr_password_confirm' => 'Passwort bbestätigen',
+'mbr_password_confirm' => 'Passwort bestätigen',
 
-'mbr_auto_login' => 'Auto-login bei zukünftigen Besuchen',
+'mbr_auto_login' => 'Auto-Login bei zukünftigen Besuchen',
 
 'mbr_show_name' => 'Meinen Namen in der Online-Liste anzeigen',
 
 'mbr_forgot_password' => 'Passwort vergessen?',
 
-'mbr_email_address' => 'E-Mail-Adresse',
+'mbr_email_address' => 'Email-Adresse',
 
-'mbr_email_confirm' => 'E-Mail-Adresse Bestätigung',
+'mbr_email_confirm' => 'Email-Adresse Bestätigung',
 
-'mbr_your_email' => 'Ihre E-Mail-Adresse',
+'mbr_your_email' => 'Ihre Email-Adresse',
 
-'mbr_email_short' => 'E-Mail',
+'mbr_email_short' => 'Email',
 
-'mbr_icq_console' => 'ICQ Console',
+'mbr_icq_console' => 'ICQ-Console',
 
-'mbr_aim_console' => 'AOL IM',
+'mbr_aim_console' => 'AOL-IM',
 
 'mbr_aol' => 'AOL',
 
-'mbr_icq' => 'ICQ Nummer',
+'mbr_icq' => 'ICQ-Nummer',
 
 'mbr_url' => 'URL',
 
@@ -370,7 +370,7 @@ $lang = array(
 
 'mbr_name' => 'Name',
 
-'mbr_your_url' => 'URL Ihrer Webseite',
+'mbr_your_url' => 'URL Ihrer Website',
 
 'mbr_field_required' => 'Das folgende Feld ist Bedingung:',
 
@@ -384,7 +384,7 @@ $lang = array(
 
 'mbr_registration_completed' => 'Ihre Registrierung wurde erfolgreich abgeschlossen.',
 
-'mbr_admin_will_activate' => 'Ein Administrator wird Ihre Konto aktivieren und Sie dann benachrichtigen.',
+'mbr_admin_will_activate' => 'Ein Administrator wird Ihr Konto aktivieren und Sie dann benachrichtigen.',
 
 'mbr_membership_instructions_email' => 'Sie erhalten gleich eine E-Mail mit Anweisungen, wie Sie Ihr Konto aktivieren können.',
 
@@ -398,11 +398,11 @@ $lang = array(
 
 'mbr_activation_success' => 'Ihr Konto wurde aktiviert.',
 
-'mbr_may_now_log_in' => 'Sie können sich jetzt einloggen und es benutzen.',
+'mbr_may_now_log_in' => 'Sie können sich jetzt einloggen und das Konto benutzen.',
 
-'mbr_not_allowed_to_view_profiles' => 'Sie dürfen sich keine Mitglied-Profile ansehen.',
+'mbr_not_allowed_to_view_profiles' => 'Sie dürfen sich keine Mitglieder-Profile ansehen.',
 
-'mbr_member_profile' => 'Mitglied-Profil',
+'mbr_member_profile' => 'Mitglieder-Profil',
 
 'mbr_member_group' => 'Mitglieder-Gruppe:',
 
@@ -420,11 +420,11 @@ $lang = array(
 
 'mbr_comments' => 'Kommentare',
 
-'mbr_member_timezone' => 'Mitglied Zeitzone',
+'mbr_member_timezone' => 'Mitglieder-Zeitzone',
 
 'mbr_member_local_time' => 'Lokale Zeitzone des Mitglieds',
 
-'mbr_email' => 'E-Mail',
+'mbr_email' => 'Email',
 
 'mbr_location' => 'Ort',
 
@@ -440,9 +440,9 @@ $lang = array(
 
 'mbr_profile_has_been_updated' => 'Ihr Profil wurde erfolgreich aktualisiert.',
 
-'mbr_email_has_been_updated' => 'Ihre E-Mail-Einstellungen wurden aktualisiert.',
+'mbr_email_has_been_updated' => 'Ihre Email-Einstellungen wurden aktualisiert.',
 
-'mbr_email_updated' => 'E-Mail-Einstellungen aktualisiert',
+'mbr_email_updated' => 'Email-Einstellungen aktualisiert',
 
 'username_disallowed' => 'Der Administrator erlaubt das Ändern von Benutzernamen nicht.',
 
@@ -456,7 +456,7 @@ $lang = array(
 
 'mbr_terms_of_service' => 'Nutzungsbedingungen',
 
-'terms_of_service_text' => 'Alle veröffentlichten Beiträge auf dieser Site drücken die Gesichtspunkte der Autoren aus und geben nicht notwendigerweise die Ansicht des Inhabers und Administrators dieser Site wider. Durch das Registrieren auf dieser Site geben Sie Ihr Einverständnis, keine obszönen, vulgären, beleidigenden, hasserfüllten, bedrohenden oder Gesetze verlenzenden Beiträge zu veröffentlichen. Alle User die solches tun, werden umgehend ausgesperrt. Wir nehmen uns das Recht, Mitteilungen, ohne Angabe von Gründen zu entfernen, zu bearbeiten oder zu verschieben.',
+'terms_of_service_text' => 'Alle veröffentlichten Beiträge auf dieser Site drücken die Meinung der Autoren aus und geben nicht notwendigerweise die Meinung des Inhabers und Administrators dieser Site wieder. Durch das Registrieren auf dieser Site geben Sie Ihr Einverständnis, keine obszönen, vulgären, beleidigenden, hasserfüllten, bedrohenden oder Gesetze verletzenden Beiträge zu veröffentlichen. Alle Mitlgieder, die solches tun, werden umgehend ausgesperrt. Wir nehmen uns das Recht, Mitteilungen ohne Angabe von Gründen zu entfernen, zu bearbeiten oder zu verschieben.',
 
 'terms_accepted' => 'Ich stimme den Nutzungsbedingungen zu',
 
@@ -468,7 +468,7 @@ $lang = array(
 
 'mbr_all_member_groups' => 'Alle Mitglieder-Gruppen',
 
-'mbr_member_name' => 'Mitglied-Name',
+'mbr_member_name' => 'Mitglieder-Name',
 
 'mbr_ascending' => 'Aufsteigend',
 
@@ -484,29 +484,29 @@ $lang = array(
 
 'mbr_msn' => 'MSN Messenger',
 
-'mbr_bio' => 'Mitglied Biografie',
+'mbr_bio' => 'Mitglieder-Biografie',
 
 'mbr_interests' => 'Interessen',
 
 'mbr_occupation' => 'Beruf',
 
-'mbr_email_member' => 'E-Mail-Konsole',
+'mbr_email_member' => 'Email-Konsole',
 
-'mbr_subject' => 'E-Mail Betreff',
+'mbr_subject' => 'Email Betreff',
 
-'mbr_message' => 'E-Mail Mitteilung',
+'mbr_message' => 'Email Mitteilung',
 
 'mbr_close_window' => 'Fenster schließen',
 
-'mbr_recipient' => 'E-Mail Empfänger',
+'mbr_recipient' => 'Email Empfänger',
 
-'mbr_email_not_accepted' => 'Dieses Mitglied nimmt zur Zeit keine E-Mails an.',
+'mbr_email_not_accepted' => 'Dieses Mitglied nimmt zur Zeit keine Emails an.',
 
 'mbr_missing_fields' => 'Alle Felder sind Bedingung',
 
-'mbr_send_email' => 'E-Mail senden',
+'mbr_send_email' => 'Email senden',
 
-'mbr_email_forwarding' => 'Diese E-Mail wurde Ihnen zugeschickt durch Ihr Konto bei:',
+'mbr_email_forwarding' => 'Diese Email wurde Ihnen zugeschickt durch Ihr Konto bei:',
 
 'mbr_email_forwarding_cont' => 'Wenn Sie keine weiteren Nachrichten auf diesem Weg erhalten wollen, können Sie das in Ihren Konto-Einstellungen festlegen.',
 
@@ -514,9 +514,9 @@ $lang = array(
 
 'mbr_good_email' => 'Ihre Email wurde versendet.',
 
-'mbr_send_self_copy' => 'Sende mir eine Kopie dieser E-Mail.',
+'mbr_send_self_copy' => 'Sende mir eine Kopie dieser Email.',
 
-'mbr_icq_number' => 'ICQ Nummer:',
+'mbr_icq_number' => 'ICQ-Nummer:',
 
 'mbr_icq_recipient' => 'Empfänger:',
 
@@ -524,25 +524,25 @@ $lang = array(
 
 'mbr_icq_message' => 'Mitteilung',
 
-'mbr_not_allowed_to_use_email_console' => 'Sie dürfen die E-Mailkonsole nicht benutzen.',
+'mbr_not_allowed_to_use_email_console' => 'Sie dürfen die Emailkonsole nicht benutzen.',
 
-'mbr_email_timelock_not_expired' => 'Sie dürfen nur alle %x Minuten eine E-Mail verschicken.',
+'mbr_email_timelock_not_expired' => 'Sie dürfen nur alle %x Minuten eine Email verschicken.',
 
 'mbr_you_are_registered' => 'Sie sind bereits registriert und eingeloggt.',
 
-'profile_not_available' => 'Das gesuchte Mitglied-Profil ist derzeit nicht verfügbar',
+'profile_not_available' => 'Das gesuchte Mitglieder-Profil ist derzeit nicht verfügbar',
 
 'mbr_preferences_updated' => 'Einstellungen aktualisiert',
 
-'mbr_prefereces_have_been_updated' => 'Mitglied-Einstellungen wurden aktualisiert',
+'mbr_prefereces_have_been_updated' => 'Mitglieder-Einstellungen wurden aktualisiert',
 
 'search_field' => 'Suchfeld',
 
 'edit_preferences' => 'Einstellungen bearbeiten',
 
-'display_signatures' => 'Mitglied-Signaturen in Einträgen anzeigen',
+'display_signatures' => 'Mitglieder-Signaturen in Einträgen anzeigen',
 
-'display_avatars' => 'Mitglied-Avatare in Einträgen anzeigen',
+'display_avatars' => 'Mitglieder-Avatare in Einträgen anzeigen',
 
 'enable_smart_notifications' => 'Smart-Benachrichtigung einschalten',
 
@@ -552,7 +552,7 @@ $lang = array(
 
 'send_pm' => 'Private Mitteilung senden',
 
-'member_search' => 'Mitglied-Suche',
+'member_search' => 'Mitglieder-Suche',
 
 'ignore_list' => 'Ignorierten-Liste bearbeiten',
 
@@ -566,11 +566,11 @@ $lang = array(
 
 'unignore_member' => 'Mitglied ignorieren aufheben',
 
-'invalid_screen_name' => 'Ungültiger Bildschirmname',
+'invalid_screen_name' => 'Ungültiger Bildschirm-Name',
 
 'can_not_ignore_self' => 'Man kann sich selber nicht ignorieren',
 
-'invalid_screen_name_message' => 'Eingegebener Bildschirm-Name ist ungütig is invalid',
+'invalid_screen_name_message' => 'Eingegebener Bildschirm-Name ist ungütig',
 
 'ignore_list_updated' => 'Ignorierten-Liste erfolgreich aktualisiert',
 
