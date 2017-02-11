@@ -281,9 +281,9 @@ $lang = array(
 
   'upload_privileges' => 'Upload Rechte',
 
-  'upload_member_groups' => 'Berechtigte Nutzergruppen',
+  'upload_member_groups' => 'Berechtigte Mitgliedergruppen',
 
-  'upload_member_groups_desc' => 'Die folgenden Nutzergruppen dürfen in dieses Verzeichnis hochladen.</em>
+  'upload_member_groups_desc' => 'Die folgenden Mitgliedergruppen dürfen in dieses Verzeichnis hochladen.</em>
 <em>Super Administratoren dürfen <b>immer</b>.',
 
   'upload_category_groups' => 'Erlaubte Kategorie-Gruppen',
@@ -460,14 +460,14 @@ $lang = array(
   'delete_success' => 'Löschen erfolgreich',
   'delete_fail' => 'Es gab beim Löschen einer oder mehrerer Datei(en) ein Problem. Bitte die Liste überprüfen.',
   'file_name' => 'Dateiname',
-  'file_size' => 'Dateigrösse',
+  'file_size' => 'Dateigröße',
   'file_size_unit' => 'KB',
-  'size' => 'Grösse',
+  'size' => 'Größe',
   'kind' => 'Art',
   'where' => 'Wo',
   'permissions' => 'Berechtigungen',
   'upload_success' => 'Hochladen erfolgreich',
-  'upload_edit' => 'Grösse ändern und Drehen',
+  'upload_edit' => 'Größe ändern und Drehen',
   'upload_rename' => 'Datei besteht bereits',
   'upload_rename_message' => 'Eine Datei mit diesem Dateinamen besteht bereits. Wählen Sie entweder einen neuen Namen und die Datei wird umbenannt, oder behalten Sie den bestehenden Namen und die bestehende Datei wird überschrieben.',
   'no_upload_dirs' => 'Es ist kein Upload-Verzeichnis definiert',
@@ -487,7 +487,7 @@ $lang = array(
   'no_change' => 'Keine Änderung',
 
   'edit_modes' => 'Bearbeitenmodi',
-  'resize' => 'Neue Grösse',
+  'resize' => 'Neue Größe',
   'crop' => 'Zuschneiden',
   'constrain' => 'Beschränken',
   'resize_width' => 'Breite',
@@ -506,11 +506,11 @@ $lang = array(
   'width_needed' => 'Eine Breite oder Breite/Höhe muss angegeben sein, oder eine Drehen/Flip-Richtung.',
   'file_exists_replacement_error' => 'Eine Datei mit diesem Namen besteht bereits, aber sie ist in der Datenbank zum Überschreiben nicht vorhanden.',
 
-  'resize_over_confirmation' => 'Dieses Bild zu vergrössern ergibt eine niedere Bildqualität. Wollen Sie das wirklich tun?',
+  'resize_over_confirmation' => 'Dieses Bild zu vergrößern ergibt eine niedere Bildqualität. Wollen Sie das wirklich tun?',
 
-  'resize_type' => 'Grössenänderungsart',
+  'resize_type' => 'Größenänderungsart',
   'crop_mode' => 'Zuschneidemodus',
-  'resize_mode' => 'Neue Grösse-Modus',
+  'resize_mode' => 'Neue Größe-Modus',
   'rotate_mode' => 'Drehen-Modus',
   'apply_changes' => 'Änderungen übernehmen?',
   'cancel_changes' => 'Änderungen zurücknehmen',
@@ -530,7 +530,7 @@ $lang = array(
   'pagination_filter_text' => 'Zeige Dateien als %s.',
   'pagination_page' => 'Seite',
   'all_categories' => 'alle Kategorien',
-  'total_dir_size' => 'Total Verzeichnisgrösse',
+  'total_dir_size' => 'Total Verzeichnisgröße',
   'no_upload_dirs_available' => 'Kein Upload-Ort verfügbar',
 
   'save_crop' => 'Zuschnitt speichern',
@@ -561,9 +561,9 @@ $lang = array(
 
   'allowed_types' => 'Erlaubte Filetypen',
 
-  'max_size' => 'Maximale Dateigrösse (in Bytes)',
+  'max_size' => 'Maximale Dateigröße (in Bytes)',
 
-  'php_max_filesize' => 'Maximaler Uploadgrösse von PHP ist %s',
+  'php_max_filesize' => 'Maximaler Uploadgröße von PHP ist %s',
 
   'max_height' => 'Maximale Bildhöhe (in Pixel)',
 
@@ -585,7 +585,7 @@ $lang = array(
 
   'file_directory_id' => 'ID',
 
-  'max_image_action' => 'Massnahme wenn die Bildgrösse überschritten wird',
+  'max_image_action' => 'Massnahme wenn die Bildgröße überschritten wird',
 
   'disallow_image' => 'Bild verweigern',
 
@@ -596,17 +596,17 @@ $lang = array(
   'image_sizes_subtext' => 'Zusätzliche Bilder die automatisch bei jedem Bild-Upload erstellt werden.',
 
 
-  'restrict_to_group' => 'Beschränke Datei-Upload auf Nutzergruppen',
+  'restrict_to_group' => 'Beschränke Datei-Upload auf Mitgliedergruppen',
 
-  'restrict_notes_1' => 'Mit den Radio-Buttons bestimmen Sie, welche Nutzergruppen Berechtigung zum Dateiupload haben. ',
+  'restrict_notes_1' => 'Mit den Radio-Buttons bestimmen Sie, welche Mitgliedergruppen Berechtigung zum Dateiupload haben. ',
 
   'restrict_notes_2' => 'Super Admins können immer Dateien uploaden',
 
   'restrict_notes_3' => 'Hinweis: Datei-Upload ist im Moment nur über dem Control Panel möglich',
 
-  'member_group' => 'Nutzergruppe',
+  'member_group' => 'Mitgliedergruppe',
   'can_upload_files' => 'Kann Dateien uploaden',
-  'no_results' => 'Keine Nutzergruppen verfügbar',
+  'no_results' => 'Keine Mitgliedergruppen verfügbar',
   'images_only' => 'Nur Bilder',
   'all_filetypes' => 'Alle Filetypen',
   'file_properties' => 'Dateiberechtigungen',
@@ -695,7 +695,7 @@ $lang = array(
 
   'wm_font' => 'Font',
 
-  'wm_font_size' => 'Fontgrösse',
+  'wm_font_size' => 'Fontgröße',
 
   "wm_text" => "Wasserzeichen Text",
 
@@ -766,7 +766,7 @@ $lang = array(
 
   'invalid_mime' => 'Ungültiger Mime Typ, Datei wurde nicht verarbeitet',
 
-  'exceeds_max_dimensions' => 'Datei überschreitet die maximale Grösse und ist nicht ',
+  'exceeds_max_dimensions' => 'Datei überschreitet die maximale Größe und ist nicht ',
 
   'file_not_added_to_db' => 'Datei konnte in der Datenbank nicht eingetragen werden und ist nicht skalierbar',
 
