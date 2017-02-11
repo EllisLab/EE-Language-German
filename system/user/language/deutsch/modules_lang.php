@@ -36,7 +36,7 @@ $lang = array(
 
 'updated_to_version' => 'Update auf Version',
 
-'all_modules_up_to_date' => 'Alle Module wurden aktuialisiert',
+'all_modules_up_to_date' => 'Alle Module wurden aktualisiert',
 
 'deinstall' => 'Entfernen',
 
