@@ -54,7 +54,7 @@ $lang = array(
 
   'enter_new_password' => 'Ein neues Passwort eingeben',
 
-  'login' => 'Log In',
+  'login' => 'Login',
 
   'log_into' => 'Anmelden bei:',
 
