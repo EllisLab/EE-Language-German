@@ -12,7 +12,7 @@ $lang = array(
 
   'imglib_png_not_supported' => 'PNG-Bilder werden nicht unterstützt',
 
-  'imglib_jpg_or_png_required' => 'Das eingestellte Protokoll zur Änderung der Bildgrößen verarbeitet nur das JPG- oder PNG-Format',
+  'imglib_jpg_or_png_required' => 'Das eingestellte Protokoll zur Änderung der Bildgrößen verarbeitet nur JPG- oder PNG-Bilder',
 
   'imglib_copy_error' => 'Beim Versuch, die Datei zu ersetzen, ist ein Fehler aufgetreten. Bitte sorgen Sie für korrekte Schreibrechte in Ihrem Bild-Verzeichnis.',
 
