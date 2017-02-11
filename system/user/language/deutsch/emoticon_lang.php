@@ -8,7 +8,7 @@ $lang = array(
 
   'emoticon_module_name' => 'Emoticon',
 
-  'emoticon_module_description' => 'Emoticon (Smiley) Modul',
+  'emoticon_module_description' => 'Emoticon-Modul',
 
 
 //----------------------------------------
@@ -25,7 +25,7 @@ $lang = array(
 
   'emoticon_height' => 'Höhe',
 
-  'emoticon_alt' => 'Alt Tag',
+  'emoticon_alt' => 'Alt-Tag',
 
 
 

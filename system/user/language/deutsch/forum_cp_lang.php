@@ -6,22 +6,22 @@ $lang = array(
 // Required for MODULES page
 //----------------------------------------
 
-'forum_module_name' => 'Diskussions Forum',
-'forum_module_description' => 'Diskussions Forum Modul',
+'forum_module_name' => 'Diskussions-Forum',
+'forum_module_description' => 'Diskussions-Forum-Modul',
 
-'forum_listing' => 'Forum Liste',
-'forum_manager' => 'Forum Verwaltung',
+'forum_listing' => 'Forum-Liste',
+'forum_manager' => 'Forum-Verwaltung',
 
 'new_category' => 'Neue Kategorie',
 
 // Sidebar
 'templates' => 'Templates',
-'member_ranks' => 'Nutzer Ranks',
-'forum_board' => 'Forum Board',
-'create_new_board' => 'Neues Forum Board anlegen',
+'member_ranks' => 'Mitglieder-Ranks',
+'forum_board' => 'Forum-Board',
+'create_new_board' => 'Neues Forum-Board anlegen',
 
 // List / Index
-'forum_listing' => 'Forum Liste',
+'forum_listing' => 'Forum-Liste',
 'create_new_category' => 'Neue Kategorie anlegen',
 'categories' => 'Kategorien',
 
@@ -35,10 +35,10 @@ $lang = array(
 'recipients' => 'Empfänger',
 
 // Create / Edit Forum Board Form
-'create_forum_board' => 'Forum Board anlegen',
+'create_forum_board' => 'Forum-Board anlegen',
 'edit_forum_board' => '%s bearbeiten',
 'board' => 'Board',
-'forums' => 'Forums',
+'forums' => 'Foren',
 'permissions' => 'Rechte',
 
 'enable' => 'Aktivieren',
@@ -47,7 +47,7 @@ $lang = array(
 'output' => 'Ausgabe',
 
 'enable_board' => 'Board aktivieren',
-'enable_board_desc' => 'Wenn auf <b>aktivieren</b> gesetzt wirde dieses Board für alle Nutzer mit entsprechenden Rechten zugänglich sein.',
+'enable_board_desc' => 'Wenn auf <b>aktivieren</b> gesetzt, wird dieses Board für alle Mitglieder mit entsprechenden Rechten zugänglich sein.',
 
 'name' => 'Name',
 'name_desc' => 'Ganzer, beschreibender Boardname.',
@@ -55,29 +55,29 @@ $lang = array(
 'short_name' => 'Kurzname',
 'short_name_desc' => 'Kurzname für das Board.<br><i>Keine Leerzeichen. Unterstriche und Bindestriche sind erlaubt.</i>',
 
-'forum_directory' => 'Forum Verzeichnis',
+'forum_directory' => 'Forum-Verzeichnis',
 'forum_directory_desc' => '<abbr title="Unified Resource Locator">URL</abbr>-Adresse des Forums.',
 
 'site' => 'Site',
 
-'forum_url_segment' => 'Forum <abbr title="Unified Resource Locator">URL</abbr> Segment',
-'forum_url_segment_desc' => 'Das Wort, das das Forum zeigt. <b>Darf nicht</b> dem Names eines Template oder einer Template-Gruppe gleichen.',
+'forum_url_segment' => 'Forum-<abbr title="Unified Resource Locator">URL</abbr>-Segment',
+'forum_url_segment_desc' => 'Das Wort, das das Forum zeigt. <b>Darf nicht</b> der Name eines Template oder einer Template-Gruppe sein.',
 
-'default_theme' => 'Standard Theme',
+'default_theme' => 'Standard-Theme',
 'default_theme_desc' => '',
 
-'php_parsing' => '<abbr title="PHP: Hypertext Preprocessor">PHP</abbr> Parsing',
+'php_parsing' => '<abbr title="PHP: Hypertext Preprocessor">PHP</abbr>-Parsing',
 
 'php_in_templates_warning' => '<b>Warnung</b>: PHP in den Templates zuzulassen hat Einfluss auf die Sicherheit.',
-'php_in_templates_warning2' => 'Jede Einstellunge mit einem %s gekennzeichnet sollte mit Vorsicht gewählt werden.',
+'php_in_templates_warning2' => 'Jede Einstellunge mit einem %s gekennzeichnet, sollte mit Vorsicht gewählt werden.',
 
 'allow_php' => 'PHP zulassen?',
-'allow_php_desc' => 'Läßt die Benutzung von PHP in Foren Templates zu.',
+'allow_php_desc' => 'Läßt die Benutzung von PHP in Foren-Templates zu.',
 
-'php_parsing_stage' => 'PHP Parsing Reihenfolge',
-'php_parsing_stage_desc' => 'Wenn auf <b>Ausgabe</b> gesetzt, wird PHP nach Aufrufes des Templates geparst.',
+'php_parsing_stage' => 'PHP-Parsing-Reihenfolge',
+'php_parsing_stage_desc' => 'Wenn auf <b>Ausgabe</b> gesetzt, wird PHP nach Aufruf des Templates geparst.',
 
-'attachment_settings' => 'Anlagen Einstellungen',
+'attachment_settings' => 'Anlagen-Einstellungen',
 
 'attachments_per_post' => 'Anlagen pro Post',
 'attachments_per_post_desc' => 'Maximale Anlagen erlaubt pro Post.',
@@ -110,39 +110,39 @@ $lang = array(
 'thumbnail_height_desc' => 'Maximale Thumbnail-Höhe in Pixel.',
 
 'topics_per_page' => 'Themen pro Seite',
-'topics_per_page_desc' => 'Maximale Anzahl an Themen, die pro Seite angezeigt wird.',
+'topics_per_page_desc' => 'Maximale Anzahl an Themen, die pro Seite angezeigt werden.',
 
 'posts_per_page' => 'Posts pro Seite',
-'posts_per_page_desc' => 'Maximale Anzahl an Post, die pro Seite angezeigt wird.',
+'posts_per_page_desc' => 'Maximale Anzahl an Posts, die pro Seite angezeigt werden.',
 
-'topic_ordering' => 'Themen Reihenfolge',
-'topic_ordering_desc' => 'Themen Reihenfolge in der Forenauflistung.',
+'topic_ordering' => 'Themen-Reihenfolge',
+'topic_ordering_desc' => 'Themen-Reihenfolge in der Forenauflistung.',
 
 'most_recent_post' => 'Ab dem neusten Post',
 'most_recent_first' => 'Neuster Post zuerst',
 'most_recent_last' => 'Neuster Post zuletzt',
 
-'post_ordering' => 'Post Reihenfolge',
-'post_ordering_desc' => 'Post Reihenfolge in der Themenauflistung.',
+'post_ordering' => 'Post-Reihenfolge',
+'post_ordering_desc' => 'Post-Reihenfolge in der Themenauflistung.',
 
 'most_recent_first' => 'Neuster zuerst',
 'most_recent_last' => 'Neuster zuletzt',
 
 'hot_topics' => 'Angesagte Themen',
-'hot_topics_desc' => 'Anzahl an Posts um ein Thema als angesagt zu markieren.',
+'hot_topics_desc' => 'Anzahl an Posts, um ein Thema als angesagt zu markieren.',
 
 'allowed_characters' => 'Erlaubte Zeichen',
 'allowed_characters_desc' => 'Maximale Zeichenanzahl in einem Post erlaubt.',
 
-'posting_throttle' => 'Post Drosselung',
-'posting_throttle_desc' => 'Anzahl an Sekunden, bevor ein Nutzer wieder einen neuen Post oder ein neues Thema posten kann.',
+'posting_throttle' => 'Post-Drosselung',
+'posting_throttle_desc' => 'Anzahl an Sekunden, bevor ein Mitglied wieder einen neuen Post oder ein neues Thema posten kann.',
 
 'show_editing_dates' => 'Bearbeitbare Daten zeigen?',
-'show_editing_dates_desc' => 'Wenn auf <b>ja</b> gesetzt werden Zeit und Datum angezeigt, wann ein Post bearbeitet wurde.',
+'show_editing_dates_desc' => 'Wenn auf <b>ja</b> gesetzt, werden Zeit und Datum der Berabeitung eines Posts angezeigt.',
 
 'notification_settings' => 'Einstellungen zur Benachrichtigung',
 
-'topic_notifications' => 'Thema Benachrichtiung',
+'topic_notifications' => 'Thema-Benachrichtigung',
 'topic_notifications_desc' => 'When set to <b>enable</b>, all recipients listed will receive e-mail notification when a <b>new</b> topic is posted.</em><em>Separate multiple e-mails with a <mark>comma (,)</mark>.',
 
 'reply_notification' => 'Reply notification',

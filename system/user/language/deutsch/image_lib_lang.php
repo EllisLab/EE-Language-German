@@ -6,7 +6,7 @@ $lang = array(
 
   'imglib_unsupported_imagecreate' => 'Der Server unterstützt die GD-Funktionen für die Bearbeitung dieser Bild-Typen nicht.',
 
-  'imglib_gif_not_supported' => 'GIF-Bilder werden aus Lizenzgründen oft nicht unterstützt. Versuchen Sie es stattdessen mit dem JPG oder PNG-Format.',
+  'imglib_gif_not_supported' => 'GIF-Bilder werden aus Lizenzgründen oft nicht unterstützt. Versuchen Sie es stattdessen mit dem JPG- oder PNG-Format.',
 
   'imglib_jpg_not_supported' => 'JPG-Bilder werden nicht unterstützt',
 

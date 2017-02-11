@@ -1,8 +1,8 @@
 <?php
 
-$lang['ftp_no_connection']			= "Keine gültige Verbindungs-ID vorhanden. Stellen Sie sicher, dass es eine Verbindiung gibt, bevor Sie Dateien bearbeiten.";
-$lang['ftp_unable_to_connect']		= "Keine FTP-Verbindung möglich mit dem angegebenen Hostname.";
-$lang['ftp_unable_to_login']		= "Anmeldung am FTP-Server nicht möglich. Bitte Benutzernamen und Passwort überprüfen.";
+$lang['ftp_no_connection']			= "Keine gültige Verbindungs-ID vorhanden. Stellen Sie sicher, dass es eine Verbindung gibt, bevor Sie Dateien bearbeiten.";
+$lang['ftp_unable_to_connect']		= "Keine FTP-Verbindung möglich mit dem angegebenen Hostnamen.";
+$lang['ftp_unable_to_login']		= "Anmeldung am FTP-Server nicht möglich. Bitte Benutzername und Passwort überprüfen.";
 $lang['ftp_unable_to_makdir']		= "Das Verzeichnis konnte nicht angelegt werden.";
 $lang['ftp_unable_to_changedir']	= "Verzeichniswechsel nicht möglich.";
 $lang['ftp_unable_to_chmod']		= "Dateirechte konnten nicht gesetzt werden, bitte den Pfad überprüfen.  Bemerkung: Diese Funktion ist erst ab PHP 5+ vorhanden.";

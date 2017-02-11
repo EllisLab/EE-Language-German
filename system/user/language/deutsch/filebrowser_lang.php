@@ -2,7 +2,7 @@
 
 $lang = array(
 
-  'file_browser' => 'Datei Browser',
+  'file_browser' => 'Datei-Browser',
 
   'view' => 'Zeigen',
 
