@@ -486,7 +486,7 @@ $lang = array(
   'image_tools' => 'Bild-Tools',
   'no_change' => 'Keine Änderung',
 
-  'edit_modes' => 'Bearbeitungsmodi',
+  'edit_modes' => 'Bearbeitenmodi',
   'resize' => 'Neue Größe',
   'crop' => 'Zuschneiden',
   'constrain' => 'Beschränken',
@@ -506,11 +506,11 @@ $lang = array(
   'width_needed' => 'Eine Breite oder Breite/Höhe muss angegeben sein, oder eine Drehen/Flip-Richtung.',
   'file_exists_replacement_error' => 'Eine Datei mit diesem Namen besteht bereits, aber sie ist in der Datenbank zum Überschreiben nicht vorhanden.',
 
-  'resize_over_confirmation' => 'Dieses Bild zu vergrössern, ergibt eine niedrigere Bildqualität. Wollen Sie das wirklich tun?',
+  'resize_over_confirmation' => 'Dieses Bild zu vergrößern ergibt eine niedere Bildqualität. Wollen Sie das wirklich tun?',
 
   'resize_type' => 'Größenänderungsart',
   'crop_mode' => 'Zuschneidemodus',
-  'resize_mode' => 'Neuer Größe-Modus',
+  'resize_mode' => 'Neue Größe-Modus',
   'rotate_mode' => 'Drehen-Modus',
   'apply_changes' => 'Änderungen übernehmen?',
   'cancel_changes' => 'Änderungen zurücknehmen',
@@ -530,7 +530,7 @@ $lang = array(
   'pagination_filter_text' => 'Zeige Dateien als %s.',
   'pagination_page' => 'Seite',
   'all_categories' => 'alle Kategorien',
-  'total_dir_size' => 'Totale Verzeichnisgrösse',
+  'total_dir_size' => 'Total Verzeichnisgröße',
   'no_upload_dirs_available' => 'Kein Upload-Ort verfügbar',
 
   'save_crop' => 'Zuschnitt speichern',
@@ -561,7 +561,7 @@ $lang = array(
 
   'allowed_types' => 'Erlaubte Filetypen',
 
-  'max_size' => 'Maximale Dateigrösse (in Bytes)',
+  'max_size' => 'Maximale Dateigröße (in Bytes)',
 
   'php_max_filesize' => 'Maximaler Uploadgröße von PHP ist %s',
 
@@ -585,7 +585,7 @@ $lang = array(
 
   'file_directory_id' => 'ID',
 
-  'max_image_action' => 'Maßnahme, wenn die Bildgrösse überschritten wird',
+  'max_image_action' => 'Massnahme wenn die Bildgröße überschritten wird',
 
   'disallow_image' => 'Bild verweigern',
 
@@ -598,7 +598,7 @@ $lang = array(
 
   'restrict_to_group' => 'Beschränke Datei-Upload auf Mitgliedergruppen',
 
-  'restrict_notes_1' => 'Mit den Radio-Buttons bestimmen Sie, welche Mitgliedergruppen eine Berechtigung zum Datei-Upload haben. ',
+  'restrict_notes_1' => 'Mit den Radio-Buttons bestimmen Sie, welche Mitgliedergruppen Berechtigung zum Dateiupload haben. ',
 
   'restrict_notes_2' => 'Super-Admins können immer Dateien uploaden',
 
@@ -766,7 +766,7 @@ $lang = array(
 
   'invalid_mime' => 'Ungültiger Mime-Typ, Datei wurde nicht verarbeitet',
 
-  'exceeds_max_dimensions' => 'Datei überschreitet die maximale Grösse und ist nicht ',
+  'exceeds_max_dimensions' => 'Datei überschreitet die maximale Größe und ist nicht ',
 
   'file_not_added_to_db' => 'Datei konnte in der Datenbank nicht eingetragen werden und ist nicht skalierbar',
 
