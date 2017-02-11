@@ -12,7 +12,7 @@ $lang = array(
 
   'comments' => 'Kommentare',
 
-  'review_all_new' => 'Alles neue überprüfen',
+  'review_all_new' => 'Alles Neue überprüfen',
 
   'there_were' => 'Es gibt',
 
@@ -38,7 +38,7 @@ $lang = array(
 
   'has' => 'hat',
 
-  'field_groups' => 'Feldgruppen',
+  'field_groups' => 'Feldergruppen',
 
   'members' => 'Mitglieder',
 
@@ -46,13 +46,13 @@ $lang = array(
 
   'members_desc' => 'Mitglieder sind angemeldete Benutzer Ihrer Website. Sie <em>müssen</em> mindestens ein Mitglied als Administrator anlegen.',
 
-  'new_members_permission_desc' => 'Sie können <a href="%s">die Einstellungen ändern</a> um neue Mitglieder zu erlauben oder auszuschliessen.',
+  'new_members_permission_desc' => 'Sie können <a href="%s">die Einstellungen ändern</a>, um neue Mitglieder zu erlauben oder auszuschliessen.',
 
   'banned_members' => 'Ausgeschlossene Mitglieder',
 
   'content' => 'Inhalt',
 
-  'content_desc' => 'Channel Einträge.',
+  'content_desc' => 'Channel-Einträge.',
 
   'entries_with_comments' => '<b>%d</b> Einträge mit %d Kommentaren',
 
