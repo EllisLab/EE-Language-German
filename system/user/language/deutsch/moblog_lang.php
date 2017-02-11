@@ -2,19 +2,19 @@
 $lang = array(
 
 
-'moblog_allow_overrides' => 'Überschreiben in E-Mail zulassen?',
+'moblog_allow_overrides' => 'Überschreiben in Email zulassen?',
 
-'moblog_allow_overrides_subtext' => 'Wenn auf Ja, können die Einstellungen oben in der E-Mail übergangen werden',
+'moblog_allow_overrides_subtext' => 'Wenn auf Ja gesetzt, können die Einstellungen oben in der Email übergangen werden',
 
 'moblog_sticky_entry' => 'Eintrag fixieren?',
 
 'moblog_module_name' => 'Moblog',
 
-'moblog_module_description' => 'Moblogging Modul',
+'moblog_module_description' => 'Mobloggin- Modul',
 
 'moblog_prefs' => 'Einstellungen',
 
-'moblog_type' => 'Moblog Typ',
+'moblog_type' => 'MoblogTyp',
 
 'channel' => 'Channel',
 
@@ -22,7 +22,8 @@ $lang = array(
 
 'upload_directory_unwriteable' => 'Datei kann nicht ins Upload-Verzeichnis geschrieben werden',
 
-'moblog_entry_settings' => 'Channel Eintrags-Einstellungen',
+'moblog_entry_settings' => 'Channel-
+Eintrags-Einstellungen',
 
 'moblog' => 'Moblogging',
 
@@ -30,7 +31,7 @@ $lang = array(
 
 'edit_moblog' => 'Moblog aktualisieren',
 
-'view_moblogs' => 'Moblog-Kontos',
+'view_moblogs' => 'Moblog-Konten',
 
 'create_moblog' => 'Neues Moblog erstellen',
 
@@ -40,11 +41,11 @@ $lang = array(
 
 'invalid_moblog' => 'Ungültige Moblog-Auswahl',
 
-'moblog_check_select' => 'Moblog zum prüfen auswählen',
+'moblog_check_select' => 'Moblog zum Prüfen auswählen',
 
 'moblog_general_settings' => 'Allgemeine Einstellungen',
 
-'moblog_email_settings' => 'E-Mail-Einstellungen',
+'moblog_email_settings' => 'Email-Einstellungen',
 
 'moblog_file_settings' => 'Datei-Einstellungen',
 
@@ -80,33 +81,33 @@ $lang = array(
 
 'moblog_upload_directory' => 'Upload-Verzeichnis für Dateien',
 
-'moblog_image_size' => 'Bildgrösse',
+'moblog_image_size' => 'Bildgröße',
 
-'moblog_thumb_size' => 'Vorschau-Grösse',
+'moblog_thumb_size' => 'Vorschau-Größe',
 
-'moblog_email_type' => 'E-Mail-Konto Typ',
+'moblog_email_type' => 'Email-Kontotyp',
 
-'moblog_email_address' => 'E-Mail-Adresse',
+'moblog_email_address' => 'Email-Adresse',
 
-'moblog_email_server' => 'Server für ankommende Mail',
+'moblog_email_server' => 'Server für ankommende Emails',
 
 'server_example' => 'z.B.: mail.ihreseite.de',
 
-'moblog_email_login' => 'E-Mail-Konto Benutzername',
+'moblog_email_login' => 'Email-Konto: Benutzername',
 
-'moblog_email_password' => 'E-Mail-Konto Passwort',
+'moblog_email_password' => 'Email-Konto: Passwort',
 
 'data_encrypted' => 'Daten bei Übertragung verschlüsseln',
 
 'moblog_subject_prefix' => 'Moblog-Betreff-Prefix',
 
-'moblog_subject_subtext' => 'Frei lassen, um automatisch alle E-Mails anzunehmen.',
+'moblog_subject_subtext' => 'Frei lassen, um automatisch alle Emails anzunehmen.',
 
-'moblog_ignore_text' => 'E-Mail-Text ignorieren',
+'moblog_ignore_text' => 'Email-Text ignorieren',
 
 'moblog_valid_from' => 'Gültige Absender-Adresse für das Moblog',
 
-'valid_from_subtext' => 'E-Mail-Adressen, unter denen Sie Moblog-Emails verschicken. Frei lassen, wenn E-Mails von allen Adressen akzeptiert werden sollen. Einzelne E-Mail-Adressen mit Leerzeichen trennen oder auf neue Zeile setzen.',
+'valid_from_subtext' => 'Email-Adressen, unter denen Sie Moblog-Emails verschicken. Frei lassen, wenn Emails von allen Adressen akzeptiert werden sollen. Einzelne Email-Adressen mit Leerzeichen trennen oder auf neue Zeile setzen.',
 
 'moblog_time_interval' => 'Zeit zwischen Prüfungen',
 
@@ -116,13 +117,13 @@ $lang = array(
 
 'file_archive_subtext' => 'Wenn aktiv, werden Einträge zu diesem Moblog nicht veröffentlicht, sondern nur im angegebenen Upload-Verzeichnis abgelegt.',
 
-'channel_id_subtext' => 'Wenn kein Channel ausgewält ist, werden Einträge zu diesem Moblog nicht veröffentlicht, sondern im angegebenen Upload-Verzeichnis abgelegt.',
+'channel_id_subtext' => 'Wenn kein Channel ausgewählt ist, werden Einträge zu diesem Moblog nicht veröffentlicht, sondern im angegebenen Upload-Verzeichnis abgelegt.',
 
-'moblog_auth_subtext' => 'Wenn aktiv, werden nur E-Mails mit Benutzernamen und Passwort berücksichtigt.',
+'moblog_auth_subtext' => 'Wenn aktiv, werden nur Emails mit Benutzernamen und Passwort berücksichtigt.',
 
-'subject_prefix_subtext' => 'Um alle E-Mails einzuschließen, Prefix frei lassen.',
+'subject_prefix_subtext' => 'Um alle Emails einzuschließen, Prefix frei lassen.',
 
-'ignore_text_subtext' => 'Text, der aus Ihren Moblog-E-Mails gelöscht werden soll, hierher kopieren, z.B. um Yahoo- oder Hotmail-Signaturen zu entfernen.',
+'ignore_text_subtext' => 'Text, der aus Ihren Moblog-Emails gelöscht werden soll, hierher kopieren, z.B. um Yahoo- oder Hotmail-Signaturen zu entfernen.',
 
 'interval_subtext' => 'Betrifft den {exp:moblog:check}-Tag. Wert in Minuten setzen; Dezimalstellen sind erlaubt.',
 
@@ -132,15 +133,15 @@ $lang = array(
 
 'imap' => 'IMAP',
 
-'moblog_template' => 'Moblog Template',
+'moblog_template' => 'Moblog-Template',
 
 'moblog_formatting' => 'Standard-Formatierung für Template',
 
 'xhtml' => 'xhtml',
 
-'br' => '&lt;br /&gt;',
+'br' => '<br />',
 
-'invalid_short_name' => 'Der Kurzname darf nur Buchstaben und Zahlen, aber keine Leerzeichen enthalten.',
+'invalid_short_name' => 'Der Kurzname darf nur Buchstaben und Zahlen aber keine Leerzeichen enthalten.',
 
 'moblog_taken_short_name' => 'Dieser Moblog-Name ist schon vergeben.',
 
@@ -150,11 +151,11 @@ $lang = array(
 
 'moblog_created' => 'Moblog erstellt.',
 
-'moblog_updated' => 'Moblog Einstellungen aktualisiert.',
+'moblog_updated' => 'Moblog-Einstellungen aktualisiert.',
 
 'no_moblogs' => 'Derzeit gibt es keine Moblogs.',
 
-'total_moblogs' => 'Total Moblogs: ',
+'total_moblogs' => 'Gesamte Moblogs: ',
 
 'moblog_view' => 'Moblogs',
 
@@ -170,7 +171,7 @@ $lang = array(
 
 'moblog_delete_confirm' => 'Moblogs löschen',
 
-'moblog_delete_confirm_title' => 'Moblog löschen Bestätigung',
+'moblog_delete_confirm_title' => 'Moblog löschen: Bestätigung',
 
 'moblog_delete_question' => 'Ausgewählte(s) Moblog(s) wirklich löschen?',
 
@@ -192,19 +193,19 @@ $lang = array(
 
 'invalid_server_response' => 'Ungültige Serverantwort',
 
-'invalid_username' => 'Username ungültig',
+'invalid_username' => 'Benutzername ungültig',
 
 'invalid_password' => 'Passwort ungültig',
 
-'unable_to_retrieve_emails' => 'E-Mail-Information nicht verfügbar',
+'unable_to_retrieve_emails' => 'Email-Information nicht verfügbar',
 
-'no_valid_emails' => 'Keine gültigen E-Mails gefunden.',
+'no_valid_emails' => 'Keine gültigen Emails gefunden.',
 
-'unable_to_parse' => 'Kann E-Mail nicht lesen.',
+'unable_to_parse' => 'Kann Email nicht lesen.',
 
-'authorization_failed' => 'E-Mail-Autorisierung fehlgeschlagen für:',
+'authorization_failed' => 'Email-Autorisierung fehlgeschlagen für:',
 
-'undeletable_email' => 'Kann E-Mail nicht löschen.',
+'undeletable_email' => 'Kann Email nicht löschen.',
 
 'invalid_channel' => 'Ungültiger Channel',
 
