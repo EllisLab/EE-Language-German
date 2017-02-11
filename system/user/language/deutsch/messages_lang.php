@@ -46,9 +46,9 @@ $lang = array(
 
 'folder_name' => 'Ordnername',
 
-'buddy_list' => 'Freunde-Liste',
+'buddy_list' => 'Liste der Freunde',
 
-'blocked_list' => 'Gesperrte-List',
+'blocked_list' => 'Liste der Gesperrten',
 
 'folder_page' => 'Seite',
 
@@ -66,7 +66,7 @@ $lang = array(
 
 'messages_percent_full' => 'Ihre Ordner sind zu {lang:usage_percent}% gefüllt',
 
-'messages_folder' => 'Private Nachrichten Ordner',
+'messages_folder' => 'Private Nachrichten-Ordner',
 
 'messages_delete' => 'Löschen',
 
@@ -86,7 +86,7 @@ $lang = array(
 
 'hide_cc' => 'CC bei den Empfängern nicht anzeigen',
 
-'preview_message' => 'Mitteilung Vorschau',
+'preview_message' => 'Mitteilungen-Vorschau',
 
 'guided' => 'Angeleitet',
 
@@ -126,7 +126,7 @@ $lang = array(
 
 'empty_body_field' => 'Das Feld für den Nachrichtentext ist leer. Wollten Sie nicht etwas mitteilen?',
 
-'sending_limit_warning' => 'Sie haben das Limit zum Senden von Privatnachrichten innerhalb 24 Stunden überschritten.',
+'sending_limit_warning' => 'Sie haben das Limit zum Senden von Privatnachrichten innerhalb von 24 Stunden überschritten.',
 
 'storage_limit_warning' => 'Sie haben das Speicherlimit für private Nachrichten erreicht.',
 
@@ -144,7 +144,7 @@ $lang = array(
 
 'file_name' => 'Dateiname',
 
-'file_size' => 'Dateigrösse',
+'file_size' => 'Dateigröße',
 
 'remove' => 'Entfernen',
 
@@ -174,7 +174,7 @@ $lang = array(
 
 'member_name' => 'Mitgliedname',
 
-'member_usernames' => 'Bildschirm-Name',
+'member_usernames' => 'Bildschirmname',
 
 'member_description' => 'Beschreibung',
 
@@ -186,7 +186,7 @@ $lang = array(
 
 'member_search' => 'Mitglieder-Suche',
 
-'insert_member_instructions' => 'Mitgliedname anklicken zum auswählen',
+'insert_member_instructions' => 'Mitgliedername anklicken zum auswählen',
 
 'description_charlimit' => '(weniger als 50 Zeichen)',
 
