@@ -6,7 +6,7 @@ $lang = array(
 // Publish page
 //----------------------------
 
-  'spell_check' => 'Rechtschreibeprüfung',
+  'spell_check' => 'Rechtschreibprüfung',
 
   'check_spelling' => 'Rechtschreibung prüfen',
 
@@ -18,7 +18,7 @@ $lang = array(
 
   'spell_edit_word' => 'Wort bearbeiten',
 
-  'unsupported_browser' => 'Browser nicht unterstützt',
+  'unsupported_browser' => 'Browser wird nicht unterstützt',
 
   'no_spelling_errors' => 'Keine Fehler gefunden',
 
