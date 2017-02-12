@@ -1,7 +1,7 @@
 <?php
 
 $lang['upload_userfile_not_set'] = "Konnte keine POST-Variable namens userfile finden.";
-$lang['upload_file_exceeds_limit'] = "Die hochgeladene Datei überschreitet die maximal erlaubte Größe der PHP Konfiguration.";
+$lang['upload_file_exceeds_limit'] = "Die hochgeladene Datei überschreitet die maximal erlaubte Größe der PHP-Konfiguration.";
 $lang['upload_file_exceeds_form_limit'] = "Die hochgeladene Datei überschreitet die maximal erlaubte Größe des Formulars.";
 $lang['upload_file_partial'] = "Die Datei wurde nur teilweise hochgeladen.";
 $lang['upload_no_temp_directory'] = "Das temporäre Verzeichnis fehlt.";
@@ -11,7 +11,7 @@ $lang['upload_no_file_selected'] = "Es wurde keine Datei zum Hochladen ausgewäh
 $lang['upload_invalid_file'] = "Datei nicht erlaubt.";
 $lang['upload_invalid_filesize'] = "Die Datei, die hochgeladen werden soll, überschreitet die erlaubte Größe.";
 $lang['upload_invalid_dimensions'] = "Die Datei, die hochgeladen werden soll, überschreitet die maximale Höhe oder Breite.";
-$lang['upload_destination_error'] = "Ein Problem trat auf während die hochgeladene Datei an ihren Zielort bewegt wurde.";
+$lang['upload_destination_error'] = "Ein Problem trat auf, während die hochgeladene Datei an ihren Zielort bewegt wurde.";
 $lang['upload_no_filepath'] = "Der Upload-Pfad scheint nicht gültig zu sein.";
 $lang['upload_no_file_types'] = "Es wurden keine erlaubten Dateitypen definiert.";
 $lang['upload_bad_filename'] = "Die hochgeladene Datei existiert bereits auf dem Server.";
