@@ -10,9 +10,9 @@ $lang = array(
 
 'license_and_reg' => 'Lizenz und Registrierung',
 
-'url_path_settings' => 'URL und Pfad-Einstellungen',
+'url_path_settings' => 'URL- und Pfad-Einstellungen',
 
-'outgoing_email' => 'Ausgehende E-Mail',
+'outgoing_email' => 'Ausgehende Email',
 
 'debugging_output' => 'Debugging und Output',
 
@@ -20,7 +20,7 @@ $lang = array(
 
 'comment_settings' => 'Kommentareinstellungen',
 
-'html_buttons' => '<abbr title="Hyper-Text Markup Language">HTML</abbr> Buttons',
+'html_buttons' => '<abbr title="Hyper-Text Markup Language">HTML</abbr>-Buttons',
 
 'template_settings' => 'Template-Einstellungen',
 
@@ -34,7 +34,7 @@ $lang = array(
 
 'menu_manager' => 'Menü-Manager',
 
-'members' => 'Nutzer',
+'members' => 'Mitglieder',
 
 'messages' => 'Nachrichten',
 
@@ -60,14 +60,14 @@ $lang = array(
 
 'site_online' => 'Website online?',
 
-'site_online_desc' => 'Wenn auf <b>offline</b> gesetzt, können nur Super Admins und zugelassene Nutzergruppen die Website sehen.',
+'site_online_desc' => 'Wenn auf <b>offline</b> gesetzt, können nur Super-Admins und zugelassene Mitgliedergruppen die Website sehen.',
 
 'version_autocheck' => 'Automatische Überprüfung nach neuer Version',
 
 'version_autocheck_desc' => 'Wenn auf <b>auto</b> gesetzt, wird ExpressionEngine automatisch nach einer neuen Version suchen.',
 
 'enable_msm' => 'Site-Verwaltung einschalten?',
-'enable_msm_desc' => 'Wenn <b>aktivieren</b> gesetzt ist, können Super Admins und zugelassene Nutzergruppen weitere Websites über das <abbr title="Control Panel">CP</abbr> administrieren.',
+'enable_msm_desc' => 'Wenn <b>aktivieren</b> gesetzt ist, können Super-Admins und zugelassene Mitgliedergruppen weitere Websites über das <abbr title="Control Panel">CP</abbr> administrieren.',
 
 'online' => 'Online',
 
@@ -83,13 +83,13 @@ $lang = array(
 
 'language' => 'Sprache',
 
-'date_time_settings' => 'Datum und Uhrzeit-Einstellungen',
+'date_time_settings' => 'Datums- und Uhrzeit-Einstellungen',
 
 'site_default' => 'Die Standardeinstellung verwenden?',
 
 'timezone' => 'Zeitzone',
 
-'date_time_fmt' => 'Datum und Zeitformat',
+'date_time_fmt' => 'Datums und Zeitformat',
 
 "24_hour" => "24-Stunden",
 
@@ -134,9 +134,9 @@ $lang = array(
 'license_file_permissions' => 'Die Lizenzdatei konnte nicht gespeichert werden, bitte die Rechte überprüfen für <b>%s</b>.',
 
 'license_file' => 'Lizenzdatei',
-'license_file_desc' => 'Gefunden auf der sogenannten <a href="%s" rel="external">purchase management</a> Seite.',
+'license_file_desc' => 'Gefunden auf der Seite <a href="%s" rel="external">Purchase management</a>.',
 
-'site_limit' => 'Site Limit',
+'site_limit' => 'Site-Limit',
 
 'features_limited' => 'Limitierte Features',
 'features_limited_desc' => 'Die Core Version von ExpressionEngine ist Feature-limitiert. <a href="%s" rel="external">Jetzt upgraden.</a>',
@@ -147,7 +147,7 @@ $lang = array(
 
 'url_path_settings_title' => '<abbr title="Uniform Resource Location">URL</abbr>- und Pfad-Einstellungen',
 
-'base_url' => 'Basis URL',
+'base_url' => 'Basis-URL',
 
 'base_url_desc' => 'Verwende das Kürzel <code>{base_url}</code>, um die Basis-URL in anderen Control Panel URL-Feldern zu nutzen.',
 
@@ -163,13 +163,13 @@ $lang = array(
 
 'site_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Adresse der <mark>index.php</mark>.',
 
-'cp_url' => 'Control Panel Verzeichnis',
+'cp_url' => 'Control Panel-Verzeichnis',
 
 'cp_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Adresse des Control Panels.',
 
 'themes_url' => 'Themes-Verzeichnis',
 
-'themes_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Adresse des <mark>Themes</mark>-Verzeichnis.',
+'themes_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Adresse des <mark>Themes</mark>-Verzeichnisses.',
 
 'themes_path' => 'Themes-Pfad',
 
@@ -197,7 +197,7 @@ $lang = array(
 
 'url_title_separator' => '<abbr title="Uniform Resource Location">URL</abbr>-Titel: Zeichen für das Leerzeichen',
 
-'url_title_separator_desc' => 'Das Zeichen, das benutzt wird, um in den <abbr title="Uniform Resource Location">URL</abbr>-Titeln die Leerzeichen zu ersetzen. <mark>Bindestriche (-)</mark> werden empfohlen.',
+'url_title_separator_desc' => 'Das Zeichen, das benutzt wird, um in den <abbr title="Uniform Resource Location">URL</abbr>-Titeln die Leerzeichen zu ersetzen. <mark>Bindestrich (-)</mark> wird empfohlen.',
 
 'url_title_separator_opt_hyphen' => 'Bindestrich (mehrere-woerter)',
 
@@ -207,17 +207,17 @@ $lang = array(
  * Outgoing Email
  */
 
-'webmaster_email' => 'E-Mail-Adresse',
+'webmaster_email' => 'Email-Adresse',
 
-'webmaster_email_desc' => 'Die E-Mail-Adresse, von der automatisierte E-Mails kommen sollen. Ohne diese werden automatisierte E-Mails wahrscheinlich wie Spam behandelt.',
+'webmaster_email_desc' => 'Die Email-Adresse, von der automatisierte Emails kommen sollen. Ohne diese werden automatisierte Emails wahrscheinlich wie Spam behandelt.',
 
 'webmaster_name' => 'Von wem',
 
-'webmaster_name_desc' => 'Name, der für die automatisierten E-Mails benutzt werden soll.',
+'webmaster_name_desc' => 'Name, der für die automatisierten Emails benutzt werden soll.',
 
 'email_charset' => 'Zeichenkodierung',
 
-'email_charset_desc' => 'E-Mails brauchen eine Zeichenkodierung, um richtig dargestellt zu werden. UTF-8 wird empfohlen.',
+'email_charset_desc' => 'Emails brauchen eine Zeichenkodierung, um richtig dargestellt zu werden. UTF-8 wird empfohlen.',
 
 'mail_protocol' => 'Protokoll',
 
@@ -233,7 +233,7 @@ $lang = array(
 
 'sending_options' => 'Versandoptionen',
 
-'mail_format' => 'E-Mail-Format',
+'mail_format' => 'Email-Format',
 
 'mail_format_desc' => 'Das Format, in dem E-Mails versandt werden. Text wird empfohlen.',
 
@@ -241,7 +241,7 @@ $lang = array(
 
 'word_wrap_desc' => 'Wenn auf <b>Aktivieren</b> geschaltet, wird das System lange Zeilen auf eine besser lesbare Breite umbrechen.',
 
-'php_mail' => 'PHP Mail',
+'php_mail' => 'PHP-Mail',
 
 'sendmail' => 'Sendmail',
 
@@ -259,11 +259,11 @@ $lang = array(
 
 'enable_errors' => 'Error Reporting aktivieren?',
 
-'enable_errors_desc' => 'Wenn auf <b>aktivieren</b> gesetzt, werden Super Admins und Nutzergruppen mit entsprechenden Rechten PHP/MySQL-Fehler sehen.',
+'enable_errors_desc' => 'Wenn auf <b>aktivieren</b> gesetzt, werden Super-Admins und Mitgliedergruppen mit entsprechenden Rechten die PHP/MySQL-Fehler sehen.',
 
 'show_profiler' => 'Debugging aktivieren?',
 
-'show_profiler_desc' => 'Wenn auf <b>aktivieren</b> gesetzt, werden Super Admins und Nutzergruppen mit entsprechenden Rechten Benchmark-Ergebnisse, alle SQL-Abfragen, und abgesandte Formular-Daten am Fuss der Seite sehen.',
+'show_profiler_desc' => 'Wenn auf <b>aktivieren</b> gesetzt, werden Super-Admins und Mitgliedergruppen mit entsprechenden Rechten die Benchmark-Ergebnisse, alle SQL-Abfragen und abgesandte Formular-Daten im Footer der Seite sehen.',
 
 'enable_devlog_alerts' => 'Developer-Log-Warnungen anzeigen?',
 
@@ -273,7 +273,7 @@ $lang = array(
 
 'gzip_output' => '<abbr title="GNU Zip Compression">GZIP</abbr>-Komprimierung aktivieren?',
 
-'gzip_output_desc' => 'Wenn auf <b>ja</b> gesetzt, wird die Website GZIP-Komprimierung benutzen, was die Pageload-Geschwindigkeit verringert.',
+'gzip_output_desc' => 'Wenn auf <b>ja</b> gesetzt, wird die Website die GZIP-Komprimierung benutzen, was die Pageload-Geschwindigkeit verringert.',
 
 'force_query_string' => '<abbr title="Uniform Resource Location">URL</abbr>-Suchabfragen erzwingen?',
 
@@ -303,7 +303,7 @@ $lang = array(
 
 'max_caches' => 'Speicherbare <abbr title="Uniform Resource Identifier">URI</abbr>s',
 
-'max_caches_desc' => 'Wenn die Seiten oder die Datenbank zwischengespeichert werden, limitiert das den verfügbaren Cache. 150 wird für kleine Sites und 300 für große Seiten empfohlen. Das erlaubte Maximium liegt bei 1000.',
+'max_caches_desc' => 'Wenn die Seiten oder die Datenbank zwischengespeichert werden, limitiert das den verfügbaren Cache. 150 wird für kleine Sites und 300 für große Sites empfohlen. Das erlaubte Maximium liegt bei 1000.',
 
 'new_relic' => 'New Relic Optionen',
 
@@ -354,7 +354,7 @@ $lang = array(
 'image_library_path_desc' => 'Absoluter Pfad zum <mark>Bildbearbeitungsprogramm</mark>.</em>
 <em><b>Notwendig</b> für ImageMagick und NetPBM.',
 
-'invalid_image_library_path' => 'Dieses Feld muss einen gültien Pfad auf die bildbearbeitende Software haben, wenn ImageMagick oder NetPBM ausgewählt sind.',
+'invalid_image_library_path' => 'Dieses Feld muss einen gültigen Pfad auf die bildbearbeitende Software haben, wenn ImageMagick oder NetPBM ausgewählt sind.',
 
 'thumbnail_suffix' => 'Thumbnail-Suffix',
 
@@ -368,7 +368,7 @@ $lang = array(
 
 'emoticon_url' => '<abbr title="Unified Resource Locator">URL</abbr>',
 
-'emoticon_url_desc' => '<abbr title="Unified Resource Locator">URL</abbr>-Adresse des <mark>Emoticon</mark> Verzeichnisses.',
+'emoticon_url_desc' => '<abbr title="Unified Resource Locator">URL</abbr>-Adresse des <mark>Emoticon</mark>-Verzeichnisses.',
 
 /**
  * Comment Settings
@@ -402,7 +402,7 @@ $lang = array(
 
 'strict_urls' => 'Strikte <abbr title="Uniform Resource Location">URL</abbr>s anschalten?',
 
-'strict_urls_desc' => 'Wenn auf <b>aktivieren</b> gestellt, wird ExpressioneEngine die <abbr title="Uniform Resource Location">URL</abbr> strikt interpretieren.',
+'strict_urls_desc' => 'Wenn auf <b>aktivieren</b> gesetzt, wird ExpressioneEngine die <abbr title="Uniform Resource Location">URL</abbr> strikt interpretieren.',
 
 'site_404' => '404 Seite',
 
@@ -410,7 +410,7 @@ $lang = array(
 
 'save_tmpl_revisions' => 'Template-Bearbeitungen sichern?',
 
-'save_tmpl_revisions_desc' => 'Wenn auf <b>ja</b> gesetzt wird ExpressionEngine bis zu <b>5</b> Template-Bearbeitungen speichern.',
+'save_tmpl_revisions_desc' => 'Wenn auf <b>ja</b> gesetzt, wird ExpressionEngine bis zu <b>5</b> Template-Bearbeitungen speichern.',
 
 'max_tmpl_revisions' => 'Maximale Anzahl an Bearbeitungen?',
 
@@ -436,7 +436,7 @@ $lang = array(
 'log_referrers' => 'Referrer verfolgen?',
 'log_referrers_desc' => 'Wenn auf <b>ja</b> gesetzt, wird ExpressionEngine alle eingehenden Links verfolgen.',
 
-'max_referrers' => 'Wieviel Referrer sollen gesichert werden',
+'max_referrers' => 'Wieviele Referrer sollen gesichert werden',
 
 'dynamic_tracking_disabling' => 'Überschreitung des Grenzwert?',
 'dynamic_tracking_disabling_desc' => 'Das Tracking wird eingestellt, wenn die Zahl überschritten wird.</em> <em>Online-User-Tracking muss hierfür aktiviert werden. <a href="%s" ref="external">Mehr lernen</a>',
@@ -463,11 +463,11 @@ $lang = array(
  * Member Settings
  */
 
-'member_settings' => 'Nutzereinstellungen',
+'member_settings' => 'Mitglieder-Einstellungen',
 
 'allow_member_registration' => 'Registrierungen erlauben?',
 
-'allow_member_registration_desc' => 'Wenn auf <b>ja</b> gesetzt, werden Besucher sich als Nutzer registrieren können.',
+'allow_member_registration_desc' => 'Wenn auf <b>ja</b> gesetzt, werden Besucher sich als Mitglieder registrieren können.',
 
 'req_mbr_activation' => 'Kontoaktivierungsart',
 
@@ -475,43 +475,43 @@ $lang = array(
 
 'req_mbr_activation_opt_none' => 'Keine Aktivierung nötig',
 
-'req_mbr_activation_opt_email' => 'E-Mail zur Aktivierung schicken',
+'req_mbr_activation_opt_email' => 'Email zur Aktivierung schicken',
 
 'req_mbr_activation_opt_manual' => 'Vom Administrator freigeben',
 
 'approved_member_notification' => 'Benachrichtigung bei Bestätigung?',
 
-'approved_member_notification_desc' => 'Wird die Einstellung auf <b>ja</b> gesetzt, werden Mitglieder per E-Mail benachrichtigt, falls ihre Registrierung genehmigt wird.',
+'approved_member_notification_desc' => 'Wird die Einstellung auf <b>ja</b> gesetzt, werden Mitglieder per Email benachrichtigt, falls ihre Registrierung genehmigt wird.',
 
 'declined_member_notification' => 'Benachrichtigung bei Ablehnung?',
 
-'declined_member_notification_desc' => 'Wird die Einstellung auf <b>ja</b> gesetzt, werden Mitglieder per E-Mail benachrichtigt, wenn ihre Registrierung abgelehnt wurde.',
+'declined_member_notification_desc' => 'Wird die Einstellung auf <b>ja</b> gesetzt, werden Mitglieder per Email benachrichtigt, wenn ihre Registrierung abgelehnt wurde.',
 
 'require_terms_of_service' => 'AGBs akzeptieren?',
 
-'require_terms_of_service_desc' => 'Wenn auf <b>ja</b> gesetzt, müssen Nutzer bei der Registrierung den AGB zustimmen.',
+'require_terms_of_service_desc' => 'Wenn auf <b>ja</b> gesetzt, müssen neue Mitglieder bei der Registrierung den AGB zustimmen.',
 
-'allow_member_localization' => 'Nutzern erlauben eine eigene Zeit einzustellen?',
+'allow_member_localization' => 'Mitglieder erlauben, eine eigene Zeit einzustellen?',
 
-'allow_member_localization_desc' => 'Wenn auf <b>ja</b> gesetzt, können die Benutzer eine eigene Zeit und ein eigenens Datum für ihr Konto einstellen.',
+'allow_member_localization_desc' => 'Wenn auf <b>ja</b> gesetzt, können die Mitglieder eine eigene Zeit und ein eigenens Datum für ihr Konto einstellen.',
 
-'default_member_group' => 'Voreingestellte Nutzergruppe',
+'default_member_group' => 'Voreingestellte Mitgliedergruppe',
 
-'default_member_group_desc' => 'Die Standardgruppe für alle Nutzer.',
+'default_member_group_desc' => 'Die Standardgruppe für alle Mitglieder.',
 
-'member_theme' => 'Nutzer-Profil-Theme',
+'member_theme' => 'Mitglieder-Profil-Theme',
 
-'member_theme_desc' => 'Standard-Theme benutzt für Nutzerprofile.',
+'member_theme_desc' => 'Standard-Theme benutzt für Mitgliederprofile.',
 
-'member_listing_settings' => 'Nutzerlisten-Einstellungen',
+'member_listing_settings' => 'Mitgliederlisten-Einstellungen',
 
 'memberlist_order_by' => 'Sortiert nach',
 
-'memberlist_order_by_desc' => 'Nutzerliste wird sortiert nach',
+'memberlist_order_by_desc' => 'Mitgliederliste wird sortiert nach',
 
 'memberlist_order_by_opt_posts' => 'Postings gesamt',
 
-'memberlist_order_by_opt_screenname' => 'Nutzername',
+'memberlist_order_by_opt_screenname' => 'Benutzername',
 
 'memberlist_order_by_opt_entries' => 'Einträge gesamt',
 
@@ -521,7 +521,7 @@ $lang = array(
 
 'memberlist_sort_order' => 'Sortieren nach',
 
-'memberlist_sort_order_desc' => 'Sortierreihenfolge für die Nutzerliste.',
+'memberlist_sort_order_desc' => 'Sortierreihenfolge für die Mitgliederliste.',
 
 'memberlist_sort_order_opt_asc' => 'Aufsteigend (A-Z)',
 
@@ -529,17 +529,17 @@ $lang = array(
 
 'memberlist_row_limit' => 'Gesamtresultat',
 
-'memberlist_row_limit_desc' => 'Insgesamt zurückgegebene Ergebnisse pro Seite für die Nutzerliste.',
+'memberlist_row_limit_desc' => 'Insgesamt zurückgegebene Ergebnisse pro Seite für die Mitgliederliste.',
 
-'registration_notify_settings' => 'Einstellungen für Registrierungsbenachrichtigung',
+'registration_notify_settings' => 'Einstellungen für die Registrierungsbenachrichtigung',
 
 'new_member_notification' => 'Benachrichtigung für neue Nutzer?',
 
-'new_member_notification_desc' => 'Wenn auf  <b>ja</b> gesetzt, wird eine Benachrichtigung an die folgende E-Mail-Adresse geschickt.',
+'new_member_notification_desc' => 'Wenn auf  <b>ja</b> gesetzt, wird eine Benachrichtigung an die folgende Email-Adresse geschickt.',
 
 'mbr_notification_emails' => 'Benachrichtigungsempfänger',
 
-'mbr_notification_emails_desc' => 'Mehrere E-Mail-Adressen mit Komma trennen.',
+'mbr_notification_emails_desc' => 'Mehrere Email-Adressen mit Komma trennen.',
 
 
 /**
@@ -561,10 +561,10 @@ $lang = array(
 'set_name' => 'Name',
 'set_assigned' => 'Zugeordnet',
 'assigned_to' => 'zugeordnet zu',
-'set_member_groups' => 'Benutzergruppe(n)?',
-'set_member_groups_desc' => 'Benutzergruppe(n) auswählen, denen dieses Menü zugeordnet werden soll.',
+'set_member_groups' => 'Mitgliedergruppe(n)?',
+'set_member_groups_desc' => 'Mitgliedergruppe(n) auswählen, denen dieses Menü zugeordnet werden soll.',
 'menu_options' => 'Menü-Optionen',
-'menu_items' => 'Menüeinträge',
+'menu_items' => 'Menüe-Einträge',
 'menu_items_desc' => 'Die Inhalte dieses Menüs bearbeiten',
 'menu_type' => 'Typ',
 'menu_addon' => 'Add-On',
@@ -579,8 +579,8 @@ $lang = array(
 'menu_addon' => 'Add-On',
 'menu_addon_desc' => 'Navigation aus installiertem Add-On',
 'menu_no_addons' => 'Keine <b>Add-Ons mit Menüs</b> gefunden.',
-'edit_menu_item' => 'Menüeintrag bearbeiten',
-'add_menu_item' => 'Menüeintrag hinzufügen',
+'edit_menu_item' => 'Menü-Eintrag bearbeiten',
+'add_menu_item' => 'Menü-Eintrag hinzufügen',
 
 
 /**
@@ -601,7 +601,7 @@ $lang = array(
 
 'prv_msg_auto_links' => '<abbr title="Uniform Resource Location">URL</abbr>s und Emails in Links umwandeln?',
 
-'prv_msg_auto_links_desc' => 'Wenn auf <b>ja</b> gesetzt, werden alle <abbr title="Uniform Resource Location">URL</abbr>s und E-Mails automatisch in Links umgewandelt.',
+'prv_msg_auto_links_desc' => 'Wenn auf <b>ja</b> gesetzt, werden alle <abbr title="Uniform Resource Location">URL</abbr>s und Emails automatisch in Links umgewandelt.',
 
 'attachment_settings' => 'Einstellungen für Anhänge',
 
@@ -635,9 +635,9 @@ $lang = array(
 
 'allow_avatar_uploads' => 'Das Hochladen von Avataren erlauben?',
 
-'allow_avatar_uploads_desc' => 'Wenn auf <b>ja</b> gesetzt, dürfen Nutzer ihren eigenen Avatar hochladen.',
+'allow_avatar_uploads_desc' => 'Wenn auf <b>ja</b> gesetzt, dürfen Mitglieder ihren eigenen Avatar hochladen.',
 
-'avatar_url' => 'Avatar Verzeichnis',
+'avatar_url' => 'Avatar-Verzeichnis',
 
 'avatar_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Adresse des <mark>Avatar</mark>-Verzeichnisses.',
 
@@ -680,17 +680,17 @@ $lang = array(
 
 'captcha_url' => '<abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr>-Verzeichnis',
 
-'captcha_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Adresse des <mark><abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr></mark>-Verzeichnisses.',
+'captcha_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Adresse des <mark><abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr></mark>-Verzeichnis.',
 
 'captcha_path' => '<abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr>-Pfad',
 
-'captcha_path_desc' => 'Absoluten Pfad des <mark><abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr></mark>-Verzeichnisses.',
+'captcha_path_desc' => 'Absoluter Pfad für das <mark><abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr></mark>-Verzeichnis.',
 
 /**
  * Security & Privacy
  */
 
-'security_tip' => '<b>Tip</b>: Sicherheit der Website ist important.',
+'security_tip' => '<b>Tipp</b>: Sicherheit der Website ist sehr wichtig.',
 
 'security_tip_desc' => 'Jede Einstellung markiert mit <span title="security enhancement"></span>, wird die Sicherheit der Website verbessern.',
 
@@ -698,11 +698,11 @@ $lang = array(
 
 'website_session_type' => 'Website-Session-Typ',
 
-'cs_session' => 'Cookies und Session ID',
+'cs_session' => 'Cookies und Session-ID',
 
 'c_session' => 'Nur Cookies',
 
-'s_session' => 'Nur Session ID',
+'s_session' => 'Nur Session-ID',
 
 'cookie_settings' => 'Cookie-Einstellungen',
 
@@ -726,27 +726,27 @@ $lang = array(
 
 'cookie_secure_desc' => 'Wenn auf <b>ja</b> gesetzt, werden Cookies nur über eine sichere <abbr title="Hyper Text Transfer Protocol with Secure Sockets Layer">HTTPS</abbr>-Verbindung gesendet.</em><em>Ihre Site <b>muß</b> dafür überall <abbr title="Secure Sockets Layer">SSL</abbr> benutzen.',
 
-'member_security_settings' => 'Nutzer-Sicherheitseinstellungen',
+'member_security_settings' => 'Mitglieder-Sicherheitseinstellungen',
 
-'allow_username_change' => 'Nutzern erlauben den Nutzernamen zu ändern?',
+'allow_username_change' => 'Mitgliedern erlauben den Benutzernamen zu ändern?',
 
-'allow_username_change_desc' => 'Wenn auf <b>ja</b> gesetzt, dürfen Nutzer ihren Nutzernamen ändern.',
+'allow_username_change_desc' => 'Wenn auf <b>ja</b> gesetzt, dürfen Nutzer ihren Benutzernamen ändern.',
 
 'un_min_len' => 'Mindest-Namenslänge',
 
-'un_min_len_desc' => 'Mindestanzahl an Buchstaben für neue Nutzernamen.',
+'un_min_len_desc' => 'Mindestanzahl an Buchstaben für neue Benutzernamen.',
 
 'allow_multi_logins' => 'Mehrfache Anmeldungen erlauben?',
 
-'allow_multi_logins_desc' => 'Wenn auf <b>ja</b> gesetzt, können Nutzer sich mehrfach mit einem Konto anmelden, wenn der Session-Typ auf <mark>nur Cookies</mark> gestellt ist.',
+'allow_multi_logins_desc' => 'Wenn auf <b>ja</b> gesetzt, können Mitglieder sich mehrfach mit einem Konto anmelden, wenn der Session-Typ auf <mark>nur Cookies</mark> gestellt ist.',
 
 'require_ip_for_login' => 'Werden User Agent und <abbr title="Internet Protocol">IP</abbr> zwingend gebraucht für die Anmeldung?',
 
-'require_ip_for_login_desc' => 'Wenn auf <b>ja</b> gesetzt, können sich Nutzer ohne gültigen User Agent und <abbr title="Internet Protocol">IP</abbr>-Adresse nicht anmelden.',
+'require_ip_for_login_desc' => 'Wenn auf <b>ja</b> gesetzt, können sich Mitglieder ohne gültigen User Agent und <abbr title="Internet Protocol">IP</abbr>-Adresse nicht anmelden.',
 
 'password_lockout' => 'Password-Eingabeblock?',
 
-'password_lockout_desc' => 'Wenn auf <b>aktivieren</b> gesetzt, werden Nutzer vom System geblockt, wenn sie sich zu oft falsch angemeldet haben.',
+'password_lockout_desc' => 'Wenn auf <b>aktivieren</b> gesetzt, werden Mitglieder vom System geblockt, wenn sie sich zu oft falsch angemeldet haben.',
 
 'password_lockout_interval' => 'Password-Eingabeblock-Intervall',
 
@@ -754,15 +754,15 @@ $lang = array(
 
 'require_secure_passwords' => 'Sichere Passwörter anfordern?',
 
-'require_secure_passwords_desc' => 'Wenn auf <b>ja</b> gesetzt, müssen Nutzer Passwörter benutzen, die mindestens einen Großbuchstaben, einen Kleinbuchstaben und eine Nummer enthalten.',
+'require_secure_passwords_desc' => 'Wenn auf <b>ja</b> gesetzt, müssen Mitglieder Passwörter benutzen, die mindestens einen Großbuchstaben, einen Kleinbuchstaben und eine Nummer enthalten.',
 
 'pw_min_len' => 'Mindestpasswortlänge',
 
-'pw_min_len_desc' => 'Mindestanzahl an Zeichen, die ein Nutzerpasswort enthalten muss.',
+'pw_min_len_desc' => 'Mindestanzahl an Zeichen, die ein Benutzerpasswort enthalten muss.',
 
 'allow_dictionary_pw' => 'Wörter aus Wörterbüchern in Passworten erlauben?',
 
-'allow_dictionary_pw_desc' => 'Wenn auf <b>ja</b> gesetzt, können Nutzer normale Wörter aus Wörterbüchern benutzen. <mark>Dafür muss eine Wörterbuch-Datei installiert werden.</mark>',
+'allow_dictionary_pw_desc' => 'Wenn auf <b>ja</b> gesetzt, können Mitglieder normale Wörter aus Wörterbüchern benutzen. <mark>Dafür muss eine Wörterbuch-Datei installiert werden.</mark>',
 
 'name_of_dictionary_file' => 'Wörterbuch-Datei',
 
@@ -776,15 +776,15 @@ $lang = array(
 
 'require_ip_for_posting' => 'Werden User Agent und <abbr title="Internet Protocol">IP</abbr> zwingend gebraucht für Postings?',
 
-'require_ip_for_posting_desc' => 'Wenn auf <b>ja</b> gesetzt, können Nutzer ohne gültigen User Agent und <abbr title="Internet Protocol">IP</abbr>-Adresse nicht posten',
+'require_ip_for_posting_desc' => 'Wenn auf <b>ja</b> gesetzt, können Mitglieder ohne gültigen User Agent und <abbr title="Internet Protocol">IP</abbr>-Adresse nicht posten',
 
 'xss_clean_uploads' => '<abbr title="Cross Site Scripting">XSS</abbr>-Filter aktivieren?',
 
-'xss_clean_uploads_desc' => 'Wenn auf <b>ja</b> gesetzt, werden Formulare auf Eingaben <abbr title="Cross Site Scripting">XSS</abbr>-Filter anwenden.',
+'xss_clean_uploads_desc' => 'Wenn auf <b>ja</b> gesetzt, werden Formulare auf Eingaben die <abbr title="Cross Site Scripting">XSS</abbr>-Filter anwenden.',
 
 'enable_rank_denial' => 'Rank Denial für gepostete Links verwenden?',
 
-'enable_rank_denial_desc' => 'Wird diese Einstellung auf <b>aktivieren</b> gesetzt ist, werden alle ausgehenden Links über eine interne Umleitungsseite geleitet. Diese Maßnahme verhindert, dass Spammer einen höheren <a href="%s" rel="external">Page Rank</a> erreichen können.',
+'enable_rank_denial_desc' => 'Wird diese Einstellung auf <b>aktivieren</b> gesetzt, werden alle ausgehenden Links über eine interne Umleitungsseite geleitet. Diese Maßnahme verhindert, dass Spammer einen höheren <a href="%s" rel="external">Page Rank</a> erreichen können.',
 
 /**
  * Access Throttling
@@ -792,25 +792,25 @@ $lang = array(
 
 'enable_throttling' => 'Throttling anschalten?',
 
-'enable_throttling_desc' => 'Wenn auf <b>aktivieren</b> gesetzt, werden Nutzer geblockt, sollten sie die gesetzten Bedingungen überschreiten.',
+'enable_throttling_desc' => 'Wenn auf <b>aktivieren</b> gesetzt, werden Mitglieder geblockt, sollten sie die gesetzten Bedingungen überschreiten.',
 
 'banish_masked_ips' => '<abbr title="Internet Protocol">IP</abbr> erforderlich?',
 
-'banish_masked_ips_desc' => 'Wenn auf <b>ja</b> gesetzt, können Nutzer ohne gültige <abbr title="Internet Protocol">IP</abbr>-Adresse sich nicht anmelden.',
+'banish_masked_ips_desc' => 'Wenn auf <b>ja</b> gesetzt, können sich Mitglieder ohne gültige <abbr title="Internet Protocol">IP</abbr>-Adresse nicht anmelden.',
 
-'throttling_limit_settings' => 'Throttling Limit Einstellungen',
+'throttling_limit_settings' => 'Throttling-Limit: Einstellungen',
 
 "max_page_loads" => "Maximum Page Loads",
 
-"max_page_loads_desc" => "Maximale Anzahl, die ein Nutzer eine Seite der Website neuladen kann (innerhalb des unten gesetzten Zeitintervalls), bevor er geblockt wird.",
+"max_page_loads_desc" => "Maximale Anzahl, die eine Seite einer Website von einem Mitglied neugeladen kann (innerhalb des unten gesetzten Zeitintervalls), bevor er geblockt wird.",
 
 "time_interval" => "Zeitintervall",
 
-"time_interval_desc" => "Die Anzahl an Sekunden für die oben genannte Anzahl an erlaubten Page Loads.",
+"time_interval_desc" => "Die Anzahl an Sekunden für die oben genannte Anzahl an erlaubten Seitenaufrufen.",
 
 "lockout_time" => "Block-Zeitfenster",
 
-"lockout_time_desc" => "Das Zeitfenster, innerhalb dessen der Nutzer ausgesperrt bleibt.",
+"lockout_time_desc" => "Das Zeitfenster, innerhalb dessen das Mitglied ausgesperrt bleibt.",
 
 'banishment_type' => 'Aktion für die Blockierung',
 
@@ -822,7 +822,7 @@ $lang = array(
 
 'banishment_url' => 'Umleitung',
 
-'banishment_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Adresse für blockierte Nutzer.',
+'banishment_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Adresse für blockierte Mitglieder.',
 
 'banishment_message' => 'Nachricht',
 
