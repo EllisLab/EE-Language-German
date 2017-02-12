@@ -4,13 +4,13 @@ $lang = array(
 
 'pages_module_name' => 'Seiten (Pages)',
 
-'pages_module_description' => 'Nutz Channel-Einträge um statische Seiten zu erzeugen',
+'pages_module_description' => 'Statische Seiten in Channel-Einträge erzeugen',
 
-'pages_homepage' => 'Seiten Homepage',
+'pages_homepage' => 'Seiten-Homepage',
 
 'page' => 'Seiten',
 
-'pages_uri' => 'Seiten URI',
+'pages_uri' => 'Seiten-URI',
 
 'no_pages' => 'Es bestehen noch keine Seiten',
 
@@ -22,7 +22,7 @@ $lang = array(
 
 'view_page' => 'Seite zeigen',
 
-'page_settings' => 'Seite-Einstellungen',
+'page_settings' => 'Seiten-Einstellungen',
 
 'none' => 'Keine',
 
@@ -30,7 +30,7 @@ $lang = array(
 
 'parent_page' => 'Eltern-Seite',
 
-'channel_entry' => 'Channel Eintrag',
+'channel_entry' => 'Channel-Eintrag',
 
 'choose_entry' => 'Eintrag wählen',
 
@@ -56,17 +56,17 @@ $lang = array(
 
 'invalid_page_uri' => 'Ungültiger Seiten-URI',
 
-'invalid_page_num_segs' => 'Sie haben bei den Seiten URL die Anzahl möglicher URI -Segmente überschritten',
+'invalid_page_num_segs' => 'Sie haben in dem Seiten-URL die Anzahl möglicher URI-Segmente überschritten',
 
-'pages_configuration' => 'Modul Konfiguration',
+'pages_configuration' => 'Modul-Konfiguration',
 
 'preference_name' => 'Voreingestellter Name',
 
 'preference_value' => 'Voreingestellter Wert',
 
-'default_template' => 'Standard Template',
+'default_template' => 'Standard-Template',
 
-'default_for_page_creation' => 'Standard Channel für &#39;Neue Seite erstellen&#39; Tab',
+'default_for_page_creation' => 'Standard-Channel für &#39;Neue Seite erstellen&#39; Tab',
 
 'no_default' => 'Kein Standard',
 
