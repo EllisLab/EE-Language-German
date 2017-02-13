@@ -2,7 +2,7 @@
 $lang = array(
 
 
-'eeof_example' => 'Beispiel Tag!',
+'eeof_example' => 'Beispiel-Tag!',
 
 'translate' => 'Update',
 
