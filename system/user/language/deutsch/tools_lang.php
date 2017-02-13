@@ -9,14 +9,14 @@ $lang = array(
 
   'communicate'			=> 'Communicate',
 
-  'config_editor'			=> 'Config File Manager',
-  'php_info' 				=> 'PHP Info',
+  'config_editor'			=> 'Konfigurations-Editor',
+  'php_info' 				=> 'PHP-Info',
   'recount_stats' 		=> 'Recount Statistics',
-  'search_and_replace' 	=> 'Search and Replace',
-  'sql_manager' 			=> 'SQL Manager',
-  'clear_caching'	 		=> 'Clear Cached Data',
+  'search_and_replace' 	=> 'Suchen und ersetzen',
+  'sql_manager' 			=> 'SQL-Manager',
+  'clear_caching'	 		=> 'Cache löschen',
 
-  'import_utilities' => 'Import Hilfsprogramm',
+  'import_utilities' => 'Import-Hilfsprogramm',
   'translation_tool' => 'Übersetzungshilfe',
   'english' => 'English',
   'translation' => 'Übersetzung',
@@ -29,25 +29,25 @@ $lang = array(
   'search_terms' => 'Suchbegriffe',
 
   'page_caching' => 'Seiten (Template) Dateien cachen',
-  'tag_caching' => 'Tag Dateien cachen',
-  'db_caching' => 'Datenbank Dateien cachen',
+  'tag_caching' => 'Tag-Dateien cachen',
+  'db_caching' => 'Datenbank-Dateien cachen',
   'all_caching' => 'Alle Caches',
 
   'sandr_instructions' => 'Das Formular erlaubt die Suche nach einem bestimmten Text und ersetzt ihn mit einem anderem',
   'search_term' => 'Suche nach diesem Text',
   'replace_term' => 'und ersetze ihn mit diesem Text',
   'replace_where' => 'In welchem Datenbank-Feld soll das Austauschen stattfinden',
-  'search_replace_disclaimer' => 'Je nach  verwendeter Syntax kann diese Funktion unerwünschte Resultate ergeben. Bitte lesen Sie das Handbuch und sichern Sie Ihre Datenbank.',
-  'advanced_users_only' => 'Nur fortgeschrittene User',
+  'search_replace_disclaimer' => 'Je nach verwendeter Syntax kann diese Funktion unerwünschte Resultate ergeben. Bitte lesen Sie das Handbuch und sichern Sie Ihre Datenbank.',
+  'advanced_users_only' => 'NUR fortgeschrittene User',
 
   'choose_translation_file' => 'Eine Datei zum Übersetzen wählen',
   'no_lang_file' => 'Keine Sprachdatei vorhanden',
-  'no_lang_keys' => 'Kein Language Key zum Übersetzen vorhanden',
+  'no_lang_keys' => 'Kein Sprachauswahl zum Übersetzen vorhanden',
   'invalid_path' => 'Der angegebene Pfad ist ungültig:',
-  'trans_file_not_writable' => 'Übersetzungsdatei ist nicht schreibbar',
+  'trans_file_not_writable' => 'Übersetzungsdatei ist nicht beschreibbar',
 
-  'member_import' => 'Mitglieder Import Hilfe',
-  'missing_password_type' => 'Das erforderliche Attribut wird im Passwortelement für User %x vermisst.Für das richtige Import-Format bitte die Dokumentation ',
+  'member_import' => 'Mitglieder-Import-Hilfe',
+  'missing_password_type' => 'Das erforderliche Attribut wird im Passwortelement für Benutzer %x vermisst. Für das richtige Import-Format bitte die Dokumentation lesen. ',
 
   'united_states' => 'United States',
   'european' => 'Europa',
@@ -62,9 +62,9 @@ $lang = array(
 
 
   /* Translation */
-  'translation_dir_unwritable' => 'Warnung: Das translation Verzeichnis ist nicht beschreibbar.',
+  'translation_dir_unwritable' => 'Warnung: Das Translation-Verzeichnis ist nicht beschreibbar.',
 
-  'screen_name' => 'Bildschirmname',
+  'screen_name' => 'Bildschirm-Name',
 
 
   ''=>''
