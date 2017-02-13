@@ -6,7 +6,7 @@ $lang = array(
 
 'search_module_description' => 'Such-Modul',
 
-'search_no_stopwords' => 'Ihr Suchbegriff enthält zu allgemeine Worte, nach denen zu suchen nicht sinnvoll ist.',
+'search_no_stopwords' => 'Ihr Suchbegriff enthält allzu allgemeine Worte, nach denen zu suchen, nicht sinnvoll ist.',
 
 'search_exact_word' => 'Exakte Wortsuche',
 
@@ -24,7 +24,7 @@ $lang = array(
 
 'search_author' => 'Autor',
 
-'search_any_channel' => 'Jedes Channel',
+'search_any_channel' => 'Jeder Channel',
 
 'search_total_comments' => 'Anzahl Kommentare',
 
@@ -40,17 +40,17 @@ $lang = array(
 
 'search_exact_phrase_match' => 'Genaue Übereinstimmung',
 
-'search_by_member_name' => 'Nach Mitgliedname suchen',
+'search_by_member_name' => 'Nach Mitgliedername suchen',
 
-'search_by_member_group' => 'Suche in Mitglieder-Gruppe',
+'search_by_member_group' => 'Suche in Mitgliedergruppe',
 
-'switch_to_group' => 'Zu Gruppen-Suche wechseln',
+'switch_to_group' => 'Zur Gruppensuche wechseln',
 
-'switch_to_name' => 'Zu Namen-Suche wechseln',
+'switch_to_name' => 'Zur Namenssuche wechseln',
 
 'search_all_groups' => 'Suche in allen Mitglieder-Gruppen',
 
-'search_exact_name_match' => 'Henaue Übereinstimmung im Namen',
+'search_exact_name_match' => 'Genaue Übereinstimmung im Namen',
 
 'search_channels' => 'Channels',
 
@@ -98,7 +98,7 @@ $lang = array(
 
 'search' => 'Suche',
 
-'search_path_error' => 'Der Suchpfad ist fehlerhaft. Bitte informieren Sie den Systemadministrator.',
+'search_path_error' => 'Der Suchpfad ist fehlerhaft. Bitte informieren Sie den System-Administrator.',
 
 'search_not_allowed' => 'Sie dürfen die Suchmaschine nicht benutzen.',
 
