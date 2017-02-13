@@ -13,7 +13,7 @@ $lang = array(
   'template_routes_header' => 'Template Routen',
   'template_routes_header_desc' => 'Die einzelnen Routen sind in jener Reihenfolge angeführt, in der sie vom Template-Router abgearbeitet werden.',
   'route' => 'Route',
-  'segments_required' => 'Alle Segments anfordern?',
+  'segments_required' => 'Alle Segmente anfordern?',
   'new_route' => 'Neue Route',
 );
 
