@@ -2,7 +2,7 @@
 
 $lang = array(
 
-'system_utilities' => 'System Dienstprogramme',
+'system_utilities' => 'System-Dienstprogramme',
 
 /**
  * Menu
@@ -12,27 +12,27 @@ $lang = array(
 
 'sent' => 'Gesendet',
 
-'cp_translation' => '<abbr title="Control Panel">CP</abbr> Übersetzung',
+'cp_translation' => '<abbr title="Control Panel">CP</abbr>-Übersetzung',
 
 'debug_extensions' => 'Extensions von Fehlern bereinigen',
 
-'php_info' => '<abbr title="PHP: Hypertext Processor">PHP</abbr> Info',
+'php_info' => '<abbr title="PHP: Hypertext Processor">PHP</abbr>-Info',
 
 'import_tools' => 'Importwerkzeuge',
 
 'file_converter' => 'Dateien konvertieren',
 
-'member_import' => 'Nutzer Import',
+'member_import' => 'Nutzer-Import',
 
-'sql_manager' => 'SQL Verwaltung',
+'sql_manager' => 'SQL-Verwaltung',
 
-'sql_manager_abbr' => '<abbr title="Structured Query Language">SQL</abbr> Verwaltung',
+'sql_manager_abbr' => '<abbr title="Structured Query Language">SQL</abbr>-Verwaltung',
 
-'query_form' => 'Abfrage Form',
+'query_form' => 'Abfrage-Form',
 
 'data_operations' => 'Datenbearbeitung',
 
-'cache_manager' => 'Cache Verwaltung',
+'cache_manager' => 'Cache-Verwaltung',
 
 'statistics' => 'Statistiken',
 
@@ -44,59 +44,59 @@ $lang = array(
  * Communicate
  */
 
-'email_subject' => 'E-Mail Betreff',
+'email_subject' => 'Email-Betreff',
 
-'email_body' => 'E-Mail Inhalt',
+'email_body' => 'Email-Inhalt',
 
 'send_as' => 'gesendet als',
 
 'word_wrap' => 'Wortumbruch',
 
-'your_email' => 'Ihre E-Mail',
+'your_email' => 'Ihre Email',
 
 'attachment' => 'Anhang',
 
-'attachment_desc' => 'Anhänge werden  <b>nicht </b> gesichert nach dem Versand.',
+'attachment_desc' => 'Anhänge werden  <b>nicht</b> gesichert nach dem Versand.',
 
-'recipient_options' => 'Empfänger Optionen',
+'recipient_options' => 'Empfänger-Optionen',
 
 'primary_recipients' => 'Hauptempfänger',
 
 'primary_recipients_desc' => '"AN:"-Email-Adressse(n), mehrere Empfänger mit einem Komma trennen.',
 
-'cc_recipients' => '<abbr title="Carbon Copied">CC</abbr> E-Mail-Adresse(n)',
+'cc_recipients' => '<abbr title="Carbon Copied">CC</abbr>: Email-Adresse(n)',
 
-'cc_recipients_desc' => '<abbr title="Carbon Copied">CC</abbr> E-Mail-Adresse(n), mehrere Empfänger mit einem Komma trennen.',
+'cc_recipients_desc' => '<abbr title="Carbon Copied">CC</abbr>: Email-Adresse(n), mehrere Empfänger mit einem Komma trennen.',
 
-'bcc_recipients' => '<abbr title="Blind Carbon Copied">BCC</abbr> E-Mail-Adresse(n)',
+'bcc_recipients' => '<abbr title="Blind Carbon Copied">BCC</abbr>: Email-Adresse(n)',
 
-'bcc_recipients_desc' => '<abbr title="Blind Carbon Copied">BCC</abbr> E-Mail-Adresse(n), mehrere Empfänger mit einem Komma trennen.',
+'bcc_recipients_desc' => '<abbr title="Blind Carbon Copied">BCC</abbr>: Email-Adresse(n), mehrere Empfänger mit einem Komma trennen.',
 
-'add_member_groups' => 'Nutzergruppe(n) hinzufügen',
+'add_member_groups' => 'Mitgliedergruppe(n) hinzufügen',
 
-'add_member_groups_desc' => 'E-Mail an <b>alle</b> Nutzer der gewähten Gruppe(n) senden.',
+'add_member_groups_desc' => 'Email an <b>alle</b> Mitglieder der gewähten Gruppe(n) senden.',
 
-'btn_send_email' => 'Sende E-Mail',
+'btn_send_email' => 'Sende Email',
 
 'btn_send_email_working' => 'Sende...',
 
 'none'		=> 'Nur Text',
-'auto_br'	=> 'Auto &lt;br /&gt;',
+'auto_br'	=> 'Auto <br />;',
 'xhtml'		=> 'XHTML',
 
-'no_cached_emails' => 'Keine <b>gesendeten E-Mails</b> gefunden.',
+'no_cached_emails' => 'Keine <b>gesendeten Emails</b> gefunden.',
 
-'create_new_email' => 'Neue E-Mail schreiben',
+'create_new_email' => 'Neue Email schreiben',
 
-'communicate_error' => 'Achtung: : E-Mail nicht gesendet',
+'communicate_error' => 'Achtung: : Email nicht gesendet',
 
-'communicate_error_desc' => 'Die E-Mail konnte nicht gesendet werden, sehen Sie sich bitte die unten aufgeführten Fehler an und beheben diese.',
+'communicate_error_desc' => 'Die Email konnte nicht gesendet werden, sehen Sie sich bitte die unten aufgeführten Fehler an und beheben diese.',
 
-'view_email' => 'E-Mail ansehen',
+'view_email' => 'Email ansehen',
 
-'resend' => 'E-Mail noch einmal senden',
+'resend' => 'Email noch einmal senden',
 
-'emails_removed' => 'E-Mails entfernt',
+'emails_removed' => 'Emails entfernt',
 
 /**
  * CP Translation
@@ -154,7 +154,7 @@ $lang = array(
 'sandr' => 'Daten suchen und ersetzen',
 
 'sandr_warning' => '<p><b>Warnung</b>: <b class="no">Nur für fortgeschrittene Nutzer!</b> Sehr vorsichtig sein bei der Benutzung dieses Werkzeuges.</p>
-<p>Abhängig von der benutzen Syntax kann diese Funktion zu ungewollte Ergebnissen führen. Bitte zurerst ein Backup der Datenbank machen sowie die Dokumentation lesen.</p>',
+<p>Abhängig von der benutzen Syntax kann diese Funktion zu ungewollten Ergebnissen führen. Bitte zurerst ein Backup der Datenbank machen sowie die Dokumentation lesen.</p>',
 
 'sandr_search_text' => 'Suche nach diesem Text',
 
@@ -162,7 +162,7 @@ $lang = array(
 
 'sandr_in' => 'Suche und ersetze in',
 
-'sandr_in_desc' => 'Feldauswahl für das Suchen und Ersetzen.',
+'sandr_in_desc' => 'Felderauswahl für das Suchen und Ersetzen.',
 
 'rows_replaced' => 'Anzahl an geänderten Datenbankeinträgen: %s',
 
@@ -170,22 +170,22 @@ $lang = array(
 
 'sandr_password_desc' => 'Sie <b>müssen</b> Ihr Passwort eingeben zum Suchen und Ersetzen.',
 
-'site_preferences'		=> 'Site Einstellungen',
-'channel_entry_title'	=> 'Channel Titel Einträge',
-'channel_fields'		=> 'Channel Felder',
+'site_preferences'		=> 'Site-Einstellungen',
+'channel_entry_title'	=> 'Channel-Titel-Einträge',
+'channel_fields'		=> 'Channel-Felder',
 'replace_in_templates'	=> 'In ALLEN Templates',
 'template_groups'		=> 'Template-Gruppen',
 'choose_below'			=> '(Aus dem folgenden auswählen)',
 
-'btn_sandr' => 'Suchen und ersetzen',
+'btn_sandr' => 'Suchen und Ersetzen',
 
 'btn_sandr_working' => 'Ersetze...',
 
 'no_tables_match' => 'Keine Tabellen haben zur den Suchkriterien gepasst',
 
-'sandr_error' => 'Achtung: "Suchen und ersetzen" nicht durchgefüht',
+'sandr_error' => 'Achtung: "Suchen und Ersetzen" nicht durchgefüht',
 
-'sandr_error_desc' => 'Suchen und ersetzen konnte nicht durchgeführt werden, sehen Sie sich bitte die unten aufgeführten Fehler an und beheben diese.',
+'sandr_error_desc' => 'Suchen und Ersetzen konnte nicht durchgeführt werden, sehen Sie sich bitte die unten aufgeführten Fehler an und beheben diese.',
 
 /**
  * Import Converter
@@ -193,9 +193,9 @@ $lang = array(
 
 'import_converter' => 'Import-Datei konvertieren',
 
-'file_location' => 'Datei Pfad',
+'file_location' => 'Datei-Pfad',
 
-'file_location_desc' => 'Path der <mark>gewählten</mark> Datei.',
+'file_location_desc' => 'Pfad der <mark>gewählten</mark> Datei.',
 
 'delimiting_char' => 'Eingeschränkte Zeichen',
 
@@ -219,31 +219,31 @@ $lang = array(
 
 'assign_fields' => 'Felder zuordnen',
 
-'import_password_warning' => '<b>Warnung</b>: Wenn Sie kein Passwort vergeben, wird bei jedem Nutzer autotisch ein Passwort gesetzt. Diese Nutzer müssen im nachhinein über den "Passwort vergessen"-Link ein neues Passwort setzen.',
+'import_password_warning' => '<b>Warnung</b>: Wenn Sie kein Passwort vergeben, wird bei jedem Mitglied automatisch ein Passwort gesetzt. Diese Mitglieder müssen im nachhinein über den "Passwort vergessen"-Link ein neues Passwort setzen.',
 
-'plain_text_passwords' => 'Klarext Passwörter?',
+'plain_text_passwords' => 'Klartext-Passwörter?',
 
-'plain_text_passwords_desc' => 'Wenn auf <b>ja</b> gesetzt werden Passwörter als Klartext abgespeichert.',
+'plain_text_passwords_desc' => 'Wenn auf <b>ja</b> gesetzt, werden Passwörter als Klartext abgespeichert.',
 
 'btn_assign_fields' => 'Felder zuordnen',
 
 'duplicate_field_assignment' => 'Feldzuordnung duplizieren: %x',
 
-'duplicate_member_id' => 'Doppelte Nutzer-ID: "%x"<br />Es wird empfohlen, keine Nutzer-ID Tag zu benutzen und ExpressionEngine selbständig die Member-ID hochzählen lassen',
+'duplicate_member_id' => 'Doppelte Mitglieder-ID: "%x"<br />Es wird empfohlen, keinen Mitglieder-ID-Tag zu benutzen und ExpressionEngine selbständig die Mitglieder-ID hochzählen lassen',
 
-'duplicate_username' => 'Nutzernamen verdoppeln: ',
+'duplicate_username' => 'Mitgliedernamen verdoppeln: ',
 
-'member_id_warning' => 'WARNUNG: Wenn &lt;member_id&gt; Tags im XML enthalten sind,  werden bestehende Nutzer mit der selben member_id ÜBERSCHRIEBEN!  Fahren Sie mit Vorsicht fort!',
+'member_id_warning' => 'WARNUNG: Wenn Mitglieder-ID-Tags im XML enthalten sind, werden bestehende Mitglieder mit der selben Mitglieder-ID ÜBERSCHRIEBEN!  Fahren Sie mit Vorsicht fort!',
 
-'missing_email_field' => ' "E-Mail" muss ein Feld zugewiesen werden',
+'missing_email_field' => ' "Email" muss ein Feld zugewiesen werden',
 
-'missing_screen_name_field' => '"screen_name"  muss ein Feld zugewiesen werden',
+'missing_screen_name_field' => 'Dem Bildschirm-Namen  muss ein Feld zugewiesen werden',
 
-'missing_username_field' => '"username" muss ein Feld zugewiesen werden',
+'missing_username_field' => 'Dem Benutzernamen muss ein Feld zugewiesen werden',
 
 'not_enough_fields' => 'Nicht genügend Felder',
 
-'not_enough_fields_desc' => 'Sie brauchen mindestens 3 Felder: username, screen_name, and E-Mail-Adress',
+'not_enough_fields_desc' => 'Sie brauchen mindestens 3 Felder: Benutzername, Bildschirm-Name und Email-Adresse',
 
 'select' => 'Auswahl treffen',
 
@@ -257,7 +257,7 @@ $lang = array(
 
 'btn_create_file_working' => 'Lege an...',
 
-'xml_code' => 'XML Code',
+'xml_code' => 'XML-Code',
 
 'btn_download_file' => 'Datei herunterladen',
 
@@ -271,13 +271,13 @@ $lang = array(
  * Member Import
  */
 
-'mbr_xml_file' => '<abbr title="Extensible Markup Language">XML</abbr> Datei-Pfad',
+'mbr_xml_file' => '<abbr title="Extensible Markup Language">XML</abbr>-Datei-Pfad',
 
 'mbr_xml_file_location' => 'Server Pfad zur <abbr title="Extensible Markup Language"><mark>XML</mark></abbr>-Datei.',
 
-'mbr_import_default_options' => 'Standard Optionen',
+'mbr_import_default_options' => 'Standard-Optionen',
 
-'member_group' => 'Nutzergruppe',
+'member_group' => 'Mitglieder-Gruppe',
 
 'mbr_language' => 'Sprache',
 
@@ -285,16 +285,16 @@ $lang = array(
 
 'mbr_create_custom_fields' => 'Eigene Felder anlegen?',
 
-'mbr_create_custom_fields_desc' => 'Wenn auf <b>ja</b> gesetzt, wird der Import automatisch automatisch eingene Nutzerfelder anlegen, wenn diese nicht im Standard enthalten sind.',
+'mbr_create_custom_fields_desc' => 'Wenn auf <b>ja</b> gesetzt, wird der Import automatisch eigene Mitgliederfelder anlegen, wenn diese nicht im Standard enthalten sind.',
 
-'mbr_import_btn' => 'Nutzer importieren',
+'mbr_import_btn' => 'Mitglieder importieren',
 
 'mbr_import_btn_saving' => 'Importiere...',
 
 'confirm_import' => 'Import bestätigen',
 
 'confirm_import_warning' => '<p class="caution"><span title="Vorsichtig vorgehen"></span> <b>Vorsicht</b>: Wenn die <abbr title="Extensible Markup Language">XML</abbr>-Datei einen Tag names "<b>member_id</b>" enthält, stoppen.</p>
-<p>Nutzer in der Datenbank mit übereinstimmenden <abbr title="Identifier">ID</abbr>s werden <b>überschrieben</b> wenn dieser Import bestätigt wird.</p>',
+<p>Mitglieder in der Datenbank mit übereinstimmenden <abbr title="Identifier">ID</abbr>s werden <b>überschrieben</b>, wenn dieser Import bestätigt wird.</p>',
 
 'option' => 'Option',
 
@@ -308,9 +308,9 @@ $lang = array(
 
 'map_custom_fields_desc' => 'Die <abbr title="Extensible Markup Language">XML</abbr>-Datei enthält Felder, die nicht mit dem Importer übereinstimmen, bitte überprüfen und eigene Felder anlegen, wenn notwendig.',
 
-'field_name' => 'Feldname',
+'field_name' => 'Feld-Name',
 
-'field_label' => 'Feldlabel',
+'field_label' => 'Feld-Label',
 
 'field_required' => 'Benötigt?',
 
@@ -353,11 +353,11 @@ $lang = array(
 
 'common_queries' => 'Allgemeine Abfragen',
 
-'common_queries_desc' => 'Einige allgemeine Abfragen um mehr über den Datenbankinhalt zu lernen.',
+'common_queries_desc' => 'Einige allgemeine Abfragen, um mehr über den Datenbankinhalt zu lernen.',
 
 'sql_query_to_run' => 'Datenbank-Abfrage',
 
-'sql_password_desc' => 'Sie <b>müssen</b> Ihr Passwort eingeben um Abfragen senden zu können.',
+'sql_password_desc' => 'Sie <b>müssen</b> Ihr Passwort eingeben, um Abfragen senden zu können.',
 
 'query_btn' => 'Abfragen',
 
@@ -391,15 +391,15 @@ $lang = array(
 
 'record_count' => 'Anzahl Datensätze',
 
-'members' => 'Nutzer',
+'members' => 'Mitglieder',
 
-'channel_titles' => 'Channel Einträge',
+'channel_titles' => 'Channel-Einträge',
 
 'sites' => 'Sites',
 
 'forums' => 'Foren',
 
-'forum_topics' => 'Foren Themen',
+'forum_topics' => 'Foren-Themen',
 
 'sync' => 'Synchronisieren',
 
@@ -431,7 +431,7 @@ $lang = array(
 
 'optimize' => 'Optimieren',
 
-'no_tables_selected' => 'Keine Tabellen ausgewählt in denen diese Aktion ausgeführt werden soll.',
+'no_tables_selected' => 'Keine Tabellen ausgewählt, in denen diese Aktion ausgeführt werden soll.',
 
 'no_action_selected' => 'Es muss eine Aktion gewählt werden, die in den Tabellen ausgeführt werden soll.',
 
