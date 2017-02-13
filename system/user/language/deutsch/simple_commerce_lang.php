@@ -2,15 +2,15 @@
 $lang = array(
 
 
-'simple_commerce_module_name' => 'Simple Commerce',
+'simple_commerce_module_name' => 'Einfaches E-Commerce',
 
-'simple_commerce_module_description' => 'Einfaches Commerce Modul',
+'simple_commerce_module_description' => 'Einfaches E-Commerce-Modul',
 
 'simple_commerce_home' => 'Control Panel',
 
-'subscription_frequency' => 'Abonnement Frequenz',
+'subscription_frequency' => 'Abonnenten-Frequenz',
 
-'subscription_frequency_unit' => 'Abonnement Frequenz Einheit',
+'subscription_frequency_unit' => 'Abonnenten-Frequenz: Einheit',
 
 'invalid_subscription_frequency' => 'Ungültige Abo-Frequenz',
 
@@ -34,17 +34,17 @@ $lang = array(
 
 'year' => 'Jahr',
 
-'ipn_url' => 'Instant Payment Notification (IPN) URL',
+'ipn_url' => 'Instant Payment Notification (IPN): URL',
 
-'ipn_details' => 'Instant Payment Notification (Sofortige Zahlungsbestätigung) ist ein PayPal Service der Transaktionen auf deren Website erlaubt und anschliessend ExpressionEngine in Kenntnis setzt, wenn die Transaktion abgeschlossen und genehmigt wurde. Dazu müssen Verkäufe nicht im Simple Commerce Modul bis zum Abschluss der Transaktion abgespeichert werden. Das Modul automatisiert alles im Hintergrund. Alles was vorgenommen werden muss, ist Instant Payment Notification auf der PayPal Website zu aktivieren und denen den unstenstehenden URL zu melden. &lt;br /&gt;&lt;br /&gt; FWeiter (englische) Details:  https://www.paypal.com/IntegrationCenter/ic_ipn.html',
+'ipn_details' => 'Instant Payment Notification (Sofortige Zahlungsbestätigung) ist ein PayPal Service, der Transaktionen auf deren Website erlaubt und anschliessend ExpressionEngine in Kenntnis setzt, wenn die Transaktion abgeschlossen und genehmigt wurde. Dazu müssen Verkäufe nicht im Simple Commerce Modul bis zum Abschluss der Transaktion abgespeichert werden. Das Modul automatisiert alles im Hintergrund. Alles was vorgenommen werden muss, ist, Instant Payment Notification auf der PayPal-Website zu aktivieren und ihnen den untenstehenden URL zu melden. <br />Weitere (englische) Details:  https://www.paypal.com/IntegrationCenter/ic_ipn.html',
 
 'items' => 'Artikel',
 
 'purchases' => 'Verkäufe',
 
-'email_templates' => 'E-Mail Templates',
+'email_templates' => 'Email-Templates',
 
-'store_items' => 'Shop Artikel',
+'store_items' => 'Shop-Artikel',
 
 'add_item' => 'Artikel zufügen',
 
@@ -54,17 +54,17 @@ $lang = array(
 
 'recurring' => 'Wiederkehrend',
 
-'recurring_purchase_warning' => 'Wiederholte Käufe müssen über Paypal geregelt werden um korrekt zu funktionieren.',
+'recurring_purchase_warning' => 'Wiederholte Käufe müssen über Paypal geregelt werden, um korrekt zu funktionieren.',
 
 'current_subscriptions' => 'Abo-Ablaufdatum',
 
-'add_items' => 'Artikel zufügen',
+'add_items' => 'Artikel hinzufügen',
 
 'edit_items' => 'Artikel bearbeiten',
 
 'export_items' => 'Artikel exportieren',
 
-'store_purchases' => 'Shop Verkäufe',
+'store_purchases' => 'Shop-Verkäufe',
 
 'edit_purchases' => 'Verkäufe bearbeiten',
 
@@ -92,63 +92,63 @@ $lang = array(
 
 'regular_price' => 'Verkaufspreis',
 
-'item_enabled' => 'Item Enabled',
+'item_enabled' => 'Eintrag verfügbar',
 
 'purchase_actions' => 'Artikel aktivieren',
 
-'store_emails' => 'Shop E-Mails',
+'store_emails' => 'Shop-Emails',
 
-'add_email_template' => 'E-Mail Template zufügen',
+'add_email_template' => 'Email-Template hinzufügen',
 
-'template_name' => 'Template Name',
+'template_name' => 'Template-Name',
 
-'edit_email_templates' => 'E-Mail Templates bearbeiten',
+'edit_email_templates' => 'Email-Templates bearbeiten',
 
-'sales_information' => 'Verkaufs-Information',
+'sales_information' => 'Verkaufsinformation',
 
-'no_email_templates' => 'Keine E-Mail Templates',
+'no_email_templates' => 'Keine Email-Templates',
 
 'no_purchases' => 'Keine Verkäufe',
 
 'perform_item_actions' => 'Aktionen für Artikel ausführen?',
 
-'email_name' => 'E-Mail Template Name',
+'email_name' => 'Email-Template-Name',
 
-'edit_emails' => 'E-Mails bearbeiten',
+'edit_emails' => 'Emails bearbeiten',
 
 'monthly_sales' => 'Monatliche Verläufe',
 
-'customer_email' => 'Kunden E-Mail Template',
+'customer_email' => 'Kunden-Email-Template',
 
-'on_subscribe' => 'Abonnement Ein',
+'on_subscribe' => 'Abonnent: Ein',
 
-'on_unsubscribe' => 'Abo-Abbestellen Ein',
+'on_unsubscribe' => 'Abo abbestellen: Ein',
 
-'customer_email_subscribe' => 'Kunden-E-Mail Abo Template',
+'customer_email_subscribe' => 'Kunden-Email: -Abo-Template',
 
-'customer_email_unsubscribe' => 'Kunden-E-Mail Abo abbestellen Template',
+'customer_email_unsubscribe' => 'Kunden-Email: Abo-abbestellen-Template',
 
-'admin_email_address' => 'Admin E-Mail-Adresse',
+'admin_email_address' => 'Admin Email-Adresse',
 
 'invalid_price' => 'Ungültiger Preis!',
 
-'select_admin_template' => 'Admin E-Mail Template muss ausgewählt werden wenn die E-Mail-Adresse ausgefüllt ist',
+'select_admin_template' => 'Admin-Email-Template muss ausgewählt werden, wenn die Email-Adresse ausgefüllt ist',
 
-'admin_email_template' => 'Admin E-Mail Template',
+'admin_email_template' => 'Admin-Email-Template',
 
-'member_group' => 'Neue Nutzergruppe',
+'member_group' => 'Neue Mitgliedergruppe',
 
-'admin_email_template_unsubscribe' => 'Admin E-Mail Abo abbestellen Template',
+'admin_email_template_unsubscribe' => 'Admin-E-Mail: Abo-abbestellen-Template',
 
-'member_group_subscribe' => 'Nutzergruppe abonnieren',
+'member_group_subscribe' => 'Mitgliedergruppe abonnieren',
 
-'member_group_unsubscribe' => 'Nutzergruppe abbestellen',
+'member_group_unsubscribe' => 'Mitgliedergruppe abbestellen',
 
-'send_no_email' => 'E-Mail nicht senden',
+'send_no_email' => 'Email nicht senden',
 
 'no_change' => 'Keine Änderung',
 
-'no_store_items' => 'Keine Shop Artikel',
+'no_store_items' => 'Keine Shop-Artikel',
 
 'item_purchases' => 'Verkäufe',
 
@@ -158,57 +158,57 @@ $lang = array(
 
 'fields_left_blank' => 'Einige erforderliche Felder waren leer',
 
-'add_emails' => 'E-Mail Templates zufügen',
+'add_emails' => 'Email-Templates zufügen',
 
-'add_email' => 'E-Mail Template zufügen',
+'add_email' => 'Email-Template zufügen',
 
-'update_email' => 'E-Mail Template aktualisieren',
+'update_email' => 'Email-Template aktualisieren',
 
 'update_purchase' => 'Verkauf aktualisieren',
 
-'update_emails' => 'E-Mail Templates aktualisieren',
+'update_emails' => 'Email-Templates aktualisieren',
 
 'update_purchases' => 'Verkäufe aktualisieren',
 
 'purchases_deleted' => 'Verkäufe gelöscht',
 
-'email_instructions' => 'Email Anleitung',
+'email_instructions' => 'Email-Anleitung',
 
-'email_subject' => 'Email Betreff',
+'email_subject' => 'Email-Betreff',
 
-'email_body' => 'Email Text',
+'email_body' => 'Email-Text',
 
-'add_email_instructions' => 'Wenn der Verkauf eines Artikel bestätigt ist, kann eine E-Mail an eine oder mehrere Adressen versandt werden für den betreffenden Artikel. Diese E-Mails können gewisse Variablen beinhalten, die von PayPal zurück kommen: ',
+'add_email_instructions' => 'Wenn der Verkauf eines Artikel bestätigt ist, kann eine Email an eine oder mehrere Adressen für den betreffenden Artikel versandt werden. Diese Emails können gewisse Variablen beinhalten, die von PayPal zurückkommen: ',
 
 'edit_selected' => 'Gewählte bearbeiten',
 
 'delete_selected' => 'Gewählte löschen',
 
-'delete_items_confirm' => 'Artikel löschen Bestätigung',
+'delete_items_confirm' => 'Artikel löschen: Bestätigung',
 
 'items_deleted' => 'Artikel gelöscht',
 
-'delete_emails_confirm' => 'E-Mails löschen Bestätigung',
+'delete_emails_confirm' => 'Emails löschen: Bestätigung',
 
-'delete_purchases_confirm' => 'Verkäufe löschen Bestätigung',
+'delete_purchases_confirm' => 'Verkäufe löschen: Bestätigung',
 
-'emails_deleted' => 'E-Mail Templates gelöscht!',
+'emails_deleted' => 'Email Templates gelöscht!',
 
-'member_not_found' => 'Nutzer nicht gefunden',
+'member_not_found' => 'Mitglied nicht gefunden',
 
-'purchaser_screen_name' => 'Bildschirmname des Käufers',
+'purchaser_screen_name' => 'Bildschirm-Name des Käufers',
 
 'txn_id' => 'Verkauf Identification Nummer (TXN ID)',
 
 'date_purchased' => 'Kaufdatum',
 
-'subscription_end_date' => 'Abonnement Ablaufdatum',
+'subscription_end_date' => 'Abo-Ablaufdatum',
 
-'subscription_end_date_subtext' => '&#39;0&#39; eingeben für Abo ohne Ende',
+'subscription_end_date_subtext' => '&#39;0&#39; eingeben für ein Abo ohne Ende',
 
 'item_purchased' => 'Artikel gekauft',
 
-'item_cost' => 'Artikel Kosten',
+'item_cost' => 'Artikel-Kosten',
 
 'invalid_date_formatting' => 'Ungültiges Datumsformat',
 
@@ -216,7 +216,7 @@ $lang = array(
 
 'encryption' => 'Verschlüsselung',
 
-'encrypt_buttons_links' => 'Verschlüsseln von PayPal Buttons und Links?',
+'encrypt_buttons_links' => 'Verschlüsseln von PayPal-Buttons und Links?',
 
 'public_certificate' => 'Public Certificate Pfad',
 
@@ -232,13 +232,13 @@ $lang = array(
 
 'settings_updated' => 'Einstellungen aktualisiert',
 
-'file_does_not_exist' => 'Datei besteht für %pref% nicht. Voller Serverpfad angeben. ',
+'file_does_not_exist' => 'Datei besteht für %pref% nicht. Vollen Serverpfad angeben. ',
 
 'temporary_directory_unwritable' => 'Das Verzeichnis für temporäre Dateien ist nicht beschreibbar.',
 
-'paypal_account' => 'PayPal Konto',
+'paypal_account' => 'PayPal-Konto',
 
-'no_entries_matching_that_criteria' => 'Es bestehen keine Einträge welche die gewählten Kriterien erfüllen',
+'no_entries_matching_that_criteria' => 'Es bestehen keine Einträge, welche die gewählten Kriterien erfüllen',
 
 'translate' => 'Update',
 
