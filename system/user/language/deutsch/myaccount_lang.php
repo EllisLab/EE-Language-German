@@ -1,7 +1,6 @@
 <?php
 $lang = array(
 
-
 'delete_member' => 'Mitglied löschen',
 
 'disallowed_screen_chars' => 'Der Bildschirmname enthält ungültige Zeichen',
@@ -365,6 +364,8 @@ $lang = array(
 'bookmarklet_instructions' => 'Speichern Sie diesen Link in Ihren Lesezeichen:',
 
 'smart_notifications' => 'Smart-Benachrichtung einschalten',
+  
+'smart_notifications_desc' => 'Wenn auf <b>Aktivieren</b> gesetzt, sind Smart-Benachrichtungen erlaubt.',
 
 'existing_password_email' => 'Sie benötigen das aktuelle Passwort, um die Email-Adresse zu aktualisieren',
 
