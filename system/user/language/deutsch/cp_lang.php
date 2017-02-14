@@ -479,7 +479,7 @@ $lang = array(
 // Common
   'alphadash_desc' => '<i>Keine Leerzeichen! Nur Unterstriche und Bindestriche sind erlaubt.</i>',
   'btn_fix_errors' => 'Fehler gefunden',
-  'btn_save' => '%s sichern',
+  'btn_save' => '%s Sichern',
   'btn_saving' => 'Sichern...',
   'btn_save_and_close' => 'Speichern und beenden',
   'no_found' => '<b>%s</b> nicht gefunden.',
@@ -540,7 +540,7 @@ $lang = array(
 
   'owned_by' => 'Lizenznehmer',
 
-  'not_entered' => 'nicht eingegeben',
+  'not_entered' => 'Nicht eingegeben',
 
   'register_now' => 'Jetzt registrieren',
 
