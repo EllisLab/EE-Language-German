@@ -59,6 +59,28 @@ $lang = array(
   'not_an_image' => 'Ausgewählte Datei ist kein Bild',
 
   'no_file' => 'Keine Datei ausgewählt',
+  
+  'no_filename' => 'Der neue Dateiname wurde nicht übermittelt.',
+
+  'file_upload_stopped' => 'Hochladen der Datei wurde gestoppt',
+
+  'file_conflict' => 'Dateikonflikt gefunden',
+
+  'file_conflict_desc' => 'Die Datei <b>%s</b> ist in diesem Verzeichnis bereits vorhanden.',
+
+  'upload_options' => 'Upload-Optionen für das Hochladen',
+
+  'rename' => 'Neuen Dateinamen wählen',
+
+  'replace' => 'Ältere Datei ersetzen <i>&mdash; Datei wird überschrieben</i>',
+
+  'replace_no_metadata' => 'Nur die Datei wurde ersetzt. Titel, Beschreibung, Credit, Standort und Kategorien wurden nicht aktualisiert.',
+
+  'append' => 'Dateiname um Zahl erweitern <i>&mdash; z.B.: %s</i>',
+
+  'btn_finish_upload' => 'Auswahl übernehmen',
+
+  'btn_cancel_upload' => 'Abbrechen',
 
   'no_upload_destination' => 'Kein Ort für den Upload definiert',
 
