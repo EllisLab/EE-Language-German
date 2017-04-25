@@ -229,6 +229,7 @@ $lang = array(
   'be_careful_assigning_groups' => 'Seien Sie SEHR vorsichtig beim Zuweisen von Gruppen-Einstellungen - besonders der hervorgehobenen.',
   'member_group_updated' => 'Mitgliedergruppe aktualisiert:',
   'member_group_created' => 'Mitgliedergruppe erstellt:',
+  'member_group_updated_desc' => "Mitgliedergruppe wurde erfolgreich gespeichert.",
   'cp_channel_privs' => 'Verfassen- und Bearbeiten-Rechte',
   'can_view_other_entries' => 'Darf Einträge von anderen ansehen',
   'can_post_in' => 'Darf Einträge verfassen und bearbeiten in:',
