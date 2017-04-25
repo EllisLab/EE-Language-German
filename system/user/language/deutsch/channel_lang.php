@@ -63,6 +63,11 @@ $lang = array(
   'channels_removed_desc' => '%d Channels wurden gelöscht.',
 
   'maximum_channels_reached' => 'Die Maximalzahl an möglich anlegbaren Channels wurde erreicht.',
+  
+  'import' => 'Import',
+  'export_set' => 'Channel-Set exportieren',
+  'btn_import' => 'Importieren',
+  'import_channel' => 'Channel-Set importieren',
 
   'edit' => 'bearbeiten',
 
