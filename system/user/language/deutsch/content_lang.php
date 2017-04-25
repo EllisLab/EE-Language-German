@@ -26,6 +26,12 @@ $lang = array(
   'entry_manager' => 'Einträge verwalten',
 
   'btn_search_entries' => 'Suche Einträge',
+  
+  'entry_limit_reached' => 'Eintrags-Limit erreicht',
+  
+  'entry_limit_reached_desc' => 'Dieser Channel ist beschränkt auf %d Eintrag/Einträge.',
+
+  'entry_limit_reached_one_desc' => 'Dieser Channel ist beschränkt auf einen Eintrag.',
 
   'by' => 'nach',
   'in' => 'in',
