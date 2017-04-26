@@ -68,6 +68,18 @@ $lang = array(
   'export_set' => 'Channel-Set exportieren',
   'btn_import' => 'Importieren',
   'import_channel' => 'Channel-Set importieren',
+  
+  'channel_set_not_exported' => 'Channel-Set kann nicht exportiert werden',
+  'channel_set_not_exported_desc' => 'Kein valides Channel-Set.',
+
+  'channel_set_upload_error' => 'Channel-Set wurde nicht importiert',
+  'channel_set_upload_error_desc' => 'Das Channel-Set konnte nicht importiert werden. Stellen Sie sicher, dass der Cache-Ordner beschreibbar ist.',
+
+  'channel_set_duplicates_error' => 'Das Channel-Set enthält Dublikate',
+  'channel_set_duplicates_error_desc' => 'Dieses Channel-Set verwendet Namen, die bereits vorhanden sind. Bitte benennen Sie die folgenden Elemente um.',
+
+  'channel_set_imported' => 'Channel-Set importiert',
+  'channel_set_imported_desc' => 'Das Channel-Set wurde erfolgreich importiert',
 
   'edit' => 'bearbeiten',
 
