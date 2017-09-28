@@ -338,6 +338,7 @@ $lang = array(
   'can_access_mod' => 'Hat Zugang zum Modul:',
   'global_cp_access' => 'Control Panel-Zugang',
   'control_panel' => 'Control Panel',
+  'copy_member_group' => 'Erstelle eine neue Mitgliedergruppe basierend auf <b>%s</b>',  
   'can_access_cp' => 'Hat Zugang zum Control-Panel?',
   'can_access_cp_desc' => 'Wenn auf <b>ja</b> gesetzt, dürfen Mitglieder dieser Gruppe auf das Control Panel zugreifen.',
   'default_cp_homepage' => 'Standard <abbr title="Control Panel">CP</abbr>-Eingangsseite',
