@@ -95,6 +95,14 @@ $lang = array(
   'grid_add_field'			=> 'Neues Feld hinzufügen',
   'grid_copy_field'			=> 'Feld kopieren',
   'grid_remove_field'			=> 'Feld entfernen',
+  
+// URL
+  'url_ft_allowed_url_schemes' => 'Erlaubte URL-Schemas',
+  'url_ft_invalid_url' => 'Ungültiger URL',
+  'url_ft_invalid_url_scheme' => 'Ihr URL muss mit folgendem URL-Schema beginnen: %s',
+  'url_ft_protocol_relative_url' => 'Protokoll: Relativer URL',
+  'url_ft_url_scheme_placeholder' => 'URL-Schema-Platzhalter',
+  'url_ft_url_scheme_placeholder_desc' => 'Wird als Platzhalter angezeigt, wenn kein URL gesendet wurde.',
 
 // IGNORE
   ''=>'');
