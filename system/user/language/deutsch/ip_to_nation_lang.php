@@ -24,7 +24,27 @@ $lang = array(
 
 'manage_banlist' => 'Verwaltung der ausgesperrten Länder',
 
+ 'search_for_ip' => 'IP-Adresse',
+
+'search_for_ip_desc' => 'Geben Sie eine IP-Adresse ein, um das Land zu ermitteln, dem sie zugeordnet ist.',
+
+'no_countries' => 'Keine <b>Länder</b> gefunden.',
+
 'country' => 'Land',
+  
+'banned_countries' => 'Gesperrte Länder',
+
+'btn_save_banlist' => 'Sperrliste speichern',
+
+'btn_search' => 'Suchen',
+
+'btn_searching' => 'Suche...',
+
+'countryfile_missing' => 'Die Datei country.php ist nicht in Ihrem "config"-Verzeichnis zu finden.',
+
+'ip_address_located' => 'IP-Adresse lokalisiert',
+
+'ip_address_not_located' => 'Lokalisierung der IP-Addresse nicht möglich',
 
 'ban_info' => 'Länder wählen, die ausgesperrt werden sollen. Ist ein Land ausgesperrt, kann ein Besucher mit entsprechender IP keine Kommentare verfassen, Trackbacks setzen oder die Email-/Tell-A-Friend-Formulare benutzen. Die Website ist für ihn aber sichtbar.',
 
