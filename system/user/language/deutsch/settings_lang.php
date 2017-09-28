@@ -218,6 +218,10 @@ $lang = array(
 'email_charset' => 'Zeichenkodierung',
 
 'email_charset_desc' => 'Emails brauchen eine Zeichenkodierung, um richtig dargestellt zu werden. UTF-8 wird empfohlen.',
+  
+'email_newline' => 'Zeilenumbruch',
+
+'email_newline_desc' => '\\\n  bietet die größtmögliche Kompatibilität - Wenn diese Einstellung nicht funktioniert, schauen Sie bitte in die Dokumentation Ihres Email-Anbieters.',
 
 'mail_protocol' => 'Protokoll',
 
