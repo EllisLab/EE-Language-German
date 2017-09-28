@@ -826,6 +826,8 @@ $lang = array(
 // Channel Entries API
 //----------------------------
 
+  'default_value' => 'Standardposition',
+  
   'invalid_api_parameter' => 'Eintrag konnte nicht erstellt/aktualisiert werden. Fehlender API-Parameter ',
 
   'unauthorized_for_this_channel' => 'Sie haben keine Berechtigung in diesen Channel zu schreiben',
@@ -852,6 +854,10 @@ $lang = array(
   'textarea_height' => 'Textarea-Zeilenhöhe',
 
   'textarea_height_desc' => 'Eingabefeldhöhe in Zeilen.',
+  
+  'toggle_default_value_desc' => 'Wählen Sie die Standardposition des Kippschalters bei neuen Einträgen.',
+
+  'toggle_default_value_desc_cont' => '<b>Hinweis</b>: Wenn ein Channel mit bereits vorhandenen Einträgen zugeordnet wird, wird den Einträgen die gewählte Position zugewiesen.',
 
   'select_menu_options' => 'Wähle aus dem Menü aus',
 
