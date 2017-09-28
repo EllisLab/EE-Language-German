@@ -32,7 +32,7 @@ $lang = array(
   'profile_templates' => 'Mitglieder-Profil-Template',
   'ip_search' => 'IP-Adresse Suchen',
   'all_member_groups' => 'Alle Mitgliedergruppen',
-  'member_groups' => 'Mitgliederruppen',
+  'member_groups' => 'Mitgliedergruppen',
   'save_member_group' => 'Mitgliedergruppe bearbeiten',
   'member_delete_success' => 'Mitglied gelöscht',
 
@@ -60,6 +60,7 @@ $lang = array(
 
   'member_approve' => 'Mitglied freischalten',
   'keywords' => 'Schlagworte',
+  'last_activity' => 'Letzte Aktivität',
   'filter_by' => 'Filtern nach',
   'filter_member_name' => 'Filtern nach Mitgliedername',
   'filter_member_group' => 'Filtern nach Mitgliedergruppe',
@@ -338,6 +339,8 @@ $lang = array(
   'can_access_mod' => 'Hat Zugang zum Modul:',
   'global_cp_access' => 'Control Panel-Zugang',
   'control_panel' => 'Control Panel',
+  'copy_member_group' => 'Erstelle eine neue Mitgliedergruppe basierend auf <b>%s</b>',
+  'cp_log' => 'Control Panel Aktivität',
   'can_access_cp' => 'Hat Zugang zum Control-Panel?',
   'can_access_cp_desc' => 'Wenn auf <b>ja</b> gesetzt, dürfen Mitglieder dieser Gruppe auf das Control Panel zugreifen.',
   'default_cp_homepage' => 'Standard <abbr title="Control Panel">CP</abbr>-Eingangsseite',
