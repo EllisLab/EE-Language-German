@@ -106,6 +106,8 @@ $lang = array(
 'site_statistics' => 'Site-Statistiken',
 
 'member_search_form' => 'Mitglieder-Suchformular',
+  
+'view_activity' => 'Aktivität anzeigen',
 
 'validating_members' => 'Mitglieder, die auf Aktivierung warten',
 
@@ -379,11 +381,11 @@ $lang = array(
 
 'invalid_group_id' => 'Sie müssen eine gültige Gruppe wählen',
 
-  'profile_header' => '%s Profil',
+'profile_header' => '%s Profil',
 
-  'language_desc' => 'Bevorzugte Sprache, nur im Control Panel.',
+'language_desc' => 'Bevorzugte Sprache, nur im Control Panel.',
 
-  'administration' => 'Administration',
+'administration' => 'Administration',
 
   'search_subscriptions' => 'Abonnenten durchsuchen',
 
