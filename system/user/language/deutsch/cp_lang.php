@@ -18,6 +18,7 @@ $lang = array(
   'nav_file_manager' => 'Dateimanager',
   'nav_batch_upload' => 'Stapel-Upload',
   'nav_sync_files' => 'Dateien synchronisieren',
+  'nav_developer' => 'Entwickler',
 
   'nav_files_short_desc' => 'Upload, Bearbeiten und Löschen von Dateien',
   'nav_edit_short_desc' => 'Einträge bearbeiten',
