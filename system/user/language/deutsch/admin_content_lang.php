@@ -2,12 +2,20 @@
 
 $lang = array(
 
+  
+// @since 4.0	
+	
+  'field_manager' => 'Felder-Verwaltung',
+
+  'fields_assign_to_group' => 'Dieser Feldergruppe eins oder mehrere Felder zuweisen.',
+  
+  
 // @since 3.0
 
   'custom_fields' => 'Benutzerdefinierte Felder',
 
   'field' => 'Feld',
-
+  
   'fields' => 'Felder',
 
   'filter_by_group' => 'Feldergruppe',
