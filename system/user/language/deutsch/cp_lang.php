@@ -194,218 +194,192 @@ $lang = array(
 //----------------------------
 // Develop Menu
 //----------------------------
+  
+  'addon_manager'    => 'Add-On-Verwaltung',
+  
+  'channel_manager'  => 'Channel-Verwaltung',
+   
+  'logs'             => 'Logs',
+    
+  'msm_manager'      => 'Site-Verwaltung',  
+  
   'nav_developer'  => 'CMS-Verwaltung',
   'nav_developer_tools'  => 'Konfigurations-Tools',
-  'channel_manager'  => 'Channel-Verwaltung',
+  
   'template_manager' => 'Template-Verwaltung',
-  'msm_manager'      => 'Site-Verwaltung',
-  'addon_manager'    => 'Add-On-Verwaltung',
+
   'utilities'        => 'Dienstprogramme',
-  'logs'             => 'Logs',
 
 //----------------------------
 // Control Panel
 //----------------------------
 
+  'action_can_not_be_undone' => 'DIESE AKTION KANN NICHT RÜCKGÄNGIG GEMACHT WERDEN',
+  'addons' => 'Add-Ons',
+  'all' => 'Alle',
+  'any' => 'Alle',
+
+  'back' => 'Zurück',
+  'be_careful' => 'BITTE VORSICHT!',
+  'build' => 'Build:',
+
+  'captcha_explanation' => 'Ein Captcha ist ein Bild, das einen Sicherheitscode enthält, den ein User eingeben muss. Bitte das Handbuch konsultieren',
+  'categories' => 'Kategorien',
+  'channels' => 'Channels',
+  'click_to_edit' => 'Zum Bearbeiten klicken',
+  'consult_user_guide' => 'Handbuch konsultieren',
+  'control_panel' => 'Control Panel (CP)',
+  'copyright' => 'Copyright',
+
+  'forgot_password' => 'Passwort vergessen?',
+  'forgotten_password' => 'Vergessenes Passwort',
+  'fields' => 'Felder',
+  
+  'e_no_css' => 'Die verlangte CSS-Datei konnte nicht geöffnet werden',
+  'edit_quicklinks' => 'Quicklinks bearbeiten',
+
+  'hide_sidebar' => 'Seitenleiste verstecken',
+  
+  'invalid_license' => 'LIZENZ UNGÜLTIG',
+  
+  'license_number' => 'Lizenznummer',
+  'loading' => 'Lade',
+  'logged_back_in'	=>	'Sie sind wieder eingeloggt.',
+  'login' => 'Anmelden',
+  'logout' => 'Abmelden',
+
   'nav_settings' => 'Einstellungen',
   'nav_homepage' => 'CP-Startseite',
   'nav_overview' => 'CP-Überblick',
 
-  'loading' => 'Lade',
-
-  'show_hide' => 'Zeigen/Verbergen alle',
-
-  'new_tab' => 'Neuer Tab',
-
-  'new_version_available' => 'ExpressionEngine Version %s ist jetzt verfügbar',
-
-  'consult_user_guide' => 'Handbuch konsultieren',
-
-  'powered_by' => 'Powered by',
-
-  'control_panel' => 'Control Panel (CP)',
-
   'main_menu' => 'CP-Startseite',
-
-  'username' => 'Benutzername',
-
-  'password' => 'Passwort',
-
-  'logged_back_in'	=>
-    'Sie sind wieder eingeloggt.',
-
   'my_account' => 'Mein Konto',
-
   'myaccount' => 'Mein Konto',
 
-  'user_account' => 'Mitglieder-Konto',
-
-  'user_guide' => 'Handbuch',
-
-  'logout' => 'Abmelden',
-
-  'session_idle' => 'Gesperrte Sitzung festgestellt',
-
-  'session_idle_description' => 'Ihre Sitzung ist zur Zeit gesperrt, bitte geben Sie zum Fortfahren Ihr Passwort ein.',
-
-  'session_idle_not_name' => 'Nicht %s?',
-
-  'password_label' => 'Passwort:',
-
-  'user_label' => 'Benutzer:',
-
-  'user_avatar_alt' => 'Benutzer Avatar',
-
-  'login' => 'Anmelden',
-
-  'copyright' => 'Copyright',
-
-  'rights_reserved' => 'Alle Rechte vorbehalten',
-
+  'new_tab' => 'Neuer Tab',
+  'new_version_available' => 'ExpressionEngine Version %s ist jetzt verfügbar',
+  'notepad' => 'Notizen',
+  'notepad_no_content' => 'Keine Notizen. Klicken, um zu erstellen.',
+  
   'page_rendered' => 'Script ausgeführt in %x Sekunden',
+  'password' => 'Passwort',  
+  'password_label' => 'Passwort:',
+  'powered_by' => 'Powered by',  
 
   'queries_executed' => '%x SQL Abfragen verwendet',
-
-  'build' => 'Build:',
-
-  'license_number' => 'Lizenznummer',
-
-  'invalid_license' => 'LIZENZ UNGÜLTIG',
-
-  'forgot_password' => 'Passwort vergessen?',
-
-  'e_no_css' => 'Die verlangte CSS-Datei konnte nicht geöffnet werden',
-
-  'unauthorized' => 'Nicht berechtigt',
-
-  'unauthorized_access' => 'Sie sind zum Zugriff auf diese Seite nicht berechtigt',
-
-  'be_careful' => 'BITTE VORSICHT!',
-
-  'action_can_not_be_undone' => 'DIESE AKTION KANN NICHT RÜCKGÄNGIG GEMACHT WERDEN',
-
-  'captcha_explanation' => 'Ein Captcha ist ein Bild, das einen Sicherheitscode enthält, den ein User eingeben muss. Bitte das Handbuch konsultieren',
-
-  'back' => 'Zurück',
-
-  'all' => 'Alle',
-
-  'any' => 'Alle',
-
-  'required_fields' => 'Erforderliche Felder',
-
-  'required_field' => 'Erforderliches Feld',
-
-  'login' => 'Anmelden',
-
-  'forgotten_password' => 'Vergessenes Passwort',
-
-  'submit_email_address' => 'Bitte Ihre Email-Adresse eingeben',
-
-  'click_to_edit' => 'Zum Bearbeiten klicken',
-
-  'notepad' => 'Notizen',
-
-  'notepad_no_content' => 'Keine Notizen. Klicken, um zu erstellen.',
-
-  'edit_quicklinks' => 'Quicklinks bearbeiten',
-
   'quick_links' => 'Quicklinks',
-
   'quicklinks_manager' => 'Quicklinks-Manager',
 
-  'hide_sidebar' => 'Seitenleiste verstecken',
-
+  'rights_reserved' => 'Alle Rechte vorbehalten',
+  'required_fields' => 'Erforderliche Felder',
+  'required_field' => 'Erforderliches Feld',
   'reveal_sidebar' => 'Seitenleiste zeigen',
+ 
+  'show_hide' => 'Zeigen/Verbergen alle',
+  'session_idle' => 'Gesperrte Sitzung festgestellt',
+  'session_idle_description' => 'Ihre Sitzung ist zur Zeit gesperrt, bitte geben Sie zum Fortfahren Ihr Passwort ein.',
+  'session_idle_not_name' => 'Nicht %s?',
+  'submit_email_address' => 'Bitte Ihre Email-Adresse eingeben',
+
+  'templates' => 'Templates',
+ 
+  'unauthorized' => 'Nicht berechtigt',
+  'unauthorized_access' => 'Sie sind zum Zugriff auf diese Seite nicht berechtigt',
+  'username' => 'Benutzername',
+  'user_account' => 'Mitglieder-Konto',
+  'user_guide' => 'Handbuch',
+  'user_label' => 'Benutzer:',
+  'user_avatar_alt' => 'Benutzer Avatar',
 
 //----------------------------
 // Buttons
 //----------------------------
 
-  'submit' => 'Senden',
-
-  'preview' => 'Vorschau',
-
-  'update' => 'Aktualisierung',
-
+  'cancel' => 'Abbruch',
+  
   'edit' => 'Bearbeiten',
 
   'delete' => 'Löschen',
+  'done' => 'Erledigt',
+
+  'preview' => 'Vorschau',
 
   'save_changes' => 'Änderungen speichern',
-
-  'save' => 'Speichern',
-
+  'save' => 'Speichern', 
+  'save_and_new' => 'Speichern & Neu anlegen',
+  'save_and_close' => 'Speichern & Schliessen',
+  'submit' => 'Senden',
   'sync' => 'Synchronisieren',
 
-  'cancel' => 'Abbruch',
-
-  'done' => 'Erledigt',
+  'update' => 'Aktualisierung',
 
 //----------------------------
 // Log
 //----------------------------
 
+  'action' => 'Aktion',
+  
   'clear_logs' => 'Log-Files löschen',
-
-  'member_id' => 'Mitglieder-ID',
-
+  'close' => 'Schließen',
+  'date' => 'Datum',
+  
   'ip_address' => 'IP-Addresse',
-
   'ip' => 'IP',
-
   'internet_protocol' => 'Internet-Protokoll',
 
-  'date' => 'Datum',
-
-  'action' => 'Aktion',
-
+  'member_id' => 'Mitglieder-ID',
   'member_logged_in' => 'Angemeldet',
-
   'member_logged_out' => 'Abgemeldet',
-
-  'close' => 'Schließen',
 
 //----------------------------
 // Common
 //----------------------------
 
+  'by_username'	=> 'nach Benutzernamen',
+  'by_site'	=> 'nach Website',
+  'by_date'	=> 'nach Datum',
+  
+  'custom_date_range'	=> 'Eigener Zeitraum',
+  'channel'	=>	'Channel',
+  'check_all' => 'Alle auswählen',
+  'clear_all' => 'Alle löschen/deaktivieren',
   'create' => 'Erstellen',
   'create_and_edit' => 'Erstellen und bearbeiten',
+
+  'edit'	=>	'Bearbeiten',
+  'ee_wiki'	 =>	'EE-Wiki',
+  'entry' 	=>	'Eintrag',
+    
+  'limit_by'	=> 'Beschränken auf',
+  
+  'no_search_results'	=> 'Keine Ergebnisse gefunden',
+  
+  'manage'	=>	'Verwalten',
   'modify' => 'Ändern',
-  'or_delete' => 'oder löschen',
-  'view' => 'Zeigen',
-  'switch' => 'Schalter',
-  'manage'						=>	'Verwalten',
-  'edit'							=>	'Bearbeiten',
+  'most_recent_entry'	=>	'Letzter Eintrag',
+  'most_recent_comment'	=>	'Letzter eingegangener Kommentar',
+  
+  'or_delete'	=> 'oder löschen',
 
-  'entry' 						=>	'Eintrag',
-  'template' 						=>	'Template',
-  'template_group'				=>	'Template-Gruppe',
-  'page' 							=>	'Seite',
-  'channel' 						=>	'Channel',
-  'site' 							=>	'Website',
+  'page' =>	'Seite',  
 
-  'most_recent_entry' 			=>	'Letzter Eintrag',
-  'most_recent_comment' 			=>	'Letzter eingegangener Kommentar',
-
-  'recent_entries' => 'Letzte Einträge',
   'recent_comments' => 'Letzte Kommentare',
-  'user_guide' 					=>	'Handbuch',
-  'ee_wiki'	 					=>	'EE-Wiki',
+  'recent_entries' => 'Letzte Einträge',
+  
+  'select_all'	=> 'Alle wählen',
+  'site' =>	'Website',
+  'status'	=> 'Status',
+  'switch'	=> 'Schalter',
 
-  'status'						=> 'Status',
-  'select_all' => 'Alle wählen',
+  'template' =>	'Template',
+  'template_group'	=>	'Template-Gruppe',
+  'total_entries'	=> 'Gesamten Einträge',
+  'type_phrase'	=> 'Phrase eingeben...',
 
-  'by_username'					=> 'nach Benutzernamen',
-  'by_site'						=> 'nach Website',
-  'by_date'						=> 'nach Datum',
-  'custom_date_range'				=> 'Eigener Zeitraum',
-  'limit_by'						=> 'Beschränken auf',
-  'type_phrase'					=> 'Phrase eingeben...',
-  'with_selected'					=> 'mit gewähltem',
+  'user_guide'	=>	'Handbuch',
 
-  'no_search_results'	 			=> 'Keine Ergebnisse gefunden',
+  'view'	=> 'Zeigen',
+  'with_selected'	=> 'mit gewähltem',
 
   'total_entries'					=> 'Gesamten Einträge',
 
@@ -413,20 +387,23 @@ $lang = array(
 // Sites and Channels
 //----------------------------
 
-  'sites' 						=> 	'Websites',
-  'view_site'						=>	'Site ansehen',
-  'edit_sites' 					=>	'Sites',
-  'edit_channels' 				=>	'Channels bearbeiten',
-  'site_id'						=>	'Site-ID',
-  'site'							=>	'Site',
-  'site_specific_data' => 'Diese Daten sind sitespezifisch. Wenn Sie Daten von anderen Sites bearbeiten wollen, wählen Sie den Sites-Menü-Tab zum Umschalten auf eine andere Site.',
-
-
-  'sig_img_path' => 'Signatur: Bild-Pfad',
   'avatar_path' => 'Avatar-Pfad',
+  
+  'edit_sites'	=>	'Sites',
+  'edit_channels'	=>	'Channels bearbeiten',
+
+  'not_writable_path' => 'Folgende Verzeichnisse sind nicht beschreibbar:',
+  
   'photo_path' => 'Mitgliedsfoto-Pfad',
   'prv_msg_upload_path' => 'Upload-Pfad für Private Mitteilungen',
-  'not_writable_path' => 'Folgende Verzeichnisse sind nicht beschreibbar:',
+  
+  'sig_img_path' => 'Signatur: Bild-Pfad',
+  'sites'	=> 	'Websites',
+  'site_id'	=>	'Site-ID',
+  'site'	=>	'Site',
+  'site_specific_data'	=> 'Diese Daten sind sitespezifisch. Wenn Sie Daten von anderen Sites bearbeiten wollen, wählen Sie den Sites-Menü-Tab zum Umschalten auf eine andere Site.',
+
+  'view_site'	=>	'Site ansehen',
 
 //----------------------------
 // learning EE lang vars
