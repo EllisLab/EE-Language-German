@@ -1063,8 +1063,6 @@ $lang = array(
 
   'channel_fields' => 'Channel-Felder:',
 
-  'templates' => 'In ALLEN Templates',
-
   'rows_replaced' => 'Anzahl der Datenbankeinträge, in denen ein Ersetzen erfolgte:',
 
   'view_database' => 'Datenbanktabellen verwalten',
