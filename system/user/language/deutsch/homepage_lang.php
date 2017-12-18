@@ -33,6 +33,8 @@ $lang = array(
   'channels' => 'Channel',
 
   'create_new' => 'Neu anlegen',
+  
+  'eecms_news' => 'Neues über ExpressionEngine',
 
   'channels_desc' => 'Channel werden benutzt, um Inhalte Ihrer Website zu speichern, z.B. für einen Blog. Sie müssen zuerst einen Channel anlegen, um die Einträge zu speichern.',
 
