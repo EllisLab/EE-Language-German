@@ -253,7 +253,7 @@ $lang = array(
 
 'super_admin_demotion_alert' => 'Als Super-Admin dürfen Sie Ihre eigene Gruppenzugehörigkeit nicht ändern!',
 
-'username' => 'Benutzernamename',
+'username' => 'Benutzername',
 
 'username_change_not_allowed' => 'Der Administrator erlaubt keine Änderung des Benutzernamens.',
 
@@ -344,6 +344,10 @@ $lang = array(
 'bookmarklet' => 'Bookmarklet',
 
 'bookmarklet_created' => 'Bookmarklet erstellt',
+ 
+'bookmarklet_field' => 'Channel & Channel-Felder',
+
+'bookmarklet_field_desc' => 'Um Einträge via Bookmarklet zu posten, wähle einen bevorzugten Channel und die Felder.',
 
 'bookmarklet_info' => 'Ein Bookmarklet erlaubt Ihnen das Posten von Einträgen, ohne sich im Control Panel anzumelden.',
 
