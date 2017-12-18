@@ -20,9 +20,19 @@ $lang = array(
 
   'channel_no_action_found' => 'Die Resourcen zum Anzeigen des Eingabefomulares lassen sich nicht laden',
 
+ 
+// @since 4.0
+
+  'add_field' => 'Neues Feld erstellen',
+  'add_group' => 'Neue Feldergruppe erstellen',
+  'add_status' => 'Status hinzufügen',
+  
+  'fields_desc' => 'Diesem Channel eins oder mehrere Felder zuweisen.',
+  
+  'statuses_desc' => 'Diesem Channel einen Status oder mehrere Stati zuweisen',
+  
   /**
    * 3.0
-   *
    * Channel Manager
    */
 
