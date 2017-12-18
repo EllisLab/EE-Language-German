@@ -29,6 +29,8 @@ $lang = array(
   
   'fields_desc' => 'Diesem Channel eins oder mehrere Felder zuweisen.',
   
+  'new_layout' => 'Neues Layout',
+  
   'statuses_desc' => 'Diesem Channel einen Status oder mehrere Stati zuweisen',
   
   /**
