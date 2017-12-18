@@ -4,6 +4,18 @@ $lang = array(
 
 'system_utilities' => 'System-Dienstprogramme',
 
+// @since 4.0	
+
+
+'backing_up' => 'Backup läuft...',
+'backup_database' => 'Backup Datenbank',
+'backup_error' => 'Backup nicht möglich',
+'backup_success' => 'Backup erfolgreich',
+'backup_success_desc' => 'Ihr Backup wurde im Systemordner <b>%s</b> gesichert',
+'backup_utility' => 'Backup-Tool',
+'backup_tables' => 'Backup SQL-Tabellen',
+
+'table_count' => '<b>%s</b> SQL-Tabellen',
 /**
  * Menu
  */
