@@ -215,6 +215,7 @@ $lang = array(
 //----------------------------
 
   'action_can_not_be_undone' => 'DIESE AKTION KANN NICHT RÜCKGÄNGIG GEMACHT WERDEN',
+  'add_new' => 'Neu anlegen',
   'addons' => 'Add-Ons',
   'all' => 'Alle',
   'any' => 'Alle',
@@ -456,6 +457,7 @@ $lang = array(
 
 // Common
   'alphadash_desc' => '<i>Keine Leerzeichen! Nur Unterstriche und Bindestriche sind erlaubt.</i>',
+  'btn_authenticate_and_save' => 'Authentifizieren und sichern',
   'btn_fix_errors' => 'Fehler gefunden',
   'btn_save' => '%s Sichern',
   'btn_saving' => 'Sichern...',
