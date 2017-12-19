@@ -475,7 +475,12 @@ $lang = array(
   'can_access_security_settings' => 'Sicherheit und Privatsphäre',
   'can_access_security_settings_desc' => 'Wenn auf <b>ja</b> gesetzt, können die Nutzer dieser Gruppe auf die Einstellungen vder Systemsicherheit und Privatsphäre zugreifen.',
   'can_access_addon_settings' => 'Add-ons',
-  'member_settings' => 'Mitglieder-Einstellungen'
+  'member_settings' => 'Mitglieder-Einstellungen',
+  
+  /* for Version EE 4 */
+  
+  'ban_options_desc' => 'Sie können den Zugriff vollständig verhindern, indem Sie sie an eine andere Website weiterleiten oder eine einfache Nachricht anzeigen lassen. Auf der Zugriff auf eine Website im View-Only-Modus ist möglich. Wählen Sie.',
+  'ban_settings_updated' => 'Einstellungen aktualisiert',
   
 );
 
