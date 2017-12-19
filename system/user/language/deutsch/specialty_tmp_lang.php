@@ -87,6 +87,29 @@ $lang = array(
 'message_body' => 'Email-Textteil',
 
 'translate' => 'Update',
+  
+ /* for Version EE 4 */
+
+'profile_account' => 'Benutzerkonto',
+
+'profile_breadcrumb' => 'Brotkrumen-Navigation',
+
+'profile_bulletin_board' => 'Benachrichtigungen',
+
+'profile_common' => 'Allgemeines',
+
+'profile_email' => 'Email',
+
+'profile_member' => 'Mitglieder',
+
+'profile_private_messages' => 'Private Nachrichten',
+
+'profile_profile' => 'Profile',
+
+'profile_registration' => 'Registrierung',
+
+'profile_subscriptions' => 'Abonnierung',
+
 
 ''=>''
 );
