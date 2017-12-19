@@ -20,19 +20,6 @@ $lang = array(
 
   'channel_no_action_found' => 'Die Resourcen zum Anzeigen des Eingabefomulares lassen sich nicht laden',
 
- 
-// @since 4.0
-
-  'add_field' => 'Neues Feld erstellen',
-  'add_group' => 'Neue Feldergruppe erstellen',
-  'add_status' => 'Status hinzufügen',
-  
-  'fields_desc' => 'Diesem Channel eins oder mehrere Felder zuweisen.',
-  
-  'new_layout' => 'Neues Layout',
-  
-  'statuses_desc' => 'Diesem Channel einen Status oder mehrere Stati zuweisen',
-  
   /**
    * 3.0
    * Channel Manager
@@ -127,7 +114,7 @@ $lang = array(
 
   'form_layouts' => 'Formular-Layouts',
 
-  'edit_form_layout' => 'Formular-Layout bearbeiten &ndash; %s',
+  'edit_form_layout' => 'Formular-Layout bearbeiten',
 
   'edit_layout_success' => 'Formular-Layout aktualisiert',
 
@@ -683,6 +670,18 @@ $lang = array(
   'duplicate_status_name' => 'Es existiert bereits einen Status mit dem gleichen Namen.',
 
   'invalid_hex_code' => 'Dieses Feld muss einen gültigen Farb-Hex-Code haben.',
+  
+  /* for Version EE 4 */
+
+  'add_field' => 'Neues Feld erstellen',
+  'add_group' => 'Neue Feldergruppe erstellen',
+  'add_status' => 'Status hinzufügen',
+  
+  'fields_desc' => 'Diesem Channel eins oder mehrere Felder zuweisen.',
+  
+  'new_layout' => 'Neues Layout',
+  
+  'statuses_desc' => 'Diesem Channel einen Status oder mehrere Stati zuweisen',
 
   ''=>''
 );
