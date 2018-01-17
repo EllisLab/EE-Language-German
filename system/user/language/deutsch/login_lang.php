@@ -53,6 +53,8 @@ $lang = array(
   'new_password_confirm' => 'Neues Passwort bestätigen',
 
   'enter_new_password' => 'Ein neues Passwort eingeben',
+  
+  'remind_me' => 'Passwort vergessen?',
 
   'login' => 'Login',
 
