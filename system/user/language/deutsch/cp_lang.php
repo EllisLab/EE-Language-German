@@ -286,6 +286,8 @@ $lang = array(
  
   'unauthorized' => 'Nicht berechtigt',
   'unauthorized_access' => 'Sie sind zum Zugriff auf diese Seite nicht berechtigt',
+  'update_check_btn' => 'Update prüfen',
+  'update_btn' => 'Update anfordern',
   'username' => 'Benutzername',
   'user_account' => 'Mitglieder-Konto',
   'user_guide' => 'Handbuch',
