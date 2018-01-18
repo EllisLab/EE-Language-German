@@ -112,7 +112,7 @@ $lang = array(
 
   'files_removed_desc' => 'Die folgenden Dateien wurden hochgeladen',
 
-  'btn_upload_file' => 'Datei hochladen',
+  'btn_upload_file' => 'Gewählte Datei hochladen',
 
   'upload_directory_removed' => 'Upload-Verzeichnis entfernt',
 
