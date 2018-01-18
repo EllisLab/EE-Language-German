@@ -235,6 +235,8 @@ $lang = array(
   'forgot_password' => 'Passwort vergessen?',
   'forgotten_password' => 'Vergessenes Passwort',
   'fields' => 'Felder',
+  'filter_categories' => 'Kategorie suchen',
+  'filter_channels' => 'Channel suchen',
   
   'e_no_css' => 'Die verlangte CSS-Datei konnte nicht geöffnet werden',
   'edit_quicklinks' => 'Quicklinks bearbeiten',
@@ -242,6 +244,9 @@ $lang = array(
   'hide_sidebar' => 'Seitenleiste verstecken',
   
   'invalid_license' => 'LIZENZ UNGÜLTIG',
+  
+  'keyword_search' => 'Stichwort-Suche',
+  'keyword_filter' => 'Suchworteingabe + Returntaste',
   
   'license_number' => 'Lizenznummer',
   'loading' => 'Lade',
