@@ -1,4 +1,4 @@
-German Translation Pack for ExpressionEngine 3.x
+German Translation Pack for ExpressionEngine 4.x
 ================================================
 
 [![Build Status](https://travis-ci.org/EllisLab/EE-Language-German.svg?branch=master)](https://travis-ci.org/EllisLab/EE-Language-German/branches)
