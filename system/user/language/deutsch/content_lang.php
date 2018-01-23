@@ -532,6 +532,24 @@ $lang = array(
   'autosaved_entries' => 'Automatisch gespeicherte Einträge',
 
   'autosaved' => 'Automatisch gespeichert',
+  
+  'autosave_data_available' => 'auto saved data available',
+
+  'autosave_success' => '<b>Automatisch gespeichert</b> um ',
+
+  'autosave_title' => 'Gespeicherte Daten sind vorhanden',
+
+  'autosave_warning_1' => 'ExpressionEngine hat die Daten dieses Eintrages automatisch gesichert seit er das letzte mal gespeichert wurde.',
+
+  'autosave_warning_2' => 'Die automatisch gesicherten Daten gehen beim erneuten Speichern des Eintrages verloren.',
+
+  'autosave_warning_3' => 'Sollen die automatisch gesicherten Daten nun geladen werden?',
+
+  'autosaved_versions' => 'Automatisch gesicherte Versionen',
+
+  'autosaved_versions_desc' => 'Untenstehend wird die Liste der automatisch gesicherten Versionen dieses Eintrages angezeigt.',
+
+  'autosaves' => 'Automatische Sicherungen',
 
   'original' => 'Original',
 
