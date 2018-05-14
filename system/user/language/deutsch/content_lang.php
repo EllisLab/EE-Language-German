@@ -118,7 +118,7 @@ $lang = array(
 
   'entry_date' => 'Datum des Eintrags',
 
-  'entry_date_desc' => 'Datum der Veröfentlichung dieses Eintrages.',
+  'entry_date_desc' => 'Datum der Veröffentlichung dieses Eintrages.',
 
   'expiration_date' => 'Ablaufdatum',
 
@@ -163,6 +163,9 @@ $lang = array(
 //----------------------------
 // Publish page
 //----------------------------
+
+
+
 
   'url_title_is_index' => 'Der URL kann nicht \'index\' genannt werden',
 
@@ -532,8 +535,8 @@ $lang = array(
   'autosaved_entries' => 'Automatisch gespeicherte Einträge',
 
   'autosaved' => 'Automatisch gespeichert',
-  
-  'autosave_data_available' => 'auto saved data available',
+
+  'autosave_data_available' => 'Automatisch gesicherte Daten sind vorhanden',
 
   'autosave_success' => '<b>Automatisch gespeichert</b> um ',
 
