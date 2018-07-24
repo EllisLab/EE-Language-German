@@ -2,82 +2,72 @@
 
 $lang = array(
 
-// Design
-  'design_user_message' => 'User-Mitteilungen-Template',
+'cont_category_management' => 'Kategorien-Verwaltung',
 
-  'design_system_offline' => 'System-Offline-Template',
+'cont_field_group_management' => 'Feldergruppen-Verwaltung',
 
-  'design_email_notification' => 'Email-Benachrichtigung-Template',
+'data_clear_caching' => 'Caching löschen',
 
-  'design_member_profile_templates' => 'Mitglied-Profil-Template',
+'data_php_info' => 'PHP-Info',
 
-// Members
-  'member_register_member' => 'Mitglieder eintragen',
+'data_recount_stats' => 'Neuzählung Stats',
 
-  'member_validation' => 'Mitglieder-Überprüfung',
+'data_search_and_replace' => 'Suchen und Ersetzen',
 
-  'member_view_members' => 'Mitglieder zeigen',
+'data_sql_manager' => 'SQL-Manager',
 
-  'member_ip_search' => 'Mitglied-IP-Suche',
+'design_email_notification' => 'Emailbenachrichtigungs-Template',
 
-  'member_custom_profile_fields' => 'Eigene Profil-Felder',
+'design_member_profile_templates' => 'Mitgliedsprofil-Template',
 
-  'member_group_manager' => 'Mitglieder-Gruppen-Verwaltung',
+'design_system_offline' => 'System-Offline-Template',
 
-  'member_config' => 'Mitglied-Konfiguration',
+'design_user_message' => 'Mitglieds-Mitteilungen-Template',
 
-  'member_banning' => 'Mitglied sperren',
+'exte_index' => 'Extensions',
 
-  'member_search' => 'Mitglied suchen',
+'file_index' => 'Dateimanager',
 
-// Tools_data
-  'data_sql_manager' => 'SQL-Manager',
+'logs_view_cp_log' => 'Control-Panel-Log zeigen',
 
-  'data_search_and_replace' => 'Suchen und ersetzen',
+'logs_view_email_log' => 'Email-Log zeigen',
 
-  'data_recount_stats' => 'Neuzählung Stats',
+'logs_view_search_log' => 'Suchen-Log zeigen',
 
-  'data_php_info' => 'PHP-Info',
+'logs_view_throttle_log' => 'Drosselungs-Log zeigen',
 
-  'data_clear_caching' => 'Caching löschen',
+'member_banning' => 'Mitglied sperren',
 
-// Content_files
-  'file_index' => 'Datei-Verwaltung',
+'member_config' => 'Mitglieds-Konfiguration',
 
-  'cont_field_group_management' => 'Feldergruppen-Verwaltung',
+'member_custom_profile_fields' => 'Eigene Profilfelder',
 
-  'members_member_group_manager' => 'Mitgliedergruppen Verwaltung',
+'member_group_manager' => 'Mitgliedergruppen-Verwaltung',
 
-  'cont_category_management' => 'Kategorien-Verwaltung',
+'member_ip_search' => 'Mitglieds-IP-Suche',
 
-  'members_custom_profile_fields' => 'Eigene Mitglieder-Felder',
+'member_register_member' => 'Mitglieder eintragen',
 
+'member_search' => 'Mitglied suchen',
 
-// Tools_logs
-  'logs_view_cp_log' => 'Control Panel-Log zeigen',
+'member_validation' => 'Mitglieder-Überprüfung',
 
-  'logs_view_throttle_log' => 'Drosselung-Log zeigen',
+'member_view_members' => 'Mitglieder zeigen',
 
-  'logs_view_search_log' => 'Suche-Log zeigen',
+'members_custom_profile_fields' => 'Eigene Profilfelder',
 
-  'logs_view_email_log' => 'Email-Log zeigen',
+'members_member_group_manager' => 'Mitgliedergruppen-Verwaltung',
 
-// Tools_utilities
-  'util_member_import' => 'Mitglieder-Import',
+'modu_index' => 'Module',
 
-  'util_import_from_xml' => 'Import von XML',
+'plug_index' => 'Plugins',
 
-  'util_translation_tool' => 'Übersetzungshilfe',
+'util_import_from_xml' => 'Import aus XML',
 
-// Plugins
-  'plug_index' => 'Plugins',
+'util_member_import' => 'Mitglieder-Import',
 
-  'modu_index' => 'Module',
+'util_translation_tool' => 'Übersetzungshilfe',
 
-  'exte_index' => 'Extensions',
-
-  ''=>''
 );
 
-/* End of file cp_search_lang.php */
-/* Location: ./system/user/language/deutsch/cp_search_lang.php */
+// EOF
