@@ -145,6 +145,7 @@ EOF;
 
 
 
+
 //---------------------------------------------------
 //	Member Forgotten Password Instructions
 //--------------------------------------------------
@@ -154,7 +155,7 @@ if ( ! function_exists('forgot_password_instructions_title'))
 	function forgot_password_instructions_title()
 	{
 return <<<EOF
-Login-Informationen
+Login information
 EOF;
 	}
 }
@@ -170,7 +171,7 @@ Um das Passwort zurückzusetzen, gehen Sie bitte zu folgender Seite:
 
 {reset_url}
 
-Ihr Passwort wird automatisch zurückgesetzt. Das neues Passwort erhalten Sie via E-Mail.
+Dann melden SIe sich mit Ihrem Benutzernamen an: {username}
 
 Soll das Passwort nicht zurückgesetzt werden, ignorieren Sie bitte diese Meldung. Sie wird in 24 Stunden verfallen.
 
@@ -180,6 +181,59 @@ EOF;
 	}
 }
 
+if ( ! function_exists('password_changed_notification_title'))
+{
+	function password_changed_notification_title()
+	{
+return <<<EOF
+Password changed
+EOF;
+	}
+}
+
+if ( ! function_exists('password_changed_notification'))
+{
+	function password_changed_notification()
+	{
+return <<<EOF
+{name},
+
+Ihr Passwort wurde gerade geändert.
+
+Wenn Sie diese Änderung nicht selbst vorgenommen haben, wenden Sie sich bitte sofort an einen Administrator.
+
+{site_name}
+{site_url}
+EOF;
+	}
+}
+
+if ( ! function_exists('email_changed_notification_title'))
+{
+	function email_changed_notification_title()
+	{
+return <<<EOF
+Email address changed
+EOF;
+	}
+}
+
+if ( ! function_exists('email_changed_notification'))
+{
+	function email_changed_notification()
+	{
+return <<<EOF
+{name},
+
+Ihre Email-Adresse wurde geändert und diese Email-Adresse ist nicht mehr mit Ihrem Konto verknüpft.
+
+Wenn Sie diese Änderung nicht selbst vorgenommen haben, wenden Sie sich bitte sofort an einen Administrator.
+
+{site_name}
+{site_url}
+EOF;
+	}
+}
 
 //---------------------------------------------------
 //	Validated Member Notification
@@ -546,12 +600,12 @@ return <<<EOF
 
 <style type="text/css">
 
-body { 
-background-color:	#ffffff; 
-margin:				50px; 
+body {
+background-color:	#ffffff;
+margin:			50px;
 font-family:		Verdana, Arial, Tahoma, Trebuchet MS, Sans-serif;
-font-size:			11px;
-color:				#000;
+font-size:		11px;
+color:			#000;
 background-color:	#fff;
 }
 
@@ -560,42 +614,42 @@ font-family:		Verdana, Arial, Tahoma, Trebuchet MS, Sans-serif;
 font-weight:		bold;
 letter-spacing:		.09em;
 text-decoration:	none;
-color:			  #330099;
+color:			 #330099;
 background-color:	transparent;
 }
-  
+
 a:visited {
-color:				#330099;
+color:			#330099;
 background-color:	transparent;
 }
 
 a:hover {
-color:				#000;
+color:			#000;
 text-decoration:	underline;
 background-color:	transparent;
 }
 
 #content  {
-border:				#999999 1px solid;
-padding:			22px 25px 14px 25px;
+border:			#999999 1px solid;
+padding:		22px 25px 14px 25px;
 }
 
 h1 {
 font-family:		Verdana, Arial, Tahoma, Trebuchet MS, Sans-serif;
 font-weight:		bold;
-font-size:			14px;
-color:				#000;
+font-size:		14px;
+color:			#000;
 margin-top: 		0;
 margin-bottom:		14px;
 }
 
 p {
 font-family:		Verdana, Arial, Tahoma, Trebuchet MS, Sans-serif;
-font-size: 			12px;
+font-size: 		12px;
 font-weight: 		normal;
 margin-top: 		12px;
 margin-bottom: 		14px;
-color: 				#000;
+color: 			#000;
 }
 </style>
 
@@ -607,7 +661,7 @@ color: 				#000;
 
 <h1>System Offline</h1>
 
-<p>Die Website ist im Moment Offline</p>
+<p>This site is currently offline</p>
 
 </div>
 
@@ -639,12 +693,12 @@ return <<<EOF
 
 <style type="text/css">
 
-body { 
-background-color:	#ffffff; 
-margin:				50px; 
+body {
+background-color:	#ffffff;
+margin:			50px;
 font-family:		Verdana, Arial, Tahoma, Trebuchet MS, Sans-serif;
-font-size:			11px;
-color:				#000;
+font-size:		11px;
+color:			#000;
 background-color:	#fff;
 }
 
@@ -652,48 +706,48 @@ a {
 font-family:		Verdana, Arial, Tahoma, Trebuchet MS, Sans-serif;
 letter-spacing:		.09em;
 text-decoration:	none;
-color:			  #330099;
+color:			 #330099;
 background-color:	transparent;
 }
-  
+
 a:visited {
-color:				#330099;
+color:			#330099;
 background-color:	transparent;
 }
 
 a:active {
-color:				#ccc;
+color:			#ccc;
 background-color:	transparent;
 }
 
 a:hover {
-color:				#000;
+color:			#000;
 text-decoration:	underline;
 background-color:	transparent;
 }
 
 #content  {
-border:				#000 1px solid;
+border:			#000 1px solid;
 background-color: 	#DEDFE3;
-padding:			22px 25px 14px 25px;
+padding:		22px 25px 14px 25px;
 }
 
 h1 {
 font-family:		Verdana, Arial, Tahoma, Trebuchet MS, Sans-serif;
 font-weight:		bold;
-font-size:			14px;
-color:				#000;
+font-size:		14px;
+color:			#000;
 margin-top: 		0;
 margin-bottom:		14px;
 }
 
 p {
 font-family:		Verdana, Arial, Tahoma, Trebuchet MS, Sans-serif;
-font-size: 			12px;
+font-size: 		12px;
 font-weight: 		normal;
 margin-top: 		12px;
 margin-bottom: 		14px;
-color: 				#000;
+color: 			#000;
 }
 
 ul {
@@ -701,13 +755,13 @@ margin-bottom: 		16px;
 }
 
 li {
-list-style:			square;
+list-style:		square;
 font-family:		Verdana, Arial, Tahoma, Trebuchet MS, Sans-serif;
-font-size: 			12px;
+font-size: 		12px;
 font-weight: 		normal;
 margin-top: 		8px;
 margin-bottom: 		8px;
-color: 				#000;
+color: 			#000;
 }
 
 </style>
@@ -733,5 +787,4 @@ EOF;
 	}
 }
 
-/* End of file email_data.php */
-/* Location: ./system/user/language/deutsch/email_data.php */
+// EOF
