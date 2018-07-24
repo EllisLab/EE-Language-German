@@ -3,13 +3,11 @@
 $lang = array(
 
 
-//----------------------------
 // Sidebar Menu
-//----------------------------
 
 'addon' => 'Add-On',
 
-'addon_manager' => 'Add-On-Manager',
+'addon_manager' => 'Add-On-Verwaltung',
 
 'addons' => 'Add-Ons',
 
@@ -43,10 +41,7 @@ $lang = array(
 
 'update_to_version' => 'Update auf %s',
 
-
-//----------------------------
 // Confirm uninstall modal
-//----------------------------
 
 'btn_confirm_and_uninstall' => 'Deinstallieren',
 
@@ -56,14 +51,17 @@ $lang = array(
 
 'confirm_uninstall_desc' => 'Sie wollen nun eines oder mehrere Add-Ons deinstallieren. Bestätigen Sie die Aktion, indem Sie auf den Button <b>Deinstallieren</b> klicken.',
 
-
-//----------------------------
 // Filters
-//----------------------------
 
 'addons_installed' => 'Add-Ons installiert',
 
 'addons_installed_desc' => 'Folgende(s) Add-on(s) wurde installiert: ',
+
+'addons_not_installed' => 'Add-Ons nicht installiert',
+
+'existing_consent_request' => 'Die folgenden Add-Ons konnten aufgrund einer vorhandenen Einverständnisabfrage, die die Add-Ons zu erstellen versuchen, nicht installiert werden:',
+
+'contact_developer' => 'Bitte kontaktieren Sie den Add-On-Entwickler für Hilfe.',
 
 'addons_uninstalled' => 'Add-Ons deinstalliert',
 
@@ -99,10 +97,7 @@ $lang = array(
 
 'uninstalled' => 'Deinstalliert',
 
-
-//----------------------------
 // 2.x
-//----------------------------
 
 'addons_extensions' => 'Extensions',
 
