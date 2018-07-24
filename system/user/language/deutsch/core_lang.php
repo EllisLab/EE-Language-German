@@ -2,388 +2,427 @@
 
 $lang = array(
 
-//----------------------------
-// General word list
-//----------------------------
+/* General word list */
+'and' => 'and',
 
-  'no' => 'Nein',
+'and_n_others' => 'and %d others...',
 
-  'yes' => 'Ja',
+'at' => 'at',
 
-  'on' => 'Ein',
+'auto_redirection' => 'You will be redirected automatically in %x seconds',
 
-  'off' => 'Aus',
+'back' => 'Back',
 
-  'first' => 'Erste',
+'by' => 'by',
 
-  'prev' => 'Vorherige',
+'click_if_no_redirect' => 'Click here if you are not redirected automatically',
 
-  'next' => 'Nächste',
+'disabled' => 'disabled',
 
-  'last' => 'Letzte',
+'dot' => 'dot',
 
-  'enabled' => 'aktiviert',
+'enabled' => 'enabled',
 
-  'disabled' => 'deaktiviert',
+'encoded_email' => '(JavaScript must be enabled to view this email address)',
 
-  'back' => 'Zurück',
+'first' => 'First',
 
-  'submit' => 'Abenden',
+'id' => 'ID',
 
-  'update' => 'Aktualisieren',
+'last' => 'Last',
 
-  'thank_you' => 'Danke!',
+'next' => 'Next',
 
-  'page' => 'Seite',
+'no' => 'No',
 
-  'of' => 'von',
+'not_authorized' => 'You are not authorized to perform this action',
 
-  'by' => 'von',
+'not_available' => 'Not available',
 
-  'at' => 'at',
+'of' => 'of',
 
-  'dot' => 'Punkt',
+'off' => 'off',
 
-  'and' => 'und',
+'on' => 'on',
 
-  'or' => 'oder',
+'or' => 'or',
 
-  'id' => 'ID',
-  
-  'and_n_others' => 'und %d weitere...',
+'pag_first_link' => '&lsaquo; First',
 
-  'encoded_email' => '(Javascript muss aktiviert sein, um diese E-Mail-Adresse zu sehen)',
+'pag_last_link' => 'Last &rsaquo;',
 
-  'search' => 'Suchen',
+'page' => 'Page',
 
-  'system_off_msg' => 'Diese Site ist zur Zeit nicht aktiv.',
+'preference' => 'Preference',
 
-  'not_authorized' => 'Die erforderliche Berechtigung für diese Aktion liegt nicht vor.',
+'prev' => 'Previous',
 
-  'auto_redirection' => 'Sie werden in %x Sekunden automatisch weitergeleitet',
+'return_to_previous' => 'Return to Previous Page',
 
-  'click_if_no_redirect' => 'Bitte hier klicken, falls nicht automatisch weitergeleitet wird',
+'search' => 'Search',
 
-  'return_to_previous' => 'Zurück zur vorhergehenden Seite',
+'setting' => 'Setting',
 
-  'not_available' => 'Nicht verfügbar',
+'site_homepage' => 'Site Homepage',
 
-  'setting' => 'Einstellung',
+'submit' => 'Submit',
 
-  'preference' => 'Voreinstellung',
+'system_off_msg' => 'This site is currently inactive.',
 
-  'pag_first_link' => '&laquo; Erste',
-  'pag_last_link' => 'Letzte &raquo;',
+'thank_you' => 'Thank You!',
 
-//----------------------------
-// Errors
-//----------------------------
+'update' => 'Update',
 
-  'error' => 'Fehler',
+'updating' => 'Updating',
 
-  'generic_fatal_error' => 'Etwas ging schief und dieser URL kann im Moment nicht verarbeitet werden.',
-
-  'invalid_url' => 'Der angegebene URL ist ungültig.',
-
-  'submission_error' => 'Das abgeschickte Formular enthielt folgende Fehler:',
-
-  'general_error' => 'Folgende Fehler traten auf',
-
-  'invalid_action' => 'Die angeforderte Aktion ist nicht zugelassen.',
-
-  'csrf_token_expired' => 'Dieses Formular ist abgelaufen. Bitte neu laden und nochmals probieren.',
-
-  'current_password_required' => 'Ihr aktuelles Passwort wird verlangt.',
-
-  'current_password_incorrect' => 'Ihr aktuelles Passwort wurde nicht korrekt eingegeben.',
-
-  'captcha_required' => 'Bitte das angezeigte Wort aus dem Bild eingeben.',
-
-  'captcha_incorrect' => 'Das Wort wurde nicht wie angezeigt eingegeben',
-
-  'nonexistent_page' => 'Die gewünschte Seite wurde nicht gefunden',
-
-  'unable_to_load_field_type' => 'Kann diese Feldtypen-Datei nicht laden: %s.<br />Bestätigen Sie dass die Feldtypen-Datei im Ordner in the /system/user/addons/ liegt',
-
-  'unwritable_cache_folder' => 'Der Cache-Ordner hat nicht die richtigen Berechtigungen.<br>Abhilfe: Die Berechtigung für den Cache (/system/user/cache/) auf 777 setzen - oder auf das Equivalent Ihres Servers.',
-
-  'unwritable_config_file' => 'Die Konfigurationsdatei hat nicht die richtigen Berechtigungen.<br>Abhilfe: Die Berechtigung für die config-Datei  (/system/user/config/config.php) auf 666 setzen - oder auf das Equivalent Ihres Servers.',
+'yes' => 'Yes',
 
 
-  'redirect_xss_fail' => 'Der Link, auf den Sie umgeleitet wurden, enthielt potentiellen Schadcode. Wir empfehlen, den Back-Button zu klicken und per E-Mail den Link an %s zu melden, der diese Mitteilung hervorrief.',
+/* Errors */
+'captcha_incorrect' => 'You did not submit the word exactly as it appears in the image',
 
-  'missing_mime_config' => 'Kann Ihre Mime-Typ-Whitelist nicht importieren: die Datei %s existiert nicht oder kann nicht gelesen werden.',
+'captcha_required' => 'You must submit the word that appears in the image',
 
-  'version_mismatch' => 'Your ExpressionEngine installation&rsquo;s version (%s) is not consistent with the reported version (%s). <a href="https://ellislab.com/expressionengine/user-guide/installation/update.html" rel="external">Please update your installation of ExpressionEngine again</a>.',
+'checksum_changed_accept' => 'Accept Changes',
 
-  'checksum_changed_warning' => 'Eine oder mehrere Core-Dateien wurden geändert:',
+'checksum_changed_warning' => 'One or more core files have been altered:',
 
-  'checksum_changed_accept' => 'Änderungen akzeptieren',
+'checksum_email_message' => 'ExpressionEngine has detected the modification of a core file on: {url}
 
-  'checksum_email_subject' => 'Eine Core-Datei wurde auf Ihrer Website geändert.',
-
-  'checksum_email_message' => 'ExpressionEngine hat die Änderung einer Core-Datei entdeckt: {url}
-
-Die folgenden Dateien sind betroffen:
+The following files are affected:
 {changed}
 
-Wenn Sie diese Änderungen gemacht haben, akzeptieren Sie diese bitte im Control-Panel. Wenn Sie diese Dateien nicht geändert haben, kann das möglicherweise auf einen Hackerangriff hinweisen. Überprüfen Sie die Dateien auf verdächtige Inhalte (JavaScript oder iFrames) und kontaktieren Sie den von ExpressionEngine-Support: 
-https://support.ellislab.com/',
+If you made these changes, please accept the modifications on the control panel homepage. If you did not alter these files it may indicate a hacking attempt. Check the files for any suspicious contents (JavaScript or iFrames) and contact ExpressionEngine support:
+https://expressionengine.com/support',
 
-  'new_version_error' => 'Es trat ein unerwarteter Fehler auf bei dem Versuch, die aktuelle Versionsnummer von ExpressionEngine herunterzuladen.  Bitte besuchen Sie Ihren <a href="%s" title="download account" rel="external">Download Account</a>, um zu überprüfen, ob Sie mit der aktuellen Version arbeiten. Bleibt dieser Fehler weiterhin bestehen, kontaktieren Sie bitte Ihren Systemadministrator',
+'checksum_email_subject' => 'A core file was modified on your site.',
 
-  'file_not_found' => 'Die Datei %s existiert nicht.',
+'csrf_token_expired' => 'This form has expired. Please refresh and try again.',
 
-//----------------------------
-// Member Groups
-//----------------------------
+'current_password_incorrect' => 'Your current password was not submitted correctly.',
 
-  'banned' => 'Gesperrt',
+'current_password_required' => 'Your current password is required.',
 
-  'guests' => 'Gast',
+'curl_not_installed' => 'cURL is not installed on your server',
 
-  'members' => 'Nutzer',
+'error' => 'Error',
 
-  'pending' => 'Im Wartezustand',
+'file_not_found' => 'File %s does not exist.',
 
-  'super_admins' => 'Super-Admins',
+'general_error' => 'The following errors were encountered',
 
+'generic_fatal_error' => 'Something has gone wrong and this URL cannot be processed at this time.',
 
-//----------------------------
-// Template.php
-//----------------------------
+'invalid_action' => 'The action you have requested is invalid.',
 
-  'error_tag_syntax' => 'Der folgende Tag hat einen Syntaxfehler:',
+'invalid_url' => 'The URL you submitted is not valid.',
 
-  'error_fix_syntax' => 'Bitte die Syntax im Template korrigieren.',
+'license_disabled' => 'Your software license has been disabled or upgraded. Please visit your <a href="%s">License & Registration</a> page and install the active license from your <a href="%s" title="download account" rel="external">Download Account</a>. If this error persists, please contact your system administrator.',
 
-  'error_tag_module_processing' => 'Folgender Tag kann nicht verarbeitet werden:',
+'missing_encryption_key' => 'You do not have value set for <code>%s</code> in your config.php. This may leave your install open to security vulnerabilities. Restore the keys or <a href="%s">contact support</a> for help.',
 
-  'error_fix_module_processing' => 'Bitte überprüfen, ob das &#39;%x&#39; Modul installiert ist und das &#39;%y%&#39; eine verfügbare Methode für das Modul ist.',
+'missing_mime_config' => 'Cannot import your mime-type whitelist: the file %s does not exist or cannot be read.',
 
-  'template_loop' => 'Es wurde eine Template-Endlosschleife erzeugt. Grund: Falsches Verschachteln von Sub-Templates.',
+'new_version_error' => 'An unexpected error occurred attempting to download the current ExpressionEngine version number. Please visit your <a href="%s" title="download account" rel="external">Download Account</a> to verify you are on the current version. If this error persists, please contact your system administrator',
 
-  'template_load_order' => 'Template-Ladereihenfolge',
+'nonexistent_page' => 'The page you requested was not found',
 
-  'error_multiple_layouts' => 'Mehrfach-Layouts gefunden. Bitte sicherstellen, dass nur ein Layout-Tag pro Template vorhanden ist.',
+'redirect_xss_fail' => 'The link you are being redirected to contained some potentially malicious or dangerous code. We recommend you hit the back button and email %s to report the link that generated this message.',
 
-  'error_layout_too_late' => 'Plugin- oder Modul-Tag vor der Layout-Deklaration gefunden. Bitte den Layout-Tag an den Anfang des Templates stellen.',
+'submission_error' => 'The form you submitted contained the following errors',
 
-  'error_invalid_conditional' => 'Sie haben ein ungültiges Conditional in Ihrem Template. Bitte überprüfen Sie Ihre Conditionals auf nicht geschlossene Zeichenketten, ungültige Operatoren, ein fehlendes }, oder ein fehlendes {/if}.',
+'theme_folder_wrong' => 'Your theme folder path is incorrect. Please go to <a href="%s">URL and Path Settings</a> and check the <mark>Themes Path</mark> and <mark>Themes URL</mark>.',
 
-  'layout_contents_reserved' => 'Der Name "contents" ist für Templatedaten reserviert und kann nicht als Layoutvariable dienen (als Beispiel {layout:set name="contents"} oder {layout=foo/bar" contents=""}).',
+'unable_to_load_field_type' => 'Unable to load requested field type file: %s.<br /> Confirm the fieldtype file is located in the /system/user/addons/ directory',
 
-//----------------------------
-// Email
-//----------------------------
+'unwritable_cache_folder' => 'Your cache folder does not have proper permissions.<br />To fix: Set the cache folder (/system/user/cache/) permissions to 777 (or equivalent for your server).',
 
-  'forgotten_email_sent' => 'Anweisungen zum Ändern Ihres Passwortes wurden zugesandt.',
+'unwritable_config_file' => 'Your configuration file does not have the proper permissions.<br />To fix: Set the config file (/system/user/config/config.php) permissions to 666 (or equivalent for your server).',
 
-  'error_sending_email' => 'Email senden im Moment nicht möglich .',
+'version_mismatch' => 'Your ExpressionEngine installation&rsquo;s version (%s) is not consistent with the reported version (%s). <a href="'.DOC_URL.'installation/update.html" rel="external">Please update your installation of ExpressionEngine again</a>.',
 
-  'no_email_found' => 'Die angegebene Email-Adresse ist nicht in der Datenbank zu finden.',
 
-  'password_reset_flood_lock' => 'Sie haben heute Ihr Passwort zu oft zurückgesetzt. Prüfen Sie Ihre Inbox und den Spam-Ordner nach früheren Anfragen, oder kontaktieren Sie den Administrator der Site.',
+/* Member Groups */
+'banned' => 'Banned',
 
-  'your_new_login_info' => 'Login-Information',
+'guests' => 'Guests',
 
-  'password_has_been_reset' => 'Ihr Passwort wurde geändert. Das neue Passwort wird per E-Mail zugestellt.',
+'members' => 'Members',
 
-//----------------------------
-// Date
-//----------------------------
-  'singular' => 'eins',
+'pending' => 'Pending',
 
-  'less_than' => 'kleiner als',
+'super_admins' => 'Super Admins',
 
-  'about' => 'ungefähr',
 
-  'past' => '%s her',
+/* Template.php */
+'error_fix_module_processing' => 'Please check that the \'%x\' module is installed and that \'%y\' is an available method of the module',
 
-  'future' => 'in %s',
+'error_fix_syntax' => 'Please correct the syntax in your template.',
 
-  'ago' => 'her',
+'error_invalid_conditional' => 'You have an invalid conditional in your template. Please review your conditionals for an unclosed string, invalid operators, a missing }, or a missing {/if}.',
 
-  'year' => 'Jahr',
+'error_layout_too_late' => 'Plugin or module tag found before layout declaration. Please move the layout tag to the top of your template.',
 
-  'years' => 'Jahre',
+'error_multiple_layouts' => 'Multiple Layouts found, please ensure you only have one layout tag per template',
 
-  'month' => 'Monat',
+'error_tag_module_processing' => 'The following tag cannot be processed:',
 
-  'months' => 'Monate',
+'error_tag_syntax' => 'The following tag has a syntax error:',
 
-  'fortnight' => 'vierzehn Tage',
+'layout_contents_reserved' => 'The name "contents" is reserved for the template data and cannot be used as a layout variable (i.e. {layout:set name="contents"} or {layout="foo/bar" contents=""}).',
 
-  'fortnights' => 'vierzehn Tagen',
+'template_load_order' => 'Template load order',
 
-  'week' => 'Woche',
+'template_loop' => 'You have caused a template loop due to improperly nested sub-templates (\'%s\' recursively called)',
 
-  'weeks' => 'Wochen',
 
-  'day' => 'Tag',
+/* Email */
+'error_sending_email' => 'Unable to send email at this time.',
 
-  'days' => 'Tage',
+'forgotten_email_sent' => 'If this email address is associated with an account, instructions for resetting your password have just been emailed to you.',
 
-  'hour' => 'Stunde',
+'no_email_found' => 'The email address you submitted was not found in the database.',
 
-  'hours' => 'Stunden',
+'password_has_been_reset' => 'Your password was reset and a new one has been emailed to you.',
 
-  'minute' => 'Minute',
+'password_reset_flood_lock' => 'You have tried to reset your password too many times today. Please check your inbox and spam folders for previous requests, or contact the site administrator.',
 
-  'minutes' => 'Minuten',
+'your_new_login_info' => 'Login information',
 
-  'second' => 'Sekunde',
 
-  'seconds' => 'Sekunden',
+/* Timezone */
+'invalid_date_format' => 'The date format you submitted is invalid.',
 
-  'am' => 'am',
+'invalid_timezone' => 'The timezone you submitted is invalid.',
 
-  'pm' => 'pm',
+'no_timezones' => 'No Timezones',
 
-  'AM' => 'AM',
+'select_timezone' => 'Select Timezone',
 
-  'PM' => 'PM',
 
-  'Sun' => 'Son',
+/* Date */
+'singular' => 'one',
 
-  'Mon' => 'Mon',
+'less_than' => 'less than',
 
-  'Tue' => 'Die',
+'about' => 'about',
 
-  'Wed' => 'Mit',
+'past' => '%s ago',
 
-  'Thu' => 'Don',
+'future' => 'in %s',
 
-  'Fri' => 'Fre',
+'ago' => '%x ago',
 
-  'Sat' => 'Sam',
+'year' => 'year',
 
-  'Su' => 'S',
+'years' => 'years',
 
-  'Mo' => 'M',
+'month' => 'month',
 
-  'Tu' => 'D',
+'months' => 'months',
 
-  'We' => 'M',
+'fortnight' => 'fortnight',
 
-  'Th' => 'D',
+'fortnights' => 'fortnights',
 
-  'Fr' => 'F',
+'week' => 'week',
 
-  'Sa' => 'S',
+'weeks' => 'weeks',
 
-  'Sunday' => 'Sonntag',
+'day' => 'day',
 
-  'Monday' => 'Montag',
+'days' => 'days',
 
-  'Tuesday' => 'Dienstag',
+'hour' => 'hour',
 
-  'Wednesday' => 'Mittwoch',
+'hours' => 'hours',
 
-  'Thursday' => 'Donnerstag',
+'minute' => 'minute',
 
-  'Friday' => 'Freitag',
+'minutes' => 'minutes',
 
-  'Saturday' => 'Samstag',
+'second' => 'second',
 
+'seconds' => 'seconds',
 
-  'Jan' => 'Jan',
+'am' => 'am',
 
-  'Feb' => 'Feb',
+'pm' => 'pm',
 
-  'Mar' => 'Mar',
+'AM' => 'AM',
 
-  'Apr' => 'Apr',
+'PM' => 'PM',
 
-  'May' => 'Mai',
+'Sun' => 'Sun',
 
-  'Jun' => 'Jun',
+'Mon' => 'Mon',
 
-  'Jul' => 'Jul',
+'Tue' => 'Tue',
 
-  'Aug' => 'Aug',
+'Wed' => 'Wed',
 
-  'Sep' => 'Sep',
+'Thu' => 'Thu',
 
-  'Oct' => 'Okt',
+'Fri' => 'Fri',
 
-  'Nov' => 'Nov',
+'Sat' => 'Sat',
 
-  'Dec' => 'Dez',
+'Su' => 'S',
 
+'Mo' => 'M',
 
-  'January' => 'Januar',
+'Tu' => 'T',
 
-  'February' => 'Februar',
+'We' => 'W',
 
-  'March' => 'März',
+'Th' => 'T',
 
-  'April' => 'April',
+'Fr' => 'F',
 
-  'May_l' => 'Mai',
+'Sa' => 'S',
 
-  'June' => 'Juni',
+'Sunday' => 'Sunday',
 
-  'July' => 'Juli',
+'Monday' => 'Monday',
 
-  'August' => 'August',
+'Tuesday' => 'Tuesday',
 
-  'September' => 'September',
+'Wednesday' => 'Wednesday',
 
-  'October' => 'Oktober',
+'Thursday' => 'Thursday',
 
-  'November' => 'November',
+'Friday' => 'Friday',
 
-  'December' => 'Dezember',
+'Saturday' => 'Saturday',
 
+'Jan' => 'Jan',
 
-  'UM12' => '(UTC -12:00) Baker/Howland Island',
-  'UM11' => '(UTC -11:00) Samoa Time Zone, Niue',
-  'UM10' => '(UTC -10:00) Hawaii-Aleutian Standard Time, Cook Islands, Tahiti',
-  'UM95' => '(UTC -9:30) Marquesas Islands',
-  'UM9' => '(UTC -9:00) Alaska Standard Time, Gambier Islands',
-  'UM8' => '(UTC -8:00) Pacific Standard Time, Clipperton Island',
-  'UM7' => '(UTC -7:00) Mountain Standard Time',
-  'UM6' => '(UTC -6:00) Central Standard Time',
-  'UM5' => '(UTC -5:00) Eastern Standard Time, Western Caribbean Standard Time',
-  'UM45' => '(UTC -4:30) Venezuelan Standard Time',
-  'UM4' => '(UTC -4:00) Atlantic Standard Time, Eastern Caribbean Standard Time',
-  'UM35' => '(UTC -3:30) Newfoundland Standard Time',
-  'UM3' => '(UTC -3:00) Argentina, Brazil, French Guiana, Uruguay',
-  'UM2' => '(UTC -2:00) South Georgia/South Sandwich Islands',
-  'UM1' => '(UTC -1:00) Azores, Cape Verde Islands',
-  'UTC' => '(UTC) Greenwich Mean Time, Western European Time',
-  'UP1' => '(UTC +1:00) Central European Time, West Africa Time',
-  'UP2' => '(UTC +2:00) Central Africa Time, Eastern European Time, Kaliningrad Time',
-  'UP3' => '(UTC +3:00) Moscow Time, East Africa Time',
-  'UP35' => '(UTC +3:30) Iran Standard Time',
-  'UP4' => '(UTC +4:00) Azerbaijan Standard Time, Samara Time',
-  'UP45' => '(UTC +4:30) Afghanistan',
-  'UP5' => '(UTC +5:00) Pakistan Standard Time, Yekaterinburg Time',
-  'UP55' => '(UTC +5:30) Indian Standard Time, Sri Lanka Time',
-  'UP575' => '(UTC +5:45) Nepal Time',
-  'UP6' => '(UTC +6:00) Bangladesh Standard Time, Bhutan Time, Omsk Time',
-  'UP65' => '(UTC +6:30) Cocos Islands, Myanmar',
-  'UP7' => '(UTC +7:00) Krasnoyarsk Time, Cambodia, Laos, Thailand, Vietnam',
-  'UP8' => '(UTC +8:00) Australian Western Standard Time, Beijing Time, Irkutsk Time',
-  'UP875' => '(UTC +8:45) Australian Central Western Standard Time',
-  'UP9' => '(UTC +9:00) Japan Standard Time, Korea Standard Time, Yakutsk Time',
-  'UP95' => '(UTC +9:30) Australian Central Standard Time',
-  'UP10' => '(UTC +10:00) Australian Eastern Standard Time, Vladivostok Time',
-  'UP105' => '(UTC +10:30) Lord Howe Island',
-  'UP11' => '(UTC +11:00) Magadan Time, Solomon Islands, Vanuatu',
-  'UP115' => '(UTC +11:30) Norfolk Island',
-  'UP12' => '(UTC +12:00) Fiji, Gilbert Islands, Kamchatka Time, New Zealand Standard Time',
-  'UP1275' => '(UTC +12:45) Chatham Islands Standard Time',
-  'UP13' => '(UTC +13:00) Phoenix Islands Time, Tonga',
-  'UP14' => '(UTC +14:00) Line Islands',
+'Feb' => 'Feb',
 
-  'select_timezone' => 'Zeitzone wählen',
+'Mar' => 'Mar',
 
-  'no_timezones' => 'Keine Zeitzonen',
+'Apr' => 'Apr',
 
-// IGNORE
+'May' => 'May',
 
-  ''=>'');
-/* End of file core_lang.php */
-/* Location: ./system/user/language/deutsch/core_lang.php */
+'Jun' => 'Jun',
+
+'Jul' => 'Jul',
+
+'Aug' => 'Aug',
+
+'Sep' => 'Sep',
+
+'Oct' => 'Oct',
+
+'Nov' => 'Nov',
+
+'Dec' => 'Dec',
+
+'January' => 'January',
+
+'February' => 'February',
+
+'March' => 'March',
+
+'April' => 'April',
+
+'May_l' => 'May',
+
+'June' => 'June',
+
+'July' => 'July',
+
+'August' => 'August',
+
+'September' => 'September',
+
+'October' => 'October',
+
+'November' => 'November',
+
+'December' => 'December',
+
+'UM12' => '(UTC -12:00) Baker/Howland Island',
+
+'UM11' => '(UTC -11:00) Niue',
+
+'UM10' => '(UTC -10:00) Hawaii-Aleutian Standard Time, Cook Islands, Tahiti',
+
+'UM95' => '(UTC -9:30) Marquesas Islands',
+
+'UM9' => '(UTC -9:00) Alaska Standard Time, Gambier Islands',
+
+'UM8' => '(UTC -8:00) Pacific Standard Time, Clipperton Island',
+
+'UM7' => '(UTC -7:00) Mountain Standard Time',
+
+'UM6' => '(UTC -6:00) Central Standard Time',
+
+'UM5' => '(UTC -5:00) Eastern Standard Time, Western Caribbean Standard Time',
+
+'UM45' => '(UTC -4:30) Venezuelan Standard Time',
+
+'UM4' => '(UTC -4:00) Atlantic Standard Time, Eastern Caribbean Standard Time',
+
+'UM35' => '(UTC -3:30) Newfoundland Standard Time',
+
+'UM3' => '(UTC -3:00) Argentina, Brazil, French Guiana, Uruguay',
+
+'UM2' => '(UTC -2:00) South Georgia/South Sandwich Islands',
+
+'UM1' => '(UTC -1:00) Azores, Cape Verde Islands',
+
+'UTC' => '(UTC) Greenwich Mean Time, Western European Time',
+
+'UP1' => '(UTC +1:00) Central European Time, West Africa Time',
+
+'UP2' => '(UTC +2:00) Central Africa Time, Eastern European Time, Kaliningrad Time',
+
+'UP3' => '(UTC +3:00) East Africa Time, Arabia Standard Time',
+
+'UP35' => '(UTC +3:30) Iran Standard Time',
+
+'UP4' => '(UTC +4:00) Moscow Time, Azerbaijan Standard Time',
+
+'UP45' => '(UTC +4:30) Afghanistan',
+
+'UP5' => '(UTC +5:00) Pakistan Standard Time, Yekaterinburg Time',
+
+'UP55' => '(UTC +5:30) Indian Standard Time, Sri Lanka Time',
+
+'UP575' => '(UTC +5:45) Nepal Time',
+
+'UP6' => '(UTC +6:00) Bangladesh Standard Time, Bhutan Time, Omsk Time',
+
+'UP65' => '(UTC +6:30) Cocos Islands, Myanmar',
+
+'UP7' => '(UTC +7:00) Krasnoyarsk Time, Cambodia, Laos, Thailand, Vietnam',
+
+'UP8' => '(UTC +8:00) Australian Western Standard Time, Beijing Time, Irkutsk Time',
+
+'UP875' => '(UTC +8:45) Australian Central Western Standard Time',
+
+'UP9' => '(UTC +9:00) Japan Standard Time, Korea Standard Time, Yakutsk Time',
+
+'UP95' => '(UTC +9:30) Australian Central Standard Time',
+
+'UP10' => '(UTC +10:00) Australian Eastern Standard Time, Vladivostok Time',
+
+'UP105' => '(UTC +10:30) Lord Howe Island',
+
+'UP11' => '(UTC +11:00) Magadan Time, Solomon Islands, Vanuatu',
+
+'UP115' => '(UTC +11:30) Norfolk Island',
+
+'UP12' => '(UTC +12:00) Fiji, Gilbert Islands, Kamchatka Time, New Zealand Standard Time',
+
+'UP1275' => '(UTC +12:45) Chatham Islands Standard Time',
+
+'UP13' => '(UTC +13:00) Samoa Time Zone, Phoenix Islands Time, Tonga',
+
+'UP14' => '(UTC +14:00) Line Islands',
+
+);
+
+// EOF
