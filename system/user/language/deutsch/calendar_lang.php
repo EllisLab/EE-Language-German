@@ -1,51 +1,97 @@
 <?php
 
-$lang['cal_su']			= "So";
-$lang['cal_mo']			= "Mo";
-$lang['cal_tu']			= "Di";
-$lang['cal_we']			= "Mi";
-$lang['cal_th']			= "Do";
-$lang['cal_fr']			= "Fr";
-$lang['cal_sa']			= "Sa";
-$lang['cal_sun']		= "So";
-$lang['cal_mon']		= "Mon";
-$lang['cal_tue']		= "Di";
-$lang['cal_wed']		= "Mi";
-$lang['cal_thu']		= "Do";
-$lang['cal_fri']		= "Fr";
-$lang['cal_sat']		= "Sa";
-$lang['cal_sunday']		= "Sonntag";
-$lang['cal_monday']		= "Montag";
-$lang['cal_tuesday']	= "Dienstag";
-$lang['cal_wednesday']	= "Mittwoch";
-$lang['cal_thursday']	= "Donnerstag";
-$lang['cal_friday']		= "Freitag";
-$lang['cal_saturday']	= "Samstag";
-$lang['cal_jan']		= "Jan";
-$lang['cal_feb']		= "Feb";
-$lang['cal_mar']		= "Mar";
-$lang['cal_apr']		= "Apr";
-$lang['cal_may']		= "Mai";
-$lang['cal_jun']		= "Jun";
-$lang['cal_jul']		= "Jul";
-$lang['cal_aug']		= "Aug";
-$lang['cal_sep']		= "Sep";
-$lang['cal_oct']		= "Okt";
-$lang['cal_nov']		= "Nov";
-$lang['cal_dec']		= "Dez";
-$lang['cal_january']	= "Januar";
-$lang['cal_february']	= "Februar";
-$lang['cal_march']		= "März";
-$lang['cal_april']		= "April";
-$lang['cal_mayl']		= "Mai";
-$lang['cal_june']		= "Juni";
-$lang['cal_july']		= "Juli";
-$lang['cal_august']		= "August";
-$lang['cal_september']	= "September";
-$lang['cal_october']	= "Oktober";
-$lang['cal_november']	= "November";
-$lang['cal_december']	= "Dezember";
+$lang = array(
 
+'cal_su' => 'So',
 
-/* End of file calendar_lang.php */
-/* Location: ./system/user/language/deutsch/calendar_lang.php */
+'cal_mo' => 'Mo',
+
+'cal_tu' => 'Di',
+
+'cal_we' => 'Mi',
+
+'cal_th' => 'Do',
+
+'cal_fr' => 'Fr',
+
+'cal_sa' => 'Sa',
+
+'cal_sun' => 'So',
+
+'cal_mon' => 'Mo',
+
+'cal_tue' => 'Di',
+
+'cal_wed' => 'Mi',
+
+'cal_thu' => 'Do',
+
+'cal_fri' => 'Fr',
+
+'cal_sat' => 'Sa',
+
+'cal_sunday' => 'Sonntag',
+
+'cal_monday' => 'Montag',
+
+'cal_tuesday' => 'Dienstag',
+
+'cal_wednesday' => 'Mittwoch',
+
+'cal_thursday' => 'Donnerstag',
+
+'cal_friday' => 'Freitag',
+
+'cal_saturday' => 'Samstag',
+
+'cal_jan' => 'Jan',
+
+'cal_feb' => 'Feb',
+
+'cal_mar' => 'Mär',
+
+'cal_apr' => 'Apr',
+
+'cal_may' => 'Mai',
+
+'cal_jun' => 'Jun',
+
+'cal_jul' => 'Jul',
+
+'cal_aug' => 'Aug',
+
+'cal_sep' => 'Sep',
+
+'cal_oct' => 'Okt',
+
+'cal_nov' => 'Nov',
+
+'cal_dec' => 'Dez',
+
+'cal_january' => 'Januar',
+
+'cal_february' => 'Februar',
+
+'cal_march' => 'März',
+
+'cal_april' => 'April',
+
+'cal_mayl' => 'Mai',
+
+'cal_june' => 'Juni',
+
+'cal_july' => 'Juli',
+
+'cal_august' => 'August',
+
+'cal_september' => 'September',
+
+'cal_october' => 'Oktober',
+
+'cal_november' => 'November',
+
+'cal_december' => 'Dezember',
+
+);
+
+// EOF
