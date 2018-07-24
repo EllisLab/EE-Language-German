@@ -2,878 +2,842 @@
 
 $lang = array(
 
-  
-// @since 4.0	
-	
-  'field_manager' => 'Felder-Verwaltung',
+'accesskey' => 'Tastenkürzel',
 
-  'fields_assign_to_group' => 'Dieser Feldergruppe eins oder mehrere Felder zuweisen.',
-  
-  
-// @since 3.0
+'accesskey_desc' => 'Tastenkürzel, um diesen Button zu initialisieren.',
 
-  'custom_fields' => 'Benutzerdefinierte Felder',
+'action_can_not_be_undone' => '<b>Diese Aktion kann nicht rückgängig gemacht werden!</b>',
 
-  'field' => 'Feld',
-  
-  'fields' => 'Felder',
+'add' => 'Hinzufügen',
 
-  'filter_by_group' => 'Feldergruppe',
+'add_a_row' => 'Eine Reihe hinzufügen',
 
-  'field_groups' => 'Feldergruppe',
+'add_preset_button' => 'Einen HTML-Button vordefinieren::',
 
-  'field_groups_desc' => 'Wird benutzt, um miteinander verknüpfte eigene Felder zu gruppieren.',
+'all_fields' => 'Alle Felder',
 
-  'id' => 'ID#',
+'allow_all_html' => 'Komplettes HTML zulassen',
 
-  'create_field_group_warning' => '<b>Warnung</b>: Für Feldergruppen müssen eigene Felder angelegt werden.',
+'allow_all_html_not_recommended' => 'Komplettes HTML zulassen (nicht empfohlen)',
 
-  'create_field_group_warning2' => 'Empfohlen wird, zuerst ein <a href="%s">eigenes Feld</a> anzulegen.',
+'allow_safe_html' => 'Nur sicheres HTML zulassen',
 
-  'create_field_group' => 'Feldergruppe anlegen',
+'alpha' => 'Alphabetisch',
 
-  'custom_fields_not_found' => 'Keine <b>eigenen Felder</b> gefunden',
+'assign_group_to_channel' => 'Hinweis: Um die neue Gruppe verwenden zu können, muss sie einem Channel zugewiesen werden',
 
-  'create_new_field' => 'Neues Feld anlegen',
+'auto_link_urls' => 'URLs (Links) und Email-Adressen automatisch in Links umwandeln?',
 
-  'edit_field_group' => 'Feldergruppe bearbeiten',
+'be_careful' => '<b>Vorsicht bitte!</b>',
 
-  'create_field_group_success' => 'Feldergruppe angelegt',
+'can_edit_status' => 'Kann auf <em>Status</em> zugreifen',
 
-  'create_field_group_success_desc' => 'Die Feldergruppe <b>%s</b> wurde angelegt.',
+'category' => 'Kategorie',
 
-  'create_field_group_error' => 'Feldergruppe kann nicht angelegt werden.',
+'category_description' => 'Beschreibung der Kategorie',
 
-  'create_field_group_error_desc' => 'Diese Feldergruppe konnte nicht angelegt werden, sehen Sie sich die aufgeführten Fehler unten durch und verbessern Sie diese.',
+'category_order_confirm_text' => 'Soll diese Kategoriengruppe wirklich alphabetisch sortiert werden?',
 
-  'edit_field_group_success' => 'Feldergruppe aktualisiert.',
+'category_sort_warning' => 'Wenn Sie eine selbst gewählte Kategorien-Reihenfolge haben, wird sie durch eine alphabetische ersetzt.',
 
-  'edit_field_group_success_desc' => 'Die Feldergruppe <b>%s</b> .wurde aktualisiert.',
+'category_updated' => 'Kategorie wurde aktualisiert',
 
-  'edit_field_group_error' => 'Feldergruppe kann nicht aktualisiert werden',
+'channel_allow_img_urls' => 'Bilder-URLs (Links) in Channel-Einträgen erlauben?',
 
-  'edit_field_group_error_desc' => 'Diese Feldergruppe konnte nicht aktualisiert werden, sehen Sie sich die aufgeführten Fehler unten durch und verbessern Sie diese.',
+'channel_base_setup' => 'Allgemeine Channel-Einstellungen',
 
-  'field_groups_removed_desc' => 'Die folgenden Feldergruppen wurden entfernt',
+'channel_created' => 'Channel erstellt:',
 
-  'fields_removed_desc' => 'Die folgenden Felder wurden entfernt',
+'channel_deleted' => 'Channel gelöscht',
 
-  'create_field' => 'Feld anlegen',
+'channel_description' => 'Channel-Beschreibung',
 
-  'label_desc' => 'Feldname, der im Publish-Formular erscheint.',
+'channel_full_name' => 'Vollständiger Name',
 
-  'instructions' => 'Anweisungen',
+'channel_html_formatting' => 'Standard-HTML in Channel-Einträgen',
 
-  'instructions_desc' => 'Feld-Anweisungen, die im Publish-Formular erscheinen.',
+'channel_id' => 'ID',
 
-  'require_field_desc' => 'Wenn auf <b>ja</b> gesetzt, muss dieses Feld ausgefüllt sein, um den Eintrag speichern zu können.',
+'channel_lang' => 'XML-Sprache',
 
-  'include_in_search' => 'In der Suche berücksichtigen?',
+'channel_max_chars' => 'Maximale Anzahl erlaubter Zeichen in Channel-Einträgen',
 
-  'include_in_search_desc' => 'Wenn auf <b>ja</b> gesetzt, wird dieses Feld bei der Suche berücksichtigt.',
+'channel_name' => 'Channel-Name',
 
-  'hide_field' => 'Feld verstecken?',
+'channel_notify' => 'Soll die folgende Empfängerliste bei neuen Channel-Einträgen benachrichtigt werden?',
 
-  'hide_field_desc' => 'Wenn auf <b>ja</b> gesetzt, wird dieses Feld im Publish-Formular mit einem sichtbaren Link verborgen.',
+'channel_prefs' => 'Channel-Einstellungen',
 
-  'create_field_success' => 'Feld angelegt',
+'channel_require_email' => 'Für das Schreiben von Channel-Einträgen die E-Mail-Adresse verlangen?',
 
-  'create_field_success_desc' => 'Das Feld <b>%s</b> wurde angelegt.',
+'channel_require_membership' => 'Für das Schreiben von Channel-Einträgen eine Mitgliedschaft verlangen?',
 
-  'create_field_error' => 'Das Feld kann nicht angelegt werden',
+'channel_settings' => 'Einstellungen für das Anlegen von Channel-Einträgen',
 
-  'create_field_error_desc' => 'Dieses Feld konnte nicht angelegt werden, sehen Sie sich die aufgeführten Fehler unten durch und verbessern Sie die Fehler.',
+'channel_short_name' => 'Kurzname',
 
-  'edit_field_success' => 'Feld aktualisiert',
+'channel_text_formatting' => 'Standard-Textformat in Channel-Einträgen',
 
-  'edit_field_success_desc' => 'Das Feld <b>%s</b> wurde aktualisiert.',
+'channel_title' => 'Vollständiger Channel-Name',
 
-  'edit_field_error' => 'Das Feld kann nicht aktualisiert werden',
+'channel_updated' => 'Channel aktualisiert:',
 
-  'edit_field_error_desc' => 'Dieses Feld konnte nicht aktualisiert werden, sehen Sie sich die aufgeführten Fehler unten durch und verbessern Sie die Fehler.',
+'channel_url' => 'Channel-URL',
 
-  'field_content_text' => 'Erlaubter Inhalt',
+'channel_url_exp' => 'Der URL (Link) zu diesem Channel',
 
-  'field_content_text_desc' => 'Art des Inhaltes, den dieses Feld enthalten darf.',
+'checkbox_options' => 'Checkbox-Optionen',
 
-  'field_tools' => 'Feld Werkzeuge',
+'checkbox_options_desc' => 'Jedes Element wird als Checkbox mit passender Bezeichnung (Label) im Veröffentlichungsformular erscheinen.',
 
-  'show_smileys' => 'Emoji <i>&mdash; Bildbasierte Emotionen auszudrücken.</i>',
+'clear_versioning_data' => 'Alle gespeicherten Überarbeitungen in diesem Channel löschen',
 
-  'show_file_selector' => 'Asset Manager <i>&mdash; Startet den Asset Manager.</i>',
-  'show_formatting_btns' => 'Formatierungsleiste<i>&mdash;  Funktionen, um den Text zu formatieren.</i>',
+'click_to_assign_group' => 'Zum Zuweisung hier klicken',
 
-  'field_populate_manually' => 'Manuell <i>&mdash; Jede Option in eine eigene Zeile schreiben.</i>',
-  'field_populate_from_channel' => 'Aus Channel vorbelegen<i>&mdash; Feld auswählen.</i>',
+'closed' => 'Geschlossen',
 
-  'checkbox_options' => 'Checkbox: Optionen',
-  'checkbox_options_desc' => 'Wie soll dieses Feld generiert werden? </em><em> <i>Jeder Punkt wird als Checkbox mit passendem Label im Publish-Formular erscheinen.</i>',
+'comment_allow_img_urls' => 'Bilder-URLs (Links) in  Kommentaren zulassen?',
 
-  'select_options' => 'Drop-Down-Feld: Optionen',
-  'select_options_desc' => 'Wie soll dieses Feld generiert werden? </em><em> <i>Jeder Punkt wird in einem Drop-Down-Feld im Publish-Formular erscheinen.</i>',
+'comment_expiration' => 'Dauer der Kommentarfreigabe',
 
-  'multiselect_options' => 'Multi-Select-Feld: Optionen',
-  'multiselect_options_desc' => 'Wie soll dieses Feld generiert werden? </em><em> <i>Jeder Punkt wird in einem Multi-Select-Feld im Publish-Formular angezeigt.</i>',
+'comment_expiration_desc' => 'Wieviele Tage nach der Veröffentlichung eines Eintrages darf kommentiert werden? 0 (Null) eingeben für unbegrenzte Tage.',
 
-  'radio_options' => 'Radio-Button: Optionen',
-  'radio_options_desc' => 'Wie soll dieses Feld generiert werden? </em><em> <i>Jeder Punkt wird als Radio-Button mit passendem Label im Publish-Formular erscheinen.</i>',
+'comment_html_formatting' => 'HTML-Formatierung für Kommentare',
 
-  'grid_checkbox_options_desc' => 'Jeder Punkt wird als Checkbox mit passendem Label im Publish-Formular erscheinen.',
-  'grid_select_options_desc' => 'Jeder Punkt wird in einem Drop-Down-Feld im Publish-Formular erscheinen.',
-  'grid_multiselect_options_desc' => 'Jeder Punkt wird in einem Multi-Select-Feld im Publish-Formular angezeigt.',
-  'grid_radio_options_desc' => 'Jeder Punkt wird als Radio-Button mit passendem Label im Publish-Formular erscheinen.',
+'comment_max_chars' => 'Maximale Anzahl erlaubter Zeichen in Kommentaren',
 
-  'localize_date' => 'Datum lokalisieren?',
-  'localize_date_desc' => 'Wenn auf <b>ja</b> gesetzt, wird das Datum basierend auf den <a href="%s">Zeiteinstellungen</a> dargestellt.',
+'comment_moderate' => 'Kommentare moderieren?',
 
-// @since 2.x
+'comment_moderate_exp' => 'Wird diese Option aktiviert, werden Kommentare erst sichtbar, wenn ein Moderator sie freigeschaltet hat.',
 
-  'reserved_word' => 'Der gewählte Feldname ist ein reserviertes Wort und kann nicht benutzt werden. Bitte im Handbuch nachsehen.',
+'comment_notify' => 'Die untenstehende Empfängerliste für Kommentar-Benachrichtigungen einschalten?',
 
-  'list_edit_warning' => 'Wenn Sie auf dieser Seite ungesicherte Änderungen haben, gehen diese verloren, wenn Sie zum Formateditor transferiert werden.',
+'comment_notify_authors' => 'Autor eines Beitrages benachrichtigen, wenn ein Kommentar gesendet wurde?',
 
-  'fmt_has_changed' => 'Hinweis: Sie haben ein unterschiedliches Feldformat gewählt, als das was vorher eingestellt war.',
+'comment_notify_emails' => 'Email-Adresse für Empfänger von Benachrichtigungen',
 
-  'update_existing_fields' => 'Alle bestehenden Channel-Einträge mit dem neuen Format updaten?',
+'comment_notify_note' => 'Mehrere Email-Adressen durch Komma trennen',
 
-  'display_criteria' => 'Anzeigekriterien für die VERFASSEN-Seite wählen',
+'comment_prefs' => 'Einstellungen für die Kommentarfunktion',
 
-  'field_type_options' => 'Einstellungen Eigene Felder',
+'comment_require_email' => 'Benötigen Kommentare eine Email-Adresse?',
 
-  'limit' => 'Limit',
+'comment_require_membership' => 'Benötigen Kommentare eine Registrierung zur Mitgliedschaft?',
 
-  'orderby_title' => 'Sortierung nach Titel',
+'comment_system_enabled' => 'Kommentare in diesem Channel erlauben?',
 
-  'orderby_date' => 'Sortierung nach Datum',
+'comment_text_formatting' => 'Formatierung für Kommentartext',
 
-  'sort_desc' => 'Absteigende Reihenfolge',
+'comment_timelock' => 'Zeitintervall zum erneuten Einreichen eines Kommentars',
 
-  'in' => 'in',
+'comment_timelock_desc' => 'Die Anzahl der Sekunden, die vergehen müssen, bevor ein User einen neuen Kommentar absenden kann. Ohne Limit: Feld leer lassen oder 0 eintragen.',
 
-  'sort_asc' => 'Aufsteigende Reihenfolge',
+'comment_url' => 'URL der Kommentarseite',
 
-  'field_label_info' => 'Das ist die Feldbezeichnung, die auf der VERFASSEN-Seite erscheinen wird',
+'comment_url_exp' => 'Der URL zur Kommentarseite für diesen Channel',
 
-  'deft_field_formatting' => 'Standard-Textformat für dieses Feld',
+'comment_use_captcha' => 'Captcha für Kommentare einschalten?',
 
-  'formatting_no_available' => 'Textformatierung ist für diesen Feldtyp nicht verfügbar',
+'convert_to_entities' => 'HTML als Entities konvertieren',
 
-  'show_formatting_buttons' => 'Format-Menü zeigen',
+'create_field' => 'Feld anlegen in %s',
 
-  'hide_formatting_buttons' => 'Format-Menü verbergen',
+'create_field_error' => 'Kann Feld nicht anlegen',
 
-  'field_options' => 'Feld Einstellungen',
+'create_field_error_desc' => 'Dieses Feld konnte nicht angelegt werden. Beachten Sie die unten aufgeführten Fehler und korrigieren Sie diese.',
 
-  'date_field' => 'Datums-Feld',
+'create_field_group' => 'Neue Feldgruppe',
 
-  'relationship' => 'Relationship',
+'create_field_group_error' => 'Feldgruppe kann nicht angelegt werden.',
 
-  'related_to_channel' => 'Verknüpfe Channel-Einträge mit anderen Channel-Einträgen',
+'create_field_group_error_desc' => 'Diese Feldgruppe konnte nicht angelegt werden. Beachten Sie die unten aufgeführten Fehler und korrigieren Sie diese.',
 
-  'select_related_channel' => 'Den Channel wählen, zu dem eine Verknüpfung erstellt werden soll:',
+'create_field_group_success' => 'Feldgruppe erstellt',
 
-  'rss_url' => 'RSS Feed URL',
+'create_field_group_success_desc' => 'Die Feldgruppe <b>%s</b> wurde erstellt.',
 
-  'rss_url_exp' => 'Der URL, unter dem der RSS-Feed für diesen Channel angezeigt wird.',
+'create_field_group_warning' => '<b>Achtung</b>: Feldgruppen benötigen benutzerdefinierte Felder.',
 
-  'update_publish_cats' => 'Fenster schließen und Kategorien auf der VERFASSEN-Seite aktualisieren',
+'create_field_group_warning2' => 'Wir empfehlen, zuerst ein <a href="%s">benutzerdefiniertes Feld</a> anzulegen.',
 
-  'versioning' => 'Versionierung Einstellungen',
+'create_field_success' => 'Feld angelegt',
 
-  'enable_versioning' => 'Versionierung für Eintrag einschalten',
+'create_field_success_desc' => 'Das Feld <b>%s</b> wurde erfolgreich erstellt.',
 
-  'clear_versioning_data' => 'Alle bestehenden Überarbeitungen in diesem Channel löschen',
+'create_html_button' => '<abbr title="Hyper-Text Markup Language">HTML</abbr>-Button erstellen',
 
-  'max_revisions' => 'Maximum der aktuellen Überarbeitungen pro Eintrag',
+'create_new_channel' => 'Neuen Channel erstellen',
 
-  'max_revisions_note' => 'Versionierung kann viel Datenbankspeicher belegen. Es ist daher angebracht, die Anzahl Überarbeitungen zu begrenzen.',
+'custom' => 'Benutzerdefiniert',
 
-  'field_populate_manually' => 'Menü manuell vorbelegen',
+'custom_fields' => 'Benutzerdefinierte Felder',
 
-  'field_populate_from_channel' => 'Menü aus einem anderen benutzerdefinierten Feld vorbelegen',
+'custom_fields_not_found' => 'Keine <b>benutzerdefinierten Felder</b> gefunden',
 
-  'select_channel_for_field' => 'Feld wählen, aus welchem vorbelegt werden soll:',
+'date_field' => 'Datumsfeld',
 
-  'field_val' => 'Es muss ein Feldname aus diesem Menü gewählt werden, nicht ein Channel-Name',
+'default' => 'Standard',
 
-  'channel_notify' => 'Aktivieren der nachstehenden Empfängerliste für Benachrichtigungen bei Channel-Einträgen?',
+'default_settings' => 'Administrative Einstellungen',
 
-  'no_statuses' => 'Es wurde kein Status gefunden',
+'define_html_buttons' => 'Format-Definitionen von <abbr title="Hyper-Text Markup Language">HTML</abbr>-Buttons',
 
-  'status_created' => 'Status wurde erstellt',
+'deft_category' => 'Standard-Kategorie',
 
-  'field_is_hidden' => 'Dieses Feld standardmäßig zeigen?',
+'deft_comments' => 'Button <em>Kommentare zulassen</em> als Standard im Veröffentlichungsformular anzeigen?',
 
-  'hidden_field_blurb' => 'Diese Einstellung bestimmt, ob das Feld auf der Seite VERFASSEN bereits geöffnet ist. Wenn auf &quot;Nein&quot;, wird ein Link zum Öffnen des Feldes gezeigt.',
+'deft_field_formatting' => 'Standard-Textformat',
 
-  'include_rss_templates' => 'RSS-Templates einschließen',
+'deft_status' => 'Standard-Status',
 
-  'notification_settings' => 'Benachrichtigungs-Einstellungen',
+'delete_channel' => 'Channel löschen',
 
-  'comment_notify_authors' => 'Den Autor eines Beitrages benachrichtigen, wenn ein Kommentar eingetroffen ist?',
+'delete_channel_confirmation' => 'Soll dieser Channel definitiv gelöscht werden?',
 
-  'comment_notify' => 'Die untenstehende Empfängerliste für Kommentar-Benachrichtigungen einschalten?',
+'display_criteria' => 'Anzeigekriterien für die Publizieren-Seite wählen',
 
-  'update_existing_comments_mod' => 'Alle Kommentare updaten, damit sie mit diesen Einstellungen übereinstimmen?',
+'do_not_duplicate' => 'Nicht duplizieren',
 
-  'update_existing_comments' => 'Alle bestehenden Kommentare mit diesen Einstellungen updaten?',
+'duplicate_channel_prefs' => 'Bestehende Channel-Einstellungen kopieren',
 
-  'category_order_confirm_text' => 'Soll diese Kategoriengruppe wirklich alphabetisch sortiert werden?',
+'duplicate_group' => 'Bestehende Template-Gruppe duplizieren',
 
-  'category_sort_warning' => 'Wenn Sie eine selbst gewählte Reihenfolge haben, wird sie durch eine alphabetische ersetzt.',
+'edit_channel' => 'Channel bearbeiten',
 
-  'global_sort_order' => 'Hauptsächliche Sortierreihenfolge',
+'edit_channel_prefs' => 'Channel-Einstellungen bearbeiten',
 
-  'custom' => 'Eigendefiniert',
+'edit_field_error' => 'Feld kann nicht aktualisiert werden',
 
-  'alpha' => 'Alphabetisch',
+'edit_field_error_desc' => 'We were unable to update this field, please review and fix errors below.',
 
-  'channel_id' => 'ID',
+'edit_field_group' => 'Edit Field Group',
 
-  'channel_short_name' => 'Kurzname',
+'edit_field_group_error' => 'Cannot Update Field Group',
 
-  'group_required' => 'Es muss ein Gruppenname angegeben werden.',
+'edit_field_group_error_desc' => 'Dieses Feld konnte nicht aktualisiert werden. Bitten sehen Sie sich die unten aufgeführten Fehler an und korrigieren Sie sie.',
 
-  'comment_url' => 'URL der Kommentarseite',
+'edit_field_group_success' => 'Feldgruppe aktualisiert',
 
-  'comment_url_exp' => 'Der URL zur Kommentarseite für diesen Channel ',
+'edit_field_group_success_desc' => 'Die Feldgruppe <b>%s</b> wurde aktualisiert.',
 
-  'order' => 'Reihenfolge',
+'edit_field_success' => 'Feld aktualisiert',
 
-  'delete_category_confirmation' => 'Soll die folgende Kategorie wirklich gelöscht werden?',
+'edit_field_success_desc' => 'Das Feld <b>%s</b> wurde aktualisiert.',
 
-  'category_description' => 'Kategoriebeschreibung',
+'edit_group_assignments' => 'Gruppen-Zuordnungen',
 
-  'category_updated' => 'Kategorie aktualisert',
+'edit_group_prefs' => 'Gruppen-Einstellungen bearbeiten',
 
-  'new_category' => 'Neue Kategorie erstellen',
+'edit_html_button' => '<abbr title="Hyper-Text Markup Language">HTML</abbr>-Button bearbeiten',
 
-  'template_creation' => 'Ein neues Template für diesen Channel erstellen?',
+'enable_versioning' => 'Versionierung für publizierte Einträge einschalten',
 
-  'use_a_theme' => 'Eines der Standard-Themes benutzen',
+'field' => 'Feld',
 
-  'duplicate_group' => 'Eine bestehende Template-Gruppe duplizieren',
+'fields_assign_to_group' => 'Dieser Feldergruppe ein Feld oder mehrere zuweisen.',
 
-  'template_group_name' => 'Neuer Template-Gruppenname',
+'field_content_text' => 'Erlaubter Inhalt',
 
-  'template_group_choose' => 'Bitte eine Template-Gruppe wählen',
+'field_content_text_desc' => 'Art des Inhaltes, den dieses Feld enthalten darf.',
 
-  'new_group_instructions' => 'Das Feld ist Bedingung, wenn eine neue Template-Gruppe erstellt wird',
+'field_groups_uc' => 'Feldgruppen',
 
-  'publish_page_customization' => 'Anpassungen: Verfassen-Seite',
+'field_groups_desc' => 'Benutzen, um verknüpfte benutzerdefinierte Felder zu gruppieren.',
 
-  'paths' => 'Pfad-Einstellungen',
+'field_groups_removed_desc' => 'Die folgenden Feldgruppen wurden entfernt',
 
-  'channel_url_exp' => 'Der URL zu diesem Channel',
+'field_is_hidden' => 'Dieses Feld standardmäßig zeigen?',
 
-  'search_results_url' => 'Suchergebnisse URL',
+'field_label_info' => 'Feldbezeichnung, die im Veröffentlichungsformular erscheint',
 
-  'search_results_url_exp' => 'Der URL, auf den die Ergebnisse dieses Channels zeigen sollen.',
+'field_manager' => 'Feldverwaltung',
 
-  'comment_expiration' => 'Ablauf für Kommentare',
+'field_options' => 'Feldoptionen',
 
-  'comment_expiration_desc' => 'Wieviele Tage nach Posten des Eintrages darf noch kommentiert werden? 0 (Null) eingeben für unendlich.',
+'field_populate_from_channel' => 'Aus Channel vorbelegen &mdash; <i>Feld auswählen</i>.',
 
-  'restrict_status_to_group' => 'Status auf eine Mitgliedergruppe einschränken',
+'field_populate_manually' => 'Manuell &mdash; <i>Jede Option in eine eigene Zeile schreiben.</i>',
 
-  'status_updated' => 'Status wurde aktualisiert',
+'field_tools' => 'Feldwerkzeuge',
 
-  'status_deleted' => 'Status wurde gelöscht',
+'field_type_options' => 'Feldoptionen',
 
-  'can_edit_status' => 'Darf auf Status zugreifen ',
+'field_val' => 'Feldname aus diesem Menü wählen - darf kein Channel-Name sein.',
 
-  'search_excerpt' => 'Welches Feld soll für den Textauszug bei Suchergebnissen dienen',
+'field_value_label_pairs' => 'Wert/Label-Paare',
 
-  'channel_prefs' => 'Channel-Einstellungen',
+'fields' => 'Felder',
 
-  'channel_settings' => 'Channel-Posting-Einstellungen',
+'fields_removed_desc' => 'Die folgenden Felder wurden entfernt',
 
-  'comment_prefs' => 'Kommentar-Posting-Einstellungen',
+'filter_by_group' => 'Feldgruppe',
 
-  'comment_use_captcha' => 'Captcha für Kommentar-Postings einschalten? ',
+'fmt_has_changed' => 'Hinweis: Sie haben ein anderes Feldformat gewählt, als das zuvor gewählte.',
 
-  'comment_moderate' => 'Kommentare moderieren?',
+'formatting_no_available' => 'Textformatierung ist für diesen Feldtyp nicht verfügbar',
 
-  'comment_moderate_exp' => 'Wenn auf Ja gesetzt, werden Kommentare erst sichtbar, wenn ein Moderator sie freigegeben hat.',
+'global_sort_order' => 'Generell Sortierreihenfolge',
 
-  'comment_system_enabled' => 'Kommentare in diesem Channel erlauben?',
+'grid_checkbox_options_desc' => 'Jedes Element wird als Checkbox mit passender Bezeichnung (Label) im Veröffentlichungsformular erscheinen.',
 
-  'edit_channel_prefs' => 'Channel-Einstellungen bearbeiten',
+'grid_multiselect_options_desc' => 'Jedes Element wird als Multi-Select-Feld mit passender Bezeichnung (Label) im Veröffentlichungsformular erscheinen.',
 
-  'edit_group_prefs' => 'Gruppen-Einstellungen bearbeiten',
+'grid_radio_options_desc' => 'Jedes Element wird als Radio-Button mit passender Bezeichnung (Label) im Veröffentlichungsformular erscheinen.',
 
-  'edit_group_assignments' => 'Gruppen-Zuweisungen bearbeiten',
+'grid_select_options_desc' => 'Jedes Element wird als Drop-Down-Menu mit passender Bezeichnung (Label) im Veröffentlichungsformular erscheinen.',
 
-  'duplicate_channel_prefs' => 'Bestehende Channel-Einstellungen kopieren',
+'group_required' => 'Es muss ein Gruppenname gewählt werden',
 
-  'do_not_duplicate' => 'Nicht duplizieren',
+'hidden_field_blurb' => 'Diese Option bestimmt, ob das Feld im Veröffentlichungsformular standardmäßig geöffnet ist. Die Option &quot;Nein&quot; bewirkt ein verlinktes Icon zum Öffnen des Feldes.',
 
-  'no_channels_exist' => 'Es gibt zur Zeit keine Channels',
+'hide_field' => 'Feld verstecken?',
 
-  'create_new_channel' => 'Neuen Channel erstellen',
+'hide_field_desc' => 'Diese Option bewirkt, dass dieses Feld im Veröffentlichungsformular als sichtbarer Link verborgen wird.',
 
-  'channel_base_setup' => 'Allgemeine Channel-Einstellungen',
+'hide_formatting_buttons' => 'Menü für Formatierungen verbergen',
 
-  'default_settings' =>'Administrative Einstellungen',
+'html_button' => 'HTML-Button',
 
-  'channel_name' => 'Channel-Name',
+'html_buttons' => '<abbr title="Hyper-Text Markup Language">HTML</abbr>-Buttons',
 
-  'channel_url' => 'Channel-URL',
+'htmlbutton_delete_instructions' => 'Um einen Eintrag zu löschen, sende das Formular mit leerem <em>tag name</em>.',
 
-  'channel_lang' => 'XML-Sprache',
+'id' => 'ID#',
 
-  'channel_description' => 'Channel-Beschreibung',
+'illegal_characters' => 'Der Name darf nur alphanumerische Zeichen, Unterstriche und Bindestriche enthalten.',
 
-  'illegal_characters' => 'Der eingegebene Name darf nur alphanumerische Zeichen, Leerzeichen, Unterstriche und Bindestriche enthalten.',
+'in' => 'in',
 
-  'comment_require_membership' => 'Zum Schreiben von Kommentaren Mitgliedschaft verlangen?',
+'include_in_search' => 'In der Suche berücksichtigen?',
 
-  'channel_require_membership' => 'Zum Schreiben von Channel-Einträgen Mitgliedschaft verlangen?',
+'include_in_search_desc' => 'Wird diese Option aktiviert, wird dieses Feld bei der Suche berücksichtigt.',
 
-  'comment_require_email' => 'Zum Schreiben von Kommentaren die E-Mail-Adresse verlangen?',
+'include_rss_templates' => 'RSS-Templates einschließen',
 
-  'channel_require_email' => 'Zum Schreiben von Channel-Einträgen die E-Mail-Adresse verlangen?',
+'instructions' => 'Anweisungen',
 
-  'channel_max_chars' => 'Maximale Anzahl erlaubter Zeichen in Channel-Einträgen?',
+'instructions_desc' => 'Feld-Anweisungen, die im Veröffentlichungsformular erscheinen.',
 
-  'comment_max_chars' => 'Maximale Anzahl erlaubter Zeichen in Kommentaren?',
+'invalid_field_group_selected' => 'Ungültige Feldgruppe',
 
-  'comment_timelock' => 'Zeitintervall zum erneuten Einreichen eines Kommentars',
+'invalid_short_name' => 'Der Channel-Name darf nur alphanumerische Zeichen enthalten und keine Leerzeichen.',
 
-  'comment_timelock_desc' => 'Die Anzahl vergangener Sekunden, bevor ein User einen neuen Kommentar absenden kann. Ohne Limit einfach das Feld leer lassen oder 0 eintragen.',
+'label_desc' => 'Feldname, der Veröffentlichungsformular erscheint.',
 
-  'comment_text_formatting' => 'Textformat für Kommentare',
+'limit' => 'Limit',
 
-  'channel_text_formatting' => 'Standard-Textformat in Channel-Einträgen',
+'list_edit_warning' => 'Ungesicherte Änderungen auf dieser Seite gehen verloren, wenn Sie in den Formatierungseditor übertragen werden',
 
-  'comment_html_formatting' => 'HTML-Formatierung für Kommentare',
+'localize_date' => 'Datum lokalisieren?',
 
-  'channel_html_formatting' => 'Standard-HTML-Format in Channel-Einträgen',
+'localize_date_desc' => 'Wenn diese Option aktiviert ist, basiert das Datum auf die <a href="%s">Zeiteinstellungen</a>.',
 
-  'convert_to_entities' => 'HTML in Entities konvertieren',
+'max_revisions' => 'Maximum der aktuellen Überarbeitungen pro Eintrag',
 
-  'allow_safe_html' => 'Nur sicheres HTML zulassen',
+'max_revisions_note' => 'Die Versionierung kann viel Datenbankspeicher belegen. Es macht daher Sinn, die Anzahl der Überarbeitungen zu begrenzen.',
 
-  'allow_all_html' => 'ALLES HTML zulassen',
+'multiselect_options' => 'Multi-Select-Feld: Optionen',
 
-  'allow_all_html_not_recommended' => 'ALLES HTML zulassen (nicht empfohlen)',
+'multiselect_options_desc' => 'Jedes Element wird als Multi-Select-Feld im Veröffentlichungsformular erscheinen.',
 
-  'comment_notify_note' => 'Mehrere E-Mail-Adressen mit Kommas trennen',
+'new_category' => 'Neue Kategorie',
 
-  'comment_notify_emails' => 'E-Mail-Adresse für Empfänger von Benachrichtigungen',
+'new_channel' => 'Neuer Channel',
 
-  'comment_allow_img_urls' => 'URLs für Bilder in Kommentaren zulassen?',
+'new_field' => 'Neues Feld',
 
-  'channel_allow_img_urls' => 'URLs für Bilder in Channel-Einträgen zulassen?',
+'new_group_instructions' => 'Das Feld ist erforderlich, wenn Sie eine neue Gruppe erstellen',
 
-  'auto_link_urls' => 'URLs und E-Mail-Adressen automatisch in Links umwandeln?',
+'no_buttons' => 'Es wurden <abbr title="Hyper-Text Markup Language">HTML</abbr>-Buttons definiert.',
 
-  'single_word_no_spaces' => 'einzelnes Wort, kein Leerzeichen',
+'no_buttons_found' => 'Keine <b>HTML-Buttons</b> gefunden.',
 
-  'channel_title' => 'Channel-Titel',
+'no_channel_name' => 'Der Channel benötigt einen \'Kurz\'-Namen.',
 
-  'edit_channel' => 'Channel bearbeiten',
+'no_channel_title' => 'Der Channel benötigt einen \'bezeichnenden\' Namen.',
 
-  'channel_full_name' => 'Channel-Titel',
+'no_channels_exist' => 'Zur Zeit gibt es keine Channels',
 
-  'new_channel' => 'Neuer Channel',
+'no_field_group_selected' => 'Es steht keine Feldgruppe für diesen Channel zur Verfügung',
 
-  'channel_created' => 'Channel erstellt:',
+'no_statuses' => 'Es wurden keine Status gefunden',
 
-  'channel_updated' => 'Channel aktualisiert:',
+'no_value_label_pairs' => 'Es existieren keine <b>Wert/Label-Paare</b>.',
 
-  'taken_channel_name' => 'Dieser Channel-Name ist schon vergeben.',
+'notification_settings' => 'Benachrichtigungs-Einstellungen',
 
-  'no_channel_name' => 'Dem Channel muss ein &quot;Kurzname&quot; gegeben werden.',
+'open' => 'Offen',
 
-  'no_channel_title' => 'Dem Channel muss ein &quot;Name&quot; gegeben werden.',
+'options_field_desc' => 'Wählen Sie aus, wie die Optionen für dieses Feld erstellt werden sollen. Mit Werte/Label-Paaren kann die Inhaltsauswahl für Redakteure und Editoren freundlicher gestaltet werden. Wenn Sie beispielsweise einen Wert von <b>1</ b> speichern möchten, könnten Sie eine Bezeichnung wie <b>Eins/ b> wählen.',
 
-  'invalid_short_name' => 'Der Channel darf nur alphanumerische Zeichen enthalten und keine Leerzeichen.',
+'order' => 'Reihenfolge',
 
-  'delete_channel' => 'Channel löschen',
+'orderby_date' => 'Sortieren nach Datum',
 
-  'channel_deleted' => 'Channel gelöscht:',
+'orderby_title' => 'Sortieren nach Titel',
 
-  'delete_channel_confirmation' => 'Soll dieser Channel wirklich definitiv gelöscht werden?',
+'paths' => 'Pfad-Einstellungen',
 
-  'be_careful' => 'BITTE VORSICHT!',
+'publish_page_customization' => 'Anpassungen für das Veröffentlichungsformular',
 
-  'action_can_not_be_undone' => 'DIESE AKTION KANN NICHT RÜCKGÄNGIG GEMACHT WERDEN',
+'radio_options' => 'Optionen für Radio-Buttons',
 
-  'assign_group_to_channel' => 'Hinweis: Um die neue Gruppe zu verwenden, muss sie einem Channel zugewiesen werden',
+'radio_options_desc' => 'Jedes Element wird als Radio-Button mit passender Bezeichnung (Label) im Veröffentlichungsformular erscheinen.',
 
-  'click_to_assign_group' => 'Für die Zuweisung hier klicken',
+'related_to_channel' => 'Channel-Einträge auf andere Channel-Einträge verweisen.',
 
-  'default' => 'Standard',
+'relationship' => 'Beziehung',
 
-  'category' => 'Kategorie',
+'removed_field' => 'Das folgende Feld wurde entfernt und seine Daten gelöscht: %s',
 
-  'deft_status' => 'Standard-Status',
+'removed_fields_from_fluid_field' => 'Die folgenden Felder wurden aus dem <em>fluiden Feld</em> entfernt <b>%s</b> und ihre Daten gelöscht: %s',
 
-  'deft_category' => 'Standard-Kategorie',
+'require_field_desc' => 'Wird diese Option aktiviert, muss dieses Feld ausgefüllt sein, um den Eintrag speichern zu können.',
 
-  'deft_comments' => '&quot;Kommentare zulassen&quot; Button auf der Verfassen-Seite als Standard anzeigen?',
+'reserved_word' => 'Der gewählte Feldname ist ein reserviertes Wort und kann nicht benutzt werden. Bitte im Handbuch nachsehen.',
 
-  'no_field_group_selected' => 'Keine Felder-Gruppe für diesen Channel verfügbar',
+'restrict_status_to_group' => 'Status auf eine Mitgliedergruppe beschränken',
 
-  'invalid_field_group_selected' => 'Ungültige Felder-Gruppe',
+'row' => 'Reihe',
 
-  'open' => 'Offen',
+'rss_url' => 'RSS-Feed-URL',
 
-  'closed' => 'Geschlossen',
+'rss_url_exp' => 'Der URL, der auf das RSS-Feed dieses Channels verweis soll.',
 
-  'none' => 'Keine',
+'save_html_button' => '<abbr title="Hyper-Text Markup Language">HTML</abbr>-Button sichern',
 
-  'html_button' => 'HTML-Button',
+'search_excerpt' => 'Aus welchem Feld soll der Textauszug für Suchergebnisse bezogen werden?',
 
-  'html_buttons' => '<abbr title="Hyper-Text Markup Language">HTML</abbr> Buttons',
+'search_results_url' => 'URL der Suchergebnisse',
 
-  'define_html_buttons' => 'Definitionen einzelner <abbr title="Hyper-Text Markup Language">HTML</abbr> Button-Formatierungen',
+'search_results_url_exp' => 'Der URL, der auf die Suchergebnisse dieses Channels verweisen soll.',
 
-  'create_html_button' => '<abbr title="Hyper-Text Markup Language">HTML</abbr> Button anlegen',
+'select_channel_for_field' => 'Feld wählen, aus welchem vorbelegt werden soll:',
 
-  'edit_html_button' => '<abbr title="Hyper-Text Markup Language">HTML</abbr> Button bearbeiten',
+'select_options' => 'Optionen für Drop-Down-Menü',
 
-  'save_html_button' => '<abbr title="Hyper-Text Markup Language">HTML</abbr> Button sichern',
+'select_options_desc' => '<em><i>Jedes Element wird als Drop-Down-Menü mit passender Bezeichnung (Label) im Veröffentlichungsformular erscheinen.</i>',
 
-  'no_buttons' => 'Kein <abbr title="Hyper-Text Markup Language">HTML</abbr> Button definiert.',
+'select_related_channel' => 'Channel wählen, zu dem eine Verknüpfung hergestellt werden soll:',
 
-  'htmlbutton_delete_instructions' => 'Um einen Eintrag zu löschen, das Formular ohne Tag-Namen absenden.',
+'show_all_channels' => 'Alle %d Channels',
 
-  'add_preset_button' => 'Einen HTML-Button vordefinieren:',
+'show_formatting_buttons' => 'Überschreibungen auf der Veröffentlichungseite zulassen?',
 
-  'tag_name' => 'Name',
+'single_word_no_spaces' => 'Nur ein Wort, keine Leerzeichen',
 
-  'tag_open' => 'Öffnender HTML-Tag',
+'sort_asc' => 'Aufsteigende Reihenfolge',
 
-  'tag_open_desc' => 'Anfang des Button. z.B. <b><code>&lt;b&gt;</code></b>',
+'sort_desc' => 'Absteigende Reihenfolge',
 
-  'tag_close' => 'Schliessender HTML-Tag',
+'status_created' => 'Status erstellt',
 
-  'tag_close_desc' => 'Ende des Buttons, z.B. <b><code>&lt;/b&gt;</code></b>',
+'status_deleted' => 'Status gelöscht',
 
-  'accesskey' => 'Tastaturkürzel',
+'status_updated' => 'Status aktualisiert',
 
-  'accesskey_desc' => 'Tastaturkürzel um diesen Button einzufügen.',
+'tag_close' => 'Schliessender HTML-Tag',
 
-  'tag_order' => 'Reihenfolge',
+'tag_close_desc' => 'Ende des Buttons, z.B. <b><code>&lt;/b&gt;</code></b>',
 
-  'row' => 'Reihe',
+'tag_name' => 'Name',
 
-  'no_buttons_found' => 'Keine <b>HTML-Buttons</b> gefunden.',
+'tag_open' => 'Öffnender HTML-Tag',
 
-//----------------------------
+'tag_open_desc' => 'Anfang des Button, z.B. <b><code>&lt;b&gt;</code></b>',
+
+'tag_order' => 'Reihenfolge',
+
+'taken_channel_name' => 'Dieser Channel-Name ist schon vergeben.',
+
+'template_creation' => 'Ein neues Template für diesen Channel erstellen?',
+
+'template_group_choose' => 'Bitte eine Template-Gruppe wählen',
+
+'template_group_name' => 'Name für neue Template-Gruppe',
+
+'update_existing_comments' => 'Alle bestehenden Kommentare mit diesen Einstellungen aktualisieren?',
+
+'update_existing_comments_mod' => 'Alle vorhandenen Einträge mit dieser Einstellung aktualisieren',
+
+'update_existing_fields' => 'Alle vorhandenen Einträge aktualisieren?',
+
+'update_publish_cats' => 'Fenster schließen und Kategorien im Veröffentlichungsformular aktualisieren',
+
+'use_a_theme' => 'Einen der Standard-Themes benutzen',
+
+'value_label_duplicate_values' => 'Jeder Wert muss eindeutig sein.',
+
+'value_label_empty_field' => 'Werte oder Labels dürfen nicht leer sein.',
+
+'versioning' => 'Optionen für die Versionierung',
+
+
 // Generic Phrases
-//----------------------------
+'delete' => 'Löschen',
 
-  'group'=> 'Gruppe',
+'delete_group' => 'Gruppe löschen',
 
-  'group_name' => 'Gruppenname',
+'group'=> 'Gruppe',
 
-  'new_group_name' => 'Neuer Gruppenname: ',
+'group_name' => 'Gruppenname',
 
+'new_group_name' => 'Neue Gruppenname: ',
 
-  'total_fields' => 'Felder gesamt',
+'rename' => 'Umbenennen',
 
-  'rename' => 'Umbenennen',
+'rename_group' => 'Gruppen umbenennen',
 
-  'rename_group' => 'Gruppe umbenennen',
-
-  'delete' => 'Löschen',
-
-  'delete_group' => 'Gruppe löschen',
+'total_fields' => 'Felder gesamt',
 
 
-//----------------------------
 // Category Administration
-//----------------------------
+'add_edit_categories' => 'Kategorien ändern/hinzufügen',
 
-  'category_group' => 'Kategorien-Gruppe',
+'add_new_category' => 'Neue Kategorie hinzufügen',
 
-  'category_groups' => 'Kategorien-Gruppen',
+'can_delete_categories' => 'Kategorien können gelöscht werden',
 
-  'no_category_group_message' => 'Es gibt zur Zeit keine Kategorien',
+'can_edit_categories' => 'Kategorien können editiert werden',
 
-  'no_category_message' => 'Dieser Gruppe sind zur Zeit keine Kategorien zugewiesen.',
+'cat_field_created' => 'Neues Kategoriefeld angelegt:',
 
-  'create_new_category_group' => 'Neue Kategorien-Gruppe',
+'cat_field_deleted' => 'Kategoriefeld gelöscht:',
 
-  'edit_category_group' => 'Kategorien-Gruppe bearbeiten',
+'cat_field_edited' => 'Kategoriefeld bearbeitet:',
 
-  'name_of_category_group' => 'Name der Kategorien-Gruppe',
+'cat_field_html_formatting' => 'Kategoriefeld HTML-Formatierung',
 
-  'taken_category_group_name' => 'Dieser Kategorien-Gruppen-Name ist schon belegt.',
+'cat_field_label_info' => 'Dieser Name wird auf der Seite <em>Kategorien bearbeiten</em> erscheinen',
 
-  'add_edit_categories' => 'Katgorien hinzufügen/bearbeiten',
+'cat_field_updated' => 'Kategoriefeld aktualisiert:',
 
-  'edit_group_name' => 'Gruppe bearbeiten',
+'cat_url_title_is_numeric' => 'Zahlen sind für den URL-Title der Kategorie nicht erlaubt',
 
-  'category_group_created' => 'Kategorien-Gruppe angelegt:',
+'category_created' => 'Neue Kategorie erstellt',
 
-  'category_group_updated' => 'Gruppe aktualisiert:',
+'category_deleted' => 'Kategorie gelöscht',
 
-  'delete_cat_group_confirmation' => 'Soll diese Kategorien-Gruppe wirklich definitiv gelöscht werden?',
+'category_edited' => 'Kategorie bearbeitet',
 
-  'category_group_deleted' => 'Kategorien-Gruppe gelöscht:',
+'category_group' => 'Kategoriengruppe',
 
-  'create_new_category' => 'Neue Kategorie erstellen',
+'category_group_created' => 'Kategoriengruppe erstellt:',
 
-  'add_new_category' => 'Neue Kategorie hinzufügen',
+'category_group_deleted' => 'Kategoriengruppe gelöscht:',
 
-  'edit_category' => 'Kategorie bearbeiten',
+'category_group_updated' => 'Kategoriengruppe aktualisiert:',
 
-  'delete_category' => 'Kategorie löschen',
+'category_groups' => 'Kategoriengruppen',
 
-  'delete_cat_confirmation' => 'Wollen Sie diese Kategorie wirklich definitiv löschen?',
+'category_image' => 'Kategorienbilder',
 
-  'category_deleted' => 'Kategorie gelöscht',
+'category_img_blurb' => 'Ein optionales Feld, um einer Kategorie ein Bild zuzuweisen.',
 
-  'category_url_title' => 'Kategorie-URL-Titel',
+'category_name' => 'Kategorienname',
 
-  'cat_url_title_is_numeric' => 'Keine Zahlen für den Kategorie-URL-Titel verwenden',
+'category_parent' => 'Elternkategorie',
 
-  'unable_to_create_cat_url_title' => 'Ein gültiger Kategorie-URL-Titel konnte nicht erstellt werden',
+'category_url_title' => 'URL-Title für die Kategorie',
 
-  'duplicate_cat_url_title' => 'Für den vorgeschlagenen Kategorie-URL-Titel besteht bereits eine Kategorie in dieser Kategorie-Gruppe',
+'create_new_cat_field' => 'Neues Kategorienfeld erstellen',
 
-  'category_name' => 'Name der Kategorie',
+'create_new_category' => 'Neue Kategorie erstellen',
 
-  'category_url_title' => 'Kategorie-URL-Titel',
+'create_new_category_group' => 'Neue Kategoriengruppe erstellen',
 
-  'category_image' => 'Kategorie-Bild',
+'custom_category_fields' => 'Benutzerdefinierte Kategorienfelder',
 
-  'category_img_blurb' => 'Dies ist ein optionales Feld, um einer Kategorie ein Bild zuzuweisen.',
+'delete_cat_field' => 'Kategorienfeld löschen',
 
-  'category_parent' => 'Mutter-Kategorie',
+'delete_cat_field_confirmation' => 'Soll das Kategoriefeld definitiv gelöscht werden?',
 
-  'custom_category_fields' => 'Eigene Kategorie-Felder',
+'delete_cat_group_confirmation' => 'Soll das Kategoriegruppe definitiv gelöscht werden?',
 
-  'manage_custom_fields' => 'Eigene Kategorie-Felder verwalten',
+'delete_category' => 'Kategorie löschen',
 
-  'delete_cat_field' => 'Eigene Kategorie-Felder löschen',
+'duplicate_cat_url_title' => 'Eine Kategorie mit dem gewählten Kategorie-URL-Title existiert bereits in dieser Kategoriegruppe',
 
-  'delete_cat_field_confirmation' => 'Soll das Kategorie-Feld definitiv gelöscht werden?',
+'edit_cat_field' => 'Kategorienfeld bearbeiten',
 
-  'cat_field_deleted' => 'Kategorie-Feld gelöscht',
+'edit_category' => 'Kategorie bearbeiten',
 
-  'cat_field_updated' => 'Kategorie-Feld aktualisiert',
+'edit_category_group' => 'Kategoriengruppe bearbeiten',
 
-  'edit_cat_field' => 'Kategorie-Feld bearbeiten',
+'edit_group_name' => 'Gruppe bearbeiten',
 
-  'create_new_cat_field' => 'Neues Kategorie-Feld anlegen',
+'exclude_from_channels_or_publish' => 'Von der Channel- und Datei-Zuordnung ausschliessen',
 
-  'cat_field_created' => 'Neues Kategorie-Feld angelegt: ',
+'exclude_from_files' => 'Datei-Zuordnung',
 
-  'cat_field_edited' => 'Kategorie-Feld bearbeitet:',
+'exclude_from_publish' => 'Channel-Zuordnung',
 
-  'category_created' => 'Neue Kategorie angelegt',
+'formatting' => 'Formatierung:',
 
-  'category_edited' => 'Kategorie bearbeitet',
+'manage_custom_fields' => 'Kategorienfelder verwalten',
 
-  'cat_field_label_info' => 'Dieser Name wird auf der Seite zum Bearbeiten der Kategorien erscheinen',
+'member_group' => 'Mitgliedergruppe',
 
-  'update_existing_cat_fields' => 'Alle bestehenden Kategorien in dieser Gruppe mit der neuen Formatierung updaten?',
+'member_groups' => 'Mitgliedergruppen',
 
-  'formatting' => 'Formatierung:',
+'missing_required_fields' => 'Es fehlen folgende Pflichtfelder:',
 
-  'cat_field_html_formatting' => 'Kategorie-Feld HTML-Formatierung',
+'name_of_category_group' => 'Name der Kategoriengruppe',
 
-  'can_edit_categories' => 'Darf Kategorie bearbeiten',
+'no_category_group_message' => 'Zur Zeit gibt es keine Kategorien',
 
-  'can_delete_categories' => 'Darf Kategorie löschen',
+'no_category_message' => 'Dieser Gruppe sind derzeit keine Kategorien zugeordnet.',
 
-  'exclude_from_channels_or_publish' => 'Von Channel- und Feld-Zuweisung ausschliessen?',
-  'exclude_from_publish' 		=> 'Channel-Zuweisung',
-  'exclude_from_files'		=> 'Datei-Zuweisung',
+'show_all_category_groups' => 'Alle %d Kategoriengruppen',
 
-  'member_group' => 'Mitgliedergruppe',
+'taken_category_group_name' => 'Dieser Gruppenname wird bereits benutzt',
 
-  'member_groups' => 'Mitgliedergruppen',
+'unable_to_create_cat_url_title' => 'Es konnte kein gültiger Kategorie-URL-Title für diese Kategorie erstellt werden',
 
-  'missing_required_fields' => 'Folgende(s) Feld(er) werden benötigt:',
+'update_category_image' => 'Bitte aktualisieren Sie das Kategorie-Bild, um das Datei-Feld verwenden zu können; oder der alte Bild-URL wird beim Speichern gelöscht.',
 
-  'update_category_image' => 'Bitte aktualisieren Sie das Kategorie-Bild, um das Datei-Feld benutzen zu können, oder der Bild-URL vom alten Stil wird beim Speichern gelöscht.',
+'update_existing_cat_fields' => 'Alle bestehenden Kategorien in dieser Gruppe mit der neuen Formatierung aktualisieren?',
 
-//----------------------------
+
 // Custom field Administration
-//----------------------------
+'add_edit_fields' => 'Felder erstellen/bearbeiten',
 
-  'field_settings' => 'Einstellungen Eigene Felder',
+'channel_entries_will_be_deleted' => 'Alle Channel-Einträge in den obenstehenden Feldern werden definitiv gelöscht',
 
-  'field_group' => 'Channel Felder-Gruppe',
+'create_new_custom_field' => 'Neues beutzerdefiniertes Feld erstellen',
 
-  'field_groups' => 'Felder-Gruppe',
+'create_new_field' => 'Neues Feld anlegen',
 
-  'no_field_group_message' => 'Es gibt im Moment keine eigenen Channel-Felder',
+'create_new_field_group' => 'Neue Feldergruppe für einen Channel angelegen',
 
-  'create_new_field_group' => 'Neue Channel-Felder-Gruppe erstellen',
+'custom_field_created' => 'Benutzerdefiniertes Feld erstellen',
 
-  'new_field_group' => 'Neue Felder-Gruppe',
+'custom_field_edited' => 'Benutzerdefiniertes Feld bearbeiten',
 
-  'add_edit_fields' => 'Felder erstellen/bearbeiten',
+'custom_field_empty' => 'Folgendes Feld wird benötigt:',
 
-  'edit_field_group_name' => 'Umbenennen',
+'delete_field' => 'Feld löschen',
 
-  'delete_field_group' => 'Felder-Gruppe löschen',
+'delete_field_confirmation' => 'Sind Sie sicher, dieses Channel-Feld endgültig zu löschen?',
 
-  'create_new_field' => 'Neues Feld anlegen',
+'delete_field_group' => 'Feldgruppe löschen',
 
-  'edit_field' => 'Feld bearbeiten',
+'delete_field_group_confirmation' => 'Soll diese benutzerdefinierte Feldgruppe definitiv gelöscht werden?',
 
-  'custom_field_edited' => 'Eigenes Feld bearbeitet',
+'dropdown_sub' => 'Wenn Sie ein \'Drop-Down\'-Feld wählen',
 
-  'custom_field_created' => 'Eigenes Feld angelegt',
+'duplicate_field_name' => 'Der von Ihnen gewählte Feldname ist bereits vergeben',
 
-  'no_field_groups' => 'Keine <b>Feld-Gruppe</b> gefunden.',
+'duplicate_truncated_field_name' => 'Der Feldname ist zu lang und die verkürzte Version ist bereits vergeben.',
 
-  'delete_field' => 'Feld löschen',
+'edit_field' => 'Feld bearbeiten',
 
-  'field_deleted' => 'Eigenes Feld gelöscht:',
+'edit_field_group_name' => 'Umbenennen',
 
-  'edit_field_order' => 'Felder-Reihenfolge',
+'edit_field_order' => 'Feld-Reihenfolge',
 
-  'create_new_custom_field' => 'Neues eigenes Feld anlegen',
+'edit_list' => 'Liste bearbeiten',
 
-  'field_id' => 'Feld-ID',
+'field_deleted' => 'Benutzerdefiniertes Feld löschen:',
 
-  'field_label' => 'Feld-Label',
+'field_formatting' => 'Feldformatierung',
 
-  'field_name' => 'Kurzname',
+'field_formatting_cont' => 'Wenn Sie den Feldtyp <em>Textarea</em> wählen (mehrere Eingabezeilen)',
 
-  'field_name_cont' => 'Ein Wort, keine Leerzeichen. Unterstreichungen und Trennungsstriche sind erlaubt.',
+'field_group' => 'Channel-Feldgruppe',
 
-  'field_type' => 'Feld-Typ',
+'field_group_created' => 'Feldgruppe erstellt:',
 
-  'field_max_length' => 'Maximale Länge',
+'field_group_deleted' => 'Feldgruppe gelöscht:',
 
-  'field_max_length_cont' => 'Wenn Sie ein Text-Feld benutzen',
+'field_group_updated' => 'Feldgruppe aktualisiert:',
 
-  'textarea_rows' => 'Mehrere Eingabzeilen',
+'field_id' => 'Feld-ID',
 
-  'textarea_rows_cont' => 'Wenn Sie Textarea wählen (mehrere Eingabezeilen)',
+'field_label' => 'Feldbezeichnung',
 
-  'dropdown_sub' => 'Wenn Sie ein \'Drop-Down\'-Feld wählen',
+'field_list_instructions' => 'Jedes Optionselement in eine eigene Zeile schreiben',
 
-  'field_list_items' => 'Optionen wählen',
+'field_list_items' => 'Optionen wählen',
 
-  'multi_list_items' => 'Multi-Select Optionen',
+'field_list_items_cont' => 'Wenn Sie den Feldtyp <em>Drop-Down-Menü</em> wählen',
 
-  'option_group_items' => 'Checkbox Optionen',
+'field_max_length_cont' => 'Wenn Sie den Feldtyp <em>Text</em> wählen',
 
-  'radio_items' => 'Radio Optionen',
+'field_name' => 'Kurzname',
 
-  'field_list_items_cont' => 'Wenn Sie Drop-Down-Menü wählen',
+'field_name_cont' => 'Einzelwort, keine Leerzeichen. Unterstriche und Bindestriche erlaubt',
 
-  'field_list_instructions' => 'Jeden Punkt (Option) in eine eigene Zeile schreiben',
+'field_order' => 'Reihenfolge der angzeigten Felder',
 
-  'field_formatting' => 'Feld-Formatierung',
+'field_settings' => 'Feldoptionen',
 
-  'edit_list' => 'Liste bearbeiten',
+'field_type' => 'Feldtyp',
 
-  'formatting_options' => 'Feld-Formatierung: Optionen',
+'formatting_options' => 'Feldformatierungs-Optionen',
 
-  'field_formatting_cont' => 'Wenn Sie Textarea wählen (mehrere Eingabezeilen)',
+'invalid_characters' => 'Der gewählte Feldname enthält ungültige Zeichen',
 
-  'field_order' => 'Anzeige-Reihenfolge der Felder',
+'invalid_field_type' => 'Ungültiger Feldtyp',
 
-  'is_field_searchable' => 'Ist das Feld durchsuchbar?',
+'is_field_required' => 'Soll das Feld ein Pflichtfeld sein',
 
-  'is_field_required' => 'Ist dieses Feld ein Pflichtfeld?',
+'is_field_searchable' => 'Soll das Feld durchsuchbar',
 
-  'show_smileys' => 'Smileys anzeigen',
+'multi_list_items' => 'Multi-Select-Optionen',
 
-  'show_file_selector' => 'Dateimanager zeigen',
+'new_field_group' => 'Neue Feldgruppe',
 
-  'show_formatting_btns' => 'Formatier-Buttons zeigen',
+'no_field_group_message' => 'Zur Zeit sind keine Channel-Felder vorhanden',
 
-  'text_input' => 'Text Input',
+'no_field_groups' => 'Keine <b>Feldgruppe</b> gefunden.',
 
-  'textarea' => 'Textarea',
+'no_field_label' => 'Feldbezeichnung (Label) ist notwendig',
 
-  'select_list' => 'Select Liste',
+'no_field_name' => 'Feldname ist notwendig',
 
-  'auto_br' => 'Auto <br />;',
+'option_group_items' => 'Checkbox-Optionen',
 
-  'xhtml' => 'XHTML',
+'radio_items' => 'Radio-Button-Optionen',
 
-  'no_field_name' => 'Sie müssen einen Feldnamen eingeben.',
+'select_list' => 'Liste wählen',
 
-  'no_field_label' => 'Sie müssen ein Feldlabel eingeben.',
+'show_all_field_groups' => 'Alle %d Feldgruppen',
 
-  'invalid_characters' => 'Der angegebene Name enthält ungültige Zeichen.',
+'show_all_fields' => 'Alle %d Felder',
 
-  'custom_field_empty' => 'Das folgende Feld ist erforderlich:',
+'show_file_selector' => 'Dateimanager anzeigen',
 
-  'duplicate_field_name' => 'Der gewählte Feldname ist schon vergeben.',
+'show_formatting_btns' => 'Buttons für die Textformatierung anzeigen',
 
-  'duplicate_truncated_field_name' => 'Der Feldname ist zu lang und die verkürzte Version ist schon vergeben.',
+'show_smileys' => 'Smileys anzeigen',
 
-  'taken_field_group_name' => 'Der gewählte Name ist schon vergeben.',
+'taken_field_group_name' => 'Der von Ihnen gewählte Name ist bereits vergeben',
 
-  'field_group_created' => 'Felder-Gruppe erstellt:',
+'text_input' => 'Text Input',
 
-  'field_group_updated' => 'Felder-Gruppe aktualisiert:',
+'textarea' => 'Textarea',
 
-  'field_group_deleted' => 'Felder-Gruppe gelöscht:',
+'textarea_rows' => 'Textarea-Zeilen',
 
-  'delete_field_group_confirmation' => 'Soll diese benutzerdefinierte Felder-Gruppe definitiv gelöscht werden?',
+'textarea_rows_cont' => 'Wenn Sie den Feldtyp \'textarea\' wählen',
 
-  'delete_field_confirmation' => 'Soll dieses benutzerdefinierte Channel-Feld definitiv gelöscht werden?',
+'type_decimal' => 'Dezimal',
 
-  'channel_entries_will_be_deleted' => 'Alle Channel-Einträge in den obenstehenden Feldern werden definitiv gelöscht',
+'type_file' => 'Datei',
 
-  'field_content_text' => 'Feldinhalt:',
+'type_image' => 'Bild',
 
-  'type_numeric' => 'Nummer',
+'type_integer' => 'Ganze Zahl',
 
-  'type_integer' => 'Integer',
+'type_numeric' => 'Numerisch',
 
-  'type_decimal' => 'Dezimal',
 
-  'type_file' => 'Datei',
-
-  'type_image' => 'Bild',
-
-//----------------------------
 // Status Administration
-//----------------------------
+'add_edit_statuses' => 'Status erstellen/bearbeiten',
 
-  'status_group' => 'Status-Gruppe',
+'change_status_order' => 'Status-Reihenfolge ändern',
 
-  'no_status_group_message' => 'Zur Zeit gibt es keinen benutzerdefinierten Status.',
+'content_type_changed' => 'Der Feldtyp %s wird geändert. ACHTUNG: Die Einstellungen für den Feldtyp zu ändern, kann Datenverluste zur Folge haben.',
 
-  'create_new_status_group' => 'Neue Status-Gruppe erstellen',
+'create_new_status' => 'Neuen Status erstellen',
 
-  'taken_status_group_name' => 'Dieser Status-Gruppen-Name ist bereits vergeben.',
+'default_entry_title' => 'Standard-Eintragstitel',
 
-  'invalid_status_name' => 'Status-Namen dürfen nur aus Buchstaben, Ziffern, Unterstreichungen und Trennungsstrichen bestehen.',
+'delete_status' => 'Status löschen',
 
-  'duplicate_status_name' => 'Einen Status mit diesem Namen gibt es bereits.',
+'delete_status_confirmation' => 'Sind Sie sicher, dass Sie den folgenden Status löschen möchten?',
 
-  'status_group_created' => 'Status-Gruppe erstellt:',
+'duplicate_status_name' => 'Ein Status mit dem gleichen Namen ist bereits vorhanden.',
 
-  'new_status' => 'Neuer Status',
+'edit_status' => 'Status bearbeiten',
 
-  'status_group_updated' => 'Status-Gruppe aktualisiert:',
+'field_instructions' => 'Feldhinweise',
 
-  'add_edit_statuses' => 'Status hinzufügen/bearbeiten',
+'field_instructions_info' => 'Hinweise und Tipps für Autoren: Wie und was in das benutzerdefinierte Feld eingetragen werden sollte.',
 
-  'edit_status_group_name' => 'Status-Gruppe bearbeiten',
+'field_name_too_lrg' => 'Bitte beachten: Der Feldname ist länger als die maximal erlaubte Länge und wurde gekürzt.',
 
-  'delete_status_group' => 'Status-Gruppe löschen',
+'highlight' => 'Highlight-Farbe (optional)',
 
-  'delete_status_group_confirmation' => 'Soll diese Status-Gruppe definitiv gelöscht werden?',
+'integrate_category_groups' => 'Kategoriengruppe integrieren',
 
-  'status_group_deleted' => 'Status-Gruppe gelöscht:',
+'invalid_status_name' => 'Status-Namen dürfen nur aus Buchstaben, Ziffern, Unterstreichungen und Trennungsstrichen bestehen.',
 
-  'create_new_status' => 'Neuen Status erstellen',
+'invalid_url_title_prefix' => 'Ungültiger URL-Title-Prefix',
 
-  'status_name' => 'Status Name',
+'ltr' => 'Von links nach rechts',
 
-  'status_order' => 'Status Reihenfolge',
+'multiple_cat_group_preferences' => 'Multiple Category Group Preferences',
 
-  'change_status_order' => 'Status-Reihenfolge ändern',
+'new_status' => 'New Status',
 
-  'highlight' => 'Highlight-Farbe (optional)',
+'rtl' => 'Von rechts nach links',
 
-  'statuses' => 'Status',
+'show_all_statuses' => 'Alle %d Status',
 
-  'edit_status' => 'Status bearbeiten',
+'show_pages_cluster' => 'Vorlagenfelder für Seiten anzeigen',
 
-  'delete_status' => 'Status löschen',
+'status_name' => 'Statusname',
 
-  'delete_status_confirmation' => 'Soll dieser Status wirklich gelöscht werden?',
+'status_order' => 'Statusreihenfolge',
 
+'statuses' => 'Status',
 
-  'no_live_look_template' => '- Kein Live Look Template -',
+'text_direction' => 'Textrichtung',
 
-  'default_entry_title' => 'Standard-Beitrags-Titel',
-
-  'invalid_url_title_prefix' => 'Ungültiger URL Title Prefix',
-
-  'multiple_cat_group_preferences' => 'Mehrfache Kategorien-Gruppe Voreinstellungen',
-
-  'integrate_category_groups' => 'Integriere Kategorie-Gruppen',
-
-  'text_direction' => 'Textrichtung',
-
-  'ltr' => 'Links nach Rechts',
-
-  'rtl' => 'Rechts nach Links',
-
-  'field_instructions' => 'Feld-Anweisungen',
-
-  'field_instructions_info' => 'Instruktionen für Autoren, wie und was in dieses eigene Feld eingetragen werden kann.',
-
-  'show_pages_cluster' => 'Zeige Seiten-Eingabe-Felder',
-
-  'content_type_changed' => 'Der Feldtyp %s wird geändert. Die Einstellungen für den Feldtyp zu ändern, kann Datenverluste zur Folge haben. Seien Sie vorsichtig.',
-
-  'field_name_too_lrg' => 'Bitte beachten: Der Feldname ist länger als die maximal erlaubte Länge und wurde gekürzt.',
+'url_title_prefix' => 'URL-Title-Prefix',
 
 
-//----------------------------
 // Channel Form Settings
-//----------------------------
+'channel_form_allow_guest_posts' => 'Beiträge von Gästen erlauben?',
 
-  'channel_form_settings' => 'Channel-Formular-Einstellungen',
+'channel_form_default_status' => 'Standard-Status',
 
-  'channel_form_settings_updated' => 'Channel-Formular-Einstellungen gespeichert',
+'channel_form_default_status_empty' => '-- Benutze Channel-Standard --',
 
-  'channel_form_default_status' => 'Standard-Status',
+'channel_form_guest_author' => 'Gastautor',
 
-  'channel_form_allow_guest_posts' => 'Erlaube Gäste-Postings',
+'channel_form_guest_captcha' => 'Gast-Captcha?',
 
-  'channel_form_guest_captcha' => 'Gäste-Captcha?',
+'channel_form_settings' => 'Channel-Formulareinstellungen',
 
-  'channel_form_guest_author' => 'Gastautor',
+'channel_form_settings_updated' => 'Channel-Formulareinstellungen gespeichert',
 
-  'channel_form_default_status_empty' => '-- Benutze Channel Standard --',
 
-//----------------------------
 // Channel Entries API
-//----------------------------
+'default_value' => 'Standardwert',
 
-  'default_value' => 'Standardposition',
-  
-  'invalid_api_parameter' => 'Eintrag konnte nicht erstellt/aktualisiert werden. Fehlender API-Parameter ',
+'field_fmt' => 'Textformatierung',
 
-  'unauthorized_for_this_channel' => 'Sie haben keine Berechtigung in diesen Channel zu schreiben',
+'field_max_length' => 'Maximale Zeichenzahl',
 
+'field_show_fmt' => 'Überschreiben erlaubt?',
 
-  /**
-   * 3.0
-   */
+'field_show_fmt_desc' => 'Wenn die Option aktivert ist, dürfen Autoren die Standard-Textformatierung im Veröffentlichungsformular überschreiben.',
 
-  'field_max_length' => 'Maximale Zeichenanzahl',
+'field_text_direction' => 'Textrichtung',
 
-  'field_fmt' => 'Text-Formatierung',
+'field_text_direction_ltr' => 'Von links nach rechts',
 
-  'field_show_fmt' => 'Überschreiben erlaubt?',
+'field_text_direction_rtl' => 'Von rechts nach links',
 
-  'field_show_fmt_desc' => 'Wenn auf <b>ja</b> gesetzt, dürfen Autoren die Standardtextformatierung im Publish-Formular überschreiben.',
+'invalid_api_parameter' => 'Eintrag konnte nicht erstellt/aktualisiert werden. Fehlender API-Parameter ',
 
-  'field_text_direction' => 'Textrichtung',
+'select_menu_options' => 'Menü-Optionen auswählen',
 
-  'field_text_direction_ltr' => 'Von links nach rechts',
+'select_menu_options_desc' => 'Wählen Sie aus, wie die Optionen für dieses Feld erstellt werden sollen.',
 
-  'field_text_direction_rtl' => 'Von rechts nach links',
+'textarea_height' => 'Höhe des Textfeldes (Feld Textarea)',
 
-  'textarea_height' => 'Textarea-Zeilenhöhe',
+'textarea_height_desc' => 'Höhe des Textfeldes in Zeilen.',
 
-  'textarea_height_desc' => 'Eingabefeldhöhe in Zeilen.',
-  
-  'toggle_default_value_desc' => 'Wählen Sie die Standardposition des Kippschalters bei neuen Einträgen.',
+'toggle_default_value_desc' => 'Wählen Sie die Standardposition des Schalters bei neuen Einträgen.',
 
-  'toggle_default_value_desc_cont' => '<b>Hinweis</b>: Wenn ein Channel mit bereits vorhandenen Einträgen zugeordnet wird, wird den Einträgen die gewählte Position zugewiesen.',
+'toggle_default_value_desc_cont' => '<b>Hinweis</b>: Wenn Sie einen Channel mit bereits vorhandenen Einträgen zuordnen, wird den Channel-Einträgen die gewählte Position zugewiesen.',
 
-  'select_menu_options' => 'Wähle aus dem Menü aus',
+'unauthorized_for_this_channel' => 'Sie haben keine Berechtigung, um in diesen Channel zu schreiben',
 
-  'select_menu_options_desc' => 'Wähle aus, wie die Optionen für dieses Feld erstellt werden.',
-
-  ''=>''
 );
 
-/* End of file admin_content_lang.php */
-/* Location: ./system/user/language/deutsch/admin_content_lang.php */
-
+// EOF
