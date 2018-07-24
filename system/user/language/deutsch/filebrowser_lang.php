@@ -2,40 +2,38 @@
 
 $lang = array(
 
-  'file_browser' => 'Datei-Browser',
+'fb_insert_file' => 'Datei einfügen',
 
-  'view' => 'Zeigen',
+'fb_insert_files' => 'Dateien einfügen',
 
-  'path_does_not_exist' => 'Der angegebene Pfad existiert nicht',
+'fb_insert_link' => 'Link einfügen',
 
-  'file_viewing_error' => 'Ein unbekannter Fehler ist aufgetreten.',
+'fb_insert_links' => 'Links einfügen',
 
-  'fp_no_files' => 'Keine Dateien im Verzeichnis',
+'fb_insert_url' => 'URL einfügen',
 
-  'fb_view_images' => 'Bilder zeigen',
+'fb_insert_urls' => 'URLs einfügen',
 
-  'fb_view_image' => 'Bild zeigen',
+'fb_non_images' => '* Bezeichnet Nicht-Bilder. Nur Bilder können angezeigt werden.',
 
-  'fb_insert_file' => 'Datei einfügen',
+'fb_select_field' => 'Feld wählen',
 
-  'fb_insert_files' => 'Dateien einfügen',
+'fb_select_files' => 'Dateien wählen',
 
-  'fb_select_field' => 'Feld wählen',
+'fb_view_image' => 'Bild zeigen',
 
-  'fb_select_files' => 'Felder wählen',
+'fb_view_images' => 'Bilder zeigen',
 
-  'fb_non_images' => '* Bezeichnet Nicht-Bilder. Nur Bilder können angezeigt werden.',
+'file_browser' => 'Datei-Browser',
 
-  'fb_insert_link' => 'Link einfügen',
+'file_viewing_error' => 'Ein unbekannter Fehler ist aufgetreten.',
 
-  'fb_insert_links' => 'Links einfügen',
+'fp_no_files' => 'Keine Dateien im Verzeichnis',
 
-  'fb_insert_url' => 'URL einfügen',
+'path_does_not_exist' => 'Der angegebene Pfad existiert nicht',
 
-  'fb_insert_urls' => 'URLs einfügen',
+'view' => 'Zeigen',
 
+);
 
-// IGNORE
-  ''=>'');
-/* End of file filebrowser_lang.php */
-/* Location: ./system/user/language/deutsch/filebrowser_lang.php */
+// EOF
