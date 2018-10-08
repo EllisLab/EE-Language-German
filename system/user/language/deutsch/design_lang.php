@@ -16,7 +16,7 @@ $lang = array(
 
 'breadcrumb_group' => 'Gruppe: %s',
 
-'btn_create_and_edit_template' => 'Save &amp; Edit Template',
+'btn_create_and_edit_template' => 'Template sichern und bearbeiten',
 
 'btn_create_partial' => 'Partial anlegen',
 
