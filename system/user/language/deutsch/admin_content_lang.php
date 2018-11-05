@@ -368,7 +368,7 @@ $lang = array(
 
 'open' => 'Offen',
 
-'options_field_desc' => 'Wählen Sie aus, wie die Optionen für dieses Feld erstellt werden sollen. Mit Werte/Label-Paaren kann die Inhaltsauswahl für Redakteure und Editoren freundlicher gestaltet werden. Wenn Sie beispielsweise einen Wert von <b>1</b> speichern möchten, könnten Sie eine Bezeichnung wie <b>Eins/b> wählen.',
+'options_field_desc' => 'Wählen Sie aus, wie die Optionen für dieses Feld erstellt werden sollen. Mit Werte/Label-Paaren kann die Inhaltsauswahl für Redakteure und Editoren freundlicher gestaltet werden. Wenn Sie beispielsweise einen Wert von <b>1</b> speichern möchten, könnten Sie eine Bezeichnung wie <b>Eins</b> wählen.',
 
 'order' => 'Reihenfolge',
 
