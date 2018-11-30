@@ -3,345 +3,342 @@
 $lang = array(
 
 /* General word list */
-'and' => 'and',
+'and' => 'und',
 
-'and_n_others' => 'and %d others...',
+'and_n_others' => 'und %d weitere...',
 
-'at' => 'at',
+'at' => 'zu',
 
-'auto_redirection' => 'You will be redirected automatically in %x seconds',
+'auto_redirection' => 'Sie werden in %x Sekunden automatisch weitergeleitet',
 
-'back' => 'Back',
+'back' => 'Zurück',
 
-'by' => 'by',
+'by' => 'von',
 
-'click_if_no_redirect' => 'Click here if you are not redirected automatically',
+'click_if_no_redirect' => 'Bitte hier klicken, falls nicht automatisch weitergeleitet wird',
 
-'disabled' => 'disabled',
+'disabled' => 'deaktiviert',
 
-'dot' => 'dot',
+'dot' => 'Punkt',
 
-'enabled' => 'enabled',
+'enabled' => 'aktiviert',
 
-'encoded_email' => '(JavaScript must be enabled to view this email address)',
+'encoded_email' => '(Javascript muss aktiviert sein, um diese E-Mail-Adresse zu sehen)',
 
-'first' => 'First',
+'first' => 'Erste',
 
 'id' => 'ID',
 
-'last' => 'Last',
+'last' => 'Letzte',
 
-'next' => 'Next',
+'next' => 'Nächste',
 
-'no' => 'No',
+'no' => 'Nein',
 
-'not_authorized' => 'You are not authorized to perform this action',
+'not_authorized' => 'Die nötige Berechtigung für diese Aktion liegt nicht vor.',
 
-'not_available' => 'Not available',
+'not_available' => 'Nicht verfügbar',
 
-'of' => 'of',
+'of' => 'von',
 
-'off' => 'off',
+'off' => 'Aus',
 
-'on' => 'on',
+'on' => 'Ein',
 
-'or' => 'or',
+'or' => 'oder',
 
-'pag_first_link' => '&lsaquo; First',
+'pag_first_link' => '&lsaquo; Erste',
 
-'pag_last_link' => 'Last &rsaquo;',
+'pag_last_link' => 'Letzte &rsaquo;',
 
-'page' => 'Page',
+'page' => 'Seite',
 
-'preference' => 'Preference',
+'preference' => 'Voreinstellung',
 
-'prev' => 'Previous',
+'prev' => 'Vorherige',
 
-'return_to_previous' => 'Return to Previous Page',
+'return_to_previous' => 'Zurück zur vorhergehenden Seite',
 
-'search' => 'Search',
+'search' => 'Suchen',
 
-'setting' => 'Setting',
+'setting' => 'Einstellung',
 
-'site_homepage' => 'Site Homepage',
+'site_homepage' => 'Startseite der Site',
 
-'submit' => 'Submit',
+'submit' => 'Senden',
 
-'system_off_msg' => 'This site is currently inactive.',
+'system_off_msg' => 'Diese Site ist zur Zeit nicht aktiv.',
 
-'thank_you' => 'Thank You!',
+'thank_you' => 'Vielen Dank!',
 
 'update' => 'Update',
 
-'updating' => 'Updating',
+'updating' => 'Aktualisierung',
 
-'yes' => 'Yes',
+'yes' => 'Ja',
 
 
 /* Errors */
-'captcha_incorrect' => 'You did not submit the word exactly as it appears in the image',
+'captcha_incorrect' => 'Sie haben das Wort nicht genau so eingetragen, wie es im Bild erscheint',
 
-'captcha_required' => 'You must submit the word that appears in the image',
+'captcha_required' => 'Sie müssen das Wort eintragen, das im Bild angezeigt wird',
 
-'checksum_changed_accept' => 'Accept Changes',
+'checksum_changed_accept' => 'Änderungen akzeptieren',
 
-'checksum_changed_warning' => 'One or more core files have been altered:',
+'checksum_changed_warning' => 'Eine oder mehrere Core-Dateien wurden geändert:',
 
-'checksum_email_message' => 'ExpressionEngine has detected the modification of a core file on: {url}
+'checksum_email_message' => 'ExpressionEngine hat die Änderung einer Core-Datei entdeckt: {url}
 
-The following files are affected:
+Die folgenden Dateien sind betroffen:
 {changed}
 
-If you made these changes, please accept the modifications on the control panel homepage. If you did not alter these files it may indicate a hacking attempt. Check the files for any suspicious contents (JavaScript or iFrames) and contact ExpressionEngine support:
-https://expressionengine.com/support',
+Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen auf der Startseite des Control Panels. Wenn Sie diese Dateien nicht geändert haben, kann dies auf einen Hacking-Versuch hindeuten. Suchen Sie in den Dateien nach verdächtigen Inhalten (JavaScript oder iFrames), und lesen Sie die folgenden Informationen: '.DOC_URL.'troubleshooting/error_messages/expressionengine_has_detected_the_modification_of_a_core_file.html',
 
-'checksum_email_subject' => 'A core file was modified on your site.',
+'checksum_email_subject' => 'Eine Core-Datei wurde auf Ihrer Website geändert.',
 
-'csrf_token_expired' => 'This form has expired. Please refresh and try again.',
+'csrf_token_expired' => 'Dieses Formular ist abgelaufen. Bitte erneut aufrufen.',
 
-'current_password_incorrect' => 'Your current password was not submitted correctly.',
+'current_password_incorrect' => 'Ihr aktuelles Passwort wurde nicht korrekt eingegeben.',
 
-'current_password_required' => 'Your current password is required.',
+'current_password_required' => 'Ihr aktuelles Passwort wird verlangt.',
 
-'curl_not_installed' => 'cURL is not installed on your server',
+'curl_not_installed' => 'cURL ist nicht auf Ihrem Server installiert',
 
-'error' => 'Error',
+'error' => 'Fehler',
 
-'file_not_found' => 'File %s does not exist.',
+'file_not_found' => 'Die Datei %s existiert nicht.',
 
-'general_error' => 'The following errors were encountered',
+'general_error' => 'Folgende Fehler traten auf',
 
-'generic_fatal_error' => 'Something has gone wrong and this URL cannot be processed at this time.',
+'generic_fatal_error' => 'Etwas ging schief und dieser URL kann im Moment nicht verarbeitet werden.',
 
-'invalid_action' => 'The action you have requested is invalid.',
+'invalid_action' => 'Die angeforderte Aktion ist nicht zugelassen.',
 
-'invalid_url' => 'The URL you submitted is not valid.',
+'invalid_url' => 'Der angegebene URL ist ungültig.',
 
-'license_disabled' => 'Your software license has been disabled or upgraded. Please visit your <a href="%s">License & Registration</a> page and install the active license from your <a href="%s" title="download account" rel="external">Download Account</a>. If this error persists, please contact your system administrator.',
+'missing_encryption_key' => 'In Ihrer config.php ist für <code>% s </code> kein Wert festgelegt. Dadurch kann Ihre Installation Sicherheitslücken ausgesetzt werden. Stellen Sie die Schlüssel wieder her oder lesen Sie <a href="%s">diesen Artikel zur Problembehandlung</a> im Benutzerhandbuch.',
 
-'missing_encryption_key' => 'You do not have value set for <code>%s</code> in your config.php. This may leave your install open to security vulnerabilities. Restore the keys or <a href="%s">contact support</a> for help.',
+'missing_mime_config' => 'Kann Ihre Mime-Typ-Whitelist nicht importieren: die Datei %s existiert nicht oder kann nicht gelesen werden.',
 
-'missing_mime_config' => 'Cannot import your mime-type whitelist: the file %s does not exist or cannot be read.',
+'new_version_error' => 'Es trat ein unerwarteter Fehler auf bei dem Versuch, die aktuelle Versionsnummer von ExpressionEngine herunterzuladen.  Bitte besuchen Sie Ihren <a href="%s" title="download account" rel="external">Download Account</a>, um zu überprüfen, ob Sie mit der aktuellen Version arbeiten. Bleibt dieser Fehler weiterhin bestehen, kontaktieren Sie bitte Ihren Systemadministrator',
 
-'new_version_error' => 'An unexpected error occurred attempting to download the current ExpressionEngine version number. Please visit your <a href="%s" title="download account" rel="external">Download Account</a> to verify you are on the current version. If this error persists, please contact your system administrator',
+'nonexistent_page' => 'Die gewünschte Seite wurde nicht gefunden',
 
-'nonexistent_page' => 'The page you requested was not found',
+'redirect_xss_fail' => 'Der Link, auf den Sie umgeleitet wurden, enthielt potentiellen Schadcode. Wir empfehlen, den Back-Button zu klicken und per E-Mail den Link an %s zu melden, der diese Mitteilung hervorrief.',
 
-'redirect_xss_fail' => 'The link you are being redirected to contained some potentially malicious or dangerous code. We recommend you hit the back button and email %s to report the link that generated this message.',
+'submission_error' => 'Das abgeschickte Formular enthielt folgende Fehler:',
 
-'submission_error' => 'The form you submitted contained the following errors',
+'theme_folder_wrong' => 'Der Pfad Ihres Template-Ordners ist falsch. Gehen Sie zu <a href="%s">URL- und Pfadeinstellungen</a> und überprüfen Sie die <mark>Themes-Path</ mark> und <mark>Themes-URL</ mark>.',
 
-'theme_folder_wrong' => 'Your theme folder path is incorrect. Please go to <a href="%s">URL and Path Settings</a> and check the <mark>Themes Path</mark> and <mark>Themes URL</mark>.',
+'unable_to_load_field_type' => 'Kann diese Feldtypen-Datei nicht laden: %s.<br />Bestätigen Sie dass die Feldtypen-Datei im Ordner /system/user/addons/ liegt',
 
-'unable_to_load_field_type' => 'Unable to load requested field type file: %s.<br /> Confirm the fieldtype file is located in the /system/user/addons/ directory',
+'unwritable_cache_folder' => 'Der Cache-Ordner hat nicht die richtigen Berechtigungen.<br />Abhilfe: Die Berechtigung für den Cache (/system/user/cache/) auf 777 setzen - oder auf das Equivalent Ihres Servers.',
 
-'unwritable_cache_folder' => 'Your cache folder does not have proper permissions.<br />To fix: Set the cache folder (/system/user/cache/) permissions to 777 (or equivalent for your server).',
+'unwritable_config_file' => 'Ihre Konfigurationsdatei verfügt nicht über die richtigen Berechtigungen. <br /> So beheben das: Setzen Sie die Berechtigungen für die Konfigurationsdatei (/'.SYSDIR.'/user/config/config.php) auf 666 (oder auf das Equivalent Ihres Servers).',
 
-'unwritable_config_file' => 'Your configuration file does not have the proper permissions.<br />To fix: Set the config file (/system/user/config/config.php) permissions to 666 (or equivalent for your server).',
-
-'version_mismatch' => 'Your ExpressionEngine installation&rsquo;s version (%s) is not consistent with the reported version (%s). <a href="'.DOC_URL.'installation/update.html" rel="external">Please update your installation of ExpressionEngine again</a>.',
+'version_mismatch' => 'Die Version Ihrer ExpressionEngine-Installation (% s) stimmt nicht mit der gemeldeten Version (% s) überein. <a href="'.DOC_URL.'installation/update.html" rel="external">Aktualisieren Sie Ihre Installation von ExpressionEngine erneut</a>.',
 
 
 /* Member Groups */
-'banned' => 'Banned',
+'banned' => 'Gesperrt',
 
-'guests' => 'Guests',
+'guests' => 'Gäste',
 
-'members' => 'Members',
+'members' => 'Mitglieder',
 
-'pending' => 'Pending',
+'pending' => 'Im Wartezustand',
 
-'super_admins' => 'Super Admins',
+'super_admins' => 'Super-Admins',
 
 
 /* Template.php */
-'error_fix_module_processing' => 'Please check that the \'%x\' module is installed and that \'%y\' is an available method of the module',
+'error_fix_module_processing' => 'Bitte überprüfen Sie, ob das Modul \'%x\' isntalliert ist und dass  \'%y\' eine verfügbare Methode des Moduls ist',
 
-'error_fix_syntax' => 'Please correct the syntax in your template.',
+'error_fix_syntax' => 'Bitte die Syntax im Template korrigieren.',
 
-'error_invalid_conditional' => 'You have an invalid conditional in your template. Please review your conditionals for an unclosed string, invalid operators, a missing }, or a missing {/if}.',
+'error_invalid_conditional' => 'Sie haben ein ungültiges Conditional in Ihrem Template. Bitte überprüfen Sie Ihre Conditionals auf nicht geschlossene Zeichenketten, ungültige Operatoren, ein fehlendes }, oder ein fehlendes {/if}.',
 
-'error_layout_too_late' => 'Plugin or module tag found before layout declaration. Please move the layout tag to the top of your template.',
+'error_layout_too_late' => 'Plugin- oder Modul-Tag vor der Layout-Deklaration gefunden. Bitte den Layout-Tag an den Anfang des Templates stellen.',
 
-'error_multiple_layouts' => 'Multiple Layouts found, please ensure you only have one layout tag per template',
+'error_multiple_layouts' => 'Mehrfach-Layouts gefunden. Bitte sicherstellen, dass nur ein Layout-Tag pro Template vorhanden ist.',
 
-'error_tag_module_processing' => 'The following tag cannot be processed:',
+'error_tag_module_processing' => 'Folgender Tag kann nicht verarbeitet werden:',
 
-'error_tag_syntax' => 'The following tag has a syntax error:',
+'error_tag_syntax' => 'Der folgende Tag hat einen Syntaxfehler:',
 
-'layout_contents_reserved' => 'The name "contents" is reserved for the template data and cannot be used as a layout variable (i.e. {layout:set name="contents"} or {layout="foo/bar" contents=""}).',
+'layout_contents_reserved' => 'Der Name "contents" ist für Templatedaten reserviert und kann nicht als Layoutvariable dienen (als Beispiel {layout:set name="contents"} oder {layout=foo/bar" contents=""}).',
 
-'template_load_order' => 'Template load order',
+'template_load_order' => 'Template-Ladereihenfolge',
 
-'template_loop' => 'You have caused a template loop due to improperly nested sub-templates (\'%s\' recursively called)',
+'template_loop' => 'Sie haben eine Templateschleife aufgrund nicht korrekt verschachtelter Sub-Templates verursacht (\'%s\' rekursiv aufgerufen)',
 
 
 /* Email */
-'error_sending_email' => 'Unable to send email at this time.',
+'error_sending_email' => 'Email senden zur Zeit nicht möglich.',
 
-'forgotten_email_sent' => 'If this email address is associated with an account, instructions for resetting your password have just been emailed to you.',
+'forgotten_email_sent' => 'Wenn diese E-Mail-Adresse mit einem Konto verknüpft ist, wurden Ihnen gerade Anweisungen zum Zurücksetzen Ihres Passworts per E-Mail übermittelt.',
 
-'no_email_found' => 'The email address you submitted was not found in the database.',
+'no_email_found' => 'Die von Ihnen angegebene Email-Adresse wurde nicht in der Datenbank gefunden.',
 
-'password_has_been_reset' => 'Your password was reset and a new one has been emailed to you.',
+'password_has_been_reset' => 'Ihr Passwort wurde zurückgesetzt und ein neues wurde Ihnen per Email zugeschickt.',
 
-'password_reset_flood_lock' => 'You have tried to reset your password too many times today. Please check your inbox and spam folders for previous requests, or contact the site administrator.',
+'password_reset_flood_lock' => 'Sie haben heute zu oft versucht, Ihr Passwort zurückzusetzen. Bitte überprüfen Sie Ihren Posteingang und Ihre Spam-Ordner auf frühere Anfragen oder wenden Sie sich an den Website-Administrator.',
 
-'your_new_login_info' => 'Login information',
+'your_new_login_info' => 'Login-Information',
 
 
 /* Timezone */
-'invalid_date_format' => 'The date format you submitted is invalid.',
+'invalid_date_format' => 'Das von Ihnen übermittelte Datumsformat ist ungültig.',
 
-'invalid_timezone' => 'The timezone you submitted is invalid.',
+'invalid_timezone' => 'Die von Ihnen übermittelte Zeitzone ist ungültig.',
 
-'no_timezones' => 'No Timezones',
+'no_timezones' => 'Keine Zeitzonen',
 
-'select_timezone' => 'Select Timezone',
+'select_timezone' => 'Zeitzone wählen',
 
 
 /* Date */
-'singular' => 'one',
+'singular' => 'eins',
 
-'less_than' => 'less than',
+'less_than' => 'kleiner als',
 
-'about' => 'about',
+'about' => 'ungefähr',
 
-'past' => '%s ago',
+  'past' => '%s her',
 
-'future' => 'in %s',
+  'future' => 'in %s',
 
-'ago' => '%x ago',
+  'ago' => 'her',
 
-'year' => 'year',
+  'year' => 'Jahr',
 
-'years' => 'years',
+  'years' => 'Jahre',
 
-'month' => 'month',
+  'month' => 'Monat',
 
-'months' => 'months',
+  'months' => 'Monate',
 
-'fortnight' => 'fortnight',
+  'fortnight' => 'vierzehn Tage',
 
-'fortnights' => 'fortnights',
+  'fortnights' => 'vierzehn Tagen',
 
-'week' => 'week',
+  'week' => 'Woche',
 
-'weeks' => 'weeks',
+  'weeks' => 'Wochen',
 
-'day' => 'day',
+  'day' => 'Tag',
 
-'days' => 'days',
+  'days' => 'Tage',
 
-'hour' => 'hour',
+  'hour' => 'Stunde',
 
-'hours' => 'hours',
+  'hours' => 'Stunden',
 
-'minute' => 'minute',
+  'minute' => 'Minute',
 
-'minutes' => 'minutes',
+  'minutes' => 'Minuten',
 
-'second' => 'second',
+  'second' => 'Sekunde',
 
-'seconds' => 'seconds',
+  'seconds' => 'Sekunden',
 
-'am' => 'am',
+  'am' => 'am',
 
-'pm' => 'pm',
+  'pm' => 'pm',
 
-'AM' => 'AM',
+  'AM' => 'AM',
 
-'PM' => 'PM',
+  'PM' => 'PM',
 
-'Sun' => 'Sun',
+  'Sun' => 'Son',
 
-'Mon' => 'Mon',
+  'Mon' => 'Mon',
 
-'Tue' => 'Tue',
+  'Tue' => 'Die',
 
-'Wed' => 'Wed',
+  'Wed' => 'Mit',
 
-'Thu' => 'Thu',
+  'Thu' => 'Don',
 
-'Fri' => 'Fri',
+  'Fri' => 'Fre',
 
-'Sat' => 'Sat',
+  'Sat' => 'Sam',
 
-'Su' => 'S',
+  'Su' => 'S',
 
-'Mo' => 'M',
+  'Mo' => 'M',
 
-'Tu' => 'T',
+  'Tu' => 'D',
 
-'We' => 'W',
+  'We' => 'M',
 
-'Th' => 'T',
+  'Th' => 'D',
 
-'Fr' => 'F',
+  'Fr' => 'F',
 
-'Sa' => 'S',
+  'Sa' => 'S',
 
-'Sunday' => 'Sunday',
+  'Sunday' => 'Sonntag',
 
-'Monday' => 'Monday',
+  'Monday' => 'Montag',
 
-'Tuesday' => 'Tuesday',
+  'Tuesday' => 'Dienstag',
 
-'Wednesday' => 'Wednesday',
+  'Wednesday' => 'Mittwoch',
 
-'Thursday' => 'Thursday',
+  'Thursday' => 'Donnerstag',
 
-'Friday' => 'Friday',
+  'Friday' => 'Freitag',
 
-'Saturday' => 'Saturday',
+  'Saturday' => 'Samstag',
 
-'Jan' => 'Jan',
+  'Jan' => 'Jan',
 
-'Feb' => 'Feb',
+  'Feb' => 'Feb',
 
-'Mar' => 'Mar',
+  'Mar' => 'Mar',
 
-'Apr' => 'Apr',
+  'Apr' => 'Apr',
 
-'May' => 'May',
+  'May' => 'Mai',
 
-'Jun' => 'Jun',
+  'Jun' => 'Jun',
 
-'Jul' => 'Jul',
+  'Jul' => 'Jul',
 
-'Aug' => 'Aug',
+  'Aug' => 'Aug',
 
-'Sep' => 'Sep',
+  'Sep' => 'Sep',
 
-'Oct' => 'Oct',
+  'Oct' => 'Okt',
 
-'Nov' => 'Nov',
+  'Nov' => 'Nov',
 
-'Dec' => 'Dec',
+  'Dec' => 'Dez',
 
-'January' => 'January',
+  'January' => 'Januar',
 
-'February' => 'February',
+  'February' => 'Februar',
 
-'March' => 'March',
+  'March' => 'März',
 
-'April' => 'April',
+  'April' => 'April',
 
-'May_l' => 'May',
+  'May_l' => 'Mai',
 
-'June' => 'June',
+  'June' => 'Juni',
 
-'July' => 'July',
+  'July' => 'Juli',
 
-'August' => 'August',
+  'August' => 'August',
 
-'September' => 'September',
+  'September' => 'September',
 
-'October' => 'October',
+  'October' => 'Oktober',
 
-'November' => 'November',
+  'November' => 'November',
 
-'December' => 'December',
+  'December' => 'Dezember',
 
 'UM12' => '(UTC -12:00) Baker/Howland Island',
 
