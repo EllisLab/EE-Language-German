@@ -3,10 +3,13 @@
 $lang = array(
 
 'filepicker_module_name' => 'Dateiauswahl',
-'picker_type' => 'Ansicht',
-'thumbnails' => 'Thumbnails',
-'list' => 'Liste'
+
+'list' => 'Liste',
+
+'picker_type' => 'Ansicht als',
+
+'thumbnails' => 'Vorschaubilder',
 
 );
 
-?>
+// EOF
