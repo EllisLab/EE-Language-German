@@ -3,295 +3,305 @@
 $lang = array(
 
 /* no Javascript Warning */
-'no_js_warning' => 'Javascript must be enabled in order for this theme to function properly. Please check your browser settings.',
+'no_js_warning' => 'Javascript muss aktiviert sein, damit dieses Theme ordnungsgemäß funktioniert. Bitte überprüfen Sie Ihre Browsereinstellungen.',
 
 
 /* Develop Menu */
-'addon_manager' => 'Add-On Manager',
+'addon_manager' => 'Add-On-Manager',
 
-'channel_manager' => 'Channel Manager',
+'channel_manager' => 'Channel-Manager',
 
 'logs' => 'Logs',
 
-'msm_manager' => 'Site Manager',
+'msm_manager' => 'Site-Manager',
 
-'nav_developer' => 'Developer',
+'nav_developer' => 'CMS-Manager',
 
-'nav_developer_tools' => 'Developer Tools',
+'nav_developer_tools' => 'Konfigurations-Tools',
 
-'template_manager' => 'Template Manager',
+'template_manager' => 'Template-Manager',
 
-'utilities' => 'Utilities',
+'utilities' => 'Dienstprogramme',
 
 
 /* Control Panel */
-'action_can_not_be_undone' => 'THIS ACTION CANNOT BE UNDONE',
-
-'add_new' => 'Add New',
-
+'action_can_not_be_undone' => 'DIESE AKTION KANN NICHT RÜCKGÄNGIG GEMACHT WERDEN',
+  
+'add_new' => 'Neu anlegen',
+  
 'addons' => 'Add-Ons',
+  
+'all' => 'Alle',
+  
+'any' => 'Alle',
 
-'all' => 'All',
-
-'any' => 'Any',
-
-'back' => 'Back',
-
-'be_careful' => 'BE CAREFUL!',
-
-'build' => 'Build:',
-
-'captcha_explanation' => 'A CAPTCHA is an image containing a security code that users have to submit. Please consult the user guide for more info.',
-
-'categories' => 'Categories',
-
+'back' => 'Zurück',
+  
+'be_careful' => 'BITTE VORSICHT!',
+ 
+ 'build' => 'Build:',
+  
+'captcha_explanation' => 'Ein Captcha ist ein Bild, das einen Sicherheitscode enthält, den ein User eingeben muss. Bitte das Handbuch konsultieren',
+  
+'categories' => 'Kategorien',
+  
 'channels' => 'Channels',
 
-'choose_wisely' => 'Choose wisely',
+'choose_wisely' => 'Wahlweise',
 
-'click_to_edit' => 'Click to Edit',
+'click_to_edit' => 'Zum Bearbeiten klicken',
 
-'close_modal' => 'Close modal',
+'close_modal' => 'Schließe modal',
 
-'consult_user_guide' => 'Consult User Guide',
+'consult_user_guide' => 'Handbuch konsultieren',
 
-'control_panel' => 'Control Panel',
+'control_panel' => 'Control-Panel (CP)',
 
 'copyright' => 'Copyright',
 
-'custom_limit' => 'custom limit',
+'custom_limit' => 'Benutzerdefiniertes Limit',
 
 'details' => 'Details',
 
-'do_not_duplicate' => 'Do not duplicate',
+'do_not_duplicate' => 'Nicht duplizieren',
 
-'e_no_css' => 'The requested CSS file could not be opened.',
+'e_no_css' => 'Die angeforderte CSS-Datei konnte nicht geöffnet werden.',
 
-'edit_quicklinks' => 'Edit Quick Links',
+'edit_quicklinks' => 'Quick-Links bearbeiten',
 
-'fields' => 'Fields',
+'fields' => 'Felder',
 
-'forgot_password' => 'Forgot your password?',
+'forgot_password' => 'Passwort vergessen?',
+  
+'forgotten_password' => 'Vergessenes Passwort',
 
-'forgotten_password' => 'Forgotten password',
+'hide_sidebar' => 'Seitenleiste verstecken',
+  
+'invalid_license' => 'LIZENZ UNGÜLTIG',
 
-'hide_sidebar' => 'hide sidebar',
+'license_number' => 'Lizenznummer',
+  
+'loading' => 'Lade',
+  
+'logged_back_in' =>	'Sie sind wieder eingeloggt.',
+  
+'logout' => 'Abmelden',
 
-'invalid_license' => 'INVALID LICENSE',
+'main_menu' => 'CP-Startseite',
+  
+'my_account' => 'Mein Konto',
+  
+'myaccount' => 'Mein Konto',
 
-'license_number' => 'License Number',
+'nav_homepage' => 'CP-Home',
 
-'loading' => 'Loading',
+'nav_overview' => 'CP-Überblick',
 
-'logged_back_in' => 'You are now logged back in!',
+'nav_settings' => 'Einstellungen',
 
-'logout' => 'Log-out',
+'new_tab' => 'Neuer Tab',
+  
+'new_version_available' => 'ExpressionEngine Version %s ist jetzt verfügbar',
+  
+'notepad' => 'Notizen',
+  
+'notepad_no_content' => 'Keine Notizen. Klicken, um zu erstellen.',
+  
+'page_rendered' => 'Script ausgeführt in %x Sekunden',
+  
+'password' => 'Passwort',  
+  
+'password_label' => 'Passwort:',
+  
+'powered_by' => 'Powered by',  
 
-'main_menu' => 'CP Home',
+'queries_executed' => '%x SQL Abfragen verwendet',
+  
+'quick_links' => 'Quicklinks',
+  
+'quicklinks_manager' => 'Quicklink-Manager',
 
-'my_account' => 'My Account',
+'required_field' => 'Erforderliches Feld',
 
-'myaccount' => 'My Account',
+'required_fields' => 'Erforderliche Felder',
 
-'nav_homepage' => 'CP Home',
+'retry' => 'Wiederholen?',
 
-'nav_overview' => 'CP Overview',
+'reveal_sidebar' => 'Seitenleiste zeigen',
 
-'nav_settings' => 'Settings',
+'rights_reserved' => 'Alle Rechte vorbehalten',
 
-'new_tab' => 'New Tab',
+'running_current' => 'ExpressionEngine ist aktuell',
 
-'new_version_available' => 'ExpressionEngine Version %s is now available',
+'running_current_desc' => 'ExpressionEngine %s ist die letzte Version.',
 
-'notepad' => 'Notepad',
+'searching' => 'Suchen',
 
-'notepad_no_content' => 'No Notepad Entry. Click to create one.',
+'session_idle' => 'Leerlaufsitzung erkannt',
 
-'page_rendered' => 'Script executed in %x seconds',
+'session_idle_description' => 'Sie sind nicht eingeloggt, geben Sie Ihr Passwort ein, um fortzufahren.',
 
-'password' => 'Password',
+'session_idle_not_name' => 'Nicht %s?',
 
-'password_label' => 'Password:',
+'show_hide' => 'Zeige/verstecke alle',
 
-'powered_by' => 'Powered By',
-
-'queries_executed' => '%x SQL queries used',
-
-'quick_links' => 'Quick Links',
-
-'quicklinks_manager' => 'Quick Links Manager',
-
-'required_field' => 'required field',
-
-'required_fields' => 'Required Fields',
-
-'retry' => 'Retry?',
-
-'reveal_sidebar' => 'show sidebar',
-
-'rights_reserved' => 'All Rights Reserved',
-
-'running_current' => 'ExpressionEngine is up to date',
-
-'running_current_desc' => 'ExpressionEngine %s is the latest version.',
-
-'searching' => 'Searching',
-
-'session_idle' => 'Idle session detected',
-
-'session_idle_description' => 'You\'ve gone idle, please enter your password to continue.',
-
-'session_idle_not_name' => 'Not %s?',
-
-'show_hide' => 'Show/Hide All',
-
-'submit_email_address' => 'Submit your email address',
+'submit_email_address' => 'Geben Sie Ihre Email-Adresse ein',
 
 'templates' => 'Templates',
 
-'unauthorized' => 'Unauthorized',
+'unauthorized' => 'Nicht autorisiert',
 
-'unauthorized_access' => 'You are not authorized to access this page',
+'unauthorized_access' => 'Sie sind nicht autorisiert auf diese Seite zuzugreifen',
 
-'update_check_btn' => 'Check for Update',
+'update_check_btn' => 'Überprüfe auf Updates',
 
-'update_btn' => 'Upgrade Now',
+'update_btn' => 'Jetzt updaten',
 
-'user_account' => 'Member Account',
+'user_account' => 'Mitgliedskonto',
 
-'user_avatar_alt' => 'User Avatar',
+'user_avatar_alt' => 'Benutzer-Avatar',
 
-'user_label' => 'User:',
+'user_label' => 'Benutzer:',
 
-'username' => 'Username',
+'username' => 'Benutzername',
 
-'username_filter' => 'username',
+'username_filter' => 'benutzername',
 
-'version_identifier' => 'identifier:',
+'version_identifier' => 'Kennung:',
 
-'version_update_available' => 'A newer version of ExpressionEngine is available',
+'version_update_available' => 'Eine neuere Version von ExpressionEngine ist verfügbar',
 
-'version_update_inst' => "ExpressionEngine %s is available. <a href='#' data-post-url='%s'>Click here to upgrade</a> or follow the <a href='%s' rel='external'>manual upgrade instructions</a>.",
+'version_update_inst' => "ExpressionEngine% s ist verfügbar. <a href='#' data-post-url='%s'>Klicken Sie hier, um ein Update durchzuführen</a>, oder befolgen Sie die <a href='%s'rel='external'> Anweisungen zum manuellen Updade</a> .",
 
 
 /* Buttons */
-'cancel' => 'Cancel',
+'cancel' => 'Abbrechen',
 
-'accept' => 'Accept',
+'accept' => 'Annehmen',
 
-'decline' => 'Decline',
+'decline' => 'Ablehnen',
 
-'needs_review' => 'Needs Review',
+'needs_review' => 'Muss überprüft werden',
 
-'delete' => 'Delete',
+'delete' => 'Löschen',
 
-'done' => 'Done',
+'done' => 'Erledigt',
 
-'preview' => 'Preview',
+'preview' => 'Vorschau',
 
-'save' => 'Save',
+'save' => 'Speichern',
 
-'save_and_new' => 'Save & New',
+'save_and_new' => 'Speichern & Neu anlegen',
 
-'save_and_close' => 'Save & Close',
+'save_and_close' => 'Speichern & Schließen',
 
-'save_changes' => 'Save changes',
+'save_changes' => 'Änderungen speichern',
 
-'submit' => 'Submit',
+'submit' => 'Senden',
 
-'sync' => 'Synchronize',
+'sync' => 'Synchronisieren',
 
-'update' => 'Update',
+'update' => 'Aktualisieren',
 
 
 /* Log */
-'action' => 'Action',
+'action' => 'Aktion',
 
-'clear_logs' => 'Clear Log Files',
+'clear_logs' => 'Protokolldateien löschen',
 
-'close' => 'Close',
+'close' => 'Schließen',
 
-'date' => 'Date',
+'date' => 'Datum',
 
 'internet_protocol' => 'Internet Protocol',
 
 'ip' => 'IP',
 
-'ip_address' => 'IP Address',
+'ip_address' => 'IP-Addresse',
 
-'member_changed_email' => 'Changed email for "%s" (%d) from "%s" to "%s"',
+'member_changed_email' => 'E-Mail geändert für "%s" (%d) von "%s" zu "%s"',
 
-'member_changed_member_group' => 'Changed member group to "%s" for "%s" (%d)',
+'member_changed_member_group' => 'Mitgliedergruppe geändert von "%s" zu "%s" (%d)',
 
-'member_changed_password' => 'Changed password for "%s" (%d)',
+'member_changed_password' => 'Passwort für geändert "%s" (%d)',
 
-'member_anonymized_member' => 'Anonymized member with ID: %d',
+'member_anonymized_member' => 'Anonymisiertes Mitglied mit ID: %d',
 
-'member_id' => 'Member ID',
+'member_id' => 'Mitglieder-ID',
 
 'member_logged_in' => 'Logged in',
 
 'member_logged_out' => 'Logged out',
 
-'member_login_as' => 'Member logged in as "%s" (%d)',
+'member_login_as' => 'Mitglied angemeldet als "%s" (%d)',
 
 
 /* Common */
-'by_date' => 'by date',
+'by_date' => 'nach Datum',
 
-'by_site' => 'by site',
+'by_site' => 'nach site',
 
-'by_username' => 'by username',
+'by_username' => 'nach benutzername',
 
-'channel' => 'Channel',
+'channel' => 'Channels',
 
-'check_all' => 'Check All',
+'check_all' => 'Alle überprüfen',
 
-'clear_all' => 'Clear All',
+'clear_all' => 'Alles löschen',
 
-'create' => 'Create',
+'create' => 'Erstellen',
 
-'create_and_edit' => 'Create and Edit',
+'create_and_edit' => 'Erstellen & Bearbeiten',
 
-'custom_date_range' => 'Custom Date Range',
+'custom_date_range' => 'Benutzerdefinierter Datumsbereich',
 
-'date_added' => 'Date Added',
+'date_added' => 'Datum hinzugefügt',
 
-'edit' => 'Edit',
+'edit' => 'Bearbeiten',
 
-'ee_wiki' => 'EE Wiki',
+'ee_wiki' => 'EE-Wiki',
 
-'entry' => 'Entry',
+'entry' => 'Eintrag',
 
-'limit_by' => 'limit by',
+'limit_by' => 'begrenzen durch',
 
-'keyword_search' => 'Keyword Search',
+'keyword_search' => 'Keyword-Suche',
 
-'manage' => 'Manage',
+'manage' => 'Verwalten',
 
-'modify' => 'Modify',
+'modify' => 'Ändern',
 
-'most_recent_comment' => 'Most Recent Comment',
+'most_recent_comment' => 'Letzter Kommentar',
 
-'most_recent_entry' => 'Most Recent Entry',
+'most_recent_entry' => 'Letzter Eintrag',
 
-'no_search_results' => 'No Results Found',
+'no_search_results' => 'Keine Ergebnisse gefunden',
 
-'or_delete' => 'or delete',
+'or_delete' => 'oder löschen',
 
-'page' => 'Page',
+'page' => 'Seite',
 
-'recent_comments' => 'Recent Comments',
+'recent_comments' => 'Letzte Kommentare',
 
-'recent_entries' => 'Recent Entries',
+'recent_entries' => 'Letzte Einträge',
 
-'results' => 'results',
+'results' => 'Ergebnisse',
 
-'select_all' => 'select all',
+'select_all' => 'Alle wählen',
 
-'search_in' => 'Search in',
+'search_in' => 'Suchen in',
 
-'show' => 'Show',
+'show' => 'Zeigen',
+
+'search_in_filter' => 'suchen in',
+
+'perpage_filter' => 'zeigen',
+
+'date_filter' => 'datum',
+
+'group_filter' => 'gruppe',
+
+'type_filter' => 'Art',
 
 'site' => 'Site',
 
@@ -299,50 +309,50 @@ $lang = array(
 
 'status' => 'Status',
 
-'switch' => 'Switch',
+'switch' => 'Wechseln',
 
 'template' => 'Template',
 
-'template_group' => 'Template Group',
+'template_group' => 'Templategruppe',
 
-'total_entries' => 'total entries',
+'total_entries' => 'Einträge insgesamt',
 
-'type_phrase' => 'type phrase...',
+'type_phrase' => 'Phrase eingeben...',
 
-'user_guide' => 'User Guide',
+'user_guide' => 'Benutzerhandbuch',
 
-'view' => 'View',
+'view' => 'Zeigen',
 
-'with_selected' => 'with selected',
+'with_selected' => 'mit gewähltem',
 
 'export' => 'Export',
 
-'btn_exporting' => 'Exporting',
+'btn_exporting' => 'Exportieren',
 
-'btn_downloading' => 'Downloading',
+'btn_downloading' => 'Downloaden',
 
-'will_be_logged' => 'This action will be logged',
+'will_be_logged' => 'Diese Aktion wird protokolliert',
 
-'important' => 'Important!',
+'important' => 'Wichtig!',
 
 /* Sites and Channels */
-'avatar_path' => 'Avatar Path',
+'avatar_path' => 'Avatar-Pfad',
 
-'edit_channels' => 'Edit Channels',
+'edit_channels' => 'Channels bearbeiten',
 
-'edit_sites' => 'Edit Sites',
+'edit_sites' => 'Sites bearbeiten',
 
-'not_writable_path' => 'The following folders are not writeable:',
+'not_writable_path' => 'Folgende Verzeichnisse sind nicht beschreibbar:',
 
-'photo_path' => 'Member Photo Path',
+'photo_path' => 'Mitgliedsfoto-Pfad',
 
-'prv_msg_upload_path' => 'Private Message Upload Path',
+'prv_msg_upload_path' => 'Pfad zum Hochladen privater Nachrichten',
 
-'sig_img_path' => 'Signature Image Path',
+'sig_img_path' => 'Signaturbild-Pfad',
 
-'site_id' => 'Site ID',
+'site_id' => 'Site-ID',
 
-'site_specific_data' => 'This data is site specific. If you wish to select or change data for another site, then use the \'Sites\' menu tab to switch to that site.',
+'site_specific_data' => 'Diese Daten sind standortspezifisch. Wenn Sie Daten für eine andere Site auswählen oder ändern möchten, verwenden Sie die Menüregisterkarte \'Sites\', um zu dieser Site zu wechseln.',
 
 'sites' => 'Sites',
 
@@ -350,47 +360,47 @@ $lang = array(
 
 
 /* learning EE lang vars */
-'building_ee_site_01' => 'Building An ExpressionEngine Site - Chapter 01',
+'building_ee_site_01' => 'Eine ExpressionEngine Webseite bauen - Kapitel 01',
 
-'channel_template_relationship' => 'Channel Template Relationship',
+'channel_template_relationship' => 'Channel-Template-Verknüpfung',
 
-'channels_custom_fields' => 'Channels and Custom Fields',
+'channels_custom_fields' => 'Channels und benutzerdefinierte Felder',
 
-'community_resources' => 'Community Resources',
+'community_resources' => 'Community-Ressourcen',
 
-'community_tutorials' => 'Community Tutorials',
+'community_tutorials' => 'Community-Tutorials',
 
-'designing_ee_architecture' => 'Designing and ExpressionEngine Architecture',
+'designing_ee_architecture' => 'Design- und ExpressionEngine-Architektur',
 
 'devot_ee' => 'Devot-EE',
 
-'documentation' => 'Documentation',
+'documentation' => 'Dokumentation',
 
-'ee_cp_overview' => 'ExpressionEngine Control Panel Overview',
+'ee_cp_overview' => 'ExpressionEngine: Control Panel-Überblick',
 
-'ee_insider' => 'EE Insider',
+'ee_insider' => 'EEInsider',
 
-'ee_podcast' => 'EE Podcast',
+'ee_podcast' => 'EE -Podcast',
 
-'ee_screencasts' => 'EE Screencasts',
+'ee_screencasts' => 'EE-Screencasts',
 
-'ee_seach_bookmarklet' => 'ExpressionEngine Search Bookmarklet',
+'ee_seach_bookmarklet' => 'ExpressionEngine-Lesezeichen',
 
-'installing_ee' => 'Installing ExpressionEngine',
+'installing_ee' => 'ExpressionEngine installieren',
 
-'introduction_to_templates' => 'Introduction to Templates',
+'introduction_to_templates' => 'Einführung in Templates',
 
-'knowledge_base' => 'Knowledge Base',
+'knowledge_base' => 'Wissensdatenbank',
 
-'my_downloads' => 'My Downloads',
+'my_downloads' => 'Meine Downloads',
 
 'support' => 'Support',
 
-'support_forums' => 'Support Forums',
+'support_forums' => 'Support-Forumen',
 
 'train_ee' => 'Train-EE',
 
-'troubleshooting_file_uploads' => 'Troubleshooting Problems with File Uploads',
+'troubleshooting_file_uploads' => 'Probleme finden beim Hochladen von Dateien',
 
 'videos' => 'Videos',
 
@@ -412,201 +422,201 @@ $lang = array(
 
 
 /* CP Errors */
-'404_does_not_exist' => '404: Item does not exist',
+'404_does_not_exist' => '404: Eintrag wurde nicht gefunden.',
 
-'404_does_not_exist_desc' => 'Sorry, we could not find the item you are trying to access in the system.',
+'404_does_not_exist_desc' => 'Tut uns leid, wir konnten den Eintrag, auf den Sie zugreifen wollten, im System nicht finden.',
 
 
 /* Common */
-'alphadash_desc' => '<i>No spaces. Underscores and dashes are allowed.</i>',
+'alphadash_desc' => '<i>Keine Leerzeichen! Nur Unterstriche und Bindestriche sind erlaubt.</i>',
 
-'auto_br' => 'Auto line break',
+'auto_br' => 'Automatischer Zeilenumbruch',
 
-'btn_authenticate_and_save' => 'Authenticate &amp; Save',
+'btn_authenticate_and_save' => 'Authentifizieren & sichern',
 
-'btn_canceling' => 'Canceling...',
+'btn_canceling' => 'Abbrechen...',
 
-'btn_fix_errors' => 'Errors Found',
+'btn_fix_errors' => 'Fehler gefunden',
 
-'btn_save' => 'Save %s',
+'btn_save' => 'Speichern %s',
 
-'btn_save_and_close' => 'Save &amp; Close',
+'btn_save_and_close' => 'Speichern & Schließen',
 
-'btn_saving' => 'Saving...',
+'btn_saving' => 'Speichert...',
 
-'clear_filters' => 'Clear filters',
+'clear_filters' => 'Lösche Filter',
 
 'col_id' => 'ID#',
 
-'cp_message_issue' => 'An error occurred',
+'cp_message_issue' => 'Ein Fehler ist aufgetreten',
 
-'cp_message_success' => 'Action was a success',
+'cp_message_success' => 'Der Vorgang war erfolgreich',
 
-'cp_message_warn' => 'Warning',
+'cp_message_warn' => 'Warnung',
 
-'create_new' => 'Create New',
+'create_new' => 'Neu anlegen',
 
-'create_new_channel' => 'Create New Channel',
+'create_new_channel' => 'Neuen Channel anlegen',
 
-'current' => 'Current',
+'current' => 'Derzeit',
 
-'description' => 'Description',
+'description' => 'Beschreibung',
 
-'disable' => 'Disable',
+'disable' => 'Deaktivieren',
 
-'edit' => 'Edit',
+'edit' => 'Bearbeiten',
 
-'enable' => 'Enable',
+'enable' => 'Aktivieren',
 
-'filter_authors' => 'filter authors',
+'filter_authors' => 'Autoren filtern',
 
-'filter_categories' => 'filter categories',
+'filter_categories' => 'Kategorien filtern',
 
-'filter_channels' => 'filter channels',
+'filter_channels' => 'Channels filtern',
 
-'filters' => 'filters',
+'filters' => 'filtern',
 
-'form_validation_error' => 'There was a problem processing your submission, please check below and fix all errors.',
+'form_validation_error' => 'Ein Problem ist aufgetreten, bitte überprüfen Sie unten alles und beseitigen Sie die Fehler.',
 
-'image' => 'Image',
+'image' => 'Bild',
 
-'keyword_filter' => 'keywords, hit enter',
+'keyword_filter' => 'Suchwort + Return',
 
-'log_out' => 'log out',
+'log_out' => 'Logout',
 
-'menu_create' => 'Create',
+'menu_create' => 'Erstellen',
 
-'menu_edit' => 'Edit',
+'menu_edit' => 'Bearbeiten',
 
-'menu_files' => 'Files',
+'menu_files' => 'Dateien',
 
-'menu_members' => 'Members',
+'menu_members' => 'Mitglieder',
 
-'my_profile' => 'My Profile',
+'my_profile' => 'Mein Profil',
 
 'name' => 'Name',
 
-'name_your_site' => 'Name your site',
+'name_your_site' => 'Websitename',
 
-'new' => 'New',
+'new' => 'Neu',
 
-'new_channel' => 'New Channel',
+'new_channel' => 'Neuer Channel',
 
-'new_link' => 'New Link',
+'new_link' => 'Neuer Link',
 
-'new_site' => 'New Site',
+'new_site' => 'Neue Site',
 
-'no_channels' => 'No <b>Channels</b> found.',
+'no_channels' => 'Keine <b>Channels</b> gefunden.',
 
-'no_found' => 'No <b>%s</b> found.',
+'no_found' => '<b>%s</b> nicht gefunden..',
 
-'no_rows_returned' => 'No rows returned',
+'no_rows_returned' => 'Keine Zeilen zurückgegeben',
 
-'none' => 'None',
+'none' => 'Nichts',
 
-'preferences_updated' => 'Preferences updated',
+'preferences_updated' => 'Einstellungen aktualisiert',
 
-'preferences_updated_desc' => 'Your preferences have been saved successfully.',
+'preferences_updated_desc' => 'Ihre Einstellungen sind erfolgreich gesichert worden.',
 
-'remove' => 'Remove',
+'remove' => 'Entfernen',
 
-'rev_author' => 'Author',
+'rev_author' => 'Autor',
 
-'rev_date' => 'Date',
+'rev_date' => 'Datum',
 
 'rev_id' => '#',
 
-'revisions' => 'Revisions',
+'revisions' => 'Revisionen',
 
-'search_results_heading' => 'Search Results<br><i>we found %d results for "%s"</i>',
+'search_results_heading' => 'Suchergebnisse: <br><i>Folgende %d Resultate wurden für "%s" gefunden</i>',
 
-'settings_save_error' => 'Attention: Settings not saved',
+'settings_save_error' => 'Achtung: Einstellungen nicht gesichert',
 
-'settings_save_error_desc' => 'We were unable to save your settings, please review and fix errors below.',
+'settings_save_error_desc' => 'Wir konnten Ihre Einstellungen nicht sichern, bitte überprüfen Sie unten alles und beseitigen Sie die Fehler.',
 
-'success' => 'Success',
+'success' => 'Erfolg',
 
-'type' => 'Type',
+'type' => 'Typ',
 
 'url' => 'URL',
 
-'url_title' => 'URL Title',
+'url_title' => 'URL-Title',
 
 'url_title_lc' => 'URL title',
 
-'used_in_cp_only' => 'Used in the control panel only.',
+'used_in_cp_only' => 'Wird nur im Control Panel (CP) benutzt.',
 
-'view_all' => 'View All',
+'view_all' => 'Alles sehen',
 
 'xhtml' => 'XHTML',
 
 
 /* Footer */
-'about_expressionengine' => 'About ExpressionEngine',
+'about_expressionengine' => 'Über ExpressionEngine',
 
-'authenticating' => 'authenticating...',
+'authenticating' => 'Authentifiziere...',
 
-'checking_for_updates' => 'Checking for updates...',
+'checking_for_updates' => 'Nach Updates suchen...',
 
 'download' => 'download',
 
-'installed' => 'Installed',
+'installed' => 'Installiert',
 
-'latest_version' => 'Latest',
+'latest_version' => 'Neueste',
 
-'license_no' => 'License #',
+'license_no' => 'Lizenz #',
 
-'login' => 'Log In',
+'login' => 'Login',
 
-'new_ticket' => 'New Ticket',
+'new_ticket' => 'Neues Ticket',
 
-'not_entered' => 'not entered',
+'not_entered' => 'nicht eingegeben',
 
-'out_of_date' => 'out of date',
+'out_of_date' => 'abgelaufen',
 
-'out_of_date_recommended' => 'Recommended Upgrade',
+'out_of_date_recommended' => 'Abgelaufen, Aktualisierung empfohlen',
 
-'out_of_date_upgrade' => 'New version found',
+'out_of_date_upgrade' => 'Neue Version gefunden',
 
-'owned_by' => 'Owned by',
+'owned_by' => 'Lizenznehmer',
 
-'recommended_upgrade' => '<b>Recommended</b> upgrade.',
+'recommended_upgrade' => '<b>Aktualisierung </b> empfohlen.',
 
-'register_now' => 'Register Now',
+'register_now' => 'Jetzt registrieren',
 
-'report_bug' => 'Report Bug',
+'report_bug' => 'Bug melden (in Englisch)',
 
-'scroll_to_top' => 'scroll to top',
+'scroll_to_top' => 'Nach oben scrollen',
 
-'session_timeout' => 'Your administration access session has timed out. Please use the form below to log back into your control panel.',
+'session_timeout' => 'Ihr administrativer Zugang ist abgelaufen. Bitte benutzen Sie das Formular unten, um sich wieder am Control Panel (CP) anzumelden.',
 
-'up_to_date' => 'Up to date!',
+'up_to_date' => 'Aktuell!',
 
 'version' => 'Version',
 
 
 /* confirm removal modal */
-'btn_confirm_and_remove' => 'Confirm, and Remove',
+'btn_confirm_and_remove' => 'Bestätigen & entfernen',
 
-'btn_confirm_and_remove_working' => 'Removing...',
+'btn_confirm_and_remove_working' => 'Entfernen...',
 
-'confirm_removal' => 'Confirm Removal',
+'confirm_removal' => 'Entfernen bestätigen',
 
-'confirm_removal_desc' => 'You are attempting to remove the following items, please confirm this action.',
+'confirm_removal_desc' => 'Sie versuchen, die folgenden Sachen zu löschen. Bitte bestätigen Sie den Vorgang.',
 
-'btn_confirm_and_save' => 'Confirm, and Save',
+'btn_confirm_and_save' => 'Bestätigen & speichern',
 
-'btn_confirm_and_save_working' => 'Saving...',
+'btn_confirm_and_save_working' => 'Speichert...',
 
 
 /*confirm show all modal */
-'all_items' => 'All %d items',
+'all_items' => 'Alle %d Einträge',
 
-'confirm_show_all' => 'Confirm Show All',
+'confirm_show_all' => 'Alle anzeigen bestätigen',
 
-'confirm_show_all_btn' => 'Show All',
+'confirm_show_all_btn' => 'Alle anzeigen',
 
-'confirm_show_all_desc' => 'Viewing more than %d items at a time may result in reduced performance.',
+'confirm_show_all_desc' => 'Wenn Sie mehr als %d Elemente gleichzeitig anzeigen, kann dies die Leistung beeinträchtigen.',
 
 
 /* HTML Buttons */
@@ -614,23 +624,23 @@ $lang = array(
 
 'html_btn_blockquote' => 'Blockquote',
 
-'html_btn_bold' => 'Bold text',
+'html_btn_bold' => 'Fetter Text',
 
-'html_btn_ins' => 'Insert text',
+'html_btn_ins' => 'Text einfügen',
 
-'html_btn_italic' => 'Italic text',
+'html_btn_italic' => 'Kursiver Text',
 
-'html_btn_ol' => 'Ordered list',
+'html_btn_ol' => 'Geordnete Liste',
 
-'html_btn_picture' => 'Image',
+'html_btn_picture' => 'Bild',
 
-'html_btn_strike' => 'Strikethrough text',
+'html_btn_strike' => 'Durchgestrichener Text',
 
-'html_btn_ul' => 'Unordered list',
+'html_btn_ul' => 'Ungeordnete Liste',
 
-'html_button_ajax_reorder_fail' => 'Attention: Failed to save html buttons order',
+'html_button_ajax_reorder_fail' => 'Achtung: Die Anordnung der HTML-Buttons konnte nicht gesichert werden',
 
-'html_button_ajax_reorder_fail_desc' => 'We failed to save your new html buttons order. Refresh the page and make sure you\'re logged in.',
+'html_button_ajax_reorder_fail_desc' => 'Die Anordnung der HTML-Buttons konnte nicht gesichert werden. Aktualisieren Sie die Seite und stellen Sie sicher, dass Sie angemeldet sind.',
 
 );
 
