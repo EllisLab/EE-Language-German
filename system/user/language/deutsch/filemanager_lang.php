@@ -2,806 +2,899 @@
 
 $lang = array(
 
-// 3.0
+'all_files' => 'Alle Dateien',
 
-  'file'  => 'Datei',
-  'files' => 'Dateien',
-  'pixels' => 'Pixel',
+'append' => 'Dateiname um Zahl erweitern <i>&mdash; z.B.: %s</i>',
 
-  'file_manager' => 'Dateimanager',
+'btn_cancel_upload' => 'Upload abbrechen',
 
-  'upload_directory' => 'Upload-Verzeichnis',
+'btn_edit_file_meta' => 'Speichere Datei-Metadaten',
 
-  'upload_directories' => 'Upload-Verzeichnisse',
+'btn_finish_upload' => 'Auswahl übernehmen',
 
-  'all_files' => 'Alle Dateien',
+'categories' => 'Kategorien',
 
-  'show' => 'Zeige',
+'credit' => 'Kredit',
 
-  'custom_limit' => 'Eigenes Limit',
+'custom_limit' => 'Eigenes Limit',
 
-  'show_all_files' => 'Alle %d Dateien',
+'date_added' => 'Datum hinzugefügt',
 
-  'upload_new_file' => 'Neue Datei hochladen',
+'description' => 'Beschreibung',
 
-  'filter_upload_directories' => 'Filter die Verzeichnisse',
+'download' => 'Download',
 
-  'title_or_name' => 'Titel/Name',
+'edit_file_metadata' => 'Bearbeite "%s" Metadaten',
 
-  'file_type' => 'Dataityp',
+'edit_file_metadata_error' => 'Datei-Metadaten nicht aktualisiert',
 
-  'date_added' => 'Datum hinzugefügt',
+'edit_file_metadata_error_desc' => 'Die Datei-Metadaten konnten nicht aktualisiert werden, bitte die unten angezeigten Fehler beheben',
 
-  'download' => 'Herunterladen',
+'edit_file_metadata_success' => 'Datei-Metadaten aktualisiert',
 
-  'edit_file_metadata' => '"%s" Meta-Daten bearbeiten',
+'edit_file_metadata_success_desc' => 'Die Metadaten für die Datei <b>%s</b> wurden aktualisiert.',
 
-  'title' => 'Titel',
+'exceeds_max_dimensions' => 'Datei überschreitet maximale Dimensionen und ist nicht in der Größe veränderbar.',
 
-  'description' => 'Beschreibung',
+'file' => 'Datei',
 
-  'credit' => 'Credit',
+'file_conflict' => 'Dateikonflikt gefunden',
 
-  'location' => 'Ort',
+'file_conflict_desc' => 'Die Datei <b>%s</b> ist in diesem Verzeichnis bereits vorhanden.',
 
-  'btn_edit_file_meta' => 'Datei Meta-Daten bearbeiten',
-  
-  'file_data' => 'Datei-Informationen',
+'file_data' => 'Datei-Informationen',
 
-  'edit_file_metadata_success' => 'Datei Meta-Daten aktualisiert',
+'file_manager' => 'Dateimanager',
 
-  'edit_file_metadata_success_desc' => 'Die Meta-Daten für die Datei <b>%s</b> wurden aktualisiert.',
+'file_not_added_to_db' => 'Datei konnte in der Datenbank nicht eingetragen werden',
 
-  'edit_file_metadata_error' => 'Datei Meta-Daten nicht aktualisiert',
+'file_type' => 'Dateityp',
 
-  'edit_file_metadata_error_desc' => 'Die Datei Meta-Daten konnten nicht aktualisiert werden, bitte sehen Sie sich die unten aufgeführten Fehler an und beheben Sie diese.',
+'file_upload_stopped' => 'Hochladen der Datei wurde gestoppt',
 
-  'not_an_image' => 'Ausgewählte Datei ist kein Bild',
+'files' => 'Dateien',
 
-  'no_file' => 'Keine Datei ausgewählt',
-  
-  'no_filename' => 'Der neue Dateiname wurde nicht übermittelt.',
+'filter_upload_directories' => 'Filter die Upload-Verzeichnisse',
 
-  'file_upload_stopped' => 'Hochladen der Datei wurde gestoppt',
+'gd_not_installed' => 'Vorschaubild konnte nicht erstellt werden. GD wird für das Erstellen von Vorschaubildern verlangt.',
 
-  'file_conflict' => 'Dateikonflikt gefunden',
+'invalid_directory' => 'Sie haben ein ungültiges Verzeichnis angegeben',
 
-  'file_conflict_desc' => 'Die Datei <b>%s</b> ist in diesem Verzeichnis bereits vorhanden.',
+'invalid_filename' => 'Der Bildnamename darf nur alphanumerische Zeichen, Binde- oder Unterstrich enthalten.',
 
-  'upload_options' => 'Upload-Optionen für das Hochladen',
+'invalid_mime' => 'Ungültiger Mime-Typ, Datei wurde nicht verarbeitet',
 
-  'rename' => 'Neuen Dateinamen wählen',
+'invalid_short_name' => 'Der Kurzname zur Bildmanipulation darf nur alphanumerische Zeichen, Binde- oder Unterstrich enthalten und darf nicht "thumbs" genannt werden.',
 
-  'replace' => 'Ältere Datei ersetzen <i>&mdash; Datei wird überschrieben</i>',
+'location' => 'Ort',
 
-  'replace_no_metadata' => 'Nur die Datei wurde ersetzt. Titel, Beschreibung, Credit, Standort und Kategorien wurden nicht aktualisiert.',
+'no_file' => 'Keine Datei ausgewählt',
 
-  'append' => 'Dateiname um Zahl erweitern <i>&mdash; z.B.: %s</i>',
+'no_filename' => 'Der neue Dateiname wurde nicht übermittelt.',
 
-  'btn_finish_upload' => 'Auswahl übernehmen',
+'no_path_or_dir' => 'Sie müssen einen Dateipfad und eine Verzeichnis-ID angeben, um eine Datei zu speichern',
 
-  'btn_cancel_upload' => 'Abbrechen',
+'no_permission' => 'Sie haben keine Berechtigung, eine Datei zu speichern',
 
-  'no_upload_destination' => 'Kein Ort für den Upload definiert',
+'no_upload_destination' => 'Kein Ort für den Upload definiert',
 
-  'zero_directories_found' => 'Keine <b>Verzeichnisse</b> gefunden',
+'not_an_image' => 'Ausgewählte Datei ist kein Bild',
 
-  'files_in_directory' => 'Dateien in <b>%s</b>',
+'pixels' => 'Pixel',
 
-  'no_uploaded_files' => 'Es wurden keine Dateien in das Verzeichnis hochgeladen.',
+'problem_downloading_file' => 'Fehler beim Versuch, die gewählte Datei herunterzuladen. Bitte klären Sie, ob die Datei auf dem Server liegt.',
 
-  'export_all' => 'Alle Dateien exportieren',
+'problem_downloading_files' => 'Fehler beim Versuch, die gewählten Dateien herunterzuladen. Bitte klären Sie, ob die Datei auf dem Server liegt.',
 
-  'error_export' => 'Export fehlgeschlagen',
+'rename' => 'Die <strong>neuere</strong> Datei umbenennen',
 
-  'error_cannot_create_zip' => '.zip-Datei kann nicht angelegt werden',
+'replace' => 'Ältere Datei ersetzen <i>&mdash; Datei wird überschrieben</i>',
 
-  'error_cannot_add_file_to_zip' => 'Die Datei <b>%s</b> konnte nicht zur .zip-Datei hinzugefügt werden.',
+'replace_no_metadata' => 'Nur die Datei wurde ersetzt. Titel, Beschreibung, Credit, Standort und Kategorien wurden nicht aktualisiert.',
 
-  'size_b'  => ' Bytes',
-  'size_kb' => '<abbr title="Kilobyte">kb</abbr>',
-  'size_mb' => '<abbr title="Megabyte">mb</abbr>',
-  'size_gb' => '<abbr title="Gigabyte">gb</abbr>',
-  'size_tb' => '<abbr title="Terabyte">tb</abbr>',
+'search_files' => 'Suche Dateien',
 
-  'file_categories_desc' => 'Kategorisiere diese Datei',
+'security_failure' => 'Diesen Dateityp dürfen Sie nicht hochladen.',
 
-  'no_categories_assigned_file_desc' => 'Dieser Datei wurde keine Kategorien zugewiesen. <a href="%s">Kategorie-Gruppe zuweisen.</a>',
+'show_all_files' => 'Alle %d Dateien',
 
-  'success' => 'Erfolg',
+'thumb_not_created' => 'Vorschaubild konnte für das Bild nicht erstellt werden. Stellen Sie sicher, dass das Thumbnail-Verzeichnis Schreibrechte hat.',
 
-  'files_removed_desc' => 'Die folgenden Dateien wurden hochgeladen',
+'title' => 'Titel',
 
-  'btn_upload_file' => 'Gewählte Datei hochladen',
+'title_or_name' => 'Titel oderName',
 
-  'upload_directory_removed' => 'Upload-Verzeichnis entfernt',
+'upload_directories' => 'Upload-Verzeichnisse',
 
-  'upload_directory_removed_desc' => 'Das Upload-Verzeichnis <b>%s</b> wurde entfernt.',
+'upload_directory' => 'Upload-Verzeichnis',
 
-  'file_desc' => 'Datei auswählen zum Hochladen.',
+'upload_new_file' => 'Neue Datei hochladen',
 
-  'upload_filedata_error' => 'Datei kann nicht hochgeladen werden',
+'upload_options' => 'Upload-Optionen',
 
-  'upload_filedata_success' => 'Datei erfolgreich hochgeladen',
 
-  'upload_filedata_success_desc' => 'Die Datei <b>%s</b> wurde erfolgreich hochgeladen.',
+/* sidebar */
+'zero_directories_found' => 'Keine <b>Verzeichnisse</b> gefunden',
 
-  'edit_file_name' => '"%s" bearbeiten',
 
-  'crop_file' => 'Beschneiden, Drehen &amp; Größe anpassen "%s"',
+/* modal */
+'90_degrees_left' => '90 Grad links',
 
-  'btn_crop' => 'Beschneiden, Drehen &amp; Größe anpassen',
+'90_degrees_right' => '90 Grad rechts',
 
-  'constraints' => 'Begrenzungen',
+'btn_crop' => 'Beschneiden, Drehen und Größe anpassen',
 
-  'crop_constraints_desc' => 'Maximale Höhe und Breite, auf die das Bild zugeschnitten wird.',
+'btn_crop_and_save_image' => 'Bild zuschneiden und sichern',
 
-  'resize_constraints_desc' => 'Maximale Höhe und Breite, auf die das Bild skaliert wird.',
+'btn_resize_and_save_image' => 'Bild skalieren und sichern',
 
-  'width' => 'Breite',
-  'height' => 'Höhe',
+'btn_rotate_and_save_image' => 'Bild drehen und sichern',
 
-  'coordinates' => 'Koordinaten',
+'btn_upload_file' => 'Gewählte Datei hochladen',
 
-  'coordiantes_desc' => 'x (horizontale) und y (vertikale) Koordinaten von denen aus zugeschnitten wird.',
+'btn_uploading' => 'Upload läuft...',
 
-  'x_axis' => 'x-Achse',
-  'y_axis' => 'y-Achse',
+'check_upload_settings' => '<a href="%s">Einstellungen</a> für dieses Upload-Verzeichnis überprüfen.',
 
-  'rotation' => 'Drehung',
+'constraints' => 'Einschränkungen',
 
-  'rotation_desc' => 'Bild wird der gewünschten Wahl entsprechend gedreht.',
+'coordiantes_desc' => 'x (horizontale) und y (vertikale) Koordinaten, von denen aus zugeschnitten wird.',
 
-  '90_degrees_right' => '90 Grad, rechts',
-  '90_degrees_left' => '90 Grad, links',
-  'flip_vertically' => 'Spiegeln, vertikal',
-  'flip_horizontally' => 'Spiegeln, horizontal',
+'coordinates' => 'Koordinaten',
 
-  'btn_crop_and_save_image' => 'Bild zuschneiden und sichern',
+'crop_constraints_desc' => 'Maximum width and height to crop this image down to.',
 
-  'btn_rotate_and_save_image' => 'Bild drehen und sichern',
+'crop_file' => 'Beschneiden, Drehen und Größe anpassen "%s"',
 
-  'btn_resize_and_save_image' => 'Bild skalieren und sichern',
+'crop_file_error' => 'Kann Datei nicht %s',
 
-  'crop' => 'beschneiden',
-  'cropped' => 'beschnitten',
-  'rotate' => 'drehen',
-  'rotated' => 'gedreht',
-  'resize' => 'skalieren',
-  'resized' => 'skaliert',
+'crop_file_error_desc' => 'Die Datei konnte nicht %s werden, bitte die unten angezeigten Fehler beheben.',
 
-  'crop_file_success' => 'Datei %s erfolgreich',
+'crop_file_success' => 'Datei %s erfolgreich',
 
-  'crop_file_success_desc' => 'Die Datei <b>%s</b> wurde erfolgreich %s .',
+'crop_file_success_desc' => 'Die Datei <b>%s</b> wurde erfolgreich %s .',
 
-  'crop_file_error' => 'Kann Datei nicht %s',
+'cropped' => 'beschnitten',
 
-  'crop_file_error_desc' => 'Die Datei konnte nicht %s werden, bitte sehen Sie sich die unten aufgeführten Fehler an und beheben Sie diese.',
+'dir_not_writable' => 'Verzeichnis nicht beschreibbar',
 
-  'files_not_found' => 'Dateien nicht gefunden',
+'dir_not_writable_desc' => 'In das Verzeichnis <b>%s</b> kann nicht geschrieben werden.<br>Bitte die Schreibrechte auf dem Server überprüfen.',
 
-  'files_not_found_desc' => 'Gekennzeichnete Dateien können auf dem Server nicht gefunden werden.',
+'directory_not_found' => 'Das Verzeichnis  <b>%s</b> wurde nicht gefunden.',
 
-  'file_not_found' => 'Datei nicht gefunden',
+'edit_file_name' => '"%s" bearbeiten',
 
-  'file_not_found_desc' => 'Die Datei <b>%s</b> wurde nicht gefunden.',
+'error_cannot_add_file_to_zip' => 'Die Datei <b>%s</b> konnte nicht zur .zip-Datei hinzugefügt werden.',
 
-  'directory_not_found' => 'Das Verzeichnis  <b>%s</b> wurde nicht gefunden.',
+'error_cannot_create_zip' => '.zip-Datei kann nicht angelegt werden',
 
-  'check_upload_settings' => '<a href="%s">Einstellungen</a> überprüfen für dieses Upload-Verzeichnis.',
+'error_export' => 'Export fehlgeschlagen',
 
-  'file_not_writable' => 'Datei nicht beschreibbar',
+'export_all' => 'Alle Dateien exportieren',
 
-  'file_not_writable_desc' => 'Die Datei <b>%s</b> kann nicht beschrieben werden.<br>Bitte die Schreibrechte auf dem Server überprüfen.',
+'file_categories_desc' => 'Kategorisiere diese Datei',
 
-  'dir_not_writable' => 'Verzeichnis nicht beschreibbar',
+'file_desc' => 'Datei zum Hochladen auswählen.',
 
-  'dir_not_writable_desc' => 'In das Verzeichnis <b>%s</b> kann nicht geschrieben werden.<br>Bitte die Schreibrechte auf dem Server überprüfen.',
+'file_not_found' => 'Datei nicht gefudnen',
 
-  /**
-   * Uploads
-   */
+'file_not_found_desc' => 'Konnte die Daten <b>%s</b> nicht finden.',
 
-  'all_upload_dirs' => 'Alle Upload-Verzeichnisse',
+'file_not_writable' => 'Datei nicht beschreibbar',
 
-  'file_manager' => 'Datei-Manager',
+'file_not_writable_desc' => 'Die Datei <b>%s</b> kann nicht beschrieben werden.<br>Bitte die Schreibrechte auf dem Server überprüfen.',
 
-  'upload_id' => 'ID#',
+'files_in_directory' => 'Dateien in <b>%s</b>',
 
-  'upload_directory' => 'Verzeichnis',
+'files_not_found' => 'Dateien nicht gefunden',
 
-  'upload_manage' => 'Verwalten',
+'files_not_found_desc' => 'Die markierten Dateien <b>%s</b> wurden nicht gefunden',
 
-  'upload_btn_view' => 'ansehen',
+'files_removed_desc' => 'Die folgenden Dateien wurden entfernt',
 
-  'upload_btn_edit' => 'bearbeiten',
+'flip_horizontally' => 'Horizontal spiegeln',
 
-  'upload_btn_sync' => 'synchronisieren',
+'flip_vertically' => 'Vertikal spiegeln',
 
-  'upload_remove_modal_upload_directory' => 'Upload-Verzeichnis',
+'height' => 'Höhe',
 
-  'upload_remove_modal_directories' => 'Verzeichnisse',
+'no_categories_assigned_file_desc' => 'Dieser Datei wurde keine Kategorien zugewiesen. <a href="%s">Kategorie-Gruppe zuweisen.</a>',
 
-  'no_upload_directories' => 'Keine Upload-Verzeichnisse',
+'no_uploaded_files' => 'Es wurden keine Dateien in das Verzeichnis hochgeladen.',
 
-  'create_upload_directory' => 'Upload-Verzeichnis anlegen',
+'resize_constraints_desc' => 'Maximale Höhe und Breite, auf die das Bild skaliert wird.',
 
-  'new_upload_directory' => 'Neues Upload-Verzeichnis',
+'resized' => 'skaliert',
 
-  'edit_upload_directory' => 'Upload-Verzeichnis bearbeiten',
+'rotated' => 'gedreht',
 
-  'upload_url' => 'Upload-Verzeichnis',
+'rotation' => 'Drehung',
 
-  'upload_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Pfad des <mark>Upload</mark> Verzeichnisses.',
+'rotation_desc' => 'Bild wird der gewünschten Wahl entsprechend gedreht.',
 
-  'upload_path' => 'Upload-Pfad',
+'size_b' => ' Bytes',
 
-  'upload_path_desc' => 'Absoluter Pfad dieses <mark>Upload</mark>-Verzeichnisses.',
+'size_gb' => '<abbr title="Gigabyte">gb</abbr>',
 
-  'upload_allowed_types' => 'Erlaubte Dateitypen?',
+'size_kb' => '<abbr title="Kilobyte">kb</abbr>',
 
-  'upload_allowed_types_opt_images' => 'Nur Bilder',
+'size_mb' => '<abbr title="Megabyte">mb</abbr>',
 
-  'upload_allowed_types_opt_all' => 'Alle Dateitypen',
+'size_tb' => '<abbr title="Terabyte">tb</abbr>',
 
-  'default_modal_view' => 'Standard-Modal-Ansicht?',
-  'default_modal_view_desc' => 'Standard-Ansicht für dieses Upload-Verzeichnis im Dateipicker Modal.',
-  'default_modal_view_list' => 'Liste',
-  'default_modal_view_thumbnails' => 'Thumbnails',
+'success' => 'Erfolg',
 
-  'file_limits' => 'Datei-Limits',
+'upload_directory_removed' => 'Upload-Verzeichnis entfernt',
 
-  'upload_file_size' => 'Dateigröße',
+'upload_directory_removed_desc' => 'Das Upload-Verzeichnis <b>%s</b> wurde entfernt.',
 
-  'upload_file_size_desc' => 'Maximale Dateigröße in Megabytes.',
+'upload_filedata_error' => 'Datei kann nicht hochgeladen werden',
 
-  'upload_image_width' => 'Bildbreite',
+'upload_filedata_success' => 'Datei erfolgreich hochgeladen',
 
-  'upload_image_width_desc' => 'Maximale Bildbreite in Pixels.',
+'upload_filedata_success_desc' => 'Die Datei <b>%s</b> wurde erfolgreich hochgeladen.',
 
-  'upload_image_height' => 'Bildhöhe',
+'width' => 'Breite',
 
-  'upload_image_height_desc' => 'Maximale Bildhöhe in Pixels.',
+'x_axis' => 'x-Achse',
 
-  'upload_image_manipulations' => 'Bildbearbeitungen',
+'y_axis' => 'y-Achse',
 
-  'constrain_or_crop' => 'Skalieren oder Beschneiden',
+'zero_upload_directories_found' => 'Kein <b>Upload-Verzeichnis</b> gefunden.',
 
-  'constrain_or_crop_desc' => 'Veränderungen an Bildern in diesem <mark>Upload</mark>-Verzeichnis beim Upload.',
 
-  'image_manip_name' => 'Kurzname',
+/* Uploads */
+'add_manipulation' => 'Neue Bildbearbeitung anlegen',
 
-  'image_manip_name_desc' => 'Kurzname für diesen Bearbeitungsschritt',
+'all_upload_dirs' => 'Alle Upload-Verzeichnisse',
 
-  'image_manip_type' => 'Art',
+'apply_manipulations' => 'Bildbearbeitung anwenden',
 
-  'image_manip_type_desc' => 'Art der Bearbeitung',
+'apply_manipulations_desc' => 'Die gewählte Bildbearbeitung für die Dateien in diesem Verzeichnis während der Synchronisation. Erhöht die Zeit der Synchronisation.',
 
-  'image_manip_type_opt_constrain' => 'Skalieren (ganzes Bild)',
+'bottom' => 'Unten',
 
-  'image_manip_type_opt_crop' => 'Beschneiden (Teil vom Bild)',
+'btn_create_directory' => 'Verzeichnis anlegen',
 
-  'image_manip_width' => 'Breite',
+'btn_create_directory_working' => 'Anlegen läuft...',
 
-  'image_manip_width_desc' => 'Finale Breite des Bildes',
+'btn_edit_directory' => 'Verzeichnis bearbeiten',
 
-  'image_manip_height' => 'Höhe',
+'btn_sync_directory' => 'Verzeichnis synchronisieren',
 
-  'image_manip_height_desc' => 'Finale Höhe des Bildes',
+'btn_sync_directory_working' => 'Synchronisiert...',
 
-  'image_manip_watermark' => 'Wasserzeichen',
+'by' => 'von',
 
-  'image_manip_watermark_desc' => 'Wasserzeichen hinzufügen',
+'center' => 'Mitte',
 
-  'no_watermark' => 'Kein Wasserzeichen',
+'constrain_or_crop' => 'Skalieren oder Beschneiden',
 
-  'image_manip_dimension_required' => 'Eine Höhe oder Breite muss eingegeben werden, wenn kein Wasserzeichen gewählt wurde.',
+'constrain_or_crop_desc' => 'Veränderungen an Bildern in diesem <mark>Upload</mark>-Verzeichnis beim Upload.',
 
-  'no_manipulations' => 'Keine Bildbearbeitung angelegt',
+'create_upload_directory' => 'Upload-Verzeichnis anlegen',
 
-  'add_manipulation' => 'Neue Bildbearbeitung anlegen',
+'create_watermark' => 'Wasserzeichen anlegen',
 
-  'upload_privileges' => 'Upload-Rechte',
+'default_modal_view' => 'Standard-Modal-Ansicht?',
 
-  'upload_member_groups' => 'Berechtigte Mitgliedergruppen',
+'default_modal_view_desc' => 'Standard-Ansicht für dieses Upload-Verzeichnis im Dateipicker Modal.',
 
-  'upload_member_groups_desc' => 'Die folgenden Mitgliedergruppen dürfen in dieses Verzeichnis hochladen.</em>
-<em>Super Administratoren dürfen <b>immer</b>.',
+'default_modal_view_list' => 'Liste',
 
-  'upload_category_groups' => 'Erlaubte Kategorie-Gruppen',
+'default_modal_view_thumbnails' => 'Thumbnails',
 
-  'upload_category_groups_desc' => 'Kategorien aus folgenden Kategorie-Gruppen dürfen den Dateien zugewiesen werden.',
+'directory_not_saved' => 'Achtung: Upload-Verzeichnis nicht gesichert',
 
-  'directory_saved' => 'Upload-Verzeichnis gesichert',
+'directory_not_saved_desc' => 'Das Upload-Verzeichnis konnte nicht gesichert werden, bitte die unten angezeigten Fehler beheben',
 
-  'directory_saved_desc' => 'Das Upload-Verzeichnis wurde erfolgreich gesichert.',
+'directory_saved' => 'Upload-Verzeichnis gesichert',
 
-  'directory_not_saved' => 'Achtung: Upload-Verzeichnis nicht gesichert',
+'directory_saved_desc' => 'Das Upload-Verzeichnis wurde erfolgreich gesichert.',
 
-  'directory_not_saved_desc' => 'Das Upload-Verzeichnis konnte nicht gesichert werden, bitte sehen Sie sich die unten aufgeführten Fehler an und beheben Sie diese.',
+'directory_sync_warning' => 'Some files could not be synchronized',
 
-  'duplicate_dir_name' => 'Der Verzeichnisname ist bereits vergeben.',
+'directory_synced' => 'Upload-Verzeichnis synchronisiert',
 
-  'duplicate_image_size_name' => 'Für die Bildbearbeitung muss ein individueller Name gewählt werden.',
+'directory_synced_desc' => 'Die Inhalte des Upload-Verzeichnisses wurden erfolgreich synchronisiert.',
 
-  'btn_create_directory' => 'Verzeichnis anlegen',
+'duplicate_dir_name' => 'Der Verzeichnisname ist bereits vergeben.',
 
-  'btn_create_directory_working' => 'Anlegen...',
+'duplicate_image_size_name' => 'Für die Bildbearbeitung muss ein individueller Name gewählt werden.',
 
-  'btn_edit_directory' => 'Verzeichnis bearbeiten',
+'edit_upload_directory' => 'Upload-Verzeichnis bearbeiten',
 
-  'sync_title' => 'Verzeichnis synchronisieren',
+'edit_watermark' => 'Wasserzeichen bearbeiten',
 
-  'sync_alt_title' => 'Synchronisiere %s',
+'file_limits' => 'Datei-Limits',
 
-  'file_sync' => 'Datei synchronisieren',
+'file_sync' => 'Datei synchronisieren',
 
-  'file_sync_desc' => '<b>%d</b> Dateien',
+'file_sync_desc' => '<b>%d</b> Dateien',
 
-  'file_sync_desc_images' => '<b>%d</b> <mark>Bild</mark>-Dateien',
+'file_sync_desc_images' => '<b>%d</b> <mark>Bild</mark>-Dateien',
 
-  'apply_manipulations' => 'Bildbearbeitung anwenden',
+'horizontal' => 'horizontal',
 
-  'apply_manipulations_desc' => 'Die gewählte Bildbearbeitung für die Dateien in diesem Verzeichnis während der Synchronisation. Erhöht die Zeit der Synchronisation.',
+'image' => 'Bild',
 
-  'crop' => 'beschneiden',
+'image_manip_dimension_required' => 'Eine Höhe oder Breite muss eingegeben werden, wenn kein Wasserzeichen gewählt wurde.',
 
-  'constrain' => 'skalieren',
+'image_manip_height' => 'Höhe',
 
-  'by' => 'von',
+'image_manip_height_desc' => 'Finale Höhe des Bildes',
 
-  'btn_sync_directory' => 'Synchronisations-Verzeichnis',
+'image_manip_name' => 'Kurzname',
 
-  'btn_sync_directory_working' => 'Synchronisiere...',
+'image_manip_name_desc' => 'Kurzname für diesen Bearbeitungsschritt',
 
-  'directory_synced' => 'Upload-Verzeichnis synchronisiert',
+'image_manip_type' => 'Art',
 
-  'directory_synced_desc' => 'Die Inhalte des Upload-Verzeichnisses wurden erfolgreich synchronisiert.',
+'image_manip_type_desc' => 'Art der Bearbeitung',
 
-  'directory_sync_warning' => 'Einige Dateien konnten nicht synchronisiert werden',
+'image_manip_type_opt_constrain' => 'Skalieren (ganzes Bild)',
 
-  'watermark' => 'Wasserzeichen',
+'image_manip_type_opt_crop' => 'Beschneiden (Teil vom Bild)',
 
-  'watermarks' => 'Wasserzeichen',
+'image_manip_watermark' => 'Wasserzeichen',
 
-  'create_watermark' => 'Wasserzeichen anlegen',
+'image_manip_watermark_desc' => 'Wasserzeichen hinzufügen',
 
-  'edit_watermark' => 'Wasserzeichen bearbeiten',
+'image_manip_width' => 'Breite',
 
-  'watermarks_removed' => 'Wasserzeichen entfernt',
+'image_manip_width_desc' => 'Finale Breite des Bildes',
 
-  'watermarks_removed_desc' => '%d Wasserzeichen wurden entfernt.',
+'image_options' => 'Bild-Optionen',
 
-  'text' => 'Text',
+'left' => 'Links',
 
-  'image' => 'Bild',
+'middle' => 'Mitte',
 
-  'watermark_alignment' => 'Anordnung',
+'new_upload_directory' => 'Neues Upload-Verzeichnis',
 
-  'watermark_alignment_desc' => 'Legt fest, wo das Wasserzeichen auf dem Bild erscheinen wird.',
+'no_manipulations' => 'Keine Bildbearbeitung angelegt',
 
-  'top' => 'Oben',
+'no_upload_directories' => 'Kein Upload-Verzeichnis angelegt',
 
-  'middle' => 'Mitte',
+'no_watermark' => 'Kein Wasserzeichen',
 
-  'bottom' => 'Unten',
+'right' => 'Rechts',
 
-  'left' => 'Links',
+'sync_alt_title' => 'Synchronisiere %s',
 
-  'center' => 'Mitte',
+'sync_title' => 'Verzeichnis synchronisieren',
 
-  'right' => 'Rechts',
+'text' => 'Text',
 
-  'watermark_padding' => 'Abstand',
+'text_options' => 'Text-Optionen',
 
-  'watermark_padding_desc' => 'Abstand um das Wasserzeichen herum.',
+'top' => 'Oben',
 
-  'watermark_offset' => 'Offset',
+'upload_allowed_types' => 'Erlaubte Dateitypen?',
 
-  'watermark_offset_desc' => 'Abstand in Pixeln von der Bildkante.',
+'upload_allowed_types_opt_all' => 'Alle Dateitypen?',
 
-  'horizontal' => 'horizontal',
+'upload_allowed_types_opt_images' => 'Nur Bilder',
 
-  'vertical' => 'vertikal',
+'upload_btn_edit' => 'beabreiten',
 
-  'text_options' => 'Text-Optionen',
+'upload_btn_sync' => 'synchronisieren',
 
-  'watermarks_true_type' => 'True Type aktivieren?',
+'upload_btn_view' => 'ansehen',
 
-  'watermarks_true_type_desc' => 'Wenn auf <b>ja</b> gesetzt, werden Text-Wasserzeichen mittels True Type gerendert.',
+'upload_category_groups' => 'Kategoriengruppen',
 
-  'watermark_text' => 'Text',
+'upload_category_groups_desc' => 'Kategorien aus folgenden Kategorie-Gruppen dürfen den Dateien zugewiesen werden.',
 
-  'watermark_text_desc' => 'Inhalt dieses Wasserzeichens',
+'upload_file_size' => 'Dateigröße',
 
-  'watermark_text_font' => 'Schrifttyp',
+'upload_file_size_desc' => 'Maximale Dateigröße in Kilobytes.',
 
-  'watermark_text_size' => 'Textgröße',
+'upload_id' => 'ID#',
 
-  'watermark_text_color' => 'Textfarbe',
+'upload_image_height' => 'Bildhöhe',
 
-  'watermark_text_dropshadow' => 'Schatten aktivieren?',
+'upload_image_height_desc' => 'Maximale Bildhöhe pin Pixel.',
 
-  'watermark_text_dropshadow_desc' => 'Wenn auf <b>ja</b> gesetzt, wird ein Schatten gerendert.',
+'upload_image_manipulations' => 'Bildbearbeitungen',
 
-  'watermark_text_dropshadow_distance' => 'Schattenabstand',
+'upload_image_width' => 'Bildbreite',
 
-  'watermark_text_dropshadow_color' => 'Schattenfarbe',
+'upload_image_width_desc' => 'Maximale Bildbreite in Pixel.',
 
-  'image_options' => 'Bild-Optionen',
+'upload_manage' => 'Verwalten',
 
-  'watermark_image_path' => 'Pfad',
+'upload_member_groups' => 'Erlaubte Mitgliedergruppen',
 
-  'watermark_image_path_desc' => 'Ganzer Pfad zum Bild für das Wasserzeichen.',
+'upload_member_groups_desc' => 'Die folgenden Mitgliedergruppen dürfen in dieses Verzeichnis hochladen.</em><br /><em>Super Administratoren dürfen <b>immer</b>.',
 
-  'watermark_image_opacity' => 'Deckkraft',
+'upload_path' => 'Upload-Pfad',
 
-  'watermark_image_opacity_desc' => 'Wert für die Deckkraft des Wasserzeichens.',
+'upload_path_desc' => 'Absoluter Pfad dieses <mark>Upload</mark>-Verzeichnisses.',
 
-  'watermark_image_transparency_map' => 'Bild-Durchsichtigkeitskarte',
+'upload_privileges' => 'Upload-Rechte',
 
-  'watermark_image_transparency_map_desc' => 'Koordinaten für die Alphatransparenz der Bilder, die mit Wasserzeichen versehen werden.',
+'upload_remove_modal_directories' => 'Verzeichnisse',
 
-  'x_axis' => 'x-Achse',
+'upload_remove_modal_upload_directory' => 'Upload-Verzeichnis',
 
-  'y_axis' => 'y-Achse',
+'upload_url' => 'Upload-Verzeichnis',
 
-  'watermark_created' => 'Wasserzeichen angelegt',
+'upload_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Pfad des <mark>Upload</mark> Verzeichnisses.',
 
-  'watermark_created_desc' => 'Das Wasserzeichen <b>%s</b> wurde angelegt.',
+'vertical' => 'vertikal',
 
-  'watermark_not_created' => 'Wasserzeichen kann nicht angelegt werden',
+'watermark' => 'Wasserzeichen',
 
-  'watermark_not_created_desc' => 'Das Wasserzeichen konnte nicht angelegt werden, bitte sehen Sie sich die unten aufgeführten Fehler an und beheben Sie diese.',
+'watermark_alignment' => 'Ausrichtung',
 
-  'watermark_updated' => 'Wasserzeichen aktualisiert',
+'watermark_alignment_desc' => 'Legt fest, wo das Wasserzeichen auf dem Bild erscheinen wird.',
 
-  'watermark_updated_desc' => 'Das Wasserzeichen <b>%s</b> wurde aktualisiert.',
+'watermark_created' => 'Wasserzeichen angelegt',
 
-  'watermark_not_updated' => 'Wasserzeichen nicht aktualisiert',
+'watermark_created_desc' => 'Das Wasserzeichen <b>%s</b> wurde angelegt.',
 
-  'watermark_not_updated_desc' => 'Das Wasserzeichen konnte nicht aktualisiert werden, bitte sehen Sie sich die unten aufgeführten Fehler an und beheben Sie diese.',
+'watermark_image_opacity' => 'Deckkraft',
 
+'watermark_image_opacity_desc' => 'Wert für die Deckkraft des Wasserzeichens.',
 
-// 2.x
+'watermark_image_path' => 'Pfad',
 
-  'content_files' => 'Dateimanager',
+'watermark_image_path_desc' => 'Absoluter Pfad zum Bild für das Wasserzeichen.',
 
-  'upload_dir_choose' => 'Upload-Verzeichnis wählen',
-  'file_upload_prefs' => 'Datei-Upload-Einstellungen',
-  'create_new_upload_pref' => 'Neue Upload-Ziel erstellen',
-  'file_information' => 'Datei-Information',
-  'upload' => 'Upload',
-  'upload_file' => 'Datei uploaden',
-  'file_upload' => 'Datei-Upload',
-  'file_download' => 'Download',
-  'file_tools' => 'Datei-Tools',
-  'choose_file' => 'Bitte eine Datei zum Löschen wählen',
-  'confirm_del_file' => 'Soll diese Datei definitiv gelöscht werden?',
-  'confirm_del_files' => 'Sollen diese Dateien definitiv gelöscht werden?',
-  'delete_success' => 'Löschen erfolgreich',
-  'delete_fail' => 'Es gab beim Löschen einer oder mehrerer Datei(en) ein Problem. Bitte die Liste überprüfen.',
-  'file_name' => 'Dateiname',
-  'file_size' => 'Dateigröße',
-  'file_size_unit' => 'KB',
-  'size' => 'Größe',
-  'kind' => 'Art',
-  'where' => 'Wo',
-  'permissions' => 'Berechtigungen',
-  'upload_success' => 'Hochladen erfolgreich',
-  'upload_edit' => 'Größe ändern und Drehen',
-  'upload_rename' => 'Datei besteht bereits',
-  'upload_rename_message' => 'Eine Datei mit diesem Dateinamen besteht bereits. Wählen Sie entweder einen neuen Namen, um die Datei umzubenennen, oder behalten Sie den bestehenden Namen und die Datei wird überschrieben.',
-  'no_upload_dirs' => 'Es ist kein Upload-Verzeichnis definiert',
-  'image_editor' => 'Bildeditor',
-  'download_selected' => 'Download der ausgewählten Dateien',
-  'email_files' => 'Emailen der ausgewählten Dateien',
-  'delete_selected_files' => 'Löschen der ausgewählten Dateien',
-  'rename_file' => 'Datei umbenennen',
-  'edit_file' => 'Datei bearbeiten',
-  'save_file' => 'Datei speichern',
-  'file_metadata' => 'Metadaten der Datei',
+'watermark_image_transparency_map' => 'Bild-Durchsichtigkeitskarte',
 
-// Upload modal
-  'use_file' => 'Hochgeladene Datei benutzen',
-  'browse_files' => 'Dateien durchsuchen',
-  'image_tools' => 'Bild-Tools',
-  'no_change' => 'Keine Änderung',
+'watermark_image_transparency_map_desc' => 'Koordinaten für die Alphatransparenz der Bilder, die mit Wasserzeichen versehen werden.',
 
-  'edit_modes' => 'Bearbeitenmodi',
-  'resize' => 'Neue Größe',
-  'crop' => 'Zuschneiden',
-  'constrain' => 'Beschränken',
-  'resize_width' => 'Breite',
-  'resize_height' => 'Höhe',
-  'crop_width' => 'Breite',
-  'crop_height' => 'Höhe',
-  'crop_x' => 'X',
-  'crop_y' => 'Y',
-  'rotate' => 'Drehen',
-  'rotate_90r' => '90&#176; Rechts',
-  'rotate_90l' => '90&#176; Links',
-  'rotate_180' => '180&#176',
-  'rotate_flip_vert' => 'Flip Vertikal',
-  'rotate_flip_hor' => 'Flip Horizontal',
-  'maintain_ratio' => 'Seitenverhältnis beibehalten',
-  'width_needed' => 'Eine Breite oder Breite/Höhe muss angegeben sein, oder eine Drehen/Flip-Richtung.',
-  'file_exists_replacement_error' => 'Eine Datei mit diesem Namen besteht bereits, aber sie ist in der Datenbank zum Überschreiben nicht vorhanden.',
+'watermark_not_created' => 'Wasserzeichen kann nicht angelegt werden',
 
-  'resize_over_confirmation' => 'Dieses Bild zu vergrößern ergibt eine niedere Bildqualität. Wollen Sie das wirklich tun?',
+'watermark_not_created_desc' => 'Das Wasserzeichen konnte nicht angelegt werden, bitte sehen Sie sich die unten aufgeführten Fehler an und beheben Sie diese.',
 
-  'resize_type' => 'Größenänderungsart',
-  'crop_mode' => 'Zuschneidemodus',
-  'resize_mode' => 'Neue Größe-Modus',
-  'rotate_mode' => 'Drehen-Modus',
-  'apply_changes' => 'Änderungen übernehmen?',
-  'cancel_changes' => 'Änderungen zurücknehmen',
-  'exit_apply_changes' => 'Sie verlassen diesen Bearbeitungsmodus. Sollen die Änderungen zuerst übernommen werden?',
-  'processing_image' => 'Bearbeite Bild',
-  'done' => 'Beenden',
-  'edit_image' => 'Bild speichern',
-  'save_image' => 'Bild speichern',
-  'image_edit_success' => 'Bild erfolgreich bearbeitet',
-  'no_edit_selected' => 'Keine Bearbeitungsoperation gewählt',
-  'uploading_file' => 'Lade Datei hoch',
-  'apply_changes'			=> 'Änderungen anwenden',
+'watermark_not_updated' => 'Wasserzeichen nicht aktualisiert',
 
-  'list' => 'Liste',
-  'thumbnails' => 'Vorschaubilder',
-  'pagination_count_text' => 'Zeige %s bis %s von %s Dateien',
-  'pagination_filter_text' => 'Zeige Dateien als %s.',
-  'pagination_page' => 'Seite',
-  'all_categories' => 'alle Kategorien',
-  'total_dir_size' => 'Total Verzeichnisgröße',
-  'no_upload_dirs_available' => 'Kein Upload-Ort verfügbar',
+'watermark_not_updated_desc' => 'Das Wasserzeichen konnte nicht aktualisiert werden, bitte die unten angezeigten Fehler beheben',
 
-  'save_crop' => 'Zuschnitt speichern',
-  'cancel_crop' => 'Zuschnitt abbrechen',
-  'batch_location' => 'Stapel-Upload-Ort',
+'watermark_offset' => 'Offset',
 
-  'edit_file_upload_preferences' => 'Datei-Upload Einstellungen bearbeiten',
+'watermark_offset_desc' => 'Abstand in Pixeln von der Bildkante.',
 
-  'new_file_upload_preferences' => 'Neues Datei-Upload-Ziel',
+'watermark_padding' => 'Abstand',
 
-  'new_file_upload_created' => 'Neuen Datei-Upload erstellt',
+'watermark_padding_desc' => 'Abstand um das Wasserzeichen herum.',
 
-  'file_upload_preferences' => 'Datei-Upload-Einstellungen',
+'watermark_text' => 'Text',
 
-  'no_upload_prefs' => 'Es gibt momentan keine Datei-Upload-Einstellungen',
+'watermark_text_color' => 'Textfarbe',
 
-  'no_upload_directories' => 'Es bestehen noch keine Upload-Verzeichnisse. Bitte erstellen Sie eines oder mehrere, um den Feldtyp benutzen zu können.',
+'watermark_text_desc' => 'Inhalt dieses Wasserzeichens',
 
-  'please_add_upload' => 'Es bestehen noch keine Upoload-Verzeichnisse. Bitte erstellen Sie eines oder mehrere, um den Feldtyp benutzen zu können.',
+'watermark_text_dropshadow' => 'Schatten aktivieren?',
 
-  'upload_pref_name' => 'Beschreibender Name für das Upload-Verzeichnis',
+'watermark_text_dropshadow_color' => 'Schattenfarbe',
 
-  'new_file_upload_preferences' => 'Neues Datei-Upload-Ziel',
+'watermark_text_dropshadow_desc' => 'Wenn aktiviert, wird ein Schatten gerendert.',
 
-  'server_path' => 'Serverpfad für das Upload-Verzeichnis',
+'watermark_text_dropshadow_distance' => 'Schattenabstand',
 
-  'url_to_upload_dir' => 'URL für das Upload-Verzeichnis',
+'watermark_text_font' => 'Schrifttyp',
 
-  'allowed_types' => 'Erlaubte Filetypen',
+'watermark_text_size' => 'Textgröße',
 
-  'max_size' => 'Maximale Dateigröße (in Bytes)',
+'watermark_updated' => 'Wasserzeichen aktualisiert',
 
-  'php_max_filesize' => 'Maximaler Uploadgröße von PHP ist %s',
+'watermark_updated_desc' => 'Das Wasserzeichen <b>%s</b> wurde aktualisiert.',
 
-  'max_height' => 'Maximale Bildhöhe (in Pixel)',
+'watermarks' => 'Wasserzeichen',
 
-  'max_width' => 'Maximale Bildbreite',
+'watermarks_removed' => 'Wassenzeichen wurden entfernt',
 
-  'properties' => 'Bildeigenschaften',
+'watermarks_removed_desc' => '%d Wasserzeichen wurden entfernt.',
 
-  'pre_format' => 'Bild-Vorformatierung',
+'watermarks_true_type' => 'True Type aktivieren?',
 
-  'post_format' => 'Bild-Nachformatierung',
+'watermarks_true_type_desc' => 'Wenn aktiviert, werden Text-Wasserzeichen mittels True Type gerendert.',
 
-  'delete_upload_preference' => 'Upload-Einstellungen löschen',
 
-  'delete_upload_pref_confirmation' => 'Sind Sie sicher, dass Sie diese Einstellungen definitiv löschen wollen?',
+/* 2.x */
+'choose_file' => 'Bitte eine Datei zum Löschen wählen',
 
-  'upload_pref_deleted' => 'Upload',
+'confirm_del_file' => 'Diese Datei endgültig löschen?',
 
-  'current_upload_prefs' => 'Aktuelle Einstellungen',
+'confirm_del_files' => 'Diese Dateien endgültig löschen?',
 
-  'file_directory_id' => 'ID',
+'content_files' => 'Dateimanager',
 
-  'max_image_action' => 'Massnahme wenn die Bildgröße überschritten wird',
+'create_new_upload_pref' => 'Neues Upload-Ziel erstellen',
 
-  'disallow_image' => 'Bild verweigern',
+'delete_fail' => 'Beim Löschen einer oder mehrerer Datei(en) gab es ein Problem. Bitte die Liste überprüfen.',
 
-  'image_sizes' => 'Bildbearbeitungen',
+'delete_selected_files' => 'Löschen der ausgewählten Dateien',
 
-  'image_sizes_rebuild' => 'Neue Bilder werden alle Bildbearbeitungen automatisch erfahren. Wenn Sie jedoch Bildbearbeitungen auf bestehenden Bilder nachholen wollen, setzen Sie das Häckchen für die Bearbeitungen.',
+'delete_success' => 'Löschen erfolgreich',
 
-  'image_sizes_subtext' => 'Zusätzliche Bilder, die automatisch bei jedem Bild-Upload erstellt werden.',
+'download_selected' => 'Download der ausgewählten Dateien',
 
+'edit_file' => 'Datei bearbeiten',
 
-  'restrict_to_group' => 'Beschränke Datei-Upload auf Mitgliedergruppen',
+'email_files' => 'Ausgewählte Dateien emailen',
 
-  'restrict_notes_1' => 'Mit den Radio-Buttons bestimmen Sie, welche Mitgliedergruppen Berechtigung zum Dateiupload haben. ',
+'file_download' => 'Download',
 
-  'restrict_notes_2' => 'Super-Admins können immer Dateien uploaden',
+'file_information' => 'Datei-Inforamtionen',
 
-  'restrict_notes_3' => 'Hinweis: Datei-Upload ist im Moment nur über dem Control Panel möglich',
+'file_metadata' => 'Metadaten der Datei',
 
-  'member_group' => 'Mitgliedergruppe',
-  'can_upload_files' => 'Kann Dateien uploaden',
-  'no_results' => 'Keine Mitgliedergruppen verfügbar',
-  'images_only' => 'Nur Bilder',
-  'all_filetypes' => 'Alle Filetypen',
-  'file_properties' => 'Dateiberechtigungen',
-  'file_pre_format' => 'Datei Vor-Formatierung',
-  'file_post_format' => 'Datei Nach-Formatierung',
-  'preferences_updated' => 'Einstellungen hochgeladen',
+'file_name' => 'Dateiname',
 
-  'batch_upload' => 'Stapel-Upload',
+'file_size' => 'Dateigröße',
 
-  'upload_dir_dropdown' => '%s (%s Dateien)',
-  'please_select' => 'Bitte wählen&hellip',
-  'directory' => 'Verzeichnis',
-  'no_sync_title' => 'Kein Ergebnis',
-  'file_count' => 'Anzahl Dateien',
-  'file_types' => 'Art der Dateien',
-  'files_processed' => 'Anzahl Dateien verarbeitet',
-  'error_count' => 'Anzahl Fehler',
-  'sync_progress' => 'Fortschritt',
-  'sync_complete' => 'Die Datei-Synchronisierung ist abgeschlossen.',
-  'errors' => 'Aufgetretene Fehler',
-  'no_errors' => 'Keine Fehler',
-  'synchronize_directory' => 'Verzeichnis synchronisieren',
-  'directory_manager' => 'Upload-Verzeichnis-Manager',
+'file_size_unit' => 'KB',
 
-    'category_groups' => 'Datei Kategoriengruppen',
-    'category_group' => 'Kategoriengruppen',
-    'no_assigned_category_groups' => 'Es wurde dem Dateimanager keine Kategoriengruppe zugewiesen.<br><a href="%s" title="Kategoriengruppe zuweisen">Kategoriengruppe zuweisen</a>',
+'file_tools' => 'Datei-Werkzeuge',
 
-  'category_groups_text' => 'Weisen Sie eine oder mehrere Kategoriengruppen dem Upload-Ort zu',
+'file_upload' => 'Datei-Upload',
 
-  'short_name' => 'Kurzname',
-  'manual_batch' => 'Manueller Stapel-Upload',
-  'auto_batch' => 'Automatischer Stapel-Upload',
-  'files_count_lang' => 'Zeige momentan %s aus total %s Dateien.',
+'file_upload_prefs' => 'Datei-Upload-Einstellungen',
 
-  'filter_by_directory' => 'Nach Verzeichnis filtern',
-  'search_in' => 'Suche in',
-  'file_title' => 'Datei-Titel',
-  'custom_fields' => 'Eigene Felder',
-  'search_files' => 'Suche Dateien',
-  'dir_name' => 'Upload-Verzeichnisname',
+'image_editor' => 'Bild-Editor',
 
+'kind' => 'Art',
 
-// Batch Page:
-  'thumbnail' => 'Vorschaubild',
-  'caption' => 'Legende',
-  'include' => 'Einschließen?',
+'image_manip_quality' => 'Qualität',
 
-////Watermark
+'image_manip_quality_desc' => 'Endgültige Qualität des Bildes',
 
-  'add_watermark' => 'Wasserzeichen anfügen',
+'no_upload_dirs' => 'Sie haben keine Upload-Verzeichnisse definiert',
 
-  'wm_new' => 'Wasserzeichen erstellen',
+'permissions' => 'Berechtigungen',
 
-  'wm_edit' => 'Wasserzeichen bearbeiten',
+'rename_file' => 'Datei umbenennen',
 
-  'text' => 'Text',
+'save_file' => 'Datei speichern',
 
-  'wm_name_taken' => 'Dupliziere Name',
+'size' => 'Größe',
 
-  'wm_test' => 'Wasserzeichen testen',
+'upload' => 'Upload',
 
-  'wm_type' => 'Wasserzeichentyp',
+'upload_dir_choose' => 'Upload-Verzeichnis wählen',
 
-  'wm_watermark' => 'Wasserzeichen',
+'upload_edit' => 'Größe ändern &amp; Drehen',
 
-  'wm_text' => 'Wasserzeichentext',
+'upload_file' => 'Datei hochladen',
 
-  'wm_name' => 'Wasserzeichenname',
+'upload_rename' => 'Datei besteht bereits',
 
-  'wm_graphic' => 'Grafische Version',
+'upload_rename_message' => 'Eine Datei mit diesem Dateinamen besteht bereits. Wählen Sie entweder einen neuen Namen, um die Datei umzubenennen. Oder Sie behalten den bestehenden Namen und die Datei wird überschrieben.',
 
-  'watermark_prefs' => 'Wasserzeichen-Einstellungen',
+'upload_success' => 'Upload erfolgreich',
 
-  'create_new_wm_pref' => 'Neues Wasserzeichen erstellen',
+'where' => 'Wo',
 
-  'wm_type' => 'Wasserzeichentyp',
 
-  'wm_image_path' => 'Serverpfad zum Wasserzeichenbild',
+/* Upload modal */
+'all_categories' => 'Alle Kategorien',
 
-  'wm_test_image_path' => 'Serverpfad zum Testbild',
+'all_filetypes' => 'Alle Dateitypen',
 
-  'wm_test_explain' => 'Mit dem Button unten können Sie die Wasserzeichen-Einstellungen testen, ohne diese Seite verlassen zu müssen. Dazu muss ein Serverpfad zu einem Testbild angegeben werden.',
+'allowed_types' => 'Erlaubte Dateitypen',
 
-  'wm_use_font' => 'True Type Font verwenden',
+'apply_changes' => 'Änderungen übernehmen',
 
-  'wm_font' => 'Font',
+'auto_batch' => 'Automatischer Stapel-Upload',
 
-  'wm_font_size' => 'Fontgröße',
+'batch_location' => 'Stapel-Upload-Verzeichnis',
 
-  "wm_text" => "Wasserzeichentext",
+'batch_upload' => 'Stapel-Upload',
 
-  'wm_alignment' => 'Wasserzeichen-Ausrichtung',
+'browse_files' => 'Dateien durchsuchen',
 
-  'top' => 'Oben',
+'can_upload_files' => 'Kann Dateien uploaden',
 
-  'mid' => 'Mitte',
+'cancel_changes' => 'Änderungen zurücknehmen',
 
-  'bot' => 'Unten',
+'cancel_crop' => 'Zuschneiden abbrechen',
 
-  'left' => 'Links',
+'category_group' => 'Kategoriengruppen',
 
-  'center' => 'Mitte',
+'category_groups' => 'Datei-Kategoriengruppen',
 
-  'right' => 'Rechts',
+'category_groups_text' => 'Weisen Sie eine oder mehrere Kategoriengruppen dem Upload-Verzeichnis zu',
 
-  'wm_padding' => 'Abstand',
+'constrain' => 'Begrenzungen',
 
-  'wm_offset' => 'Wasserzeichen-Offset',
+'crop' => 'Beschneiden',
 
-  'wm_hor_offset' => 'Horizontaler Offset',
+'crop_height' => 'Höhe',
 
-  'wm_vrt_offset' => 'Vertikaler Offset',
+'crop_mode' => 'Zuschneidemodus',
 
-  'wm_font_color' => 'Textfarbe',
+'crop_width' => 'Breite',
 
-  'wm_use_drop_shadow' => 'Schlagschatten aktivieren',
+'crop_x' => 'X',
 
-  'wm_shadow_color' => 'Schlagschatten-Farbe',
+'crop_y' => 'Y',
 
-  'wm_shadow_distance' => 'Schlagschatten-Abstand',
+'current_upload_prefs' => 'Aktuelle Einstellungen',
 
-  'wm_opacity' => 'Wasserzeichen-Opazität',
+'custom_fields' => 'Eigene Felder',
 
-  'wm_test_now' => 'Wasserzeichen-Einstellungen testen',
+'delete_upload_pref_confirmation' => 'Wollen Sie diese Einstellungen endgültig löschen?',
 
-  'color_picker' => 'Farbwähler',
+'delete_upload_preference' => 'Upload-Einstellungen löschen',
 
-  'wm_missing_font' => 'Angegebener Font nicht gefunden. Bitte Pfad zum Font überprüfen.',
+'dir_name' => 'Upload-Verzeichnisname',
 
-  'wm_x_transp' => 'Transparenz X-Koordinate',
+'directory' => 'Verzeichnis',
 
-  'wm_y_transp' => 'Transparenz Y-Koordinate',
+'directory_manager' => 'Upload-Verzeichnis-Manager',
 
+'disallow_image' => 'Bild nicht zulassen',
 
-  'delete_watermark_pref_confirmation' => 'Wasserzeichen löschen: Einstellungsbestätigung',
+'done' => 'Beenden',
 
-  'problem_downloading_files' => 'Fehler, beim Versuch die gewählte Datei herunterzuladen. Bitte klären Sie, ob die Datei auf dem Server liegt.',
+'edit_file_upload_preferences' => 'Datei-Upload Einstellungen bearbeiten',
 
-  'delete_wm_preference' => 'Wasserzeichen löschen: Einstellungen',
+'edit_image' => 'Bild bearbeiten',
 
-  'problem_downloading_file' => 'Fehler beim Versuch die gewählte Datei herunterzuladen. Bitte klären Sie, ob die Datei auf dem Server liegt',
+'edit_modes' => 'Bearbeitenmodi',
 
-  'watermark_pref_deleted' => 'Wasserzeichen-Einstellungen gelöscht',
+'error_count' => 'Anzahl der Fehler',
 
-  'no_path_or_dir' => 'Sie müssen einen Dateipfad und eine Verzeichnis-ID angeben, um eine Datei zu speichern',
+'errors' => 'Aufgetretene Fehler',
 
-  'no_permission' => 'Sie haben keine Berechtigung, eine Datei zu speichern',
+'exit_apply_changes' => 'Sie verlassen diesen Bearbeitungsmodus. Sollen die Änderungen vorher übernommen werden?',
 
-  'invalid_directory' => 'Sie haben ein ungültiges Verzeichnis angegeben',
+'file_count' => 'ANzahl der Dateien',
 
-  'security_failure' => 'Diesen Dateityp dürfen Sie nicht hochladen.',
+'file_directory_id' => 'ID',
 
-  'gd_not_installed' => 'Vorschaubild konnte nicht erstellt werden. GD wird für das Erstellen von Vorschaubildern verlangt.',
+'file_exists_replacement_error' => 'Eine Datei mit diesem Namen besteht bereits.',
 
-  'thumb_not_created' => 'Vorschaubild konnte für das Bild nicht erstellt werden',
+'file_post_format' => 'Datei Nach-Formatierung',
 
-  'invalid_mime' => 'Ungültiger Mime-Typ, Datei wurde nicht verarbeitet',
+'file_pre_format' => 'Datei Vor-Formatierung',
 
-  'exceeds_max_dimensions' => 'Datei überschreitet die maximale Größe und ist nicht ',
+'file_properties' => 'Dateiberechtigungen',
 
-  'file_not_added_to_db' => 'Datei konnte in der Datenbank nicht eingetragen werden und ist nicht skalierbar',
+'file_title' => 'Datei-Titel',
 
-  'invalid_short_name' => 'Der Kurzname zur Bildmanipulation darf nur alphanumerische Zeichen, Binde- oder Unterstrich enthalten und darf nicht "thumbs" genannt werden.',
+'file_types' => 'Dataitypen',
 
-  'invalid_filename' => 'Der Bildnamename darf nur alphanumerische Zeichen, Binde- oder Unterstrich enthalten.',
+'file_upload_preferences' => 'Datei-Upload-Einstellungen',
 
-  'description' => 'Beschreibung',
+'files_count_lang' => 'Zeige momentan %s aus total %s Dateien.',
 
-  'credit' => 'Kredit',
+'files_processed' => 'Anzahl Dateien verarbeitet',
 
-  ''=>''
+'filter_by_directory' => 'Nach Verzeichnis filtern',
+
+'image_edit_success' => 'Bild erfolgreich bearbeitet',
+
+'image_sizes' => 'Bildbearbeitungen',
+
+'image_sizes_rebuild' => 'Für neue Bilder werden alle Bildbearbeitungen automatisch ausgeführt. Wenn Sie jedoch Bildbearbeitungen auf bestehenden Bilder nachholen wollen, setzen Sie das Häckchen für die Bearbeitungen.',
+
+'image_sizes_subtext' => 'Zusätzliche Bilder, die automatisch bei jedem Bild-Upload erstellt werden.',
+
+'image_tools' => 'Bild-Werkzeuge',
+
+'images_only' => 'Nur Bilder',
+
+'list' => 'Eine Liste',
+
+'maintain_ratio' => 'Seitenverhältnis beibehalten',
+
+'manual_batch' => 'Manueller Stapel-Upload',
+
+'max_height' => 'Maximale Bildhöhe in Pixel',
+
+'max_image_action' => 'Massnahme, wenn die Bildgröße überschritten wird',
+
+'max_size' => 'Maximale Dateigröße in Bytes',
+
+'max_width' => 'Maximale Bildbreite in Pixel',
+
+'member_group' => 'Mitgliedergruppe',
+
+'new_file_upload_created' => 'Neuen Datei-Upload erstellt',
+
+'new_file_upload_preferences' => 'Neue Einstellungen für den Datei-Upload',
+
+'no_assigned_category_groups' => 'Es wurde dem Dateimanager keine Kategoriengruppe zugewiesen.<br><a href="%s" title="Kategoriengruppe zuweisen">Kategoriengruppe zuweisen</a>',
+
+'no_change' => 'Keine Änderung',
+
+'no_edit_selected' => 'Keine Bearbeitungsoperation gewählt',
+
+'no_errors' => 'Keine Fehler',
+
+'no_results' => 'Keine Mitgliedergruppen verfügbar',
+
+'no_sync_title' => 'Kein Ergebnisse', // @todo, this phrase should change, just not sure what to put -ga
+'no_upload_directories_for_fieldtype' => 'Derzeit sind keine Upload-Verzeichnisse verfügbar. Fügen Sie <a href="%s" rel="external"> ein oder mehrere Upload-Verzeichnisse hinzu</a>, um den Feldtyp "Datei" zu verwenden.',
+
+'no_upload_dirs_available' => 'Kein Upload-Ort verfügbar',
+
+'no_upload_prefs' => 'Es gibt momentan keine Datei-Upload-Einstellungen',
+
+'pagination_count_text' => 'Zeige %s bis %s von %s Dateien',
+
+'pagination_filter_text' => 'Zeige Dateien als %s',
+
+'pagination_page' => 'Seite',
+
+'php_max_filesize'=>'Maximaler Uploadgröße von PHP ist %s',
+
+'please_add_upload' => 'Es bestehen noch keine Upoload-Verzeichnisse. Bitte erstellen Sie eines oder mehrere, um den Feldtyp benutzen zu können.',
+
+'please_select' => 'Bitte wählen&hellip',
+
+'post_format' => 'Bild-Nachformatierung',
+
+'pre_format' => 'Bild-Vorformatierung',
+
+'preferences_updated' => 'Einstellungen aktualisiert',
+
+'processing_image' => 'Bearbeite Bild',
+
+'properties' => 'Bildeigenschaften',
+
+'resize' => 'Skalieren',
+
+'resize_height' => 'Höhe',
+
+'resize_mode' => 'Skalierungsmodus',
+
+'resize_over_confirmation' => 'Diese Bildvergrößerung bewirkt eine niedrigere Bildqualität. Wollen Sie das?',
+
+'resize_type' => 'Größenänderungsart',
+
+'resize_width' => 'Breite',
+
+'restrict_notes_1' => 'Mit den Radio-Buttons bestimmen Sie, welche Mitgliedergruppen die Berechtigung zum Dateiupload haben.',
+
+'restrict_notes_2' => 'Super-Admins können immer Dateien uploaden',
+
+'restrict_notes_3' => 'Hinweis: Datei-Upload ist zur Zeit nur über Control Panel möglich',
+
+'restrict_to_group' => 'Beschränke Datei-Upload auf Mitgliedergruppen',
+
+'rotate' => 'Drehen',
+
+'rotate_180' => '180&#176',
+
+'rotate_90l' => '90 Grad, links',
+
+'rotate_90r' => '90 Grad, rechts',
+
+'rotate_flip_hor' => 'Horizontal spiegeln',
+
+'rotate_flip_vert' => 'Vertikal spiegeln',
+
+'rotate_mode' => 'Rotationsmodus',
+
+'save_crop' => 'Bildbeschneidung speichern',
+
+'save_image' => 'Bild speichern',
+
+'search_files' => 'Suche Dateien',
+
+'search_in' => 'Suchen in',
+
+'server_path' => 'Serverpfad für das Upload-Verzeichnis',
+
+'short_name' => 'Kurzname',
+
+'sync_complete' => 'The file synchronization is complete.',
+
+'sync_progress' => 'Fortschritt',
+
+'synchronize_directory' => 'Verzeichnis synchronisieren',
+
+'thumbnails' => 'Vorschaubilder',
+
+'total_dir_size' => 'Gesamtverzeichnisgröße:',
+
+'upload_dir_dropdown' => '%s (%s Dateien)',
+
+'upload_pref_deleted' => 'Upload Preference Deleted:',
+
+'upload_pref_name' => 'Beschreibender Name für das Upload-Verzeichnis',
+
+'uploading_file' => 'Lade Datei hoch',
+
+'url_to_upload_dir' => 'URL für das Upload-Verzeichnis',
+
+'use_file' => 'Hochgeladene Datei benutzen',
+
+'width_needed' => 'Eine Breite oder Breite/Höhe oder eine Drehen/Spiegeln-Richtung muss angegeben werden.',
+
+
+/* Batch Page */
+'caption' => 'Bildbeschriftung',
+
+'include' => 'Einschließen?',
+
+'thumbnail' => 'Vorschaubildl',
+
+
+/* Watermark */
+'add_watermark' => 'Keine',
+
+'bot' => 'Unten',
+
+'color_picker' => 'Color Picker',
+
+'create_new_wm_pref' => 'Neues Wasserzeichen erstellen',
+
+'delete_watermark_pref_confirmation' => 'Wasserzeichen löschen: Einstellungsbestätigung',
+
+'delete_wm_preference' => 'Wasserzeichen löschen: Einstellungen',
+
+'mid' => 'Mitte',
+
+'watermark_pref_deleted' => 'Wasserzeichen-Einstellungen gelöscht',
+
+'watermark_prefs' => 'Wasserzeichen-Einstellungen',
+
+'wm_alignment' => 'Wasserzeichen-Ausrichtun',
+
+'wm_edit' => 'Wasserzeichen bearbeiten',
+
+'wm_font' => 'Font',
+
+'wm_font_color' => 'Textfarbe',
+
+'wm_font_size' => 'Schriftgröße',
+
+'wm_graphic' => 'Grafische Version',
+
+'wm_hor_offset' => 'Horizontaler Versatz',
+
+'wm_image_path' => 'Serverpfad zur Wasserzeichen-Grafik',
+
+'wm_missing_font' => 'Angegebener Font nicht gefunden. Bitte den Pfad überprüfen.',
+
+'wm_name' => 'Wasserzeichenname',
+
+'wm_name_taken' => 'Dupliziere Name',
+
+'wm_new' => 'Wasserzeichen erstellen',
+
+'wm_offset' => 'Wasserzeichen-Versatz',
+
+'wm_opacity' => 'Wasserzeichen-Transparenz',
+
+'wm_padding' => 'Abstand',
+
+'wm_shadow_color' => 'Schlagschattenfarbe',
+
+'wm_shadow_distance' => 'Schlagschattendistanz',
+
+'wm_test' => 'Wasserzeichen testen',
+
+'wm_test_explain' => 'Mit dem Button unten können Sie die Wasserzeichen-Einstellungen testen, ohne diese Seite verlassen zu müssen. Dazu muss ein Serverpfad zu einem Testbild angegeben werden.',
+
+'wm_test_image_path' => 'Serverpfad zum Testbild',
+
+'wm_test_now' => 'Wasserzeichen-Einstellungen jetzt testen',
+
+'wm_text' => 'Wasserzeichentext',
+
+'wm_type' => 'Wasserzeichentyp',
+
+'wm_use_drop_shadow' => 'Schlagschatten aktivieren',
+
+'wm_use_font' => 'True-Type-Font benutzen',
+
+'wm_vrt_offset' => 'Vertikaler Versatz',
+
+'wm_watermark' => 'Wasserzeichen',
+
+'wm_x_transp' => 'X-Koordinate für Transparenz',
+
+'wm_y_transp' => 'Y-Koordinate für Transparenz',
+
 );
 
-/* End of file filemanager_lang.php */
-/* Location: ./system/user/language/deutsch/filemanager_lang.php */
+// EOF
