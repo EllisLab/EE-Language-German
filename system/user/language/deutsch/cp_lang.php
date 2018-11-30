@@ -408,17 +408,17 @@ $lang = array(
 
 
 /* License Errors */
-'corrupt_license_file' => 'The license file provided is missing data. <a href="%s">Please upload your license.</a>',
+'corrupt_license_file' => 'In der hochgeladenen Lizenzdatei fehlen Daten. <a href="%s">Bitte laden Sie Ihre Lizenz hoch.</a>',
 
-'invalid_license_number' => 'The license file provided is invalid. <a href="%s">Please upload your license.</a>',
+'invalid_license_number' => 'Die eingespielte Lizenzdatei ist ungültig. <a href="%s">Bitte laden Sie eine gültige Lizenz hoch.</a>',
 
-'invalid_signature' => 'The license file provided has an invalid signature. <a href="%s">Please upload your license.</a>',
+'invalid_signature' => 'Die hochgeladene Lizenzdatei enthält eine ungültige Signatur. <a href="%s">Bitte laden Sie Ihre Lizenz hoch.</a>',
 
-'missing_license' => 'This copy of ExpressionEngine is <strong>unregistered</strong>. <a href="%s">Please upload your license.</a>',
+'missing_license' => 'Diese Kopie von ExpressionEngine ist <strong>nicht registriert</strong>. <a href="%s">Bitte laden Sie Ihre Lizenz hoch.</a>',
 
-'missing_pubkey' => 'The ExpressionEngine product is missing data. Pleas visit <a href="%s" rel="external">expressionengine.com</a> and download a fresh copy.',
+'missing_pubkey' => 'ExpressionEngine fehlen Daten/Dateien. Bitte besuchen Sie <a href="%s" rel="external">expressionengine.com</a> und laden eine neue Kopie des Systems herunter.',
 
-'software_unregistered' => 'Software Unregistered',
+'software_unregistered' => 'Software nicht registriert',
 
 
 /* CP Errors */
