@@ -704,7 +704,7 @@ $lang = array(
 
 'titles' => 'Titel',
 
-'title_body_comments' => 'Titel und Einträge',
+'titles_and_content' => 'Titel & Inhalt',
 
 'title_not_unique' => 'Es gibt bereits einen Eintrag mit diesem Titel. Titel müssen einmalig sein.',
 
@@ -792,6 +792,7 @@ $lang = array(
 
 'view_code' => 'Code ansehen',
 
+  
 /* Relationships */
 'add_new_html_button' => 'Neuen HTML-Button hinzufügen',
 
