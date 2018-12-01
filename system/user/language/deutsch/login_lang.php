@@ -2,66 +2,56 @@
 
 $lang = array(
 
-//----------------------------
-// Log-in
-//----------------------------
+/* Log-in */
+'credential_missmatch' => 'Das ist der falsche Benutzername oder das falsche Passwort',
 
-  'remember_me' => 'Angemeldet bleiben.',
+'locked' => 'Gesperrt',
 
-  'no_username' => 'Das Benutzername-Feld muss ausgefüllt werden',
+'multi_login_warning' => 'Jemand hat sich bereits an diesem Konto angemeldet',
 
-  'no_password' => 'Das Passwort-Feld muss ausgefüllt werden',
+'new_password_request' => 'Neues Passwort anfordern',
 
-  'no_email' => 'Geben Sie Ihre E-Mail-Adresse an.',
+'no_email' => 'Geben Sie Ihre E-Mail-Adresse an.',
 
-  'credential_missmatch' => 'Das ist der falsche Benutzername oder das falsche Passwort',
+'no_password' => 'Das Passwort-Feld muss ausgefüllt werden',
 
-  'multi_login_warning' => 'Jemand hat sich bereits an diesem Konto angemeldet',
+'no_username' => 'Das Benutzername-Feld muss ausgefüllt werden',
 
-  'return_to_login' => 'Zurück zur Anmeldung',
+'password_lockout_in_effect' => 'Jede %d Minute(n) können Sie viermal Ihr Passwort eingeben',
 
-  'password_lockout_in_effect' => 'Jede %d Minute(n) können Sie viermal Ihr Passwort eingeben',
+'remember_me' => 'Angemeldet bleiben.',
 
-  'locked' => 'Gesperrt',
+'return_to_login' => 'Zurück zur Anmeldung',
 
-  'unauthorized_request' => 'Sie haben nicht die Berechtigung diese Aktion durchzuführen.',
+'session_auto_timeout' => 'Die Sitzung wurde wegen Inaktivität beendet',
 
-  'new_password_request' => 'Neues Passwort anfordern',
+'unauthorized_request' => 'Sie haben nicht die Berechtigung diese Aktion durchzuführen.',
 
-  'session_auto_timeout' => 'Die Sitzung wurde wegen Inaktivität beendet',
 
-//-----------------------------------
-// Reset Password
-//-----------------------------------
+'email_address' => 'Email-Adresse',
 
-  'email_address' => 'Email-Adresse',
+'enter_new_password' => 'Ein neues Passwort eingeben',
 
-  'forgotten_password' => 'Ich habe mein Passwort vergessen',
+'remind_me' => 'Erinnere mich',
 
-  'no_reset_id' => 'Der Token beim Passwortzurücksetzen scheint nicht gültig zu sein.  Bitte überprüfen Sie den Link.',
+'id_not_found' => 'Die eingegebene ID wurde nicht in der Datenbank gefunden.',
 
-  'id_not_found' => 'Die eingegebene ID wurde nicht in der Datenbank gefunden.',
+'log_into' => 'Anmelden bei:',
 
-  'password_changed' => 'Passwort erfolgreich geändert',
+'login' => 'Login',
 
-  'successfully_changed_password' => 'Das Passwort wurde erfolgreich geändert.  Bitte mit dem neuen Passwort anmelden.',
+'new_password' => 'Neues Passwort',
 
-  'reset_password' => 'Passwort zurücksetzen',
+'new_password_confirm' => 'Neues Passwort bestätigen',
 
-  'new_password' => 'Neues Passwort bestätigen',
+'no_reset_id' => 'Der Token beim Passwortzurücksetzen scheint nicht gültig zu sein.  Bitte überprüfen Sie den Link.',
 
-  'new_password_confirm' => 'Neues Passwort bestätigen',
+'password_changed' => 'Passwort erfolgreich geändert',
 
-  'enter_new_password' => 'Ein neues Passwort eingeben',
-  
-  'remind_me' => 'Passwort vergessen?',
+'reset_password' => 'Passwort zurücksetzen',
 
-  'login' => 'Login',
+'successfully_changed_password' => 'Das Passwort wurde erfolgreich geändert.  Bitte mit dem neuen Passwort anmelden.',
 
-  'log_into' => 'Anmelden bei:',
-
-  ''=>''
 );
 
-/* End of file login_lang.php */
-/* Location: ./system/user/language/deutsch/login_lang.php */
+// EOF
