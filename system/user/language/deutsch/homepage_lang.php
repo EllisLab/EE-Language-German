@@ -2,66 +2,78 @@
 
 $lang = array(
 
-  'type_phrase' => 'Phrase eingeben...',
+'and' => 'und',
 
-  'search_content' => 'Inhalt durchsuchen',
+'are' => 'sind',
 
-  'settings' => 'Einstellungen',
+'awaiting_moderation' => 'warten auf Moderation',
 
-  'overview' => 'Überblick',
+'banned_members' => 'Gesperrte Mitglieder',
 
-  'comments' => 'Kommentare',
+'channels' => 'Channels',
 
-  'review_all_new' => 'Alles Neue überprüfen',
+'channels_desc' => 'Channels werden verwendet, um Inhalte für Ihre Website zu speichern. Zum Beispiel, wenn Sie ein Blog einrichten. Dazu müssen Sie zuerst einen Channel erstellen, um darin dann die Einträge speichern zu können. Themenschwerpunkte einer Website werden in Channels organisiert',
 
-  'there_were' => 'Es gibt',
+'closed_entries_with_comments' => '<b>%d</b> Geschlossene Einträge mit %d Kommentaren.',
 
-  'new_comments' => '<em>neue</em> Kommentare',
+'comments' => 'Kommentare',
 
-  'since_last_login' => 'seit Ihrer letzten Anmeldung',
+'content' => 'Inhalt',
 
-  'are' => 'müssen',
+'content_desc' => 'Channel-Einträge, warum sie Leute besuchen.',
 
-  'awaiting_moderation' => 'moderiert werden',
+'create_new' => 'Erstelle neu',
 
-  'and' => 'und',
+'eecms_news' => 'ExpressionEngine News',
 
-  'have_been' => 'wurden',
+'entries_with_comments' => '<b>%d</b> EInträge mit %d Kommentaren',
 
-  'flagged_as_spam' => 'als potentieller Spam gekennzeichnet',
+'field_groups' => 'Feldergruppen',
 
-  'channels' => 'Channel',
+'flagged_as_spam' => 'als potenziellen Spam markiert',
 
-  'create_new' => 'Neu anlegen',
-  
-  'eecms_news' => 'Neues über ExpressionEngine',
+'has' => 'hat',
 
-  'channels_desc' => 'Channel werden benutzt, um Inhalte Ihrer Website zu speichern, z.B. für einen Blog. Sie müssen zuerst einen Channel anlegen, um die Einträge zu speichern.',
+'have_been' => 'ist gewesen',
 
-  'has' => 'hat',
+'latest_news_and_articles' => 'ist gewesen',
 
-  'field_groups' => 'Feldergruppen',
+'members' => 'Mitglieder',
 
-  'members' => 'Mitglieder',
+'members_desc' => 'Mitglieder sind registrierte Benutzer Ihrer Site. Sie müssen mindestens ein Mitglied haben, einen Administrator.',
 
-  'register_new' => 'Neu registrieren',
+'new_comments' => '<em>neue</em> Kommentare',
 
-  'members_desc' => 'Mitglieder sind angemeldete Benutzer Ihrer Website. Sie <em>müssen</em> mindestens ein Mitglied als Administrator anlegen.',
+'new_members_permission_desc' => 'Sie können <a href="%s">die Einstellungen ändern</a>, um neue Mitgliederregistrierungen zuzulassen oder zu verbieten.',
 
-  'new_members_permission_desc' => 'Sie können <a href="%s">die Einstellungen ändern</a>, um neue Mitglieder zu erlauben oder auszuschliessen.',
+'new_spam' => '<em>neue</em> Einträge in der Spam-Warteschlange',
 
-  'banned_members' => 'Ausgeschlossene Mitglieder',
+'news_fetch_failure' => 'Ups, wir konnten die Nachrichten nicht abrufen.',
 
-  'content' => 'Inhalt',
+'overview' => 'Überblick',
 
-  'content_desc' => 'Channel-Einträge.',
+'register_new' => 'Neu registrieren',
 
-  'entries_with_comments' => '<b>%d</b> Einträge mit %d Kommentaren',
+'review_all' => 'Alle überprüfen',
 
-  'closed_entries_with_comments' => '<b>%d</b> geschlossene Einträge mit %d Kommentaren.',
+'review_all_new' => 'Alles neu prüfen',
 
-  ''=>''
+'rss' => 'RSS',
+
+'search_content' => 'Inhalt durchsuchen',
+
+'settings' => 'Einstellugnen',
+
+'since_last_login' => 'seit Ihrem letzten Login',
+
+'spam' => 'Spam',
+
+'there_are' => 'Es sind',
+
+'there_were' => 'Es waren',
+
+'type_phrase' => 'Phrase eingeben...',
+
 );
 
-/* End of file homepage_lang.php */
-/* Location: ./system/user/language/deutsch/homepage_lang.php */
+// EOF
