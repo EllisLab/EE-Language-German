@@ -2,33 +2,43 @@
 
 $lang = array(
 
-'imglib_copy_error' => 'Beim Versuch, die Datei zu ersetzen, ist ein Fehler aufgetreten. Bitte sorgen Sie für korrekte Schreibrechte in Ihrem Bild-Verzeichnis.',
+'imglib_copy_error' => 'Beim Versuch, die Datei zu ersetzen, ist ein Fehler aufgetreten. Bitte stellen Sie sicher, dass Ihr Dateiverzeichnis schreibbar ist.',
 
-'imglib_copy_failed' => 'Die Kopierroutine des Bildes ist fehlgeschlagen.',
+'imglib_copy_failed' => 'Die Image-Kopierroutine ist fehlgeschlagen.',
 
-'imglib_gd_required_for_props' => 'Zur Bestimmung der Bildeigenschaften muss der Server die GD-Grafikbibliothek unterstützen',
+'imglib_gd_required' => 'Die GD-Bildbibliothek ist für diese Funktion erforderlich.',
 
-'imglib_gif_not_supported' => 'GIF-Bilder werden aus Lizenzgründen oft nicht unterstützt. Versuchen Sie es stattdessen mit dem JPG- oder PNG-Format..',
+'imglib_gd_required_for_props' => 'Ihr Server muss die GD-Bildbibliothek unterstützen, um die Bildeigenschaften bestimmen zu können.',
 
-'imglib_image_process_failed' => 'Das Bild konnte nicht bearbeitet werde. Bitte stellen Sie sicher, dass Ihr Server das voreingestellte Protokoll unterstützt und dass der Pfad zu Ihrer Grafikbibliothek korrekt ist.',
+'imglib_gif_not_supported' => 'GIF-Bilder werden aufgrund von Lizenzbeschränkungen häufig nicht unterstützt. Möglicherweise müssen Sie stattdessen JPG- oder PNG-Bilder verwenden.',
 
-'imglib_invalid_path' => 'Der Pfad zu Ihrem Bild ist nicht korrekt',
+'imglib_image_process_failed' => 'Bildverarbeitung fehlgeschlagen Stellen Sie sicher, dass Ihr Server das ausgewählte Protokoll unterstützt und dass der Pfad zu Ihrer Bildbibliothek korrekt ist.',
 
-'imglib_jpg_not_supported' => 'JPG-Bilder werden nicht unterstützt',
+'imglib_invalid_path' => 'Der Pfad zum Bild ist nicht korrekt.',
 
-'imglib_jpg_or_png_required' => 'Das eingestellte Protokoll zur Änderung der Bildgrößen verarbeitet nur JPG- oder PNG-Bilder',
+'imglib_jpg_not_supported' => 'JPG-Bilder werden nicht unterstützt.',
 
-'imglib_libpath_invalid' => 'Der Pfad zu Ihrer Grafikbibliothek ist nicht korrekt. Bitte überprüfen Sie den Pfad in Ihren Bild-Einstellungen.',
+'imglib_jpg_or_png_required' => 'Das in Ihren Voreinstellungen angegebene Bildgrößenänderungsprotokoll funktioniert nur mit JPEG- oder PNG-Bildtypen.',
 
-'imglib_png_not_supported' => 'PNG-Bilder werden nicht unterstützt',
+'imglib_libpath_invalid' => 'Der Pfad zu Ihrer Bildbibliothek ist nicht korrekt. Bitte legen Sie den richtigen Pfad in Ihren Bildeinstellungen fest.',
 
-'imglib_rotate_unsupported' => 'Ihr Server unterstützt offenbar nicht das Drehen von Bildern.',
+'imglib_unsafe_config' => 'Ein Konfigurationselement enthält Zeichen, die für die Ausführung in einer Shell-Umgebung nicht sicher sind.',
 
-'imglib_rotation_angle_required' => 'Sie müssen einen Winkel zum Drehen angeben.',
+'imglib_missing_font' => 'Eine zu verwendende Schriftart konnte nicht gefunden werden.',
 
-'imglib_unsupported_imagecreate' => 'Der Server unterstützt die GD-Funktionen für die Bearbeitung dieser Bild-Typen nicht.',
+'imglib_png_not_supported' => 'PNG-Bilder werden nicht unterstützt.',
 
-'imglib_writing_failed_gif' => 'GIF-Bild',
+'imglib_rotate_unsupported' => 'Die Bildrotation scheint von Ihrem Server nicht unterstützt zu werden.',
+
+'imglib_rotation_angle_required' => 'Ein Drehwinkel ist erforderlich, um das Bild zu drehen.',
+
+'imglib_save_failed' => 'Das Bild kann nicht gespeichert werden. Stellen Sie sicher, dass das Image und das Dateiverzeichnis schreibbar sind.',
+
+'imglib_source_image_required' => 'Das Bild kann nicht gespeichert werden. Stellen Sie sicher, dass das Image und das Dateiverzeichnis schreibbar sind.',
+
+'imglib_unsupported_imagecreate' => 'Ihr Server unterstützt die für die Verarbeitung dieses Abbildtyps erforderliche GD-Funktion nicht.',
+
+'imglib_writing_failed_gif' => 'GIF-Bild.',
 
 );
 
