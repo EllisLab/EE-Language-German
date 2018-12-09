@@ -81,7 +81,7 @@ $lang = array(
 <ul>
  <li>Den Entwickler, der sich um das System kümmert, um Hilfe bitten.</li>
  <li>Sicherstellen, daß überall die neusten Versionen aller installierten Add-Ons laufen.</li>
- <li>>Den oder die Entwickler des betreffenden Add-Ons kontaktieren, um sicherzustellen, dass sie sich des Problems bewusst sind und sich um die Behebung des Problems bemühen.</li>
+ <li>Den oder die Entwickler des betreffenden Add-Ons kontaktieren, um sicherzustellen, dass sie sich des Problems bewusst sind und sich um die Behebung des Problems bemühen.</li>
 </ul>',
 
 'deprecated_on_line' => 'von %s in Zeile %d.',
