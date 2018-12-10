@@ -6,7 +6,6 @@ German Translation Pack for ExpressionEngine 4.x
 - Copyright (C) 2009-2016 EllisLab, Inc.
 - Original German translation provided by: Werner Gusset (gusset@octave2.ch), 
 - Erweitert für EE 3.x von Tom Jaisle (jaisle@eyelabel.com)
-- In progressive work is the translation for 4.x by Ralph Segert (git@segert.net)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
