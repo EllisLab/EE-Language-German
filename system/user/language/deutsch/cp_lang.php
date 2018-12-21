@@ -418,8 +418,6 @@ $lang = array(
 
 'missing_pubkey' => 'ExpressionEngine fehlen Daten/Dateien. Bitte besuchen Sie <a href="%s" rel="external">expressionengine.com</a> und laden eine neue Kopie des Systems herunter.',
 
-'software_unregistered' => 'Software nicht registriert',
-
 
 /* CP Errors */
 '404_does_not_exist' => '404: Eintrag wurde nicht gefunden.',
