@@ -120,7 +120,7 @@ Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen au
 
 'missing_mime_config' => 'Kann Ihre Mime-Typ-Whitelist nicht importieren: die Datei %s existiert nicht oder kann nicht gelesen werden.',
 
-'new_version_error' => 'Es trat ein unerwarteter Fehler auf bei dem Versuch, die aktuelle Versionsnummer von ExpressionEngine herunterzuladen.  Bitte besuchen Sie Ihren <a href="%s" title="download account" rel="external">Download Account</a>, um zu überprüfen, ob Sie mit der aktuellen Version arbeiten. Bleibt dieser Fehler weiterhin bestehen, kontaktieren Sie bitte Ihren Systemadministrator',
+'new_version_error' => 'Beim Herunterladen der aktuellen ExpressionEngine-Versionsnummer ist ein unerwarteter Fehler aufgetreten. Weitere Informationen finden Sie in diesem <a href="%s" rel="external noreferrer">Dokument zur Fehlerbehebung</a>',
 
 'nonexistent_page' => 'Die gewünschte Seite wurde nicht gefunden',
 
