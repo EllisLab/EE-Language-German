@@ -103,6 +103,8 @@ $lang = array(
 'file_ft_content_type' => 'Erlaubte Dateitypen',
 
 'file_ft_content_type_desc' => 'Dateitypen, die von hier hochgeladen werden dürfen.',
+  
+'file_ft_images_only' => 'Nur Bilder',
 
 'file_ft_limit' => 'Bestehendes Dateilimit',
 
@@ -115,11 +117,45 @@ $lang = array(
 'file_ft_show_files' => 'Zeige vorhandene Dateien?',
 
 'file_ft_show_files_desc' => 'Wenn aktiviert, wird ein Drop Down mit existierenden Dateien angezeigt.',
-  'file_ft_limit'					=> 'Bestehendes Dateilimit',
 
 'file_ft_upload_directories' => 'Upload-Verzeichnisse',
 
+/* File Drag and Drop */
 
+'file_dnd_choose_directory' => 'Bitte ein Verzeichnis wählen',
+
+'file_dnd_choose_file_directory' => 'EIn Dateiverzeichnis wählen',
+
+'file_dnd_choose_directory_before_uploading' => 'Sie müssen ein Verzeichnis auswählen, um Dateien hochzuladen',
+
+'file_dnd_choose_directory_btn' => 'Verzeichnis wählen',
+
+'file_dnd_choose_existing' => 'Vorhandene wählen',
+
+'file_dnd_dismiss' => 'Abweisen',
+
+'file_dnd_drop_file' => 'Datei zum Hochladen hier ablegen',
+
+'file_dnd_drop_files' => 'Dateien zum Hochladen hier ablegen',
+
+'file_dnd_file_name' => 'Dateiname',
+
+'file_dnd_filter_directories' => 'Verzeichnisse filtern',
+
+'file_dnd_images_only' => 'Dieses Feld akzeptiert nur Bilder.',
+
+'file_dnd_progress' => 'Progress',
+
+'file_dnd_resolve_conflict' => 'Konflikt lösen',
+
+'file_dnd_single_file_allowed' => 'Dieses Feld darf nur eine Datei enthalten',
+
+'file_dnd_unexpected_error' => 'Unerwarteter Fehler. Überprüfen Sie Ihre Einstellung post_max_size in Ihrer PHP-Konfiguration.',
+
+'file_dnd_uploading_to' => 'Hochladen in %s',
+
+'file_dnd_upload_new' => 'Neu hochladen',
+  
 /* Grid */
 'grid_add_field' => 'Neues Feld hinzufügen',
 
@@ -193,6 +229,11 @@ $lang = array(
 
 'grid_validation_error' => 'Es gab ein Problem mit einem oder mehreren Grid-Feldern',
 
+/* File Grid */
+
+'file_grid_setup' => 'Datei-Grid Einstellungen',
+
+'file_grid_maximum_rows_hit' => 'Das Hochladen dieser vielen Dateien überschreitet die maximale Zeileneinstellung des Felds von %s',
 
 /* URL */
 'url_ft_allowed_url_schemes' => 'Erlaubte URL-Schemas',
