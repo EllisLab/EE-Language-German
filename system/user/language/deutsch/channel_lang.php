@@ -18,7 +18,7 @@ $lang = array(
 
 'category_groups' => 'Kategoriengruppen',
 
-'category_groups_desc' => 'Diesem Channel eine oder mehrere Kategoriegruppen zuweisen.',
+'category_groups_desc' => 'Weisen Sie diesem Channel eine Kategoriengruppe oder mehrere zu.',
 
 'channel' => 'Channel',
 
@@ -106,9 +106,9 @@ $lang = array(
 
 'field_groups' => 'Feldgruppen',
 
-'field_groups_desc' => 'Weisen Sie diesem Channel eine oder mehrere Feldgruppen zu.',
+'field_groups_desc' => 'Weisen Sie diesem Channel eine Feldergruppe oder mehrere zu.',
 
-'fields_desc' => 'Weisen Sie diesem Channel ein oder mehrere Felder zu.',
+'fields_desc' => 'Weisen Sie diesem Channel ein Feld oder mehrere zu.',
 
 'form_layouts' => 'Formularlayouts',
 
@@ -592,7 +592,7 @@ $lang = array(
 
 'statuses' => 'Status',
 
-'statuses_desc' => 'Diesem Channel einen Status oder mehrere Status zuweisen',
+'statuses_desc' => 'Weisen Sie diesem Channel einen Status oder mehrere zu.',
 
 'statuses_removed' => 'Status gelöscht',
 
