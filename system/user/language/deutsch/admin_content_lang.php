@@ -234,7 +234,7 @@ $lang = array(
 
 'field' => 'Feld',
 
-'fields_assign_to_group' => 'Dieser Feldergruppe ein Feld oder mehrere zuweisen.',
+'fields_assign_to_group' => 'Dieser Feldergruppe ein Feld oder mehrere zuzuweisen.',
 
 'field_content_text' => 'Erlaubter Inhalt',
 
