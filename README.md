@@ -1,17 +1,18 @@
 German Translation Pack for ExpressionEngine 5.x
 ================================================
 
-[![Build Status](https://travis-ci.org/EllisLab/EE-Language-German.svg?branch=master)](https://travis-ci.org/EllisLab/EE-Language-German/branches)
 
 - Copyright (C) 2009-2018 EllisLab, Inc.
-- Original German translation provided by: Werner Gusset (gusset@octave2.ch), 
+- Original German translation provided by: Werner Gusset (gusset@octave2.ch),
 - Erweitert für EE 3.x von Tom Jaisle (jaisle@eyelabel.com)
-- Zum Teil neu übersetzt und erweitert von Ralph Segert für EE 4 xund EE 5x (ee@segert.net). 
+- Teilweise neu übersetzt und erweitert von Ralph Segert: EE 3.x auf EE 4.x und EE 5.x (ee@segert.net).
 
-Anmerkung von Ralph Segert: 
-Das deutsche Sprachpaket ist bis "member_import_lang.php" für die Version EE 5.1 übersetzt. 
-Ich habe mich streng an die Reihenfolge der Zeilen im englischen Sprachpaket orientiert. 
-Somit wird ein Aktualisieren der Sprachdateien wesentlich erleichtert.
+Note from Ralph Segert:
+The German language pack is translated to "modules_lang.php" for the EE 5.1 release.
+I have strictly followed the order of the lines in the English language pack.
+Thus, updating the language files is greatly facilitated.
+
+----------------------------------------------------------------------------
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

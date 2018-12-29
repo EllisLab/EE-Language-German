@@ -2,9 +2,7 @@
 
 $lang = array(
 
-
 // Sidebar Menu
-
 'addon' => 'Add-On',
 
 'addon_manager' => 'Add-On-Verwaltung',
@@ -25,13 +23,13 @@ $lang = array(
 
 'manual' => 'Handbuch',
 
-'no_addon_extensions_search_results' => 'Keine <b>externen Add-ons</b> gefunden',
+'no_addon_extensions_search_results' => 'Keine <b>externen Add-Ons</b> gefunden',
 
 'no_addon_search_results' => 'Keine <b>Add-Ons</b> gefunden',
 
 'requested_module_not_installed' => 'Das angefragte Modul ist nicht installiert:',
 
-'search_addons_button' => 'Add-ons suchen',
+'search_addons_button' => 'Add-Ons suchen',
 
 'show_all_addons' => 'Alle %d Add-Ons',
 
@@ -41,8 +39,8 @@ $lang = array(
 
 'update_to_version' => 'Update auf %s',
 
-// Confirm uninstall modal
 
+// Confirm uninstall modal
 'btn_confirm_and_uninstall' => 'Deinstallieren',
 
 'btn_confirm_and_uninstall_working' => 'Deinstalliere jetzt...',
@@ -51,11 +49,11 @@ $lang = array(
 
 'confirm_uninstall_desc' => 'Sie wollen nun eines oder mehrere Add-Ons deinstallieren. Bestätigen Sie die Aktion, indem Sie auf den Button <b>Deinstallieren</b> klicken.',
 
-// Filters
 
+// Filters
 'addons_installed' => 'Add-Ons installiert',
 
-'addons_installed_desc' => 'Folgende(s) Add-on(s) wurde installiert: ',
+'addons_installed_desc' => 'Folgende(s) Add-On(s) wurde installiert: ',
 
 'addons_not_installed' => 'Add-Ons nicht installiert',
 
@@ -65,17 +63,17 @@ $lang = array(
 
 'addons_uninstalled' => 'Add-Ons deinstalliert',
 
-'addons_uninstalled_desc' => 'Folgende(s) Add-on(s) wurde deinstalliert: ',
+'addons_uninstalled_desc' => 'Folgende(s) Add-On(s) wurde deinstalliert: ',
 
 'addons_updated' => 'Add-Ons aktualisiert',
 
-'addons_updated_desc' => 'Folgende(s) Add-on(s) wurde aktualisiert: ',
+'addons_updated_desc' => 'Folgende(s) Add-On(s) wurde aktualisiert: ',
 
 'btn_save_settings' => 'Einstellungen speichern',
 
 'custom_limit' => 'Persönliches Limit',
 
-'developer' => 'developer',
+'developer' => 'Entwickler',
 
 'entries' => 'Einträge',
 
@@ -97,8 +95,8 @@ $lang = array(
 
 'uninstalled' => 'Deinstalliert',
 
-// 2.x
 
+// 2.x
 'addons_extensions' => 'Extensions',
 
 'addons_fieldtypes' => 'Feldtypen',
@@ -123,27 +121,27 @@ $lang = array(
 
 'description' => 'Beschreibung',
 
-'ext_disabled_short' => 'Untauglich',
+'ext_disabled_short' => 'Deaktiviert',
 
 'ext_enabled_short' => 'Aktiviert',
 
-'extension' => 'Extension',
+'extension' => 'Erweiterung',
 
-'extension_disabled' => 'Extension deaktiviert',
+'extension_disabled' => 'Erweiterung deaktiviert',
 
-'extension_enabled' => 'Extension aktiviert',
+'extension_enabled' => 'Erweiterung aktiviert',
 
-'extensions' => 'Extensions',
+'extensions' => 'Erweiterungen',
 
-'extensions_disabled' => 'Extensions deaktivieren',
+'extensions_disabled' => 'Erweiterungen deaktivieren',
 
-'extensions_disabled_desc' => 'Extensions wurden deaktiviert',
+'extensions_disabled_desc' => 'Erweiterungen wurden deaktiviert',
 
-'extensions_disabled_warning' => 'Sie müssen für die Installation dieses Add-ons die Extensions aktivieren. Möchten Sie Erweiterungen aktivieren?',
+'extensions_disabled_warning' => 'Sie müssen für die Installation dieses Add-Ons die Erweiterungen aktivieren. Möchten Sie Erweiterungen aktivieren?',
 
-'extensions_enabled' => 'Extension aktiviert',
+'extensions_enabled' => 'Erweiterung aktiviert',
 
-'extensions_enabled_desc' => 'Extensions wurden aktiviert.',
+'extensions_enabled_desc' => 'Erweiterungen wurden aktiviert.',
 
 'fieldtype' => 'Feldtyp',
 
