@@ -8,13 +8,13 @@ German Translation Pack for ExpressionEngine 5.x
 - Teilweise neu übersetzt und erweitert von Ralph Segert: Von EE 3.x auf EE 4.x und aktuell auf EE 5.x (ee@segert.net).
 
 Note from Ralph Segert:
-
-The German language pack is translated to "modules_lang.php" for the EE 5.1 release.
+The German language pack is translated to "modules_lang.php" for the EE 4.x and 5.x release.
 I have strictly followed the order of the lines in the English language pack.
 Thus, updating the language files is greatly facilitated.
 
 
-===========================================================================
+Permission notice
+=================
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
