@@ -43,7 +43,7 @@ $lang = array(
 'url_desc' => '<b>Jede <abbr title="Unified Resource Locator">URL</abbr> in eine eigene Zeile schreiben.</b>',
 
 'htaccess_path_removed' => '.htaccess-Pfad entfernt',
-  
+
 'htaccess_path_removed_desc' => 'Der .htaccess-Dateipfad wurde aus der Konfiguration entfernt',
 
 'htaccess_written_successfully' => '.htaccess aktualisiert',
@@ -70,7 +70,7 @@ $lang = array(
 
 'ref_whitelisted' => 'Einträge in der Whitelist',
 
-'ref_no_whitelist_table' => 'Whitelist-Datenbank-Tablelle existiert nicht',
+'ref_no_whitelist_table' => 'Whitelist-Datenbank-Tabelle existiert nicht',
 
 'ref_type' => 'Artikel-Typ',
 
