@@ -1,34 +1,48 @@
 <?php
+
 $lang = array(
 
+'all_modules_up_to_date' => 'Alle Module sind auf dem neuesten Stand.',
 
-'module_name' => 'Modul-Name',
+'data_will_be_lost' => 'Alle mit diesem Modul verbundenen Daten werden dauerhaft gelöscht!',
 
-'module_description' => 'Beschreibung',
+'deinstall' => 'Löschen',
 
-'data_will_be_lost' => 'Alle Daten aus diesem Modul werden definitiv gelöscht!',
+'delete_module' => 'Module deinstallieren',
 
-'module_access' => 'Modul bearbeiten',
+'delete_module_confirm' => 'Sind Sie sicher, dass Sie das folgende Modul entfernen möchten:',
 
-'module_no_access' => 'Sie haben keinen Zugang zu den Modulen',
-
-'delete_module' => 'Modul deinstallieren',
-
-'delete_module_confirm' => 'Sind Sie sicher, dass Sie das folgende Modul deinstallieren wollen:',
-
-'module_backend' => 'User CP',
-
-'module_version' => 'Version',
-
-'module_status' => 'Status',
-
-'module_action' => 'Aktion',
-
-'not_installed' => 'Nicht installiert',
+'install' => 'Installieren',
 
 'installed' => 'Installiert',
 
-'install' => 'Installieren',
+'module_access' => 'Module bearbeiten',
+
+'module_action' => 'Aktion',
+
+'module_backend' => 'Benutzer-CP (Control-Panel',
+
+'module_can_not_be_found' => 'Die für die Installation dieses Moduls erforderlichen Dateien konnten nicht gefunden werden',
+
+'module_description' => 'Beschreibung',
+
+'module_has_been_installed' => 'Modul installiert:',
+
+'module_has_been_removed' => 'Modul entfernt:',
+
+'module_name' => 'Modulname',
+
+'module_no_access' => 'Sie dürfen nicht auf Module zugreifen',
+
+'module_status' => 'Status',
+
+'module_version' => 'Version',
+
+'not_installed' => 'Nicht installiert',
+
+'requested_module_not_installed' => 'Das gewünschte Modul ist nicht installiert:',
+
+'requested_page_not_found' => 'Die gwünschte Modulseite wurde nicht gefunden.',
 
 'update_modules' => 'Module-Update starten',
 
@@ -36,24 +50,6 @@ $lang = array(
 
 'updated_to_version' => 'Update auf Version',
 
-'all_modules_up_to_date' => 'Alle Module wurden aktualisiert',
-
-'deinstall' => 'Entfernen',
-
-'module_can_not_be_found' => 'Kann die Dateien zur Installation dieses Moduls nicht finden.',
-
-'module_has_been_installed' => 'Modul installiert:',
-
-'module_has_been_removed' => 'Modul entfernt:',
-
-'requested_module_not_installed' => 'Das gewünschte Modul ist nicht installiert',
-
-'requested_page_not_found' => 'Die gewünschte Modul-Seite konnte nicht gefunden werden',
-
-'translate' => 'Update',
-
-''=>''
 );
 
-/* End of file modules_lang.php */
-/* Location: ./system/user/language/deutsch/modules_lang.php */
+// EOF

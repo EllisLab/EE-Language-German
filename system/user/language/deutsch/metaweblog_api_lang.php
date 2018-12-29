@@ -1,107 +1,117 @@
 <?php
+
 $lang = array(
 
+'closed' => 'Geschlossen',
 
-'metaweblog_api_module_name' => 'Meta-Weblog-API',
+'configuration_created' => 'Konfiguration erstellt',
+
+'configuration_created_desc' => 'Die Konfiguration <b>%s</b> wurde erstellt.',
+
+'configuration_not_created' => 'Konfiguration kann nicht erstellt werden',
+
+'configuration_not_created_desc' => 'Wir konnten diese Konfiguration nicht erstellen. Bitte beheben Sie die Fehler unten.',
+
+'configuration_not_updated' => 'Konfiguration kann nicht aktualisiert werden',
+
+'configuration_not_updated_desc' => 'Diese Konfiguration konnte nicht aktualisiert werden. Bitte beheben Sie die Fehler unten.',
+
+'configuration_updated' => 'Configuration Updated',
+
+'configuration_updated_desc' => 'Die Konfiguration <b>%s</b> wurde aktualisiert.',
+
+'configurations' => 'Konfiguration',
+
+'configurations_removed' => 'Konfigurationen wurden entfernt',
+
+'configurations_removed_desc' => '%d Konfigurationen wurden entfernt.',
+
+'create_metaweblog' => 'Meta-Weblog erstellen',
+
+'create_new' => 'Neu erstellen',
+
+'do_not_set' => 'Nicht festlegen',
+
+'edit_metaweblog' => 'Meta-Weblog bearbeiten',
+
+'entry_uneditable' => 'Sie haben keine Berechtigung, diesen Eintrag zu bearbeiten. Bitte überprüfen Sie die Berechtigungen der Mitgliedergruppen',
+
+'invalid_access' => 'Ungültiger Zugang',
+
+'invalid_categories' => 'Ungültige Kategorienauswahl',
+
+'invalid_channel' => 'Ungültige Channel-Auswahl',
+
+'invalid_file_content' => 'Die Datei, die Sie hochladen möchten, hat ungültigen Inhalt für den MIME-Typ',
 
 'metaweblog_api_module_description' => 'Meta-Weblog-API-Modul',
 
-'metaweblog_api_home' => 'Control Panel',
+'metaweblog_api_module_name' => 'Meta-Weblog-API',
 
-'api_urls' => 'Zeige URLs für die Meta-Weblog-API',
+'metaweblog_channel' => 'Channel',
 
-'invalid_access' => 'Ungültiger Zugriff',
-
-'no_channels_found' => 'Keine Channels für diesen Benutzer.',
-
-'invalid_channel' => 'Ungültige Channel-Wahl',
-
-'invalid_categories' => 'Ungültige Kategorien-Wahl',
-
-'no_entries_found' => 'Keine Einträge gefunden',
-
-'no_entry_found' => 'Eintrag in der Datenbank nicht gefunden',
-
-'unauthorized_action' => 'Für diese Aktion haben Sie keine Erlaubnis.',
-
-'new_entry_errors' => 'Validierungsfehler:',
-
-'entry_uneditable' => 'Diesen Eintrag dürfen Sie nicht bearbeiten. Bitte prüfen Sie die Rechte der Mitgliedergruppe.',
-
-'no_metaweblog_configs' => 'Im Moment gibt es keine Meta-Weblog-API-Konfigurationen',
-
-'metaweblog_configurations' => 'Meta-Weblog-API-Konfiguration',
+'metaweblog_channel_desc' => 'Standard-Channel für dieses Meta-Weblog. Wird für die folgenden Einstellungen verwendet.',
 
 'metaweblog_config_name' => 'Name',
 
 'metaweblog_config_url' => 'URL',
 
-'metaweblog_delete_confirm' => 'Meta-Weblog-API-Konfiguration löschen',
+'metaweblog_content_field' => 'Inhalt',
 
-'metaweblog_deleted' => 'Meta-Weblog-API-Konfiguration gelöscht',
+'metaweblog_content_field_desc' => 'Feld für den Inhalt verwendet.',
 
-'metaweblogs_deleted' => 'Meta-Weblog-API-Konfigurationen gelöscht',
-
-'metaweblog_delete_question' => 'Soll(en) die markierte(n) Meta-Weblog-API-Konfiguration(en) wirklich gelöscht werden?',
-
-'delete' => 'Löschen',
-
-'new_config' => 'Neue Konfiguration',
-
-'modify_config' => 'Konfiguration bearbeiten',
-
-'configuration_options' => 'Konfigurationsoptionen',
-
-'metaweblog_pref_name' => 'Konfiguration: Name',
-
-'metaweblog_parse_type' => 'Einstellungen zur Textformatierung',
-
-'metaweblog_parse_type_subtext' => 'Bei Einstellung &quot;Ja&quot; wird der Inhalt wie für die Anzeige auf einer Webseite angegeben. BBCode und Verzeichnisse werden gerendert.',
-
-'yes' => 'Ja',
-
-'no' => 'Nein',
-
-'none' => 'Keine',
-
-'metaweblog_field_group' => 'Channel-Feldergruppe',
-
-'metaweblog_excerpt_field' => 'Excerpt-Feld',
-
-'metaweblog_content_field' => 'Content-Feld',
-
-'metaweblog_more_field' => 'More-Feld',
-
-'metaweblog_keywords_field' => 'Keywords-Feld',
-
-'metaweblog_mising_fields' => 'Ein Feld wurde leer gelassen',
-
-'configuration_created' => 'Konfiguration erstellt',
-
-'configuration_updated' => 'Konfiguration aktualisiert',
+'metaweblog_create' => 'Konfiguration erstellen',
 
 'metaweblog_create_new' => 'Neue Konfiguration erstellen',
 
-'unable_to_upload' => 'Datei kann nicht hochgeladen werden',
+'metaweblog_entry_status' => 'Status',
 
-'invalid_file_content' => 'Die hochgeladene Datei enthält einen  ungültigen MIME-Typ',
+'metaweblog_entry_status_desc' => 'Standardstatus für Einträge aus diesem Meta-Weblog.',
 
-'metaweblog_upload_dir' => 'Upload-Verzeichnis für den Upload von Dateien',
+'metaweblog_excerpt_field' => 'Exzerpt-Feld',
 
-'metaweblog_upload_dir_subtext' => 'Sehr wenige Channel-Editoren haben diese Option! Vielleicht wollen Sie aus Sicherheitsgründen das Hochladen über die API nicht freigeben. Einstellung auf &quot;Kein&quot; verhindert den Upload von Dateien über einen Channel-Editor.',
+'metaweblog_excerpt_field_desc' => 'Feld für Exzerpt verwendet.',
 
-'metaweblog_entry_status' => 'Eintrags-Status',
+'metaweblog_keywords_field' => 'Schlüsselwörter',
 
-'do_not_set_status' => 'Keinen Status setzen (Client entscheidet)',
+'metaweblog_keywords_field_desc' => 'Feld für Schlüsselwörter.',
 
-'auto_br' => 'Auto <br />;',
+'metaweblog_mising_fields' => 'Ein Feld war leer',
 
-'xhtml' => 'XHTML',
+'metaweblog_more_field' => 'Mehr',
 
-'translate' => 'Update',
+'metaweblog_more_field_desc' => 'Feld verwendet für mehr.',
 
-''=>''
+'metaweblog_parse_type' => 'Standardvoreinstellungen für die Textformatierung verwenden?',
+
+'metaweblog_parse_type_desc' => 'Wenn aktiviert, wird der Inhalt mit intakter Formatierung des benutzerdefinierten Felds gesendet.',
+
+'metaweblog_pref_name' => 'Name',
+
+'metaweblog_settings' => 'MetaWeblog <abbr title="Anwendungsprogrammierschnittstelle">API</abbr>-Einstellungen',
+
+'metaweblog_upload_dir' => 'Erlaubtes Verzeichnis',
+
+'metaweblog_upload_dir_desc' => 'Standardverzeichnis zum Speichern von Dateien, die mit diesem Meta-Weblog hochgeladen wurden.',
+
+'new_entry_errors' => 'Fehler bei der Validierung der Einträge: ',
+
+'no_channels_found' => 'Keine Channels für diesen Benutzer gefunden.',
+
+'no_configurations' => 'Keine Konfigurationen',
+
+'no_entries_found' => 'Keine EInträge gefunden',
+
+'no_entry_found' => 'Eintrag nicht in der Datenbank gefunden',
+
+'no_metaweblog_configs' => 'Derzeit gibt es keine Meta-Weblog-API-Konfigurationen',
+
+'open' => 'Offen',
+
+'unable_to_upload' => 'Hochladen der Datei nicht möglich',
+
+'unauthorized_action' => 'Sie sind nicht berechtigt, diese Aktion auszuführen.',
+
 );
 
-/* End of file metaweblog_api_lang.php */
-/* Location: ./system/user/language/deutsch/metaweblog_api_lang.php */
+// EOF
