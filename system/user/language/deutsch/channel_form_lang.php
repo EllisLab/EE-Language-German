@@ -36,7 +36,7 @@ $lang = array(
 
 'isset' => 'Das %s-Feld muss einen Wert haben.',
 
-'matches' => 'Das %s-Feld stimmt nicht mit Feld %s überein.',
+'matches' => 'Das %s-Feld stimmt nicht mit dem Feld %s überein.',
 
 'max_length' => 'Das %s-Feld darf nicht länger als %s Zeichen sein.',
 

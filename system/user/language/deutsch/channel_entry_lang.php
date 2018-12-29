@@ -4,4 +4,5 @@ $lang = array(
 'channel_entry' => 'Channel-Eintrag',
 
 );
+
 // EOF
