@@ -12,7 +12,7 @@ $lang = array(
 
 'attachment_warning' => 'Anhänge werden von ExpressionEngine <strong>nicht gespeichert</strong>. Diese müssen lokal gespeichert sein.',
 
-'batchmode_disabled' => 'Batch-Mode ist abgeschaltet',
+'batchmode_disabled' => 'Stapelmodus ist abgeschaltet',
 
 'batchmode_ready_to_begin' => 'Die Emails werden in fünf Sekunden versendet',
 
@@ -22,7 +22,7 @@ $lang = array(
 
 'bcc' => 'BCC',
 
-'cache_data_missing' => 'Email Cache-Daten wurden nicht gefunden.',
+'cache_data_missing' => 'Email-Cache-Daten wurden nicht gefunden.',
 
 'cc' => 'CC',
 
@@ -44,7 +44,7 @@ $lang = array(
 
 'email_deleted' => 'Email wurde gelöscht',
 
-'email_error' => 'Emailfehler',
+'email_error' => 'Email-Fehler',
 
 'email_sent_message' => 'Ihre Nachricht wurde gesendet',
 
@@ -74,7 +74,7 @@ $lang = array(
 
 'lowest' => 'Niedrigste',
 
-'mail_format' => 'Emailformatierung',
+'mail_format' => 'Email-Formatierung',
 
 'manual_recipients_ignored' => 'Das obige Empfängerfeld wird ignoriert',
 
@@ -82,7 +82,7 @@ $lang = array(
 
 'message' => 'Mitteilung',
 
-'no_cached_email' => 'Keine <b>cached Emails</b> gefunden.',
+'no_cached_email' => 'Keine <b>gecahcten Emails</b> gefunden.',
 
 'no_email_matching_criteria' => 'Keine übereinstimmenden Email-Adressen gefunden',
 
@@ -90,9 +90,9 @@ $lang = array(
 
 'not_allowed_to_email_cache' => 'Sie dürfen keine Einsicht in das Email-Archiv nehmen.',
 
-'not_allowed_to_email_member_groups' => 'Sie dürfen keine Email an Nutzer-Gruppen versenden',
+'not_allowed_to_email_member_groups' => 'Sie dürfen keine Email an Mitgliedergruppen versenden',
 
-'not_allowed_to_email_members' => 'Sie dürfen keine Email an Mitglieder versenden',
+'not_allowed_to_email_members' => 'Sie dürfen keine Emails an Mitglieder versenden',
 
 'off' => 'Aus',
 
@@ -128,7 +128,7 @@ $lang = array(
 
 'separate_emails_with_comma' => 'Mehrere Empfänger durch Kommas trennen',
 
-'subject' => 'Befreff',
+'subject' => 'Betreff',
 
 'text_formatting' => 'Textformatierung',
 
@@ -142,9 +142,9 @@ $lang = array(
 
 'view_email_cache' => 'Früher gesendete Emails ansehen',
 
-'wordwrap' => 'Wordumbruch',
+'wordwrap' => 'Wortumbruch',
 
-'your_email' => 'Deine Emailadresse',
+'your_email' => 'Deine Email-Adresse',
 
 'your_name' => 'Dein Name',
 
