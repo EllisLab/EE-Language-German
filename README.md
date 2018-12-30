@@ -1,11 +1,11 @@
-German Translation Pack for ExpressionEngine 5.x
-================================================
+German Translation Pack for ExpressionEngine 4.x and 5.x
+========================================================
 
 
 - Copyright (C) 2009-2018 EllisLab, Inc.
 - Original German translation provided by: Werner Gusset (gusset@octave2.ch),
 - Erweitert für EE 3.x von Tom Jaisle (jaisle@eyelabel.com)
-- Teilweise neu übersetzt und erweitert von Ralph Segert: Von EE 3.x auf EE 4.x und aktuell auf EE 5.x (ee@segert.net).
+- Teilweise neu übersetzt und erweitert für EE 3.x und EE 4.x von Ralph Segert (ralph@segert.net).
 
 Note from Ralph Segert:
 The German language pack is translated to "modules_lang.php" for the EE 4.x and 5.x release.
