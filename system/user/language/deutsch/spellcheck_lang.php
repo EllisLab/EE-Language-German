@@ -2,32 +2,24 @@
 
 $lang = array(
 
-//----------------------------
-// Publish page
-//----------------------------
+'check_spelling' => 'Rechtschreibung prüfen',
 
-  'spell_check' => 'Rechtschreibprüfung',
+'no_spelling_errors' => 'Keine Fehler gefunden',
 
-  'check_spelling' => 'Rechtschreibung prüfen',
+'revert_spellcheck' => 'Zurück zum Original',
 
-  'save_spellcheck' => 'Änderungen speichern',
+'save_spellcheck' => 'Save Changes',
 
-  'revert_spellcheck' => 'Zurück zum Original',
+'save_spellcheck' => 'Änderungen speichern',,
 
-  'spell_save_edit' => 'Bearbeitungen speichern',
+'spell_edit_word' => 'Wort bearbeiten',
 
-  'spell_edit_word' => 'Wort bearbeiten',
+'spell_save_edit' => 'Bearbeitungen speichern',
 
-  'unsupported_browser' => 'Browser wird nicht unterstützt',
+'spellcheck_in_progress' => 'Überprüfung läuft...',
 
-  'no_spelling_errors' => 'Keine Fehler gefunden',
+'unsupported_browser' => 'Browser wird nicht unterstützt',
 
-  'spellcheck_in_progress' => 'Überprüfung läuft...',
-
-
-  ''=>''
 );
 
-
-/* End of file spellcheck_lang.php */
-/* Location: ./system/user/language/deutsch/spellcheck_lang.php */
+// EOF
