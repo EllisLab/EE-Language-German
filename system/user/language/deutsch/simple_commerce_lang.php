@@ -1,249 +1,391 @@
 <?php
+
 $lang = array(
 
+'add_email' => 'Email-Template hinzufügen',
 
-'simple_commerce_module_name' => 'Einfaches E-Commerce',
+'add_email_instructions' => 'Wenn der Kauf eines Artikels bestätigt ist, kann eine Email an eine oder mehrere Email-Adressen für diesen Artikel gesendet werden. Diese Emails können bestimmte Variablen enthalten, die von PayPal zurückgesendet werden. Diese lauten wie folgt:',
 
-'simple_commerce_module_description' => 'Einfaches E-Commerce-Modul',
+'add_emails' => 'Email-Templates hinzufügen',
 
-'simple_commerce_home' => 'Control Panel',
+'add_item' => 'Artikel hinzufügen',
 
-'subscription_frequency' => 'Abonnenten-Frequenz',
+'admin_email_address' => 'Admin-Email-Adresse',
 
-'subscription_frequency_unit' => 'Abonnenten-Frequenz: Einheit',
-
-'invalid_subscription_frequency' => 'Ungültige Abo-Frequenz',
-
-'recurs_every' => 'Wiederkehrend alle',
-
-'days' => 'Tage',
-
-'screen_name' => 'Bildschirm-Name',
-
-'weeks' => 'Wochen',
-
-'months' => 'Monate',
-
-'years' => 'Jahre',
-
-'day' => 'Tag',
-
-'week' => 'Woche',
-
-'month' => 'Monat',
-
-'year' => 'Jahr',
-
-'ipn_url' => 'Instant Payment Notification (IPN): URL',
-
-'ipn_details' => 'Instant Payment Notification (Sofortige Zahlungsbestätigung) ist ein PayPal Service, der Transaktionen auf deren Website erlaubt und anschliessend ExpressionEngine in Kenntnis setzt, wenn die Transaktion abgeschlossen und genehmigt wurde. Dazu müssen Verkäufe nicht im Simple Commerce Modul bis zum Abschluss der Transaktion abgespeichert werden. Das Modul automatisiert alles im Hintergrund. Alles was vorgenommen werden muss, ist, Instant Payment Notification auf der PayPal-Website zu aktivieren und ihnen den untenstehenden URL zu melden. <br />Weitere (englische) Details:  https://www.paypal.com/IntegrationCenter/ic_ipn.html',
-
-'items' => 'Artikel',
-
-'purchases' => 'Verkäufe',
-
-'email_templates' => 'Email-Templates',
-
-'store_items' => 'Shop-Artikel',
-
-'add_item' => 'Artikel zufügen',
-
-'item_added' => 'Artikel zufügen',
-
-'purchase_date' => 'Verkaufsdatum',
-
-'recurring' => 'Wiederkehrend',
-
-'recurring_purchase_warning' => 'Wiederholte Käufe müssen über Paypal geregelt werden, um korrekt zu funktionieren.',
-
-'current_subscriptions' => 'Abo-Ablaufdatum',
-
-'add_items' => 'Artikel hinzufügen',
-
-'edit_items' => 'Artikel bearbeiten',
-
-'export_items' => 'Artikel exportieren',
-
-'store_purchases' => 'Shop-Verkäufe',
-
-'edit_purchases' => 'Verkäufe bearbeiten',
-
-'add_purchase' => 'Verkäufe zufügen',
-
-'export_purchases' => 'Verkäufe exportieren',
-
-'choose_entry_for_item' => 'Eintrag wählen für den Shop-Artikel',
-
-'invalid_entries' => 'Kein gültiger Eintrag',
-
-'invalid_emails' => 'Ungültige E-Mails',
-
-'invalid_purchases' => 'Ungültige Verkäufe',
-
-'use_sale_price' => 'Aktionspreis verwenden?',
-
-'entry_title' => 'Eintrag-Titel',
-
-'update_item' => 'Artikel updaten',
-
-'update_items' => 'Artikel updaten',
-
-'sale_price' => 'Aktionspreis',
-
-'regular_price' => 'Verkaufspreis',
-
-'item_enabled' => 'Eintrag verfügbar',
-
-'purchase_actions' => 'Artikel aktivieren',
-
-'store_emails' => 'Shop-Emails',
-
-'add_email_template' => 'Email-Template hinzufügen',
-
-'template_name' => 'Template-Name',
-
-'edit_email_templates' => 'Email-Templates bearbeiten',
-
-'sales_information' => 'Verkaufsinformation',
-
-'no_email_templates' => 'Keine Email-Templates',
-
-'no_purchases' => 'Keine Verkäufe',
-
-'perform_item_actions' => 'Aktionen für Artikel ausführen?',
-
-'email_name' => 'Email-Template-Name',
-
-'edit_emails' => 'Emails bearbeiten',
-
-'monthly_sales' => 'Monatliche Verläufe',
-
-'customer_email' => 'Kunden-Email-Template',
-
-'on_subscribe' => 'Abonnent: Ein',
-
-'on_unsubscribe' => 'Abo abbestellen: Ein',
-
-'customer_email_subscribe' => 'Kunden-Email: -Abo-Template',
-
-'customer_email_unsubscribe' => 'Kunden-Email: Abo-abbestellen-Template',
-
-'admin_email_address' => 'Admin Email-Adresse',
-
-'invalid_price' => 'Ungültiger Preis!',
-
-'select_admin_template' => 'Admin-Email-Template muss ausgewählt werden, wenn die Email-Adresse ausgefüllt ist',
+'admin_email_address_desc' => 'E-Mail-Adresse zur Benachrichtigung, wenn ein Verkauf getätigt wird.',
 
 'admin_email_template' => 'Admin-Email-Template',
 
-'member_group' => 'Neue Mitgliedergruppe',
+'admin_email_template_desc' => 'Vorlage zum Benachrichtigen eines Administrators über einen Verkauf.',
 
-'admin_email_template_unsubscribe' => 'Admin-E-Mail: Abo-abbestellen-Template',
+'admin_email_template_unsubscribe' => 'Admi- <mark>Stornierungs</mark>-E-mail-Vorlage',
 
-'member_group_subscribe' => 'Mitgliedergruppe abonnieren',
+'admin_email_template_unsubscribe_desc' => 'Template zum Benachrichtigen eines Administrators über eine Stornierung.',
 
-'member_group_unsubscribe' => 'Mitgliedergruppe abbestellen',
+'all_items' => 'Alle Artikel',
 
-'send_no_email' => 'Email nicht senden',
+'all_purchases' => 'Alle Verkäufe',
 
-'no_change' => 'Keine Änderung',
+'certificate_id' => 'ID für ein öffentliches Zertifikat von PayPal',
 
-'no_store_items' => 'Keine Shop-Artikel',
-
-'item_purchases' => 'Verkäufe',
-
-'updated' => 'Aktualisiert',
+'choose_entry_for_item' => 'Eintrag wählen für den Shop-Artikel',
 
 'choose_item' => 'Artikel wählen',
 
-'fields_left_blank' => 'Einige erforderliche Felder waren leer',
+'commerce_cert_path' => 'Öffentlicher Zertifikatpfad',
 
-'add_emails' => 'Email-Templates zufügen',
+'commerce_cert_path_desc' => 'Vollständiger Pfad zum öffentlichen Zertifikat.',
 
-'add_email' => 'Email-Template zufügen',
+'commerce_encrypt_paypal' => 'PayPal-Schaltflächen und Links verschlüsseln?',
 
-'update_email' => 'Email-Template aktualisieren',
+'commerce_encrypt_paypal_desc' => 'Wenn aktiviert, werden PayPal-Schaltflächen und -Links mit JavaScript verschlüsselt.',
 
-'update_purchase' => 'Verkauf aktualisieren',
+'commerce_ipn_notice' => 'Die Sofortzahlungs-Benachrichtigung (Instant Payment Notification) ist ein PayPal-Service, der die Verarbeitung von Transaktionen auf ihrer Website ermöglicht und ExpressionEngine darüber benachrichtigt, wenn die Transaktion abgeschlossen und akzeptiert ist. Dies ermöglicht, dass Einkäufe erst dann im Simple Commerce-Modul gespeichert und aufgezeichnet werden, wenn die Transaktion abgeschlossen ist. Das Simple Commerce-Modul von ExpressionEngine automatisiert all dies hinter den Kulissen. Sie müssen also auf der PayPal-Website die Sofortzahlungs-Benachrichtigung aktivieren und dort den unten angegebene URL bereitstellen. <a href="%s" rel="external">Weitere Informationen</a>',
 
-'update_emails' => 'Email-Templates aktualisieren',
+'commerce_ipn_url' => '<abbr title="Instant Payment Notification">IPN</abbr>-<abbr title="Unified Resource Locator">URL</abbr>',
 
-'update_purchases' => 'Verkäufe aktualisieren',
+'commerce_ipn_url_desc' => '<abbr title="Unified Resource Locator">URL</abbr> für PayPal zur Benachrichtigung bei Abschluss von Transaktionen.',
 
-'purchases_deleted' => 'Verkäufe gelöscht',
+'commerce_items' => 'Verkaufsartikel',
 
-'email_instructions' => 'Email-Anleitung',
+'commerce_key_path' => 'Privater-Schlüssel-Pfad',
 
-'email_subject' => 'Email-Betreff',
+'commerce_key_path_desc' => 'Absoluter Pfad zum privaten Schlüssel.',
 
-'email_body' => 'Email-Text',
+'commerce_paypal_cert_id' => 'Öffentliche Zertifizierung <abbr title="Identifier">ID</abbr>',
 
-'add_email_instructions' => 'Wenn der Verkauf eines Artikel bestätigt ist, kann eine Email an eine oder mehrere Adressen für den betreffenden Artikel versandt werden. Diese Emails können gewisse Variablen beinhalten, die von PayPal zurückkommen: ',
+'commerce_paypal_cert_id_desc' => '<abbr title="Identifier">ID</abbr> für ein öffentliches Zertifikat von PayPal.',
 
-'edit_selected' => 'Gewählte bearbeiten',
+'commerce_paypal_cert_path' => 'PayPal-Zertifikat-Pfad',
 
-'delete_selected' => 'Gewählte löschen',
+'commerce_paypal_cert_path_desc' => 'Absoluter Pfad zum PayPal-Zertifikat.',
 
-'delete_items_confirm' => 'Artikel löschen: Bestätigung',
+'commerce_paypal_email' => 'PayPal-Konto-Email',
 
-'items_deleted' => 'Artikel gelöscht',
+'commerce_paypal_email_desc' => 'E-mil-Adresse, die Ihrem PayPal-Geschäftskonto zugeordnet ist.',
 
-'delete_emails_confirm' => 'Emails löschen: Bestätigung',
+'commerce_purchases' => 'Verkäufe',
 
-'delete_purchases_confirm' => 'Verkäufe löschen: Bestätigung',
+'commerce_settings' => 'Verkaufs-Einstellungen',
 
-'emails_deleted' => 'Email Templates gelöscht!',
+'commerce_temp_path' => 'Temporär verschlüsselter Dateipfad',
 
-'member_not_found' => 'Mitglied nicht gefunden',
+'commerce_temp_path_desc' => 'Vollständiger Pfad zu temporär verschlüsselten Dateien.',
 
-'purchaser_screen_name' => 'Bildschirm-Name des Käufers',
+'cost' => 'Kosten',
 
-'txn_id' => 'Verkauf Identification Nummer (TXN ID)',
+'create_email_template' => 'Email-Template erstellen',
+
+'create_new_item' => 'Neuen Artikel erstellen',
+
+'create_new_item_step' => 'Artikel erstellen: Schritt %d',
+
+'create_new_item_step_desc' => 'Bitte wählen Sie die Channel-Einträge aus, die Sie als kaufbare Artikel hinzufügen möchten.',
+
+'create_purchase' => 'Kauf erstellen',
+
+'create_template' => 'Template erstellen',
+
+'customer_email_subscribe' => 'Kunden-E-Mail-Abonnement-Template',
+
+'customer_email_template' => 'Kundenemail-Template',
+
+'customer_email_template_desc' => 'Vorlage, die verwendet werden soll, wenn eine Bestätigungs-E-Mail an den Käufer gesendet wird.',
+
+'customer_email_unsubscribe' => 'Kunden-<mark>Stornierungs</mark>-Email-Template',
+
+'customer_email_unsubscribe_desc' => 'Template, das verwendet werden soll, wenn eine Bestätigungs-E-Mail zum Stornieren gesendet wird',
+
+'date_of_purchase' => 'Kaufdatum',
 
 'date_purchased' => 'Kaufdatum',
 
-'subscription_end_date' => 'Abo-Ablaufdatum',
+'day' => 'Tag',
 
-'subscription_end_date_subtext' => '&#39;0&#39; eingeben für ein Abo ohne Ende',
+'days' => 'Tage',
 
-'item_purchased' => 'Artikel gekauft',
+'delete_emails_confirm' => 'Email-Bestätigung löschen',
 
-'item_cost' => 'Artikel-Kosten',
+'delete_items_confirm' => 'Artikelbestätigung löschen',
 
-'invalid_date_formatting' => 'Ungültiges Datumsformat',
+'delete_purchases_confirm' => 'Kaufbestätigung löschen',
 
-'invalid_amount' => 'Ungültiger Geldbetrag',
+'delete_selected' => 'Ausgewähltes löschen',
+
+'edit_email_template' => 'Email-Template bearbeiten',
+
+'edit_item' => 'Artikel bearbeiten',
+
+'edit_purchase' => 'Kauf bearbeiten',
+
+'edit_selected' => 'Ausgewähltes bearbeiten',
+
+'email_body' => 'Nachrichtentext',
+
+'email_instructions' => 'Email-Anweisungen',
+
+'email_name' => 'Email-Template-Name',
+
+'email_options' => 'Email-Optionen',
+
+'email_subject' => 'Email-Betreff',
+
+'email_template' => 'Email-Template',
+
+'email_template_created' => 'Email-Template ertsellt',
+
+'email_template_created_desc' => 'Das Email-Template wurde erstellt.',
+
+'email_template_name_desc' => 'Name des Email-Templates.',
+
+'email_template_not_created' => 'Konnten Email-Template nicht erstellen',
+
+'email_template_not_created_desc' => 'Wir konnten dieses Email-Template nicht erstellen. Bitte überprüfen Sie die Fehler und beheben Sie sie unten.',
+
+'email_template_not_updated' => 'Konnten Email-Template nicht updaten',
+
+'email_template_not_updated_desc' => 'Wir konnten diese Email-Template nicht aktualisieren. Bitte überprüfen Sie die unten aufgeführten Fehler.',
+
+'email_template_updated' => 'Email-Template aktualisiert',
+
+'email_template_updated_desc' => 'Die Email-Template <b>%s</b> wurde aktualisiert.',
+
+'email_templates' => 'Email-Templates',
+
+'email_templates_removed' => 'Email-Templates entfernt',
+
+'email_templates_removed_desc' => '%d Email-Templates wurden entfernt.',
+
+'emails_deleted' => 'Email-Templates gelöscht!',
+
+'enable_item' => 'Artikel aktivieren?',
+
+'enable_item_desc' => 'Wenn aktiviert, kann dieser Artikel verkauft werden.',
+
+'encrypt_buttons_links' => 'Buttons und Links von PayPal verschlüsseln?',
 
 'encryption' => 'Verschlüsselung',
 
-'encrypt_buttons_links' => 'Verschlüsseln von PayPal-Buttons und Links?',
+'entry_title' => 'Eintragstitel',
 
-'public_certificate' => 'Public Certificate Pfad',
+'export_items' => 'Alle Artikel exportieren',
 
-'certificate_id' => 'Von PayPal vergebene ID für Public Certificate',
+'export_purchases' => 'Alle Verkäufe exportieren',
 
-'private_key' => 'Private Key Pfad',
+'fields_left_blank' => 'Sie haben einige erforderliche Felderleer gelassen',
 
-'paypal_certificate' => 'Pfad für PayPal Zertifikat',
+'file_does_not_exist' => 'Datei existiert nicht für \'%pref%\'. Stellen Sie sicher, dass Sie einen vollständigen Serverpfad verwenden.',
 
-'temp_path' => 'Pfad für temporär verschlüsselte Dateien',
+'frequency' => 'Frequenz',
+
+'invalid_amount' => 'Ungültiger Geldbetrag',
+
+'invalid_date_formatting' => 'Ungültiges Datumsformat',
+
+'invalid_emails' => 'Keine gültigen Emails',
+
+'invalid_entries' => 'Keine gültigen Einträge',
+
+'invalid_purchases' => 'Keine gültigen Verkäufe',
+
+'invalid_subscription_frequency' => 'Ungültige Abonnementfrequenz',
+
+'item' => 'Artikel',
+
+'item_added' => 'Artikel hinzugefügt',
+
+'item_cost' => 'Artikelpreis',
+
+'item_cost_form' => 'Artikelpreis',
+
+'item_created' => 'Artikelerstellt',
+
+'item_created_desc' => 'Die Artikel wurden erstellt.',
+
+'item_not_created' => 'Artikel konnte nicht erstellt werden',
+
+'item_not_created_desc' => 'Wir konnten diesen Artikel nicht erstellen, bitte überprüfen und beheben Sie die Fehler unten.',
+
+'item_not_updated' => 'Artikel konnte nicht aktualisiert werden',
+
+'item_not_updated_desc' => 'Wir konnten diesen Artikel nicht aktualisieren, bitte überprüfen und beheben Sie die Fehler unten.',
+
+'item_purchased' => 'Produkt verkauft.',
+
+'item_purchases' => 'Verkäufe',
+
+'item_updated' => 'Artikel aktualisiert',
+
+'item_updated_desc' => 'Der Artikel <b>%s</b> wurde aktualisiert.',
+
+'items' => 'Artikel',
+
+'items_deleted' => 'Artikel gelöscht',
+
+'items_removed' => 'Artikel entfernt',
+
+'items_removed_desc' => '%d Artikel wurden entfernt.',
+
+'member_group_subscribe' => 'Mitgliedergruppe abonnieren',
+
+'member_group_unsubscribe_desc' => 'Nach der Stornierung wird die Mitgliedergruppe des Stornierenden in die ausgewählte Gruppe geändert.',
+
+'member_not_found' => 'Mitglied nicht gefunden.',
+
+'month' => 'Monat',
+
+'months' => 'Monate',
+
+'new_member_group' => 'Neue Mitgliedergruppe',
+
+'new_member_group_desc' => 'Beim Kauf wird die Mitgliedergruppe des Käufers in die ausgewählte Gruppe geändert.',
+
+'no_change' => 'Keine Änderung',
+
+'no_email_templates' => 'Email-Templates',
+
+'no_entries' => 'Einträge',
+
+'no_items' => 'Keine Artikel',
+
+'no_store_items' => 'Keine Shop-Artikel',
+
+'paypal_account' => 'PayPal-Account',
+
+'paypal_certificate' => 'PayPal-Zertifikatpfad',
+
+'paypal_variables' => 'PayPal-Variablen',
+
+'paypal_variables_desc' => 'Wenn ein Kauf bestätigt wurde, wird eine Email für diesen Artikel gesendet. Diese Variablen werden von PayPal zurückgesendet.',
+
+'perform_item_actions' => 'Aktionen für Artikel ausführen?',
+
+'price' => 'Preis',
+
+'price_desc' => 'Artikelpreis für diese Transaktion.',
+
+'price_sale' => 'Preis / Verkauf',
+
+'private_key' => 'Privater Schlüssel-Pfad',
+
+'public_certificate' => 'Öffentlicher Zertifikatpfad',
+
+'purchase' => 'Verkauf',
+
+'purchase_create_warn' => '<b>Warnung:</b>: Wiederkehrende Einkäufe müssen über PayPal eingerichtet werden, um die volle Funktionalität zu gewährleisten.',
+
+'purchase_created' => 'Kauf erstellt',
+
+'purchase_created_desc' => 'Der Kauf für Artikel <b>%s</b> wurde angelegt.',
+
+'purchase_date' => 'Verkaufsdatum',
+
+'purchase_not_created' => 'Kauf kann nicht erstellt werden',
+
+'purchase_not_created_desc' => 'Wir konnten diesen Kauf nicht erstellen, bitte überprüfen und beheben Sie die Fehler unten.',
+
+'purchase_not_updated' => 'Kauf kann nicht aktualisiert werden',
+
+'purchase_not_updated_desc' => 'Wir konnten diesen Kauf nicht aktualisieren, bitte überprüfen und beheben Sie die Fehler unten.',
+
+'purchase_updated' => 'Kauf aktualisiert',
+
+'purchase_updated_desc' => 'Der Kauf für Artikel <b>%s</b> wurde aktualisiert.',
+
+'purchaser' => 'Käufer',
+
+'purchaser_screen_name' => 'Bildschirmname des Käufers',
+
+'purchases' => 'Verkäufe',
+
+'purchases_deleted' => 'Verkäufe gelöscht',
+
+'purchases_removed' => 'Verkäufe entfernt',
+
+'purchases_removed_desc' => '%d Einkäufe wurden entfernt.',
+
+'recurring' => 'Wiederkehrendes Abonnement?',
+
+'recurring_desc' => 'Wenn aktiviert, wird das Mitglied bis zur Stornierung belastet.',
+
+'recurring_purchase_warning' => "Wiederkehrende Einkäufe müssen für volle Funktionalität über PayPal eingerichtet werden.",
+
+'recurs_every' => 'Wiederholt jeden',
+
+'regular_price' => 'Regulärer Preis',
+
+'sale_price' => 'Sonderpreis',
+
+'sales_information' => 'Verkaufsinformationen',
+
+'screen_name' => 'Bildschirmname',
+
+'screen_name_desc' => 'Bildschirmname des Käufers.',
+
+'search_commerce' => 'Verkaufssuche',
+
+'select_admin_template' => 'Muss Admin-Email-Template auswählen, wenn die Email-Adresse ausgefüllt ist',
+
+'send_no_email' => 'Email nicht senden',
 
 'settings' => 'Einstellungen',
 
 'settings_updated' => 'Einstellungen aktualisiert',
 
-'file_does_not_exist' => 'Datei besteht für %pref% nicht. Vollen Serverpfad angeben. ',
+'simple_commerce_home' => 'Control-Panel',
 
-'temporary_directory_unwritable' => 'Das Verzeichnis für temporäre Dateien ist nicht beschreibbar.',
+'simple_commerce_manager' => 'Simple Commerce Manager',
 
-'paypal_account' => 'PayPal-Konto',
+'simple_commerce_module_name' => 'Simple Commerce',
 
-'no_entries_matching_that_criteria' => 'Es bestehen keine Einträge, welche die gewählten Kriterien erfüllen',
+'store_items' => 'Artikel speichern',
 
-'translate' => 'Update',
+'sub_end_date' => 'Enddatum',
 
-''=>''
+'subscribers' => 'Abonnenten',
+
+'subscription_end_date' => 'Abo-Enddatum',
+
+'subscription_end_date_subtext' => 'Tragen Sie \'0\' für kein Abo-Ende ein',
+
+'subscription_frequency' => 'Häufigkeit des Abos',
+
+'subscription_frequency_desc' => 'Wie oft wird dem Mitglied ein Abo für diesen Artikel berechnet?',
+
+'subscription_frequency_unit' => 'Abo-Häufigkeitseinheit',
+
+'subscription_options' => 'Abo-Optionen',
+
+'temp_path' => 'Temporärer Pfad für verschlüsselte Dateien',
+
+'template' => 'Template',
+
+'temporary_directory_unwritable' => 'Das zum Schreiben der temporären Dateien angegebene Verzeichnis ist nicht beschreibbar.',
+
+'txn_id' => 'PIN (TXN ID)',
+
+'txn_id_desc' => 'Eine eindeutige ID für diesen Kauf',
+
+'update_email' => 'Email-Template aktualisieren',
+
+'update_emails' => 'Email-Templates aktualisieren',
+
+'update_purchase' => 'Kauf aktualisieren',
+
+'update_purchases' => 'Verkäufe aktualisieren',
+
+'updated' => 'Aktualisiert',
+
+'use_sale_price' => 'Sonderpreis verwenden?',
+
+'week' => 'Woche',
+
+'weeks' => 'Wochen',
+
+'year' => 'Jahr',
+
+'years' => 'Jahre',
+
 );
 
-/* End of file simple_commerce_lang.php */
-/* Location: ./system/user/language/deutsch/simple_commerce_lang.php */
+// EOF
