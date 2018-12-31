@@ -18,7 +18,7 @@ $lang = array(
 
 'spellcheck_in_progress' => 'Überprüfung läuft...',
 
-'unsupported_browser' => 'Browser wird nicht unterstützt',
+'unsupported_browser' => 'Der Browser wird nicht unterstützt',
 
 );
 
