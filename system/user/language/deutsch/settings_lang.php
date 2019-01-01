@@ -299,7 +299,7 @@ $lang = array(
 
 'categories_section' => 'Kategorien',
 
-'channel_manager' => 'Channel-Verwaltung',
+'channel_manager' => 'Channel-Manager',
 
 'emoticon_url' => '<abbr title="Unified Resource Locator">URL</abbr>',
 
