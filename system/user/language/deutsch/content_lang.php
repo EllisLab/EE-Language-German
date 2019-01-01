@@ -12,7 +12,7 @@ $lang = array(
 
 'allow_comments' => 'Kommentare erlauben?',
 
-'allow_comments_desc' => 'Wenn Option aktiviert, dürfen Nutzer mit Berechtigung diesen Eintrag kommentieren.',
+'allow_comments_desc' => 'Wenn Option aktiviert, dürfen Benutzer mit Berechtigung diesen Eintrag kommentieren.',
 
 'author' => 'Autor',
 
@@ -126,7 +126,7 @@ $lang = array(
 
 'entry_limit_reached' => 'Eintrags-Limit erreicht',
 
-'entry_limit_reached_desc' => 'Dieser Channel ist beschränkt auf %d Eintrag(e).',
+'entry_limit_reached_desc' => 'Dieser Channel ist beschränkt auf %d Einträge.',
 
 'entry_limit_reached_one_desc' => 'Dieser Channel ist beschränkt auf einen Eintrag.',
 
@@ -148,7 +148,7 @@ $lang = array(
 
 'filter_by_channel' => 'Channel',
 
-'filter_by_status' => 'status',
+'filter_by_status' => 'Status',
 
 'in' => 'in',
 
@@ -184,7 +184,7 @@ $lang = array(
 
 'add_author' => 'Autor hinzufügen',
 
-'add_author_desc' => 'Gruppen-Einstellungen überschreiben individuelle Einstellungen - bestimmte Mitlieder können nicht von der Autorenliste gelöscht werden.',
+'add_author_desc' => 'Gruppen-Einstellungen überschreiben individuelle Einstellungen - bestimmte Mitglieder können nicht von der Autorenliste gelöscht werden.',
 
 'add_categories' => 'Kategorien hinzufügen',
 
@@ -198,7 +198,7 @@ $lang = array(
 
 'any_date' => 'Benutzerdefinierter Datumsbereich',
 
-'ascending' => 'Alteste zuerst',
+'ascending' => 'Älteste zuerst',
 
 'authors' => 'Autoren',
 
@@ -256,7 +256,7 @@ $lang = array(
 
 'choose_only_one_entry' => 'Es darf nur ein Eintrag ausgewählt werden',
 
-'clear' => 'Clear',
+'clear' => 'Entfernen',
 
 'click_emoticon' => 'Auf ein Bild klicken, um es in den Eintrag zu platzieren',
 
@@ -270,7 +270,7 @@ $lang = array(
 
 'close_selected' => 'Markierte löschen',
 
-'close_window' => 'Fenster schliessen',
+'close_window' => 'Fenster schließen',
 
 'closed' => 'Geschlossen',
 
@@ -398,21 +398,21 @@ $lang = array(
 
 'forum' => 'Forum',
 
-'forum_body' => 'Forum-Thema-Text',
+'forum_body' => 'Foren-Thema-Text',
 
-'forum_no_forum_body' => 'Sie können kein Forenthema ohne Inhalt erstellen.',
+'forum_no_forum_body' => 'Sie können kein Foren-Thema ohne Inhalt erstellen.',
 
-'forum_no_forum_title' => 'Sie müssen dem Forumsthema einen Titel geben.',
+'forum_no_forum_title' => 'Sie müssen dem Foren-Thema einen Titel geben.',
 
 'forum_no_forum_id' => 'Sie müssen ein Forum wählen.',
 
-'forum_title' => 'Forum-Thema-Titel',
+'forum_title' => 'Foren-Thema-Titel',
 
-'forum_topic_id' => 'Forum-Thema-ID',
+'forum_topic_id' => 'Foren-Thema-ID',
 
-'forum_topic_id_exitsts' => 'Besteht ein Forum-Thema bereits und es soll mit dem Eintrag verknüpft werden, geben Sie die Thema-ID ein und lassen das obere Feld leer.',
+'forum_topic_id_exitsts' => 'Besteht ein Foren-Thema bereits und es soll mit dem Eintrag verknüpft werden, geben Sie die Thema-ID ein und lassen das obere Feld leer.',
 
-'forum_topic_id_info' => 'Dieses Feld erlaubt den Weblog-Eintrag mit einem Forum-Thema zu verknüpfen.',
+'forum_topic_id_info' => 'Dieses Feld erlaubt den Weblog-Eintrag mit einem Foren-Thema zu verknüpfen.',
 
 'forums_unavailable' => 'Es gibt kein Forum zum Posten',
 
@@ -510,7 +510,7 @@ $lang = array(
 
 'multi_entry_category_editor' => 'Mehrfach-Einträge Kategorien-Editor',
 
-'multi_entry_editor' => 'Multi-Eintrag-Editor',
+'multi_entry_editor' => 'Multi-Eintrags-Editor',
 
 'name' => 'Name',
 
@@ -526,7 +526,7 @@ $lang = array(
 
 'no_categories_assigned_desc' => 'Diesem Channel wurden keine Kategorien zugewiesen. <a href="%s">Kategorie-Gruppe zuweisen.</a>',
 
-'no_category_group_match' => 'Für alle Einträge wurde keine Übereinstimmung in den Kategorien-Gruppen gefunden. Bitte Einträge wählen mit mindestens einer gemeinsamen Kategorien-Gruppe.',
+'no_category_group_match' => 'Für alle Einträge wurde keine Übereinstimmung in den Kategorien-Gruppen gefunden. Bitte Einträge wählen mit mindestens einer gemeinsamen Kategoriengruppe.',
 
 'no_channel_exists' => 'Sie haben versucht, auf einen Channel zuzugreifen, den es nicht gibt.',
 
@@ -542,7 +542,7 @@ $lang = array(
 
 'no_glossary' => 'Ein Wörterbuch existiert nicht',
 
-'no_member_groups' => 'Es muss zur Zuteilung/Entfernung eines Layouts mindestens eine Mitgliedergruppe gewählt sein.',
+'no_member_groups' => 'Es muss zur Zuteilung/Entfernung eines Layouts mindestens eine Mitgliedergruppe gewählt werden.',
 
 'no_related_entries' => 'Keine Einträge in diesem verknüpften Channel vorhanden',
 
@@ -594,11 +594,11 @@ $lang = array(
 
 'place_file' => 'Datei einfügen',
 
-'place_file_close' => 'Datei einfügen und Fenster schliessen',
+'place_file_close' => 'Datei einfügen und Fenster schließen',
 
 'place_image' => 'Bild einfügen',
 
-'place_image_close' => 'Bild einfügen udn Fenster schliessen',
+'place_image_close' => 'Bild einfügen und Fenster schließen',
 
 'popup_link' => 'Bild in Pop-up-Fenster anzeigen',
 
@@ -650,7 +650,7 @@ $lang = array(
 
 'search' => 'Suchen',
 
-'select_action' => 'Platzieroptionen wählen',
+'select_action' => 'Platzierungs-Optionen wählen',
 
 'select_channel_to_edit' => 'Wählen Sie zum Zeigen einen Channel aus',
 
@@ -666,7 +666,7 @@ $lang = array(
 
 'spam' => 'SPAM',
 
-'spam_comments' => 'Es gibt <b>% d Kommentare </b>, die als potentieller Spam gekennzeichnet sind und <a href="%s"> Moderation erfordern </a>.',
+'spam_comments' => 'Es gibt <b>%d Kommentare </b>, die als potentieller Spam gekennzeichnet sind und <a href="%s">Moderation erfordern</a>.',
 
 'spam_comments_header' => 'Spam-Kommentare',
 
@@ -792,7 +792,7 @@ $lang = array(
 
 'view_code' => 'Code ansehen',
 
-  
+
 /* Relationships */
 'add_new_html_button' => 'Neuen HTML-Button hinzufügen',
 
@@ -800,11 +800,11 @@ $lang = array(
 
 'collapse' => 'Zuklappen',
 
-'creating_new_in_rel' => 'Erstellen eines neuen Eintrags in <b> #to_channel # </b> für eine Beziehung mit <b> #from_channel # </b>',
+'creating_new_in_rel' => 'Erstellen eines neuen Eintrags in <b>#to_channel#</b> für eine Beziehung mit <b>#from_channel#</b>',
 
-'hide' => 'Hide',
+'hide' => 'Verstecken',
 
-'item_to_relate_with' => 'Item to <strong>relate with</strong> this entry.',
+'item_to_relate_with' => 'Artikel <strong>mit Beziehung</strong> zu diesem Eintrag.',
 
 'items_related_to' => 'Artikel <strong>verknüpft mit</strong> diesem Eintrag.',
 
@@ -864,7 +864,7 @@ $lang = array(
 
 'layout_failure_invalid_name' => 'Folgende Felder haben ungültige Zeichen in ihrem Kurznamen: ',
 
-'layout_failure_required' => 'Die folgenden Felder sind verlangt und können nicht versteckt werden: ',
+'layout_failure_required' => 'Die folgenden Felder sind notwendig und können nicht versteckt werden: ',
 
 'layout_preview' => 'Sie sehen eine Veröffentlichungsvorschau für ',
 
@@ -896,7 +896,7 @@ $lang = array(
 
 'rotate_flip_hor' => 'Wenden horizontal',
 
-'rotate_flip_vert' => 'Wenden vertikaly',
+'rotate_flip_vert' => 'Wenden vertikal',
 
 'screen_name' => 'Bildschirmname',
 
@@ -936,7 +936,7 @@ $lang = array(
 
 'add_editable_fields_desc' => 'Ausgewählte Felder werden unten hinzugefügt und können für <b>alle</b> ausgewählten Einträge bearbeitet werden.',
 
-'btn_save_all_and_close' => 'Alles speichern & schliessen',
+'btn_save_all_and_close' => 'Alles speichern & schließen',
 
 'editing_entries' => 'Bearbeiten von %d Einträgen',
 
@@ -950,7 +950,7 @@ $lang = array(
 
 'bulk_edit_add_categories_notice' => 'Alle ausgewählten Kategorien werden den ausgewählten Einträgen <b>zusätzlich</b> zur aktuellen Kategorienauswahl dieser Einträge zugewiesen.',
 
-'bulk_edit_destructive' => 'Dies ist eine zerstörende und irreversible Aktion.',
+'bulk_edit_destructive' => 'Dies ist eine irreversible Aktion.',
 
 'bulk_edit_notice' => 'Alle ausgewählten Felder überschreiben den gespeicherten Inhalt dieses Feldes für alle ausgewählten Einträge.',
 
@@ -962,7 +962,7 @@ $lang = array(
 
 'remove_from_selection' => 'Aus der Auswahl entfernen',
 
-'save_and_next' => 'Sichern & Nächsten',
+'save_and_next' => 'Sichern & Nächster',
 
 'selected_entries' => 'Ausgewählte Einträge',
 
