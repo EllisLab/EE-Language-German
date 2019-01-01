@@ -24,7 +24,7 @@ $lang = array(
 
 'db_must_set_table' => 'Sie müssen die zu verwendende Datenbanktabelle für Ihre Abfrage festlegen.',
 
-'db_must_use_index' => 'Sie müssen einen Index angeben, der mit den Batch-Aktualisierungen übereinstimmt.',
+'db_must_use_index' => 'Sie müssen einen Index angeben, der mit Batch-Aktualisierungen übereinstimmt.',
 
 'db_must_use_set' => 'Sie müssen die Methode "set" verwenden, um einen Eintrag zu aktualisieren.',
 
