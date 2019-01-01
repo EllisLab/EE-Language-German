@@ -530,7 +530,7 @@ $lang = array(
 
 'can_admin_channels' => 'Channels und Channel-Einstellungen verwalten',
 
-'can_admin_channels_desc' => 'Wenn aktiviert, können Benutzer auf die Channel-Verwaltung und optional auf Felder, Kategorien und Status zugreifen.',
+'can_admin_channels_desc' => 'Wenn aktiviert, können Benutzer auf den Channel-Manager und optional auf Felder, Kategorien und Status zugreifen.',
 
 'can_admin_design' => 'Globale Template-Einstellungen',
 
