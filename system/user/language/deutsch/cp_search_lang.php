@@ -22,7 +22,7 @@ $lang = array(
 
 'design_system_offline' => 'System-Offline-Template',
 
-'design_user_message' => 'Mitglieder-Mitteilungs-Template',
+'design_user_message' => 'Mitgliedermitteilungs-Template',
 
 'exte_index' => 'Extensions',
 
