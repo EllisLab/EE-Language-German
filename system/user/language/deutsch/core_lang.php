@@ -23,7 +23,7 @@ $lang = array(
 
 'enabled' => 'aktiviert',
 
-'encoded_email' => '(Javascript muss aktiviert sein, um diese E-Mail-Adresse zu sehen)',
+'encoded_email' => '(Javascript muss aktiviert sein, um diese Email-Adresse zu sehen)',
 
 'first' => 'Erste',
 
@@ -92,7 +92,7 @@ $lang = array(
 Die folgenden Dateien sind betroffen:
 {changed}
 
-Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen auf der Startseite des Control Panels. Wenn Sie diese Dateien nicht geändert haben, kann dies auf einen Hacking-Versuch hindeuten. Suchen Sie in den Dateien nach verdächtigen Inhalten (JavaScript oder iFrames), und lesen Sie die folgenden Informationen: '.DOC_URL.'troubleshooting/error_messages/expressionengine_has_detected_the_modification_of_a_core_file.html',
+Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen auf der Startseite des Control Panels. Wenn Sie diese Dateien nicht geändert haben, kann dies auf einen Hackerangriff hindeuten. Suchen Sie in den Dateien nach verdächtigen Inhalten (JavaScript oder iFrames), und lesen Sie die folgenden Informationen: '.DOC_URL.'troubleshooting/error_messages/expressionengine_has_detected_the_modification_of_a_core_file.html',
 
 'checksum_email_subject' => 'Eine Core-Datei wurde auf Ihrer Website geändert.',
 
@@ -116,7 +116,7 @@ Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen au
 
 'invalid_url' => 'Der angegebene URL ist ungültig.',
 
-'missing_encryption_key' => 'In Ihrer config.php ist für <code>% s </code> kein Wert festgelegt. Dadurch kann Ihre Installation Sicherheitslücken ausgesetzt werden. Stellen Sie die Schlüssel wieder her oder lesen Sie <a href="%s">diesen Artikel zur Problembehandlung</a> im Benutzerhandbuch.',
+'missing_encryption_key' => 'In Ihrer config.php ist für <code>%s</code> kein Wert festgelegt. Dadurch kann Ihre Installation Sicherheitslücken ausgesetzt sein. Stellen Sie die Schlüssel wieder her oder lesen Sie <a href="%s">diesen Artikel zur Problembehandlung</a> im Benutzerhandbuch.',
 
 'missing_mime_config' => 'Kann Ihre Mime-Typ-Whitelist nicht importieren: die Datei %s existiert nicht oder kann nicht gelesen werden.',
 
@@ -124,19 +124,19 @@ Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen au
 
 'nonexistent_page' => 'Die gewünschte Seite wurde nicht gefunden',
 
-'redirect_xss_fail' => 'Der Link, auf den Sie umgeleitet wurden, enthielt potentiellen Schadcode. Wir empfehlen, den Back-Button zu klicken und per E-Mail den Link an %s zu melden, der diese Mitteilung hervorrief.',
+'redirect_xss_fail' => 'Der Link, auf den Sie umgeleitet wurden, enthielt potentiellen Schadcode. Wir empfehlen, den Back-Button zu klicken und per Email den Link an %s zu melden, der diese Mitteilung hervorrief.',
 
 'submission_error' => 'Das abgeschickte Formular enthielt folgende Fehler:',
 
-'theme_folder_wrong' => 'Der Pfad Ihres Template-Ordners ist falsch. Gehen Sie zu <a href="%s">URL- und Pfadeinstellungen</a> und überprüfen Sie die <mark>Themes-Path</ mark> und <mark>Themes-URL</ mark>.',
+'theme_folder_wrong' => 'Der Pfad Ihres Template-Ordners ist falsch. Gehen Sie zu <a href="%s">URL- und Pfadeinstellungen</a> und überprüfen Sie den <mark>Themes-Pfad</ mark> und <mark>Themes-URL</ mark>.',
 
-'unable_to_load_field_type' => 'Kann diese Feldtypen-Datei nicht laden: %s.<br />Bestätigen Sie dass die Feldtypen-Datei im Ordner /system/user/addons/ liegt',
+'unable_to_load_field_type' => 'Kann diese Feldtypen-Datei nicht laden: %s.<br />Bestätigen Sie, dass die Feldtypen-Datei im Ordner /system/user/addons/ liegt',
 
 'unwritable_cache_folder' => 'Der Cache-Ordner hat nicht die richtigen Berechtigungen.<br />Abhilfe: Die Berechtigung für den Cache (/system/user/cache/) auf 777 setzen - oder auf das Equivalent Ihres Servers.',
 
-'unwritable_config_file' => 'Ihre Konfigurationsdatei verfügt nicht über die richtigen Berechtigungen. <br /> So beheben das: Setzen Sie die Berechtigungen für die Konfigurationsdatei (/'.SYSDIR.'/user/config/config.php) auf 666 (oder auf das Equivalent Ihres Servers).',
+'unwritable_config_file' => 'Ihre Konfigurationsdatei verfügt nicht über die richtigen Berechtigungen. <br /> So beheben Sie das: Setzen Sie die Berechtigungen für die Konfigurationsdatei (/'.SYSDIR.'/user/config/config.php) auf 666 (oder auf das Equivalent Ihres Servers).',
 
-'version_mismatch' => 'Die Version Ihrer ExpressionEngine-Installation (% s) stimmt nicht mit der gemeldeten Version (% s) überein. <a href="'.DOC_URL.'installation/update.html" rel="external">Aktualisieren Sie Ihre Installation von ExpressionEngine erneut</a>.',
+'version_mismatch' => 'Die Version Ihrer ExpressionEngine-Installation (%s) stimmt nicht mit der gemeldeten Version (%s) überein. <a href="'.DOC_URL.'installation/update.html" rel="external">Aktualisieren Sie Ihre Installation von ExpressionEngine erneut</a>.',
 
 
 /* Member Groups */
@@ -176,7 +176,7 @@ Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen au
 /* Email */
 'error_sending_email' => 'Email senden zur Zeit nicht möglich.',
 
-'forgotten_email_sent' => 'Wenn diese E-Mail-Adresse mit einem Konto verknüpft ist, wurden Ihnen gerade Anweisungen zum Zurücksetzen Ihres Passworts per E-Mail übermittelt.',
+'forgotten_email_sent' => 'Wenn diese Email-Adresse mit einem Konto verknüpft ist, wurden Ihnen gerade Anweisungen zum Zurücksetzen Ihres Passworts per Email übermittelt.',
 
 'no_email_found' => 'Die von Ihnen angegebene Email-Adresse wurde nicht in der Datenbank gefunden.',
 
