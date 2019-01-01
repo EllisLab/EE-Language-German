@@ -239,7 +239,7 @@ $lang = array(
 
 'post_ordering_desc' => 'Reihenfolge der Beiträge in der Themenliste.',
 
-'posting_throttle' => 'Posting throttle',
+'posting_throttle' => 'Posting-Drosselung',
 
 'posting_throttle_desc' => 'Anzahl der Sekunden, die verstreichen müssen, bevor ein Mitglied einen neuen Beitrag oder ein neues Thema veröffentlichen darf.',
 
@@ -249,11 +249,11 @@ $lang = array(
 
 'reply_notification' => 'Antwortbenachrichtigungen',
 
-'reply_notification_desc' => 'Alle aufgeführten Empfänger erhalten eine Email-Benachrichtigung, wenn eine <b>neue</b> Antwort erstellt wird.</em><em> Trennen Sie mehrere Emails mit <mark>Kommas (,)</mark>.',
+'reply_notification_desc' => 'Alle aufgeführten Empfänger erhalten eine Email-Benachrichtigung, wenn eine <b>neue</b> Antwort erstellt wird.</em><em> Trennen Sie mehrere Emails mit <mark>Kommas</mark>.',
 
 'reply_to_topics' => 'Antworten auf Themen',
 
-'reply_to_topics_desc' => 'Erlauben Sie den folgenden Mitgliedsgruppen auf Themen zu antworten.</em><em> Super-Admins sind <b>immer</b> berechtigt.',
+'reply_to_topics_desc' => 'Erlauben Sie den folgenden Mitgliedergruppen auf Themen zu antworten.</em><em> Super-Admins sind <b>immer</b> berechtigt.',
 
 'report' => 'Bericht',
 
@@ -275,9 +275,9 @@ $lang = array(
 
 'site' => 'Seite',
 
-'start_topics' => 'Start topics',
+'start_topics' => 'Themen starten',
 
-'start_topics_desc' => 'Den folgenden Mitgliedsgruppen ermöglichen, neue Themen anzulegen.</em><em> Super-Admins sind <b>immer</b> berechtigt.',
+'start_topics_desc' => 'Den folgenden Mitgliedergruppen ermöglichen, neue Themen anzulegen.</em><em> Super-Admins sind <b>immer</b> berechtigt.',
 
 'text_and_html_formatting' => 'Text- und HTML-Formatierung',
 
@@ -287,15 +287,15 @@ $lang = array(
 
 'thumbnail_height' => 'Höhe Vorschaubild',
 
-'thumbnail_height_desc' => 'Maximale Höhe des Vorschaubilds in Pixeln',
+'thumbnail_height_desc' => 'Maximale Höhe des Vorschaubildes in Pixel',
 
 'thumbnail_width' => 'Breite Vorschaubild',
 
-'thumbnail_width_desc' => 'Maximale Breite des Vorschaubilds in Pixeln',
+'thumbnail_width_desc' => 'Maximale Breite des Vorschaubildes in Pixel',
 
 'topic_notification' => 'Themenbenachrichtigungen',
 
-'topic_notification_desc' => 'Alle aufgeführten Empfänger erhalten eine Email-Benachrichtigung, wenn ein <b>neues</b> Thema veröffentlicht wird.</em><em> Trennen Sie mehrere Emails mit <mark>Kommas (,)</mark>.',
+'topic_notification_desc' => 'Alle aufgeführten Empfänger erhalten eine Email-Benachrichtigung, wenn ein <b>neues</b> Thema veröffentlicht wird.</em><em> Trennen Sie mehrere Emails mit <mark>Kommas</mark>.',
 
 'topic_ordering' => 'Themenreihenfolge',
 
@@ -305,11 +305,11 @@ $lang = array(
 
 'topics_per_page_desc' => 'Maximale Anzahl von Themen, die pro Seite angezeigt werden.',
 
-'unwritable_upload_path' => 'Der Ordner zum Hochladen von Bildern kann nicht beschrieben werden. Stellen Sie sicher, dass die Dateiberechtigungen auf 777 festgelegt sind.',
+'unwritable_upload_path' => 'Der Ordner zum Hochladen von Bildern kann nicht beschrieben werden. Stellen Sie sicher, dass die Dateiberechtigungen auf 777 bestehenden.',
 
 'upload' => 'Upload',
 
-'upload_desc' => 'Erlauben Sie den folgenden Mitgliedsgruppen die Verwendung der Upload-Funktion.</em><em> Super-Admins sind <b>immer</b> berechtigt.',
+'upload_desc' => 'Erlauben Sie den folgenden Mitgliedergruppen die Verwendung der Upload-Funktion.</em><em> Super-Admins sind <b>immer</b> berechtigt.',
 
 'upload_directory' => 'Upload-Verzeichnis',
 
@@ -321,11 +321,11 @@ $lang = array(
 
 'view_hidden_forums' => 'Versteckte Foren anzeigen',
 
-'view_hidden_forums_desc' => 'Erlauben Sie den folgenden Mitgliedsgruppen das Anzeigen verborgener Foren.</em><em> Super-Admins sind <b>immer</b> berechtigt.',
+'view_hidden_forums_desc' => 'Erlauben Sie den folgenden Mitgliedergruppen das Anzeigen verborgener Foren.</em><em> Super-Admins sind <b>immer</b> berechtigt.',
 
 'view_posts' => 'Beiträge anzeigen',
 
-'view_posts_desc' => 'Erlauben Sie den folgenden Mitgliedsgruppen das Anzeigen von Beiträgen.</em><em> Super-Admins sind <b>immer</b> berechtigt.',
+'view_posts_desc' => 'Erlauben Sie den folgenden Mitgliedergruppen das Anzeigen von Beiträgen.</em><em> Super-Admins sind <b>immer</b> berechtigt.',
 
 
 /* Create/Edit Category Form */
@@ -335,7 +335,7 @@ $lang = array(
 
 'create_category_error' => 'Kategorie kann nicht erstellt werden',
 
-'create_category_error_desc' => 'Wir konnten diese Kategorie nicht erstellen, bitte überprüfen und beheben Sie die Fehler unten.',
+'create_category_error_desc' => 'Wir konnten diese Kategorie nicht erstellen, bitte beheben Sie die Fehler unten.',
 
 'create_category_success' => 'Kategorie erstellt',
 
@@ -347,7 +347,7 @@ $lang = array(
 
 'edit_category_error' => 'Kategorie kann nicht aktualisiert werden',
 
-'edit_category_error_desc' => 'Wir konnten diese Kategorie nicht aktualisieren, bitte überprüfen und beheben Sie die Fehler unten.',
+'edit_category_error_desc' => 'Wir konnten diese Kategorie nicht aktualisieren, bitte beheben Sie die Fehler unten.',
 
 'edit_category_success' => 'Kategorie aktualisiert',
 
@@ -423,13 +423,13 @@ $lang = array(
 
 'view_hidden_forum' => 'Versteckte Foren anzeigen',
 
-'view_hidden_forum_desc' => 'Lassen Sie die folgenden Mitgliedergruppen dieses Forum anzeigen, wenn sie ausgeblendet sind.</em><em> Super-Admins sind <b>immer</b> berechtigt.',
+'view_hidden_forum_desc' => 'Lassen Sie die folgenden Mitgliedergruppen dieses Forums anzeigen, wenn sie ausgeblendet sind.</em><em> Super-Admins sind <b>immer</b> berechtigt.',
 
 
 /* Member Ranks */
 'btn_save_rank' => 'Rang speichern',
 
-'create_member_rank' => 'Mitgliedsrang erstellen',
+'create_member_rank' => 'Mitgliederrang erstellen',
 
 'create_new_rank' => 'Neuen Rang erstellen',
 
@@ -439,9 +439,9 @@ $lang = array(
 
 'create_rank_success' => 'Rang erstellt',
 
-'create_rank_success_desc' => 'Der Rang <b>%s</b>wurde erstellt.',
+'create_rank_success_desc' => 'Der Rang <b>%s</b> wurde erstellt.',
 
-'edit_member_rank' => 'Mitgliedsrang bearbeiten',
+'edit_member_rank' => 'Mitgliederrang bearbeiten',
 
 'edit_rank_error' => 'Rang konnte nicht aktualisiert werdenk',
 
@@ -457,9 +457,9 @@ $lang = array(
 
 'posts' => 'Beiträge',
 
-'posts_desc' => 'Mindestanzahl von Posts, die ein Benutzer benötigen muss, um diesen Rang zu erreichen.',
+'posts_desc' => 'Mindestanzahl von Posts, die ein Benutzer benötigt, um diesen Rang zu erreichen.',
 
-'rank_title' => 'Title',
+'rank_title' => 'Titel',
 
 'rank_title_desc' => 'Vollständiger beschreibender Name für diesen Rang.',
 
@@ -473,7 +473,7 @@ $lang = array(
 
 
 /* Administrators */
-'admin_type_individual' => 'Individueller <i>&mdash; benutzername, <b>nicht</b> screenname</i>',
+'admin_type_individual' => 'Individueller <i>&mdash; Benutzername, <b>nicht</b> Bildschirmname</i>',
 
 'admin_type_member_group' => 'Mitgliedergruppe <i>&mdash; Alle Mitglieder der gewählten Gruppe</i>',
 
@@ -505,7 +505,7 @@ $lang = array(
 
 'forum_admins' => 'Forums-Administratoren',
 
-'group' => 'gruppe',
+'group' => 'Gruppe',
 
 'individual' => 'Individuell',
 
@@ -565,7 +565,7 @@ $lang = array(
 
 'moderator_type_desc' => 'Wählen Sie den Moderatorentyp aus, den Sie hinzufügen möchten.',
 
-'moderator_type_individual' => 'Individueller <i>&mdash; benutzername, <b>nicht</b> screenname</i>',
+'moderator_type_individual' => 'Individueller <i>&mdash; Benutzername, <b>nicht</b> Bildschirmname</i>',
 
 'moderator_type_member_group' => 'Mitgliedergruppe <i>&mdash; Alle Mitglieder der gewählten Gruppe</i>',
 
@@ -583,7 +583,7 @@ $lang = array(
 
 'no_forum_topic_id' => 'Es gibt kein Forumsthema mit dieser ID.',
 
-'only_forum_topic_id' => 'Geben Sie beim Festlegen einer Forenthema-ID keinen Forentitel oder -beschreibung an.',
+'only_forum_topic_id' => 'Geben Sie beim Festlegen einer Forumsthema-ID keinen Forentitel oder -beschreibung an.',
 
 );
 
