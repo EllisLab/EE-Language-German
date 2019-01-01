@@ -34,7 +34,7 @@ $lang = array(
 
 'edit_file_metadata_success_desc' => 'Die Metadaten für die Datei <b>%s</b> wurden aktualisiert.',
 
-'exceeds_max_dimensions' => 'Datei überschreitet maximale Dimensionen und ist nicht in der Größe veränderbar.',
+'exceeds_max_dimensions' => 'Datei überschreitet maximale Größe und ist nicht in der Größe veränderbar.',
 
 'file' => 'Datei',
 
@@ -60,7 +60,7 @@ $lang = array(
 
 'invalid_directory' => 'Sie haben ein ungültiges Verzeichnis angegeben',
 
-'invalid_filename' => 'Der Bildnamename darf nur alphanumerische Zeichen, Binde- oder Unterstrich enthalten.',
+'invalid_filename' => 'Der Bildname darf nur alphanumerische Zeichen, Binde- oder Unterstrich enthalten.',
 
 'invalid_mime' => 'Ungültiger Mime-Typ, Datei wurde nicht verarbeitet',
 
@@ -102,7 +102,7 @@ $lang = array(
 
 'title' => 'Titel',
 
-'title_or_name' => 'Titel oderName',
+'title_or_name' => 'Titel oder Name',
 
 'upload_directories' => 'Upload-Verzeichnisse',
 
@@ -142,7 +142,7 @@ $lang = array(
 
 'coordinates' => 'Koordinaten',
 
-'crop_constraints_desc' => 'Maximum width and height to crop this image down to.',
+'crop_constraints_desc' => 'Maximale Breite und Höhe, auf die das Bild zugeschnitten werden soll.',
 
 'crop_file' => 'Beschneiden, Drehen und Größe anpassen "%s"',
 
@@ -160,7 +160,7 @@ $lang = array(
 
 'dir_not_writable_desc' => 'In das Verzeichnis <b>%s</b> kann nicht geschrieben werden.<br>Bitte die Schreibrechte auf dem Server überprüfen.',
 
-'directory_not_found' => 'Das Verzeichnis  <b>%s</b> wurde nicht gefunden.',
+'directory_not_found' => 'Das Verzeichnis <b>%s</b> wurde nicht gefunden.',
 
 'edit_file_name' => '"%s" bearbeiten',
 
@@ -292,7 +292,7 @@ $lang = array(
 
 'directory_saved_desc' => 'Das Upload-Verzeichnis wurde erfolgreich gesichert.',
 
-'directory_sync_warning' => 'Some files could not be synchronized',
+'directory_sync_warning' => 'Einige Dateien konnten nicht synchronisiert werden',
 
 'directory_synced' => 'Upload-Verzeichnis synchronisiert',
 
@@ -384,7 +384,7 @@ $lang = array(
 
 'upload_category_groups' => 'Kategoriengruppen',
 
-'upload_category_groups_desc' => 'Kategorien aus folgenden Kategorie-Gruppen dürfen den Dateien zugewiesen werden.',
+'upload_category_groups_desc' => 'Kategorien aus folgenden Kategoriegruppen dürfen den Dateien zugewiesen werden.',
 
 'upload_file_size' => 'Dateigröße',
 
@@ -394,7 +394,7 @@ $lang = array(
 
 'upload_image_height' => 'Bildhöhe',
 
-'upload_image_height_desc' => 'Maximale Bildhöhe pin Pixel.',
+'upload_image_height_desc' => 'Maximale Bildhöhe in Pixel.',
 
 'upload_image_manipulations' => 'Bildbearbeitungen',
 
@@ -420,7 +420,7 @@ $lang = array(
 
 'upload_url' => 'Upload-Verzeichnis',
 
-'upload_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Pfad des <mark>Upload</mark> Verzeichnisses.',
+'upload_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Pfad des <mark>Upload</mark>-Verzeichnisses.',
 
 'vertical' => 'vertikal',
 
@@ -448,7 +448,7 @@ $lang = array(
 
 'watermark_not_created' => 'Wasserzeichen kann nicht angelegt werden',
 
-'watermark_not_created_desc' => 'Das Wasserzeichen konnte nicht angelegt werden, bitte sehen Sie sich die unten aufgeführten Fehler an und beheben Sie diese.',
+'watermark_not_created_desc' => 'Das Wasserzeichen konnte nicht angelegt werden, bitte die unten angezeigten Fehler beheben.',
 
 'watermark_not_updated' => 'Wasserzeichen nicht aktualisiert',
 
@@ -456,7 +456,7 @@ $lang = array(
 
 'watermark_offset' => 'Offset',
 
-'watermark_offset_desc' => 'Abstand in Pixeln von der Bildkante.',
+'watermark_offset_desc' => 'Abstand in Pixel von der Bildkante.',
 
 'watermark_padding' => 'Abstand',
 
@@ -506,7 +506,7 @@ $lang = array(
 
 'create_new_upload_pref' => 'Neues Upload-Ziel erstellen',
 
-'delete_fail' => 'Beim Löschen einer oder mehrerer Datei(en) gab es ein Problem. Bitte die Liste überprüfen.',
+'delete_fail' => 'Beim Löschen einer oder mehrerer Dateien gab es ein Problem. Bitte die Liste überprüfen.',
 
 'delete_selected_files' => 'Löschen der ausgewählten Dateien',
 
@@ -516,11 +516,11 @@ $lang = array(
 
 'edit_file' => 'Datei bearbeiten',
 
-'email_files' => 'Ausgewählte Dateien emailen',
+'email_files' => 'Ausgewählte Dateien mailen',
 
 'file_download' => 'Download',
 
-'file_information' => 'Datei-Inforamtionen',
+'file_information' => 'Datei-Informationen',
 
 'file_metadata' => 'Metadaten der Datei',
 
@@ -616,7 +616,7 @@ $lang = array(
 
 'current_upload_prefs' => 'Aktuelle Einstellungen',
 
-'custom_fields' => 'Eigene Felder',
+'custom_fields' => 'Benutzerdefinierte Felder',
 
 'delete_upload_pref_confirmation' => 'Wollen Sie diese Einstellungen endgültig löschen?',
 
@@ -632,7 +632,7 @@ $lang = array(
 
 'done' => 'Beenden',
 
-'edit_file_upload_preferences' => 'Datei-Upload Einstellungen bearbeiten',
+'edit_file_upload_preferences' => 'Datei-Upload-Einstellungen bearbeiten',
 
 'edit_image' => 'Bild bearbeiten',
 
@@ -644,21 +644,21 @@ $lang = array(
 
 'exit_apply_changes' => 'Sie verlassen diesen Bearbeitungsmodus. Sollen die Änderungen vorher übernommen werden?',
 
-'file_count' => 'ANzahl der Dateien',
+'file_count' => 'Anzahl der Dateien',
 
 'file_directory_id' => 'ID',
 
 'file_exists_replacement_error' => 'Eine Datei mit diesem Namen besteht bereits.',
 
-'file_post_format' => 'Datei Nach-Formatierung',
+'file_post_format' => 'Datei-Nachformatierung',
 
-'file_pre_format' => 'Datei Vor-Formatierung',
+'file_pre_format' => 'Datei-Vorformatierung',
 
 'file_properties' => 'Dateiberechtigungen',
 
 'file_title' => 'Datei-Titel',
 
-'file_types' => 'Dataitypen',
+'file_types' => 'Datei-Typen',
 
 'file_upload_preferences' => 'Datei-Upload-Einstellungen',
 
@@ -688,7 +688,7 @@ $lang = array(
 
 'max_height' => 'Maximale Bildhöhe in Pixel',
 
-'max_image_action' => 'Massnahme, wenn die Bildgröße überschritten wird',
+'max_image_action' => 'Maßnahme, wenn die Bildgröße überschritten wird',
 
 'max_size' => 'Maximale Dateigröße in Bytes',
 
@@ -711,7 +711,7 @@ $lang = array(
 'no_results' => 'Keine Mitgliedergruppen verfügbar',
 
 'no_sync_title' => 'Kein Ergebnisse', // @todo, this phrase should change, just not sure what to put -ga
-'no_upload_directories_for_fieldtype' => 'Derzeit sind keine Upload-Verzeichnisse verfügbar. Fügen Sie <a href="%s" rel="external"> ein oder mehrere Upload-Verzeichnisse hinzu</a>, um den Feldtyp "Datei" zu verwenden.',
+'no_upload_directories_for_fieldtype' => 'Derzeit sind keine Upload-Verzeichnisse verfügbar. Fügen Sie <a href="%s" rel="external">ein oder mehrere Upload-Verzeichnisse hinzu</a>, um den Feldtyp "Datei" zu verwenden.',
 
 'no_upload_dirs_available' => 'Kein Upload-Ort verfügbar',
 
@@ -723,7 +723,7 @@ $lang = array(
 
 'pagination_page' => 'Seite',
 
-'php_max_filesize'=>'Maximaler Uploadgröße von PHP ist %s',
+'php_max_filesize'=>'Maximale Uploadgröße von PHP ist %s',
 
 'please_add_upload' => 'Es bestehen noch keine Upoload-Verzeichnisse. Bitte erstellen Sie eines oder mehrere, um den Feldtyp benutzen zu können.',
 
@@ -785,7 +785,7 @@ $lang = array(
 
 'short_name' => 'Kurzname',
 
-'sync_complete' => 'The file synchronization is complete.',
+'sync_complete' => 'Die Datei-Synchronisation ist abgeschlossen.',
 
 'sync_progress' => 'Fortschritt',
 
@@ -797,7 +797,7 @@ $lang = array(
 
 'upload_dir_dropdown' => '%s (%s Dateien)',
 
-'upload_pref_deleted' => 'Upload Preference Deleted:',
+'upload_pref_deleted' => 'Upload-Einstellung gelöscht:',
 
 'upload_pref_name' => 'Beschreibender Name für das Upload-Verzeichnis',
 
@@ -837,7 +837,7 @@ $lang = array(
 
 'watermark_prefs' => 'Wasserzeichen-Einstellungen',
 
-'wm_alignment' => 'Wasserzeichen-Ausrichtun',
+'wm_alignment' => 'Wasserzeichen-Ausrichtung',
 
 'wm_edit' => 'Wasserzeichen bearbeiten',
 
