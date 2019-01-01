@@ -36,11 +36,11 @@ $lang = array(
 
 'less_than' => 'Dieses Feld muss kleiner sein als: %s',
 
-'limithtml' => 'Dieses Feld kann nur die folgenden HTML-Tags enthalten:% s. Wenn Sie spitze Klammern < in Ihrem Text verwenden möchten, aber nicht HTML, versuchen Sie bitte &amp;lt; für < zu ersetzen und &amp;gt; für >.',
+'limithtml' => 'Dieses Feld kann nur die folgenden HTML-Tags enthalten: %s. Wenn Sie spitze Klammern < in Ihrem Text verwenden möchten, aber nicht HTML, ersetzen Sie bitte &amp;lt; für < und &amp;gt; für >.',
 
 'matches' => 'Dieses Feld stimmt nicht mit dem Feld %s überein.',
 
-'max_length' => 'Dieses Feld kann nicht länger als %s Zeichen lang sein.',
+'max_length' => 'Dieses Feld darf nicht länger als %s Zeichen lang sein.',
 
 'min_length' => 'Dieses Feld muss mindestens %s Zeichen lang sein.',
 

@@ -2,7 +2,7 @@
 
 $lang = array(
 
-'filepicker_module_name' => 'Dateiauswahl',
+'filepicker_module_name' => 'Datei-Auswahl',
 
 'list' => 'Liste',
 

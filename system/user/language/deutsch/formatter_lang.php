@@ -1,5 +1,5 @@
 <?php
-	
+
 $lang = array(
 
 'formatter_bytes' => 'bytes',
@@ -8,7 +8,7 @@ $lang = array(
 
 'formatter_bytes_abbr_html' => '<abbr title="Bytes">B</abbr>',
 
-'formatter_duration_seconds_only' => '%d Sek.',
+'formatter_duration_seconds_only' => '%d Sekunden',
 
 'formatter_gigabytes' => 'Gigabytes',
 
