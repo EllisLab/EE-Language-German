@@ -24,7 +24,7 @@ $lang = array(
 
 'channel_form_layouts' => '%s &ndash; Formularlayouts',
 
-'channel_manager' => 'Channel-Verwaltung',
+'channel_manager' => 'Channel-Manager',
 
 'channel_module_description' => 'Channel-Modul',
 
