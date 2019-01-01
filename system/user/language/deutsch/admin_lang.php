@@ -232,7 +232,7 @@ $lang = array(
 
 'censoring_cfg' => 'Wörterzensur',
 
-'channel_administration' => 'Channel-Verwaltung',
+'channel_administration' => 'Channel-Manager',
 
 'channel_cfg' => 'Globale Channel-Einstellungen',
 
