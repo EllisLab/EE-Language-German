@@ -10,7 +10,7 @@ $lang = array(
 
 'error_getting_version' => 'Sie arbeiten mit ExpressionEngine %v. Ob eine aktuellere Version vorliegt, kann zur Zeit nicht ermittelt werden.',
 
-'expressionengine_info' => 'ExpressionEngine-Info',
+'expressionengine_info' => 'Info über ExpressionEngine',
 
 'installed_version' => 'Installiert: %v',
 
