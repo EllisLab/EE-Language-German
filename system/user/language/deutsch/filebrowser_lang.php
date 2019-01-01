@@ -24,7 +24,7 @@ $lang = array(
 
 'fb_view_images' => 'Bilder zeigen',
 
-'file_browser' => 'Datei-Browser',
+'file_browser' => 'Dateibrowser',
 
 'file_viewing_error' => 'Ein unbekannter Fehler ist aufgetreten.',
 
