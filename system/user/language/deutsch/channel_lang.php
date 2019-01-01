@@ -470,7 +470,7 @@ $lang = array(
 
 'category_groups_removed_desc' => '%d Kategoriengruppen wurden gelöscht',
 
-'category_manager' => 'Kategorien-Verwaltung',
+'category_manager' => 'Kategorien-Manager',
 
 'category_not_created' => 'Kategorie wurde nicht angelegt',
 
