@@ -12,7 +12,7 @@ $lang = array(
 
 'emoticon_image' => 'Bild',
 
-'emoticon_module_description' => 'Emoticon-Module',
+'emoticon_module_description' => 'Emoticon-Modul',
 
 'emoticon_module_name' => 'Emoticon',
 

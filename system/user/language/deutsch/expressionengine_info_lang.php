@@ -22,7 +22,7 @@ $lang = array(
 
 'version_and_build' => 'Derzeitige Version',
 
-'version_update_available' => 'Eine neuere Version von ExpressionEngine ist erhältlich!',
+'version_update_available' => 'Eine neuere Version von ExpressionEngine ist nun erhältlich!',
 
 'version_update_inst' => 'Bitte downloaden Sie die <a class="update" href="%d" title="Download hier" rel="external">aktuellste Version</a> und folgen Sie den <a class="update" href="%i" title="Update Instructions" rel="external">Update-Anweisungen</a></a>.',
 
