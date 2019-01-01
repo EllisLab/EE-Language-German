@@ -4,461 +4,496 @@ $lang = array(
 
 'system_utilities' => 'System-Dienstprogramme',
 
-// @since 4.0	
 
+/* Menu */
 
-'backing_up' => 'Backup läuft...',
-'backup_database' => 'Backup Datenbank',
-'backup_error' => 'Backup nicht möglich',
-'backup_success' => 'Backup erfolgreich',
-'backup_success_desc' => 'Ihr Backup wurde im Systemordner <b>%s</b> gesichert',
 'backup_utility' => 'Backup-Tool',
-'backup_tables' => 'Backup SQL-Tabellen',
 
-'table_count' => '<b>%s</b> SQL-Tabellen',
-/**
- * Menu
- */
+'cache_manager' => 'Cache-Manager',
 
 'communicate' => 'Rundmail',
 
-'sent' => 'Gesendet',
-
-'cp_translation' => '<abbr title="Control Panel">CP</abbr>-Übersetzung',
-
-'debug_extensions' => 'Extensions von Fehlern bereinigen',
-
-'php_info' => '<abbr title="PHP: Hypertext Processor">PHP</abbr>-Info',
-
-'import_tools' => 'Importwerkzeuge',
-
-'file_converter' => 'Dateien konvertieren',
-
-'member_import' => 'Nutzer-Import',
-
-'sql_manager' => 'SQL-Verwaltung',
-
-'sql_manager_abbr' => '<abbr title="Structured Query Language">SQL</abbr>-Verwaltung',
-
-'query_form' => 'Abfrage-Form',
+'cp_translation' => '<abbr title="Control-Panel">CP</abbr>-Übersetzung',
 
 'data_operations' => 'Datenbearbeitung',
 
-'cache_manager' => 'Cache-Verwaltung',
-
-'statistics' => 'Statistiken',
-
-'search_and_replace' => 'Suchen und ersetzen',
+'debug_extensions' => 'Extensions von Fehlern bereinigen',
 
 'default' => 'Standard',
 
-/**
- * Communicate
- */
+'file_converter' => 'Dateien konvertieren',
+
+'member_tools' => 'Benutzer-Tools',
+
+'member_import' => 'Benutzer-Importt',
+
+'php_info' => '<abbr title="PHP: Hypertext Processor">PHP</abbr>-Info',
+
+'query_form' => 'Abfrage-Form',
+
+'search_and_replace' => 'Suchen und Ersetzen',
+
+'sent' => 'Senden',
+
+'sql_manager' => 'SQL-Manager',
+
+'sql_manager_abbr' => '<abbr title="Structured Query Language">SQL</abbr>-Manager',
+
+'statistics' => 'Statistiken',
+
+
+/* Communicate */
+'add_member_groups' => 'Mitgliedergruppe(n) hinzufügen',
+
+'add_member_groups_desc' => 'Senden Sie eine Email an <b>alle</b> Mitglieder in den ausgewählten Gruppen.',
+
+'attachment' => 'Dateianhang',
+
+'attachment_desc' => 'Anhänge werden  <b>nicht</b> gesichert nach dem Versand..',
+
+'bcc_recipients' => '<abbr title="Blind Carbon Copied">BCC</abbr>: Email-Adresse(n)',
+
+'bcc_recipients_desc' => '<abbr title="Blind Carbon Copied">BCC</abbr>: Email-Adresse(n). Trennen Sie mehrere Empfänger durch ein Komma.',
+
+'btn_send_email' => 'Email senden',
+
+'btn_send_email_working' => 'Sendet...',
+
+'cc_recipients' => '<abbr title="Carbon Copied">CC</abbr>: Email-Adressen',
+
+'cc_recipients_desc' => '<abbr title="Carbon Copied">CC</abbr>: Email(s). Trennen Sie mehrere Empfänger durch ein Komma.',
+
+'communicate_error' => 'Achtung: Email nicht gesendet',
+
+'communicate_error_desc' => 'Die Email konnte nicht gesendet werden, beheben Sie sich bitte die unten aufgeführten Fehler.',
+
+'create_new_email' => 'Neue Email schreibenl',
+
+'email_body' => 'Email-Text',
 
 'email_subject' => 'Email-Betreff',
 
-'email_body' => 'Email-Inhalt',
+'emails_removed' => 'Emails entfernt',
+
+'no_cached_emails' => 'Keine <b>gesendeten Emails</b> gefunden.',
+
+'none' => 'Reiner Text',
+
+'primary_recipients' => 'Hauptempfänger',
+
+'primary_recipients_desc' => 'AN: Email-Adressse(n). Trennen Sie mehrere Empfänger durch ein Komma.',
+
+'recipient_options' => 'Empfängeroptionen',
+
+'resend' => 'Email erneut senden',
 
 'send_as' => 'gesendet als',
+
+'view_email' => 'Email ansehen',
 
 'word_wrap' => 'Wortumbruch',
 
 'your_email' => 'Ihre Email',
 
-'attachment' => 'Anhang',
 
-'attachment_desc' => 'Anhänge werden  <b>nicht</b> gesichert nach dem Versand.',
+/* CP Translation */
+'cannot_access' => 'kann nicht drauf zugegriffen werden',
 
-'recipient_options' => 'Empfänger-Optionen',
+'cannot_create_zip' => 'Kann kein .zip-file erstellen ',
 
-'primary_recipients' => 'Hauptempfänger',
+'export_download' => 'Export (Download)',
 
-'primary_recipients_desc' => '"AN:"-Email-Adressse(n), mehrere Empfänger mit einem Komma trennen.',
+'file_name' => 'Dateiname',
 
-'cc_recipients' => '<abbr title="Carbon Copied">CC</abbr>: Email-Adresse(n)',
+'file_saved' => 'Die Übersetzungsdatei wurde in gespeichert <b>%s</b>',
 
-'cc_recipients_desc' => '<abbr title="Carbon Copied">CC</abbr>: Email-Adresse(n), mehrere Empfänger mit einem Komma trennen.',
+'invalid_path' => 'Der von Ihnen übermittelte Pfad ist ungültig:',
 
-'bcc_recipients' => '<abbr title="Blind Carbon Copied">BCC</abbr>: Email-Adresse(n)',
+'language_files' => 'Sprachdateien',
 
-'bcc_recipients_desc' => '<abbr title="Blind Carbon Copied">BCC</abbr>: Email-Adresse(n), mehrere Empfänger mit einem Komma trennen.',
+'no_files_selected' => 'Es wurden keine Dateien für den Export ausgewählt',
 
-'add_member_groups' => 'Mitgliedergruppe(n) hinzufügen',
+'search_files_button' => 'Suche Dateien',
 
-'add_member_groups_desc' => 'Email an <b>alle</b> Mitglieder der gewähten Gruppe(n) senden.',
+'trans_file_not_writable'=> 'Die Übersetzungsdatei ist nicht beschreibbar.',
 
-'btn_send_email' => 'Sende Email',
+'translate_btn' => 'Übersetzung sichern',
 
-'btn_send_email_working' => 'Sende...',
+'translate_error' => 'Achtung: Übersetzung nicht gespeichert',
 
-'none'		=> 'Nur Text',
-'auto_br'	=> 'Auto <br />;',
-'xhtml'		=> 'XHTML',
+'translate_error_desc' => 'Wir konnten die Übersetzung nicht speichern. Bitte beheben Sie die Fehler unten.',
 
-'no_cached_emails' => 'Keine <b>gesendeten Emails</b> gefunden.',
+'translations_saved' => 'Übersetzungen gespeichert',
 
-'create_new_email' => 'Neue Email schreiben',
 
-'communicate_error' => 'Achtung: : Email nicht gesendet',
-
-'communicate_error_desc' => 'Die Email konnte nicht gesendet werden, sehen Sie sich bitte die unten aufgeführten Fehler an und beheben diese.',
-
-'view_email' => 'Email ansehen',
-
-'resend' => 'Email noch einmal senden',
-
-'emails_removed' => 'Emails entfernt',
-
-/**
- * CP Translation
- */
-
-'language_files'		=>	'Sprachdateien',
-'search_files_button'	=>	'Dateien durchsuchen',
-'file_name'				=>	'Dateiname',
-'export_download'		=>	'Export (Download)',
-'cannot_access'			=>	'kann nicht drauf zugegriffen werden',
-'cannot_create_zip'		=>	'Kann keine .zip-Datei anlegen',
-'no_files_selected'		=>	'Keine Dateien ausgewählt für den Export',
-'invalid_path' 			=> 'Der angegebene Pfad ist nicht gültig:',
-'file_saved'			=> 'Die übersetzte Datei wurde nach <b>system/ee/legacy/translations/%s</b> gesichert',
-'trans_file_not_writable'=> 'Die übersetzte Datei ist nicht beschreibbar.',
-'translate_btn' 		=>	'Übersetzungen sichern',
-'translations_saved'	=>	'Übersetzungen gesichert',
-'translate_error'		=> 'Achtung: Übersetzung nicht gesichert',
-'translate_error_desc'	=> 'Wir konnten die Übersetzung nicht sichern, sehen Sie sich bitte die unten aufgeführten Fehler an und beheben diese.',
-
-/**
- * PHP Info
- */
-
+/* PHP Info */
 'php_info_title' => '<abbr title="Preprocessor Hypertext Processor">PHP</abbr> %s Info',
 
-/**
- * Cache Manager
- */
 
-'caches_to_clear' => 'Caches zum Löschen',
-
-'caches_to_clear_desc' => 'Alle ausgewählten Caches werden gelöscht.',
-
-'templates' => 'Templates',
-
-'tags' => 'Tags',
-
-'database' => 'Datenbank',
-
+/* Cache Manager */
 'all_caches' => 'Alle Caches',
 
-'btn_clear_caches' => 'Caches löschen',
+'btn_clear_caches' => 'Lösche Caches',
 
 'btn_clear_caches_working' => 'Lösche...',
 
 'caches_cleared' => 'Caches gelöscht',
 
-'caches_cleared_error' => 'Mindestens ein Cache muss zum Löschen ausgewählt sein.',
+'caches_cleared_error' => 'Sie müssen mindestens einen Cache-Typ zum Löschen auswählen.',
 
-/**
- * Search and Replace
- */
+'caches_to_clear' => 'Caches zum Löschen',
 
-'sandr' => 'Daten suchen und ersetzen',
+'caches_to_clear_desc' => 'Alle ausgewählten Caches werden gelöscht.',
 
-'sandr_warning' => '<p><b>Warnung</b>: <b class="no">Nur für fortgeschrittene Nutzer!</b> Sehr vorsichtig sein bei der Benutzung dieses Werkzeuges.</p>
-<p>Abhängig von der benutzen Syntax kann diese Funktion zu ungewollten Ergebnissen führen. Bitte zurerst ein Backup der Datenbank machen sowie die Dokumentation lesen.</p>',
+'database' => 'Datenbank',
 
-'sandr_search_text' => 'Suche nach diesem Text',
+'tags' => 'Tags',
 
-'sandr_replace_text' => 'Ersetze mit diesem Text',
+'templates' => 'Templates',
 
-'sandr_in' => 'Suche und ersetze in',
 
-'sandr_in_desc' => 'Felderauswahl für das Suchen und Ersetzen.',
-
-'rows_replaced' => 'Anzahl an geänderten Datenbankeinträgen: %s',
-
-'current_password' => 'Derzeitiges Passwort',
-
-'sandr_password_desc' => 'Sie <b>müssen</b> Ihr Passwort eingeben zum Suchen und Ersetzen.',
-
-'site_preferences'		=> 'Site-Einstellungen',
-'channel_entry_title'	=> 'Channel-Titel-Einträge',
-'channel_fields'		=> 'Channel-Felder',
-'replace_in_templates'	=> 'In ALLEN Templates',
-'template_groups'		=> 'Template-Gruppen',
-'choose_below'			=> '(Aus dem folgenden auswählen)',
-
+/* Search and Replace */
 'btn_sandr' => 'Suchen und Ersetzen',
 
 'btn_sandr_working' => 'Ersetze...',
 
-'no_tables_match' => 'Keine Tabellen haben zur den Suchkriterien gepasst',
+'channel_entry_title' => 'Channel-Eintrags-Titel',
 
-'sandr_error' => 'Achtung: "Suchen und Ersetzen" nicht durchgefüht',
+'channel_fields' => 'Channel-Felder',
 
-'sandr_error_desc' => 'Suchen und Ersetzen konnte nicht durchgeführt werden, sehen Sie sich bitte die unten aufgeführten Fehler an und beheben diese.',
+'choose_below' => '(Wählen Sie aus den folgenden)',
 
-/**
- * Import Converter
- */
+'current_password' => 'Wählen Sie aus den folgenden',
 
-'import_converter' => 'Import-Datei konvertieren',
+'no_tables_match' => 'Keine der Tabellen entsprechen den Suchkriterien',
 
-'file_location' => 'Datei-Pfad',
+'replace_in_templates' => 'in ALLEN Templates',
 
-'file_location_desc' => 'Pfad der <mark>gewählten</mark> Datei.',
+'rows_replaced' => 'Anzahl der Datenbanksätze, in denen eine Ersetzung stattgefunden hat: %s',
 
-'delimiting_char' => 'Eingeschränkte Zeichen',
+'sandr' => 'Datensuche und Ersetzen',
 
-'delimiting_char_desc' => 'Zeichen um obige Datei einzuschränken.',
+'sandr_error' => 'Warnung: Suchen und Ersetzen nicht ausgeführt',
+
+'sandr_error_desc' => 'Wir konnten Ihre Suche nicht starten, bitte beheben Sie die Fehler unten.',
+
+'sandr_in' => 'Suchen und Ersetzen in',
+
+'sandr_in_desc' => 'Wählen Sie das Feld aus, in dem Sie diese Suche ausführen möchten und ersetzen Sie es.',
+
+'sandr_password_desc' => 'Sie müssen Ihr Passwort eingeben, um zu suchen und zu ersetzen.',
+
+'sandr_replace_text' => 'Ersetzen mit diesem Text',
+
+'sandr_search_text' => 'Suchen nach diesem Text',
+
+'sandr_warning' => '<p><b> Warnung</b>: <b class="no">Nur für fortgeschrittene Benutzer.</b> Bitte verwenden Sie diese Funktion sehr vorsichtig.</p><p>Abhängig von der verwendeten Syntax kann diese Funktion unerwünschte Ergebnisse erzeugen. Lesen Sie das Benutzerhandbuch und sichern Sie Ihre Datenbank.</p>',
+
+'site_preferences' => 'Site-Einstellungen',
+
+'template_groups' => 'Template-Gruppen',
+
+
+/* Import Converter */
+'assign_fields' => 'Felder zuordnen',
+
+'btn_assign_fields' => 'Felder zuordnen',
+
+'btn_copy_to_clipboard' => 'In die Zwischenablage kopieren',
+
+'btn_create_file' => 'Erstelle [Datei]',
+
+'btn_create_file_working' => 'Erstelle...',
+
+'btn_download_file' => 'Datei herunterladen',
 
 'comma_delimit' => 'Komma',
 
-'tab_delimit' => 'Reiter',
+'confirm_assignments' => 'Zuordnungen bestätigen',
 
-'pipe_delimit' => 'Pipe',
+'delimiting_char' => 'Abgrenzendes Zeichen',
 
-'other_delimit' => 'Andere <i>Typ-Zeichen unten</i>',
+'delimiting_char_desc' => 'Zeichen, das zur Begrenzung der obigen Datei verwendet wird.',
 
-'enclosing_char' => 'Umgebende Zeichen',
+'duplicate_field_assignment' => 'Doppelte Feldzuordnung: %x',
 
-'enclosing_char_desc' => 'Zeichen, die die entsprechenden Daten umgeben.',
+'duplicate_member_id' => 'Doppelte Mitglieder-ID: "%x"<br />Es wird empfohlen, keinen Mitglieder-ID-Tag zu benutzen und ExpressionEngine selbständig die Mitglieder-ID hochzählen zu lassen',
+
+'duplicate_username' => 'Doppelter Benutzername: ',
+
+'enclosing_char' => 'Einschließendes Zeichen',
+
+'enclosing_char_desc' => 'Zeichen, das Ihre Daten einschließt.',
+
+'encrypted_passwords' => 'Passwörter werden verschlüsselt.',
+
+'file_not_converted' => 'Achtung: Datei nicht konvertiert',
+
+'file_not_converted_desc' => 'Wir konnten diese Datei nicht konvertieren. Bitte beheben Sie die Fehler unten.',
+
+'import_cache_file_not_writable' => 'Cache-Verzeichnis nicht beschreibbar',
+
+'import_cache_file_instructions' => 'Um die Datei hochzuladen, muss der Cache-Ordner beschreibbar sein.',
 
 'import_convert_btn' => 'Datei konvertieren',
 
 'import_convert_btn_saving' => 'Konvertiere...',
 
-'assign_fields' => 'Felder zuordnen',
+'import_converter' => 'Import-Datei konvertieren',
 
-'import_password_warning' => '<b>Warnung</b>: Wenn Sie kein Passwort vergeben, wird bei jedem Mitglied automatisch ein Passwort gesetzt. Diese Mitglieder müssen im nachhinein über den "Passwort vergessen"-Link ein neues Passwort setzen.',
 
-'plain_text_passwords' => 'Klartext-Passwörter?',
+'import_password_warning' => '<b>Warnung</b>: Wenn Sie kein Passwort vergeben, wird bei jedem Mitglied automatisch ein Passwort gesetzt. Diese Mitglieder müssen dann im Nachhinein über den "Passwort vergessen"-Link ein neues Passwort setzen.',
 
-'plain_text_passwords_desc' => 'Wenn auf <b>ja</b> gesetzt, werden Passwörter als Klartext abgespeichert.',
+'member_file' => 'Mitgliederdatei',
 
-'btn_assign_fields' => 'Felder zuordnen',
+'member_file_desc' => 'Getrennte Datei mit Mitgliederdaten',
 
-'duplicate_field_assignment' => 'Feldzuordnung duplizieren: %x',
+'member_id_warning' => 'WARNUNG: Wenn Mitglieder-ID-Tags im XML enthalten sind, werden bestehende Mitglieder mit der selben Mitglieder-ID ÜBERSCHRIEBEN! Fahren Sie mit Vorsicht fort!',
 
-'duplicate_member_id' => 'Doppelte Mitglieder-ID: "%x"<br />Es wird empfohlen, keinen Mitglieder-ID-Tag zu benutzen und ExpressionEngine selbständig die Mitglieder-ID hochzählen lassen',
+'missing_email_field' => '"Email" muss ein Feld zugewiesen werden',
 
-'duplicate_username' => 'Mitgliedernamen verdoppeln: ',
-
-'member_id_warning' => 'WARNUNG: Wenn Mitglieder-ID-Tags im XML enthalten sind, werden bestehende Mitglieder mit der selben Mitglieder-ID ÜBERSCHRIEBEN!  Fahren Sie mit Vorsicht fort!',
-
-'missing_email_field' => ' "Email" muss ein Feld zugewiesen werden',
-
-'missing_screen_name_field' => 'Dem Bildschirm-Namen  muss ein Feld zugewiesen werden',
+'missing_screen_name_field' => 'Dem Bildschirmnamen muss ein Feld zugewiesen werden',
 
 'missing_username_field' => 'Dem Benutzernamen muss ein Feld zugewiesen werden',
 
-'not_enough_fields' => 'Nicht genügend Felder',
+'not_enough_fields' => 'Nicht genug Felder',
 
-'not_enough_fields_desc' => 'Sie brauchen mindestens 3 Felder: Benutzername, Bildschirm-Name und Email-Adresse',
+'not_enough_fields_desc' => 'Sie müssen mindestens 3 Felder haben: Benutzername, Bildschirmname und Email-Adresse',
 
-'select' => 'Auswahl treffen',
+'other_delimit' => 'Andere <i>Typ-Zeichen unten</i>',
 
-'confirm_assignments' => 'Zuweisungen bestätigen',
+'pipe_delimit' => 'Pipe',
+
+'plain_text_passwords' => 'Klartext-Passwörter?',
+
+'plain_text_passwords_desc' => 'Wenn aktiviert, werden Passwörter als Klartext abgespeichert.',
 
 'plaintext_passwords' => 'Passwörter sind im Klartext.',
 
-'encrypted_passwords' => 'Passwörter sind verschlüsselt.',
+'select' => 'Feld auswählen',
 
-'btn_create_file' => '[Datei] anlegen',
-
-'btn_create_file_working' => 'Lege an...',
+'tab_delimit' => 'Tab',
 
 'xml_code' => 'XML-Code',
 
-'btn_download_file' => 'Datei herunterladen',
 
-'btn_copy_to_clipboard' => 'In den Zwischenspeicher kopieren',
+/* Member Import */
+'btn_add_fields' => 'Felder hinzufügen',
 
-'file_not_converted' => 'Achtung: Datei nicht konvertiert',
+'btn_add_fields_working' => 'Fügt hinzu...',
 
-'file_not_converted_desc' => 'Die Datei konnte nicht konvertiert werden, sehen Sie sich bitte die unten aufgeführten Fehler an und beheben diese.',
-
-/**
- * Member Import
- */
-
-'mbr_xml_file' => '<abbr title="Extensible Markup Language">XML</abbr>-Datei-Pfad',
-
-'mbr_xml_file_location' => 'Server Pfad zur <abbr title="Extensible Markup Language"><mark>XML</mark></abbr>-Datei.',
-
-'mbr_import_default_options' => 'Standard-Optionen',
-
-'member_group' => 'Mitglieder-Gruppe',
-
-'mbr_language' => 'Sprache',
-
-'mbr_datetime_fmt' => 'Datum &amp; Zeit Format',
-
-'mbr_create_custom_fields' => 'Eigene Felder anlegen?',
-
-'mbr_create_custom_fields_desc' => 'Wenn auf <b>ja</b> gesetzt, wird der Import automatisch eigene Mitgliederfelder anlegen, wenn diese nicht im Standard enthalten sind.',
-
-'mbr_import_btn' => 'Mitglieder importieren',
-
-'mbr_import_btn_saving' => 'Importiere...',
+'btn_confirm_import_working' => 'Importiert...',
 
 'confirm_import' => 'Import bestätigen',
 
 'confirm_import_warning' => '<p class="caution"><span title="Vorsichtig vorgehen"></span> <b>Vorsicht</b>: Wenn die <abbr title="Extensible Markup Language">XML</abbr>-Datei einen Tag names "<b>member_id</b>" enthält, stoppen.</p>
 <p>Mitglieder in der Datenbank mit übereinstimmenden <abbr title="Identifier">ID</abbr>s werden <b>überschrieben</b>, wenn dieser Import bestätigt wird.</p>',
 
-'option' => 'Option',
+'custom_fields' => 'Benutzerdefinierte Felder',
 
-'value' => 'Wert',
+'field_label' => 'Feldbezeichnung',
 
-'btn_confirm_import_working' => 'Importiere...',
-
-'custom_fields' => 'Eigene Felder',
-
-'map_custom_fields' => 'Eingene Felder eintragen',
-
-'map_custom_fields_desc' => 'Die <abbr title="Extensible Markup Language">XML</abbr>-Datei enthält Felder, die nicht mit dem Importer übereinstimmen, bitte überprüfen und eigene Felder anlegen, wenn notwendig.',
-
-'field_name' => 'Feld-Name',
-
-'field_label' => 'Feld-Label',
-
-'field_required' => 'Benötigt?',
+'field_name' => 'Feldname',
 
 'field_public' => 'Öffentlich?',
 
 'field_registration' => 'Registrierung?',
 
-'btn_add_fields' => 'Felder hinzufügen',
+'field_required' => 'Benötigt?',
 
-'btn_add_fields_working' => 'Füge hinzu...',
+'file_read_error' => 'Datei kann nicht gelesen werden',
 
-'new_fields_success' => 'Die folgenden eigenen Felder wurden erfolgreich hinzugefügt:',
+'file_read_error_desc' => 'Die XML-Datei konnte nicht gelesen werden. Überprüfen Sie, ob die Datei vorhanden ist und über Leseberechtigung verfügt.',
 
 'import_success' => 'Import war erfolgreich',
 
-'file_read_error' => 'Datei konnte nicht gelesen werden',
+'map_custom_fields' => 'Benutzerdefinierte Felder eintragen',
 
-'file_read_error_desc' => 'Die XML-Datei konnte nicht gelesen werden, bitte überprüfen, ob die Datei existiert und die erforderlichen Rechte besitzt.',
+'map_custom_fields_desc' => 'Die <abbr title="Extensible Markup Language">XML</abbr>-Datei enthält Felder, die nicht mit dem Importer übereinstimmen, bitte überprüfen und eigene Felder anlegen, wenn notwendig.',
 
-'xml_parse_error' => 'Kann XML nicht parsen',
+'mbr_create_custom_fields' => 'Benutzerdefinierte Felder erstellen',
 
-'xml_parse_error_desc' => 'XML-Datei auf fehlerhafte Syntax überprüfen.',
+'mbr_create_custom_fields_desc' => 'Wenn aktiviert, werden beim Import automatisch benutzerdefinierte Mitgliederfelder für alle Daten erstellt, die nicht mit einem Standardmitgliedsfeld übereinstimmen.',
 
-'member_import_error' => 'Achtung: Import nicht durchgeführt',
+'mbr_datetime_fmt' => 'Datum &amp; Zeitformat',
 
-'member_import_error_desc' => 'Der Import konnte nicht durchgeführt werden, sehen Sie sich bitte die unten aufgeführten Fehler an und beheben diese.',
+'mbr_import_btn' => 'Mitglieder importieren',
 
-/**
- * SQL Query Form
- */
+'mbr_import_btn_saving' => 'Importiere...',
 
-'sql_query_form' => 'SQL Query Form',
+'mbr_import_default_options' => 'Standardeinstellungen',
 
-'sql_query_form_abbr' => '<abbr title="Structured Query Language">SQL</abbr>-Abfrageformular',
+'mbr_language' => 'Sprache',
 
-'sql_query_abbr' => '<abbr title="Structured Query Language">SQL</abbr>-Abfrage',
+'mbr_xml_file' => '<abbr title="Extensible Markup Language">XML</abbr>-Datei-Ort',
 
-'sql_warning' => '<p><b>Warnung</b>: <b class="no">Nur für erfahrene Nutzer.</b> Bitte sehr vorsichtig sein mit diesem Werkzeug.</p>
-<p>Abhängig von der benutzen Syntax kann diese Funktion ungewünschte Ergebnisse zur Folge haben. Bitte ein Backup machen und die Dokumentation lesen.</p>',
+'member_group' => 'Mitgliedergruppe',
 
-'common_queries' => 'Allgemeine Abfragen',
+'member_import_error' => 'Achtung: Import nicht abgeschlossen',
 
-'common_queries_desc' => 'Einige allgemeine Abfragen, um mehr über den Datenbankinhalt zu lernen.',
+'member_import_error_desc' => 'Der Import konnte nicht abgeschlossen werden. Bitte beheben Sie die Fehler unten.',
 
-'sql_query_to_run' => 'Datenbank-Abfrage',
+'member_import_no_custom_fields_selected' => 'Es wurden keine benutzerdefinierten Felder für den Import ausgewählt. Klicken Sie auf die Kontrollkästchen neben den Feldern, die Sie erstellen möchten.',
 
-'sql_password_desc' => 'Sie <b>müssen</b> Ihr Passwort eingeben, um Abfragen senden zu können.',
+'member_xml_file' => 'Mitglieder-XML-Datei',
+
+'member_xml_file_desc' => 'XML-Datei enthält Mitgliederdaten',
+
+'new_fields_success' => 'Die folgenden benutzerdefinierten Mitgliederfelder wurden erfolgreich hinzugefügt:',
+
+'option' => 'Option',
+
+'value' => 'Wert',
+
+'xml_parse_error' => 'XML kann nicht geparst werden',
+
+'xml_parse_error_desc' => 'Überprüfen Sie die XML-Datei auf falsche Syntax.',
+
+
+/* Database Backup Utility */
+'backing_up' => 'Backup läuft...',
+
+'backup_database' => 'Datenbank-Backup',
+
+'backup_error' => 'Backup nicht möglich',
+
+'backup_success' => 'Backup erfolgreich',
+
+'backup_success_desc' => 'Ihr Backup wurde in Ihrem Systemordner unter: <b>%s</b> gespeichert.',
+
+'backup_tables' => 'Backup -Tabellen',
+
+'cache_path_not_writable' => 'Ihr Cache-Pfad ist nicht beschreibbar. Dieser Ordner muss beschreibbar sein, um Ihr Backup (Sicherung) schreiben zu können.',
+
+'not_enough_free_disk_space' => 'Es ist nicht genügend freier Speicherplatz zum Schreiben der Sicherung vorhanden. %s benötigt.',
+
+'table_count' => '<b>%s</b> Tabellen',
+
+
+/* SQL Query Form */
+'affected_rows' => 'Betroffene Zeilen',
+
+'common_queries' => 'Allgemeine Abfragen (queries)',
+
+'common_queries_desc' => 'Einige allgemeine Abfragen, die Sie ausführen können, um mehr über Ihren Datenbankinhalt zu erfahren.',
 
 'query_btn' => 'Abfragen',
 
-'query_btn_saving' => 'Frage ab...',
+'query_btn_saving' => 'Fragt ab...',
 
-'query_results' => 'Abfrage-Ergebnis',
+'query_form_error' => 'Achtung: Abfrage wird nicht ausgeführt',
 
-'total_results' => 'Ergebnisse gesamt',
+'query_form_error_desc' => 'Wir konnten Ihre Abfrage (querie) nicht ausführen. Bitte beheben Sie die unten aufgeführten Fehler.',
 
-'affected_rows' => 'Betroffene Datensätze',
+'query_results' => 'Abfrageergebnisse',
+
+'search_table' => 'Tabelle durchsuchen',
 
 'sql_not_allowed' => 'Abfragetyp nicht erlaubt',
 
 'sql_not_allowed_desc' => 'Folgende Abfragen können nicht gesendet werden: FLUSH, REPLACE, GRANT, REVOKE, LOCK oder UNLOCK.',
 
-'search_table' => 'Tabelle durchsuchen',
+'sql_password_desc' => 'Sie <b>müssen</b> Ihr Passwort eingeben, um Abfragen senden zu können.',
+
+'sql_query_abbr' => '<abbr title="Structured Query Language">SQL</abbr>-Abfrage',
+
+'sql_query_form' => 'SQL Query Form',
+
+'sql_query_form_abbr' => '<abbr title="Structured Query Language">SQL</abbr>-Abfrageformular',
+
+'sql_query_to_run' => 'Datenbank-Abfrage',
+
+'sql_warning' => '<p><b>Warnung</b>: <b class="no">Nur für erfahrene Benutzer.</b> Bitte sehr vorsichtig sein mit diesem Werkzeug.</p>
+<p>Abhängig von der benutzen Syntax kann diese Funktion ungewünschte Ergebnisse zur Folge haben. Bitte ein Datenbank-Backup machen und die Dokumentation lesen.</p>',
+
+'total_results' => 'Ergebnisse insgesamt',
 
 'type_phrase' => 'Phrase eingaben...',
 
-'query_form_error' => 'Achtung: Abfrage nicht durchgeführt',
 
-'query_form_error_desc' => 'Die Abfrage konnte nicht durchgeführt werden, sehen Sie sich bitte die unten aufgeführten Fehler an und beheben diese.',
-
-/**
- * Statistics
- */
-
-'manage_stats' => 'Statistiken verwalten',
-
-'source' => 'Quelle',
-
-'record_count' => 'Anzahl Datensätze',
-
-'members' => 'Mitglieder',
-
+/* Statistics */
 'channel_titles' => 'Channel-Einträge',
 
-'sites' => 'Sites',
+'forum_topics' => 'Foren-Themen',
 
 'forums' => 'Foren',
 
-'forum_topics' => 'Foren-Themen',
+'manage_stats' => 'Statistiken verwalten',
+
+'members' => 'Mitglieder',
+
+'record_count' => 'Anzahl Daftensätze',
+
+'sites' => 'Sites',
+
+'source' => 'Quelle',
 
 'sync' => 'Synchronisieren',
 
 'sync_completed' => 'Synchronisation erfolgt',
 
-/**
- * SQL Manager
- */
 
-'mysql' => 'My<abbr title="Structured Query Language">SQL</abbr>',
-
-'total_records' => 'Datensätze gesamt',
-
-'uptime' => 'Betriebszeit',
-
+/* SQL Manager */
 'database_tables' => 'Datenbank-Tabellen',
-
-'search_tables' => 'Tabellen durchsuchen',
-
-'table_name' => 'Tabellenname',
-
-'records' => 'Datensätze',
-
-'size' => 'Größe',
 
 'manage' => 'Verwalten',
 
-'repair' => 'Reparieren',
+'message' => 'Nachricht',
 
-'optimize' => 'Optimieren',
-
-'no_tables_selected' => 'Keine Tabellen ausgewählt, in denen diese Aktion ausgeführt werden soll.',
+'mysql' => 'My<abbr title="Structured Query Language">SQL</abbr>',
 
 'no_action_selected' => 'Es muss eine Aktion gewählt werden, die in den Tabellen ausgeführt werden soll.',
 
+'no_tables_selected' => 'Keine Tabellen ausgewählt, in denen diese Aktion ausgeführt werden soll.',
+
+'optimize' => 'Optimieren',
+
 'optimize_tables_results' => 'Optimierte Tabellenergebnisse',
+
+'records' => 'Datensätze',
+
+'repair' => 'Reparieren',
 
 'repair_tables_results' => 'Tabellenergebnisse reparieren',
 
-'table' => 'Tabelle',
+'search_tables' => 'Tabellen durchsuchen',
+
+'size' => 'Größe',
 
 'status' => 'Status',
 
-'message' => 'Nachricht',
+'table' => 'Tabelle',
 
-''=>''
+'table_name' => 'Tabellenname',
+
+'total_records' => 'Datensätze insgesamt',
+
+'uptime' => 'Betriebszeit',
+
+/* Export Email Addresses */
+
+'mass_notification_export' => 'Massenbenachrichtigung-Export',
+
+'export_email_addresses_title' => 'Exportiere eine <abbr title="Comma Separated Values">CSV</abbr>-Datei',
+
+'export_email_addresses_desc' => 'Exportieren Sie Namen und Email-Adressen Ihrer %s Mitglieder.',
+
+'export_warning_desc' => 'Diese Aktion sollte nur von autorisierten Benutzern durchgeführt werden. Die resultierende <abbr title="Comma Separated Values">CSV-Datei</abbr> sollte in Übereinstimmung mit Ihrer Datenschutzrichtlinie behandelt werden.',
+
+'download_valid_email_addresses' => 'Valide Emails herunterladen',
+
+'download_invalid_email_addresses' => 'Invalide Emails herunterladen',
+
+'exported_valid_email_addresses' => 'Valide Mitglieder-Email-Adressen wurden exportiert',
+
+'exported_invalid_email_addresses' => 'Invalide Mitglieder-Email-Adressen wurden exportiert',
+
+'validate_addresses' => 'Email-Adressen validieren?',
+
+'validate_addresses_desc' => 'Überprüfen Sie die Email auf das korrekte Format und prüfen Sie, ob die Domäne vorhanden ist.',
+
+'export_email_addresses_fail' => 'Export fehlgeschlagen',
+
 );
 
-/* End of file utilities_lang.php */
-/* Location: ./system/user/language/deutsch/utilities_lang.php */
+// EOF
