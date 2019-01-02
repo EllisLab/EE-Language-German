@@ -709,7 +709,7 @@ $lang = array(
 
 'prv_msg_storage_limit_desc' => 'Maximale Anzahl persönlicher Nachrichten, die ein Benutzer in seinem Konto speichern kann.',
 
-'publish_form' => 'Veröffentlichungsformular',
+'publish_form' => 'Redakteursformular',
 
 'search_flood_control' => 'Suchlimit (in Sekunden)',
 
