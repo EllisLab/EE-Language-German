@@ -618,7 +618,7 @@ $lang = array(
 
 'publish_another_entry' => 'Weiteren Eintrag verfassen',
 
-'publish_form' => 'Veröffentlichungsformular',
+'publish_form' => 'Redakteursformular',
 
 'publish_layout' => 'Formular-Layout',
 
