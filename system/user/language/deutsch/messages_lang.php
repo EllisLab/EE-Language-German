@@ -22,17 +22,17 @@ $lang = array(
 
 'buddy_list' => 'Freundesliste',
 
-'bulletin_board' => 'Infoboard',
+'bulletin_board' => 'Bulletin Board (Pinnwand)',
 
-'bulletin_date' => 'Datum der Info',
+'bulletin_date' => 'Bulletin-Datum',
 
-'bulletin_deleted' => 'Info gelöscht',
+'bulletin_deleted' => 'Bulletin gelöscht',
 
-'bulletin_expires' => 'Info läuft ab',
+'bulletin_expires' => 'Bulletin läuft ab',
 
-'bulletin_message' => 'Text der Info',
+'bulletin_message' => 'Bulletin-Text',
 
-'bulletin_success' => 'Info erfolgreich veröffentlicht',
+'bulletin_success' => 'Bulletin erfolgreich veröffentlicht',
 
 'cc' => 'CC',
 
@@ -50,9 +50,9 @@ $lang = array(
 
 'current_attachments' => 'Aktueller Dateianhang',
 
-'delete_bulletin' => 'Info löschen',
+'delete_bulletin' => 'Bulletin löschen',
 
-'delete_bulletin_popup' => 'Möchten Sie diese Info (Bulletin) wirklich löschen?',
+'delete_bulletin_popup' => 'Möchten Sie das Bulletin wirklich löschen?',
 
 'delete_selected' => 'Ausgewählte Mitteilung(en) löschen',
 
@@ -86,7 +86,7 @@ $lang = array(
 
 'file_name' => 'Dateiname',
 
-'file_size' => 'Dateingröße',
+'file_size' => 'Dateigröße',
 
 'file_size_unit' => 'KB',
 
