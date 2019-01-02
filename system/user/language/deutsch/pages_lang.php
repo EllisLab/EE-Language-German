@@ -108,7 +108,7 @@ $lang = array(
 
 'template' => 'Template',
 
-'view_page' => 'Seite zeigen',
+'view_page' => 'Seite anzeigen',
 
 );
 

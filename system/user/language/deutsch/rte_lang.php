@@ -44,25 +44,25 @@ $lang = array(
 
 'nav_rte_settings' => 'Einstellungen für Rich Text Editor',
 
-'nav_rte_settings_short_desc' => 'Manage Rich Text Editor Tools and Tool Sets',
+'nav_rte_settings_short_desc' => 'Rich Text Editor-Tools und Tools-Sets verwalten',
 
-'rte_prefs' => 'Rich Text Editor Preferences',
+'rte_prefs' => 'Rich Text Editor-Einstllungen',
 
-'rte_settings' => 'Site Preferences',
+'rte_settings' => 'Site-Einstellungen',
 
 'tools' => 'Tools',
 
-'toolsets' => 'Tool Sets',
+'toolsets' => 'Tool-Sets',
 
 
 /* Snippets */
-'cancel' => 'Cancel',
+'cancel' => 'Abbrechen',
 
-'delete' => 'Delete',
+'delete' => 'Löschen',
 
-'disable_button' => 'Disable',
+'disable_button' => 'Deaktivieren',
 
-'disable_rte' => 'Disable Rich Text Editor',
+'disable_rte' => 'Rich Text Editor deaktivieren',
 
 'disabled' => 'Deaktiviert',
 
@@ -110,7 +110,7 @@ $lang = array(
 
 'tool_updated' => 'Tool aktualisiert',
 
-'toolset_created' => 'Tool-Seterstellt',
+'toolset_created' => 'Tool-Set erstellt',
 
 'toolset_created_desc' => '<b>%s</b> wurde erfolgreich erstellt.',
 
@@ -122,7 +122,7 @@ $lang = array(
 
 'toolset_error_desc' => 'Wir konnten das Tool-Set nicht speichern. Bitte  beheben Sie die unten stehenden Fehler.',
 
-'toolset_not_deleted' => 'Tool-Se konnte nicht gelöscht werden.',
+'toolset_not_deleted' => 'Tool-Set konnte nicht gelöscht werden.',
 
 'toolset_update_failed' => 'Tool-Set-Update fehlgeschlagen. Bitte erneut versuchen.',
 
@@ -140,7 +140,7 @@ $lang = array(
 
 'unique_name_required' => 'Der Tool-Set-Name muss einmalig sein.',
 
-'valid_name_required' => 'The Tool-Set-Name darf keine Sonderzeichen enthalten..',
+'valid_name_required' => 'The Tool-Set-Name darf keine Sonderzeichen enthalten.',
 
 'valid_url_required' => 'Eine gültige URL ist erforderlich.',
 
@@ -148,7 +148,7 @@ $lang = array(
 /* Labels */
 'available_tools' => 'Verfügbare Tools (nicht verwendet)',
 
-'default_toolset' => 'Standard-<abbr title="Rich Text Editor">RTE</abbr> Tool-Set',
+'default_toolset' => 'Standard-<abbr title="Rich Text Editor">RTE</abbr>-Tool-Set',
 
 'default_toolset_details' => 'Wird für Benutzer angezeigt, die kein eigenes erstellt oder ein anderes gewählt haben.',
 
@@ -248,7 +248,7 @@ $lang = array(
 
 'img_align_left' => 'Links ausrichten',
 
-'img_align_right' => 'Links ausrichten',
+'img_align_right' => 'Rechts ausrichten',
 
 'img_center' => 'Zentrieren',
 
@@ -256,7 +256,7 @@ $lang = array(
 
 'img_remove' => 'Bild entfernen',
 
-'img_title' => 'Datei heraufalden',
+'img_title' => 'Datei heraufladen',
 
 'img_wrap_left' => 'Bild im Text nach links ausrichten',
 
