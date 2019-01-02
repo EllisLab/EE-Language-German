@@ -10,9 +10,9 @@ $lang = array(
 
 'deny_spam' => 'SPAM, dann aus der Spamfalle löschen',
 
-'engine_training' => 'Engine Training',
+'engine_training' => 'Spam-Training',
 
-'filter_by_type' => 'filtern nach Typ&hellip;',
+'filter_by_type' => 'Filtern nach Typ&hellip;',
 
 'mark_selected' => 'Ausgewählte markieren',
 
@@ -50,7 +50,7 @@ $lang = array(
 
 'spam_word_limit' => 'Wort-Limit',
 
-'spam_word_limit_desc' => 'Anzahl der zu speichernden Wörter, für das Training. Höhere Zahlen können die Geschwindigkeit reduzieren.',
+'spam_word_limit_desc' => 'Anzahl der zu speichernden Wörter für das Training. Höhere Zahlen können die Geschwindigkeit reduzieren.',
 
 'success' => 'Erfolg',
 
