@@ -12,13 +12,13 @@ $lang = array(
 
 'imglib_gif_not_supported' => 'GIF-Bilder werden aufgrund von Lizenzbeschränkungen häufig nicht unterstützt. Möglicherweise müssen Sie stattdessen JPG- oder PNG-Bilder verwenden.',
 
-'imglib_image_process_failed' => 'Bildverarbeitung fehlgeschlagen Stellen Sie sicher, dass Ihr Server das ausgewählte Protokoll unterstützt und dass der Pfad zu Ihrer Bildbibliothek korrekt ist.',
+'imglib_image_process_failed' => 'Bildverarbeitung fehlgeschlagen. Stellen Sie sicher, daß Ihr Server das ausgewählte Protokoll unterstützt und daß der Pfad zu Ihrer Bildbibliothek korrekt ist.',
 
 'imglib_invalid_path' => 'Der Pfad zum Bild ist nicht korrekt.',
 
 'imglib_jpg_not_supported' => 'JPG-Bilder werden nicht unterstützt.',
 
-'imglib_jpg_or_png_required' => 'Das in Ihren Voreinstellungen angegebene Bildgrößenänderungsprotokoll funktioniert nur mit JPEG- oder PNG-Bildtypen.',
+'imglib_jpg_or_png_required' => 'Daß in Ihren Voreinstellungen angegebene Bildgrößenänderungsprotokoll funktioniert nur mit JPEG- oder PNG-Bildtypen.',
 
 'imglib_libpath_invalid' => 'Der Pfad zu Ihrer Bildbibliothek ist nicht korrekt. Bitte legen Sie den richtigen Pfad in Ihren Bildeinstellungen fest.',
 
@@ -32,11 +32,11 @@ $lang = array(
 
 'imglib_rotation_angle_required' => 'Ein Drehwinkel ist erforderlich, um das Bild zu drehen.',
 
-'imglib_save_failed' => 'Das Bild kann nicht gespeichert werden. Stellen Sie sicher, dass das Image und das Dateiverzeichnis schreibbar sind.',
+'imglib_save_failed' => 'Das Bild kann nicht gespeichert werden. Stellen Sie sicher, dass das Image und das Dateiverzeichnis beschreibbar sind.',
 
-'imglib_source_image_required' => 'Das Bild kann nicht gespeichert werden. Stellen Sie sicher, dass das Image und das Dateiverzeichnis schreibbar sind.',
+'imglib_source_image_required' => 'Das Bild kann nicht gespeichert werden. Stellen Sie sicher, dass das Image und das Dateiverzeichnis beschreibbar sind.',
 
-'imglib_unsupported_imagecreate' => 'Ihr Server unterstützt die für die Verarbeitung dieses Abbildtyps erforderliche GD-Funktion nicht.',
+'imglib_unsupported_imagecreate' => 'Ihr Server unterstützt die für die Verarbeitung dieses Bildtyps erforderliche GD-Funktion nicht.',
 
 'imglib_writing_failed_gif' => 'GIF-Bild.',
 

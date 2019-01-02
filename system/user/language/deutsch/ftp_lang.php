@@ -20,11 +20,11 @@ $lang = array(
 
 'ftp_unable_to_makdir' => 'Das angegebene Verzeichnis kann nicht erstellt werden.',
 
-'ftp_unable_to_move' => 'Datei kann nicht verschoben werden. Stellen Sie sicher, dass das Zielverzeichnis vorhanden ist.',
+'ftp_unable_to_move' => 'Datei kann nicht verschoben werden. Stellen Sie sicher, daß das Zielverzeichnis vorhanden ist.',
 
 'ftp_unable_to_rename' => 'Die Datei kann nicht umbenannt werden.',
 
-'ftp_unable_to_upload' => 'Umbenennen der Datei nicht möglich Die angegebene Datei kann nicht hochgeladen werden. Bitte überprüfen Sie Ihre Pfaddatei.',
+'ftp_unable_to_upload' => 'Umbenennen der Datei nicht möglich. Die angegebene Datei kann nicht hochgeladen werden. Bitte überprüfen Sie den Datei-Pfad.',
 
 );
 
