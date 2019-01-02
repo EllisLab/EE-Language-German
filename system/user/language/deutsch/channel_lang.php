@@ -376,7 +376,7 @@ $lang = array(
 
 'title_field_label' => 'Bezeichnung (Label) des Titelfeldes',
 
-'title_field_label_desc' => 'Ändert die Bezeichnung des Titelfeldes (Standard: "Title") im Veröffentlichungsformular für diesen Channel.',
+'title_field_label_desc' => 'Ändert die Bezeichnung des Titelfeldes (Standard: "Title") im Redakteursformular für diesen Channel.',
 
 'url_path_settings' => '<abbr title="Unified Resource Locator">URL</abbr>- und Pfad-Einstellungen',
 
