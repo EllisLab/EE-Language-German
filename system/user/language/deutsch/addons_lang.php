@@ -21,7 +21,7 @@ $lang = array(
 
 'manage_extensions' => 'Add-Ons verwalten',
 
-'manual' => 'Handbuch',
+'manual' => 'Benutzerhandbuch',
 
 'no_addon_extensions_search_results' => 'Keine <b>externen Add-Ons</b> gefunden',
 
@@ -43,7 +43,7 @@ $lang = array(
 // Confirm uninstall modal
 'btn_confirm_and_uninstall' => 'Deinstallieren',
 
-'btn_confirm_and_uninstall_working' => 'Deinstalliere jetzt...',
+'btn_confirm_and_uninstall_working' => 'Deinstalliere...',
 
 'confirm_uninstall' => 'Add-On-Deinstallation bestätigen',
 
@@ -53,7 +53,7 @@ $lang = array(
 // Filters
 'addons_installed' => 'Add-Ons installiert',
 
-'addons_installed_desc' => 'Folgende(s) Add-On(s) wurde installiert: ',
+'addons_installed_desc' => 'Folgende Add-Ons wurden installiert: ',
 
 'addons_not_installed' => 'Add-Ons nicht installiert',
 
@@ -63,11 +63,11 @@ $lang = array(
 
 'addons_uninstalled' => 'Add-Ons deinstalliert',
 
-'addons_uninstalled_desc' => 'Folgende(s) Add-On(s) wurde deinstalliert: ',
+'addons_uninstalled_desc' => 'Folgende Add-Ons wurden deinstalliert: ',
 
 'addons_updated' => 'Add-Ons aktualisiert',
 
-'addons_updated_desc' => 'Folgende(s) Add-On(s) wurde aktualisiert: ',
+'addons_updated_desc' => 'Folgende Add-Ons wurden aktualisiert: ',
 
 'btn_save_settings' => 'Einstellungen speichern',
 
@@ -175,7 +175,7 @@ $lang = array(
 
 'required_by' => 'Benötigt von:',
 
-'rte_tool' => 'Rich Text Editor Tool',
+'rte_tool' => 'Rich Text Editor-Tool',
 
 'specific_page' => 'Spezifische Seite?',
 
