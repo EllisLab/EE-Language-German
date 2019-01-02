@@ -25,7 +25,7 @@ $lang = array(
 
 'member_tools' => 'Benutzer-Tools',
 
-'member_import' => 'Benutzer-Importt',
+'member_import' => 'Benutzer-Import',
 
 'php_info' => '<abbr title="PHP: Hypertext Processor">PHP</abbr>-Info',
 
@@ -49,7 +49,7 @@ $lang = array(
 
 'attachment' => 'Dateianhang',
 
-'attachment_desc' => 'Anhänge werden  <b>nicht</b> gesichert nach dem Versand..',
+'attachment_desc' => 'Dateianhänge werden  <b>nicht</b> gesichert nach dem Versand.',
 
 'bcc_recipients' => '<abbr title="Blind Carbon Copied">BCC</abbr>: Email-Adresse(n)',
 
@@ -67,7 +67,7 @@ $lang = array(
 
 'communicate_error_desc' => 'Die Email konnte nicht gesendet werden, beheben Sie sich bitte die unten aufgeführten Fehler.',
 
-'create_new_email' => 'Neue Email schreibenl',
+'create_new_email' => 'Neue Email schreiben',
 
 'email_body' => 'Email-Text',
 
@@ -97,15 +97,15 @@ $lang = array(
 
 
 /* CP Translation */
-'cannot_access' => 'kann nicht drauf zugegriffen werden',
+'cannot_access' => 'darauf kann nicht zugegriffen werden',
 
-'cannot_create_zip' => 'Kann kein .zip-file erstellen ',
+'cannot_create_zip' => 'Kann keine .zip-Datei erstellen ',
 
 'export_download' => 'Export (Download)',
 
 'file_name' => 'Dateiname',
 
-'file_saved' => 'Die Übersetzungsdatei wurde in gespeichert <b>%s</b>',
+'file_saved' => 'Die Übersetzungsdatei wurde gespeichert in <b>%s</b>',
 
 'invalid_path' => 'Der von Ihnen übermittelte Pfad ist ungültig:',
 
@@ -361,9 +361,9 @@ $lang = array(
 
 'backup_success_desc' => 'Ihr Backup wurde in Ihrem Systemordner unter: <b>%s</b> gespeichert.',
 
-'backup_tables' => 'Backup -Tabellen',
+'backup_tables' => 'Backup-Tabellen',
 
-'cache_path_not_writable' => 'Ihr Cache-Pfad ist nicht beschreibbar. Dieser Ordner muss beschreibbar sein, um Ihr Backup (Sicherung) schreiben zu können.',
+'cache_path_not_writable' => 'Ihr Cache-Pfad ist nicht beschreibbar. Dieser Ordner muss beschreibbar sein, um ein Backup (Sicherung) machen zu können.',
 
 'not_enough_free_disk_space' => 'Es ist nicht genügend freier Speicherplatz zum Schreiben der Sicherung vorhanden. %s benötigt.',
 
@@ -422,7 +422,7 @@ $lang = array(
 
 'members' => 'Mitglieder',
 
-'record_count' => 'Anzahl Daftensätze',
+'record_count' => 'Anzahl Datensätze',
 
 'sites' => 'Sites',
 
