@@ -16,13 +16,13 @@ $lang = array(
 
 'all_search_logs' => 'Alle %d Such-Logs',
 
-'all_throttle_logs' => 'Alle %d Throttling Logs',
+'all_throttle_logs' => 'Alle %d Throttling-Logs',
 
 'clear_cp_logs' => 'Alle Control-Panel-Zugangs-Logs löschen',
 
 'consent_log' => 'Einwilligung',
 
-'cp_log' => 'Control-Panel',
+'cp_log' => 'Control Panel',
 
 'date_logged' => 'Datum gelogged',
 
@@ -40,7 +40,7 @@ $lang = array(
 
 'search_log' => 'Suche',
 
-'search_logs_button' => 'Such-Logs',
+'search_logs_button' => 'Suche Logs',
 
 'search_results' => 'Suchergebnisse',
 
@@ -74,14 +74,14 @@ $lang = array(
 
 'deprecated_meaning' => '<p>Eine der zwei Sachen ist passiert:</p>
 <ol>
- <li>Das System hat nativen Code oder ein Add-on entdeckt, das veralteten Code benutzt, der nicht mehr funktioninert oder das System beeinträchtigt. Das bedeutet, dass ein Add-On in dieser Installation einen Teil des ExpressionEngine Core-Codes benutzt, den EllisLab plant, in Zukunft aus dem System zu entfernen.</li>
+ <li>Das System hat nativen Code oder ein Add-On entdeckt, das veralteten Code benutzt, der nicht mehr funktioninert oder das System beeinträchtigt. Das bedeutet, dass ein Add-On in dieser Installation einen Teil des ExpressionEngine Core-Codes benutzt, den EllisLab in Zukunft aus dem System entfernen will.</li>
  <li>Eine Warnung oder Benachrichtigung wurde von nativem Code oder einem Add-On hervorgerufen, um dem Super-Admin gemeldet zu werden.</li>
 </ol>
 <p>Um diese Benachrichtung abzuschalten, befolgen Sie einen der folgenden Punkte:</p>
 <ul>
  <li>Den Entwickler, der sich um das System kümmert, um Hilfe bitten.</li>
- <li>Sicherstellen, daß überall die neusten Versionen aller installierten Add-Ons laufen.</li>
- <li>Den oder die Entwickler des betreffenden Add-Ons kontaktieren, um sicherzustellen, dass sie sich des Problems bewusst sind und sich um die Behebung des Problems bemühen.</li>
+ <li>Sicherstellen, daß überall die neuesten Versionen aller installierten Add-Ons laufen.</li>
+ <li>Den oder die Entwickler des betreffenden Add-Ons kontaktieren, um sicherzustellen, dass diese sich des Problems bewusst sind und sich um die Behebung kümmern.</li>
 </ul>',
 
 'deprecated_on_line' => 'von %s in Zeile %d.',
