@@ -3,7 +3,7 @@
 $lang = array(
 
 /* Log-in */
-'credential_missmatch' => 'Das ist der falsche Benutzername oder das falsche Passwort',
+'credential_missmatch' => 'Das ist der falsche Benutzername oder falsche Passwort',
 
 'locked' => 'Gesperrt',
 
@@ -11,11 +11,11 @@ $lang = array(
 
 'new_password_request' => 'Neues Passwort anfordern',
 
-'no_email' => 'Geben Sie Ihre E-Mail-Adresse an.',
+'no_email' => 'Geben Sie Ihre Email-Adresse an.',
 
-'no_password' => 'Das Passwort-Feld muss ausgefüllt werden',
+'no_password' => 'Das Passwortfeld muss ausgefüllt werden',
 
-'no_username' => 'Das Benutzername-Feld muss ausgefüllt werden',
+'no_username' => 'Das Benutzernamefeld muss ausgefüllt werden',
 
 'password_lockout_in_effect' => 'Jede %d Minute(n) können Sie viermal Ihr Passwort eingeben',
 
