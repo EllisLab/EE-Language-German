@@ -7,6 +7,7 @@ $lang = array(
 'ut_boolean' => 'Boolean',
 
 'ut_double' => 'Float', // kann das gleiche wie Float sein
+
 'ut_failed' => 'Fehlgeschlagen',
 
 'ut_file' => 'Dateiname',

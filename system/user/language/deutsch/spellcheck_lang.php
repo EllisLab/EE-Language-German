@@ -8,7 +8,7 @@ $lang = array(
 
 'revert_spellcheck' => 'Zurück zum Original',
 
-'save_spellcheck' => 'Save Changes',
+'save_spellcheck' => 'Änderungen speichern',
 
 'save_spellcheck' => 'Änderungen speichern',,
 

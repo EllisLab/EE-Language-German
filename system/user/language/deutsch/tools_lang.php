@@ -48,7 +48,7 @@ $lang = array(
 
 'search_and_replace' => 'Suchen und Ersetzen',
 
-'search_replace_disclaimer' => 'Abhängig von der verwendeten Syntax kann diese Funktion zu unerwünschten Ergebnissen führen. Konsultieren Sie das Handbuch und sichern Sie Ihre Datenbank.',
+'search_replace_disclaimer' => 'Abhängig von der verwendeten Syntax kann diese Funktion zu unerwünschten Ergebnissen führen. Konsultieren Sie das Benutzerhandbuch und sichern Sie Ihre Datenbank.',
 
 'search_results' => 'Suchergebnisse',
 

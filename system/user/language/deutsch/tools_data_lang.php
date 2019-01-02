@@ -73,7 +73,7 @@ $lang = array(
 
 
 /* Search and Replace */
-'channel_entry_title' => 'Channel-Eintrag-Titel',
+'channel_entry_title' => 'Channel-Eintrags-Titel',
 
 'channel_fields' => 'Channel-Feld',
 

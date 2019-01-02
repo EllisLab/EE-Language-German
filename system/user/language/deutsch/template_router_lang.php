@@ -8,7 +8,7 @@ $lang = array(
 
 'invalid_regex' => 'Ungültiger Regex-Ausdruck'
 
-'invalid_route' => 'Ungültige Template Route: ',
+'invalid_route' => 'Ungültige Template-Route: ',
 
 'invalid_variable' => 'Ungültiger Variablenname, Variable muss alphanumerisch sein: ',
 
@@ -20,7 +20,7 @@ $lang = array(
 
 'route' => 'Route',
 
-'route_not_found' => 'Template Route nicht gefunden.',
+'route_not_found' => 'Template-Route nicht gefunden.',
 
 'segments_required' => 'Alle Segmente anfordern?',
 
