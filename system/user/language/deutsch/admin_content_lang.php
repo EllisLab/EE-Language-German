@@ -88,7 +88,7 @@ $lang = array(
 
 'checkbox_options' => 'Checkbox-Optionen',
 
-'checkbox_options_desc' => 'Jedes Element wird als Checkbox mit passender Bezeichnung (Label) im Radakteursformular erscheinen.',
+'checkbox_options_desc' => 'Jedes Element wird als Checkbox mit passender Bezeichnung (Label) im Redakteursformular erscheinen.',
 
 'clear_versioning_data' => 'Alle gespeicherten Überarbeitungen in diesem Channel löschen',
 
@@ -184,7 +184,7 @@ $lang = array(
 
 'deft_category' => 'Standard-Kategorie',
 
-'deft_comments' => 'Button <em>Kommentare zulassen</em> als Standard im Radakteursformular anzeigen?',
+'deft_comments' => 'Button <em>Kommentare zulassen</em> als Standard im Redakteursformular anzeigen?',
 
 'deft_field_formatting' => 'Standard-Textformat',
 
@@ -248,7 +248,7 @@ $lang = array(
 
 'field_is_hidden' => 'Dieses Feld standardmäßig zeigen?',
 
-'field_label_info' => 'Feldbezeichnung, die im Radakteursformular erscheint',
+'field_label_info' => 'Feldbezeichnung, die im Redakteursformular erscheint',
 
 'field_manager' => 'Feldverwaltung',
 
@@ -278,21 +278,21 @@ $lang = array(
 
 'global_sort_order' => 'Generelle Sortierreihenfolge',
 
-'grid_checkbox_options_desc' => 'Jedes Element wird als Checkbox mit passender Bezeichnung (Label) im Radakteursformular erscheinen.',
+'grid_checkbox_options_desc' => 'Jedes Element wird als Checkbox mit passender Bezeichnung (Label) im Redakteursformular erscheinen.',
 
-'grid_multiselect_options_desc' => 'Jedes Element wird als Multi-Select-Feld mit passender Bezeichnung (Label) im Radakteursformular erscheinen.',
+'grid_multiselect_options_desc' => 'Jedes Element wird als Multi-Select-Feld mit passender Bezeichnung (Label) im Redakteursformular erscheinen.',
 
-'grid_radio_options_desc' => 'Jedes Element wird als Radio-Button mit passender Bezeichnung (Label) im Radakteursformular erscheinen.',
+'grid_radio_options_desc' => 'Jedes Element wird als Radio-Button mit passender Bezeichnung (Label) im Redakteursformular erscheinen.',
 
-'grid_select_options_desc' => 'Jedes Element wird als Drop-Down-Menu mit passender Bezeichnung (Label) im Radakteursformular erscheinen.',
+'grid_select_options_desc' => 'Jedes Element wird als Drop-Down-Menu mit passender Bezeichnung (Label) im Redakteursformular erscheinen.',
 
 'group_required' => 'Es muss ein Gruppenname gewählt werden',
 
-'hidden_field_blurb' => 'Diese Option bestimmt, ob das Feld im Radakteursformular standardmäßig geöffnet ist. Die Option &quot;Nein&quot; bewirkt ein verlinktes Icon zum Öffnen des Feldes.',
+'hidden_field_blurb' => 'Diese Option bestimmt, ob das Feld im Redakteursformular standardmäßig geöffnet ist. Die Option &quot;Nein&quot; bewirkt ein verlinktes Icon zum Öffnen des Feldes.',
 
 'hide_field' => 'Feld verstecken?',
 
-'hide_field_desc' => 'Diese Option bewirkt, dass dieses Feld im Radakteursformular als sichtbarer Link verborgen wird.',
+'hide_field_desc' => 'Diese Option bewirkt, dass dieses Feld im Redakteursformular als sichtbarer Link verborgen wird.',
 
 'hide_formatting_buttons' => 'Menü für Formatierungen verbergen',
 
@@ -316,13 +316,13 @@ $lang = array(
 
 'instructions' => 'Anweisungen',
 
-'instructions_desc' => 'Feldanweisungen, die im Radakteursformular erscheinen.',
+'instructions_desc' => 'Feldanweisungen, die im Redakteursformular erscheinen.',
 
 'invalid_field_group_selected' => 'Ungültige Feldgruppe',
 
 'invalid_short_name' => 'Der Channel-Name darf nur alphanumerische Zeichen enthalten und keine Leerzeichen.',
 
-'label_desc' => 'Feldname, der im Radakteursformular erscheint.',
+'label_desc' => 'Feldname, der im Redakteursformular erscheint.',
 
 'limit' => 'Limit',
 
@@ -338,7 +338,7 @@ $lang = array(
 
 'multiselect_options' => 'Multi-Select-Feld: Optionen',
 
-'multiselect_options_desc' => 'Jedes Element wird als Multi-Select-Feld im Radakteursformular erscheinen.',
+'multiselect_options_desc' => 'Jedes Element wird als Multi-Select-Feld im Redakteursformular erscheinen.',
 
 'new_category' => 'Neue Kategorie',
 
@@ -378,11 +378,11 @@ $lang = array(
 
 'paths' => 'Pfad-Einstellungen',
 
-'publish_page_customization' => 'Anpassungen für das Radakteursformular',
+'publish_page_customization' => 'Anpassungen für das Redakteursformular',
 
 'radio_options' => 'Optionen für Radio-Buttons',
 
-'radio_options_desc' => 'Jedes Element wird als Radio-Button mit passender Bezeichnung (Label) im Radakteursformular erscheinen.',
+'radio_options_desc' => 'Jedes Element wird als Radio-Button mit passender Bezeichnung (Label) im Redakteursformular erscheinen.',
 
 'related_to_channel' => 'Channel-Einträge auf andere Channel-Einträge verweisen.',
 
@@ -416,13 +416,13 @@ $lang = array(
 
 'select_options' => 'Optionen für Drop-Down-Menü',
 
-'select_options_desc' => '<em><i>Jedes Element wird als Drop-Down-Menü mit passender Bezeichnung (Label) im Radakteursformular erscheinen.</i>',
+'select_options_desc' => '<em><i>Jedes Element wird als Drop-Down-Menü mit passender Bezeichnung (Label) im Redakteursformular erscheinen.</i>',
 
 'select_related_channel' => 'Channel wählen, zu dem eine Verknüpfung hergestellt werden soll:',
 
 'show_all_channels' => 'Alle %d Channels',
 
-'show_formatting_buttons' => 'Überschreibungen im Radakteursformular zulassen?',
+'show_formatting_buttons' => 'Überschreibungen im Redakteursformular zulassen?',
 
 'single_word_no_spaces' => 'Nur ein Wort, keine Leerzeichen',
 
@@ -462,7 +462,7 @@ $lang = array(
 
 'update_existing_fields' => 'Alle vorhandenen Einträge aktualisieren?',
 
-'update_publish_cats' => 'Fenster schließen und Kategorien im Radakteursformular aktualisieren',
+'update_publish_cats' => 'Fenster schließen und Kategorien im Redakteursformular aktualisieren',
 
 'use_a_theme' => 'Das Standard-Theme benutzen',
 
@@ -814,7 +814,7 @@ $lang = array(
 
 'field_show_fmt' => 'Überschreiben erlaubt?',
 
-'field_show_fmt_desc' => 'Wenn aktivert, dürfen Autoren die Standard-Textformatierung im Radakteursformular überschreiben.',
+'field_show_fmt_desc' => 'Wenn aktivert, dürfen Autoren die Standard-Textformatierung im Redakteursformular überschreiben.',
 
 'field_text_direction' => 'Textrichtung',
 
