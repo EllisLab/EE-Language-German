@@ -12,7 +12,7 @@ $lang = array(
 
 'create_site_error' => 'Site kann nicht erstellt werden',
 
-'create_site_error_desc' => 'Wir konnten diese Seite nicht erstellen. Bitte überprüfen und beheben Sie die Fehler unten.',
+'create_site_error_desc' => 'Wir konnten diese Site nicht erstellen. Bitte beheben Sie die unten aufgeführten Fehler.',
 
 'create_site_success' => 'Site erstellt',
 
@@ -24,7 +24,7 @@ $lang = array(
 
 'edit_site_error' => 'Eine kurze Beschreibung dieser Site.',
 
-'edit_site_error_desc' => 'Wir konnten diese Seite nicht aktualisieren, bitte überprüfen und beheben Sie die Fehler unten.',
+'edit_site_error_desc' => 'Wir konnten diese Site nicht aktualisieren. Bitte beheben Sie die unten aufgeführten Fehler.',
 
 'edit_site_success' => 'Site aktualisiert',
 
@@ -38,7 +38,7 @@ $lang = array(
 
 'online' => 'Online',
 
-'short_name' => 'Kurname',
+'short_name' => 'Kurzname',
 
 'short_name_desc' => 'Kurzname für diese Site.<br><i>Keine Leerzeichen. Unterstriche und Bindestriche sind erlaubt.</i>',
 
@@ -56,7 +56,7 @@ $lang = array(
 
 'site_online_desc' => 'Wenn deaktiviert, können nur Super-Admins und Mitgliedergruppen mit Berechtigungen diese Website durchsuchen.',
 
-'site_updated' => 'Site aktualisert',
+'site_updated' => 'Site aktualsiert',
 
 'sites' => 'Sites',
 
