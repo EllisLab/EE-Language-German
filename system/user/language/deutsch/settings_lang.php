@@ -29,9 +29,9 @@ $lang = array(
 
 'messages' => 'Nachrichten',
 
-'outgoing_email' => 'Ausgehende E-Mail',
+'outgoing_email' => 'Ausgehende Email',
 
-'pages_settings' => 'Seiteneinstellungen',
+'pages_settings' => 'Seiten-Einstellungen',
 
 'security_privacy' => 'Sicherheit',
 
@@ -75,7 +75,7 @@ $lang = array(
 
 'language' => 'Sprache',
 
-'manual' => 'Handbuch',
+'manual' => 'Benutzerhandbuch',
 
 'offline' => 'Offline',
 
@@ -83,7 +83,7 @@ $lang = array(
 
 'show_ee_news' => 'Zeige ExpressionEngine-News?',
 
-'show_ee_news_desc' => 'Wenn aktiviert, werden die neuesten Nachrichten über ExpressionEngine auf der Startseite des Control-Panels angezeigt.',
+'show_ee_news_desc' => 'Wenn aktiviert, werden die neuesten Nachrichten über ExpressionEngine auf der Startseite des Control Panels angezeigt.',
 
 'site_default' => 'Die Standardeinstellung verwenden?',
 
@@ -93,13 +93,13 @@ $lang = array(
 
 'site_online_desc' => 'Wenn deaktiviert, können nur Super-Admins und Mitgliedergruppen mit Berechtigungen Ihre Website durchsuchen.',
 
-'site_short_name' => 'Kurname',
+'site_short_name' => 'Kurzname',
 
 'site_short_name_taken' => 'Dieser Kurzname ist bereits vergeben.',
 
 'timezone' => 'Zeitzone',
 
-'version_autocheck' => 'Autmoatisch auf neue Version prüfen',
+'version_autocheck' => 'Automatisch auf neue Version prüfen',
 
 'version_autocheck_desc' => 'Bei der Einstellung <b>Automatisch</b> sucht ExpressionEngine automatisch nach neueren Versionen der Software.',
 
@@ -107,11 +107,11 @@ $lang = array(
 /* URLs and Path Settings */
 'base_path' => 'Standardbasispfad',
 
-'base_path_desc' => 'Verwende das Kürzel <code>{base_path}</code>, um den Basispfad in anderen Control Panel Pfad-Feldern zu nutzen.',
+'base_path_desc' => 'Verwende das Kürzel <code>{base_path}</code>, um den Basispfad in anderen Control-Panel-Pfad-Feldern zu nutzen. So muss nicht immer der komplette Pfad eingetragen werden',
 
 'base_url' => 'Standard-Basis-URL',
 
-'base_url_desc' => 'Verwende das Kürzel <code>{base_url}</code>, um die Basis-URL in anderen Control Panel URL-Feldern zu nutzen.',
+'base_url_desc' => 'Verwende das Kürzel <code>{base_url}</code>, um die Basis-URL in anderen Control-Panel-URL-Feldern zu nutzen.So muss nicht immer der komplette URL eingetragen werden',
 
 'category_segment_trigger' => 'Kategorien-<abbr title="Uniform Resource Location">URL</abbr>-Segment',
 
@@ -127,7 +127,7 @@ $lang = array(
 
 'cp_url' => 'Control-Panel-Verzeichnis',
 
-'cp_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Adresse des Control-Panels.',
+'cp_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Adresse des Control Panels.',
 
 'docs_url' => 'Dokumentation',
 
@@ -167,7 +167,7 @@ $lang = array(
 /* Outgoing Email */
 'email_charset' => 'Zeichenkodierung',
 
-'email_charset_desc' => 'E-Mail erfordert eine korrekte Zeichencodierung. UTF-8 wird empfohlen.',
+'email_charset_desc' => 'Email erfordert eine korrekte Zeichencodierung. UTF-8 wird empfohlen.',
 
 'email_newline' => 'Zeilenvorschub',
 
@@ -237,7 +237,7 @@ $lang = array(
 
 'debug_0' => 'Versteckt',
 
-'debug_1' => 'Nur für Super Admins zu sehen (empfohlen)',
+'debug_1' => 'Nur für Super-Admins zu sehen (empfohlen)',
 
 'debug_2' => 'Sichtbar für alle (nicht sicher)',
 
@@ -253,9 +253,9 @@ $lang = array(
 
 'force_query_string' => '<abbr title="Uniform Resource Location">URL</abbr>-Suchabfragen erzwingen?',
 
-'force_query_string_desc' => 'When enabled, servers that do not support <mark>PATH_INFO</mark> will use query string URLs instead.',
+'force_query_string_desc' => 'Wenn aktiviert, verwenden Server, die <mark>PATH_INFO</mark> nicht unterstützen, stattdessen Abfragezeichenfolge-URLs.',
 
-'gzip_output' => 'Enable <abbr title="GNU Zip Compression">GZIP</abbr> compression?',
+'gzip_output' => 'Erlaube <abbr title="GNU Zip Compression">GZIP</abbr>-Kompression?',
 
 'gzip_output_desc' => 'Wenn aktiviert, werden Server, die <mark>PATH_INFO</mark> nicht unterstützen, stattdessen Suchabfragen über URLs benutzen.',
 
@@ -263,11 +263,11 @@ $lang = array(
 
 'max_caches_desc' => 'Wenn die Seiten oder die Datenbank zwischengespeichert werden, limitiert das den verfügbaren Cache. 150 wird für kleine Sites und 300 für große Sites empfohlen. Das erlaubte Maximium liegt bei 1000.',
 
-'new_relic' => 'New Relic Optionen',
+'new_relic' => 'New Relic-Optionen',
 
-'newrelic_app_name' => 'New Relic Application-Name',
+'newrelic_app_name' => 'New Relic-Application-Name',
 
-'newrelic_app_name_desc' => 'Ändert den Namen der Applikation, der im New Relic Dashboard für diese ExpressionEngine-Installation erscheint.',
+'newrelic_app_name_desc' => 'Ändert den Namen der Applikation, der im New Relic-Dashboard für diese ExpressionEngine-Installation erscheint.',
 
 'output_options' => 'Ausgabeoptionen',
 
@@ -341,7 +341,7 @@ $lang = array(
 
 'thumbnail_suffix' => 'Thumbnail-Suffix',
 
-'thumbnail_suffix_desc' => 'Wird zu allen automatisch generierten Thumbnails hinzugefügt. <b>Beispiel< b>: photo_thumb.jpg',
+'thumbnail_suffix_desc' => 'Wird zu allen automatisch generierten Thumbnails hinzugefügt. <b>Beispiel</b>: photo_thumb.jpg',
 
 
 /* Comment Settings */
@@ -383,7 +383,7 @@ $lang = array(
 
 'site_404_desc' => 'Template, das als 404-Fehlerseite verwendet werden soll.',
 
-'strict_urls' => 'Strikte <abbr title="Uniform Resource Location">URL</abbr>s anschalten?',
+'strict_urls' => 'Strikte <abbr title="Uniform Resource Location">URL</abbr>s einschalten?',
 
 'strict_urls_desc' => 'Wenn aktiviert, wird ExpressioneEngine die <abbr title="Uniform Resource Location">URL</abbr> strikt interpretieren.',
 
@@ -397,11 +397,11 @@ $lang = array(
 
 'enable_entry_view_tracking' => 'Enable entry view tracking?',
 
-'enable_entry_view_tracking_desc' => 'When enabled, ExpressionEngine will count how many times a channel entry is viewed.',
+'enable_entry_view_tracking_desc' => 'Wenn aktiviert, zählt ExpressionEngine, wie oft ein Kanaleintrag angezeigt wird.',
 
-'enable_hit_tracking' => 'Enable template hit tracking?',
+'enable_hit_tracking' => 'Tracking für Template-Zugriffe aktivieren?',
 
-'enable_hit_tracking_desc' => 'When enabled, ExpressionEngine will count how many times a template is viewed.',
+'enable_hit_tracking_desc' => 'Wenn aktiviert, zählt ExpressionEngine, wie oft ein Template aufgerufen wurde.',
 
 'enable_online_user_tracking' => 'Online-Tracking aktivieren?',
 
@@ -409,9 +409,9 @@ $lang = array(
 
 'log_referrers' => 'Referrer tracken?',
 
-'log_referrers_desc' => 'Wenn akitiviert, wird ExpressionEngine alle eingehenden Links tracken.',
+'log_referrers_desc' => 'Wenn aktiviert, wird ExpressionEngine alle eingehenden Links tracken.',
 
-'max_referrers' => 'Wieviele Referrer sollen gesichert werden?',
+'max_referrers' => 'Wieviele Referrers sollen gesichert werden?',
 
 
 /* Word Censoring */
@@ -475,7 +475,7 @@ $lang = array(
 
 'memberlist_sort_order_opt_asc' => 'Aufsteigend (A-Z / Älteste-Neuste)',
 
-'memberlist_sort_order_opt_desc' => 'Absteigend (Z-A / Neuste-Älteste)',
+'memberlist_sort_order_opt_desc' => 'Absteigend (Z-A / Neueste-Älteste)',
 
 'new_member_notification' => 'Benachrichtigungen für neue Mitglieder aktivieren?',
 
@@ -531,7 +531,7 @@ $lang = array(
 
 'menu_options' => 'Menü-Optionen',
 
-'menu_set' => 'Menüset',
+'menu_set' => 'Menü-Set',
 
 'menu_set_created' => 'Menü-Set erstellt',
 
@@ -555,7 +555,7 @@ $lang = array(
 
 'menu_url_desc' => 'Link-<abbr title="Uniform Resource Locator">URL</abbr>',
 
-'no_menu_items' => 'Keine <b>Menüeinträge</b> gefunden.',
+'no_menu_items' => 'Keine <b>Menü-Einträge</b> gefunden.',
 
 'set_assigned' => 'Zugeordnet',
 
@@ -583,11 +583,11 @@ $lang = array(
 
 'prv_msg_attach_maxsize' => 'Maximale Dateigröße (<abbr title="kilobyte">kb</abbr>)',
 
-'prv_msg_attach_maxsize_desc' => 'Maximal erlaubte Dateigröße pro Anhang in persönlichen Nachrichten.',
+'prv_msg_attach_maxsize_desc' => 'Maximal erlaubte Dateigröße pro Dateianhang in persönlichen Nachrichten.',
 
 'prv_msg_attach_total' => 'Maximale Dateigröße (<abbr title="megabyte">mb</abbr>)',
 
-'prv_msg_attach_total_desc' => 'Maximal erlaubte Dateigröße pro Anhang für jeden Nutzer.',
+'prv_msg_attach_total_desc' => 'Maximal erlaubte Dateigröße pro Dateianhang  für jeden Nutzer.',
 
 'prv_msg_auto_links' => '<abbr title="Uniform Resource Location">URL</abbr>s und Emails in Links umwandeln?',
 
@@ -633,7 +633,7 @@ $lang = array(
 
 'enable_avatars' => 'Avatare erlauben?',
 
-'enable_avatars_desc' => 'Wenn diese Option aktiviert ist, können Mitglieder Avatare in Kommentaren und Foren verwenden.',
+'enable_avatars_desc' => 'Wenn aktiviert, können Mitglieder Avatare in Kommentaren und Foren verwenden.',
 
 
 /* CAPTCHA */
@@ -651,7 +651,7 @@ $lang = array(
 
 'captcha_require_members' => 'Müssen Nutzer <abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr>-Felder ausfüllen, wenn sie angemeldet sind?',
 
-'captcha_require_members_desc' => 'Wenn auf <b>nein</b> gesetzt, müssen angemeldete Nutzer keine <abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr>-Felder ausfüllen.',
+'captcha_require_members_desc' => 'Wenn deaktivert, müssen angemeldete Nutzer keine <abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr>-Felder ausfüllen.',
 
 'captcha_settings' => 'CAPTCHA-Einstellungen',
 
@@ -659,7 +659,7 @@ $lang = array(
 
 'captcha_url' => '<abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr>-Verzeichnis',
 
-'captcha_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Adresse des <mark><abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr></mark>-Verzeichnis.',
+'captcha_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Adresse des <mark><abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr></mark>-Verzeichnisses.',
 
 'require_captcha' => '<abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr> einschalten?',
 
@@ -677,7 +677,7 @@ $lang = array(
 
 'allow_username_change' => 'Mitgliedern erlauben den Benutzernamen zu ändern?',
 
-'allow_username_change_desc' => 'Wenn aktiviert, dürfen Nutzer ihren Benutzernamen ändern.',
+'allow_username_change_desc' => 'Wenn aktiviert, dürfen Benutzer ihren Benutzernamen ändern.',
 
 'c_session' => 'Nur Cookies',
 
@@ -699,7 +699,7 @@ $lang = array(
 
 'cookie_secure' => 'Cookies sicher senden?',
 
-'cookie_secure_desc' => 'Wenn aktiviert, werden Cookies nur über eine sichere <abbr title="Hyper Text Transfer Protocol with Secure Sockets Layer">HTTPS</abbr>-Verbindung gesendet.</em><em>Ihre Site <b>muß</b> dafür überall <abbr title="Secure Sockets Layer">SSL</abbr> benutzen.',
+'cookie_secure_desc' => 'Wenn aktiviert, werden Cookies nur über eine sichere <abbr title="Hyper Text Transfer Protocol with Secure Sockets Layer">HTTPS</abbr>-Verbindung gesendet.</em><em>Ihre Site <b>muß</b> dafür komplett <abbr title="Secure Sockets Layer">SSL</abbr> laufen',
 
 'cookie_settings' => 'Cookie-Einstellungen',
 
@@ -709,7 +709,7 @@ $lang = array(
 
 'deny_duplicate_data' => 'Doppelte Daten abweisen?',
 
-'deny_duplicate_data_desc' => 'Wenn auf <b>ja</b> gesetzt, werden Formulare jede Eingabe abweisen, die eine exakte Kopie von vorhandenen Daten sind.',
+'deny_duplicate_data_desc' => 'Wenn aktiviert, werden Formulare jede Eingabe abweisen, die eine exakte Kopie von vorhandenen Daten sind.',
 
 'enable_rank_denial' => 'Rank Denial für gepostete Links verwenden?',
 
@@ -741,25 +741,25 @@ $lang = array(
 
 'require_cookie_consent' => 'Einwilligung des Benutzers zum Setzen von Cookies erforderlich?',
 
-'require_cookie_consent_desc' => 'Wenn aktiviert, werden Cookies für den Besucher nicht gesetzt (mit Ausnahme der <b>unbedingt erforderlichen</b> Funktion der Website), bis sie den Cookie-Richtlinien Ihrer Website zugestimmt haben. Siehe die<a href="'.DOC_URL.'add-ons/consent/">Zustimmungs-Modul-Dokumentation</a> für mehr Details.',
+'require_cookie_consent_desc' => 'Wenn aktiviert, werden Cookies für den Besucher nicht gesetzt (mit Ausnahme der <b>unbedingt erforderlichen</b> für die Funktion der Website), bis sie den Cookie-Richtlinien Ihrer Website zugestimmt haben. Siehe die <a href="'.DOC_URL.'add-ons/consent/">Zustimmungs-Modul-Dokumentation</a> für mehr Details.',
 
-'require_ip_for_login' => 'Werden User Agent und <abbr title="Internet Protocol">IP</abbr> zwingend gebraucht für die Anmeldung?',
+'require_ip_for_login' => 'Werden User Agent und <abbr title="Internet Protocol">IP</abbr> zwingend für die Anmeldung gebraucht ?',
 
 'require_ip_for_login_desc' => 'Wenn aktiviert, können sich Mitglieder ohne gültigen User Agent und <abbr title="Internet Protocol">IP</abbr>-Adresse nicht anmelden.',
 
 'require_ip_for_posting' => 'Werden User Agent und <abbr title="Internet Protocol">IP</abbr> zwingend gebraucht für Postings?',
 
-'require_ip_for_posting_desc' => 'Wenn auf <b>ja</b> gesetzt, können Mitglieder ohne gültigen User Agent und <abbr title="Internet Protocol">IP</abbr>-Adresse nicht posten',
+'require_ip_for_posting_desc' => 'Wenn aktivert, können Mitglieder ohne gültigen User Agent und <abbr title="Internet Protocol">IP</abbr>-Adresse nicht posten',
 
 'require_secure_passwords' => 'Sichere Passwörter anfordern?',
 
-'require_secure_passwords_desc' => 'Wenn auf <b>ja</b> gesetzt, müssen Mitglieder Passwörter benutzen, die mindestens einen Großbuchstaben, einen Kleinbuchstaben und eine Nummer enthalten.',
+'require_secure_passwords_desc' => 'Wenn aktivert, müssen Mitglieder Passwörter benutzen, die mindestens einen Großbuchstaben, einen Kleinbuchstaben und eine Zahl enthalten.',
 
 's_session' => 'Nur Session-ID',
 
 'security_tip' => '<b>Tipp</b>: Sicherheit der Website ist sehr wichtig.',
 
-'security_tip_desc' => 'Jede Einstellung, die mit <span title="security enhancement"></span> markiert ist, wird die Sicherheit Ihrer Website verbessern.',
+'security_tip_desc' => 'Jede Einstellung, die mit <span title="security enhancement"></span> markiert ist, wird die Sicherheit Ihrer Website erhöhen.',
 
 'share_analytics' => 'Benutzungsdaten mit dem ExpressionEngine-Entwicklerteam teilen?',
 
@@ -777,7 +777,7 @@ $lang = array(
 
 
 /* Access Throttling */
-'banish_404' => 'Auf einen 404-Seite weiterleiten',
+'banish_404' => 'Auf eine 404-Seite weiterleiten',
 
 'banish_masked_ips' => '<abbr title="Internet Protocol">IP</abbr> erforderlich?',
 
@@ -817,7 +817,7 @@ $lang = array(
 /* HTML Buttons */
 'create_html_buttons_error' => 'Kann den <abbr title="Hyper-Text Markup Language">HTML</abbr>-Button nicht angelegen',
 
-'create_html_buttons_error_desc' => 'Der <abbr title="Hyper-Text Markup Language">HTML</abbr>-Button konnte nicht angelegt werden, bitte unten angegebene Fehler beheben.',
+'create_html_buttons_error_desc' => 'Der <abbr title="Hyper-Text Markup Language">HTML</abbr>-Button konnte nicht angelegt werden, bitte die unten angegebenen Fehler beheben.',
 
 'create_html_buttons_success' => '<abbr title="Hyper-Text Markup Language">HTML</abbr>-Button angelegt',
 
@@ -825,7 +825,7 @@ $lang = array(
 
 'edit_html_buttons_error' => 'Kann den <abbr title="Hyper-Text Markup Language">HTML</abbr>-Button nicht bearbeiten',
 
-'edit_html_buttons_error_desc' => 'Der <abbr title="Hyper-Text Markup Language">HTML</abbr>-Button konnte nicht bearbeitet werden, bitte die unten angegebene Fehler beheben.',
+'edit_html_buttons_error_desc' => 'Der <abbr title="Hyper-Text Markup Language">HTML</abbr>-Button konnte nicht bearbeitet werden, bitte die unten angegebenen Fehler beheben.',
 
 'edit_html_buttons_success' => '<abbr title="Hyper-Text Markup Language">HTML</abbr>-Button aktualisiert',
 
