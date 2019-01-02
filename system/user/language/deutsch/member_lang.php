@@ -62,7 +62,7 @@ $lang = array(
 
 'current_avatar' => 'Aktueller Avatar',
 
-'current_avatar_set' => 'Aktuelles Avatar Set:',
+'current_avatar_set' => 'Aktuelles Avatar-Set:',
 
 'current_photo' => 'Aktuelles Photo',
 
@@ -74,7 +74,7 @@ $lang = array(
 
 'display_avatars' => 'Mitglieder-Avatare in Einträgen anzeigen',
 
-'display_signatures' => 'Mitglieder-Signaturen in Einträgen anzeige',
+'display_signatures' => 'Mitglieder-Signaturen in Einträgen anzeigen',
 
 'edit_avatar' => 'Avatar bearbeiten',
 
@@ -110,21 +110,21 @@ $lang = array(
 
 'guided' => 'Angeleitet',
 
-'ignore_list' => 'Ignorierten-Liste verwalten',
+'ignore_list' => 'Sperrliste verwalten',
 
-'ignore_list_blurb' => 'Verwenden Sie dieses Formular, um Ihre Ignorierten-Liste zu verwalten',
+'ignore_list_blurb' => 'Verwenden Sie dieses Formular, um Ihre Sperrliste zu verwalten',
 
-'ignore_list_empty' => 'Keine Mitglieder werden ignoriert',
+'ignore_list_empty' => 'Keine Mitglieder gesperrt',
 
-'ignore_list_updated' => 'Ignorierten-Liste erfolgreich aktualisiert',
+'ignore_list_updated' => 'Sperrliste erfolgreich aktualisiert',
 
-'ignore_member' => 'Mitglied ignorieren',
+'ignore_member' => 'Mitglied sperren',
 
 'image_assignment_error' => 'Beim Versuch, Ihr Bild zuzuweisen, ist ein Fehler aufgetreten',
 
 'image_max_size_exceeded' => 'Die maximal zulässige Größe für Bilder beträgt %s Kilobytes',
 
-'insert_member_instructions' => 'Klicken Sie auf den Namen eines Mitglieds, um es in Ihrer Ignorierten-Liste einzutragen',
+'insert_member_instructions' => 'Klicken Sie auf den Namen eines Mitglieds, um es in Ihrer Sperrliste einzutragen',
 
 'invalid_email_address' => 'Sie haben keine gültige Email-Adresse angegeben',
 
@@ -158,7 +158,7 @@ $lang = array(
 
 'mbr_activation' => 'Konto-Aktivierung',
 
-'mbr_activation_success' => 'Dein Konto wurde aktiviert.',
+'mbr_activation_success' => 'Ihr Konto wurde aktiviert.',
 
 'mbr_admin_will_activate' => 'Ein Administrator wird Ihr Konto aktivieren und Sie benachrichtigen, wenn es einsatzbereit ist.',
 
@@ -192,13 +192,13 @@ $lang = array(
 
 'mbr_delete' => 'Konto löschen',
 
-'mbr_delete_blurb' => 'Möchten Sie Ihr Konto wirklich löschen? Alle Einträge, Beiträge, Kommentare und anderen mit Ihrem Konto verknüpften Inhalte werden ebenfalls gelöscht.',
+'mbr_delete_blurb' => 'Möchten Sie Ihr Konto wirklich löschen? Alle Einträge, Beiträge, Kommentare und andere mit Ihrem Konto verknüpften Inhalte werden ebenfalls gelöscht.',
 
 'mbr_delete_notify_message' => 'Die folgende Person hat ihr Konto gelöscht: {name}',
 
 'mbr_delete_notify_title' => 'Mitglieder-Konto-Löschung bei {site_name}',
 
-'mbr_delete_warning' => 'ACHTUNG: Dieser Vorgang kann nicht rückgängig gemacht werden!!',
+'mbr_delete_warning' => 'ACHTUNG: Dieser Vorgang kann nicht rückgängig gemacht werden!',
 
 'mbr_descending' => 'Absteigend',
 
@@ -258,7 +258,7 @@ $lang = array(
 
 'mbr_id_not_found' => 'Die von Ihnen übermittelte Codenummer wurde nicht in der Datenbank gefunden.',
 
-'mbr_image_gallery' => 'Fotog-Gallerie',
+'mbr_image_gallery' => 'Foto-Gallerie',
 
 'mbr_interests' => 'Interessen',
 
@@ -276,13 +276,13 @@ $lang = array(
 
 'mbr_logout' => 'Logout',
 
-'mbr_may_now_log_in' => 'Sie können sich jetzt einloggen und das Konto benutzen..',
+'mbr_may_now_log_in' => 'Sie können sich jetzt einloggen und das Konto benutzen.',
 
 'mbr_member_group' => 'Mitgliedergruppe:',
 
 'mbr_member_local_time' => 'Ortszeit des Mitglieds',
 
-'mbr_member_name' => 'Mitlgiedername',
+'mbr_member_name' => 'Mitgliedername',
 
 'mbr_member_profile' => 'Mitgliederprofil',
 
@@ -296,7 +296,7 @@ $lang = array(
 
 'mbr_membership_instructions_email' => 'Sie haben gerade eine Email mit Anweisungen zur Aktivierung der Mitgliedschaft erhalten.',
 
-'ü' => 'Menu',
+'ü' => 'Menü',
 
 'mbr_message' => 'Email-Mitteilung',
 
@@ -314,7 +314,7 @@ $lang = array(
 
 'mbr_msn_short' => 'MSN',
 
-'mbr_my_account' => 'Mein Konnto',
+'mbr_my_account' => 'Mein Konto',
 
 'mbr_name' => 'Name',
 
@@ -322,7 +322,7 @@ $lang = array(
 
 'mbr_not_allowed_to_use_email_console' => 'Sie dürfen die Email-Konsole nicht verwenden',
 
-'mbr_not_allowed_to_view_profiles' => 'Sie dürfen keine Mitgliederprofile anzeigen.',
+'mbr_not_allowed_to_view_profiles' => 'Sie dürfen keine Mitgliederprofile ansehen.',
 
 'mbr_notepad' => 'Notizen',
 
@@ -332,7 +332,7 @@ $lang = array(
 
 'mbr_of' => 'von',
 
-'mbr_order' => 'Reigenfolge',
+'mbr_order' => 'Reihenfolge',
 
 'mbr_passwd_email_sent' => 'Passwort zurücksetzen: Email versendet',
 
@@ -350,7 +350,7 @@ $lang = array(
 
 'mbr_profile_has_been_updated' => 'Ihr Profil wurde erfolgreich aktualisiert',
 
-'mbr_profile_homepage' => 'Profil-HHomepage',
+'mbr_profile_homepage' => 'Profil-Homepage',
 
 'mbr_recipient' => 'Email Empfänger:',
 
@@ -368,7 +368,7 @@ $lang = array(
 
 'mbr_screen_name' => 'Bildschirmname',
 
-'mbr_screen_name_explanation' => 'If you leave this field blank, your screen name will be the same as your username',
+'mbr_screen_name_explanation' => 'Wenn Sie dieses Feld leer lassen, entspricht Ihr Bildschirmname Ihrem Benutzernamen',
 
 'mbr_send_email' => 'Wenn Sie dieses Feld leer lassen, entspricht Ihr Bildschirmname Ihrem Benutzernamen',
 
@@ -428,7 +428,7 @@ $lang = array(
 
 'member_login' => 'Mitglieder-Login',
 
-'member_module_description' => 'Mitglieder-Verwaltungm',
+'member_module_description' => 'Mitgliederverwaltung',
 
 'member_module_name' => 'Mitgied',
 
@@ -436,7 +436,7 @@ $lang = array(
 
 'member_results_row' => 'Private Nachricht - Ergebnisse der Mitgliedersuche',
 
-'member_search' => 'Mitglieder-Suche',
+'member_search' => 'Mitgliedersuche',
 
 'most_recent_forum_post' => 'Letzter Forums-Beitrag',
 
@@ -513,7 +513,7 @@ $lang = array(
 
 'remove_photo' => 'Foto entfernen',
 
-'remove_sig_image' => 'Signaturbild entfernene',
+'remove_sig_image' => 'Signaturbild entfernen',
 
 'return_to_forum' => 'Zurück zu den Foren',
 
@@ -591,7 +591,7 @@ Wir behalten uns das Recht vor, Nachrichten aus beliebigen Gründen zu entfernen
 
 'uploads_not_allowed' => 'Bild-Uploads sind nicht aktiviert',
 
-'username_disallowed' => 'Der Administrator lässt keine Änderung der Benutzernamen zu',
+'username_disallowed' => 'Der Administrator lässt keine Änderung des Benutzernamens zu',
 
 'very_large' => 'Sehr groß',
 
@@ -599,7 +599,7 @@ Wir behalten uns das Recht vor, Nachrichten aus beliebigen Gründen zu entfernen
 
 'yellow' => 'Gelb',
 
-'your_control_panel' => 'Ihr Control-Panel',
+'your_control_panel' => 'Ihr Control Panel',
 
 'your_current_un_pw' => 'Ihr bestehender Benutzername und Passwort',
 
