@@ -18,7 +18,7 @@ $lang = array(
 
 'author' => 'Autor',
 
-'banned_email' => 'Die von Ihnen angegebene E-Mail-Adresse ist gesperrt',
+'banned_email' => 'Die von Ihnen angegebene Email-Adresse ist gesperrt',
 
 'btn_confirm_and_anonymize' => 'Bestätigen und anonymisieren',
 
@@ -30,7 +30,7 @@ $lang = array(
 
 'can_attach_in_private_messages' => 'Anhänge zulassen',
 
-'can_attach_in_private_messages_desc' => 'Wenn diese Option aktiviert ist, können Benutzer, die dieser Gruppe zugewiesen sind, Dateien an persönliche Nachrichten anhängen.',
+'can_attach_in_private_messages_desc' => 'Wenn aktiviert, können Benutzer, die dieser Gruppe zugewiesen sind, Dateien an persönliche Nachrichten anhängen.',
 
 'can_delete_categories' => 'Kann Kategorien löschen',
 
@@ -54,7 +54,7 @@ $lang = array(
 
 'confirm_decline_desc' => 'Sie versuchen, die folgenden Mitglieder abzulehnen. Dadurch werden sie entfernt. Bitte bestätigen Sie diese Aktion.',
 
-'control_panel' => 'Control-Panel',
+'control_panel' => 'Control Panel (CP)',
 
 'copy_member_group' => 'Erstellen Sie eine neue Mitgliedergruppe auf der Grundlage von <b>%s</b>',
 
@@ -86,17 +86,17 @@ $lang = array(
 
 'delete_selected' => 'Ausgewählte Mitglieder löschen',
 
-'descending' => 'Datu - neueste zuerst',
+'descending' => 'Datum - neueste zuerst',
 
 'edit_group' => 'Gruppe bearbeiten',
 
-'edit_member_group' => 'Mitlgiedergruppe bearbeiten',
+'edit_member_group' => 'Mitgliedergruppe bearbeiten',
 
 'edit_profile' => 'Profil bearbeiten',
 
 'email' => 'Email',
 
-'email_address' => 'Email-Addresse',
+'email_address' => 'Email-Adresse',
 
 'email_asc' => 'Email - aufsteigend',
 
@@ -106,7 +106,7 @@ $lang = array(
 
 'enable_lock' => 'Gruppen-Sicherheitssperre aktivieren',
 
-'exclude_from_moderation' => 'Mitglieder von der Kommentar-Moderation ausschließe',
+'exclude_from_moderation' => 'Mitglieder von der Kommentar-Moderation ausschließen',
 
 'exclude_from_moderation_desc' => 'Wenn aktiviert, können Benutzer dieser Gruppe Kommentare abgeben, ohne durch die <a href="%s">Standardeinstellungen</a> eingeschränkt zu werden.',
 
@@ -126,9 +126,9 @@ $lang = array(
 
 'forum_posts' => 'Forum-Posts',
 
-'forum_topics' => 'Forums.Themen',
+'forum_topics' => 'Forums-Themen',
 
-'general_access' => 'Filtern nach Mitgliedsname',
+'general_access' => 'Filtern nach Mitgliedername',
 
 'group_id' => 'Gruppen-ID',
 
@@ -142,7 +142,9 @@ $lang = array(
 
 'heir_required' => 'Sie müssen ein Konto auswählen, dem Sie Einträge erneut zuweisen möchten.',
 
-'include_in_authorlist' => 'Mitgliederlisten',
+'include_in_authorlist' => 'Autorenlisten',
+
+'include_in_memberlist' => 'Mitgliederlisten',
 
 'index' => 'Hauptindex-Seite',
 
@@ -176,9 +178,9 @@ $lang = array(
 
 'login_as_member_description' => 'Wenn Sie auf Senden klicken, werden Sie als Mitglied "%screen_name%" angemeldet und auf die folgende Seite weitergeleitet.',
 
-'login_as_user' => 'Super-Admin Als Benutzer anmelden',
+'login_as_user' => 'Super-Admin als Benutzer anmelden',
 
-'manage_bans' => 'Geperrte Mitglieder verwalten',
+'manage_bans' => 'Gesperrte Mitglieder verwalten',
 
 'maximum_members_reached' => 'Sie haben die maximal zulässige Anzahl von Mitgliedern erreicht.',
 
@@ -224,7 +226,7 @@ $lang = array(
 
 'member_declined_success_desc' => 'Das Mitglied <b>%s</b> wurde abgelehnt.',
 
-'member_delete_success' => 'Das Mitglied <b>% s </ b> wurde abgelehnt.',
+'member_delete_success' => 'Das Mitglied <b>%s</ b> wurde abgelehnt.',
 
 'member_delete_problem' => 'Beim Löschen von Mitgliedern ist ein Problem aufgetreten.',
 
@@ -288,7 +290,7 @@ $lang = array(
 
 'members_are_deleted' => 'Mitglieder wurden gelöscht',
 
-'members_are_validated' => 'Member(s) have been activated',
+'members_are_validated' => 'Mitglied(er) wurde(n) aktiviert',
 
 'members_declined_success' => 'Mitglieder abgelehnt',
 
@@ -308,11 +310,11 @@ $lang = array(
 
 'no_heirs_available' => 'Dem zu löschendem Mitglied sind Channel-Einträge zugewiesen',
 
-'no_members_found' => 'Keim <b>Mitglieder</b> gefunden.',
+'no_members_found' => 'Keine <b>Mitglieder</b> gefunden.',
 
 'no_pending_members_found' => 'Keine <b>ausstehenden Mitglieder</b> gefunden.',
 
-'not_writable_path' => 'Der von Ihnen übermittelte Pfad ist nicht beschreibbar. Stellen Sie sicher, dass die Dateiberechtigungen auf 777 festgelegt sind.',
+'not_writable_path' => 'Der von Ihnen übermittelte Pfad ist nicht beschreibbar. Stellen Sie sicher, dass die Dateiberechtigungen auf 777 stehen.',
 
 'other' => 'Andere',
 
@@ -352,7 +354,7 @@ $lang = array(
 
 'screen_name_desc' => 'Bildschirmname - absteigend',
 
-'screen_name_description' => 'Wird für die Anzeige alternativer Namen im Website-Content verwendet',
+'screen_name_description' => 'Wird für die Anzeige alternativer Namen im Website-Inhalt verwendet',
 
 'screen_name_taken' => 'Der von Ihnen gewählte Name ist nicht verfügbar',
 
@@ -376,7 +378,7 @@ $lang = array(
 
 'username_asc' => 'Benutzernname - aufsteigend',
 
-'username_desc' => 'Username - absteigend',
+'username_desc' => 'Benutzernname - absteigend',
 
 'username_description' => 'Wird für die Anmeldung bei ExpressionEngine verwendet.',
 
@@ -394,7 +396,7 @@ $lang = array(
 
 'view_members' => 'Mitglieder anzeigen',
 
-'view_search_members' => 'Mitglieder anzeigen / suchen',
+'view_search_members' => 'Mitglieder anzeigen/suchen',
 
 'visibility' => 'Sichtbarkeit',
 
@@ -412,7 +414,6 @@ $lang = array(
 
 'your_password_delete_member_groups_desc' => 'Sie <b>müssen</b> Ihr Passwort eingeben, um Mitgliedergruppen löschen zu können.',
 
-
 /* Member banning */
 'ban_message' => 'Diese Seite ist vorübergehend nicht verfügbar',
 
@@ -424,9 +425,9 @@ $lang = array(
 
 'banned_members' => 'Gesperrte Mitglieder',
 
-'email_address_banning' => 'Email-Addressen',
+'email_address_banning' => 'Email-Adressen',
 
-'email_banning_instructions' => '<b>Platzieren Sie jede E-Mail-Adresse in einer separaten Zeile.</b><br> Sie können * als Platzhalter verwenden, z.B. *@hotmail.com',
+'email_banning_instructions' => '<b>Platzieren Sie jede Email-Adresse in einer separaten Zeile.</b><br> Sie können * als Platzhalter verwenden, z.B. *@hotmail.com',
 
 'ip_address_banning' => 'IP-Addressen',
 
@@ -436,7 +437,7 @@ $lang = array(
 
 'screen_name_banning' => 'Eingeschränkte Bildschirmnamen',
 
-'screen_name_banning_instructions' => '<b> Platzieren Sie jeden Bildschirmnamen in einer separaten Zeile.</b><br> Diese Bildschirmnamen sind nicht zulässig.',
+'screen_name_banning_instructions' => '<b>Platzieren Sie jeden Bildschirmnamen in einer separaten Zeile.</b><br>Diese Bildschirmnamen sind nicht zulässig.',
 
 'send_to_site' => 'Weiterleiten',
 
@@ -486,13 +487,13 @@ $lang = array(
 
 'can_access_communicate' => 'Kommunikation',
 
-'can_access_cp' => 'Zugang zum Control-Panel',
+'can_access_cp' => 'Zugang zum Control Panel',
 
 'can_access_cp_desc' => 'Wenn aktiviert, können Benutzer, die dieser Gruppe zugewiesen sind, auf das Control Panel zugreifen.',
 
 'can_access_data' => 'Datenzugang',
 
-'can_access_design' => 'Zugang zur Template-Verwaltung',
+'can_access_design' => 'Zugang zur Template-Manager',
 
 'can_access_design_desc' => 'Wenn aktiviert, können Benutzer, die dieser Gruppe zugewiesen sind, auf den Template-Manager zugreifen.',
 
@@ -538,7 +539,7 @@ $lang = array(
 
 'can_admin_mbr_groups' => 'Zugang zu Mitgliedergruppen',
 
-'can_admin_mbr_groups_desc' => 'Wenn aktiviert, können Benutzer, die dieser Gruppe zugewiesen sind, auf die Einstellungen für Mitglieder  zugreifen.',
+'can_admin_mbr_groups_desc' => 'Wenn aktiviert, können Benutzer, die dieser Gruppe zugewiesen sind, auf die Einstellungen für Mitglieder zugreifen.',
 
 'can_admin_mbr_templates' => 'Kann Mitgliederprofil-Vorlagen verwalten',
 
@@ -552,7 +553,7 @@ $lang = array(
 
 'can_assign_post_authors' => 'Darf Autoren-Namen beim Posten von Einträgen ändern',
 
-'can_ban_users' => 'Mitlgieder sperren',
+'can_ban_users' => 'Mitglieder sperren',
 
 'can_delete_all_comments' => 'Kommentare von Dritten löschen',
 
@@ -610,15 +611,15 @@ $lang = array(
 
 'channel_entries_management' => 'Channel-Eintrags-Verwaltung',
 
-'channel_entry_actions' => 'Allowed actions',
+'channel_entry_actions' => 'Erlaubte Aktionen',
 
-'channel_entry_actions_desc' => 'Benutzer können alle ausgewählten Aktionen in den unten ausgewählten Channles ausführen.',
+'channel_entry_actions_desc' => 'Benutzer können alle ausgewählten Aktionen in den unten ausgewählten Channels ausführen.',
 
 'channels' => 'Channels',
 
 'choose_channels_per_site' => 'Gewünschten Channels pro Website auswählen',
 
-'comment_actions' => 'Handlungen moderieren',
+'comment_actions' => 'Moderationsaktionen',
 
 'comment_actions_desc' => 'Benutzer in dieser Gruppe können alle ausgewählten Aktionen ausführen.',
 
@@ -638,7 +639,7 @@ $lang = array(
 
 'cp_module_access_privs' => 'Modul-Zugangsrechte',
 
-'cp_overview' => '<abbr title="Control-Panel">CP</abbr>-Überblick',
+'cp_overview' => '<abbr title="Control Panel">CP</abbr>-Überblick',
 
 'cp_template_access_privs' => 'Template-Bearbeitungsrechte',
 
@@ -646,9 +647,9 @@ $lang = array(
 
 'custom_uri' => 'Benutzerdefinierter URI &mdash; <i>e.g. Mitglieder/Gruppe</i>',
 
-'default_cp_homepage' => 'Standard-<abbr title="Control-Panel">CP</abbr>-Homepage',
+'default_cp_homepage' => 'Standard-<abbr title="Control Panel">CP</abbr>-Homepage',
 
-'default_cp_homepage_desc' => 'Startseite des <abbr title="Control-Panel">CP</abbr>, die diese Gruppe beim Einloggen sehen soll.',
+'default_cp_homepage_desc' => 'Startseite des <abbr title="Control Panel">CP</abbr>, die diese Gruppe beim Einloggen sehen soll.',
 
 'delete_confirmation_form' => 'Bestätigungs-Formular bei Konto-Löschung',
 
@@ -660,7 +661,7 @@ $lang = array(
 
 'file_manager_desc' => 'Wenn aktiviert ist, können Benutzer, die dieser Gruppe zugewiesen sind, auf den Dateimanager zugreifen.',
 
-'footer_helper_links' => 'Helfende Links im Footer anzeigen',
+'footer_helper_links' => 'Info-Links im Footer anzeigen',
 
 'footer_helper_links_desc' => 'Wählen Sie aus, auf welche Links diese Mitgliedergruppe im CP-Footer zugreifen darf.',
 
@@ -672,9 +673,9 @@ $lang = array(
 
 'group_title_exists' => 'Es gibt bereits eine Mitgliedergruppe mit diesem Namen.',
 
-'homepage_news' => 'Neuigkeiten auf der CP-Homepage anzeigen',
+'homepage_news' => 'News auf der CP-Homepage anzeigen',
 
-'homepage_news_desc' => 'Wenn aktiviert ist, werden Benutzern, die dieser Gruppe zugewiesen sind, die ExpressionEngine-Nachrichten auf der CP-Startseite angezeigt.',
+'homepage_news_desc' => 'Wenn aktiviert ist, werden Benutzern, die dieser Gruppe zugewiesen sind, die ExpressionEngine-News auf der CP-Startseite angezeigt.',
 
 'include_members_in' => 'Alle Mitglieder in',
 
@@ -712,7 +713,7 @@ $lang = array(
 
 'search_flood_control' => 'Suchlimit (in Sekunden)',
 
-'search_flood_control_desc' => 'Zeitdauer zwischen Suchvorgängen, die ein Benutzer warten muss, bevor er eine weitere Suche ausführen kann.',
+'search_flood_control_desc' => 'Zeitdauer zwischen Suchvorgängen, die ein Benutzer warten muss, bevor er eine weitere Suche ausführen darf.',
 
 'search_privs' => 'Such-Rechte',
 
@@ -722,7 +723,7 @@ $lang = array(
 
 'super_admin_edit_note' => 'Hinweis: Sie können nur den Namen und die Beschreibung der Super-Admin-Gruppe ändern',
 
-'template_manager' => 'Template-Verwaltung',
+'template_manager' => 'Template-Manager',
 
 'tools_utilities' => 'Dienstprogramme',
 
@@ -744,7 +745,7 @@ $lang = array(
 
 'activation_emails_resent' => 'Aktivierungs-Emails werden erneut gesendet',
 
-'can_access_addon_settings' => 'Add-ons',
+'can_access_addon_settings' => 'Add-Ons',
 
 'can_manage_consents' => 'Einwillungs-Anfragen',
 
@@ -766,7 +767,7 @@ $lang = array(
 
 'can_send_bulletins_desc' => 'Wenn aktiviert, können Benutzer, die dieser Gruppe zugewiesen sind, Bordmitteilungen senden.',
 
-'cannot_change_your_group' => 'Super-Admins können ihre Mitgliedergruppenzuordnung nicht ändern. Bitte lassen Sie sich von einem anderen Super Admin neu zuweisen.',
+'cannot_change_your_group' => 'Super-Admins können ihre Mitgliedergruppenzuordnung nicht ändern. Bitte lassen Sie sich von einem anderen Super-Admin neu zuweisen.',
 
 'cannot_delete_super_admin' => 'Sie dürfen den einzigen Super-Admin nicht löschen. Bitte erstellen Sie zuerst einen neuen Super-Admin.',
 
@@ -784,7 +785,7 @@ $lang = array(
 
 'create_channels' => 'Channels erstellen',
 
-'create_member_field' => 'Mitglieder_Felder erstellen',
+'create_member_field' => 'Mitgliederfelder erstellen',
 
 'create_member_groups' => 'Neue Mitgliedergruppen erstellen',
 
@@ -852,7 +853,7 @@ $lang = array(
 
 'edit_template_partials' => 'Partials bearbeiten',
 
-'edit_template_variables' => 'Templatevaraiablen bearbeiten',
+'edit_template_variables' => 'Templatevariablen bearbeiten',
 
 'edit_templates' => 'Templates bearbeiten',
 
@@ -860,7 +861,7 @@ $lang = array(
 
 'edit_upload_directories' => 'Upload-Verzeichnisse bearbeiten',
 
-'email_console_log' => 'Email-Konsolen-Logs',
+'email_console_log' => 'Email-Konsole-Logs',
 
 'email_deleted' => 'Email-Nachricht(en) gelöscht',
 
@@ -898,7 +899,7 @@ $lang = array(
 
 'invalid_characters' => 'Der Feldname, den Sie übermittelt haben, enthält ungültige Zeichen',
 
-'is_field_cp_reg' => 'Ist das Feld im Control-Panel auf der administrativen Registrierungsseite sichtbar?',
+'is_field_cp_reg' => 'Ist das Feld im Control Panel auf der administrativen Registrierungsseite sichtbar?',
 
 'is_field_public' => 'Im Profil anzeigen?',
 
