@@ -8,15 +8,15 @@ $lang = array(
 
 'admin_notify_entry' => 'Admin &ndash; Neue Eintrags-Benachrichtigung ',
 
-'admin_notify_entry_desc' => 'Dieses Template definiert die Nachricht, die Benachrichtigungsempfänger erhalten, wenn neue Kanaleinträge gesendet werden.',
+'admin_notify_entry_desc' => 'Dieses Template definiert die Nachricht, die Benachrichtigungsempfänger erhalten, wenn neue Channel-Einträge gesendet werden.',
 
 'admin_notify_forum_post' => 'Admin &ndash; Neue Forenpost-Benachrichtigung',
 
-'admin_notify_forum_post_desc' => 'Dieses Template definiert die Nachricht, die ein Administrator erhält, wenn ein neuer Forenbeitrag gesendet wird',
+'admin_notify_forum_post_desc' => 'Dieses Template definiert die Nachricht, die ein Administrator erhält, wenn ein neuer Forumsbeitrag gesendet wird',
 
 'admin_notify_reg' => 'Admin &ndash; Neue Registrierungs-Benachrichtigung',
 
-'admin_notify_reg_desc' => 'Dieses Template definiert die Nachricht, , die ein Admin erhält, wenn sich ein neues Mitglied registriert hat',
+'admin_notify_reg_desc' => 'Dieses Template definiert die Nachricht, die ein Admin erhält, wenn sich ein neues Mitglied registriert hat',
 
 'available_variables' => 'Die folgenden Variablen können verwendet werden:',
 
@@ -78,7 +78,7 @@ $lang = array(
 
 'forum_moderation_notification' => 'Benutzer &ndash; Benachrichtigung über Forum-Thread-Moderationn',
 
-'forum_moderation_notification_desc' => 'Dieses Template definiert Benachrichtigungen, die Mitglieder erhalten, wenn ihr Forenthema von einem Moderator verschoben, aufgeteilt oder zusammengeführt wird',
+'forum_moderation_notification_desc' => 'Dieses Template definiert Benachrichtigungen, die Mitglieder erhalten, wenn ihr Forumsthema von einem Moderator verschoben, aufgeteilt oder zusammengeführt wird',
 
 'forum_move_reply' => 'Antwort verschieben',
 
@@ -88,13 +88,13 @@ $lang = array(
 
 'forum_poll' => 'Umfrage',
 
-'forum_post_notification' => 'Benutzer &ndash; Neue Forenpost-Benachrichtigung',
+'forum_post_notification' => 'Benutzer &ndash; Neue Forumspost-Benachrichtigung',
 
 'forum_post_notification_desc' => 'Dieses Template definiert die Nachricht, die ein Benutzer erhält, wenn jemand auf seinen Forumsbeitrag geantwortet hat',
 
 'forum_report' => 'Report',
 
-'forum_report_notification' => 'Moderator &ndash; Forumbeitrag-melden-Benachrichtigung',
+'forum_report_notification' => 'Moderator &ndash; Forumsbeitrag-melden-Benachrichtigung',
 
 'forum_report_notification_desc' => 'Dieses Template definiert Benachrichtigungen, die Moderatoren erhalten, wenn ein Benutzer einen Forumsbeitrag meldet',
 
@@ -128,7 +128,7 @@ $lang = array(
 
 'pm_inbox_full' => 'Benutzer &ndash; Benachrichtigung Inbox voll',
 
-'pm_inbox_full_desc' => 'Dieses Template definiert die Nachricht, die ein Benutzer erhält, wenn er aufgrund einer vollständigen InBox keine privaten Nachrichten empfangen kann',
+'pm_inbox_full_desc' => 'Dieses Template definiert die Nachricht, die ein Benutzer erhält, wenn er aufgrund einer vollen Email-Inbox keine privaten Nachrichten empfangen kann',
 
 'private_message_notification' => 'Benutzer &ndash; Benachrichtigung über private Nachrichten',
 
