@@ -704,7 +704,7 @@ $lang = array(
 
 'prv_msg_upload_path' => 'Serverpfad für das Upload-Verzeichnis der Dateianhänge',
 
-'publish_tab_behavior' => 'Verhalten der Registerkarten (Tabs) im Veröffentlichungsformular',
+'publish_tab_behavior' => 'Verhalten der Registerkarten (Tabs) im Redakteursformular',
 
 'query' => 'SQL Query (Abfrage)',
 
