@@ -46,7 +46,7 @@ $lang = array(
 
 'search_by_member_group' => 'Nach Mitgliedergruppe suchen',
 
-'search_by_member_name' => 'Nach Mitgliedernamesuchen',
+'search_by_member_name' => 'Nach Mitgliedername suchen',
 
 'search_categories' => 'Kategorien',
 
@@ -116,11 +116,11 @@ $lang = array(
 
 'search_path_error' => 'Der Suchpfad enthält einen Fehler. Bitte wenden Sie sich an den Systemadministrator.',
 
-'search_recent_comment' => 'Letzter Kommentar',
+'search_recent_comment' => 'Jüngster Kommentar',
 
 'search_recent_comment_date' => 'Letzter Kommentar',
 
-'search_result_heading' => 'Suchergebnis:',
+'search_result_heading' => 'Suchergebnisse:',
 
 'search_results' => 'Suchergebnisse',
 
@@ -140,13 +140,13 @@ $lang = array(
 
 'search_total_comments' => 'Kommentare insgesamt',
 
-'search_total_results' => 'Kommentare insgesamt:',
+'search_total_results' => 'Suchergebnisse insgesamt:',
 
 'search_type' => 'Suchtyp',
 
 'searched_for' => 'Gesucht nach:',
 
-'switch_to_group' => 'Switch to Group Search',
+'switch_to_group' => 'Wechseln Sie zur Gruppensuche',
 
 'switch_to_name' => 'Wechseln Sie zur Namenssuche',
 
