@@ -404,7 +404,7 @@ $lang = array(
 'sql_query_to_run' => 'Datenbank-Abfrage',
 
 'sql_warning' => '<p><b>Warnung</b>: <b class="no">Nur für erfahrene Benutzer.</b> Bitte sehr vorsichtig sein mit diesem Werkzeug.</p>
-<p>Abhängig von der benutzen Syntax kann diese Funktion ungewünschte Ergebnisse zur Folge haben. Bitte ein Datenbank-Backup machen und die Dokumentation lesen.</p>',
+<p>Abhängig von der benutzen Syntax kann diese Funktion ungewünschte Ergebnisse zur Folge haben. Bitte unbedingt ein Datenbank-Backup machen und die Dokumentation lesen.</p>',
 
 'total_results' => 'Ergebnisse insgesamt',
 
