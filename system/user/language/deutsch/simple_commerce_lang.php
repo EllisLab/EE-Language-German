@@ -18,7 +18,7 @@ $lang = array(
 
 'admin_email_template_desc' => 'Vorlage zum Benachrichtigen eines Administrators über einen Verkauf.',
 
-'admin_email_template_unsubscribe' => 'Admi- <mark>Stornierungs</mark>-E-mail-Vorlage',
+'admin_email_template_unsubscribe' => 'Admin-<mark>Stornierungs</mark>-Email-Vorlage',
 
 'admin_email_template_unsubscribe_desc' => 'Template zum Benachrichtigen eines Administrators über eine Stornierung.',
 
@@ -52,7 +52,7 @@ $lang = array(
 
 'commerce_key_path_desc' => 'Absoluter Pfad zum privaten Schlüssel.',
 
-'commerce_paypal_cert_id' => 'Öffentliche Zertifizierung <abbr title="Identifier">ID</abbr>',
+'commerce_paypal_cert_id' => 'Öffentliche Zertifizierungs-<abbr title="Identifier">ID</abbr>',
 
 'commerce_paypal_cert_id_desc' => '<abbr title="Identifier">ID</abbr> für ein öffentliches Zertifikat von PayPal.',
 
@@ -62,7 +62,7 @@ $lang = array(
 
 'commerce_paypal_email' => 'PayPal-Konto-Email',
 
-'commerce_paypal_email_desc' => 'E-mil-Adresse, die Ihrem PayPal-Geschäftskonto zugeordnet ist.',
+'commerce_paypal_email_desc' => 'Email-Adresse, die Ihrem PayPal-Geschäftskonto zugeordnet ist.',
 
 'commerce_purchases' => 'Verkäufe',
 
@@ -86,15 +86,15 @@ $lang = array(
 
 'create_template' => 'Template erstellen',
 
-'customer_email_subscribe' => 'Kunden-E-Mail-Abonnement-Template',
+'customer_email_subscribe' => 'Kunden-Email-Abonnement-Template',
 
-'customer_email_template' => 'Kundenemail-Template',
+'customer_email_template' => 'Kunden-Email-Template',
 
-'customer_email_template_desc' => 'Vorlage, die verwendet werden soll, wenn eine Bestätigungs-E-Mail an den Käufer gesendet wird.',
+'customer_email_template_desc' => 'Vorlage, die verwendet werden soll, wenn eine Bestätigungs-Email an den Käufer gesendet wird.',
 
 'customer_email_unsubscribe' => 'Kunden-<mark>Stornierungs</mark>-Email-Template',
 
-'customer_email_unsubscribe_desc' => 'Template, das verwendet werden soll, wenn eine Bestätigungs-E-Mail zum Stornieren gesendet wird',
+'customer_email_unsubscribe_desc' => 'Template, das verwendet werden soll, wenn eine Bestätigungs-Email zum Stornieren gesendet wird',
 
 'date_of_purchase' => 'Kaufdatum',
 
@@ -132,7 +132,7 @@ $lang = array(
 
 'email_template' => 'Email-Template',
 
-'email_template_created' => 'Email-Template ertsellt',
+'email_template_created' => 'Email-Template erstellt',
 
 'email_template_created_desc' => 'Das Email-Template wurde erstellt.',
 
@@ -140,15 +140,15 @@ $lang = array(
 
 'email_template_not_created' => 'Konnten Email-Template nicht erstellen',
 
-'email_template_not_created_desc' => 'Wir konnten dieses Email-Template nicht erstellen. Bitte überprüfen Sie die Fehler und beheben Sie sie unten.',
+'email_template_not_created_desc' => 'Wir konnten dieses Email-Template nicht erstellen. BBitte beachten Sie die unten aufgeführten Fehler.',
 
 'email_template_not_updated' => 'Konnten Email-Template nicht updaten',
 
-'email_template_not_updated_desc' => 'Wir konnten diese Email-Template nicht aktualisieren. Bitte überprüfen Sie die unten aufgeführten Fehler.',
+'email_template_not_updated_desc' => 'Wir konnten diese Email-Template nicht aktualisieren. Bitte beachten Sie die unten aufgeführten Fehler.',
 
 'email_template_updated' => 'Email-Template aktualisiert',
 
-'email_template_updated_desc' => 'Die Email-Template <b>%s</b> wurde aktualisiert.',
+'email_template_updated_desc' => 'Das Email-Template <b>%s</b> wurde aktualisiert.',
 
 'email_templates' => 'Email-Templates',
 
@@ -172,7 +172,7 @@ $lang = array(
 
 'export_purchases' => 'Alle Verkäufe exportieren',
 
-'fields_left_blank' => 'Sie haben einige erforderliche Felderleer gelassen',
+'fields_left_blank' => 'Sie haben einige erforderliche Felder leer gelassen',
 
 'file_does_not_exist' => 'Datei existiert nicht für \'%pref%\'. Stellen Sie sicher, dass Sie einen vollständigen Serverpfad verwenden.',
 
@@ -198,17 +198,17 @@ $lang = array(
 
 'item_cost_form' => 'Artikelpreis',
 
-'item_created' => 'Artikelerstellt',
+'item_created' => 'Artikel erstellt',
 
 'item_created_desc' => 'Die Artikel wurden erstellt.',
 
 'item_not_created' => 'Artikel konnte nicht erstellt werden',
 
-'item_not_created_desc' => 'Wir konnten diesen Artikel nicht erstellen, bitte überprüfen und beheben Sie die Fehler unten.',
+'item_not_created_desc' => 'Wir konnten diesen Artikel nicht erstellen. Bitte beachten Sie die unten aufgeführten Fehler.',
 
 'item_not_updated' => 'Artikel konnte nicht aktualisiert werden',
 
-'item_not_updated_desc' => 'Wir konnten diesen Artikel nicht aktualisieren, bitte überprüfen und beheben Sie die Fehler unten.',
+'item_not_updated_desc' => 'Wir konnten diesen Artikel nicht aktualisieren. Bitte beachten Sie die unten aufgeführten Fehler.',
 
 'item_purchased' => 'Produkt verkauft.',
 
@@ -228,7 +228,7 @@ $lang = array(
 
 'member_group_subscribe' => 'Mitgliedergruppe abonnieren',
 
-'member_group_unsubscribe_desc' => 'Nach der Stornierung wird die Mitgliedergruppe des Stornierenden in die ausgewählte Gruppe geändert.',
+'member_group_unsubscribe_desc' => 'Nach der Stornierung wird die Mitgliedergruppe des Stornierenden in die ausgewählte Gruppe gelegt.',
 
 'member_not_found' => 'Mitglied nicht gefunden.',
 
@@ -238,7 +238,7 @@ $lang = array(
 
 'new_member_group' => 'Neue Mitgliedergruppe',
 
-'new_member_group_desc' => 'Beim Kauf wird die Mitgliedergruppe des Käufers in die ausgewählte Gruppe geändert.',
+'new_member_group_desc' => 'Beim Kauf wird die Mitgliedergruppe des Käufers in die ausgewählte Gruppe gelegt.',
 
 'no_change' => 'Keine Änderung',
 
@@ -264,7 +264,7 @@ $lang = array(
 
 'price_desc' => 'Artikelpreis für diese Transaktion.',
 
-'price_sale' => 'Preis / Verkauf',
+'price_sale' => 'Preis/Verkauf',
 
 'private_key' => 'Privater Schlüssel-Pfad',
 
@@ -282,11 +282,11 @@ $lang = array(
 
 'purchase_not_created' => 'Kauf kann nicht erstellt werden',
 
-'purchase_not_created_desc' => 'Wir konnten diesen Kauf nicht erstellen, bitte überprüfen und beheben Sie die Fehler unten.',
+'purchase_not_created_desc' => 'Wir konnten diesen Kauf nicht erstellen. Bitte beachten Sie die unten aufgeführten Fehler.',
 
 'purchase_not_updated' => 'Kauf kann nicht aktualisiert werden',
 
-'purchase_not_updated_desc' => 'Wir konnten diesen Kauf nicht aktualisieren, bitte überprüfen und beheben Sie die Fehler unten.',
+'purchase_not_updated_desc' => 'Wir konnten diesen Kauf nicht aktualisieren. Bitte beachten Sie die unten aufgeführten Fehler.',
 
 'purchase_updated' => 'Kauf aktualisiert',
 
@@ -332,7 +332,7 @@ $lang = array(
 
 'settings_updated' => 'Einstellungen aktualisiert',
 
-'simple_commerce_home' => 'Control-Panel',
+'simple_commerce_home' => 'Control Panel',
 
 'simple_commerce_manager' => 'Simple Commerce Manager',
 
