@@ -8,7 +8,7 @@ $lang = array(
 
 'deinstall' => 'Löschen',
 
-'delete_module' => 'Module deinstallieren',
+'delete_module' => 'Modul deinstallieren',
 
 'delete_module_confirm' => 'Sind Sie sicher, dass Sie das folgende Modul entfernen möchten:',
 
@@ -16,11 +16,11 @@ $lang = array(
 
 'installed' => 'Installiert',
 
-'module_access' => 'Module bearbeiten',
+'module_access' => 'Modul bearbeiten',
 
 'module_action' => 'Aktion',
 
-'module_backend' => 'Benutzer-CP (Control-Panel',
+'module_backend' => 'Benutzer-CP (Control Panel',
 
 'module_can_not_be_found' => 'Die für die Installation dieses Moduls erforderlichen Dateien konnten nicht gefunden werden',
 
@@ -44,7 +44,7 @@ $lang = array(
 
 'requested_page_not_found' => 'Die gwünschte Modulseite wurde nicht gefunden.',
 
-'update_modules' => 'Module-Update starten',
+'update_modules' => 'Modul-Update starten',
 
 'updated' => 'Aktualisiert',
 

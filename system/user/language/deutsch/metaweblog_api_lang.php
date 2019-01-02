@@ -16,7 +16,7 @@ $lang = array(
 
 'configuration_not_updated_desc' => 'Diese Konfiguration konnte nicht aktualisiert werden. Bitte beheben Sie die Fehler unten.',
 
-'configuration_updated' => 'Configuration Updated',
+'configuration_updated' => 'Konfiguration aktualisiert',
 
 'configuration_updated_desc' => 'Die Konfiguration <b>%s</b> wurde aktualisiert.',
 
@@ -100,7 +100,7 @@ $lang = array(
 
 'no_configurations' => 'Keine Konfigurationen',
 
-'no_entries_found' => 'Keine EInträge gefunden',
+'no_entries_found' => 'Keine Einträge gefunden',
 
 'no_entry_found' => 'Eintrag nicht in der Datenbank gefunden',
 
