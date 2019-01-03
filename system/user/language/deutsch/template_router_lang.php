@@ -6,7 +6,7 @@ $lang = array(
 
 'group' => 'Gruppe',
 
-'invalid_regex' => 'Ungültiger Regex-Ausdruck'
+'invalid_regex' => 'Ungültiger Regex-Ausdruck',
 
 'invalid_route' => 'Ungültige Template-Route: ',
 
