@@ -12,7 +12,7 @@ $lang = array(
 
 'channels' => 'Channels',
 
-'channels_desc' => 'Channels werden verwendet, um Inhalte für Ihre Website zu speichern. Zum Beispiel für ein Blog, Termine, Firmenstandorte etc. Dazu müssen Sie zuerst einen Channel erstellen, dann können Sie darin die Einträge. Themenschwerpunkte einer Website - zum Beispiel repräsentiert durch das Hauptmenü -  werden also in Channels organisiert',
+'channels_desc' => 'Channels werden verwendet, um Inhalte für Ihre Website zu speichern. Zum Beispiel für News, Termine, usw. Die Themenschwerpunkte einer Website, repräsentiert durch das Hauptmenü, werden in Channels organisiert. Zuallererst aber muss ein Channel erstellt werden, um überhaupt Einträge veröffentlichen zu können.',
 
 'closed_entries_with_comments' => '<b>%d</b> Geschlossene Einträge mit %d Kommentaren.',
 
