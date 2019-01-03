@@ -10,7 +10,7 @@ $lang = array(
 
 'save_spellcheck' => 'Änderungen speichern',
 
-'save_spellcheck' => 'Änderungen speichern',,
+'save_spellcheck' => 'Änderungen speichern',
 
 'spell_edit_word' => 'Wort bearbeiten',
 
