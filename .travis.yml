@@ -11,3 +11,4 @@ install:
 
 script:
   - vendor/jakub-onderka/php-parallel-lint/parallel-lint --exclude vendor .
+
