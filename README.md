@@ -1,4 +1,4 @@
-German Translation Pack for ExpressionEngine 4.x and 5.x
+German Translation Pack for ExpressionEngine 5.x
 ========================================================
 
 
