@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+vendor
+config
+htdocs
+system/user/language/.DS_Store
+system/user/addons
+system/user/cache
+system/user/templates
+system/user/language/index.html
+system/ee
+system/index.html
+system/index.php
