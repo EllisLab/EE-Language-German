@@ -182,11 +182,11 @@ $lang = array(
 
 'search_in_names' => 'In Namen suchen',
 
-'selection_required' => 'Zum Versenden mindestens eine Auswahl notwendig',
+'selection_required' => 'Zum Versenden ist mindestens eine Auswahl notwendig',
 
 'settings' => 'Einstellungen',
 
-'settings_updated' => 'Einstellugnen aktualisiert',
+'settings_updated' => 'Einstellungen aktualisiert',
 
 'start_date' => 'Start-Datum',
 

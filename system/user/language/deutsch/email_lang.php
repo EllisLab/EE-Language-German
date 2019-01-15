@@ -46,7 +46,7 @@ $lang = array(
 
 'email_no_smtp_unpw' => 'Fehler: Es muss ein SMTP-Benutzername und Passwort angegeben werden.',
 
-'email_no_socket' => 'Kann Socket zu Sendmail nicht öffnen. Bitte Einstellungen überprüfen.',
+'email_no_socket' => 'Kann Socket zu Sendmail nicht öffnen. Bitte die Einstellungen überprüfen.',
 
 'email_send_failure_phpmail' => 'Kann Email nicht mit PHP mail () versenden. Ihr Server könnte für diese Versandmethode nicht konfiguriert sein.',
 
@@ -64,7 +64,7 @@ $lang = array(
 
 'email_smtp_error' => 'Folgender SMTP-Fehler trat auf: %s',
 
-'message_required' => 'Email Mitteilung ist erforderlich',
+'message_required' => 'Email-Mitteilung ist erforderlich',
 
 );
 

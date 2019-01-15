@@ -24,7 +24,7 @@ $lang = array(
 
 'ip_address_located' => 'IP-Adresse lokalisiert',
 
-'ip_address_not_located' => 'Lokalisierung der IP-Addresse nicht möglich',
+'ip_address_not_located' => 'Lokalisierung der IP-Adresse nicht möglich',
 
 'ip_db_connection_403' => '403 Verbindungsfehler: Bitte 24 Stunden warten, bevor die Datenbank erneut abgefragt wird.',
 
@@ -60,7 +60,7 @@ $lang = array(
 
 'search_for_ip_desc' => 'Geben Sie eine IP-Adresse ein, um das Land zu bestimmen, mit dem es verbunden ist.',
 
-'update_info' => 'Aktualisiert die IP- und Ländercode-Informationen. Datenquelle: <a href="%s" title="Data Provider" rel="external">maxmind.com</a>. </em><em><i>Die neuen Daten werden automatisch heruntergeladen und angewendet. Dies kann einige Minuten dauern und die Belastung Ihrer Datenbank erhöhen.</i></em>',
+'update_info' => 'Aktualisiert die IP- und Ländercode-Informationen. Datenquelle: <a href="%s" title="Data Provider" rel="external">maxmind.com</a>.</em><em><i>Die neuen Daten werden automatisch heruntergeladen und angewendet. Dies kann einige Minuten dauern und die Belastung Ihrer Datenbank erhöhen.</i></em>',
 
 'update_ips' => 'IP-Datenbank updaten',
 

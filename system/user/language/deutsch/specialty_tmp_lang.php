@@ -1,98 +1,142 @@
 <?php
+
 $lang = array(
 
+'admin_notify_comment' => 'Admin &ndash; Kommentar-Benachrichtigung',
 
-'admin_notify_mailinglist' => 'Admin-Benachrichtigung bei Mailinglisten-Eintrag',
+'admin_notify_comment_desc' => 'Dieses Template definiert die Nachricht, die ein Administrator erhält, wenn ein Kommentar gepostet wird',
 
-'admin_notify_mailinglist_desc' => 'Dieses Template enthält die Mitteilung, die ein Admin bekommt, wenn sich jemand in eine Mailingliste einträgt. ',
+'admin_notify_entry' => 'Admin &ndash; Neue Eintrags-Benachrichtigung ',
 
-'admin_notify_forum_post_desc' => 'Dieses Template enthält die Mitteilung, die ein Admin bei einem neuen Forumsbeitrag bekommt.',
+'admin_notify_entry_desc' => 'Dieses Template definiert die Nachricht, die Benachrichtigungsempfänger erhalten, wenn neue Channel-Einträge gesendet werden.',
 
-'admin_notify_entry' => 'Admin-Benachrichtigung bei neuen Einträgen',
+'admin_notify_forum_post' => 'Admin &ndash; Neue Forenpost-Benachrichtigung',
 
-'admin_notify_entry_desc' => 'Dieses Template enthält die Nachricht, die Empfänger erhalten, wenn neue Einträge verfasst wurden.',
+'admin_notify_forum_post_desc' => 'Dieses Template definiert die Nachricht, die ein Administrator erhält, wenn ein neuer Forumsbeitrag gesendet wird',
 
-'private_message_notification' => 'Benachrichtigung bei privaten Nachrichten',
+'admin_notify_reg' => 'Admin &ndash; Neue Registrierungs-Benachrichtigung',
 
-'private_message_notification_desc' => 'Dieses Template enthält die Nachricht, die das System bei Erhalt einer privaten Nachricht an das Mitglied versendet',
+'admin_notify_reg_desc' => 'Dieses Template definiert die Nachricht, die ein Admin erhält, wenn sich ein neues Mitglied registriert hat',
 
-'forum_post_notification_desc' => 'Dieses Template enthält die Nachricht, die das System bei der Antwort auf einen Forum-Beitrag eines Mitglieds versendet',
+'available_variables' => 'Die folgenden Variablen können verwendet werden:',
 
-'admin_notify_forum_post' => 'Forum-Posting-Benachrichtigung für Admins',
+'comment_notification' => 'Benutzer &ndash; Kommentar-Benachrichtigung',
 
-'forum_post_notification' => 'Benutzer-Benachrichtigung bei Forum-Postings',
+'comment_notification_desc' => 'Dieses Template definiert die Nachricht, die ein Benutzer erhält, wenn jemand auf seinen Kommentar geantwortet hat',
 
-'email_title' => 'Email-Titel',
+'comments_opened_notification' => 'Benutzer &ndash; Kommentar hinzugefügt Benachrichtigung',
+
+'decline_member_validation' => 'Benutzer &ndash; Account hat Benachrichtigung abgelehnt',
+
+'email_changed_notification' => 'Benutzer &ndash; Benachrichtigung über geänderte Email',
+
+'email_changed_notification_desc' => 'Dieses Template definiert die Nachricht, die ein Benutzer erhält, wenn seine Email-Adresse geändert wurde.',
 
 'email_message' => 'Email-Nachricht',
 
-'admin_notify_comment' => 'Kommentar-Benachrichtigung für Admins',
-
-'admin_notify_comment_desc' => 'Dieses Template enthält die Nachricht, die ein Administrator beim Speichern eines Kommentars erhält.',
-
-'admin_notify_reg' => 'Admin-Benachrichtigung bei Neuanmeldung eines Mitglieds',
-
-'admin_notify_reg_desc' => 'Dieses Template enthält die Nachricht, die ein Administrator bei der Anmeldung eines neuen Mitglieds erhält.',
-
-'comment_notification' => 'Benachrichtigung des Mitglieds bei Kommentaren',
-
-'comments_opened_notification' => 'Mitglieder-Kommentar angefügt: Benachrichtigung',
-
-'comment_notification_desc' => 'Dieses Template enth&auml;lt die Nachricht, die ein Mitglied erhält, wenn jemand auf seinen Kommentar geantwortet hat.',
-
-'forgot_password_instructions' => 'Anweisungen für verlorenes Passwort',
-
-'forgot_password_instructions_desc' => 'Dieses Template enthält die Anweisungen, die ein Mitglied bekommt, wenn er sein Passwort vergessen hat.',
-
-'mailinglist_activation_instructions' => 'Anweisungen für die Aktivierung der Mailingliste',
-
-'mailinglist_activation_instructions_desc' => 'Dieses Template enthält die Anweisungen zur Aktivierung in der Mailingliste.',
-
-'mbr_activation_instructions' => 'Anweisungen für die Aktivierung des Mitglieder-Kontos',
-
-'mbr_activation_instructions_desc' => 'Dieses Template enthält die Anweisungen zur Aktivierung der Mitgliedschaft bei einer neuen Registrierung',
-
-'validated_member_notify' => 'Benachrichtigung über die Prüfung eines Mitglieder-Kontos',
-
-'decline_member_validation' => 'Benachrichtigung bei Ablehnung einer Mitgliedschaft',
-
-'validated_member_notify_desc' => 'Dieses Template enthält die Nachricht, die ein Mitglied erhält, wenn ein Administrator sein Konto freigeschaltet hat.',
-
-'use_this_template' => 'Template aktivieren?',
-
-'use_this_template_exp' => 'Wenn Sie &quot;Nein&quot; klicken, wird dieses Template nicht benutzt. Stattdessen bekommt jeder Benutzer eine Nachricht in seiner gewählten Sprache (aus dem Sprachpaket).',
-
-'user_messages_template_desc' => 'Der Zweck dieses Templates ist es, Fehlermeldungen und andere Nachrichten anzuzeigen, wenn Benutzer Daten (wie Registrierung etc.) gesendet haben.',
-
-'user_messages_template_warning' => 'Keine der fünf erforderlichen Variablen löschen:',
-
-'available_variables' => 'Die folgenden Variablen können genutzt werden:',
-
-'notification_has_char_limit' => 'Die meisten oben genannten Variablen akzeptieren einen char_limit Parameter (title char_limit="40"}',
-
-'pm_inbox_full' => 'Benachrichtigung bei voller Inbox bei privaten Nachrichten',
-
-'pm_inbox_full_desc' => 'Dieses Template enthält die Mitteilung für Mitglieder mit voller Inbox für die privaten Nachrichten, da sie sonst keine mehr erhalten werden. ',
-
-'forum_moderation_notification' => 'Benachrichtigung an Mitglieder wegen einer Forums-Moderation',
-
-'forum_moderation_notification_desc' => 'Dieses Template enthält die Mitteilung für Benutzer, deren Forums-Beitrag von einem Moderator verschoben, aufgeteilt oder zusammengefügt wurde',
-
-'forum_report_notification' => 'Moderator-Benachrichtigung für Forums-Rapporte',
-
-'forum_report_notification_desc' => 'Dieses Template enthält die Benachrichtigung für Moderatoren, wenn Besucher Forumsbeträge rapportieren',
-
 'email_subject' => 'Email-Betreff',
 
-'message_body' => 'Email-Textteil',
+'email_title' => 'Email-Titel',
 
-'translate' => 'Update',
-  
- /* for Version EE 4 */
+'forgot_password_instructions' => 'Benutzer &ndash; Passwort-Anweisungen vergessen',
 
-'profile_account' => 'Benutzerkonto',
+'forgot_password_instructions_desc' => 'Dieses Template definiert die Anweisungen, die ein Benutzer erhält, der sein Kennwort vergessen hat',
 
-'profile_breadcrumb' => 'Brotkrumen-Navigation',
+'forum_announcements' => 'Bekanntmachungen',
+
+'forum_archives' => 'Archive',
+
+'forum_atom' => 'Atom',
+
+'forum_breadcrumb' => 'Breadcrumb',
+
+'forum_category' => 'Kategorie',
+
+'forum_css' => 'CSS',
+
+'forum_delete_post' => 'Beitrag löschen',
+
+'forum_emoticons' => 'Emoticons',
+
+'forum_error' => 'Fehler',
+
+'forum_global' => 'Global',
+
+'forum_ignore' => 'Ignoriere',
+
+'forum_index' => 'Index',
+
+'forum_javascript' => 'JavaScript',
+
+'forum_legends' => 'Legende',
+
+'forum_login' => 'Login',
+
+'forum_member' => 'Mitglied',
+
+'forum_merge' => 'Verbinden',
+
+'forum_moderation_notification' => 'Benutzer &ndash; Benachrichtigung über Forum-Thread-Moderationn',
+
+'forum_moderation_notification_desc' => 'Dieses Template definiert Benachrichtigungen, die Mitglieder erhalten, wenn ihr Forumsthema von einem Moderator verschoben, aufgeteilt oder zusammengeführt wird',
+
+'forum_move_reply' => 'Antwort verschieben',
+
+'forum_move_topic' => 'Thema verschieben',
+
+'forum_offline' => 'Offline',
+
+'forum_poll' => 'Umfrage',
+
+'forum_post_notification' => 'Benutzer &ndash; Neue Forumspost-Benachrichtigung',
+
+'forum_post_notification_desc' => 'Dieses Template definiert die Nachricht, die ein Benutzer erhält, wenn jemand auf seinen Forumsbeitrag geantwortet hat',
+
+'forum_report' => 'Report',
+
+'forum_report_notification' => 'Moderator &ndash; Forumsbeitrag-melden-Benachrichtigung',
+
+'forum_report_notification_desc' => 'Dieses Template definiert Benachrichtigungen, die Moderatoren erhalten, wenn ein Benutzer einen Forumsbeitrag meldet',
+
+'forum_rss' => 'RSS',
+
+'forum_search' => 'Suchen',
+
+'forum_split' => 'Teilen',
+
+'forum_stats' => 'Statistiken',
+
+'forum_submission' => 'Einreichung',
+
+'forum_threads' => 'Threads',
+
+'forum_topics' => 'Themen',
+
+'forum_user_banning' => 'Benutzerblockierung',
+
+'mbr_activation_instructions' => 'Benutzer &ndash; Anweisungen zur Account-Aktivierung',
+
+'mbr_activation_instructions_desc' => 'Dieses Template definiert die Anweisungen zur Mitgliederaktivierung, die an Personen gesendet werden, die sich auf dieser Site registrieren',
+
+'message_body' => 'Email-Nachrichtentext',
+
+'notification_has_char_limit' => 'Die meisten der oben genannten Variablen akzeptieren einen Parameter char_limit: {title char_limit="40"}',
+
+'password_changed_notification' => 'Benutzer &ndash; Benachrichtigung über geändertes Passwort',
+
+'password_changed_notification_desc' => 'Dieses Template definiert die Nachricht, die ein Benutzer erhält, wenn sein Kennwort im Frontend geändert wurde.',
+
+'pm_inbox_full' => 'Benutzer &ndash; Benachrichtigung Inbox voll',
+
+'pm_inbox_full_desc' => 'Dieses Template definiert die Nachricht, die ein Benutzer erhält, wenn er aufgrund einer vollen Email-Inbox keine privaten Nachrichten empfangen kann',
+
+'private_message_notification' => 'Benutzer &ndash; Benachrichtigung über private Nachrichten',
+
+'private_message_notification_desc' => 'Dieses Template definiert die Nachricht, die ein Benutzer erhält, wenn ihm eine private Nachricht gesendet wurde',
+
+'profile_account' => 'Account',
+
+'profile_breadcrumb' => 'Breadcrumb',
 
 'profile_bulletin_board' => 'Benachrichtigungen',
 
@@ -100,7 +144,7 @@ $lang = array(
 
 'profile_email' => 'Email',
 
-'profile_member' => 'Mitglieder',
+'profile_member' => 'Mitglied',
 
 'profile_private_messages' => 'Private Nachrichten',
 
@@ -110,8 +154,18 @@ $lang = array(
 
 'profile_subscriptions' => 'Abonnierung',
 
+'use_this_template' => 'Dieses Template aktivieren?',
 
-''=>''
+'use_this_template_exp' => 'Wenn deaktiviert, wird dieses Template nicht verwendet. Stattdessen wird die Nachricht dynamisch in der von jedem Benutzer ausgewählten Sprache generiert',
+
+'user_messages_template_desc' => 'Der Zweck dieses Templates besteht darin, Benutzern Fehlermeldungen und andere Meldungen anzuzeigen, nachdem sie bestimmte Aktionen ausgeführt haben, z. B. Anmelden, Senden eines Formulars usw..',
+
+'user_messages_template_warning' => 'Löschen Sie keine der fünf erforderlichen Variablen:',
+
+'validated_member_notify' => 'Benutzer &ndash; Benachrichtigung zur Kontoüberprüfung',
+
+'validated_member_notify_desc' => 'Dieses Temolate definiert die Benachrichtigung, die Mitglieder erhalten, wenn ein Administrator sein Mitgliederkonto überprüft hat',
+
 );
 
-// End of File
+// EOF

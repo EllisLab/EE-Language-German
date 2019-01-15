@@ -1,249 +1,245 @@
 <?php
+
 $lang = array(
 
+'add_block' => 'Zu Gesperrten hinzufügen',
 
-'storage_status' => 'Sie haben %x von insgesamt %y erlaubten Mitteilungen.',
+'add_buddy' => 'Zu Freunden hinzufügen',
 
-'storage_percentage' => 'Ihr Ordner ist zu %x% voll',
+'add_member' => 'Mitglied hinzufügen',
 
-'messages_reply_all' => 'Antwort an Alle',
+'allowed_mimes' => 'Zulässige Dateitypen:',
 
-'edit_list' => 'Liste bearbeiten',
+'any' => 'Jede(r)',
 
-'no_more_attachments' => 'Sie können keine weiteren Anhänge hinzufügen.',
+'attach_too_large' => 'Die Größe Ihrer Dateianhänge hat das zulässige Limit überschritten.',
 
-'click_preview_to_attach' => 'Zum Anhängen von  mehr als einer Datei klicken Sie nach der Auswahl auf Vorschau',
-
-'view_folder' => 'Verzeichnis zeigen',
-
-'view_message' => 'Mitteilung zeigen',
-
-'compose_message' => 'Neue Nachricht erstellen',
-
-'new_message' => 'Neue Nachricht',
-
-'private_messages' => 'Private Nachrichten',
-
-'private_message' => 'Private Nachricht',
-
-'draft_messages' => 'Entwurf-Nachrichten',
-
-'deleted_messages' => 'Papierkorb',
-
-'erase_messages' => 'Papierkorb leeren',
-
-'erase_popup' => 'Wollen Sie wirklich alle Nachrichten im Papierkorb definitiv löschen?',
-
-'track_messages' => 'Nachrichten verfolgen',
-
-'edit_folders' => 'Nachrichten-Ordner bearbeiten',
-
-'folder_directions' => 'Zum Löschen das Formular ohne Angabe eines Ordnernamens absenden. Beim Löschen eines Ordners werden alle enthaltenen Nachrichten ebenfalls gelöscht. ',
-
-'folder_required' => '(Erforderlich)',
-
-'missing_required_field' => 'Ein erforderliches Feld ist nicht ausgefüllt',
-
-'folder_name' => 'Ordnername',
-
-'buddy_list' => 'Liste der Freunde',
+'attachments' => 'Dateianhänge',
 
 'blocked_list' => 'Liste der Gesperrten',
 
-'folder_page' => 'Seite',
+'blocked_recipients' => 'In den Feldern Empfänger oder CC wurden Mitglieder aufgeführt, die keine privaten Nachrichten empfangen können. Sie wurden vom System entfernt. Sie können es erneut versuchen.',
 
-'no_messages' => 'Keine Nachrichten',
+'buddy_list' => 'Freundesliste',
 
-'message_subject' => 'Betreff',
+'bulletin_board' => 'Bulletin Board (Pinnwand)',
 
-'message_sender' => 'Absender',
+'bulletin_date' => 'Bulletin-Datum',
 
-'message_date' => 'Datum',
+'bulletin_deleted' => 'Bulletin gelöscht',
 
-'of' => 'von',
+'bulletin_expires' => 'Bulletin läuft ab',
 
-'unlimited_messages' => 'Unbegrenzt',
+'bulletin_message' => 'Bulletin-Text',
 
-'messages_percent_full' => 'Ihre Ordner sind zu {lang:usage_percent}% gefüllt',
-
-'messages_folder' => 'Private Nachrichten-Ordner',
-
-'messages_delete' => 'Löschen',
-
-'messages_move' => 'Verschieben',
-
-'messages_copy' => 'Kopieren',
-
-'messages_allowed_total' => 'Sie haben {lang:total_messages} von insgesamt {lang:max_messages} zugelassenen Nachrichten.',
-
-'switch_folder' => 'Ordner wechseln:',
-
-'zero_percent' => '0%',
-
-'sent_copy' => 'Kopie im Ordner gesendete Nachrichten ablegen?',
-
-'track_message' => 'Nachricht verfolgen',
-
-'hide_cc' => 'CC bei den Empfängern nicht anzeigen',
-
-'preview_message' => 'Mitteilungen-Vorschau',
-
-'guided' => 'Angeleitet',
-
-'normal' => 'Normal',
-
-'send_message' => 'Nachricht senden',
-
-'fifty_percent' => '50%',
-
-'hundred_percent' => '100%',
-
-'choose_folder' => 'Ordner wählen',
-
-'close_window' => 'Fenster schliessen',
-
-'search_results' => 'Suchergebnisse',
-
-'message_options' => 'Optionen',
+'bulletin_success' => 'Bulletin erfolgreich veröffentlicht',
 
 'cc' => 'CC',
 
-'new_search' => 'Neue Suche?',
-
-'attachments' => 'Anhänge',
-
-'max_size' => 'Maximale Größe:',
-
-'message_recipients' => 'Empfänger',
-
-'message' => 'Mitteilung',
-
-'smileys' => 'Smileys',
-
-'empty_recipients_field' => 'Bitte mindestens einen Empfänger der Nachricht eintragen',
-
-'empty_subject_field' => 'Die Betreffzeile muss ausgefüllt werden',
-
-'empty_body_field' => 'Das Feld für den Nachrichtentext ist leer. Wollten Sie nicht etwas mitteilen?',
-
-'sending_limit_warning' => 'Sie haben das Limit zum Senden von Privatnachrichten innerhalb von 24 Stunden überschritten.',
-
-'storage_limit_warning' => 'Sie haben das Speicherlimit für private Nachrichten erreicht.',
-
-'message_too_large' => 'Nachricht ist grösser als das festgesetzte Limit von %max%',
-
 'characters' => 'Zeichen',
 
-'unable_to_recieve_attach' => 'Anhang konnte nicht empfangen werden',
+'choose_folder' => 'Wähle Verzeichnis',
 
-'attach_too_large' => 'Ihr Dateianhang ist größer als erlaubt.',
+'click_preview_to_attach' => 'Wenn Sie mehrere Dateien anhängen möchten, klicken Sie nach der Auswahl einer Datei auf die Vorschau',
 
-'too_many_attachments' => 'Es wurden zu viele Dateianhänge in das System hochgeladen. Bitte den Betreiber der Site kontaktieren.',
+'close_window' => 'Fenster schließen',
 
-'allowed_mimes' => 'Erlaubte Dateitypen:',
+'compose_message' => 'Neue Nachricht verfassen',
+
+'copy_selected' => 'Ausgewählte Nachricht(en) kopieren',
+
+'current_attachments' => 'Aktueller Dateianhang',
+
+'delete_bulletin' => 'Bulletin löschen',
+
+'delete_bulletin_popup' => 'Möchten Sie das Bulletin wirklich löschen?',
+
+'delete_selected' => 'Ausgewählte Mitteilung(en) löschen',
+
+'deleted_messages' => 'Papierkorb',
+
+'description_charlimit' => '(weniger als 50 Zeichen)',
+
+'draft_message' => 'Sichern als Entwurf',
+
+'draft_messages' => 'Nachrichtenentwurf',
+
+'duplicate_message_sent' => 'Sie haben dieselbe Nachricht mehrmals gesendet.',
+
+'edit_folders' => 'Nachrichtenverzeichnis bearbeiten',
+
+'edit_list' => 'Liste bearbeiten',
+
+'empty_body_field' => 'Ihr Nachrichtenfeld ist leer. Du wolltest etwas sagen, oder?',
+
+'empty_list' => 'Liste ist leer',
+
+'empty_recipients_field' => 'Eine Nachricht muss mindestens einen Empfänger enthalten.',
+
+'empty_subject_field' => 'Für alle Nachrichten ist ein Betreff erforderlich',
+
+'erase_messages' => 'Papierkorb leeren',
+
+'erase_popup' => 'Möchten Sie wirklich alle Nachrichten im Papierkorb endgültig löschen?',
+
+'fifty_percent' => '50%',
 
 'file_name' => 'Dateiname',
 
 'file_size' => 'Dateigröße',
 
-'remove' => 'Entfernen',
-
-'current_attachments' => 'Aktueller Anhang',
-
 'file_size_unit' => 'KB',
 
-'draft_message' => 'Als Entwurf speichern',
+'folder_directions' => 'Um ein Element zu löschen, senden Sie das Formular mit dem leeren Verzeichnisnamen. Beim Löschen eines Verzeichnisses werden die Nachrichten darin gelöscht.',
 
-'messages_reply' => 'Antworten',
+'folder_name' => 'Verzeichnisname',
 
-'messages_forward' => 'Weiterleiten',
+'folder_page' => 'Seite',
 
-'invalid_message' => 'Ungültige Nachricht',
+'folder_required' => '(Erforderlich)',
 
-'reply_prefix' => 'RE: ',
+'folders_updated' => 'Verzeichnisse wurden aktualisiert',
+
+'forward_date' => 'Datum: ',
+
+'forward_from' => 'Von: ',
+
+'forward_header' => '---- Weitergeleitete Nachricht ----',
 
 'forward_prefix' => 'FWD: ',
 
-'forward_from' => 'Von:',
+'forward_subject' => 'Betreff: ',
 
-'forward_date' => 'Datum:',
+'guided' => 'Angeleitet',
 
-'forward_subject' => 'Betreff:',
+'hide_cc' => 'CC bei den Empfängern nicht anzeigen',
 
-'forward_header' => '--- Weitergeleitete Mitteilung ---',
+'hundred_percent' => '100%',
 
-'member_name' => 'Mitgliedname',
+'insert_member_instructions' => 'Klicken Sie auf den Mitgliedernamen, um ihn auszuwählen',
 
-'member_usernames' => 'Bildschirmname',
+'invalid_message' => 'Ungültige Nachricht',
+
+'invalid_username' => 'Einer oder mehrere Bildschirmnamen waren ungültig.',
+
+'max_size' => 'Maximale Größe:',
 
 'member_description' => 'Beschreibung',
 
-'empty_list' => 'Liste ist leer',
+'member_group' => 'Mitgliedergruppe',
 
-'add_member' => 'Mitglied hinzufügen',
+'member_name' => 'Mitgliedername',
 
-'any' => 'Jede(r)',
+'member_search' => 'Mitgliedersuche',
 
-'member_search' => 'Mitglieder-Suche',
+'member_usernames' => 'Mitglieder-Bildschirmname',
 
-'insert_member_instructions' => 'Mitgliedername anklicken zum auswählen',
+'message' => 'Nachricht',
 
-'description_charlimit' => '(weniger als 50 Zeichen)',
+'message_date' => 'Datum',
 
-'folders_updated' => 'Ordner aktualisiert',
+'message_no_bulletins' => 'Keine Mitteilungen',
 
-'blocked_recipients' => 'Bei Ihren Empfängern waren Mitglieder, die keine privaten Nachrichten empfangen können und vom System automatisch aus der Liste entfernt wurden. Sie können versuchen, die Nachricht erneut zu senden.',
+'message_options' => 'Optionen',
 
-'overflow_recipients' => 'Die Inboxen der folgenden Mitglieder sind voll. Um diese Mitteilung zu versenden, müssen diese aus dem Feld Empfänger oder CC entfernt werden: %overflow_names%',
+'message_recipients' => 'Empfänger',
 
-'add_buddy' => 'Zu Freunde zufügen',
+'message_sender' => 'Absender',
 
-'add_block' => 'Zu Gesperrte zufügen',
+'message_subject' => 'Betreff',
 
-'invalid_username' => 'Mindestens einer der Bildschirmnamen war ungültig.',
+'message_too_large' => 'Nachricht ist größer als die maximale Größe von %max%',
 
-'delete_selected' => 'Markierte Nachricht(en) löschen',
+'messages_allowed_total' => 'Sie haben {lang:total_messages} von insgesamt {lang:max_messages} zugelassenen Nachrichten',
 
-'move_selected' => 'Markierte Nachricht(en) verschieben',
+'messages_copy' => 'Kopieren',
 
-'copy_selected' => 'Markierte Nachricht(en) kopieren',
+'messages_delete' => 'Löschen',
+
+'messages_folder' => 'Verzeichnis für private Nachrichten',
+
+'messages_forward' => 'Weiterleiten',
+
+'messages_move' => 'Bewegen',
+
+'messages_percent_full' => 'Ihre Ordner sind zu {lang:usage_percent}% gefüllt',
+
+'messages_reply' => 'Antworten',
+
+'messages_reply_all' => 'Allen antworten',
+
+'messsage_already_sent' => 'Ihre Nachricht wurde bereits gesendet',
+
+'missing_required_field' => 'Fehlendes erforderliches Feld',
+
+'move_selected' => 'Ausgewählte Nachricht(en) verschieben',
+
+'new_message' => 'Neue Nachricht',
+
+'new_search' => 'Neue Suche durchführen?',
+
+'no_messages' => 'Keine Nachrichten',
+
+'no_more_attachments' => 'Sie dürfen keine weiteren Dateianhänge hinzufügen.',
 
 'no_search_results' => 'Ihre Suche ergab keine Treffer',
 
-'bulletin_board' => 'Pinnwand',
+'normal' => 'Normal',
 
-'message_no_bulletins' => 'Keine Meldungen',
+'of' => 'VOn',
 
-'send_bulletin' => 'Meldung senden',
+'overflow_recipients' => 'Die Posteingänge für die folgenden Mitglieder sind derzeit voll. Wenn Sie diese Nachricht trotzdem senden möchten, müssen Sie sie aus Ihrem Empfänger- oder CC-Feld entfernen: %overflow_names%',
 
-'bulletin_expires' => 'Meldung verfällt',
+'preview_message' => 'Vorschau-Nachricht',
 
-'bulletin_message' => 'Text der Meldung',
+'private_message' => 'Private Nachricht',
 
-'bulletin_date' => 'Datum der Meldung',
+'private_messages' => 'Private Nachrichten',
 
-'bulletin_success' => 'Meldung erfolgreich versendet',
+'remove' => 'Entfernen',
 
-'member_group' => 'Mitglieder-Gruppe',
+'reply_prefix' => 'RE: ',
 
-'delete_bulletin' => 'Meldung löschen',
+'search_results' => 'Suchergebnisse',
 
-'delete_bulletin_popup' => 'Soll diese Meldung wirklich gelöscht werden',
+'send_bulletin' => 'Mitteilung senden',
 
-'bulletin_deleted' => 'Meldung gelöscht',
-
-'messsage_already_sent' => 'Die Mitteilung wurde bereits versendet',
-
-'waiting_period_not_reached' => 'Zur Verhinderung von Spam besteht für neue Mitglieder eine Wartezeit von %time% Std., bevor sie private Mitteilungen schreiben können.',
+'send_message' => 'Nachricht senden',
 
 'send_throttle' => 'Private Mitteilungen können nur alle %x Sekunden versendet werden.',
 
-'duplicate_message_sent' => 'Die exakt selbe Mitteilung wurde mehr als einmal versendet.',
+'sending_limit_warning' => 'Sie haben das Limit zum Senden von Privatnachrichten innerhalb von 24 Stunden überschritten.',
 
-'translate' => 'Update',
+'sent_copy' => 'Speichern Sie eine Kopie im Ordner "Gesendete Nachrichten"?',
 
-''=>''
+'smileys' => 'Smileys',
+
+'storage_limit_warning' => 'Sie haben Ihr Speicherlimit für private Nachrichten erreicht.',
+
+'storage_percentage' => 'Ihre Verzeichnisse sind %x% voll',
+
+'storage_status' => 'Sie haben %x von insgesamt %y erlaubten Mitteilungen.',
+
+'switch_folder' => 'Verzeichnis wechseln: ',
+
+'too_many_attachments' => 'Es wurden zu viele Anhänge in das PM-System hochgeladen. Bitte wenden Sie sich an den Administrator.',
+
+'track_message' => 'Nachricht verfolgen',
+
+'track_messages' => 'Nachrichten verfolgen',
+
+'unable_to_recieve_attach' => 'Dateianhang kann nicht empfangen werden',
+
+'unlimited_messages' => 'Unbegrenzt',
+
+'view_folder' => 'Verzeichnis anzeigen',
+
+'view_message' => 'Nachricht ansehen',
+
+'waiting_period_not_reached' => 'Zur Verhinderung von Spam besteht für neue Mitglieder eine Wartezeit von %time% Stunden, bevor sie private Mitteilungen schreiben können.',
+
+'zero_percent' => '0%',
+
 );
 
-/* End of file messages_lang.php */
-/* Location: ./system/user/language/deutsch/messages_lang.php */
+// EOF

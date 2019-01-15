@@ -8,9 +8,9 @@ $lang = array(
 
 'add_status' => 'Neuen Status erstellen',
 
-'add_tab' => 'Neuen Tab (Reiter) hinzufügen',
+'add_tab' => 'Neuen Tab hinzufügen',
 
-'assigned_to' => 'zugewiesen',
+'assigned_to' => 'Zugewiesen',
 
 'btn_import' => 'Importieren',
 
@@ -18,19 +18,19 @@ $lang = array(
 
 'category_groups' => 'Kategoriengruppen',
 
-'category_groups_desc' => 'Weisen Sie diesem Channel eine Kategoriengruppe oder mehrere zu.',
+'category_groups_desc' => 'Weisen Sie diesem Channel eine oder mehrere Kategoriengruppen zu.',
 
 'channel' => 'Channel',
 
 'channel_form_layouts' => '%s &ndash; Formularlayouts',
 
-'channel_manager' => 'Channel-Verwaltung',
+'channel_manager' => 'Channel-Manager',
 
 'channel_module_description' => 'Channel-Modul',
 
 'channel_module_name' => 'Channel',
 
-'channel_must_be_logged_in' => 'Sie müssen angemeldetes Mitglied dieser Seite sein, um diese Aktion ausführen zu können.',
+'channel_must_be_logged_in' => 'Sie müssen angemeldetes Mitglied dieser Website sein, um diese Aktion ausführen zu können.',
 
 'channel_no_action_found' => 'Die Ressourcen zum Anzeigen des Eingabefomulares lassen sich nicht laden',
 
@@ -38,9 +38,9 @@ $lang = array(
 
 'channel_not_specified' => 'Damit das Eingabeformular benutzt werden kann, muss ein Channel definiert sein.',
 
-'channel_set_duplicates_error' => 'Import Creates Duplicates',
+'channel_set_duplicates_error' => 'Import erzeugt Duplikate',
 
-'channel_set_duplicates_error_desc' => 'This channel set uses names that already exist on your site. Please rename the following items.',
+'channel_set_duplicates_error_desc' => 'Dieses Channel-Set verwendet Namen, die auf Ihrer Site bereits vorhanden sind. Benennen Sie die folgenden Elemente um.',
 
 'channel_set_imported' => 'Channel-Set importiert',
 
@@ -56,7 +56,7 @@ $lang = array(
 
 'channel_set_invalid' => 'Kein valides Channel-Set. Es fehlt die Datei channel_set.json.',
 
-'channel_set_incompatible' => 'Inkompatibles Channel-Set. Dieses Channel-Set erfordert ExpressionEngine %d.0.0 ooder neuer.',
+'channel_set_incompatible' => 'Inkompatibles Channel-Set. Dieses Channel-Set erfordert ExpressionEngine %d.0.0 oder neuer.',
 
 'channels' => 'Channels',
 
@@ -96,9 +96,9 @@ $lang = array(
 
 'error_cannot_remove_tab' => 'Tab läßt sich nicht entfernen',
 
-'error_tab_has_fields' => '<b>%s</b> contains at least one field and cannot be removed. Please move all fields to another tab.',
+'error_tab_has_fields' => '<b>%s</b> enthält mindestens ein Feld und kann nicht entfernt werden. Bitte verschieben Sie alle Felder zu einem anderen Tab (Reiter).',
 
-'error_tab_has_required_fields' => '<b>%s</b> enthält mindestens ein Feld und kann nicht gelöscht werden. Bewegen Sie das (oder die) Felder zu einem anderen Reiter.',
+'error_tab_has_required_fields' => '<b>%s</b> enthält mindestens ein Feld und kann nicht gelöscht werden. Bewegen Sie das (oder die) Felder zu einem anderen Tab (Reiter).',
 
 'export_set' => 'Channel-Set exportieren',
 
@@ -106,13 +106,13 @@ $lang = array(
 
 'field_groups' => 'Feldgruppen',
 
-'field_groups_desc' => 'Weisen Sie diesem Channel eine Feldergruppe oder mehrere zu.',
+'field_groups_desc' => 'Weisen Sie diesem Channel eine Feldgruppe oder mehrere zu.',
 
 'fields_desc' => 'Weisen Sie diesem Channel ein Feld oder mehrere zu.',
 
 'form_layouts' => 'Formularlayouts',
 
-'illegal_tab_name' => 'Tab-Namen dürfen <b>keine</b> folgenden Zeichen enthalten: *, >, :, +, (, ), [, ], =, |, ", \', ., #, or $',
+'illegal_tab_name' => 'Tab-Namen dürfen <b>keine</b> der folgenden Zeichen enthalten: *, >, :, +, (, ), [, ], =, |, ", \', ., #, or $',
 
 'import' => 'Import',
 
@@ -134,7 +134,7 @@ $lang = array(
 
 'member_group' => 'Mitgliedergruppe',
 
-'member_groups_desc' => 'Mitgliedsgruppe(n) wählen, für die das Layout gelten soll.',
+'member_groups_desc' => 'Mitgliedergruppe(n) wählen, für die das Layout gelten soll.',
 
 'new_layout' => 'Neues Layout',
 
@@ -183,6 +183,8 @@ $lang = array(
 'channel_not_updated' => 'Channel kann nicht aktualisiert werden',
 
 'channel_not_updated_desc' => 'Der Channel konnte nicht aktualisiert werden, bitte die unten angezeigten Fehler korrigieren.',
+
+'channel_preview_url_invalid' => 'Der Vorschau-URL muss ein Template-Pfad oder ein Route sein, er darf kein vollständiger URL sein (einschließlich {base_url}).',
 
 'channel_publishing_options' => 'Veröffentlichungsoptionen',
 
@@ -276,7 +278,7 @@ $lang = array(
 
 'comment_time_limit' => 'Zeitlimit zwischen Kommentaren',
 
-'comment_time_limit_desc' => 'Die Sekunden, die vergehen müssen, bevor ein Benutzer einen weiteren Kommentar senden kann.<br>0 eingeben für kein Zeitlimit.',
+'comment_time_limit_desc' => 'Die Sekunden, die vergehen müssen, bevor ein Benutzer einen weiteren Kommentar senden kann. 0 eingeben für kein Zeitlimit.',
 
 'commenting' => 'Kommentieren',
 
@@ -308,11 +310,11 @@ $lang = array(
 
 'enable_channel_entry_notification' => 'Benachrichtigung für Channel-Einträge einschalten?',
 
-'enable_channel_entry_notification_desc' => 'Wenn <b>aktiviert</b>, bekommen alle Empfänger eine Email-Benachrichtigung, wenn ein neuer Artikel in diesem Channel veröffentlicht wurde. <br>Mehrere Email-Adressen mit einem <mark>Komma (,)</mark> trennen.',
+'enable_channel_entry_notification_desc' => 'Wenn <b>aktiviert</b>, bekommen alle Empfänger eine Email-Benachrichtigung, wenn ein neuer Artikel in diesem Channel veröffentlicht wurde. <br>Mehrere Email-Adressen mit einem <mark>Komma</mark> trennen.',
 
 'enable_comment_notification' => 'Kommentarbenachrichtigung einschalten?',
 
-'enable_comment_notification_desc' => 'Wenn <b>aktiviert</b>, bekommen alle Empfänger eine Email-Benachrichtigung, wenn ein neuer Kommentar in diesem Channel veröffentlicht wurde. <br>Mehrere E-Mail-Adressen mit einem <mark>Komma (,)</mark> trennen.',
+'enable_comment_notification_desc' => 'Wenn <b>aktiviert</b>, bekommen alle Empfänger eine Email-Benachrichtigung, wenn ein neuer Kommentar in diesem Channel veröffentlicht wurde. <br>Mehrere E-Mail-Adressen mit einem <mark>Komma</mark> trennen.',
 
 'enable_versioning' => 'Versionierung für Einträge einschalten?',
 
@@ -320,7 +322,7 @@ $lang = array(
 
 'extra_publish_controls' => 'Weitere Veröffentlichungs-Buttons anzeigen?',
 
-'extra_publish_controls_desc' => 'Wenn <b>aktiviert</b>, erscheint ein zweites Set an Veröffentlichungs-Buttons am oberen Ende des Veröffentlichungsformulars.',
+'extra_publish_controls_desc' => 'Wenn <b>aktiviert</b>, erscheint ein zweites Set an Veröffentlichungs-Buttons (Speichern etc) am oberen Ende des Veröffentlichungsformulars.',
 
 'html_formatting' => '<abbr title="Hyper-Text Markup Language">HTML</abbr>-Formatierung',
 
@@ -374,7 +376,7 @@ $lang = array(
 
 'title_field_label' => 'Bezeichnung (Label) des Titelfeldes',
 
-'title_field_label_desc' => 'Ändert die Bezeichnung des Titelfeldes (Standard: "Title") im Veröffentlichungsformular für diesen Channel.',
+'title_field_label_desc' => 'Ändert die Bezeichnung des Titelfeldes (Standard: "Title") im Redakteursformular für diesen Channel.',
 
 'url_path_settings' => '<abbr title="Unified Resource Locator">URL</abbr>- und Pfad-Einstellungen',
 
@@ -462,17 +464,17 @@ $lang = array(
 
 'category_group_updated' => 'Kategoriengruppe wurde aktualisiert',
 
-'category_group_updated_desc' => 'Die Kategoriengruppe  <b>%s</b> wurde aktualisiert.',
+'category_group_updated_desc' => 'Die Kategoriengruppe <b>%s</b> wurde aktualisiert.',
 
 'category_groups_removed' => 'Kategoriengruppe wurde gelöscht',
 
 'category_groups_removed_desc' => '%d Kategoriengruppen wurden gelöscht',
 
-'category_manager' => 'Kategorien-Verwaltung',
+'category_manager' => 'Kategorien-Manager',
 
 'category_not_created' => 'Kategorie wurde nicht angelegt',
 
-'category_not_created_desc' => 'Die Kategorie konnte nicht agelegt werden, bitte die unten angezeigten Fehler korrigieren.',
+'category_not_created_desc' => 'Die Kategorie konnte nicht angelegt werden, bitte die unten angezeigten Fehler korrigieren.',
 
 'category_not_updated' => 'Kategorie wurde nicht aktualisiert',
 
@@ -504,7 +506,7 @@ $lang = array(
 
 'edit_categories' => 'Kategorien bearbeiten',
 
-'edit_categories_desc' => 'Mitglieder in den gewählten Mitgliederruppen dürfen Kategorien in dieser Kategoriegruppe bearbeiten. Super-Admins dürfen <b>immer</b>.',
+'edit_categories_desc' => 'Mitglieder in den gewählten Mitgliedergruppen dürfen Kategorien in dieser Kategoriegruppe bearbeiten. Super-Admins dürfen <b>immer</b>.',
 
 'edit_category' => 'Kategorie bearbeiten',
 

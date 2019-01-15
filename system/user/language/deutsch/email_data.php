@@ -28,7 +28,7 @@ Der Titel des Eintrages lautet:
 Verfasst von: {name}
 E-Mail: {email}
 
-Der Eintrag ist hier zu lesen: 
+Der Eintrag ist hier zu lesen:
 {entry_url}
 
 EOF;
@@ -94,7 +94,7 @@ Im folgenden Channel wurde ein Kommentar verfasst:
 Titel des Beitrages:
 {entry_title}
 
-Zu finden hier: 
+Zu finden hier:
 {comment_url}
 
 Verfasst von: {name}
@@ -155,7 +155,7 @@ if ( ! function_exists('forgot_password_instructions_title'))
 	function forgot_password_instructions_title()
 	{
 return <<<EOF
-Login information
+Login-Informationen
 EOF;
 	}
 }
@@ -171,7 +171,7 @@ Um das Passwort zurückzusetzen, gehen Sie bitte zu folgender Seite:
 
 {reset_url}
 
-Dann melden SIe sich mit Ihrem Benutzernamen an: {username}
+Dann melden Sie sich mit Ihrem Benutzernamen an: {username}
 
 Soll das Passwort nicht zurückgesetzt werden, ignorieren Sie bitte diese Meldung. Sie wird in 24 Stunden verfallen.
 
@@ -186,7 +186,7 @@ if ( ! function_exists('password_changed_notification_title'))
 	function password_changed_notification_title()
 	{
 return <<<EOF
-Password changed
+Passwort geändert
 EOF;
 	}
 }
@@ -213,7 +213,7 @@ if ( ! function_exists('email_changed_notification_title'))
 	function email_changed_notification_title()
 	{
 return <<<EOF
-Email address changed
+Email-Adresse geändert
 EOF;
 	}
 }
@@ -244,7 +244,7 @@ if ( ! function_exists('validated_member_notify_title'))
 	function validated_member_notify_title()
 	{
 return <<<EOF
-Ihr Mitgliedskonto wurde aktiviert.
+Ihr Mitgliederkonto wurde aktiviert.
 EOF;
 	}
 }
@@ -256,7 +256,7 @@ if ( ! function_exists('validated_member_notify'))
 return <<<EOF
 {name},
 
-Ihr Mitgliedskonto wurde aktiviert und ist für den Einsatz bereit.
+Ihr Mitgliederkonto wurde aktiviert und ist für den Einsatz bereit.
 
 Besten Dank!
 
@@ -277,7 +277,7 @@ if ( ! function_exists('decline_member_validation_title'))
 	function decline_member_validation_title()
 	{
 return <<<EOF
-Ihr Mitgliedskonto wurde abgelehnt
+Ihr Mitgliederkonto wurde abgelehnt
 EOF;
 	}
 }
@@ -363,7 +363,7 @@ Die Kommentare finden Sie unter folgendem URL:
 {comment_url}
 
 {comments}
-{comment} 
+{comment}
 {/comments}
 
 Um Benachrichtigungen zu diesem Beitrag zu stoppen, klicken Sie hier:
@@ -508,7 +508,7 @@ return <<<EOF
 {sender_name} hat gerade versucht, eine Private Mitteilung zu
 versenden, aber die Mailbox ist voll. Das Limit von {pm_storage_limit} ist erreicht.
 
-Bitte einloggen und unbenötigte Mitteilungen hier in der Inbox löschen: 
+Bitte einloggen und unbenötigte Mitteilungen hier in der Inbox löschen:
 {site_url}
 EOF;
 	}

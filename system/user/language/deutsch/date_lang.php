@@ -34,7 +34,7 @@ $lang = array(
 
 'UM11' => '(UTC -11:00) Samoa Time Zone, Niue',
 
-'UM10' => '(UTC -10:00) Hawaii-Aleutian Standard Time, Cook Islands, Tahiti',
+'UM10' => '(UTC -10:00) Hawaii Aleutian Standard Time, Cook Islands, Tahiti',
 
 'UM95' => '(UTC -9:30) Marquesas Islands',
 

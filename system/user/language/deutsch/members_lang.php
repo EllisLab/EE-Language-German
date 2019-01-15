@@ -1,488 +1,994 @@
 <?php
+
 $lang = array(
-  'member' => 'Mitglieder',
-  'member_manager' => 'Mitglieder-Manager',
-  'register_member' => 'Neues Mitglied eintragen',
-  'all_members' => 'Alle Mitglieder',
-  'pending_members' => 'Alle Mitglieder (warten auf Aktivierung)',
-  'member_updated' => 'Mitglied gesichert',
-  'maximum_members_reached' => 'Die maximale Anzahl an erlaubten Mitgliedern ist erreicht.',
-  'member_updated_desc' => 'Mitglied wurde erfolgreich gespeichert.',
-  'member_field_saved' => 'Mitgliederfeld gespeichert',
-  'member_field_saved_desc' => 'Mitgliederfeld wurde erfolgreich gesichert.',
-  'member_field_not_saved' => 'Mitgliederfeld konnte nicht gesichert werden',
-  'member_field_not_saved_desc' => 'Mitgliederfeld konnte nicht gesichert werden',
-  'member_groups_removed_desc' => 'Mitgliedergruppe ist erfolgreich gelöscht worden.',
-  'no_members_found' => 'Keine <b>Mitglieder</b> gefunden.',
-  'no_pending_members_found' => 'Keine <b>freizuschaltenden Mitglieder</b> gefunden.',
-  'no_banned_members_found' => 'Keine <b>gesperrtenMitglieder</b> gefunden.',
-  'view_search_members' => 'Mitglieder zeigen / suchen',
-  'member_validation' => 'Wartende Mitglieder aktivieren',
-  'pending_activation' => 'Auf Freischaltung wartend',
-  'member_search' => 'Mitglieder suchen',
-  'user_banning' => 'Mitglieder sperren',
-  'manage_bans' => 'Geperrte Mitglieder verwalten',
 
-  'custom_profile_fields' => 'Eigene Mitgliederfelder',
-  'member_fields_removed_desc' => 'Die folgenden Mitgliederfelder wurden entfernt:',
-  'member_cfg_existing' => 'Mitgliedergruppe %s Einstellungen',
-  'member_cfg' => 'Mitgliedergruppe: Einstellungen',
-  'member_prefs' => 'Mitglieder: Voreinstellungen',
-  'preferences_updated' => 'Einstellungen aktiviert',
-  'profile_templates' => 'Mitglieder-Profil-Template',
-  'ip_search' => 'IP-Adresse Suchen',
-  'all_member_groups' => 'Alle Mitgliedergruppen',
-  'member_groups' => 'Mitgliedergruppen',
-  'save_member_group' => 'Mitgliedergruppe bearbeiten',
-  'member_delete_success' => 'Mitglied gelöscht',
+'admin_members' => 'Admin-Mitglieder',
 
-  'approve' => 'Freigeben',
-  'resend' => 'Email zur Aktivierung noch einmal senden',
-  'decline' => 'Ablehnen',
+'all_member_groups' => 'Alle Mitgliedergruppen',
 
-  'member_approved_success' => 'Mitglied zugelassen',
-  'member_approved_success_desc' => 'Das Mitglied <b>%s</b> wurde zugelassen.',
-  'members_approved_success' => 'Mitglied zugelassen',
-  'members_approved_success_desc' => 'Die folgenden Mitgliederr wurden zugelassen:',
+'all_members' => 'Alle Mitglieder',
 
-  'confirm_decline' => 'Ablehung bestätigen',
-  'confirm_decline_desc' => 'Folgende Mitglieder sollen abgelehnt werden, was sie aus dem System entfernen wird. Bitte bestätigen.',
-  'btn_confirm_and_decline' => 'Bestätigen und ablehnen',
-  'btn_confirm_and_decline_working' => 'Lehne ab...',
-  'member_declined_success' => 'Nutzer abgewiesen',
-  'member_declined_success_desc' => 'Das Mitglied <b>%s</b> wurde abgelehnt.',
-  'members_declined_success' => 'Mitglieder abgelehnt',
-  'members_declined_success_desc' => 'Die folgenden Mitglieder wurden abgelehnt:',
+'alpha' => 'Alphabetisch aufsteigend',
 
-  'member_activation_resent_success' => 'Email-Aktivierung wurde noch einmal gesendet',
-  'member_activation_resent_success_desc' => 'Eine Aktivierungs-Email wurde an <b>%s</b> gesendet.',
-  'members_activation_resent_success_desc' => 'Aktivierungs-Emails wurden an die folgenden Mitglieder gesendet:',
+'alpha_desc' => 'Alphabetisch absteigend',
 
-  'member_approve' => 'Mitglied freischalten',
-  'keywords' => 'Schlagworte',
-  'last_activity' => 'Letzte Aktivität',
-  'filter_by' => 'Filtern nach',
-  'filter_member_name' => 'Filtern nach Mitgliedername',
-  'filter_member_group' => 'Filtern nach Mitgliedergruppe',
-  'member_group_assignment' => 'Mitgliedergruppen-Zuweisung',
-  'password_desc' => 'Verwenden Sie Kleinbuchstaben, Großbuchstaben, Zahlen und Symbole für ein sicheres Passwort mit mindestens 12 Zeichen.',
-  'password_confirm' => 'Passwort-Bestätigung',
-  'password_confirm_desc' => 'Geben Sie das gewünschte Kennwort zur Bestätigung erneut ein.',
-  'email' => 'Email',
-  'invalid_path' => 'Angegebener Pfad ist ungültig.',
-  'invalid_path_description' => 'Der hier angegebene Pfad ist ungültig:',
-  'not_writable_path' => 'Der angegebene Pfad ist nicht beschreibbar. Stellen Sie sicher, dass die Verzeichnisrechte auf 777 stehen.',
-  'include_in_memberlist' => 'Mitglieder in die Mitgliederliste der Site einschließen?',
-  'include_in_authorlist' => 'Mitglied in die Multi-Autorenliste der Seite VERFASSEN einschließen?',
-  'field_description' => 'Feld-Beschreibung',
-  'field_description_info' => 'Dieses Feld dient zur Angabe von Instruktionen oder zusätzlichen Informationen.',
-  'can_edit_categories' => 'Darf Kategorien bearbeiten und neue anfügen',
-  'can_delete_categories' => 'Kann Kategorien löschen',
-  'can_not_delete_self' => 'Sie dürfen Ihr eigenes Mitgliederkonto nicht löschen.',
-  'no_heirs_available' => 'Dem zu löschenden Mitglied sind Channel-Beiträge zugewiesen',
-  'heir_to_member_entries' => 'Diesem Mitgliederkonto sind Einträge zugeordnet. Wählen Sie ein anderes Mitglied, dem die Einträge stattdessen zugeordnet werden sollen.',
-  'heir_to_members_entries' => 'Einigen dieser Mitgliederkonten sind Einträge zugeordnet. Wählen Sie ein anderes Mitglied, dem die Einträge stattdessen zugeordnet werden sollen.',
-  'forum_topics' => 'Forums-Thema',
-  'forum_posts' => 'Forums-Beitrag',
-  'topic' => 'Thema',
-  'title' => 'Titel',
-  'author' => 'Autor',
-  'comment' => 'Kommentar',
-  'comments' => 'Kommentare',
-  'channel_entries' => 'Channel-Einträge',
-  'ip_search_instructions' => 'Es kann ein Teil oder eine vollständige IP-Adresse eingegeben werden',
-  'ip_search_too_short' => 'Die eingegebene IP-Adresse ist zu kurz. Sie muss mindestens 3 Zeichen lang sein.',
-  'ip_search_no_results' => 'Die Suche ergab keine Resultate',
-  'member_accounts' => 'Mitgliederkonten',
-  'login_as_user' => 'Super-Admin einloggen als Benutzer',
-  'site_homepage' => 'Site-Homepage',
-  'login_as_member_description' => 'Wenn Sie senden klicken, werden Sie eingeloggt als Benutzer %screen_name% und zur unten stehenden Seite weitergeleitet.',
-  'other' => 'Andere',
-  'field_order_updated' => 'Datei-Reihenfolge aktualisiert',
-  'personal_messaging' => 'Private Mitteilungen',
-  'priv_msg_privs' => 'Private Mitteilungen: Privilegien',
-  'can_send_private_messages' => 'Darf private Mitteilungen senden',
-  'can_send_private_messages_desc' => 'Wenn auf <b>ja</b> gesetzt, dürfen Mitglieder in dieser Gruppe private Mitteilungen senden und empfangen.',
-  'can_attach_in_private_messages' => 'Darf mit privaten Nachrichten Anhänge versenden',
-  'can_attach_in_private_messages_desc' => 'Wenn auf <b>ja</b> gesetzt, dürfen Mitglieder dieser Gruppe Anhänge an ihren Mitteilungen hinzufügen.',
-  'fieldlabel' => 'Feld-Label',
-  'visibility' => 'Sichtbarkeit',
-  'index' => 'Haupt-Indexseite',
-  'member_assignment_warning' => 'Zu dieser Gruppe gehören derzeit %x Nutzer. Welcher Mitgliedergruppe sollen sie stattdessen zugeordnet werden?',
-  'can_moderate_comments' => 'Darf Kommentare moderieren',
-  'exclude_from_moderation' => 'Mitglieder von der Kommentar-Moderation ausschließen',
-  'exclude_from_moderation_desc' => 'Wenn auf <b>ja</b> gesetzt, dürfen Mitglieder kommentieren ohne Einschränkungen durch die <a href="%s">Standardeinstellungen</a>.',
-  'moderation_actions' => 'Moderationsaktionen',
-  'moderation_actions_desc' => 'Mitglieder in dieser Gruppe dürfen alle der gewählten Aktionen ausführen.',
-  'search' => 'Suche',
-  'total_members' => 'Mitglieder gesamt:',
-  'admin_members' => 'Admin-Mitglieder',
-  'view_cp_logs' => 'Zeige die Login-Aktivitäten von %s',
-  'view_members' => 'Mitglieder ansehen',
-  'validate_selected' => 'Ausgewählte Mitglieder aktivieren',
-  'delete_selected' => 'Ausgewählte Mitglieder löschen',
-  'send_email_notification' => 'Eine Benachrichtigung an jedes aktivierte Mitglied versenden',
-  'your_account_validated' => 'Ihr Konto wurde aktiviert.',
-  'your_account_ready' => 'Ihr Konto wurde aktiviert und kann genutzt werden.',
-  'thank_you' => 'Danke!',
-  'no_members_to_validate' => 'Zur Zeit sind keine Mitglieder in der Warteschlange.',
-  'members_are_validated' => 'Mitglied(er) aktiviert',
-  'members_are_deleted' => 'Mitglied(er) gelöscht',
-  'ascending' => 'Nach Datum - älteste zuerst',
-  'descending' => 'Nach Datum - neueste zuerst',
-  'alpha' => 'Alphabetisch aufsteigend',
-  'alpha_desc' => 'Alphabetisch absteigend',
-  'username_asc' => 'Benutzername - aufsteigend',
-  'username_desc' => 'Benutzername - absteigend',
-  'screen_name' => 'Bildschirm-Name',
-  'screen_name_asc' => 'Bildschirm-Name - aufsteigend',
-  'screen_name_desc' => 'Bildschirm-Name - absteigend',
-  'mbr_email_address' => 'Email-Adresse',
-  'email_address' => 'Email-Adresse',
-  'email_asc' => 'Email-Adresse - aufsteigend',
-  'email_desc' => 'Email-Adresse - absteigend',
-  'sort_order' => 'Sortierreihenfolge',
-  'join_date' => 'Beitrittsdatum',
-  'last_visit' => 'Letzter Besuch',
-  'member_group' => 'Mitgliedergruppe',
-  'group_id' => 'Gruppen-ID',
-  'no_members_matching_that_criteria' => 'Es wurden keine Mitglieder gefunden, die Ihren Suchkriterien entsprechen.',
-  'mbrs' => 'Mitglied',
-  'edit_profile' => 'Profil bearbeiten',
-  'edit_group' => 'Gruppe bearbeiten',
-  'general_access' => "Allgemeine Einstellungen",
-  'group_title' => 'Gruppen-Titel',
-  'security_lock' => 'Sicherheitssperre',
-  'group_lock' => 'Gruppen-Sicherheitssperre',
-  'enable_lock' => 'Gruppen-Sicherheitssperre aktivieren',
-  'lock_description' => 'Wenn eine Gruppe gesperrt ist, kann nur ein Super-Admin dieser Gruppe Mitglieder zuordnen. Wenn auch andere Mitglieder Konten verwalten, empfiehlt es sich, nur die Gruppen zu entsperren, denen diese Mitglieder zuordnen dürfen.',
-  'locked' => 'Gesperrt',
-  'unlocked' => 'Entsperrt',
-  'create_new_member_group' => 'Neue Mitgliedergruppe erstellen',
-  'member_has_cp_access' => 'hat Zugang zum Control Panel',
-  'edit_member_group' => 'Mitgliedergruppe bearbeiten',
-  'create_member_group' => 'Mitgliedergruppe erstellen',
-  'delete_member_group' => 'Mitgliedergruppe löschen',
-  'member_group_deleted' => 'Mitgliedergruppe gelöscht',
-  'delete_member_group_confirm' => 'Soll diese Mitgliedergruppe wirklich gelöscht werden?',
-  'delete_member' => 'Mitglieder löschen',
-  'delete_member_confirm' => 'Soll dieses Mitglied wirklich gelöscht werden?',
-  'delete_members_confirm' => 'Sollen diese Mitglieder wirklich gelöscht werden?',
-  'can_not_delete_superadmin' => 'Sie können das primäre Mitglied nicht löschen',
-  'member_deleted' => 'Mitglied gelöscht',
-  'members_deleted' => 'Mitglied gelöscht',
-  'ban_preferences_updated' => 'Sperren-Einstellungen aktualisiert',
-  'ip_address_banning' => 'Gesperrte IP-Adresse',
-  'ip_banning_instructions' => 'Für jede IP-Adresse eine neue Zeile beginnen',
-  'ip_banning_instructions_cont' => 'Nutzen Sie Wildcards für teilweise bekannte IP-Adressen. Beispiel:  123.345.*',
-  'email_address_banning' => 'Gesperrte Email-Adresse',
-  'email_banning_instructions' => 'Für jede Email-Adresse eine neue Zeile beginnen',
-  'email_banning_instructions_cont' => 'Nutzen Sie Wildcards für teilweise bekannte E-Mailadressen. Beispiel:  *@domain.com',
-  'ban_options' => 'Wenn eine gesperrte IP auf die Site zugreifen will',
-  'restrict_to_viewing' => 'auf Nur-Sehen beschränken',
-  'show_this_message' => 'diese Nachricht anzeigen',
-  'send_to_site' => 'weiterleiten zu dieser Seite',
-  'ban_message' => 'Diese Site ist im Moment nicht verfügbar',
-  'username_banning' => 'Gesperrte Benutzernamen',
-  'username_banning_instructions' => 'Für jeden Benutzernamen eine neue Zeile beginnen',
-  'screen_name_banning' => 'Gesperrte Bildschirm-Namen',
-  'screen_name_banning_instructions' => 'Für jeden Bildschirm-Namen eine neue Zeile beginnen',
-  'can_ban_users' => 'Darf Mitglieder sperren',
-  'cp_admin_privs' => 'Control Panel-Administration',
-  'cp_comment_privs' => 'Kommentar-Administration',
-  'can_view_other_comments' => 'Darf Kommentare zu den Einträgen anderer ansehen',
-  'can_edit_own_comments' => 'Darf Kommentare zu eigenen Einträgen bearbeiten',
-  'can_delete_own_comments' => 'Darf Kommentare zu eigenen Einträgen löschen',
-  'can_edit_all_comments' => 'Darf Kommentare zu ALLEN Einträgen bearbeiten',
-  'can_delete_all_comments' => 'Darf Kommentare zu ALLEN Einträgen löschen',
-  'can_admin_channels' => 'Darf Channels und Channel-Einstellungen verwalten',
-  'can_admin_upload_prefs' => 'Darf Datei-Upload-Einstellungen verwalten',
-  'can_admin_members' => 'Darf Mitglieder-Konten verwalten',
-  'can_access_edit' => 'Hat Zugang zur BEARBEITEN-Seite',
-  'can_access_publish' => 'Hat Zugang zur VERFASSEN-Seite',
-  'can_access_files' => 'Hat Zugang zu INHALT: Dateimanager',
-  'can_access_modules' => 'Hat Zugang zur MODULE-Seite',
-  'can_access_extensions' => 'Hat Zugang zu Add-ONS: Extensions',
-  'can_access_accessories' => 'Hat Zugang zu ADD-ONS: Accessories',
-  'can_access_plugins' => 'Hat Zugang zu ADD-ONS: Plugins',
-  'can_access_fieldtypes' => 'Hat Zugang zu ADD-ONS: Feldtypen',
-  'can_access_comm' => 'Hat Zugang zum Bereich KOMMUNIKATION',
-  'can_access_utilities' => 'Hat Zugang zu TOOLS: Hilfsprogramme',
-  'can_access_data' => 'Hat Zugang zu TOOLS: Daten',
-  'can_access_logs' => 'Hat Zugang zu TOOLS: Logs',
-  'can_access_sys_prefs' => 'Hat Zugang zu ADMIN: Systemeinstellungen',
-  'can_access_content_prefs' => 'Hat Zugang zu ADMIN: Upload u.a.',
-  'can_delete_members' => 'Darf Mitglieder löschen',
-  'can_admin_mbr_groups' => 'Darf die Gruppen-Zugehörigkeit eines Mitglieds ändern (nur in entsperrten Gruppen)',
-  'can_admin_mbr_templates' => 'Darf Profil-Templates verwalten',
-  'can_admin_templates' => 'Darf Template-Gruppen und Templates verwalten',
-  'can_admin_design' => 'Darf Design-Einstellungen verwalten',
-  'can_admin_modules' => 'Darf Module installieren und entfernen',
-  'cp_email_privs' => 'Control Panel: Email-Rechte',
-  'can_send_email' => 'Darf Emails über das Control Panel versenden',
-  'can_email_member_groups' => 'Darf Emails an Mitgliedergruppen senden',
-  'can_email_mailinglist' => 'Darf Emails an Mailinglisten senden',
-  'can_send_cached_email' => 'Darf gespeicherte Emails ansehen und senden',
-  'search_privs' => 'Such-Rechte',
-  'can_search' => 'Darf die Suche benutzen',
-  'search_flood_control' => 'Sekunden zwischen zwei Suchen',
-  'warning' => 'WARNUNG:',
-  'super_admin_edit_note' => 'Hinweis: Sie können nur den Namen und die Beschreibung der Super-Admin-Gruppe ändern',
-  'be_careful_assigning_groups' => 'Seien Sie SEHR vorsichtig beim Zuweisen von Gruppen-Einstellungen - besonders der hervorgehobenen.',
-  'member_group_updated' => 'Mitgliedergruppe aktualisiert:',
-  'member_group_created' => 'Mitgliedergruppe erstellt:',
-  'member_group_updated_desc' => "Mitgliedergruppe wurde erfolgreich gespeichert.",
-  'cp_channel_privs' => 'Verfassen- und Bearbeiten-Rechte',
-  'can_view_other_entries' => 'Darf Einträge von anderen ansehen',
-  'can_post_in' => 'Darf Einträge verfassen und bearbeiten in:',
-  'can_edit_other_entries' => 'Darf Einträge von anderen bearbeiten',
-  'can_assign_post_authors' => 'Darf den Autoren-Namen beim Posten von Einträgen ändern',
-  'can_delete_self_entries' => 'Darf eigene Einträge löschen',
-  'can_delete_all_entries' => 'Darf Einträge anderer Autoren löschen',
-  'cp_template_access_privs' => 'Template-Editierrechte',
-  'can_access_tg' => 'Darf Templates in dieser Gruppe ändern:',
-  'can_email_from_profile' => 'Darf Emails an andere Mitglieder durch die Profil-Mailkonsole versenden',
-  'for_profile_page' => 'Wird auf der Profil-Seite angezeigt',
-  'custom_member_fields' => 'Benutzerdefinierte Profil-Felder',
-  'current_fields' => 'Mitglieder-Profil-Felder',
-  'edit_member_field' => 'Feld bearbeiten',
-  'create_member_field' => 'Feld erstellen',
-  'field_updated' => 'Feld aktualisiert',
-  'field_created' => 'Feld erstellt',
-  'create_new_profile_field' => 'Neues Profilfeld erstellen',
-  'is_field_public' => 'Ist dieses Feld in öffentlichen Profilen sichtbar?',
-  'is_field_public_cont' => 'Wenn Sie nein wählen, ist es nur für Admins sichtbar',
-  'is_field_reg' => 'Ist dieses Feld auf der Anmeldeseite sichtbar?',
-  'is_field_cp_reg' => 'Ist das Feld im Control Panel auf der administrativen Registrierungsseite sichtbar?',
-  'field_width' => 'Feldbreite',
-  'field_width_cont' => 'kann in Pixeln oder Prozent sein',
-  'fieldname' => 'Feldname',
-  'fieldname_cont' => 'Ein Wort, keine Leerzeichen, Unterstreichungen und Trennungsstriche sind erlaubt',
-  'field_format' => 'Text-Format',
-  'm_max_length' => 'Maximale Länge',
-  'max_length_cont' => 'Für Textfelder',
-  'text_area_rows' => 'Textarea-Zeilen',
-  'text_area_rows_cont' => 'Für Felder des Typs Textarea',
-  'pull_down_items' => 'Auswahllisten-Optionen',
-  'pull_down_items_cont' => 'Für Drop Down-Menüs',
-  'pull_down_instructions' => 'Jede Option auf eine eigene Zeile',
-  'invalid_characters' => 'Der eingegebene Feld-Name enthält ungültige Zeichen.',
-  'member_data_will_be_deleted' => 'Alle Mitgliederdaten in diesem Feld werden dauerhaft gelöscht.',
-  'profile_field_deleted' => 'Profil-Felder gelöscht',
-  'no_custom_profile_fields' => 'Zur Zeit gibt es keine benutzerdefinierten Profil-Felder',
-  'delete_profile_field_confirmation' => 'Sind Sie sicher, dass Sie dieses Mitglieder-Profil-Feld löschen wollen?',
-  'member_search_results' => 'Ergebnisse der Mitglieder-Suche',
-  'no_search_results' => 'Ihre Suche hat kein Ergebnis erbracht.',
-  'member_search_instructions' => 'Füllen Sie mindestens ein Feld aus. Sie können Wörter ganz oder teilweise eingeben.',
-  'can_not_delete_only_member' => 'Sie können das einzige Mitglied in der Datenbank nicht löschen.',
-  'can_not_delete_super_admin' => 'Sie können einen Super-Admin nur löschen, wenn es noch mindestens einen anderen gibt.',
-  'must_be_superadmin_to_delete_one' => 'Nur ein Super-Admin kann einen Super-Admin löschen.',
-  'email_console_log' => 'Email-Konsolen-Logs',
-  'no_cached_email' => 'Zur Zeit sind keine Email-Nachrichten gespeichert.',
-  'email_title' => 'Email-Titel',
-  'from' => 'Von ',
-  'to' => 'An',
-  'message_sent_to' => 'Nachricht gesendet an:',
-  'email_deleted' => 'Email-Nachricht(en) gelöscht',
-  'can_send_bulletins' => 'Kann Bulletins senden',
-  'group_description' => 'Mitgliedergruppe: Beschreibung',
-  'preferences' => 'Voreinstellungen',
-  'preference' => 'Einstellungen',
-  'setting' => 'Werte',
-  'resend_activation_emails' => 'Aktivierungs-Emails nochmals senden',
-  'activation_emails_resent' => 'Aktivierungs-Emails nochmals gesendet',
-  'resend_activation_email' => 'Aktivierungs-Email nochmals senden',
-  'activation_email_resent' => 'Aktivierungs-Email nochmals gesendet',
-  'can_access_site' => 'Kann auf die Site zugreifen',
-  'include_in_mailinglists' => 'Mitglieder in Mailingliste und verwandten Möglichkeiten zulassen (wie Gruppe im Bereich Kommunikation)',
-  'member_delete_dont_reassign_entries' => 'Die Einträge dieses Mitglieds nicht jemand anderem zuweisen, sondern ALLE löschen',
-  'member_delete_reassign_entries' => 'Neues Zuweisen der Einträge an',
-  'translate' => 'Update',
-  //----------------------------
-  // Member group settings
-  //----------------------------
-  'access_privilege_warning' => '<b>Achtung</b>: Sehr vorsichtig sein bei der Zuteilung der Rechte.',
-  'access_privilege_caution' => 'Jede Einstellung mit <span title="excercise caution"></span> sollte nur Mitgliedern gewährt werden, die vertrauenswürdig sind.',
-  'only_superadmins_can_admin_groups' => 'Nur Super-Admins haben Zugang zur Seite der Mitgliedergruppen',
-  'create_group_based_on_old' => 'Neue Gruppe als Kopie einer existierenden erstellen',
-  'group_name' => 'Name der Mitgliedergruppe',
-  'group_name_desc' => 'Beschreibung der Mitgliedergruppe, je genauer desto besser',
-  'missing_group_title' => 'Die Mitgliedergruppe muss einen Namen haben',
-  'group_title_exists' => 'Es besteht bereits eine Mitgliedergruppe mit diesem Namen.',
-  'site_access' => 'Website-Zugang',
-  'site_access_desc' => 'Mitglieder in dieser Gruppe haben Zugriff auf die Website für jeden gewählten Status.',
-  'can_view_online_system' => 'Kann die Website sehen, wenn sie online ist',
-  'can_view_offline_system' => 'Kann die Website sehen, wenn sie offline ist - <i>nicht empfohlen</i>',
-  'mbr_account_privs' => 'Mitgliederkonto-Privilegien',
-  'prv_msg_storage_limit' => 'Maximum privater Nachrichten, die ein Mitglied speichern darf',
-  'prv_msg_storage_limit_desc' => 'Maximale Anzahl privater Nachrichten, die ein Mitglied in seinem Konto speichern darf.',
-  'prv_msg_send_limit' => 'Maximale Anzahl Nachrichten, die ein Mitglied pro Tag versenden darf',
-  'prv_msg_send_limit_desc' => 'Maximale Anzahl von privaten Nachrichten, die ein Mitglied pro Tag senden darf.',
-  'can_view_profiles' => 'Darf öffentliche Profile ansehen',
-  'can_view_profiles_desc' => 'Wenn auf <b>ja</b> gesetzt, dürfen Mitglieder dieser Gruppe öffentliche Profile von anderen Mitgliedern sehen.',
-  'can_edit_html_buttons' => 'Darf eigene <abbr title="Hyper-Text Markup Language">HTML</abbr>-Format-Buttons bearbeiten',
-  'can_delete_self' => 'Dard eigenes Konto löschen - inklusive aller Beiträge und Kommentare',
-  'can_delete_self_desc' => 'Wenn auf <b>ja</b> gesetzt, dürfen Mitglieder dieser Gruppe ihr eigenes Konto löschen - inklusive aller Beiträge und Kommentare',
-  'mbr_delete_notify_emails' => 'Email-Adresse für die Benachrichtigung von Löschungen',
-  'mbr_delete_notify_emails_desc' => 'Alle Empfänger werden benachrichtigt, wann immer ein Mitglied sein Konto löscht. Emails mit einem Komma trennen.',
-  'include_members_in' => 'Alle Mitglieder in',
-  'include_members_in_desc' => 'Mitglieder dieser Gruppe werden in den gewählten Listen eingebunden.',
-  'commenting' => 'Kommentieren',
-  'delete_confirmation_form' => 'Bestätigungs-Formular bei Konto-Löschung',
-  'commenting_privs' => 'Kommentar-Posting-Rechte',
-  'can_post_comments' => 'Darf Kommentare schreiben',
-  'can_post_comments_desc' => 'Wenn auf <b>ja</b> gesetzt, dürfen Mitglieder dieser Gruppe die Website kommentieren.',
-  'comment_actions' => 'Handlungen moderieren',
-  'comment_actions_desc' => 'Mitglieder dieser Gruppe dürfen alle der folgenden Handlungen durchführen.',
-  'cp_channel_post_privs' => 'Channel-Zuweisung',
-  'cp_module_access_privs' => 'Modul-Zugangsrechte',
-  'no_cp_modules_installed' => 'Kein Modul mit Control Panel-Zugang installiert',
-  'can_access_mod' => 'Hat Zugang zum Modul:',
-  'global_cp_access' => 'Control Panel-Zugang',
-  'control_panel' => 'Control Panel',
-  'copy_member_group' => 'Erstelle eine neue Mitgliedergruppe basierend auf <b>%s</b>',
-  'cp_log' => 'Control Panel Aktivität',
-  'can_access_cp' => 'Hat Zugang zum Control-Panel?',
-  'can_access_cp_desc' => 'Wenn auf <b>ja</b> gesetzt, dürfen Mitglieder dieser Gruppe auf das Control Panel zugreifen.',
-  'default_cp_homepage' => 'Standard <abbr title="Control Panel">CP</abbr>-Eingangsseite',
-  'default_cp_homepage_desc' => 'Diese Seite des <abbr title="Control Panel">CP</abbr> sehen die Mitglieder dieser Gruppe, wenn sie sich anmelden',
-  'cp_overview' => '<abbr title="Control Panel">CP</abbr>-Überblick',
-  'edit_listing' => 'Liste aller bearbeiteten Einträge',
-  'applies_to_all_sites' => 'Wird auf alle Sites angewandt',
-  'publish_form' => 'Formular',
-  'choose_channels_per_site' => 'Channels pro Site unten',
-  'custom_uri' => 'Eigener URI &mdash; <i>e.g. nutzer/gruppen</i>',
-  'must_have_channels' => 'Alle Sites müssen über Channels verfügen.',
-  'footer_helper_links' => 'Helfende Links im Footer benutzen',
-  'footer_helper_links_desc' => 'Welche der Links können von der Mitgliedergruppe benutzt werden.',
-  'homepage_news' => 'Zeige EE-News auf der CP-Startseite',
-  'homepage_news_desc' => 'Wird diese Einstellung auf <b>ja</b> gesetzt, dann werden den Mitgliedern dieser Mitgliedergruppe die ExpressioneEngine-News auf der Control Panel-Startseite angezeigt.',
-  'can_access_content' => 'Hat Zugang zur INHALT-Seite',
-  'can_access_admin' => 'Hat Zugang zur ADMIN-Seite',
-  'can_access_tools' => 'Hat Zugang zur TOOLS-Seite',
-  'can_access_design' => 'Hat Zugang zur Template-Verwaltung',
-  'can_access_design_desc' => 'Wird diese Einstellung auf <b>ja</b> gesetzt, dann haben die Mitglieder dieser Gruppe Zugang zur Template-Verwaltung.',
-  'can_access_addons' => 'Hat Zugang zur ADD-ONS-Seite',
-  'can_access_addons_desc' => 'Wird diese Einstellung auf <b>ja</b> gesetzt, dann haben die Mitglieder dieser Gruppe Zugang zur Add-On Verwaltung.',
-  'can_access_members' => 'Hat Zugang zur Mitgliederverwaltung',
-  'can_access_members_desc' => 'Wird diese Einstellung auf <b>ja</b> gesetzt, dann haben die Mitglieder dieser Gruppe Zugang zur Mitgliederverwaltung.',
-  'channels' => 'Channels',
-  'can_admin_channels_desc' => 'Wird diese Einstellung auf <b>ja</b> gesetzt, dann haben die Mitglieder dieser Gruppe Zugang zur Channel-Verwaltung.',
-  'can_access_file_manager' => 'Zugang Datei-Verwaltung',
-  'file_manager' => 'Datei-Verwaltung',
-  'file_manager_desc' => 'Wird diese Einstellung auf <b>ja</b> gesetzt, dann haben die Mitglieder dieser Gruppe Zugang zur Datei-Verwaltung.',
-  'tools_utilities' => 'Dienstprogramme',
-  'can_access_communicate'  => 'Kommunikations<i>—Dienstprogramm</i>',
-  'can_access_translate'  => 'Übersetzungs<i>—Dienstprogramm</i>',
-  'can_access_import'  => 'Import<i>—Dienstprogramm</i>',
-  'can_access_sql'  => ' SQL Management<i>—Dienstprogramm</i>',
-  'can_access_logs_desc' => 'Hat Zugang und kann alle Logs bearbeiten (Entwickler, Control Panel, Throttling, Email and Suche).',
-  'can_access_sys_prefs_desc' => 'Wenn auf <b>ja</b> gesetzt, haben die Mitglieder dieser Gruppe Zugang zu den Software-Einstellungen.',
-  'can_admin_mbr_groups_desc' => 'Wenn auf <b>ja</b> gesetzt, haben die Mitglieder dieser Gruppe Zugang zu den Mitgliedergruppen-Einstellungen.',
-  'can_admin_templates_desc' => 'Wenn auf <b>ja</b> gesetzt, haben die Mitglieder dieser Gruppe Zugang zu den Template-Gruppen und Templates.',
-  'can_admin_design_desc' => 'Wenn auf <b>ja</b> gesetzt, haben die Mitglieder dieser Gruppe Zugang zu den globalen Template-Einstellungen and Template-Routen.',
-  'can_admin_addons' => 'Add-ons installieren oder entfernen',
-  'can_admin_addons_desc' => 'Wenn auf <b>ja</b> gesetzt, können die Mitglieder dieser Gruppe Add-ons installieren und entfernen.',
-  'can_search_desc' => 'Wenn auf <b>ja</b> gesetzt, können die Mitglieder dieser Gruppe die Suche benutzen.',
-  'search_flood_control_desc' => 'Anzahl an Sekunden, die ein Benutzer warten muss, bevor er eine weitere Suche starten kann.',
-  'channel_entries_management' => 'Channel-Verwaltung der Einträge',
-  'channel_entry_actions' => 'Erlaubte Handlungen',
-  'channel_entry_actions_desc' => 'Mitglieder könnne alle Handlungen am unten gewählten Channel vornehmen.',
-  'allowed_channels' => 'Erlaubte Channels',
-  'allowed_actions' => 'Erlaubte Handlungen',
-  'allowed_actions_desc' => 'Mitglieder können alle ausgewählten Handlungen vornehmen.',
-  'allowed_channels_desc' => 'Mitglieder können auf die ausgewählten Handlungen zugreifen und ausführen in allen gewählten Channels.',
-  'allowed_template_groups' => 'Erlaubte Template-Gruppen',
-  'allowed_template_groups_desc' => 'Mitglieder können alle oben gewählten Aktionen auf die gewählten Template-Gruppen anwenden.',
-  'members' => 'Mitglieder',
-  'design' => 'Design',
-  'template_manager' => 'Template-Verwaltung',
-  'addons' => 'Add-ons',
-  'addon_access' => 'Add-On-Zugangsrechte',
-  'addons_access' => 'Erlaubter Zugriff auf Add-on',
-  'addons_access_desc' => 'Benutzer können auf alle gewählten Add-ons zugreifen.',
-  'access_utilities' => 'Zugriffs-Dienstprogramme',
-  'access_utilities_desc' => 'Wird diese Einstellung auf <b>ja</b> gesetzt, dann können die Mitglieder dieser Gruppe auf die Dienstprogramme zugreifen.',
-  'utilities_section' => 'Dienstproramme',
-  'utilities_section_desc' => 'Mitglieder können auf alles Ausgewählte zugreifen.',
-  'category_actions' => 'Kategorien',
-  'category_actions_desc' => 'Mitglieder dürfen alle ausgewählten Aktionen durchführen.',
-  //----------------------------
-  // Member fields
-  //----------------------------
-  'is_field_reg_cont' => 'Wird diese Einstellung auf <b>ja</b> gesetzt, dann wird dieses Feld im Registierungsformular gezeigt.',
-  'search_member_groups_button' => 'Mitgliedergruppen durchsuchen',
-  'search_members_button' => 'Mitglieder durchsuchen',
-  'cannot_delete_super_admin' => 'Der einzige Super-Admin darf nicht gelöscht werden! Bitte zuerst einen neuen Super-Admin anlegen.',
-  'cannot_change_your_group' => 'Ein Super-Admin kann nicht seine eigene Gruppenzuordnung ändern, ein anderer Super-Admin muss diese Aufgabe übernehmen.',
-  'can_send_bulletins_desc' => 'Wird diese Einstellung auf <b>ja</b> gesetzt, dann können Mitglieder dieser Gruppe Mitteilungen senden und empfangen.',
-  'group_description_desc' => 'Eine kurze Beschreibung der Mitglieder-Gruppe.',
+'approve' => 'Genehmigen',
 
-  'create_channels' => 'Channel anlegen',
-  'delete_channels' => 'Channel löschen',
-  'channel_fields' => 'Channel-Felder',
-  'create_channel_fields' => 'Channel-Felder anlegen',
-  'edit_channel_fields' => 'Channel-Felder bearbeiten',
-  'delete_channel_fields' => 'Channel-Felder löschen',
-  'channel_categories' => 'Channel-Kategorien',
-  'create_categories' => 'Kategorien anlegen',
-  'edit_categories' => 'Kategorien bearbeiten',
-  'delete_categories' => 'Kategorien löschen',
-  'channel_statuses' => 'Status',
-  'create_statuses' => 'Status anlegen',
-  'edit_statuses' => 'Status bearbeiten',
-  'delete_statuses' => 'Status löschen',
-  'can_create_entries' => 'Einträge bearbeiten',
-  'can_edit_self_entries' => 'Eigene Einträge bearbeiten',
-  'file_upload_directories' => 'Datei-Upload-Verzeichnis',
-  'create_upload_directories' => 'Upload-Verzeichnis anlegen',
-  'edit_upload_directories' => 'Upload-Verzeichnis bearbeiten',
-  'delete_upload_directories' => 'Upload-Verzeichnis löschen',
-  'files' => 'Dateien',
-  'upload_new_files' => 'Neue Dateien hochladen',
-  'edit_files' => 'Dateien bearbeiten',
-  'delete_files' => 'Dateien löschen',
-  'rte_toolsets' => 'RTE-Sets',
-  'upload_new_toolsets' => 'Neue Sets hochladen',
-  'edit_toolsets' => 'Sets bearbeiten',
-  'delete_toolsets' => 'Sets löschen',
-  'create_member_groups' => 'Neue Gruppen anlegen',
-  'edit_member_groups' => 'Gruppen bearbeiten',
-  'delete_member_groups' => 'Gruppen löschen',
-  'create_members' => 'Neue Mitglieder anlegen',
-  'edit_members' => 'Mitglieder bearbeiten',
-  'template_groups' => 'Template-Gruppen',
-  'create_template_groups' => 'Neue Gruppen anlegen',
-  'edit_template_groups' => 'Gruppen bearbeiten',
-  'delete_template_groups' => 'Gruppen löschen',
-  'template_partials' => 'Template-Code-Teile',
-  'create_template_partials' => 'Neue Code-Teile anlegen',
-  'edit_template_partials' => 'Code-Teile bearbeiten',
-  'delete_template_partials' => 'Code-Teile löschen',
-  'template_variables' => 'Template-Variablen',
-  'templates' => 'Templates',
-  'create_template_variables' => 'Neue Variable anlegen',
-  'edit_template_variables' => 'Variable bearbeiten',
-  'delete_template_variables' => 'Variable löschen',
-  'template_permissions_desc' => 'Nutzer können alle gewählten Aktionen auf die unten gewählten Template-Gruppen anwenden.',
-  'create_new_templates' => 'Neue Templates anlegen',
-  'edit_templates' => 'Templates bearbeiten',
-  'delete_templates' => 'Templates löschen',
-  'access_settings' => 'Einstellungen',
-  'access_settings_desc' => 'Nutzer können auf alle gewählten Aktionen zugreifen.',
-  'content' => 'Inhalt',
-  'settings' => 'Einstellugen',
-  'can_access_security_settings' => 'Sicherheit und Privatsphäre',
-  'can_access_security_settings_desc' => 'Wenn auf <b>ja</b> gesetzt, können die Nutzer dieser Gruppe auf die Einstellungen vder Systemsicherheit und Privatsphäre zugreifen.',
-  'can_access_addon_settings' => 'Add-ons',
-  'member_settings' => 'Mitglieder-Einstellungen',
-  
-  /* for Version EE 4 */
-  
-  'ban_options_desc' => 'Sie können den Zugriff vollständig verhindern, indem Sie sie an eine andere Website weiterleiten oder eine einfache Nachricht anzeigen lassen. Auf der Zugriff auf eine Website im View-Only-Modus ist möglich. Wählen Sie.',
-  'ban_settings_updated' => 'Einstellungen aktualisiert',
-  
+'ascending' => 'Datum - Alteste zu erst',
+
+'author' => 'Autor',
+
+'banned_email' => 'Die von Ihnen angegebene Email-Adresse ist gesperrt',
+
+'btn_confirm_and_anonymize' => 'Bestätigen und anonymisieren',
+
+'btn_confirm_and_anonymize_working' => 'Anonymisiere...',
+
+'btn_confirm_and_decline' => 'Bestätigen und ablehnen',
+
+'btn_confirm_and_decline_working' => 'Lehne ab...',
+
+'can_attach_in_private_messages' => 'Anhänge zulassen',
+
+'can_attach_in_private_messages_desc' => 'Wenn aktiviert, können Benutzer, die dieser Gruppe zugewiesen sind, Dateien an persönliche Nachrichten anhängen.',
+
+'can_delete_categories' => 'Kann Kategorien löschen',
+
+'can_edit_categories' => 'Kann neue Kategorien bearbeiten und hinzufügen',
+
+'can_moderate_comments' => 'Darf Kommentare moderieren',
+
+'can_not_delete_self' => 'Sie dürfen Ihr eigenes Mitgliederkonto nicht löschen.',
+
+'can_send_private_messages' => 'Greifen Sie auf persönliche Mitteilungen zu',
+
+'can_send_private_messages_desc' => 'Wenn diese Option aktiviert ist, können Benutzer, die dieser Gruppe zugewiesen sind, persönliche Mitteilungen senden und empfangen.',
+
+'channel_entries' => 'Channel-Einträge',
+
+'comment' => 'Kommentar',
+
+'comments' => 'Kommentare',
+
+'confirm_decline' => 'Ablehnen bestätigen',
+
+'confirm_decline_desc' => 'Sie versuchen, die folgenden Mitglieder abzulehnen. Dadurch werden sie entfernt. Bitte bestätigen Sie diese Aktion.',
+
+'control_panel' => 'Control Panel (CP)',
+
+'copy_member_group' => 'Erstellen Sie eine neue Mitgliedergruppe auf der Grundlage von <b>%s</b>',
+
+'cp_log' => 'Control-Panel-Aktivität',
+
+'create_member' => 'Mitglied erstellen',
+
+'create_member_group' => 'Mitgliedergruppe erstellen',
+
+'create_new_member_group' => 'Eine neue Mitgliedergruppe erstellen',
+
+'custom_fields' => 'Benutzerdefinierte Felder',
+
+'custom_profile_fields' => 'Benutzerdefinierte Mitgliederfelder',
+
+'dates' => 'Datum',
+
+'decline' => 'Ablehnen',
+
+'delete_member' => 'Mitglied löschen',
+
+'delete_member_confirm' => 'Möchten Sie dieses Mitglied wirklich löschen?',
+
+'delete_member_group' => 'Mitgliedergruppe löschen',
+
+'delete_member_group_confirm' => 'Möchten Sie diese Mitgliedergruppe wirklich löschen?',
+
+'delete_members_confirm' => 'Möchten Sie diese Mitglieder wirklich löschen?',
+
+'delete_selected' => 'Ausgewählte Mitglieder löschen',
+
+'descending' => 'Datum - neueste zuerst',
+
+'edit_group' => 'Gruppe bearbeiten',
+
+'edit_member_group' => 'Mitgliedergruppe bearbeiten',
+
+'edit_profile' => 'Profil bearbeiten',
+
+'email' => 'Email',
+
+'email_address' => 'Email-Adresse',
+
+'email_asc' => 'Email - aufsteigend',
+
+'email_desc' => 'Email - absteigend',
+
+'email_taken' => 'Die von Ihnen gewählte Email-Adresse ist nicht verfügbar',
+
+'enable_lock' => 'Gruppen-Sicherheitssperre aktivieren',
+
+'exclude_from_moderation' => 'Mitglieder von der Kommentar-Moderation ausschließen',
+
+'exclude_from_moderation_desc' => 'Wenn aktiviert, können Benutzer dieser Gruppe Kommentare abgeben, ohne durch die <a href="%s">Standardeinstellungen</a> eingeschränkt zu werden.',
+
+'field_description' => 'Feld-Beschreibung',
+
+'field_description_info' => 'Feldbeschreibungen, die im Mitgliederformular angezeigt werden.',
+
+'field_order_updated' => 'Feldreihenfolge aktualisiert',
+
+'fieldlabel' => 'Feldbezeichnung',
+
+'filter_by' => 'Filtern nach',
+
+'filter_member_group' => 'Filtern nach Mitgliedergruppe',
+
+'filter_member_name' => 'Filtern nach Mitgliedername',
+
+'forum_posts' => 'Forum-Posts',
+
+'forum_topics' => 'Forums-Themen',
+
+'general_access' => 'Filtern nach Mitgliedername',
+
+'group_id' => 'Gruppen-ID',
+
+'group_lock' => 'Sicherheitsgruppe der Mitgliedergruppe',
+
+'group_title' => 'Gruppentitel',
+
+'heir_to_member_entries' => 'Dieses Mitglied hat Einträge, die seinem Konto zugewiesen sind. Was möchten Sie mit diesen Einträgen machen?',
+
+'heir_to_members_entries' => 'Einige dieser Mitglieder haben Einträge für ihre Konten. Was möchten Sie mit diesen Einträgen machen?',
+
+'heir_required' => 'Sie müssen ein Konto auswählen, dem Sie Einträge erneut zuweisen möchten.',
+
+'include_in_authorlist' => 'Autorenlisten',
+
+'include_in_memberlist' => 'Mitgliederlisten',
+
+'index' => 'Hauptindex-Seite',
+
+'invalid_password' => 'Das eingegebene Passwort war ungültig.',
+
+'invalid_path' => 'Der von Ihnen übermittelte Pfad ist ungültig.',
+
+'invalid_path_description' => 'Der folgende Pfad ist nicht gültig:',
+
+'ip_search' => 'IP-Adresssuche',
+
+'ip_search_instructions' => 'Sie können eine teilweise oder vollständige IP-Adresse angeben',
+
+'ip_search_no_results' => 'Deine Suche ergab keine Treffer',
+
+'ip_search_too_short' => 'Die von Ihnen eingegebene IP-Adresse ist zu kurz. Es muss mindestens 3 Zeichen lang sein.',
+
+'join_date' => 'Beitrittsdatum',
+
+'joined' => 'Beigetreten',
+
+'keywords' => 'Schlüsselwörter',
+
+'last_activity' => 'Letzte Aktivität',
+
+'last_visit' => 'Letzter Besuch',
+
+'lock_description' => 'Wenn aktiviert, können nur Super-Admins Mitglieder dieser Gruppe hinzufügen oder entfernen.',
+
+'locked' => 'Gesperrt',
+
+'login_as_member_description' => 'Wenn Sie auf Senden klicken, werden Sie als Mitglied "%screen_name%" angemeldet und auf die folgende Seite weitergeleitet.',
+
+'login_as_user' => 'Super-Admin als Benutzer anmelden',
+
+'manage_bans' => 'Gesperrte Mitglieder verwalten',
+
+'maximum_members_reached' => 'Sie haben die maximal zulässige Anzahl von Mitgliedern erreicht.',
+
+'mbr_email_address' => 'Email',
+
+'mbr_email_address_desc' => 'Wird für die Kommunikation mit diesem Benutzer verwendet.',
+
+'mbrs' => 'Mitglieder',
+
+'member' => 'Mitglied',
+
+'member_accounts' => 'Mitgliederkonten',
+
+'member_activation_resent_success' => 'Aktivierungs-Email erneut gesendet',
+
+'member_activation_resent_success_desc' => 'Eine Aktivierungs-Email wurde an  <b>%s</b> gesendet.',
+
+'member_anonymize_problem' => 'Es gab ein Problem, das Mitglied zu anonymisieren.',
+
+'member_anonymize_success' => 'Mitglied anonymisiert',
+
+'member_anonymize_success_desc' => 'Das Mitglied wurde anonymisiert.',
+
+'member_approve' => 'Mitglied genehmigen',
+
+'member_approved_success' => 'Mitglied genehmigt',
+
+'member_approved_success_desc' => 'Das Mitglied <b>%s</b> wurde genehmigt.',
+
+'member_assignment_none' => 'Keine Mitglieder dieser Gruppe werden gelöscht',
+
+'member_assignment_warning' => 'Mitglieder sind derzeit einigen dieser Gruppen zugeordnet. Welcher Mitgliedergruppe sollen sie neu zugewiesen werden?',
+
+'member_cfg' => 'Mitgliedergruppen-Einstellungen',
+
+'member_cfg_existing' => 'Mitgliedergruppe \'%s\' Einstellungen',
+
+'member_created' => 'Mitglied erstellt',
+
+'member_created_desc' => 'Das Mitglied <b>%s</b> wurde erstellt.',
+
+'member_declined_success' => 'Mitglied abgelehnt',
+
+'member_declined_success_desc' => 'Das Mitglied <b>%s</b> wurde abgelehnt.',
+
+'member_delete_success' => 'Das Mitglied <b>%s</ b> wurde abgelehnt.',
+
+'member_delete_problem' => 'Beim Löschen von Mitgliedern ist ein Problem aufgetreten.',
+
+'member_deleted' => 'Mitglied gelöscht',
+
+'member_field_not_saved' => 'Mitgliederfeld nicht gespeichert',
+
+'member_field_not_saved_desc' => 'Das Mitgliederfeld konnte nicht gespeichert werden',
+
+'member_field_saved' => 'Mitgliederfeld gespeichert',
+
+'member_field_saved_desc' => 'Mitgliederfeld wurde erfolgreich gespeichert.',
+
+'member_fields_removed_desc' => 'Die folgenden Mitgliederfelder wurden entfernt:',
+
+'member_group' => 'Mitgliedergruppe',
+
+'member_group_filter' => 'Mitgliedergruppe',
+
+'member_group_assignment' => 'Mitgliedergruppenzuordnung',
+
+'member_group_deleted' => 'Mitgliedergruppe gelöscht',
+
+'member_group_desc' => 'Weisen Sie diesem Mitglied Zugriffsberechtigungen zu.',
+
+'member_group_updated_desc' => 'Die Mitgliedergruppe wurde erfolgreich gespeichert.',
+
+'member_groups' => 'Mitgliedergruppen',
+
+'member_groups_removed_desc' => 'Die Mitgliedergruppe wurde erfolgreich gelöscht.',
+
+'member_groups_remove_problem' => 'Beim Löschen von Mitgliedergruppen ist ein Problem aufgetreten.',
+
+'member_has_cp_access' => 'Kann auf das Control Panel zugreifen',
+
+'member_id' => 'ID',
+
+'member_manager' => 'Mitgliederverwaltung',
+
+'member_not_created' => 'Mitglied kann nicht erstellt werden',
+
+'member_not_created_desc' => 'Wir konnten dieses Mitglied nicht erstellen. Bitte überprüfen und beheben Sie die Fehler unten.',
+
+'member_not_updated' => 'Mitglied kann nicht aktualisiert werden',
+
+'member_not_updated_desc' => 'Wir konnten dieses Mitglied nicht aktualisieren, bitte überprüfen und beheben Sie die Fehler unten.',
+
+'member_prefs' => 'Mitglieder-Einstellungen',
+
+'member_updated' => 'Mitgliederprofil gespeichert',
+
+'member_updated_desc' => 'Das Mitgliederprofil wurde erfolgreich gespeichert.',
+
+'member_validation' => 'Ausstehende Mitglieder aktivieren',
+
+'members_activation_resent_success_desc' => 'Aktivierungs-Emails wurden an folgende Mitglieder gesendet:',
+
+'members_approved_success' => 'Mitglieder genehmigt',
+
+'members_approved_success_desc' => 'Die folgenden Mitglieder wurden genehmigt:',
+
+'members_are_deleted' => 'Mitglieder wurden gelöscht',
+
+'members_are_validated' => 'Mitglied(er) wurde(n) aktiviert',
+
+'members_declined_success' => 'Mitglieder abgelehnt',
+
+'members_declined_success_desc' => 'Die folgenden Mitglieder wurden abgelehnt:',
+
+'members_deleted' => 'Mitglieder gelöscht',
+
+'missmatched_passwords' => 'Das Passwort und die Passwortbestätigung stimmen nicht überein',
+
+'moderation_actions' => 'Moderationsaktionen',
+
+'moderation_actions_desc' => 'Mitglieder in dieser Gruppe können alle ausgewählten Aktionen ausführen.',
+
+'new_member_added' => 'Neues Mitglied erstellt:',
+
+'no_banned_members_found' => 'Keine <b>gesperrten Mitglieder</b> gefunden.',
+
+'no_heirs_available' => 'Dem zu löschendem Mitglied sind Channel-Einträge zugewiesen',
+
+'no_members_found' => 'Keine <b>Mitglieder</b> gefunden.',
+
+'no_pending_members_found' => 'Keine <b>ausstehenden Mitglieder</b> gefunden.',
+
+'not_writable_path' => 'Der von Ihnen übermittelte Pfad ist nicht beschreibbar. Stellen Sie sicher, dass die Dateiberechtigungen auf 777 stehen.',
+
+'other' => 'Andere',
+
+'password_based_on_username' => 'Das Passwort darf nicht auf dem Benutzernamen basieren',
+
+'password_confirm' => 'Passwort bestätigen',
+
+'password_confirm_desc' => 'Geben Sie das gewünschte Passwort zur Bestätigung erneut ein.',
+
+'password_desc' => 'Verwenden Sie für die starke Passwörter sowohl Klein- und Großbuchstaben als auch Zahlen und Symbole.',
+
+'password_too_long' => 'Ihr Paswort darf nicht '.PASSWORD_MAX_LENGTH.' Zeichen lang sein.',
+
+'password_too_short' => 'Ihr Passwort muss mindestens %d Zeichen lang sein',
+
+'pending_activation' => 'Ausstehende Aktivierung',
+
+'pending_members' => 'Alle Mitglieder (ausstehende Aktivierung)',
+
+'personal_messaging' => 'Persönliche Mitteilungen',
+
+'preferences_updated' => 'Einstellungen aktualisiert',
+
+'priv_msg_privs' => 'Private Messaging-Berechtigungen',
+
+'profile_templates' => 'Vorlagen für Mitgliederprofile',
+
+'register_member' => 'Neues Mitlgied',
+
+'resend' => 'Aktivierungs-Email erneut senden',
+
+'save_member_group' => 'Mitgliedergruppe bearbeiten',
+
+'screen_name' => 'Bildschirmname',
+
+'screen_name_asc' => 'Bildschirmname - aufsteigend',
+
+'screen_name_desc' => 'Bildschirmname - absteigend',
+
+'screen_name_description' => 'Wird für die Anzeige alternativer Namen im Website-Inhalt verwendet',
+
+'screen_name_taken' => 'Der von Ihnen gewählte Name ist nicht verfügbar',
+
+'search' => 'Suche',
+
+'security_lock' => 'Sicherheitssperre',
+
+'send_email_notification' => 'Senden Sie eine Email-Benachrichtigung an jede Person',
+
+'sort_order' => 'Sortierreihenfolge',
+
+'thank_you' => 'Danke!',
+
+'title' => 'Titel',
+
+'topic' => 'Thema',
+
+'total_members' => 'Mitglieder insgesamt:',
+
+'unlocked' => 'Freigeschaltet',
+
+'username_asc' => 'Benutzernname - aufsteigend',
+
+'username_desc' => 'Benutzernname - absteigend',
+
+'username_description' => 'Wird für die Anmeldung bei ExpressionEngine verwendet.',
+
+'username_taken' => 'Der von Ihnen gewählte Benutzername ist nicht verfügbar',
+
+'username_too_long' => 'Ihr Benutzername darf nicht mehr als 50 Zeichen haben',
+
+'username_too_short' => 'Ihr Benutzername muss mindestens %d Zeichen haben',
+
+'valid_user_email' => 'Die von Ihnen gewählte Email ist ungültig',
+
+'validate_selected' => 'Ausgewählte Mitglieder aktivieren',
+
+'view_cp_logs' => 'Zeige die Login-Aktivitäten von %s',
+
+'view_members' => 'Mitglieder anzeigen',
+
+'view_search_members' => 'Mitglieder anzeigen/suchen',
+
+'visibility' => 'Sichtbarkeit',
+
+'your_account_ready' => 'Ihr Mitgliederkonto wurde aktiviert und kann verwendet werden.',
+
+'your_account_validated' => 'Ihr Konto wurde aktiviert.',
+
+'your_password' => 'Ihr Passwort',
+
+'your_password_desc' => 'Sie <b>müssen</b> Ihr Passwort eingeben, um ein Mitglied zu erstellen, das Zugang zum Control Panel haben soll.',
+
+'your_password_anonymize_members_desc' => 'Sie <b>müssen</b> Ihr Passwort eingeben, um Mitglieder zu anonymisieren.',
+
+'your_password_delete_members_desc' => 'Sie <b>müssen</b> Ihr Passwort eingeben, um Mitglieder löschen zu können.',
+
+'your_password_delete_member_groups_desc' => 'Sie <b>müssen</b> Ihr Passwort eingeben, um Mitgliedergruppen löschen zu können.',
+
+/* Member banning */
+'ban_message' => 'Diese Seite ist vorübergehend nicht verfügbar',
+
+'ban_options' => 'Wenn ein gesperrter Benutzer den Zugriff versucht',
+
+'ban_options_desc' => 'Sie können den Zugriff vollständig verhindern, indem Sie sie zu einer anderen Website weiterleiten, eine nicht verfügbare Nachricht anzeigen oder ihnen den Zugriff auf die Website im reinen Ansichtsmodus erlauben.',
+
+'ban_settings_updated' => 'Sperreinstellungen aktualisiert',
+
+'banned_members' => 'Gesperrte Mitglieder',
+
+'email_address_banning' => 'Email-Adressen',
+
+'email_banning_instructions' => '<b>Platzieren Sie jede Email-Adresse in einer separaten Zeile.</b><br> Sie können * als Platzhalter verwenden, z.B. *@hotmail.com',
+
+'ip_address_banning' => 'IP-Addressen',
+
+'ip_banning_instructions' => '<b>Platzieren Sie jede IP-Adresse in einer separaten Zeile.</b><br> Sie können * als Platzhalter verwenden, z.b: 123.345.*',
+
+'restrict_to_viewing' => 'Zugriff im Ansichtsmodus erlauben',
+
+'screen_name_banning' => 'Eingeschränkte Bildschirmnamen',
+
+'screen_name_banning_instructions' => '<b>Platzieren Sie jeden Bildschirmnamen in einer separaten Zeile.</b><br>Diese Bildschirmnamen sind nicht zulässig.',
+
+'send_to_site' => 'Weiterleiten',
+
+'show_this_message' => 'Zeige Mitteilung',
+
+'user_banning' => 'Verwaltung Mitgliedersperren',
+
+'username_banning' => 'Eingeschränkte Benutzernamen',
+
+'username_banning_instructions' => '<b>Platzieren Sie jeden Benutzernamen in einer separaten Zeile.</b><br> Diese Benutzernamen sind nicht zulässig.',
+
+
+/* Member group settings */
+'access_privilege_caution' => 'Jede Einstellung, die mit <span class="icon-caution" title="Mit Vorsicht anwenden"></span> gekennzeichnet ist, sollte nur Personen gewährt werden, denen Sie vertrauen.',
+
+'access_privilege_warning' => '<b>Achtung</b>: Bitte seien Sie sehr vorsichtig mit den von Ihnen gewährten Zugriffsrechten.',
+
+'access_utilities' => 'Zugriff auf Dienstprogramme',
+
+'access_utilities_desc' => 'Wenn aktiviert, können Mitglieder, die dieser Gruppe zugewiesen sind, auf den Bereich Dienstprogramme zugreifen.',
+
+'addon_access' => 'Add-On-Zugriffsberechtigungen',
+
+'addons_access' => 'Zulässiger Add-On-Zugriff',
+
+'addons_access_desc' => 'Benutzer können auf alle ausgewählten Add-Ons zugreifen.',
+
+'allowed_actions' => 'Erlaubte Aktionen',
+
+'allowed_actions_desc' => 'Benutzer können alle ausgewählten Aktionen ausführen.',
+
+'allowed_channels' => 'Erlaubte Channels',
+
+'allowed_channels_desc' => 'Benutzer können auf alle ausgewählten Channels mit den oben ausgewählten Aktionen zugreifen und diese ausführen.',
+
+'allowed_template_groups' => 'Erlaubte Templategruppen',
+
+'allowed_template_groups_desc' => 'Benutzer können alle oben ausgewählten Aktionen für die ausgewählten Templategruppen ausführen.',
+
+'applies_to_all_sites' => 'gilt für alle Websites',
+
+'be_careful_assigning_groups' => 'Seien Sie SEHR VORSICHTIG, wenn Sie Gruppeneinstellungen zuweisen, insbesondere der hervorgehobenen.',
+
+'can_access_addons' => 'Zugriff auf Add-Ons',
+
+'can_access_addons_desc' => 'Wenn aktiviert, können Benutzer, die dieser Gruppe zugewiesen sind, auf den Add-On-Manager zugreifen.',
+
+'can_access_communicate' => 'Kommunikation',
+
+'can_access_cp' => 'Zugang zum Control Panel',
+
+'can_access_cp_desc' => 'Wenn aktiviert, können Benutzer, die dieser Gruppe zugewiesen sind, auf das Control Panel zugreifen.',
+
+'can_access_data' => 'Datenzugang',
+
+'can_access_design' => 'Zugang zur Template-Manager',
+
+'can_access_design_desc' => 'Wenn aktiviert, können Benutzer, die dieser Gruppe zugewiesen sind, auf den Template-Manager zugreifen.',
+
+'can_access_file_manager' => 'Zugang zum Dateimanager',
+
+'can_access_files' => 'Dateimanager',
+
+'can_access_import' => 'Import',
+
+'can_access_logs' => 'Logs',
+
+'can_access_logs_desc' => 'Kann auf alle Protokolle zugreifen und sie bearbeiten (Entwickler, Systemsteuerung, Drosselung, E-Mail und Suche).',
+
+'can_access_members' => 'Zugang zur Mitgliederverwaltung',
+
+'can_access_members_desc' => 'Wenn aktiviert, haben Benutzer, die dieser Gruppe zugewiesen sind, Zugang zur Mitgliederverwaltung  ',
+
+'can_access_mod' => 'Zugang zur MODULE-Seite:',
+
+'can_access_sql' => 'SQL-Management',
+
+'can_access_sys_prefs' => 'Zugriff auf Einstellungen',
+
+'can_access_sys_prefs_desc' => 'Wenn aktiviert, können Benutzer, die dieser Gruppe zugewiesen sind, auf die Softwareeinstellungen zugreifen.',
+
+'can_access_tg' => 'Darf Templates in dieser Gruppe bearbeiten:',
+
+'can_access_translate' => 'Übersetzung',
+
+'can_access_utilities' => 'Zugang zu den Hilfsprogrammen',
+
+'can_admin_addons' => 'Add-ons installieren oder entfernen',
+
+'can_admin_addons_desc' => 'Wenn aktiviert, können Benutzer, die dieser Gruppe zugewiesen sind, Add-Ons installieren und entfernen.',
+
+'can_admin_channels' => 'Channels und Channel-Einstellungen verwalten',
+
+'can_admin_channels_desc' => 'Wenn aktiviert, können Benutzer auf den Channel-Manager und optional auf Felder, Kategorien und Status zugreifen.',
+
+'can_admin_design' => 'Globale Template-Einstellungen',
+
+'can_admin_design_desc' => 'Wenn aktiviert, können Benutzer, die dieser Gruppe zugewiesen sind, auf die globalen Template-Einstellungen und Template-Routes zugreifen.',
+
+'can_admin_mbr_groups' => 'Zugang zu Mitgliedergruppen',
+
+'can_admin_mbr_groups_desc' => 'Wenn aktiviert, können Benutzer, die dieser Gruppe zugewiesen sind, auf die Einstellungen für Mitglieder zugreifen.',
+
+'can_admin_mbr_templates' => 'Kann Mitgliederprofil-Vorlagen verwalten',
+
+'can_admin_members' => 'Mitglieder erstellen und bearbeiten',
+
+'can_admin_templates' => 'Kann Template-Gruppen und Templates verwalten',
+
+'can_admin_templates_desc' => 'Wenn aktiviert, können Benutzer, die dieser Gruppe zugewiesen sind, Template-Gruppen und Templates verwalten.',
+
+'can_admin_upload_prefs' => 'Kann Datei-Upload-Einstellungen verwalten',
+
+'can_assign_post_authors' => 'Darf Autoren-Namen beim Posten von Einträgen ändern',
+
+'can_ban_users' => 'Mitglieder sperren',
+
+'can_delete_all_comments' => 'Kommentare von Dritten löschen',
+
+'can_delete_all_entries' => 'Einträge von Dritten löschen',
+
+'can_delete_members' => 'Mitglieder löschen',
+
+'can_delete_own_comments' => 'Eigene Kommentare löschen',
+
+'can_delete_self' => 'Konto löschen',
+
+'can_delete_self_desc' => 'Wenn aktiviert, können Benutzer, die dieser Gruppe zugewiesen sind, ihre eigenen Konten ohne Genehmigung löschen',
+
+'can_delete_self_entries' => 'Eigene Einträge löschen',
+
+'can_edit_all_comments' => 'Kommentare von Dritten bearbeiten',
+
+'can_edit_html_buttons' => 'Kann eigene HTML-Formatierungs-Buttons bearbeiten',
+
+'can_edit_other_entries' => 'Einträge von Dritten bearbeiten',
+
+'can_edit_own_comments' => 'Eigene Kommentare bearbeiten',
+
+'can_email_from_profile' => 'Kann anderen Mitgliedern über die Profil-Email-Konsole eine Email senden',
+
+'can_email_member_groups' => 'Email an Mitgliedergruppen senden',
+
+'can_post_comments' => 'Kommentare senden',
+
+'can_post_comments_desc' => 'Wenn aktiviert, können Benutzer, die dieser Gruppe zugewiesen sind, Kommentare an die Website senden.',
+
+'can_post_in' => 'Kann Einträge veröffentlichen und bearbeiten in:',
+
+'can_search' => 'Zugriff auf die Suche',
+
+'can_search_desc' => 'Wenn aktiviert, können Benutzer, die dieser Gruppe zugewiesen sind, die Suchfunktion der Website verwenden.',
+
+'can_send_cached_email' => 'Anzeigen/Senden einer zwischengespeicherten Email',
+
+'can_view_offline_system' => 'Offline - <i>Nicht empfohlen</i>',
+
+'can_view_online_system' => 'Online',
+
+'can_view_other_comments' => 'Kann Kommentare in von anderen Autoren erstellten Channel-Einträgen anzeigen',
+
+'can_view_other_entries' => 'Kann Channel-Einträge anzeigen, die von Dritten erstellt wurden',
+
+'can_view_profiles' => 'Zugriff auf öffentliche Profile',
+
+'can_view_profiles_desc' => 'Wenn aktiviert, können Benutzer, die dieser Gruppe zugewiesen sind, öffentliche Profile anderer Mitglieder anzeigen.',
+
+'category_actions' => 'Kategorien',
+
+'category_actions_desc' => 'Benutzer können alle ausgewählten Aktionen ausführen.',
+
+'channel_entries_management' => 'Channel-Eintrags-Verwaltung',
+
+'channel_entry_actions' => 'Erlaubte Aktionen',
+
+'channel_entry_actions_desc' => 'Benutzer können alle ausgewählten Aktionen in den unten ausgewählten Channels ausführen.',
+
+'channels' => 'Channels',
+
+'choose_channels_per_site' => 'Gewünschten Channels pro Website auswählen',
+
+'comment_actions' => 'Moderationsaktionen',
+
+'comment_actions_desc' => 'Benutzer in dieser Gruppe können alle ausgewählten Aktionen ausführen.',
+
+'commenting' => 'Kommentieren',
+
+'commenting_privs' => 'Kommentar-Posting-Rechte',
+
+'cp_admin_privs' => 'Control-Panel-Verwaltung',
+
+'cp_channel_post_privs' => 'Channel-Zuordnung',
+
+'cp_channel_privs' => 'Verfassen- und Bearbeiten-Rechte in Channels',
+
+'cp_comment_privs' => 'Kommentar-Verwaltung',
+
+'cp_email_privs' => 'Control-Panel-Email-Rechte',
+
+'cp_module_access_privs' => 'Modul-Zugangsrechte',
+
+'cp_overview' => '<abbr title="Control Panel">CP</abbr>-Überblick',
+
+'cp_template_access_privs' => 'Template-Bearbeitungsrechte',
+
+'create_group_based_on_old' => 'Eine neue Gruppe basierend auf einer vorhandenen Gruppe erstellen',
+
+'custom_uri' => 'Benutzerdefinierter URI &mdash; <i>e.g. Mitglieder/Gruppe</i>',
+
+'default_cp_homepage' => 'Standard-<abbr title="Control Panel">CP</abbr>-Homepage',
+
+'default_cp_homepage_desc' => 'Startseite des <abbr title="Control Panel">CP</abbr>, die diese Gruppe beim Einloggen sehen soll.',
+
+'delete_confirmation_form' => 'Bestätigungs-Formular bei Konto-Löschung',
+
+'design' => 'Design',
+
+'edit_listing' => 'Liste aller bearbeiteten Einträge',
+
+'file_manager' => 'Dateimanager',
+
+'file_manager_desc' => 'Wenn aktiviert ist, können Benutzer, die dieser Gruppe zugewiesen sind, auf den Dateimanager zugreifen.',
+
+'footer_helper_links' => 'Info-Links im Footer anzeigen',
+
+'footer_helper_links_desc' => 'Wählen Sie aus, auf welche Links diese Mitgliedergruppe im CP-Footer zugreifen darf.',
+
+'global_cp_access' => 'Control-Panel-Zugang',
+
+'group_name' => 'Name',
+
+'group_name_desc' => 'Beschreibung der Gruppe, je genauer desto besser',
+
+'group_title_exists' => 'Es gibt bereits eine Mitgliedergruppe mit diesem Namen.',
+
+'homepage_news' => 'News auf der CP-Homepage anzeigen',
+
+'homepage_news_desc' => 'Wenn aktiviert ist, werden Benutzern, die dieser Gruppe zugewiesen sind, die ExpressionEngine-News auf der CP-Startseite angezeigt.',
+
+'include_members_in' => 'Alle Mitglieder in',
+
+'include_members_in_desc' => 'Benutzer in dieser Gruppe werden in alle ausgewählten Listentypen aufgenommen.',
+
+'mbr_account_privs' => 'Berechtigungen für Mitgliederkonten',
+
+'mbr_delete_notify_emails' => 'Email-Adresse(n) für die Benachrichtigung von Löschungen',
+
+'mbr_delete_notify_emails_desc' => 'Alle Empfänger werden benachrichtigt, wenn ein Benutzer sein Konto löscht. Trennen Sie mehrere Emails mit einem Komma.',
+
+'member_group_created' => 'Mitgliedergruppe erstellt:',
+
+'member_group_updated' => 'Mitgliedergruppe aktualisiert:',
+
+'members' => 'Mitglieder',
+
+'missing_group_title' => 'Die Mitgliedergruppe muss einen Namen haben',
+
+'must_have_channels' => 'Jede Website muss über Channels verfügen.',
+
+'no_cp_modules_installed' => 'Keine Module mit installiertem Control-Panel-Zugriff',
+
+'only_superadmins_can_admin_groups' => 'Nur Super-Admins können auf die Seite Mitgliedergruppen zugreifen',
+
+'prv_msg_send_limit' => 'Pro Tag maximal',
+
+'prv_msg_send_limit_desc' => 'Maximale Anzahl persönlicher Nachrichten, die ein Mitglied pro Tag senden darf.',
+
+'prv_msg_storage_limit' => 'Speicher maximal',
+
+'prv_msg_storage_limit_desc' => 'Maximale Anzahl persönlicher Nachrichten, die ein Benutzer in seinem Konto speichern kann.',
+
+'publish_form' => 'Redakteursformular',
+
+'search_flood_control' => 'Suchlimit (in Sekunden)',
+
+'search_flood_control_desc' => 'Zeitdauer zwischen Suchvorgängen, die ein Benutzer warten muss, bevor er eine weitere Suche ausführen darf.',
+
+'search_privs' => 'Such-Rechte',
+
+'site_access' => 'Website-Zugriff',
+
+'site_access_desc' => 'Mitglieder in dieser Gruppe haben Zugriff auf die Website für jeden gewählten Status.',
+
+'super_admin_edit_note' => 'Hinweis: Sie können nur den Namen und die Beschreibung der Super-Admin-Gruppe ändern',
+
+'template_manager' => 'Template-Manager',
+
+'tools_utilities' => 'Dienstprogramme',
+
+'utilities_section' => 'Dienstprogramme',
+
+'utilities_section_desc' => 'Benutzer können auf alles Ausgewählte zugreifen.',
+
+'utility' => 'Dienstprogramm',
+
+'warning' => 'WARNUNG:',
+
+
+/* Member fields */
+'access_settings' => 'Einstellungen',
+
+'access_settings_desc' => 'Benutzer können auf alle ausgewählten Abschnitte zugreifen. ',
+
+'activation_email_resent' => 'Aktivierungs-Email erneut gesendet',
+
+'activation_emails_resent' => 'Aktivierungs-Emails werden erneut gesendet',
+
+'can_access_addon_settings' => 'Add-Ons',
+
+'can_manage_consents' => 'Einwillungs-Anfragen',
+
+'can_manage_consents_desc' => 'Wenn aktiviert, können Mitglieder dieser Gruppe Einwilligungsanfragen verwalten.',
+
+'can_access_security_settings' => 'Sicherheit &amp; Privatsphäre',
+
+'can_access_security_settings_desc' => 'Wenn aktiviert, können Mitglieder dieser Gruppe auf die Systemsicherheits- und Datenschutzeinstellungen zugreifen.',
+
+'can_access_site' => 'Kann auf die Site zugreifen',
+
+'can_create_entries' => 'Einträge erstellen',
+
+'can_edit_self_entries' => 'Eigene Einträge bearbeiten',
+
+'can_not_delete_only_member' => 'Sie können das einzige Mitglied in der Datenbank nicht löschen',
+
+'can_send_bulletins' => 'Kann Bordmitteilungen senden',
+
+'can_send_bulletins_desc' => 'Wenn aktiviert, können Benutzer, die dieser Gruppe zugewiesen sind, Bordmitteilungen senden.',
+
+'cannot_change_your_group' => 'Super-Admins können ihre Mitgliedergruppenzuordnung nicht ändern. Bitte lassen Sie sich von einem anderen Super-Admin neu zuweisen.',
+
+'cannot_delete_super_admin' => 'Sie dürfen den einzigen Super-Admin nicht löschen. Bitte erstellen Sie zuerst einen neuen Super-Admin.',
+
+'channel_categories' => 'Channel-Kategorien',
+
+'channel_fields' => 'Channel-Felder',
+
+'channel_statuses' => 'Status',
+
+'content' => 'Inhalt',
+
+'create_categories' => 'Kategorien anlegen',
+
+'create_channel_fields' => 'Channel-Felder erstellen',
+
+'create_channels' => 'Channels erstellen',
+
+'create_member_field' => 'Mitgliederfelder erstellen',
+
+'create_member_groups' => 'Neue Mitgliedergruppen erstellen',
+
+'create_members' => 'Neue Mitglieder erstellen',
+
+'create_new_profile_field' => 'Neues Mitgliederfeld erstellen',
+
+'create_new_templates' => 'Neue Templates erstellen',
+
+'create_statuses' => 'Status anlegen',
+
+'create_template_groups' => 'Neue Templategruppen erstellen',
+
+'create_template_partials' => 'Neue Partials erstellen',
+
+'create_template_variables' => 'Neue Variablen anlegen',
+
+'create_upload_directories' => 'Upload-Verzeichnisse anlegen',
+
+'current_fields' => 'Mitgliederfelder',
+
+'custom_member_fields' => 'Mitgliederfelder',
+
+'delete_categories' => 'Kategorien löschen',
+
+'delete_channel_fields' => 'Channel-Felder löschen',
+
+'delete_channels' => 'Channels löschen',
+
+'delete_files' => 'Dateien löschen',
+
+'delete_member_groups' => 'Mitgliedergruppen löschen',
+
+'delete_profile_field_confirmation' => 'Möchten Sie dieses Mitgliederprofilfeld endgültig löschen?',
+
+'delete_statuses' => 'Status löschen',
+
+'delete_template_groups' => 'Templategruppen löschen',
+
+'delete_template_partials' => 'Partials löschen',
+
+'delete_template_variables' => 'Templatevariablen löschen',
+
+'delete_templates' => 'Templates löschen',
+
+'delete_toolsets' => 'Sets löschen',
+
+'delete_upload_directories' => 'Upload-Verzeichnisse löschen',
+
+'edit_categories' => 'Kategorien bearbeiten',
+
+'edit_channel_fields' => 'Channel-Felder bearbeiten',
+
+'edit_files' => 'Dateien bearbeiten',
+
+'edit_member_field' => 'Feld bearbeiten',
+
+'edit_member_groups' => 'Mitgliedergruppen bearbeiten',
+
+'edit_members' => 'Mitglieder bearbeiten',
+
+'edit_statuses' => 'Status bearbeiten',
+
+'edit_template_groups' => 'Templategruppen bearbeiten',
+
+'edit_template_partials' => 'Partials bearbeiten',
+
+'edit_template_variables' => 'Templatevariablen bearbeiten',
+
+'edit_templates' => 'Templates bearbeiten',
+
+'edit_toolsets' => 'Sets bearbeiten',
+
+'edit_upload_directories' => 'Upload-Verzeichnisse bearbeiten',
+
+'email_console_log' => 'Email-Konsole-Logs',
+
+'email_deleted' => 'Email-Nachricht(en) gelöscht',
+
+'email_title' => 'Email-Titel',
+
+'exclude_from_anonymization' => 'Von Anonymisierungs-Aktionen ausschließen?',
+
+'exclude_from_anonymization_desc' => 'Wenn aktiviert, wird dieses Feld nicht durch Aktionen zur Anonymisierung (Recht auf Vergessen) beeinflusst.', // TODO: docs link
+
+'field_created' => 'Feld erstellt',
+
+'field_format' => 'Textformatierung',
+
+'field_updated' => 'Feld aktualisiert',
+
+'field_width' => 'Feldbreite',
+
+'field_width_cont' => 'Kann in Pixel oder Prozent angegeben werden',
+
+'fieldname' => 'Feldname',
+
+'fieldname_cont' => 'Einzelwort, keine Leerzeichen. Unterstriche und Bindestriche erlaubt',
+
+'file_upload_directories' => 'Verzeichnisse zum Hochladen von Dateien',
+
+'files' => 'Dateien',
+
+'for_profile_page' => 'Wird auf der Mitgliederprofilseite angezeigt',
+
+'from' => 'Von',
+
+'group_description' => 'Beschreibung',
+
+'group_description_desc' => 'Eine kurze Beschreibung des Zwecks dieser Gruppe.',
+
+'invalid_characters' => 'Der Feldname, den Sie übermittelt haben, enthält ungültige Zeichen',
+
+'is_field_cp_reg' => 'Ist das Feld im Control Panel auf der administrativen Registrierungsseite sichtbar?',
+
+'is_field_public' => 'Im Profil anzeigen?',
+
+'is_field_public_cont' => 'Wenn aktiviert, wird dieses Feld in öffentlichen Profilen angezeigt.',
+
+'is_field_reg' => 'In der Registrierung anzeigen?',
+
+'is_field_reg_cont' => 'Wenn aktiviert, wird dieses Feld in den Registrierungsformularen angezeigt.',
+
+'m_max_length' => 'Maximale Länge',
+
+'max_length_cont' => 'Für Textfeldtypen',
+
+'member_data_will_be_deleted' => 'Alle in diesem Feld enthaltenen Mitgliederdaten werden dauerhaft gelöscht',
+
+'member_delete_dont_reassign_entries' => 'Die Einträge des Mitglieds löschen',
+
+'member_delete_reassign_entries' => 'Die Einträge des Mitglieds neu zuordnen:',
+
+'member_search_instructions' => 'Füllen Sie mindestens ein Feld aus. Sie können teilweise oder vollständige Wörter einreichen.',
+
+'member_search_results' => 'Mitglieder-Suchergebnisse',
+
+'member_settings' => 'Mitgliedereinstellungen',
+
+'message_sent_to' => 'Nachricht gesendet an:',
+
+'must_be_superadmin_to_delete_one' => 'Sie müssen ein Super-Admin sein, um einen Super-Admin löschen zu können',
+
+'no_cached_email' => 'Keine <b>zwischengespeicherten Emails</b> gefunden.',
+
+'no_custom_profile_fields' => 'Derzeit gibt es keine Mitgliederfelder.',
+
+'no_search_results' => 'Ihre Suche ergab keine Treffer',
+
+'preference' => 'Voreinstellung',
+
+'preferences' => 'Voreinstellungen',
+
+'profile_field_deleted' => 'Mitgliederfeld gelöscht:',
+
+'pull_down_instructions' => 'Jede Option auf eine eigene Zeile',
+
+'pull_down_items' => 'Auswahllisten-Optionen wählen',
+
+'pull_down_items_cont' => 'Für Dropdown-Menüs',
+
+'resend_activation_email' => 'Aktivierungsemail erneut senden',
+
+'resend_activation_emails' => 'Aktivierungsemails erneut senden',
+
+'rte_toolsets' => 'RTE-Sets',
+
+'search_member_groups_button' => 'Mitgliedergruppen suchen',
+
+'search_members_button' => 'Mitglieder suchen',
+
+'setting' => 'Einstellung',
+
+'settings' => 'Einstellugnen',
+
+'show_all_banned' => 'Alle %d gesperrt',
+
+'show_all_member_groups' => 'Alle %d Mitgliedergruppen',
+
+'show_all_members' => 'Alle %d Mitglieder',
+
+'show_all_pending' => 'Alle %d Ausstehenden',
+
+'template_groups' => 'Templategruppen',
+
+'template_partials' => 'Template-Partials',
+
+'template_permissions_desc' => 'Benutzer können alle gewählten Aktionen auf die unten gewählten Template-Gruppen anwenden.',
+
+'template_variables' => 'Template-Variablen',
+
+'templates' => 'Templates',
+
+'text_area_rows' => 'Textfeldzeilen',
+
+'text_area_rows_cont' => 'Für Textfeldtypen',
+
+'to' => 'An',
+
+'upload_new_files' => 'Neue Dateien hochladen',
+
+'upload_new_toolsets' => 'Neue Sets hochladen',
+
 );
 
-/* End of file members_lang.php */
-/* Location: ./system/user/language/deutsch/members_lang.php */
+// EOF

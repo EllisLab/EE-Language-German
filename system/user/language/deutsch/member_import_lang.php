@@ -28,7 +28,7 @@ $lang = array(
 
 'convert_from_delimited' => 'Feldgetrennter Text nach XML konvertieren',
 
-'convert_from_delimited_blurb' => 'Allows you to create an ExpressionEngine Member XML file from another application\'s delimited text file',
+'convert_from_delimited_blurb' => 'Ermöglicht das Erstellen einer ExpressionEngine Member-XML-Datei aus einer mit Trennzeichen versehenen Textdatei einer anderen Anwendung.',
 
 'create_xml' => 'XML erstellen',
 
@@ -42,7 +42,7 @@ $lang = array(
 
 'default_settings_blurb' => 'Setzen Sie die gewünschten Optionen als Standard. Diese Standardoptionen kommen nur zur Anwendung, wenn der entsprechende Wert im XML-File nicht vorhanden ist. Diese Optionen überschreiben die XML-Daten NICHT.',
 
-'delimited_file_loc' => 'Speicherort der Mitgliedsdatei',
+'delimited_file_loc' => 'Speicherort der Mitgliederdatei',
 
 'delimiter' => 'Zeichen abgrenzen',
 
@@ -54,17 +54,17 @@ $lang = array(
 
 'duplicate_field_assignment' => 'Duplizierte Feldzuweisung: %x',
 
-'duplicate_member_id' => 'Duplizierte Mitglieder-ID: "%x"<br />Es wird empfohlen, den &lt;member_id&gt;-Tag nicht zu nutzen und ExpressionEngine die "member_id" selber hochzählen zu lassen.',
+'duplicate_member_id' => 'Duplizierte Mitglieder-ID: "%x"<br />Es wird empfohlen, den &lt;member_id&gt;-Tag nicht zu nutzen und ExpressionEngine die member_id selber hochzählen zu lassen.',
 
 'duplicate_username' => 'Benutzername duplizieren: ',
 
 'enclosure' => 'Einschließende Zeichen',
 
-'enclosure_blurb' => 'Dieses Zeichen umschliesst die Daten, falls vorhanden. Im folgenden Beispiel ist das einschließende Zeichen ein doppelter Anführungsstrich: "<br />',
+'enclosure_blurb' => 'Dieses Zeichen umschliesst die Daten, falls welche vorhanden. Im folgenden Beispiel ist das einschließende Zeichen ein doppelter Anführungsstrich: "<br />',
 
 'enclosure_example' => '"John Doe", "jdoe", "john@example.com", ...',
 
-'enclosure_label' => 'Einschliessen: ',
+'enclosure_label' => 'Einschließen: ',
 
 'encrypted_passwords' => 'Passwörter sind bereits verschlüsselt',
 
@@ -114,7 +114,7 @@ $lang = array(
 
 'member_fields' => 'Mitgliederfelder',
 
-'member_id_warning' => 'WARNUNG: Es sind &lt;member_id&gt;-Tags im XML, bestehende Mitglieder mit selber "member_id" werden überschrieben!  Mit Vorsicht fortfahren!',
+'member_id_warning' => 'WARNUNG: Es sind &lt;member_id&gt;-Tags im XML, bestehende Mitglieder mit gleicher member_id werden überschrieben!  Mit Vorsicht fortfahren!',
 
 'member_import_utility' => 'Dienstprogramm Mitglieder-Import',
 
@@ -126,7 +126,7 @@ $lang = array(
 
 'missing_screen_name_field' => 'Es muss ein Feld für "Bildschirmname" zugewiesen sein',
 
-'missing_username_field' => 'Es muss ein Feld für "Username" zugewiesen sein',
+'missing_username_field' => 'Es muss ein Feld für "Benutzername" zugewiesen sein',
 
 'new_fields_success' => 'Die folgenden benutzerdefinierten Mitgliederfelder wurden erfolgreich hinzugefügt:',
 
@@ -148,7 +148,7 @@ $lang = array(
 
 'parse_error' => 'Parse-Fehler',
 
-'password_field_warning' => 'Hinweis: Wird keines der Felder auf "Passwort" abgestimmt, wird dem Mitglied zufällig ein Passwort zugeteilt. Es muss dann mit "Passwort vergessen?" einloggen.',
+'password_field_warning' => 'Hinweis: Wird keines der Felder auf "Passwort" abgestimmt, wird dem Mitglied zufällig ein Passwort zugeteilt. DAs Mitglied muss dann mit "Passwort vergessen?" einloggen.',
 
 'password_warning' => 'Passwort-Warnung',
 

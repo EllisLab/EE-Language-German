@@ -2,73 +2,102 @@
 
 $lang = array(
 
-  'tools' => 'Tools',
-  'tools_data' => 'Daten',
-  'tools_logs' => 'Logs',
-  'tools_utilities' => 'Hilfsprogramme',
+'advanced_users_only' => 'Nur für fortgeschrittene Benutzer',
 
-  'communicate'			=> 'Communicate',
+'all_caching' => 'Alle Caches',
 
-  'config_editor'			=> 'Konfigurations-Editor',
-  'php_info' 				=> 'PHP-Info',
-  'recount_stats' 		=> 'Recount Statistics',
-  'search_and_replace' 	=> 'Suchen und ersetzen',
-  'sql_manager' 			=> 'SQL-Manager',
-  'clear_caching'	 		=> 'Cache löschen',
+'choose_translation_file' => 'Wählen Sie eine zu übersetzende Datei',
 
-  'import_utilities' => 'Import-Hilfsprogramm',
-  'translation_tool' => 'Übersetzungshilfe',
-  'english' => 'English',
-  'translation' => 'Übersetzung',
+'clear_caching' => 'Zwischengespeicherte Daten löschen',
 
-  'no_search_results' => 'Keine Treffer gefunden',
+'communicate' => 'Kommunikation',
 
-  'search_results' => 'Suchergebnisse',
-  'site_search' => 'Site',
-  'searched_in' => 'Gesucht in',
-  'search_terms' => 'Suchbegriffe',
+'config_editor' => 'Dateimanager konfigurieren',
 
-  'page_caching' => 'Seiten (Template) Dateien cachen',
-  'tag_caching' => 'Tag-Dateien cachen',
-  'db_caching' => 'Datenbank-Dateien cachen',
-  'all_caching' => 'Alle Caches',
+'db_caching' => 'Datenbank-Cache-Dateien',
 
-  'sandr_instructions' => 'Das Formular erlaubt die Suche nach einem bestimmten Text und ersetzt ihn mit einem anderem',
-  'search_term' => 'Suche nach diesem Text',
-  'replace_term' => 'und ersetze ihn mit diesem Text',
-  'replace_where' => 'In welchem Datenbank-Feld soll das Austauschen stattfinden',
-  'search_replace_disclaimer' => 'Je nach verwendeter Syntax kann diese Funktion unerwünschte Resultate ergeben. Bitte lesen Sie das Handbuch und sichern Sie Ihre Datenbank.',
-  'advanced_users_only' => 'NUR fortgeschrittene User',
+'english' => 'Englisch',
 
-  'choose_translation_file' => 'Eine Datei zum Übersetzen wählen',
-  'no_lang_file' => 'Keine Sprachdatei vorhanden',
-  'no_lang_keys' => 'Kein Sprachauswahl zum Übersetzen vorhanden',
-  'invalid_path' => 'Der angegebene Pfad ist ungültig:',
-  'trans_file_not_writable' => 'Übersetzungsdatei ist nicht beschreibbar',
+'european' => 'Europäisch',
 
-  'member_import' => 'Mitglieder-Import-Hilfe',
-  'missing_password_type' => 'Das erforderliche Attribut wird im Passwortelement für Benutzer %x vermisst. Für das richtige Import-Format bitte die Dokumentation lesen. ',
+'import_utilities' => 'Dienstprogramme importieren',
 
-  'united_states' => 'United States',
-  'european' => 'Europa',
+'invalid_path' => 'Der übermittelte Pfad ist ungültig:',
+
+'member_import' => 'Hilfsprogramm zum Importieren von Mitgliedern',
+
+'missing_password_type' => 'Das erforderliche Attribut wird im Passwortelement für Benutzer %x vermisst. Für das richtige Import-Format bitte die Dokumentation lesen.',
+
+'no_lang_file' => 'Keine Sprachdatei bereitgestellt',
+
+'no_lang_keys' => 'Es sind keine Sprachschlüssel zum Übersetzen vorhanden',
+
+'no_search_results' => 'Keine Ergebnisse gefunden',
+
+'page_caching' => 'Seiten-(Template-)Cache-Dateien',
+
+'php_info' => 'PHP Info',
+
+'recount_stats' => 'Statistiken nachzählen',
+
+'replace_term' => ' Und ersetze es durch diesen Text',
+
+'replace_where' => 'In welcher Datenbank soll der Austausch erfolgen?',
+
+'sandr_instructions' => 'Mit diesen Formularen können Sie nach Text suchen und ihn durch einen anderen Text ersetzen',
+
+'search_and_replace' => 'Suchen und Ersetzen',
+
+'search_replace_disclaimer' => 'Abhängig von der verwendeten Syntax kann diese Funktion zu unerwünschten Ergebnissen führen. Konsultieren Sie das Benutzerhandbuch und sichern Sie Ihre Datenbank.',
+
+'search_results' => 'Suchergebnisse',
+
+'search_term' => 'Suchen nach diesem Text',
+
+'search_terms' => 'Suchbegriffe',
+
+'searched_in' => 'Gesucht in',
+
+'site_search' => 'Site',
+
+'sql_manager' => 'SQL-Manager',
+
+'tag_caching' => 'Tag-Cache-Dateien',
+
+'tools' => 'Tools',
+
+'tools_data' => 'Daten',
+
+'tools_logs' => 'Logs',
+
+'tools_utilities' => 'Hilfsprogramme',
+
+'trans_file_not_writable'=> 'Die Übersetzungsdatei ist nicht beschreibbar.',
+
+'translation' => 'Übersetzung',
+
+'translation_tool' => 'Übersetzungs-Hilfsprogramm',
+
+'united_states' => 'USA',
 
 
-  /* Config Editor */
-  'preference' => 'Einstellungen',
-  'setting' => 'Einstellung',
-  'preferences_updated' => 'Einstellungen aktualisiert',
-  'true' => 'Wahr',
-  'false' => 'Falsch',
+/* Config Editor */
+'false' => 'Falsch',
+
+'preference' => 'Einstellungen',
+
+'preferences_updated' => 'Einstellungen aktualisiert',
+
+'setting' => 'Einstellung',
+
+'true' => 'Wahr',
 
 
-  /* Translation */
-  'translation_dir_unwritable' => 'Warnung: Das Translation-Verzeichnis ist nicht beschreibbar.',
+/* Translation */
+'screen_name' => 'Bildschirmname',
 
-  'screen_name' => 'Bildschirm-Name',
+'translation_dir_unwritable' => 'Warnung: Das Übersetzungs-Verzeichnis ist nicht beschreibbar.',
 
-
-  ''=>''
 );
 
-/* End of file tools_lang.php */
-/* Location: ./system/user/language/deutsch/tools_lang.php */
+// EOF

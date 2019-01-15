@@ -1,95 +1,115 @@
 <?php
+
 $lang = array(
 
-
-'pages_module_name' => 'Seiten (Pages)',
-
-'pages_module_description' => 'Statische Seiten in Channel-Einträge erzeugen',
-
-'pages_homepage' => 'Seiten-Homepage',
-
-'page' => 'Seiten',
-
-'pages_uri' => 'Seiten-URI',
-
-'no_pages' => 'Es bestehen noch keine Seiten',
-
-'create_page' => 'Neue Seite erstellen',
-
-'page_name' => 'Seiten-Name',
-
-'edit_page' => 'Seite bearbeiten',
-
-'view_page' => 'Seite zeigen',
-
-'page_settings' => 'Seiten-Einstellungen',
-
-'none' => 'Keine',
-
-'template' => 'Template',
-
-'parent_page' => 'Eltern-Seite',
+'all_pages' => 'Alle Seiten (Pages)',
 
 'channel_entry' => 'Channel-Eintrag',
 
 'choose_entry' => 'Eintrag wählen',
 
-'pages_delete_confirm' => 'Seiten löschen',
+'choose_template' => 'Template für die Anzeige der Seite wählen',
 
-'pages_delete_question' => 'Wollen Sie wirklich den gewählten Seiten URI löschen?&lt;br /&gt;&lt;em&gt;Hinweis: Eine Seite löschen, löscht nur den URL. Der Eintrag wird nicht gelöscht&lt;/em&gt;',
-
-'page_deleted' => 'Seite gelöscht',
-
-'pages_deleted' => 'Seiten gelöscht',
+'configuration_updated' => 'Konfiguration aktualisiert',
 
 'create_entry' => 'Eintrag erstellen',
 
-'choose_template' => 'Template für die Anzeige der Seite wählen',
+'create_new' => 'Neu erstellen',
 
-'invalid_page_name' => 'Ungültiger Seiten-Name angegeben',
+'create_page' => 'Neue Seite erstellen',
 
-'invalid_template' => 'Es muss ein gültiges Template zur Anzeige der Seite gewählt werden',
+'create_template' => 'Template erstellen',
+
+'default_for_page_creation' => 'Standard-Channel für den Tab \'Neue Seite erstellen\'',
+
+'default_template' => 'Standard-Template',
+
+'duplicate_page_uri' => 'Dupliziere Seiten-URI',
+
+'edit_page' => 'Seite bearbeiten',
+
+'example_uri' => '/bespiel/pages/uri/',
+
+'filter_channels' => 'Channels filtern',
+
+'invalid_page_name' => 'Ungültiger Seitenname übermittelt',
+
+'invalid_page_num_segs' => 'Sie haben die Anzahl der zulässigen URI-Segmente in der Seiten-URL überschritten',
+
+'invalid_page_uri' => 'URI für ungültige Seite',
+
+'invalid_template' => 'Sie müssen ein gültiges Template auswählen, um diese Seite anzuzeigen.',
+
+'nested' => 'Verschachtelt',
+
+'no_default' => 'Kein Standard',
+
+'no_pages' => 'Derzeit sind keine Seiten vorhanden',
+
+'not_nested' => 'Nicht verschachtelt',
+
+'page' => ' Seite (Page)',
 
 'page_created' => 'Seite erstellt',
 
+'page_name' => 'Seitenname',
+
+'page_settings' => 'Seiten-Einstellungen',
+
 'page_updated' => 'Seite aktualisiert',
 
-'invalid_page_uri' => 'Ungültiger Seiten-URI',
+'page_url' => 'Seiten-URL',
 
-'invalid_page_num_segs' => 'Sie haben in dem Seiten-URL die Anzahl möglicher URI-Segmente überschritten',
+'pages_channel' => 'Channel',
 
-'pages_configuration' => 'Modul-Konfiguration',
+'pages_channel_desc' => 'Standard-Channel zum Erstellen neuer Seiten.',
+
+'pages_configuration' => 'Modulkonfiguration',
+
+'pages_deleted_desc' => 'Die folgenden Seiten-URLs wurden gelöscht',
+
+'pages_display_on_homepage' => 'Anzeige von URIs auf der Modul-Startseite',
+
+'pages_display_urls' => 'Anzeige von <abbr title="Unified Resource Locator">URL</abbr>s?',
+
+'pages_display_urls_desc' => 'Bei der Einstellung <b>Verschachtelt</b> werden <abbr title="Unified Resource Locator">URLs</abbr> in einer verschachtelten Hierarchie angezeigt.',
+
+'pages_homepage' => 'Seiten-Startseite',
+
+'pages_manager' => 'Seiten-Manager',
+
+'pages_module_description' => 'Verwendet Channel-Einträge, um statische Seiten (Pages) zu erstellen',
+
+'pages_module_name' => 'Seiten',
+
+'pages_no_default' => 'Kein Standard',
+
+'pages_settings' => 'Seiten-Einstellungen',
+
+'pages_templates' => 'Templates',
+
+'pages_templates_desc' => 'Standard-Templates für jeden Channel.',
+
+'pages_uri' => 'Seiten-URI',
+
+'pages_url_nested' => 'Verschachtelt',
+
+'pages_url_not_nested' => 'Nicht verschachtelt',
+
+'parent_page' => 'Übergeordnete Seite',
+
+'preference' => 'Voreinstellung',
 
 'preference_name' => 'Voreingestellter Name',
 
 'preference_value' => 'Voreingestellter Wert',
 
-'default_template' => 'Standard-Template',
-
-'default_for_page_creation' => 'Standard-Channel für &#39;Neue Seite erstellen&#39; Tab',
-
-'no_default' => 'Kein Standard',
-
-'configuration_updated' => 'Konfiguration aktualisiert',
-
-'duplicate_page_uri' => 'Dupliziere Seiten URI',
-
-'pages_display_on_homepage' => 'Anzeige von URIs auf der Modul-Homepage',
-
-'nested' => 'Verschachtelt',
-
-'not_nested' => 'Nicht verschachtelt',
-
-'preference' => 'Voreinstellung',
-
 'setting' => 'Einstellung',
 
-'example_uri' => '/beispiel/pages/uri/',
+'template' => 'Template',
 
-'translate' => 'Update',
+'view_page' => 'Seite anzeigen',
 
-''=>''
 );
 
-/* End of file pages_lang.php */
-/* Location: ./system/user/language/deutsch/pages_lang.php */
+// EOF

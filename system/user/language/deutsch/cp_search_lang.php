@@ -2,7 +2,7 @@
 
 $lang = array(
 
-'cont_category_management' => 'Kategorien-Verwaltung',
+'cont_category_management' => 'Kategorien-Manager',
 
 'cont_field_group_management' => 'Feldergruppen-Verwaltung',
 
@@ -10,7 +10,7 @@ $lang = array(
 
 'data_php_info' => 'PHP-Info',
 
-'data_recount_stats' => 'Neuzählung Stats',
+'data_recount_stats' => 'Neuzählung Statistik',
 
 'data_search_and_replace' => 'Suchen und Ersetzen',
 
@@ -18,11 +18,11 @@ $lang = array(
 
 'design_email_notification' => 'Emailbenachrichtigungs-Template',
 
-'design_member_profile_templates' => 'Mitgliedsprofil-Template',
+'design_member_profile_templates' => 'Mitgliederprofil-Template',
 
 'design_system_offline' => 'System-Offline-Template',
 
-'design_user_message' => 'Mitglieds-Mitteilungen-Template',
+'design_user_message' => 'Mitgliedermitteilungs-Template',
 
 'exte_index' => 'Extensions',
 
@@ -38,19 +38,19 @@ $lang = array(
 
 'member_banning' => 'Mitglied sperren',
 
-'member_config' => 'Mitglieds-Konfiguration',
+'member_config' => 'Mitgliederkonfiguration',
 
 'member_custom_profile_fields' => 'Eigene Profilfelder',
 
 'member_group_manager' => 'Mitgliedergruppen-Verwaltung',
 
-'member_ip_search' => 'Mitglieds-IP-Suche',
+'member_ip_search' => 'Mitglieder-IP-Suche',
 
 'member_register_member' => 'Mitglieder eintragen',
 
 'member_search' => 'Mitglied suchen',
 
-'member_validation' => 'Mitglieder-Überprüfung',
+'member_validation' => 'Mitgliederüberprüfung',
 
 'member_view_members' => 'Mitglieder zeigen',
 

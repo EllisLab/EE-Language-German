@@ -1,17 +1,13 @@
 <?php
+
 $lang = array(
 
-
-'rss_module_name' => 'RSS',
+'rss_invalid_channel' => 'Der in Ihrem RSS-Feed angegebene Channel ist nicht vorhanden.',
 
 'rss_module_description' => 'RSS: Seiten-Generator-Modul',
 
-'rss_invalid_channel' => 'Der im RSS-Feed angegebene Channel existiert nicht.',
+'rss_module_name' => 'RSS',
 
-'translate' => 'Update',
-
-''=>''
 );
 
-/* End of file rss_lang.php */
-/* Location: ./system/user/language/deutsch/rss_lang.php */
+// EOF

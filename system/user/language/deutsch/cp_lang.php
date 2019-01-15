@@ -26,25 +26,25 @@ $lang = array(
 
 /* Control Panel */
 'action_can_not_be_undone' => 'DIESE AKTION KANN NICHT RÜCKGÄNGIG GEMACHT WERDEN',
-  
+
 'add_new' => 'Neu anlegen',
-  
+
 'addons' => 'Add-Ons',
-  
+
 'all' => 'Alle',
-  
+
 'any' => 'Alle',
 
 'back' => 'Zurück',
-  
+
 'be_careful' => 'BITTE VORSICHT!',
- 
+
  'build' => 'Build:',
-  
+
 'captcha_explanation' => 'Ein Captcha ist ein Bild, das einen Sicherheitscode enthält, den ein User eingeben muss. Bitte das Handbuch konsultieren',
-  
+
 'categories' => 'Kategorien',
-  
+
 'channels' => 'Channels',
 
 'choose_wisely' => 'Wahlweise',
@@ -72,25 +72,25 @@ $lang = array(
 'fields' => 'Felder',
 
 'forgot_password' => 'Passwort vergessen?',
-  
+
 'forgotten_password' => 'Vergessenes Passwort',
 
 'hide_sidebar' => 'Seitenleiste verstecken',
-  
+
 'invalid_license' => 'LIZENZ UNGÜLTIG',
 
 'license_number' => 'Lizenznummer',
-  
+
 'loading' => 'Lade',
-  
+
 'logged_back_in' =>	'Sie sind wieder eingeloggt.',
-  
+
 'logout' => 'Abmelden',
 
 'main_menu' => 'CP-Startseite',
-  
+
 'my_account' => 'Mein Konto',
-  
+
 'myaccount' => 'Mein Konto',
 
 'nav_homepage' => 'CP-Home',
@@ -100,25 +100,25 @@ $lang = array(
 'nav_settings' => 'Einstellungen',
 
 'new_tab' => 'Neuer Tab',
-  
+
 'new_version_available' => 'ExpressionEngine Version %s ist jetzt verfügbar',
-  
+
 'notepad' => 'Notizen',
-  
+
 'notepad_no_content' => 'Keine Notizen. Klicken, um zu erstellen.',
-  
+
 'page_rendered' => 'Script ausgeführt in %x Sekunden',
-  
-'password' => 'Passwort',  
-  
+
+'password' => 'Passwort',
+
 'password_label' => 'Passwort:',
-  
-'powered_by' => 'Powered by',  
+
+'powered_by' => 'Powered by',
 
 'queries_executed' => '%x SQL Abfragen verwendet',
-  
+
 'quick_links' => 'Quicklinks',
-  
+
 'quicklinks_manager' => 'Quicklink-Manager',
 
 'required_field' => 'Erforderliches Feld',
@@ -219,7 +219,7 @@ $lang = array(
 
 'ip_address' => 'IP-Addresse',
 
-'member_changed_email' => 'E-Mail geändert für "%s" (%d) von "%s" zu "%s"',
+'member_changed_email' => 'Email geändert für "%s" (%d) von "%s" zu "%s"',
 
 'member_changed_member_group' => 'Mitgliedergruppe geändert von "%s" zu "%s" (%d)',
 
@@ -239,9 +239,9 @@ $lang = array(
 /* Common */
 'by_date' => 'nach Datum',
 
-'by_site' => 'nach site',
+'by_site' => 'nach Site',
 
-'by_username' => 'nach benutzername',
+'by_username' => 'nach Benutzername',
 
 'channel' => 'Channels',
 
@@ -297,15 +297,15 @@ $lang = array(
 
 'perpage_filter' => 'zeigen',
 
-'date_filter' => 'datum',
+'date_filter' => 'Datum',
 
-'group_filter' => 'gruppe',
+'group_filter' => 'Gruppe',
 
 'type_filter' => 'Art',
 
 'site' => 'Site',
 
-'site_filter' => 'site',
+'site_filter' => 'Site',
 
 'status' => 'Status',
 
@@ -329,7 +329,7 @@ $lang = array(
 
 'btn_exporting' => 'Exportieren',
 
-'btn_downloading' => 'Downloaden',
+'btn_downloading' => 'Herunterladen',
 
 'will_be_logged' => 'Diese Aktion wird protokolliert',
 
@@ -360,7 +360,7 @@ $lang = array(
 
 
 /* learning EE lang vars */
-'building_ee_site_01' => 'Eine ExpressionEngine Webseite bauen - Kapitel 01',
+'building_ee_site_01' => 'Eine ExpressionEngine Website bauen - Kapitel 01',
 
 'channel_template_relationship' => 'Channel-Template-Verknüpfung',
 
@@ -380,7 +380,7 @@ $lang = array(
 
 'ee_insider' => 'EEInsider',
 
-'ee_podcast' => 'EE -Podcast',
+'ee_podcast' => 'EE-Podcast',
 
 'ee_screencasts' => 'EE-Screencasts',
 
@@ -396,7 +396,7 @@ $lang = array(
 
 'support' => 'Support',
 
-'support_forums' => 'Support-Forumen',
+'support_forums' => 'Support-Foren',
 
 'train_ee' => 'Train-EE',
 
@@ -474,7 +474,7 @@ $lang = array(
 
 'filters' => 'filtern',
 
-'form_validation_error' => 'Ein Problem ist aufgetreten, bitte überprüfen Sie unten alles und beseitigen Sie die Fehler.',
+'form_validation_error' => 'Ein Problem ist aufgetreten, bitte beseitigen Sie die unten angezeigten Fehler.',
 
 'image' => 'Bild',
 
@@ -540,7 +540,7 @@ $lang = array(
 
 'url_title' => 'URL-Title',
 
-'url_title_lc' => 'URL title',
+'url_title_lc' => 'URL-Title',
 
 'used_in_cp_only' => 'Wird nur im Control Panel (CP) benutzt.',
 
@@ -556,7 +556,7 @@ $lang = array(
 
 'checking_for_updates' => 'Nach Updates suchen...',
 
-'download' => 'download',
+'download' => 'Download',
 
 'installed' => 'Installiert',
 
@@ -596,7 +596,7 @@ $lang = array(
 /* confirm removal modal */
 'btn_confirm_and_remove' => 'Bestätigen & entfernen',
 
-'btn_confirm_and_remove_working' => 'Entfernen...',
+'btn_confirm_and_remove_working' => 'Entferne...',
 
 'confirm_removal' => 'Entfernen bestätigen',
 

@@ -4,17 +4,17 @@ $lang = array(
 
 'moblog_allow_overrides' => 'Überschreiben in Email zulassen?',
 
-'moblog_allow_overrides_subtext' => 'Wenn auf Ja gesetzt, können die Einstellungen oben in der Email übergangen werden',
+'moblog_allow_overrides_subtext' => 'Wenn aktiviert, können die Einstellungen oben in der Email übergangen werden',
 
 'moblog_sticky_entry' => 'Eintrag fixieren?',
 
 'moblog_module_name' => 'Moblog',
 
-'moblog_module_description' => 'Mobloggin- Modul',
+'moblog_module_description' => 'Moblogging- Modul',
 
 'moblog_prefs' => 'Einstellungen',
 
-'moblog_type' => 'MoblogTyp',
+'moblog_type' => 'Moblog-Typ',
 
 'channel' => 'Channel',
 
@@ -22,8 +22,7 @@ $lang = array(
 
 'upload_directory_unwriteable' => 'Datei kann nicht ins Upload-Verzeichnis geschrieben werden',
 
-'moblog_entry_settings' => 'Channel-
-Eintrags-Einstellungen',
+'moblog_entry_settings' => 'Channel-Eintragseinstellungen',
 
 'moblog' => 'Moblogging',
 

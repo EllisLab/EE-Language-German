@@ -4,7 +4,7 @@ $lang = array(
 
 'access' => 'Zugang',
 
-'all_sites' => 'Alle Websites',
+'all_sites' => 'Alle Sites',
 
 'allowed_member_groups' => 'Zugelassene Mitgliedergruppen',
 
@@ -132,7 +132,7 @@ $lang = array(
 
 'enable_php' => 'Erlaube PHP?',
 
-'enable_php_desc' => 'Wenn aktiviert, kann Standard-PHP in diesem Tempalte verwendet werden. <a href="'.DOC_URL.'templates/php.html" rel="external">Lesen Sie vor der Aktivierung über die Auswirkungen</a>.',
+'enable_php_desc' => 'Wenn aktiviert, kann Standard-PHP in diesem Template verwendet werden. <a href="'.DOC_URL.'templates/php.html" rel="external">Lesen Sie vor der Aktivierung über die Auswirkungen, die das hat.</a>.',
 
 'enable_template_variable_on_all_sites' => 'Auf allen Sites aktivieren?',
 
@@ -150,7 +150,7 @@ $lang = array(
 
 'export_all' => 'Exportiere alle Templates',
 
-'export_partials' => 'Exportier Partials',
+'export_partials' => 'Exportiere Partials',
 
 'export_variables' => 'Exportiere Variablen',
 
@@ -166,7 +166,7 @@ $lang = array(
 
 'make_default_group' => 'Zur Standardgruppe machen?',
 
-'make_default_group_desc' => 'Wenn auf <b>ja</b> gesetzt, wird diese Gruppe als Standard für diese Website gesetzt.',
+'make_default_group_desc' => 'Wenn aktivert, wird diese Gruppe als Standard für diese Website gesetzt.',
 
 'member_groups' => 'Mitgliedergruppen',
 
@@ -256,7 +256,7 @@ $lang = array(
 
 'template_route_override' => 'Template-Routes überschreiben',
 
-'template_route_override_desc' => 'Überschreibt das standardmäßige ExpressionEngine <mark>gruppe/template</mark> Routing.',
+'template_route_override_desc' => 'Überschreibt das standardmäßige ExpressionEngine <mark>gruppe/template</mark>-Routing.',
 
 'template_routes' => 'Template-Routes',
 
@@ -296,7 +296,7 @@ $lang = array(
 
 
 /* System Templates -> Messages */
-'message_template' => 'Mitglieder-Nachrichten',
+'message_template' => 'Mitgliedernachrichten',
 
 'message_template_warning' => '<b>Achtung</b>: Keine der folgenden 5 benötigten Variablen löschen: {title} {meta_refresh} {heading} {content} {link}',
 
@@ -316,11 +316,11 @@ $lang = array(
 
 'enable_template' => 'Template aktivieren?',
 
-'enable_template_desc' => 'Wenn aktiviert, wird dieses Template an Stelle einer automatisch generierten Email in der Sprache des Nutzers benutzt.',
+'enable_template_desc' => 'Wenn aktiviert, wird dieses Template an Stelle einer automatisch generierten Email in der Sprache des Benutzers eingesetzt.',
 
 'forums' => 'Foren',
 
-'members' => 'Mitlgieder',
+'members' => 'Mitglieder',
 
 'private_messages' => 'Private Nachrichten',
 
@@ -330,15 +330,15 @@ $lang = array(
 
 
 /* System Templates -> Members */
-'file_not_writable' => '<b>Achtung</b>: Diese Datei ist nicht schreibbar',
+'file_not_writable' => '<b>Achtung</b>: Diese Datei ist nicht beschreibbar',
 
 'file_writing_instructions' => 'Die Änderungen am Template können erst gespeichert werden, wenn die Rechte dafür eingeräumt sind.',
 
 
 /* System Templates -> Forums */
-'forum_manager' => 'Forum-Manager',
+'forum_manager' => 'Foren-Manager',
 
-'forum_templates' => 'Forum-Templates',
+'forum_templates' => 'Foren-Templates',
 
 'unable_to_find_template_file' => 'Die Template-Datei konnte nicht gefunden werden.',
 
@@ -346,7 +346,7 @@ $lang = array(
 
 
 /* Menu */
-'forum_themes' => 'Forum-Themes',
+'forum_themes' => 'Foren-Themes',
 
 'member_profile_templates' => 'Mitgliederprofil-Templates',
 
@@ -392,7 +392,7 @@ $lang = array(
 
 'close_window' => 'Fenster schliessen',
 
-'create_new_global_variable' => 'CNeue globale Variable anlegen',
+'create_new_global_variable' => 'Neue globale Variable anlegen',
 
 'create_new_snippet' => 'Neues Snippet anlegen',
 
@@ -426,7 +426,7 @@ $lang = array(
 
 'do_not_duplicate_group' => 'Keine Gruppe duplizieren',
 
-'do_not_duplicate_template' => 'Keine Template duplizieren',
+'do_not_duplicate_template' => 'Kein Template duplizieren',
 
 'duplicate_snippet_name' => 'Dieses Snippet findet bereits Verwendung',
 
@@ -444,11 +444,11 @@ $lang = array(
 
 'email_notification' => 'Email-Benachrichtigung',
 
-'email_notification_template' => 'Email-Benachrichtigungen-Templates',
+'email_notification_template' => 'Email-Benachrichtigungs-Templates',
 
 'enable_template_routes' => 'Template-Routes aktivieren',
 
-'enable_template_routes_exp' => 'Template-Route deaktivieren bedeutet: Die Route-Optionen werden entfernt und Templates werden nur über die Standard-Template-URL-Struktur erreichbar sein.',
+'enable_template_routes_exp' => 'Template-Routes deaktivieren bedeutet: Die Route-Optionen werden entfernt und Templates werden nur über die Standard-Template-URL-Struktur erreichbar sein.',
 
 'export_as' => 'Exportiere Dateien als',
 
@@ -514,9 +514,9 @@ $lang = array(
 
 'last_file_edit' => 'Datei bearbeitet:',
 
-'logged_out_select_blurb' => 'Wenn auf &quot;Ja&quot; gesetzt, soll ein nicht angemeldetes Mitglied anstelle dieser Seite die folgende angezeigt bekommen:',
+'logged_out_select_blurb' => 'Wenn aktivert, soll ein nicht angemeldetes Mitglied anstelle dieser Seite die folgende Seite angezeigt bekommen:',
 
-'max_revisions_exp' => 'Die Anzahl Versionen, die maximal PRO VERSIONEN gespeichert wird.  Wenn hier beispielsweise 5 eingestellt wird, werden immer die neuesten 5 Versionen jeder Vorlage gespeichert.',
+'max_revisions_exp' => 'Die Anzahl Versionen, die maximal PRO TEMPLATE gespeichert werden.  Wenn hier beispielsweise 5 eingestellt wird, werden immer die neuesten 5 Versionen jedes Templates gespeichert.',
 
 'max_tmpl_revisions' => 'Maximale Anzahl von gespeicherten Versionen',
 
@@ -592,7 +592,7 @@ $lang = array(
 
 'rss' => 'RSS-Seite',
 
-'save_template_revision' => 'Save Revision',
+'save_template_revision' => 'Revision speichern',
 
 'save_tmpl_files' => 'Templates als Textdateien speichern?',
 
@@ -620,7 +620,7 @@ $lang = array(
 
 'show_all_variables' => 'Alle %d Variablen',
 
-'site_404_exp' => 'Legt fest, welche Vorlage angezeigt wird, wenn jemand einen ungültigen URL aufruft. Hinweis: Wenn Sie &quot;Keine&quot; auswählen, wird Ihre Index-Seite angezeigt.',
+'site_404_exp' => 'Legt fest, welches Template angezeigt wird, wenn jemand einen ungültigen URL aufruft. Hinweis: Wenn Sie &quot;Keine&quot; auswählen, wird Ihre Index-Seite angezeigt.',
 
 'small' => 'Klein',
 
@@ -638,9 +638,7 @@ $lang = array(
 
 'snippets' => 'Snippets',
 
-'snippets_explanation' => 'Snippets sind praktische Schnipsel von wiederverwendbarem Programmcode mit Tags für
-Templates. Für statischen Inhalt, der keine ExpressionEngine-Tags oder PHP enthält,
-benutzen Sie besser <a href ="%s">Globale Variablen</a>.',
+'snippets_explanation' => 'Snippets sind praktische Schnipsel von wiederverwendbarem Programmcode mit Tags für Templates. Für statischen Inhalt, der keine ExpressionEngine-Tags oder PHP enthält, benutzen Sie besser <a href="%s">Globale Variablen</a>.',
 
 'static' => 'Statisch',
 
@@ -654,7 +652,7 @@ benutzen Sie besser <a href ="%s">Globale Variablen</a>.',
 
 'sync_completed' => 'Templates aus der Datenbank wurden mit den Dateien synchronisiert.',
 
-'sync_not_allowed_1' => 'Das Speichern der Templates als Dateien ist nicht erlaubt in ',
+'sync_not_allowed_1' => 'Das Speichern der Templates als Dateien ist nicht erlaubt in: ',
 
 'sync_not_allowed_2' => 'Globale Template-Einstellungen.',
 
@@ -724,11 +722,11 @@ benutzen Sie besser <a href ="%s">Globale Variablen</a>.',
 
 'template_routes_not_saved' => 'Template-Routes nicht gespeichert',
 
-'template_routes_not_saved_desc' => 'Die Template Routes wurden nicht gespeichert, bitte die unten angezeigten Fehler beheben',
+'template_routes_not_saved_desc' => 'Die Template-Routes wurden nicht gespeichert, bitte die unten angezeigten Fehler beheben',
 
 'template_routes_saved' => 'Template-Routes gespeichert',
 
-'template_routes_saved_desc' => 'Template Routes wurden gespeichert.',
+'template_routes_saved_desc' => 'Template-Routes wurden gespeichert.',
 
 'template_size' => 'Template-Größe',
 
@@ -740,7 +738,7 @@ benutzen Sie besser <a href ="%s">Globale Variablen</a>.',
 
 'this_site_only' => 'Nur diese Site',
 
-'tmpl_revisions_not_enabled' => 'Template Revisions are not enabled.',
+'tmpl_revisions_not_enabled' => 'Template-Revisionen sind nicht aktiviert.',
 
 'tmpl_search_result' => '(%s) Ergebnisse in (%s) Template-Gruppen',
 
@@ -788,7 +786,7 @@ benutzen Sie besser <a href ="%s">Globale Variablen</a>.',
 
 'activation_emails_resent' => 'Aktivierungs-Emails nochmals gesendet',
 
-'aim_console' => 'AOL Instant Messenger Console',
+'aim_console' => 'AOL Instant Messenger Konsole',
 
 'avatar_folder_list' => 'Vorinstallierte Avatar-Verzeichnisliste',
 
@@ -802,9 +800,9 @@ benutzen Sie besser <a href ="%s">Globale Variablen</a>.',
 
 'browse_avatars' => 'Browse Avatar-Seite',
 
-'buddies_block_list' => 'Private Mitteilung - Freunde und Block-Liste',
+'buddies_block_list' => 'Private Mitteilung - Freundes- und Sperr-Liste',
 
-'buddies_block_row' => 'Private Mitteilung - Freunde und Block-Liste: Zeilen',
+'buddies_block_row' => 'Private Mitteilung - Freundes- und Sperr-Liste: Zeilen',
 
 'bulletin' => 'Pinwand',
 
@@ -824,9 +822,9 @@ benutzen Sie besser <a href ="%s">Globale Variablen</a>.',
 
 'edit_avatar' => 'Avatar: Bearbeitungsseite',
 
-'edit_ignore_list_form' => 'Formular: Ignorierten-Liste',
+'edit_ignore_list_form' => 'Formular: Sperr-Liste',
 
-'edit_ignore_list_rows' => 'Ignorierten-Liste-Zeilen',
+'edit_ignore_list_rows' => 'Listenzeilen ignorieren',
 
 'edit_photo' => 'Seite: Mitgliederfoto bearbeiten',
 
@@ -850,7 +848,7 @@ benutzen Sie besser <a href ="%s">Globale Variablen</a>.',
 
 'group_description' => 'Mitgliedergruppen-Beschreibung',
 
-'home_page' => 'Mitgliederprofil Startseite',
+'home_page' => 'Mitgliederprofil-Startseite',
 
 'html_footer' => 'HTML-Footer',
 
@@ -862,7 +860,7 @@ benutzen Sie besser <a href ="%s">Globale Variablen</a>.',
 
 'localization_form' => 'Formular: Ortseinstellungen',
 
-'login_as_member_description' => 'Wenn Sie "Senden" klicken, werden Sie als Mitglied  &#39;%screen_name%&#39; eingeloggt und auf folgende Seite geleitet.',
+'login_as_member_description' => 'Wenn Sie "Senden" klicken, werden Sie als Mitglied \'%screen_name%\' eingeloggt und auf folgende Seite geleitet.',
 
 'login_as_user' => 'Super-Admin einloggen als Benutzer',
 
@@ -900,7 +898,7 @@ benutzen Sie besser <a href ="%s">Globale Variablen</a>.',
 
 'message_menu' => 'Private Mitteilung - Menü',
 
-'message_menu_rows' => 'Private Mitteilung - Menü Zeile',
+'message_menu_rows' => 'Private Mitteilung - Menü-Zeile',
 
 'message_no_folder_rows' => 'Private Mitteilung - Mitteilung: Keine Verzeichnis-Zeilen',
 

@@ -6,7 +6,7 @@ $lang = array(
 
 'jquery_module_name' => 'jQuery',
 
-'missing_jquery_file' => 'Die benötigten jQuery-Dateien wurden nicht gefunden.',
+'missing_jquery_file' => 'Die benötigten jQuery-Dateien wurden leider nicht gefunden.',
 
 );
 

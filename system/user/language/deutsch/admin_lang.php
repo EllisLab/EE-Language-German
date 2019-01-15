@@ -2,21 +2,16 @@
 
 $lang = array(
 
-'cache_on' => 'SQL Query Caching aktivieren',
+'cache_on' => 'SQL-Query-Caching aktivieren',
 
 'db_debug' => 'Datenbank-Debugging aktivieren',
 
-'enable_db_caching' => 'SQL-Abfragen Cache aktivieren',
+'enable_db_caching' => 'SQL-Abfragen-Cache aktivieren',
 
 'pconnect' => 'Dauernde Datenbank-Verbindung',
 
 
-
-//----------------------------
-// Member List Config
-//----------------------------
-
-
+/* Member List Config */
 'memberlist_asc' => 'Aufsteigend',
 
 'memberlist_cfg' => 'Einstellungen für Mitgliederliste',
@@ -38,13 +33,8 @@ $lang = array(
 'xss_clean_uploads' => 'Gelten XSS-Filter für Datei-Upload?',
 
 
-
-//----------------------------
-// Explanatory Blurbs
-//----------------------------
-
-
-'channel_administration_blurb' => 'Dieser Bereich verwaltet die Channels, Voreinstellungen und contentbezogene Sub-Systeme.',
+/* Explanatory Blurbs */
+'channel_administration_blurb' => 'Dieser Bereich verwaltet die Channels, Voreinstellungen und inhaltsbezogene Sub-Systeme.',
 
 'members_and_groups_blurb' => 'Dieser Bereich verwaltet Mitglieder, Mitgliedergruppen und Einstellungen im Zusammenhang mit Mitgliedschaften.',
 
@@ -60,20 +50,15 @@ $lang = array(
 
 'system_preferences_blurb' => 'In diesem Bereich können Sie die Systemkonfiguration und die globalen Einstellungen verwalten.',
 
-'utilities_blurb' => 'Dieser Bereich enthält Dienstprogramme, die Ihnen helfen, ExpressionEngine vertieft zu konfigurieren.',
+'utilities_blurb' => 'Dieser Bereich enthält Dienstprogramme, die Ihnen helfen, ExpressionEngine professionell zu konfigurieren.',
 
 
-
-//----------------------------
-// Extensions Stuff
-//----------------------------
-
-
+/* Extensions Stuff */
 'available_extensions' => 'Verfügbare Erweiterungen',
 
 'censor_replacement' => 'Zensur-Ersatzwort',
 
-'censor_replacement_info' => 'Wenn Feld leer gelassen wird, werden zensierte Worte mit # ersetzt',
+'censor_replacement_info' => 'Wenn das Feld leer gelassen wird, werden zensierte Worte mit # ersetzt',
 
 'censored_wildcards' => 'Wildcards sind erlaubt. Z.B. wird der Wildcard bei Test* die Wörter Test, Testen, Tester usw. zensieren.',
 
@@ -95,11 +80,11 @@ $lang = array(
 
 'enable_extensions' => 'Erweiterungen aktivieren?',
 
-'enable_extensions_conf' => 'Erweiterungen aktivieren: Bestätigun',
+'enable_extensions_conf' => 'Erweiterungen aktivieren: Bestätigung',
 
 'enable_search_log' => 'Suchbegriff-Protokollierung aktivieren',
 
-'enable_search_log_exp' => 'Wenn aktiviert, werden von Besuchern eingegebene Suchbegriffe aufgezeichnet.',
+'enable_search_log_exp' => 'Wenn aktiviert, werden von die Besuchern eingegebenen Suchbegriffe aufgezeichnet.',
 
 'extension' => 'Erweiterung',
 
@@ -127,7 +112,7 @@ $lang = array(
 
 'settings' => 'Einstellungen',
 
-'settings_update' => 'EInstellungen aktualisiert',
+'settings_update' => 'Einstellungen aktualisiert',
 
 'status' => 'Status',
 
@@ -136,17 +121,12 @@ $lang = array(
 'webmaster_name' => 'Webmaster oder Websitename für automatisch generierte Emails',
 
 
-
-//----------------------------
-// Admin Page
-//----------------------------
-
-
+/* Admin Page */
 '12_hour' => '12 Stunden mit AM/PM',
 
 '24_hour' => '24 Stunden',
 
-'404_page' => 'Sende 404 headers',
+'404_page' => 'Sende 404-Header',
 
 'add_html_button' => 'HTML-Button hinzufügen',
 
@@ -162,7 +142,7 @@ $lang = array(
 
 'all_caching' => 'Alle Caches',
 
-'allow_avatar_uploads' => 'Mitgliedern das Heraufladen von Avatare erlauben?',
+'allow_avatar_uploads' => 'Mitgliedern das Heraufladen von Avataren erlauben?',
 
 'allow_member_loc_notes' => 'Wenn auf &quot;Nein&quot; gesetzt, werden Datum und Zeit nach den Haupteinstellungen gesetzt.',
 
@@ -180,7 +160,7 @@ $lang = array(
 
 'auto_assign_cat_parents' => 'Automatische Zuweisung der Kategorie-Eltern ',
 
-'auto_assign_cat_parents_exp' => 'Wenn auf &quot;Ja&quot; gestellt, wird bei der Zuweisung von Kategorie-Kindern auch die Eltern-Kategorie automatisch ausgewählt',
+'auto_assign_cat_parents_exp' => 'Wenn auf &quot;Ja&quot; gestellt, wird bei der Zuweisung von Kategorie-Kindern auch die Eltern-Kategorie automatisch gesetzt',
 
 'auto_close' => 'Auto',
 
@@ -204,7 +184,7 @@ $lang = array(
 
 'banishment_message' => 'Benutzerdefinierte Nachricht',
 
-'banishment_message_exp' => 'Falls Sie <em>Benutzerdefinierte Nachricht</em> gewählt haben.',
+'banishment_message_exp' => 'Falls Sie Benutzerdefinierte Nachricht gewählt haben.',
 
 'banishment_type' => 'Auszuführende Maßnahme',
 
@@ -212,13 +192,13 @@ $lang = array(
 
 'banishment_url' => 'URL für Redirect',
 
-'banishment_url_exp' => 'Falls Sie <em>URL für Redirect</em> gewählt haben.',
+'banishment_url_exp' => 'Falls Sie URL für Redirect gewählt haben.',
 
 'batch_size_explanation' => 'Für durchschnittliche Server ist 300 ein sicherer Wert',
 
 'batchmode_explanation' => 'Batch Mode teilt ein großes Mailing in kleinere Gruppen auf, um sie in Intervallen zu versenden. Dies empfiehlt sich bei Webhosting-Accounts.',
 
-'blacklist_all_ips' => 'Alle IPs auf Blacklist',
+'blacklist_all_ips' => 'Alle IPs auf die Blacklist',
 
 'browse' => 'Durchsuchen',
 
@@ -252,7 +232,7 @@ $lang = array(
 
 'censoring_cfg' => 'Wörterzensur',
 
-'channel_administration' => 'Channel-Verwaltung',
+'channel_administration' => 'Channel-Manager',
 
 'channel_cfg' => 'Globale Channel-Einstellungen',
 
@@ -262,7 +242,7 @@ $lang = array(
 
 'channel_nomenclature' => 'Ersatzwort für Channel',
 
-'channel_nomenclature_exp' => 'ExpressionEngine arbeitet mit dem Wort &quot;channel&quot; innerhalb des Control-Panels. Wenn gewünscht können Sie das ändern und zum Beispiel &quot;Sektion&quot; wählen. Beachten Sie: Dieses Wort wird nur im Control-Panel und nicht in den Templates ersetzt.',
+'channel_nomenclature_exp' => 'ExpressionEngine arbeitet mit dem Wort &quot;Channel&quot; innerhalb des Control-Panels. Wenn gewünscht, können Sie das ändern und zum Beispiel &quot;Sektion&quot; wählen. Beachten Sie: Dieses Wort wird nur im Control-Panel und nicht in den Templates ersetzt.',
 
 'channels' => 'Channels',
 
@@ -276,13 +256,13 @@ $lang = array(
 
 'config_editor' => 'Dateimanager konfigurieren',
 
-'content_admin' => 'Content-Verwaltung',
+'content_admin' => 'Inhalts-Verwaltung',
 
 'cookie_cfg' => 'Cookie-Einstellungen',
 
 'cookie_domain' => 'Cookie-Domain',
 
-'cookie_domain_explanation' => 'Für Site-weite Cookies .ihredomain.com einsetzen',
+'cookie_domain_explanation' => 'Für site-weite Cookies .ihredomain.com einsetzen',
 
 'cookie_path' => 'Cookie-Pfad',
 
@@ -320,7 +300,7 @@ $lang = array(
 
 'debug_explanation' => 'Schaltet die Anzeige von Fehlermeldungen ein, was während der Website-Entwicklung hilfreich sein kann.',
 
-'debug_one' => '1: PHP/SQL-Fehlermeldungen nur <em>Super Admins</em> zeigen',
+'debug_one' => '1: PHP/SQL-Fehlermeldungen nur Super-Admins zeigen',
 
 'debug_two' => '2: PHP/SQL-Fehlermeldungen allen zeigen - NICHT SICHER!',
 
@@ -336,9 +316,9 @@ $lang = array(
 
 'deprecation_notice' => 'Ablaufwarnung',
 
-'developer_logs' => 'Es sind %d nicht eingesehene Einträge im <a href="%s">Developer-Log</a>.',
+'developer_logs' => 'Es sind %d nicht eingesehene Einträge in der <a href="%s">Entwickler-Logdatei</a>.',
 
-'developer_one_log' => 'Es gibt %d ungelesene Einträge im <a href="%s">Developer-Log</a>.',
+'developer_one_log' => 'Es gibt %d ungelesene Einträge in der <a href="%s">Entwicvkler-Logdatei</a>.',
 
 'disable_caching' => 'Caching deaktivieren',
 
@@ -356,7 +336,7 @@ $lang = array(
 
 'email_activation' => 'Selbstaktivierung via Email',
 
-'email_batch_size' => 'Anzahl Emails pro Stapel (batch)',
+'email_batch_size' => 'Anzahl Emails pro Stapel (Batch)',
 
 'email_batchmode' => 'Stapel-Modus benutzen?',
 
@@ -372,13 +352,13 @@ $lang = array(
 
 'email_debug_exp' => 'Servermeldungen werden angezeigt, wenn Emails versendet werden.',
 
-'email_module_captchas' => 'CAPTCHAs für <em>Tell-a-Friend</em> und Kontakt-Emails',
+'email_module_captchas' => 'CAPTCHAs für Tell-a-Friend und Kontakt-Emails',
 
 'emoticon_cfg' => 'Emoji-Einstellungen',
 
 'emoticon_url' => 'URL zum Emoji-Verzeichnis',
 
-'empty_profile_trigger' => 'Ein Profil-Triggering-Wort muss angegeben werden',
+'empty_profile_trigger' => 'Ein Profil-Trigger-Wort muss angegeben werden',
 
 'empty_stmp_fields' => 'Das %s Feld ist für SMTP-Bedingung.',
 
@@ -402,7 +382,7 @@ $lang = array(
 
 'enable_throttling' => 'Drosselung aktivieren?',
 
-'enable_throttling_explanation' => 'This feature generates a 404 header and message if a request to your site is made in which the template group does not exist in the URL. It is intended primarily to keep search engine crawlers from repeatedly requesting nonexistent pages.',
+'enable_throttling_explanation' => 'Diese Funktion generiert einen 404-Header und eine Nachricht, wenn eine Anforderung an Ihre Website erfolgt, in der die Templategruppe nicht in der URL vorhanden ist. Sie soll in erster Linie verhindern, dass Suchmaschinen-Crawler wiederholt nicht vorhandene Seiten anfordern.',
 
 'exp_channel_titles' => 'Channel-Einträge',
 
@@ -452,7 +432,7 @@ $lang = array(
 
 'html_all' => 'Alles HTML erlauben (nicht empfohlen)',
 
-'html_none' => 'Konvertiere HTML in Character Entities',
+'html_none' => 'Konvertiere HTML in Entities',
 
 'html_safe' => 'Nur sicheres HTML erlauben',
 
@@ -538,13 +518,13 @@ $lang = array(
 
 'mbr_notification_emails' => 'Email-Adresse für Benachrichtigungen',
 
-'member_import' => 'Nutzer-Import-Tool',
+'member_import' => 'Benutzer-Import-Tool',
 
-'member_theme' => 'Standarddesign für Mitgliederprofil',
+'member_theme' => 'Standarddesign für das Mitgliederprofil',
 
 'member_theme_exp' => 'Legt fest, welches Design für die verschiedenen Seiten der Mitgliedschaft wie Anmeldung, Registrierung, Profil usw. genutzt wird.',
 
-'members_and_groups' => 'Mitglieder and Gruppen',
+'members_and_groups' => 'Mitglieder and Mitgliedergruppen',
 
 'missing_required_fields' => 'Erforderliches Feld oder Felder wurden ausgelassen:',
 
@@ -552,7 +532,7 @@ $lang = array(
 
 'multiple_sites_enabled' => 'Verwaltung von mehreren Websites (MSM) aktivieren',
 
-'must_be_path' => 'Hinweis: Kompletter Serverpfad notwendig, eine URL reicht NICHT. Das Verzeichnisrecht muss auf 777 gesetzt sein.',
+'must_be_path' => 'Hinweis: Kompletter Serverpfad notwendig, ein URL reicht NICHT. Das Verzeichnisrecht muss auf 777 gesetzt sein.',
 
 'netpbm' => 'NetPBM',
 
@@ -592,7 +572,7 @@ $lang = array(
 
 'page_caching' => 'Cache-Dateien für Seiten (Templates)',
 
-'photo_cfg' => 'EInstellungen für Mitgliederfotos',
+'photo_cfg' => 'Einstellungen für Mitgliederfotos',
 
 'photo_max_height' => 'Maximale Bildhöhe',
 
@@ -602,7 +582,7 @@ $lang = array(
 
 'photo_path' => 'Serverpfad zum Bildverzeichnis',
 
-'photo_url' => 'URL zum Bildverzechnis',
+'photo_url' => 'URL zum Bildverzeichnis',
 
 'php_info' => 'PHP-Info',
 
@@ -688,7 +668,7 @@ $lang = array(
 
 'preference' => 'Einstellungen',
 
-'preference_information' => 'Preference Guide',
+'preference_information' => 'Präferenzhandbuch',
 
 'preference_updated' => 'Einstellung aktualisiert',
 
@@ -696,9 +676,9 @@ $lang = array(
 
 'profile_buttons' => 'Pfad zu den Mitgliederbildern',
 
-'profile_buttons_exp' => 'Pfad zum Verzeichnis, in dem die Bilder des Mitglieder-Profils gepeichert werden.',
+'profile_buttons_exp' => 'Pfad zum Verzeichnis, in dem die Bilder des Mitgliederprofils gepeichert werden.',
 
-'profile_trigger' => 'Profil-Triggering-Wort',
+'profile_trigger' => 'Profil-Trigger-Wort',
 
 'profile_trigger_notes' => 'Ist das gewählte Wort im URL enthalten, wird Ihr Mitgliederprofil angezeigt. Das gewählte Wort darf nicht den Namen einer bestehenden Template-Gruppe tragen.',
 
@@ -722,9 +702,9 @@ $lang = array(
 
 'prv_msg_storage_limit' => 'Maximale Anzahl der Privaten Nachrichten, die ein Mitglied speichern darf',
 
-'prv_msg_upload_path' => 'Serverpfad für das Upload-Verzeichnis der Server Path for Attachment Upload Directory',
+'prv_msg_upload_path' => 'Serverpfad für das Upload-Verzeichnis der Dateianhänge',
 
-'publish_tab_behavior' => 'Verhalten der Registerkarten (Tabs) im Veröffentlichungsformular',
+'publish_tab_behavior' => 'Verhalten der Registerkarten (Tabs) im Redakteursformular',
 
 'query' => 'SQL Query (Abfrage)',
 
@@ -752,13 +732,13 @@ $lang = array(
 
 'redirect_submitted_links' => 'Rank Denial anwenden bei den von Besuchern vorgeschlagenen Links?',
 
-'redirect_submitted_links_explanation' => 'Diese Einstellung überschreibt einen vom Besuchern eingegebenen Link so, dass er einen zwischenzeitlichen Redirect zeigt. Dies verhindert Kommentar-Spam, da Suchmaschinen solche Links nicht katalogisieren.',
+'redirect_submitted_links_explanation' => 'Diese Einstellung überschreibt einen vom Besucher eingegebenen Link so, dass er einen zwischenzeitlichen Redirect zeigt. Dies verhindert Kommentar-Spam, da Suchmaschinen solche Links nicht indexieren.',
 
 'refresh_method' => 'Refresh (Windows Servers)',
 
 'repair' => 'Repariere SQL-Tabellen',
 
-'repair_table' => 'Repariere asgewählte Tabellen',
+'repair_table' => 'Repariere ausgewählte Tabellen',
 
 'replace_term' => 'Und ersetze es mit diesem Text',
 
@@ -770,7 +750,7 @@ $lang = array(
 
 'require_terms_of_service' => 'Nutzungsbedingungen verlangen',
 
-'require_terms_of_service_exp' => 'Wenn aktiviert, müssen neue Mitglieder während der Registrierung die &quot;Nutzungsbedingungen akzeptierten&quot;.',
+'require_terms_of_service_exp' => 'Wenn aktiviert, müssen neue Mitglieder während der Registrierung die &quot;Nutzungsbedingungen akzeptieren&quot;.',
 
 'reserved_category_word' => 'Indikatorwort für Kategorien-URL',
 
@@ -810,9 +790,9 @@ $lang = array(
 
 'show_profiler' => 'Output Profiler anzeigen?',
 
-'show_profiler_explanation' => 'Wenn eingeschaltet, sehen <em>Super Admins</em> Benchmark-Resultate, alle SQL-Queries und eingegebene Formulardaten am Ende des Browserfensters. Hilfreich bei der Fehlersuche.',
+'show_profiler_explanation' => 'Wenn eingeschaltet, sehen Super-Admins Benchmark-Resultate, alle SQL-Queries und eingegebene Formulardaten am Ende des Browserfensters. Hilfreich bei der Fehlersuche.',
 
-'sig_allow_img_hotlink' => 'Bildverknüpfung (hot linking) in Signaturen zulassen?',
+'sig_allow_img_hotlink' => 'Bildverknüpfungen (hot linking) in Signaturen zulassen?',
 
 'sig_allow_img_upload' => 'Mitgliedern den Upload eines Bildes in der Signatur erlauben?',
 
@@ -852,7 +832,7 @@ $lang = array(
 
 'smtp' => 'SMTP',
 
-'smtp_password' => 'SMTP-Passwort',
+'smtp_password' => 'SMTP Passwort',
 
 'smtp_port' => 'SMTP Server-Port',
 
@@ -872,7 +852,7 @@ $lang = array(
 
 'sql_no_result' => 'Die Abfrage brachte keine Ergebnisse',
 
-'sql_not_allowed' => 'Sorry, das ist keine der erlaubten Abfrage-Arten',
+'sql_not_allowed' => 'Sorry, das ist keine erlaubte Abfrage-Art',
 
 'sql_processlist' => 'Prozessliste',
 
@@ -918,7 +898,7 @@ $lang = array(
 
 'template_updated' => 'Template aktualisiert',
 
-'theme_folder_path' => 'Theme Folder Path',
+'theme_folder_path' => 'Theme-Verzeichnispfad',
 
 'theme_folder_url' => 'URL zu Ihrem \'themes\'-Verzeichnis',
 
@@ -940,7 +920,7 @@ $lang = array(
 
 'total_affected_rows' => 'Gesamte betroffenen Zeilen: ',
 
-'total_queries' => 'Gesamten Serveranfragen seit dem Start',
+'total_queries' => 'Gesamte Serveranfragen seit dem Start',
 
 'total_records' => 'Gesamte Einträge:',
 
@@ -968,7 +948,7 @@ $lang = array(
 
 'use_membership_captcha' => 'Captcha trotz Mitgliedschaft aktivieren',
 
-'use_newrelic' => 'Aktiviere Jacascript für New Relic RUM (Real User Monitoring)?',
+'use_newrelic' => 'Aktiviere Javascript für New Relic RUM (Real User Monitoring)?',
 
 'use_newrelic_explanation' => 'Wenn diese Option aktiviert ist, fügt New Relic allen Benutzern JavaScript für <a href="https://newrelic.com/docs/features/real-user-monitoring" rel="external">Real User Monitoring</a> hinzu.',
 
