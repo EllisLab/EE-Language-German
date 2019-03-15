@@ -130,9 +130,9 @@ Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen au
 
 'theme_folder_wrong' => 'Der Pfad Ihres Template-Ordners ist falsch. Gehen Sie zu <a href="%s">URL- und Pfadeinstellungen</a> und überprüfen Sie den <mark>Themes-Pfad</ mark> und <mark>Themes-URL</ mark>.',
 
-'unable_to_load_field_type' => 'Kann diese Feldtypen-Datei nicht laden: %s.<br />Bestätigen Sie, dass die Feldtypen-Datei im Ordner /system/user/addons/ liegt',
+'unable_to_load_field_type' => 'Kann diese Feldtypen-Datei nicht laden: %s.<br />Bestätigen Sie, dass die Feldtypen-Datei im Ordner /'.SYSDIR.'/user/addons/ liegt',
 
-'unwritable_cache_folder' => 'Der Cache-Ordner hat nicht die richtigen Berechtigungen.<br />Abhilfe: Die Berechtigung für den Cache (/system/user/cache/) auf 777 setzen - oder auf das Equivalent Ihres Servers.',
+'unwritable_cache_folder' => 'Der Cache-Ordner hat nicht die richtigen Berechtigungen.<br />Abhilfe: Die Berechtigung für den Cache (/'.SYSDIR.'/user/cache/) auf 777 setzen - oder auf das Equivalent Ihres Servers.',
 
 'unwritable_config_file' => 'Ihre Konfigurationsdatei verfügt nicht über die richtigen Berechtigungen. <br /> So beheben Sie das: Setzen Sie die Berechtigungen für die Konfigurationsdatei (/'.SYSDIR.'/user/config/config.php) auf 666 (oder auf das Equivalent Ihres Servers).',
 
