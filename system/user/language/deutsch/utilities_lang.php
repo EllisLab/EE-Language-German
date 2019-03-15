@@ -357,6 +357,8 @@ $lang = array(
 
 'backup_error' => 'Backup nicht möglich',
 
+ 'backup_out_of_memory' => 'Beim Versuch, die Datenbank zu exportieren, fehlt dem Server genügend Arbeitsspeicher. Versuchen Sie, die <a href="%s" rel="external noreferrer"><code>db_backup_row_limit</code></a>-Konfiguration auf eine niedrigere Nummer zu setzen.',
+
 'backup_success' => 'Backup erfolgreich',
 
 'backup_success_desc' => 'Ihr Backup wurde in Ihrem Systemordner unter: <b>%s</b> gespeichert.',
