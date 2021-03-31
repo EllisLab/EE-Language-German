@@ -67,10 +67,8 @@ $lang = array(
 
 'type' => 'Typ',
 
-
 /* Clear Caching */
 'cache_deleted' => 'Cache-Dateien wurden gelöscht',
-
 
 /* Search and Replace */
 'channel_entry_title' => 'Channel-Eintrags-Titel',
@@ -90,7 +88,6 @@ $lang = array(
 'template_groups' => 'Template-Gruppe',
 
 'templates' => 'In ALLEN Templates',
-
 
 /* Recount Stats */
 'channel_titles' => 'Channel-Einträge',

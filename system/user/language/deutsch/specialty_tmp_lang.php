@@ -164,7 +164,7 @@ $lang = array(
 
 'validated_member_notify' => 'Benutzer &ndash; Benachrichtigung zur Kontoüberprüfung',
 
-'validated_member_notify_desc' => 'Dieses Temolate definiert die Benachrichtigung, die Mitglieder erhalten, wenn ein Administrator sein Mitgliederkonto überprüft hat',
+'validated_member_notify_desc' => 'Dieses Template definiert die Benachrichtigung, die Mitglieder erhalten, wenn ein Administrator sein Mitgliederkonto überprüft hat',
 
 );
 
