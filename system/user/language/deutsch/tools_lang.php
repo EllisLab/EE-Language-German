@@ -46,7 +46,7 @@ $lang = array(
 
 'sandr_instructions' => 'Mit diesen Formularen können Sie nach Text suchen und ihn durch einen anderen Text ersetzen',
 
-'search_and_replace' => 'Suchen und Ersetzen',
+'search_and_replace' => 'Suchen & Ersetzen',
 
 'search_replace_disclaimer' => 'Abhängig von der verwendeten Syntax kann diese Funktion zu unerwünschten Ergebnissen führen. Konsultieren Sie das Benutzerhandbuch und sichern Sie Ihre Datenbank.',
 
@@ -80,18 +80,16 @@ $lang = array(
 
 'united_states' => 'USA',
 
-
 /* Config Editor */
 'false' => 'Falsch',
 
-'preference' => 'Einstellungen',
+'preference' => 'Einstellung',
 
 'preferences_updated' => 'Einstellungen aktualisiert',
 
 'setting' => 'Einstellung',
 
 'true' => 'Wahr',
-
 
 /* Translation */
 'screen_name' => 'Bildschirmname',

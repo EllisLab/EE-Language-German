@@ -4,9 +4,7 @@ $lang = array(
 
 'admin_members' => 'Admin-Mitglieder',
 
-'all_member_groups' => 'Alle Mitgliedergruppen',
-
-'all_members' => 'Alle Mitglieder',
+'all_roles' => 'Alle Benutzerrollen',
 
 'alpha' => 'Alphabetisch aufsteigend',
 
@@ -180,7 +178,7 @@ $lang = array(
 
 'login_as_user' => 'Super-Admin als Benutzer anmelden',
 
-'manage_bans' => 'Gesperrte Mitglieder verwalten',
+'manage_bans' => 'Gesperrte Mitglieder',
 
 'maximum_members_reached' => 'Sie haben die maximal zulässige Anzahl von Mitgliedern erreicht.',
 
@@ -242,25 +240,39 @@ $lang = array(
 
 'member_fields_removed_desc' => 'Die folgenden Mitgliederfelder wurden entfernt:',
 
-'member_group' => 'Mitgliedergruppe',
+'invalid_role_id' => 'Sie müssen eine gültige Rolle wählen.',
 
-'member_group_filter' => 'Mitgliedergruppe',
+'invalid_new_primary_role' => 'Neue primäre Rolle ist ungültig.',
 
-'member_group_assignment' => 'Mitgliedergruppenzuordnung',
+'primary_role' => 'Primäre Rolle',
 
-'member_group_deleted' => 'Mitgliedergruppe gelöscht',
+'primary_role_desc' => 'Weisen Sie diesem Benutzer eine primäre Rolle zu.',
 
-'member_group_desc' => 'Weisen Sie diesem Mitglied Zugriffsberechtigungen zu.',
+'role_groups' => 'Rollen',
 
-'member_group_updated_desc' => 'Die Mitgliedergruppe wurde erfolgreich gespeichert.',
+'role_groups_desc' => 'Weisen Sie diesem Benutzer Rollen zu.',
 
-'member_groups' => 'Mitgliedergruppen',
+'additional_roles' => 'Definierte Rollen',
 
-'member_groups_removed_desc' => 'Die Mitgliedergruppe wurde erfolgreich gelöscht.',
+'role' => 'Rolle',
 
-'member_groups_remove_problem' => 'Beim Löschen von Mitgliedergruppen ist ein Problem aufgetreten.',
+'roles_desc' => 'Weisen Sie diesem Benutzer Rollen zu.',
 
-'member_has_cp_access' => 'Kann auf das Control Panel zugreifen',
+'role_filter' => 'Rolle',
+
+'role_assignment' => 'Rollen-Zuweisung',
+
+'role_deleted' => 'Rolle gelöscht',
+
+'role_desc' => 'Weisen Sie diesem Benutzer Zugriffsberechtigungen zu.',
+
+'role_updated_desc' => 'Die Rolle wurde erfolgreich gespeichert.',
+
+'role_deleted_desc' => 'Die Rolle wurde erfolgreich gelöscht.',
+
+'roles_remove_problem' => 'Beim Löschen der Rolle ist ein Problem aufgetreten.',
+
+'member_has_cp_access' => 'Kann auf das Control Panel (CP) zugreifen',
 
 'member_id' => 'ID',
 
@@ -332,8 +344,6 @@ $lang = array(
 
 'pending_activation' => 'Ausstehende Aktivierung',
 
-'pending_members' => 'Alle Mitglieder (ausstehende Aktivierung)',
-
 'personal_messaging' => 'Persönliche Mitteilungen',
 
 'preferences_updated' => 'Einstellungen aktualisiert',
@@ -346,7 +356,7 @@ $lang = array(
 
 'resend' => 'Aktivierungs-Email erneut senden',
 
-'save_member_group' => 'Mitgliedergruppe bearbeiten',
+'save_role' => 'Bearbeite Rolle',
 
 'screen_name' => 'Bildschirmname',
 
@@ -412,7 +422,9 @@ $lang = array(
 
 'your_password_delete_members_desc' => 'Sie <b>müssen</b> Ihr Passwort eingeben, um Mitglieder löschen zu können.',
 
-'your_password_delete_member_groups_desc' => 'Sie <b>müssen</b> Ihr Passwort eingeben, um Mitgliedergruppen löschen zu können.',
+'your_password_delete_roles_desc' => 'Sie <b>müssen</b> Ihr Passwort eingeben, um Benutzerrollen löschen zu können.',
+
+'profile' => 'Profil',
 
 /* Member banning */
 'ban_message' => 'Diese Seite ist vorübergehend nicht verfügbar',
@@ -448,7 +460,6 @@ $lang = array(
 'username_banning' => 'Eingeschränkte Benutzernamen',
 
 'username_banning_instructions' => '<b>Platzieren Sie jeden Benutzernamen in einer separaten Zeile.</b><br> Diese Benutzernamen sind nicht zulässig.',
-
 
 /* Member group settings */
 'access_privilege_caution' => 'Jede Einstellung, die mit <span class="icon-caution" title="Mit Vorsicht anwenden"></span> gekennzeichnet ist, sollte nur Personen gewährt werden, denen Sie vertrauen.',
@@ -557,8 +568,6 @@ $lang = array(
 
 'can_delete_all_comments' => 'Kommentare von Dritten löschen',
 
-'can_delete_all_entries' => 'Einträge von Dritten löschen',
-
 'can_delete_members' => 'Mitglieder löschen',
 
 'can_delete_own_comments' => 'Eigene Kommentare löschen',
@@ -567,13 +576,9 @@ $lang = array(
 
 'can_delete_self_desc' => 'Wenn aktiviert, können Benutzer, die dieser Gruppe zugewiesen sind, ihre eigenen Konten ohne Genehmigung löschen',
 
-'can_delete_self_entries' => 'Eigene Einträge löschen',
-
 'can_edit_all_comments' => 'Kommentare von Dritten bearbeiten',
 
 'can_edit_html_buttons' => 'Kann eigene HTML-Formatierungs-Buttons bearbeiten',
-
-'can_edit_other_entries' => 'Einträge von Dritten bearbeiten',
 
 'can_edit_own_comments' => 'Eigene Kommentare bearbeiten',
 
@@ -717,11 +722,19 @@ $lang = array(
 
 'search_privs' => 'Such-Rechte',
 
+'cp_access' => 'CP-Zugriff',
+
 'site_access' => 'Website-Zugriff',
 
 'site_access_desc' => 'Mitglieder in dieser Gruppe haben Zugriff auf die Website für jeden gewählten Status.',
 
 'super_admin_edit_note' => 'Hinweis: Sie können nur den Namen und die Beschreibung der Super-Admin-Gruppe ändern',
+
+'template_access' => 'Template-Zugriff',
+
+'assigned_templates' => 'Erlaubte Templates',
+
+'assigned_templates_desc' => 'Mitglieder mit dieser Rolle können auf Seiten zugreifen, die ausgewählte Templates verwenden.',
 
 'template_manager' => 'Template-Manager',
 
@@ -734,7 +747,6 @@ $lang = array(
 'utility' => 'Dienstprogramm',
 
 'warning' => 'WARNUNG:',
-
 
 /* Member fields */
 'access_settings' => 'Einstellungen',
@@ -756,10 +768,6 @@ $lang = array(
 'can_access_security_settings_desc' => 'Wenn aktiviert, können Mitglieder dieser Gruppe auf die Systemsicherheits- und Datenschutzeinstellungen zugreifen.',
 
 'can_access_site' => 'Kann auf die Site zugreifen',
-
-'can_create_entries' => 'Einträge erstellen',
-
-'can_edit_self_entries' => 'Eigene Einträge bearbeiten',
 
 'can_not_delete_only_member' => 'Sie können das einzige Mitglied in der Datenbank nicht löschen',
 
@@ -807,8 +815,6 @@ $lang = array(
 
 'current_fields' => 'Mitgliederfelder',
 
-'custom_member_fields' => 'Mitgliederfelder',
-
 'delete_categories' => 'Kategorien löschen',
 
 'delete_channel_fields' => 'Channel-Felder löschen',
@@ -843,7 +849,9 @@ $lang = array(
 
 'edit_member_field' => 'Feld bearbeiten',
 
-'edit_member_groups' => 'Mitgliedergruppen bearbeiten',
+'edit_roles' => 'Rolle bearbeiten',
+
+'edit_member' => 'Mitglied bearbeiten',
 
 'edit_members' => 'Mitglieder bearbeiten',
 
@@ -899,6 +907,8 @@ $lang = array(
 
 'invalid_characters' => 'Der Feldname, den Sie übermittelt haben, enthält ungültige Zeichen',
 
+'invalid_characters_in_username' => 'Ihr Benutzername darf folgenden Zeichen nicht enthalten: | " \' ! < > { }',
+
 'is_field_cp_reg' => 'Ist das Feld im Control Panel auf der administrativen Registrierungsseite sichtbar?',
 
 'is_field_public' => 'Im Profil anzeigen?',
@@ -951,15 +961,13 @@ $lang = array(
 
 'resend_activation_emails' => 'Aktivierungsemails erneut senden',
 
-'rte_toolsets' => 'RTE-Sets',
-
-'search_member_groups_button' => 'Mitgliedergruppen suchen',
+'search_roles_button' => 'Rolle suchen',
 
 'search_members_button' => 'Mitglieder suchen',
 
 'setting' => 'Einstellung',
 
-'settings' => 'Einstellugnen',
+'settings' => 'Einstellungen',
 
 'show_all_banned' => 'Alle %d gesperrt',
 
@@ -988,6 +996,280 @@ $lang = array(
 'upload_new_files' => 'Neue Dateien hochladen',
 
 'upload_new_toolsets' => 'Neue Sets hochladen',
+
+/* Roles */
+
+'roles_manager' => 'Benutzerrollen',
+
+'role_groups' => 'Rollen',
+
+'role_group' => 'Rolle',
+
+'new_role' => 'Neue Rolle',
+
+'group_roles_desc' => 'Weisen Sie dieser Gruppe eine oder mehrere Benutzerrollen zu.',
+
+'create_role_group' => 'Neue Rolle',
+
+'create_role_group_error' => 'Rolle kann nicht erstellt werden',
+
+'create_role_group_error_desc' => 'Wir konnten diese Rolle nicht erstellen. Bitte überprüfen und beheben Sie die folgenden Fehler:',
+
+'create_role_group_success' => 'Rolle erstellt',
+
+'create_role_group_success_desc' => 'Die Rolle <b>%s</b> wurde erstellt.',
+
+'edit_role_group' => 'Rolle bearbeiten',
+
+'edit_role_group_error' => 'Rolle kann nicht aktualisiert werden',
+
+'edit_role_group_error_desc' => 'Wir konnten diese Rolle nicht aktualisieren. Überprüfen und beheben Sie die folgenden Fehler:',
+
+'edit_role_group_success' => 'Rolle aktualisiert',
+
+'edit_role_group_success_desc' => 'Die Rolle <b>%s</b> wurde aktualisiert.',
+
+'role_groups_removed_desc' => 'Die folgenden Rolle wurden gelöscht',
+
+'create_role' => 'Neue Rolle',
+
+'create_role_error' => 'Rolle kann nicht erstellt werden',
+
+'create_role_error_desc' => 'Wir konnten diese Rolle nicht erstellen. Bitte überprüfen und beheben Sie die folgenden Fehler:',
+
+'create_role_success' => 'Rolle erstellt',
+
+'create_role_success_desc' => 'Die Rolle <b>%s</b> wurde erstellt.',
+
+'edit_role' => 'Bearbeite Rolle',
+
+'edit_role_error' => 'Rolle kann nicht aktualisiert werden',
+
+'edit_role_error_desc' => 'Wir konnten diese Rolle nicht aktualisieren. Bitte überprüfen und beheben Sie die folgenden Fehler:',
+
+'edit_role_success' => 'Rolle aktualisiert',
+
+'edit_role_success_desc' => 'Die Rolle <b>%s</b> wurde aktualsiert.',
+
+'roles_deleted_desc' => 'Die folgende Rolle wurden gelöscht',
+
+'roles_delete_error' => 'Rolle kann nicht gelöscht werden',
+
+'roles_not_deleted_desc' => 'Die folgenden Benutzerrollen konnten nicht gelöscht werden',
+
+'channel_access' => 'Channel-Zugriff',
+
+'channel_access_desc' => 'Benutzer können jede ausgewählte Aktion auf dem ausgewählten Channel ausführen.',
+
+'can_admin_roles' => 'Zugriff auf Benutzerrollen',
+
+'can_admin_roles_desc' => 'Wenn diese Option aktiviert ist, können Benutzer, die dieser Rolle zugewiesen sind, auf die Einstellungen der Benutzerrollen in der Software zugreifen.',
+
+'template_group_access' => 'Zugriff auf Template-Gruppen',
+
+'template_group_access_desc' => 'Benutzer können jede ausgewählte Aktion für die ausgewählte Template-Gruppe ausführen.',
+
+'upload_destination_access' => 'Erlaubt den Zugriff auf das Upload-Verzeichnis',
+
+'upload_destination_access_desc' => 'Benutzer können auf alle ausgewählten Upload-Verzeichnisse zugreifen.',
+
+'member_role_assignment' => 'Zuweisung von Benutzerrollen',
+
+'http_auth_protected' => 'HTTP Auth Protected',
+
+/* Access Overview */
+
+'access_overview' => 'Zugriffsrechte',
+
+'access_permissions' => 'Zugriffsberechtigungen',
+
+'access' => 'Zugriff?',
+
+'granted_by' => 'Erteilt von',
+
+'primary_role' => 'Primäre Rolle',
+
+'permissions_granted' => 'Die folgenden Berechtigungen werden erteilt für <b>%s</b>.',
+
+'member_roles' => 'Benutzerrollen',
+
+'access_to' => 'Zugriff <b>%s</b>',
+
+'access_overview_can_view_online_system' => 'Website-Zugriff (online)',
+
+'access_overview_can_view_offline_system' => 'Website-Zugriff (offline)',
+
+'access_overview_can_view_profiles' => 'Zugriff Öffentliche Profile',
+
+'access_overview_can_delete_self' => 'Konto löschen',
+
+'access_overview_can_post_comments' => 'Kommentare senden',
+
+'access_overview_can_moderate_comments' => 'Kommentare moderieren',
+
+'access_overview_can_edit_own_comments' => 'Eigene Kommentare bearbeiten',
+
+'access_overview_can_delete_own_comments' => 'Eigene Kommentare löschen',
+
+'access_overview_can_edit_all_comments' => 'Kommentare Dritte bearbeiten',
+
+'access_overview_can_delete_all_comments' => 'Kommentare Dritter löschen',
+
+'access_overview_can_search' => 'Zugriff auf Suchwerkzeug',
+
+'access_overview_can_send_private_messages' => 'Zugriff auf persönliche Nachrichten',
+
+'access_overview_can_attach_in_private_messages' => 'Dateianhänge erlauben',
+
+'access_overview_can_send_bulletins' => 'Bordnachrichten senden',
+
+'access_overview_can_access_cp' => 'Zugriff aufs Control Panel (CP)',
+
+'access_overview_can_access_footer_report_bug' => 'Zugriff auf Bugreport-Link',
+
+'access_overview_can_access_footer_new_ticket' => 'Zugriff auf Link Neues Ticket',
+
+'access_overview_can_access_footer_user_guide' => 'Zugriff auf Benutzerhandbuch-Link',
+
+'access_overview_can_view_homepage_news' => 'Homepage-News sehen',
+
+'access_overview_can_admin_channels' => 'Zugriff auf Channel-Verwaltung',
+
+'access_overview_can_create_channels' => 'Channels erstellen',
+
+'access_overview_can_edit_channels' => 'Channels bearbeiten',
+
+'access_overview_can_delete_channels' => 'Channels löschen',
+
+'access_overview_can_create_channel_fields' => 'Fleder erstellen',
+
+'access_overview_can_edit_channel_fields' => 'Felder bearbeiten',
+
+'access_overview_can_delete_channel_fields' => 'Felscher löschen',
+
+'access_overview_can_create_categories' => 'Kategorien erstellen',
+
+'access_overview_can_edit_categories' => 'Kategorien bearbeiten',
+
+'access_overview_can_delete_categories' => 'Kategorien löschen',
+
+'access_overview_can_create_statuses' => 'Statuse erstellen',
+
+'access_overview_can_edit_statuses' => 'Statuse bearbeiten',
+
+'access_overview_can_delete_statuses' => 'Statuse löschen',
+
+'access_overview_can_create_entries' => 'Einträge erstellen',
+
+'access_overview_can_edit_self_entries' => 'Eigene Einträge bearbeiten',
+
+'access_overview_can_delete_self_entries' => 'Eigene Einträge löschen',
+
+'access_overview_can_edit_other_entries' => 'Einträge Dritter bearbeiten',
+
+'access_overview_can_delete_all_entries' => 'Einträge Dritter löschen',
+
+'access_overview_can_assign_post_authors' => 'Autor wechseln',
+
+'access_overview_can_access_files' => 'Zugriff auf Dateimanager',
+
+'access_overview_can_create_upload_directories' => 'Uplaod-Verzeichnisse erstellen',
+
+'access_overview_can_edit_upload_directories' => 'Upload-Verzeichnisse bearbeiten',
+
+'access_overview_can_delete_upload_directories' => 'Upload-Verzeichnisse löschen',
+
+'access_overview_can_upload_new_files' => 'Dateien hochladen',
+
+'access_overview_can_edit_files' => 'Dateien bearbeiten',
+
+'access_overview_can_delete_files' => 'Dateien löschen',
+
+'access_overview_can_access_members' => 'Zugriff auf Mitglieder',
+
+'access_overview_can_create_members' => 'Mitglieder erstellen',
+
+'access_overview_can_edit_members' => 'Mitglieder bearbeiten',
+
+'access_overview_can_delete_members' => 'Mitglieder löschen',
+
+'access_overview_can_ban_users' => 'Mitglieder sperren',
+
+'access_overview_can_email_from_profile' => 'Mitgliedern schreiben',
+
+'access_overview_can_edit_html_buttons' => 'Eigene HTML-Buttons verwalten',
+
+'access_overview_can_admin_roles' => 'Zugriff auf Rollen',
+
+'access_overview_can_create_roles' => 'Rollen erstellen',
+
+'access_overview_can_edit_roles' => 'Rollen bearbeiten',
+
+'access_overview_can_delete_roles' => 'Rollen löschen',
+
+'access_overview_can_access_design' => 'Zugriff auf Template-Manager',
+
+'access_overview_can_admin_design' => 'Zugriff auf globale Template-Einstellungen',
+
+'access_overview_can_create_template_groups' => 'Template-Gruppen erstellen',
+
+'access_overview_can_edit_template_groups' => 'Template-Gruppen bearbeiten',
+
+'access_overview_can_delete_template_groups' => 'Template-Gruppen löschen',
+
+'access_overview_can_create_template_partials' => 'Template-Partials erstellen',
+
+'access_overview_can_edit_template_partials' => 'Template-Partials  bearbeiten',
+
+'access_overview_can_delete_template_partials' => 'Template-Partials löschen',
+
+'access_overview_can_create_template_variables' => 'Template-Variablen erstellen',
+
+'access_overview_can_edit_template_variables' => 'Template-Variablen bearbeiten',
+
+'access_overview_can_delete_template_variables' => 'Template-Variablen löschen',
+
+'access_overview_can_create_templates' => 'Templates erstellen',
+
+'access_overview_can_edit_templates' => 'Templates bearbeiten',
+
+'access_overview_can_delete_templates' => 'Templates löschen',
+
+'access_overview_can_manage_settings' => 'Einstellungen & Zugriff verwalten',
+
+'access_overview_can_access_addons' => 'Zugriff auf Add-on-Verwaltung',
+
+'access_overview_can_admin_addons' => 'Add-ons verwalten (installieren/entfernen)',
+
+'access_overview_can_upload_new_toolsets' => 'Upload RTE-Toolsets',
+
+'access_overview_can_edit_toolsets' => 'RTE-Toolsets bearbeiten',
+
+'access_overview_can_delete_toolsets' => 'RTE-Toolsets löschen',
+
+'access_overview_can_access_utilities' => 'Zugriff System-Dienstprogramme',
+
+'access_overview_can_access_comm' => 'Zugriff auf Kommunikatiom',
+
+'access_overview_can_email_roles' => 'E-Mails senden an bestimmte Rollen',
+
+'access_overview_can_send_cached_email' => 'Betrachten/Senden Cached-Email',
+
+'access_overview_can_access_translate' => 'Zugriff auf Übersetzung',
+
+'access_overview_can_access_import' => 'Zugriff auf Import',
+
+'access_overview_can_access_sql_manager' => 'Zugriff auf SQL-Management',
+
+'access_overview_can_access_data' => 'Zugriff auf Datenoperationen',
+
+'access_overview_can_access_logs' => 'Zugriff auf System-Logs',
+
+'access_overview_can_access_sys_prefs' => 'Zugriff auf Systemeinstellungen',
+
+'access_overview_can_access_security_settings' => 'Zugriff auf Sicherheitseinstellungen',
+
+'access_overview_can_manage_consents' => 'Zugriff Einwillungsanfragen',
 
 );
 

@@ -8,6 +8,8 @@ $lang = array(
 
 'btn_cancel_upload' => 'Upload abbrechen',
 
+'delete_file' => 'Datei löschen',
+
 'btn_edit_file_meta' => 'Speichere Datei-Metadaten',
 
 'btn_finish_upload' => 'Auswahl übernehmen',
@@ -112,10 +114,8 @@ $lang = array(
 
 'upload_options' => 'Upload-Optionen',
 
-
 /* sidebar */
 'zero_directories_found' => 'Keine <b>Verzeichnisse</b> gefunden',
-
 
 /* modal */
 '90_degrees_left' => '90 Grad links',
@@ -242,7 +242,6 @@ $lang = array(
 
 'zero_upload_directories_found' => 'Kein <b>Upload-Verzeichnis</b> gefunden.',
 
-
 /* Uploads */
 'add_manipulation' => 'Neue Bildbearbeitung anlegen',
 
@@ -270,9 +269,11 @@ $lang = array(
 
 'constrain_or_crop' => 'Skalieren oder Beschneiden',
 
-'constrain_or_crop_desc' => 'Veränderungen an Bildern in diesem <mark>Upload</mark>-Verzeichnis beim Upload.',
+'constrain_or_crop_desc' => 'Veränderungen an Bildern in diesem <mark>Verzeichnis</mark> beim Uploaden.',
 
 'create_upload_directory' => 'Upload-Verzeichnis anlegen',
+
+'new_directory' => 'Neues Verzeichnis',
 
 'create_watermark' => 'Wasserzeichen anlegen',
 
@@ -406,11 +407,15 @@ $lang = array(
 
 'upload_member_groups' => 'Erlaubte Mitgliedergruppen',
 
-'upload_member_groups_desc' => 'Die folgenden Mitgliedergruppen dürfen in dieses Verzeichnis hochladen.</em><br /><em>Super Administratoren dürfen <b>immer</b>.',
+'upload_member_groups_desc' => 'Die folgenden Mitgliedergruppen dürfen in dieses Verzeichnis hochladen.</em><br /><em>Super Administratoren dürfen<b>immer</b>.',
+
+'upload_roles' => 'Erlaubte Benutzerrollen',
+
+'upload_roles_desc' => 'Mitglieder mit folgenden Benutzerregeln dürfen in dieses Verzeichnis hochladen.<br />Super Administratoren dürfen <b>immer</b>.',
 
 'upload_path' => 'Upload-Pfad',
 
-'upload_path_desc' => 'Absoluter Pfad dieses <mark>Upload</mark>-Verzeichnisses.',
+'upload_path_desc' => 'Absoluter Pfad dieses <mark>Verzeichnisses</mark>',
 
 'upload_privileges' => 'Upload-Rechte',
 
@@ -420,7 +425,7 @@ $lang = array(
 
 'upload_url' => 'Upload-Verzeichnis',
 
-'upload_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Pfad des <mark>Upload</mark>-Verzeichnisses.',
+'upload_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr>-Pfad des <mark>Verzeichnisses</mark>',
 
 'vertical' => 'vertikal',
 
@@ -493,7 +498,6 @@ $lang = array(
 'watermarks_true_type' => 'True Type aktivieren?',
 
 'watermarks_true_type_desc' => 'Wenn aktiviert, werden Text-Wasserzeichen mittels True Type gerendert.',
-
 
 /* 2.x */
 'choose_file' => 'Bitte eine Datei zum Löschen wählen',
@@ -569,7 +573,6 @@ $lang = array(
 'upload_success' => 'Upload erfolgreich',
 
 'where' => 'Wo',
-
 
 /* Upload modal */
 'all_categories' => 'Alle Kategorien',
@@ -809,14 +812,12 @@ $lang = array(
 
 'width_needed' => 'Eine Breite oder Breite/Höhe oder eine Drehen/Spiegeln-Richtung muss angegeben werden.',
 
-
 /* Batch Page */
 'caption' => 'Bildbeschriftung',
 
 'include' => 'Einschließen?',
 
-'thumbnail' => 'Vorschaubildl',
-
+'thumbnail' => 'Vorschaubild',
 
 /* Watermark */
 'add_watermark' => 'Keine',

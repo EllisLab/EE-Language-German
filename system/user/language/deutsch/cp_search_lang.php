@@ -12,7 +12,7 @@ $lang = array(
 
 'data_recount_stats' => 'Neuzählung Statistik',
 
-'data_search_and_replace' => 'Suchen und Ersetzen',
+'data_search_and_replace' => 'Suchen & Ersetzen',
 
 'data_sql_manager' => 'SQL-Manager',
 

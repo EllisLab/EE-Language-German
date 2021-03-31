@@ -14,7 +14,6 @@ $lang = array(
 
 'channel_form_unknown_channel' => 'Der angegebene Channel exisitiert nicht.',
 
-
 // Rules
 'alpha' => 'Das %s-Feld sollte nur alphabetische Zeichen enthalten.',
 

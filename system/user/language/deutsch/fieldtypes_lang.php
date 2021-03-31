@@ -22,6 +22,8 @@ $lang = array(
 
 'any_status' => 'Jeder Status',
 
+'relate_entry' => 'Eintrag verknüpfen',
+
 'rel_ft_allow_multi' => 'Mehrfachbeziehungen erlauben?',
 
 'rel_ft_allow_multi_desc' => 'Wenn aktiviert, können Autoren mehrfache Verknüpfungen anlegen.',
@@ -126,6 +128,8 @@ $lang = array(
 
 'file_dnd_choose_file_directory' => 'Ein Dateiverzeichnis wählen',
 
+'file_dnd_upload_to' => 'Hochladen zu',
+
 'file_dnd_choose_directory_before_uploading' => 'Sie müssen ein Verzeichnis auswählen, um Dateien hochzuladen',
 
 'file_dnd_choose_directory_btn' => 'Verzeichnis wählen',
@@ -145,6 +149,8 @@ $lang = array(
 'file_dnd_images_only' => 'Dieses Feld akzeptiert nur Bilder.',
 
 'file_dnd_progress' => 'Fortschritt',
+
+'file_dnd_conflict' => 'Fehler. Die Datei existiert bereits.',
 
 'file_dnd_resolve_conflict' => 'Konflikt lösen',
 
@@ -234,7 +240,6 @@ $lang = array(
 'file_grid_setup' => 'Datei-Grid Einstellungen',
 
 'file_grid_maximum_rows_hit' => 'Das Hochladen dieser vielen Dateien überschreitet die maximale Zeileneinstellung des Felds von %s',
-
 /* URL */
 'url_ft_allowed_url_schemes' => 'Erlaubte URL-Schemata',
 
@@ -247,6 +252,27 @@ $lang = array(
 'url_ft_url_scheme_placeholder' => 'URL-Schema-Platzhalter',
 
 'url_ft_url_scheme_placeholder_desc' => 'Wird als Platzhalter angezeigt, wenn kein URL gesendet wurde.',
+
+/* Color Picker */
+'colorpicker_allowed_colors' => 'Zulässige Farben',
+'colorpicker_allowed_colors_desc' => 'Choose what colors are allowed to be selected.',
+
+'colorpicker_allowed_colors_any' => 'Irgendeine',
+'colorpicker_allowed_colors_swatches' => 'Farbfelder',
+
+'colorpicker_default_color' => 'Standardfarbe',
+'colorpicker_default_color_desc' => 'Wenn diese Option ausgewählt und keine Farbe gewählt wurde, wird stattdessen die Standardfarbe verwendet.',
+
+'colorpicker_color_not_allowed' => 'Diese Farbe ist nicht erlaubt.',
+
+'no_colorpicker_swatches' => 'Keine <b>Farbfelder</b> vorhanden.',
+
+'swatches' => 'Farbfelder',
+
+'colorpicker_swatches_options_desc' => 'Geben Sie eine Liste vordefinierter Farben an, die in der Farbauswahl angezeigt werden sollen.',
+
+'colorpicker_swatches_populate_values' => 'Werte',
+'colorpicker_swatches_populate_manually' => 'Füllen Sie die Farbfelder manuell aus',
 
 );
 

@@ -13,7 +13,6 @@ $lang = array(
 
 'new_category' => 'Neue Kategorie',
 
-
 /* Sidebar */
 'create_new_board' => 'Erstelle ein neues Forum',
 
@@ -24,7 +23,6 @@ $lang = array(
 'forum_board' => 'Forum-Board',
 
 'templates' => 'Templates',
-
 
 /* List / Index */
 'categories' => 'Kategorien',
@@ -39,10 +37,8 @@ $lang = array(
 
 'new_forum' => 'Neues Forum',
 
-
 /* "Common" */
 'recipients' => 'Empfänger',
-
 
 /* Create / Edit Forum Alias Form */
 'alias_url' => 'Alias-<abbr title="Unified Resource Locator">URL</abbr>',
@@ -80,7 +76,6 @@ $lang = array(
 'forum_alias_removed_desc' => 'Der Forum-Alias <b>%s</b> wurde gelöscht.',
 
 'forum_board_desc' => 'Wählen Sie, für welches Forum Sie einen Alias erstellen möchten.',
-
 
 /* Create / Edit Forum Board Form */
 'all_files' => 'Alle Dateitypen',
@@ -327,7 +322,6 @@ $lang = array(
 
 'view_posts_desc' => 'Erlauben Sie den folgenden Mitgliedergruppen das Anzeigen von Beiträgen.</em><em> Super-Admins sind <b>immer</b> berechtigt.',
 
-
 /* Create/Edit Category Form */
 'btn_save_category' => 'Kategorie speichern',
 
@@ -361,7 +355,6 @@ $lang = array(
 
 'status_desc' => 'Status, der dieser Kategorie zugewiesen ist.',
 
-
 /* Create/Edit Forum Form */
 'btn_save_forum' => 'Forum speichern',
 
@@ -391,7 +384,6 @@ $lang = array(
 
 'topic_and_post_settings' => 'Themen- und Beitragseinstellungen',
 
-
 /* Category Permissions */
 'btn_save_permissions' => 'Berechtigungen speichern',
 
@@ -409,7 +401,6 @@ $lang = array(
 
 'view_hidden_category_desc' => 'Erlauben Sie den folgenden Mitgliedergruppen, diese Kategorie anzuzeigen.</em><em> Super-Admins sind <b>immer</b> berechtigt.',
 
-
 /* Forum Permissions */
 'edit_forum_settings_success' => 'Forums-Berechtigungen wurden aktualisiert',
 
@@ -424,7 +415,6 @@ $lang = array(
 'view_hidden_forum' => 'Versteckte Foren anzeigen',
 
 'view_hidden_forum_desc' => 'Lassen Sie die folgenden Mitgliedergruppen dieses Forums anzeigen, wenn sie ausgeblendet sind.</em><em> Super-Admins sind <b>immer</b> berechtigt.',
-
 
 /* Member Ranks */
 'btn_save_rank' => 'Rang speichern',
@@ -471,7 +461,6 @@ $lang = array(
 
 'stars_desc' => 'Anzahl der Sterne, die mit diesem Rang angezeigt werden sollen.',
 
-
 /* Administrators */
 'admin_type_individual' => 'Individueller <i>&mdash; Benutzername, <b>nicht</b> Bildschirmname</i>',
 
@@ -512,7 +501,6 @@ $lang = array(
 'invalid_member_group' => 'Die von Ihnen übermittelte Mitgliedergruppe scheint nicht gültig zu sein',
 
 'invalid_username' => 'Der eingegebene Benutzername scheint nicht gültig zu sein',
-
 
 /* Moderators */
 'btn_save_moderator' => 'Moderator speichern',
@@ -576,7 +564,6 @@ $lang = array(
 'permissions_desc' => 'Moderatoren dieses Forums können die folgenden Maßnahmen ergreifen.',
 
 'remove_moderator' => 'Moderator entfernen',
-
 
 /* Forum Publish Tab */
 'no_forum_permissions' => 'Sie haben keine Berechtigung, Beiträge in diesem Forum zu veröffentlichen.',

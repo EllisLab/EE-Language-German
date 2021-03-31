@@ -7,6 +7,10 @@ $lang = array(
 
 'addon_manager' => 'Add-On-Verwaltung',
 
+'updates' => 'Updates',
+
+'add-on-store' => 'Add-On Store',
+
 'addons' => 'Add-Ons',
 
 'all_addons' => 'Alle Add-Ons',
@@ -39,7 +43,6 @@ $lang = array(
 
 'update_to_version' => 'Update auf %s',
 
-
 // Confirm uninstall modal
 'btn_confirm_and_uninstall' => 'Deinstallieren',
 
@@ -48,7 +51,6 @@ $lang = array(
 'confirm_uninstall' => 'Add-On-Deinstallation bestätigen',
 
 'confirm_uninstall_desc' => 'Sie wollen nun eines oder mehrere Add-Ons deinstallieren. Bestätigen Sie die Aktion, indem Sie auf den Button <b>Deinstallieren</b> klicken.',
-
 
 // Filters
 'addons_installed' => 'Add-Ons installiert',
@@ -95,7 +97,6 @@ $lang = array(
 
 'uninstalled' => 'Deinstalliert',
 
-
 // 2.x
 'addons_extensions' => 'Extensions',
 
@@ -137,6 +138,8 @@ $lang = array(
 
 'extensions_disabled_desc' => 'Erweiterungen wurden deaktiviert',
 
+'extensions_disabled_message' => 'Erweiterungen wurden in der Systemkonfiguration deaktiviert, daher sind sie in dieser Liste nicht vorhanden.',
+
 'extensions_disabled_warning' => 'Sie müssen für die Installation dieses Add-Ons die Erweiterungen aktivieren. Möchten Sie Erweiterungen aktivieren?',
 
 'extensions_enabled' => 'Erweiterung aktiviert',
@@ -174,8 +177,6 @@ $lang = array(
 'remove' => 'Entfernen',
 
 'required_by' => 'Benötigt von:',
-
-'rte_tool' => 'Rich Text Editor-Tool',
 
 'specific_page' => 'Spezifische Seite?',
 

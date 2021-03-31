@@ -5,24 +5,48 @@ $lang = array(
 /* no Javascript Warning */
 'no_js_warning' => 'Javascript muss aktiviert sein, damit dieses Theme ordnungsgemäß funktioniert. Bitte überprüfen Sie Ihre Browsereinstellungen.',
 
-
 /* Develop Menu */
 'addon_manager' => 'Add-On-Manager',
 
 'channel_manager' => 'Channel-Manager',
 
+'entries' => 'Einträge',
+
+'menu_entries' => 'Einträge',
+
 'logs' => 'Logs',
 
 'msm_manager' => 'Site-Manager',
 
-'nav_developer' => 'CMS-Manager',
+'nav_content' => 'Inhalte',
+
+'nav_developer' => 'CMS-Verwaltung',
 
 'nav_developer_tools' => 'Konfigurations-Tools',
+
+'nav_tools' => 'Tools',
+
+'nav_design' => 'Design',
 
 'template_manager' => 'Template-Manager',
 
 'utilities' => 'Dienstprogramme',
 
+'dark_theme' => 'Dunkles Theme',
+
+'light_theme' => 'Helles Theme',
+
+'dark' => 'Dunkel',
+
+'light' => 'Hell',
+
+'jump_menu_item' => 'Sprungmenü',
+
+'jump_menu_input' => 'Springe zu...',
+
+'many_jump_results' => 'Mehr als 10 Ergebnisse gefunden, bitte Suche verfeinern',
+
+'menu_manager' => 'Menu Manager',
 
 /* Control Panel */
 'action_can_not_be_undone' => 'DIESE AKTION KANN NICHT RÜCKGÄNGIG GEMACHT WERDEN',
@@ -93,7 +117,7 @@ $lang = array(
 
 'myaccount' => 'Mein Konto',
 
-'nav_homepage' => 'CP-Home',
+'nav_homepage' => 'CP-Startseite',
 
 'nav_overview' => 'CP-Überblick',
 
@@ -112,6 +136,8 @@ $lang = array(
 'password' => 'Passwort',
 
 'password_label' => 'Passwort:',
+
+'password_for' => 'Password für %s',
 
 'powered_by' => 'Powered by',
 
@@ -153,6 +179,10 @@ $lang = array(
 
 'unauthorized_access' => 'Sie sind nicht autorisiert auf diese Seite zuzugreifen',
 
+'machines_only_request' => 'Sie sollten wirklich nicht hier sein. Dieser Bereich ist nur für Bots und Maschinen.',
+
+'addon_missing_jump_method' => 'Dem Add-On fehlt angeforderte Sprungmenü-Methode.',
+
 'update_check_btn' => 'Überprüfe auf Updates',
 
 'update_btn' => 'Jetzt updaten',
@@ -165,7 +195,7 @@ $lang = array(
 
 'username' => 'Benutzername',
 
-'username_filter' => 'benutzername',
+'username_filter' => 'Benutzername',
 
 'version_identifier' => 'Kennung:',
 
@@ -173,6 +203,7 @@ $lang = array(
 
 'version_update_inst' => "ExpressionEngine% s ist verfügbar. <a href='#' data-post-url='%s'>Klicken Sie hier, um ein Update durchzuführen</a>, oder befolgen Sie die <a href='%s'rel='external'> Anweisungen zum manuellen Updade</a> .",
 
+'navigation_toggle' => 'Toggle Navigation',
 
 /* Buttons */
 'cancel' => 'Abbrechen',
@@ -227,6 +258,8 @@ $lang = array(
 
 'member_anonymized_member' => 'Anonymisiertes Mitglied mit ID: %d',
 
+'member_hash_algo_changed' => 'Hash-Algorithmus geändert für "%s" (%d)',
+
 'member_id' => 'Mitglieder-ID',
 
 'member_logged_in' => 'Logged in',
@@ -245,7 +278,7 @@ $lang = array(
 
 'channel' => 'Channels',
 
-'check_all' => 'Alle überprüfen',
+'check_all' => 'Alle markieren',
 
 'clear_all' => 'Alles löschen',
 
@@ -285,15 +318,23 @@ $lang = array(
 
 'recent_entries' => 'Letzte Einträge',
 
+'recent_members' => 'Letzte Mitglieder',
+
 'results' => 'Ergebnisse',
 
-'select_all' => 'Alle wählen',
+'select_row' => 'Zeile wählen',
+
+'select_all' => 'Alle markieren',
 
 'search_in' => 'Suchen in',
 
 'show' => 'Zeigen',
 
 'search_in_filter' => 'suchen in',
+
+'search_titles_only' => 'Nur Titel suchen',
+
+'columns_filter' => 'Spalten',
 
 'perpage_filter' => 'zeigen',
 
@@ -335,6 +376,14 @@ $lang = array(
 
 'important' => 'Wichtig!',
 
+'view_as' => 'Ansicht als ',
+
+'viewtype_list' => 'Liste',
+
+'viewtype_thumb' => 'Thumbnails',
+
+'viewtype_hybrid' => 'Gemischt',
+
 /* Sites and Channels */
 'avatar_path' => 'Avatar-Pfad',
 
@@ -356,8 +405,9 @@ $lang = array(
 
 'sites' => 'Sites',
 
-'view_site' => 'View Site',
+'view_site' => 'Website-Ansicht',
 
+'add_site' => 'Site hinzufügen',
 
 /* learning EE lang vars */
 'building_ee_site_01' => 'Eine ExpressionEngine Website bauen - Kapitel 01',
@@ -406,7 +456,6 @@ $lang = array(
 
 'wiki' => 'Wiki',
 
-
 /* License Errors */
 'corrupt_license_file' => 'In der hochgeladenen Lizenzdatei fehlen Daten. <a href="%s">Bitte laden Sie Ihre Lizenz hoch.</a>',
 
@@ -418,17 +467,17 @@ $lang = array(
 
 'missing_pubkey' => 'ExpressionEngine fehlen Daten/Dateien. Bitte besuchen Sie <a href="%s" rel="external">expressionengine.com</a> und laden eine neue Kopie des Systems herunter.',
 
-
 /* CP Errors */
 '404_does_not_exist' => '404: Eintrag wurde nicht gefunden.',
 
 '404_does_not_exist_desc' => 'Tut uns leid, wir konnten den Eintrag, auf den Sie zugreifen wollten, im System nicht finden.',
 
-
 /* Common */
 'alphadash_desc' => '<i>Keine Leerzeichen! Nur Unterstriche und Bindestriche sind erlaubt.</i>',
 
 'auto_br' => 'Automatischer Zeilenumbruch',
+
+'btn_authenticate' => 'Authentifizieren',
 
 'btn_authenticate_and_save' => 'Authentifizieren & sichern',
 
@@ -494,6 +543,8 @@ $lang = array(
 
 'name' => 'Name',
 
+'short_name' => 'Kurzname',
+
 'name_your_site' => 'Websitename',
 
 'new' => 'Neu',
@@ -506,7 +557,9 @@ $lang = array(
 
 'no_channels' => 'Keine <b>Channels</b> gefunden.',
 
-'no_found' => '<b>%s</b> nicht gefunden..',
+'no_found' => '<b>%s</b> nicht gefunden.',
+
+'no_roles_with_design_access_found' => 'Keine <b>Benutzerrollen</b> mit <b>Template-Manager-Zugriff</b> gefunden.',
 
 'no_rows_returned' => 'Keine Zeilen zurückgegeben',
 
@@ -525,6 +578,8 @@ $lang = array(
 'rev_id' => '#',
 
 'revisions' => 'Revisionen',
+
+'search_results' => 'Suchergebnisse',
 
 'search_results_heading' => 'Suchergebnisse: <br><i>Folgende %d Resultate wurden für "%s" gefunden</i>',
 
@@ -548,11 +603,28 @@ $lang = array(
 
 'xhtml' => 'XHTML',
 
+/* Members Menu */
+
+'new_member' => 'Neues Mitglied',
+
+'all_members' => 'Alle Mitglieder',
+
+'pending_members' => 'Ausstehende Mitglieder',
+
+'ban_management' => 'Sperr-Management',
+
+'roles' => 'Rollen',
+
+'custom_member_fields' => 'Mitgliederfelder',
 
 /* Footer */
 'about_expressionengine' => 'Über ExpressionEngine',
 
 'authenticating' => 'Authentifiziere...',
+
+'one_click_major_update_instructions' => '<a href="https://docs.expressionengine.com/latest/installation/updating.html#upgrading-major-version" target="_blank">Lesen Sie die Update-Warnungen, bevor Sie fortfahren!</a><br>Geben Sie Ihr Passwort ein, um fortzufahren:',
+
+'one_click_major_update_confirm_error' => '<b>Authentifizierung nicht möglich</b><br><br>Weitere Details finden Sie möglicherweise in Ihrer Browserkonsole',
 
 'checking_for_updates' => 'Nach Updates suchen...',
 
@@ -576,6 +648,8 @@ $lang = array(
 
 'out_of_date_upgrade' => 'Neue Version gefunden',
 
+'out_of_date_upgrade_major' => 'Neue Hauptversion verfügbar',
+
 'owned_by' => 'Lizenznehmer',
 
 'recommended_upgrade' => '<b>Aktualisierung </b> empfohlen.',
@@ -584,9 +658,13 @@ $lang = array(
 
 'report_bug' => 'Bug melden (in Englisch)',
 
+'whats_new' => 'Was ist neu?',
+
 'scroll_to_top' => 'Nach oben scrollen',
 
 'session_timeout' => 'Ihr administrativer Zugang ist abgelaufen. Bitte benutzen Sie das Formular unten, um sich wieder am Control Panel (CP) anzumelden.',
+
+'log_into' => 'Einloggen in %s',
 
 'up_to_date' => 'Aktuell!',
 
@@ -600,12 +678,20 @@ $lang = array(
 
 'confirm_removal' => 'Entfernen bestätigen',
 
-'confirm_removal_desc' => 'Sie versuchen, die folgenden Sachen zu löschen. Bitte bestätigen Sie den Vorgang.',
+'confirm_removal_desc' => 'Sie versuchen, die folgenden Elemente zu entfernen, bestätigen Sie diese Aktion.',
 
-'btn_confirm_and_save' => 'Bestätigen & speichern',
+'btn_confirm_and_save' => 'Bestätigen und speichern',
 
 'btn_confirm_and_save_working' => 'Speichert...',
 
+/* confirm delete modal */
+'btn_confirm_and_delete' => 'Bestätigen und löschen',
+
+'btn_confirm_and_delete_working' => 'Lösche...',
+
+'confirm_delete' => 'Sind Sie sicher?',
+
+'confirm_deletion_desc' => 'Sie versuchen, folgenden Elemente zu löschen:',
 
 /*confirm show all modal */
 'all_items' => 'Alle %d Einträge',
@@ -639,6 +725,54 @@ $lang = array(
 'html_button_ajax_reorder_fail' => 'Achtung: Die Anordnung der HTML-Buttons konnte nicht gesichert werden',
 
 'html_button_ajax_reorder_fail_desc' => 'Die Anordnung der HTML-Buttons konnte nicht gesichert werden. Aktualisieren Sie die Seite und stellen Sie sicher, dass Sie angemeldet sind.',
+
+/* Search Reindex tip */
+
+'search_reindex_tip' => 'Suchindex reindizieren',
+
+'search_reindex_tip_desc' => "Bitte benutzen Sie das <a href='%s'>Reindizierungs-Tool</a>, um Ihre durchsuchbaren Daten auf dem neuesten Stand zu halten.",
+
+'reindex_not_needed' => 'Neuindizierung nicht erforderlich',
+
+'reindex_not_needed_desc' => 'Ihr Suchindex ist aktuell!',
+
+'reindex_explained_desc' => 'Der Suchindex kann veraltet sein, wenn Sie kürzlich geändert haben, ob bestimmte Feldtypen durchsuchbar sind oder nicht.<br>Bitte konsultieren Sie das <a href="' . DOC_URL . '/cp/utilities/reindex.html">Benutzerhandbuch</a> für mehr Details.',
+
+/* Permissions */
+
+'can_create_templates' => 'Templates erstellen',
+
+'can_edit_templates' => 'Templates bearbeiten',
+
+'can_delete_templates' => 'Templates entfernen',
+
+'can_manage_settings' => 'Einstellungen und Zugriffe verwalten',
+
+'can_create_entries' => 'Einträge erstellen',
+
+'can_edit_self_entries' => 'Eigene Einträge bearbeiten',
+
+'can_delete_self_entries' => 'Eigene Einträge entfernen',
+
+'can_edit_other_entries' => 'Einträge von Anderen bearbeiten',
+
+'can_delete_all_entries' => 'Einträge von Anderen entfernen',
+
+'can_assign_post_authors' => 'Autor ändern',
+
+/* Dashboard Widgets */
+
+'dashboard' => 'Dashboard',
+
+'save_dashboard_layout' => 'Layout sichern',
+
+'edit_dashboard_layout' => 'Layout ändern',
+
+'dashboard_layout_saved' => 'Layout speichern',
+
+'dashboard_layout_save_error' => 'Layout konnte nicht gespeichert werden',
+
+'dashboard_needs_some_widgets' => 'Bitte aktivieren Sie mindestens ein Widget',
 
 );
 

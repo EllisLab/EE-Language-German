@@ -6,11 +6,11 @@ $lang = array(
 
 'all_sites' => 'Alle Sites',
 
-'allowed_member_groups' => 'Zugelassene Mitgliedergruppen',
+'allowed_roles' => 'Zugelassene Mitgliedergruppen',
 
-'allowed_member_groups_desc' => 'Die folgenden Mitgliedergruppen dürfen auf diese Template-Gruppe zugreifen.',
+'allowed_roles_desc' => 'Die folgenden Mitgliedergruppen dürfen auf diese Template-Gruppe zugreifen.',
 
-'allowed_member_groups_super_admin' => 'Super-Admins dürfen <b>immer</b>.',
+'allowed_roles_super_admin' => 'Super-Administratoren dürfen <b>immer</b>.',
 
 'author_unknown' => 'unbekannt',
 
@@ -88,6 +88,8 @@ $lang = array(
 
 'edit_template' => 'Bearbeite Template: %s',
 
+'edit_template_title' => 'Template bearbeiten',
+
 'edit_template_group' => 'Template-Gruppe bearbeiten',
 
 'edit_template_group_error' => 'Template-Gruppe nicht angelegt',
@@ -116,7 +118,7 @@ $lang = array(
 
 'edit_template_variable_success_desc' => 'Die Template-Variable <b>%s</b> wurde aktualisiert.',
 
-'email' => 'Email',
+'email' => 'Emails',
 
 'enable_caching' => 'Caching einschalten?',
 
@@ -256,7 +258,7 @@ $lang = array(
 
 'template_route_override' => 'Template-Routes überschreiben',
 
-'template_route_override_desc' => 'Überschreibt das standardmäßige ExpressionEngine <mark>gruppe/template</mark>-Routing.',
+'template_route_override_desc' => 'Überschreibt das standardmäßige <mark>templategruppe/template</mark> Routing von ExpressionEngine.',
 
 'template_routes' => 'Template-Routes',
 
@@ -294,7 +296,6 @@ $lang = array(
 
 'zero_template_groups_found' => 'Keine <b>Template-Gruppe</b> gefunden',
 
-
 /* System Templates -> Messages */
 'message_template' => 'Mitgliedernachrichten',
 
@@ -306,6 +307,7 @@ $lang = array(
 
 'system_message_templates' => 'System-Nachrichten-Templates',
 
+'post_install_message_template' => 'Nachricht nach der Installation',
 
 /* System Templates -> Email */
 'comments' => 'Kommentare',
@@ -328,12 +330,10 @@ $lang = array(
 
 'variables_desc' => 'Liste der verfügbaren Variablen für dieses Email-Template.',
 
-
 /* System Templates -> Members */
 'file_not_writable' => '<b>Achtung</b>: Diese Datei ist nicht beschreibbar',
 
 'file_writing_instructions' => 'Die Änderungen am Template können erst gespeichert werden, wenn die Rechte dafür eingeräumt sind.',
-
 
 /* System Templates -> Forums */
 'forum_manager' => 'Foren-Manager',
@@ -343,7 +343,6 @@ $lang = array(
 'unable_to_find_template_file' => 'Die Template-Datei konnte nicht gefunden werden.',
 
 'unable_to_find_templates' => 'Die Templates können nicht gefunden werden.',
-
 
 /* Menu */
 'forum_themes' => 'Foren-Themes',
@@ -359,7 +358,6 @@ $lang = array(
 'themes' => 'Themes',
 
 'wiki_themes' => 'Wiki-Themes',
-
 
 /* Templates */
 '404_page' => '404-Seite',
@@ -561,6 +559,8 @@ $lang = array(
 'php_in_templates_warning' => '<b>Achtung</b>: PHP in Templates hat Auswirkungen auf die Sicherheit.',
 
 'php_in_templates_warning2' => 'Jede Einstellung, die mit %s markiert, sollte mit Vorsicht benutzt werden.',
+
+'php_in_templates_config_warning' => 'Sie müssen die Datei <code>$config[\'allow_php\'] = \'y\';</code> in <code>config.php</code> bearbeiten, wenn Sie diese Funktion verwenden möchten.',
 
 'preference' => 'Einstellung',
 
@@ -779,7 +779,6 @@ $lang = array(
 'xml_type_col' => '<abbr title="Extensible Markup Language">XML</abbr>',
 
 'you_must_submit_a_name' => 'Das Template braucht einen Namen.',
-
 
 /* Profile Theme Templates */
 'activation_email_resent' => 'Aktivierungs-Email nochmals gesendet',
