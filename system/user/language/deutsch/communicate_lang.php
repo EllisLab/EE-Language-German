@@ -140,8 +140,6 @@ $lang = array(
 
 'view' => 'Zeigen',
 
-'view_email_cache' => 'Früher gesendete Emails ansehen',
-
 'wordwrap' => 'Wortumbruch',
 
 'your_email' => 'Deine Email-Adresse',

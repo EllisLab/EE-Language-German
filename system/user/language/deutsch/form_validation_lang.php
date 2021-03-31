@@ -66,12 +66,10 @@ $lang = array(
 
 'valid_url' => 'Dieses Feld muss einen gültigen URL enthalten.',
 
-
 /* Legacy form validation lib */
 'file_exists' => 'Dieser Pfad ist entweder ungültig oder nicht beschreibbar.',
 
 'writable' => 'Dieser Pfad ist entweder ungültig oder nicht beschreibbar.',
-
 
 /* special and legacy things */
 'auth_password' => 'Das eingegebene Passwort ist falsch.',

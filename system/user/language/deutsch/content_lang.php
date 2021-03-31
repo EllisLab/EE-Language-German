@@ -56,6 +56,8 @@ $lang = array(
 
 'column_comment_total' => 'Kommentare',
 
+'column_categories' => 'Kategorien',
+
 'column_entry_date' => 'Datum',
 
 'column_entry_id' => 'ID#',
@@ -116,11 +118,11 @@ $lang = array(
 
 'entries' => 'Einträge',
 
-'entries_removed_desc' => 'Die folgenden Einträge wurden entfernt',
+'entries_deleted_desc' => 'Die folgenden Einträge wurden entfernt',
 
 'entry' => 'Eintrag',
 
-'entry_date' => 'Datum des Eintrags',
+'entry_date' => 'Eintragsdatum',
 
 'entry_date_desc' => 'Veröffentlichungsdatum dieses Eintrages.',
 
@@ -170,7 +172,7 @@ $lang = array(
 
 'sticky' => 'Eintrag oben fixieren?',
 
-'sticky_desc' => 'Wenn Option aktiviert, wird dieser Eintrag innerhalb der sortierten Einträge immer oben angezeigt.',
+'sticky_desc' => 'Wenn Option aktiviert, wird dieser Eintrag innerhalb der sortierten Einträge zum Beispiel dauerhaft oben angezeigt.',
 
 'url_title' => '<abbr title="Unified Resource Locator">URL</abbr>-Title',
 
@@ -231,6 +233,8 @@ $lang = array(
 'button_mode' => 'Button-Modus:',
 
 'calendar' => 'Kalender',
+
+'close_preview' => 'Vorschau schliessen',
 
 'cancel_preview' => 'Vorschau beenden',
 
@@ -322,10 +326,6 @@ $lang = array(
 
 'delete_comment' => 'Kommentare löschen',
 
-'delete_comment_confirm' => 'Soll dieser Kommentar definitiv gelöscht werden?',
-
-'delete_comments_confirm' => 'Sollen diese Kommentare definitiv gelöscht werden?',
-
 'delete_confirm' => 'Löschen bestätigen',
 
 'delete_entries_confirm' => 'Sollen diese Einträge definitiv gelöscht werden?',
@@ -373,6 +373,10 @@ $lang = array(
 'field_blank' => 'Ein Feld wurde leer gelassen.',
 
 'fields' => 'Felder',
+
+'add' => 'Hinzufügen',
+
+'add_field' => 'Feld hinzufügen',
 
 'file_exists' => 'Es gibt bereits eine Datei mit diesem Namen.',
 
@@ -612,7 +616,17 @@ $lang = array(
 
 'preview_entry' => 'Eintrags-Vorschau',
 
-'preview_layout' => 'Layout-Vorschau',
+'preview_layout' => 'Live-Vorschau',
+
+'preview_url_not_set' => 'Live-Vorschau-URL ist nicht festgelegt',
+
+'preview_url_not_set_desc' => "Bitte den <a href='%s' target='_blank'>Live-Vorschau-URL</a> in den Channel-Einstellungen hinzufügen.",
+
+'preview_cannot_display' => 'Die Live-Vorschau kann nicht angezeigt werden',
+
+'preview_domain_mismatch_desc' => "Live-Vorschau-URL benutzt <code>%1\$s</code>, jedoch greifen Sie über <code>%2\$s</code> auf die Systemsteuerung zu.",
+
+'preview_protocol_mismatch_desc' => "Live-Vorschau-URL benutzt <code>%1\$s</code>, jedoch greifen Sie über <code>%2\$s</code> auf die Systemsteuerung zu.",
 
 'publish' => 'Verfassen',
 
@@ -796,9 +810,17 @@ $lang = array(
 /* Relationships */
 'add_new_html_button' => 'Neuen HTML-Button hinzufügen',
 
-'add_new_row' => 'Neue Zeile hinzugefügt',
+'add_new_row' => 'Neue Zeile hinzugefügen',
+
+'add_row' => 'Zeile hinzugefügen',
 
 'collapse' => 'Zuklappen',
+
+'collapse_all' => 'Alle zuklappen',
+
+'expand' => 'Aufklappen',
+
+'expand_all' => 'Alle aufklappen',
 
 'creating_new_in_rel' => 'Erstellen eines neuen Eintrags in <b>#to_channel#</b> für eine Beziehung mit <b>#from_channel#</b>',
 
@@ -968,7 +990,25 @@ $lang = array(
 
 'showing' => 'Zeigen',
 
-'unauthorized_entry_desc' => 'Sie sind nicht berechtigt, einen der ausgewählten Einträge zu bearbeiten.'
+'unauthorized_entry_desc' => 'Sie sind nicht berechtigt, die ausgewählten Einträge zu bearbeiten.',
+
+/* Entry Manager */
+
+'entry_manager_view_created' => 'Ansicht erstellt',
+
+'entry_manager_view_created_desc' => 'Die Ansicht <b>%s</b> wurde erstellt.',
+
+'entry_manager_view_updated' => 'Ansicht aktualisiert',
+
+'entry_manager_view_updated_desc' => 'Die Ansicht <b>%s</b> wurde aktualisiert.',
+
+'entry_manager_view_not_created' => 'Ansicht kann nicht erstellt werden',
+
+'entry_manager_view_not_created_desc' => 'Diese Ansicht konnte nicht erstellt werden. Bitte beheben Sie die folgenden Fehler.',
+
+'entry_manager_view_not_updated' => 'Ansicht kann nicht aktualisiert werden',
+
+'entry_manager_view_not_updated_desc' => 'Diese Ansicht konnte nicht aktualisiert werden. Bitte beheben Sie die folgenden Fehler.',
 
 );
 

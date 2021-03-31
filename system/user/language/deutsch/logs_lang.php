@@ -4,7 +4,6 @@ $lang = array(
 
 'system_logs' => 'System-Logs',
 
-
 /* Sidebar */
 'all_consent_logs' => 'Alle %d Einwilligungs-Logs',
 
@@ -64,7 +63,6 @@ $lang = array(
 
 'view_throttle_log' => 'Throttling-Logs sehen',
 
-
 /* Developer Log */
 'clear_developer_logs' => 'Alle Entwickler-Logs entfernen',
 
@@ -106,7 +104,6 @@ $lang = array(
 
 'no_developer_logs_found' => 'Keine <b>Entwickler-Logs</b> gefunden.',
 
-
 /* Email Log */
 'clear_email_logs' => 'Lösche alle Email-Logs',
 
@@ -116,7 +113,6 @@ $lang = array(
 
 'subject' => 'Subject',
 
-
 /* Search Log */
 'clear_search_logs' => 'Lösche alle Such-Logs',
 
@@ -124,9 +120,7 @@ $lang = array(
 
 'searched_for' => 'Gesucht nach',
 
-
 /* Throttle Log */
-'blacklist_all_ips'	=> 'Alle IPs auf die schwarze Liste setzen',
 
 'clear_throttle_logs' => 'Lösche alle Throttling-Logs',
 
@@ -142,13 +136,10 @@ $lang = array(
 
 'throttling_disabled' => '<b>Throttling</b> abgeschaltet',
 
-
 /* Filters */
 'custom_date' => 'Eigenes Datum',
 
 'custom_limit' => 'Eigenes Limit',
-
-'date' => 'Datum',
 
 'filter_by_site' => 'Filter Sites',
 

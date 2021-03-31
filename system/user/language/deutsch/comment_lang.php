@@ -6,7 +6,7 @@ $lang = array(
 
 'any_date' => 'Benutzerdefinierter Datumsbereich',
 
-'blacklist' => 'IPs zur Blacklist hinzufügen',
+'block_ips' => 'IPs zur Blockierliste hinzufügen',
 
 'choose_entry_for_comment_move' => 'Eintrag wählen zum Kommentar verschieben ',
 
@@ -60,6 +60,8 @@ $lang = array(
 
 'cmt_subscribe' => 'Diesen Kommentar abonnieren',
 
+'cmt_must_be_logged_in' => 'Diese Seite ist nur für angemeldete Benutzer zugänglich.',
+
 'cmt_too_large' => 'Der Kommentar ist %n Zeichen lang. Es sind nur %x Zeichen erlaubt.',
 
 'cmt_unsubscribe' => 'Abonnement für diesen Kommentar löschen',
@@ -97,10 +99,6 @@ $lang = array(
 'comments_moved' => 'Komentare verschoben',
 
 'date_range' => 'Datumsbereich',
-
-'delete_comment_confirm' => 'Soll dieser Kommentar endgültig gelöscht werden?',
-
-'delete_comments_confirm' => 'Sollen diese Kommentare endgültig gelöscht werden?',
 
 'delete_confirm' => 'Kommentar löschen bestätigen',
 

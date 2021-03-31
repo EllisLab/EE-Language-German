@@ -4,7 +4,7 @@ $lang = array(
 
 'add_field' => 'Neues Feld erstellen',
 
-'add_group' => 'Neue Feldgruppe erstellen',
+'add_group' => 'Neue Feldergruppe erstellen',
 
 'add_status' => 'Neuen Status erstellen',
 
@@ -58,11 +58,11 @@ $lang = array(
 
 'channel_set_incompatible' => 'Inkompatibles Channel-Set. Dieses Channel-Set erfordert ExpressionEngine %d.0.0 oder neuer.',
 
-'channels' => 'Channels',
+'channels' => 'Channel(s)',
 
-'channels_removed' => 'Channels gelöscht',
+'channels_deleted' => 'Channel(s) gelöscht',
 
-'channels_removed_desc' => '%d Channels wurden gelöscht.',
+'channels_deleted_desc' => '%d Channels wurden gelöscht.',
 
 'create_channel' => 'Neuer Channel',
 
@@ -102,15 +102,17 @@ $lang = array(
 
 'export_set' => 'Channel-Set exportieren',
 
-'field_group' => 'Feldgruppe',
+'field_group' => 'Feldergruppe',
 
-'field_groups' => 'Feldgruppen',
+'field_groups' => 'Feldergruppen',
 
-'field_groups_desc' => 'Weisen Sie diesem Channel eine Feldgruppe oder mehrere zu.',
+'field_groups_desc' => 'Weisen Sie diesem Channel eine Feldergruppe oder mehrere zu.',
 
 'fields_desc' => 'Weisen Sie diesem Channel ein Feld oder mehrere zu.',
 
 'form_layouts' => 'Formularlayouts',
+
+'edit_layout' => 'Layout bearbeiten',
 
 'illegal_tab_name' => 'Tab-Namen dürfen <b>keine</b> der folgenden Zeichen enthalten: *, >, :, +, (, ), [, ], =, |, ", \', ., #, or $',
 
@@ -120,13 +122,13 @@ $lang = array(
 
 'layout' => 'Layout',
 
-'layout_member_groups' => 'Mitgliedergruppe(n)?',
+'layout_roles' => 'Mitglieder-Rolle(n)?',
 
 'layout_options' => 'Layout-Optionen',
 
 'layouts' => 'Layouts',
 
-'layouts_removed_desc' => 'Die folgenden Formularlayouts wurden gelöscht',
+'layouts_deleted_desc' => 'Die folgenden Formularlayouts wurden gelöscht',
 
 'manage_channels' => 'Channels verwalten',
 
@@ -134,7 +136,7 @@ $lang = array(
 
 'member_group' => 'Mitgliedergruppe',
 
-'member_groups_desc' => 'Mitgliedergruppe(n) wählen, für die das Layout gelten soll.',
+'roles_desc' => 'Wählen Sie die Mitglieder-Rolle(n), auf die dieses Layout angewendet werden soll.',
 
 'new_layout' => 'Neues Layout',
 
@@ -156,8 +158,7 @@ $lang = array(
 
 'tab_name_desc' => 'Kurzname für diesen Tab.',
 
-'tab_name_required' => 'Bitte einen Namen wählen für den Tab.',
-
+'tab_name_required' => 'Bitte einen Namen für den Tab wählen.',
 
 // Channel Create/Edit
 'category_groups_not_found' => 'Keine <b>Kategoriengruppe</b> gefunden',
@@ -188,9 +189,9 @@ $lang = array(
 
 'channel_publishing_options' => 'Veröffentlichungsoptionen',
 
-'channel_publishing_options_warning' => '<b>Achtung</b>: Channels benötigen eigene Feldgruppen, um andere Daten außer Titel und Datum speichern zu können.',
+'channel_publishing_options_warning' => '<b>Achtung</b>: Channels benötigen eigene Feldergruppen, um andere Daten außer Titel und Datum speichern zu können.',
 
-'channel_publishing_options_warning2' => 'Wenn Sie weitere Inhalte in diesem Channel speichern wollen, legen Sie zuerst eine <a href="%s">eigene Feldgruppe</a> an.',
+'channel_publishing_options_warning2' => 'Wenn Sie weitere Inhalte in diesem Channel speichern wollen, legen Sie zuerst eine <a href="%s">eigene Feldergruppe</a> an.',
 
 'channel_title' => 'Name',
 
@@ -200,22 +201,21 @@ $lang = array(
 
 'create_new_category_group' => 'Neue Kategoriengruppe erstellen',
 
-'create_new_field_group' => 'Neue Feldgruppe erstellen',
+'create_new_field_group' => 'Neue Feldergruppe erstellen',
 
-'custom_field_group' => 'Benutzerdefinierte Feldgruppe',
+'custom_field_group' => 'Benutzerdefinierte Feldergruppe',
 
-'custom_field_groups' => 'Benutzerdefinierte Feldgruppen',
+'custom_field_groups' => 'Benutzerdefinierte Feldergruppen',
 
-'custom_field_groups_not_found' => 'Keine <b>benutzerdefinierte Feldgruppen</b> gefunden',
+'custom_field_groups_not_found' => 'Keine <b>benutzerdefinierte Feldergruppen</b> gefunden',
 
-'custom_fields_desc' => 'Wählen Sie die Felder aus, die Sie in diese Feldgruppe aufnehmen möchten.',
+'custom_fields_desc' => 'Wählen Sie die Felder aus, die Sie in diese Feldergruppe aufnehmen möchten.',
 
 'edit_channel' => 'Channel bearbeiten',
 
 'invalid_short_name' => 'Der Channel-Name darf nur alphanumerische Zeichen und keine Leerzeichen enthalten.',
 
 'taken_channel_name' => 'Dieser Channel-Name ist bereits vergeben.',
-
 
 // Channel Settings
 'allow_all_html' => 'Alles HTML erlauben',
@@ -290,7 +290,11 @@ $lang = array(
 
 'convert_urls_emails_to_links' => '<abbr title="Unified Resource Locator">URL</abbr>s und Email-Adressen als Links darstellen?',
 
-'convert_urls_emails_to_links_desc' => 'Wenn auf aktivert, werden <abbr title="Unified Resource Locator">URL</abbr>s und Email-Adressen automatisch als Links in den Einträgen dieses Channels dargestellt.',
+'convert_urls_emails_to_links_desc' => 'Wenn aktiviert, werden <abbr title="Unified Resource Locator">URL</abbr>s und Email-Adressen automatisch als Links in den Einträgen dieses Channels dargestellt.',
+
+'enable_sticky' => 'Erlaube, Einträge zu fixieren?',
+
+'enable_sticky_desc' => 'Wenn aktiviert, können Einträge markiert werden und in sortierten Listen ober fixiert werden (so fällt ein Eintrag z.B. aus der Sortierung nach Datum heraus).',
 
 'default_category' => 'Kategorie',
 
@@ -319,10 +323,6 @@ $lang = array(
 'enable_versioning' => 'Versionierung für Einträge einschalten?',
 
 'enable_versioning_desc' => 'Wenn <b>aktiviert</b>, wird ExpressionEngine überarbeitete Versionen für alle Einträge in diesem Channel speichern.',
-
-'extra_publish_controls' => 'Weitere Veröffentlichungs-Buttons anzeigen?',
-
-'extra_publish_controls_desc' => 'Wenn <b>aktiviert</b>, erscheint ein zweites Set an Veröffentlichungs-Buttons (Speichern etc) am oberen Ende des Veröffentlichungsformulars.',
 
 'html_formatting' => '<abbr title="Hyper-Text Markup Language">HTML</abbr>-Formatierung',
 
@@ -390,13 +390,12 @@ $lang = array(
 
 'xml_language_desc' => 'Standard-Sprache für <abbr title="Extensible Markup Language">XML</abbr>-Dateien, die durch diesen Channel generiert werden.',
 
-
 // Categories
 'cat_field_ajax_reorder_fail' => 'Achtung: Kategorienfeld-Reihenfolge wurde <b>nicht</b> gesichert',
 
 'cat_field_ajax_reorder_fail_desc' => 'Die neue Kategorienfeld-Reihenfolge konnte nicht gesichert werden. Aktualisieren Sie die Seite und gehen Sie sicher, dass Sie angemeldet sind.',
 
-'cat_group_no_member_groups_found' => 'Keine <b>Mitgliedergruppen</b> mit Rechten gefunden',
+'cat_group_no_roles_found' => 'Keine <b>Rollen</b> mit Berechtigungen vorhanden. ',
 
 'cat_image_choose' => 'Aus Verzeichnis auswählen',
 
@@ -466,9 +465,9 @@ $lang = array(
 
 'category_group_updated_desc' => 'Die Kategoriengruppe <b>%s</b> wurde aktualisiert.',
 
-'category_groups_removed' => 'Kategoriengruppe wurde gelöscht',
+'category_groups_deleted' => 'Kategoriengruppe wurde gelöscht',
 
-'category_groups_removed_desc' => '%d Kategoriengruppen wurden gelöscht',
+'category_groups_deleted_desc' => '%d Kategoriengruppen wurden gelöscht',
 
 'category_manager' => 'Kategorien-Manager',
 
@@ -488,6 +487,8 @@ $lang = array(
 
 'category_updated_desc' => 'Die Kategorie <b>%s</b> wurde aktualisiert.',
 
+'category_parent_invalid' => 'Die Eltern-Kategorie muss sich in derselben Gruppe befinden und sich von der Kategorie selbst unterscheiden',
+
 'create_category' => 'Kategorie anlegen',
 
 'create_category_btn' => 'Neue Kategorie anlegen',
@@ -498,7 +499,7 @@ $lang = array(
 
 'delete_categories' => 'Kategorien löschen',
 
-'delete_categories_desc' => 'Mitglieder in den gewählten Mitgliedergruppen dürfen Kategorien in dieser Kategoriegruppe löschen. Super-Admins dürfen <b>immer</b>.',
+'delete_categories_desc' => 'Mitglieder in den gewählten Rollen dürfen Kategorien in dieser Kategoriegruppe löschen. Super-Admins dürfen <b>immer</b>.',
 
 'duplicate_category_group_name' => 'Eine Kategoriengruppe mit dem gleichen Namen existiert bereits.',
 
@@ -506,7 +507,7 @@ $lang = array(
 
 'edit_categories' => 'Kategorien bearbeiten',
 
-'edit_categories_desc' => 'Mitglieder in den gewählten Mitgliedergruppen dürfen Kategorien in dieser Kategoriegruppe bearbeiten. Super-Admins dürfen <b>immer</b>.',
+'edit_categories_desc' => 'Mitglieder in den gewählten Rollen dürfen Kategorien in dieser Kategoriegruppe bearbeiten. Super-Admins dürfen <b>immer</b>.',
 
 'edit_category' => 'Kategorie bearbeiten',
 
@@ -548,7 +549,6 @@ $lang = array(
 
 'textarea' => 'Textarea',
 
-
 // Statuses
 'create_status' => 'Status anlegen',
 
@@ -566,7 +566,7 @@ $lang = array(
 
 'status_access' => 'Status-Zugriff',
 
-'status_access_desc' => 'Mitglieder in den gewählten Mitgliedergruppen dürfen diesen Status wählen. Super-Admins dürfen <b>immer</b>.',
+'status_access_desc' => 'Mitglieder in den gewählten Rollen dürfen diesen Status wählen. Super-Admins dürfen <b>immer</b>.',
 
 'status_ajax_reorder_fail' => 'Achtung: Status-Reihenfolge konnte nicht gesichert werden',
 
@@ -599,6 +599,12 @@ $lang = array(
 'statuses_removed' => 'Status gelöscht',
 
 'statuses_removed_desc' => '%d Status wurden gelöscht.',
+
+'channel_roles' => 'Erlaubte Rollen',
+
+'channel_roles_desc' => 'Mitglieder mit diesen Rollen können jede ausgewählte Aktion in diesem Channel ausführen.',
+
+'edit_in_full_form' => 'Vollständiges Formular bearbeiten'
 
 );
 

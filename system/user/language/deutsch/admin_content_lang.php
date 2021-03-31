@@ -146,17 +146,17 @@ $lang = array(
 
 'create_field_error_desc' => 'Dieses Feld konnte nicht angelegt werden. Beachten Sie die unten aufgeführten Fehler und korrigieren Sie diese.',
 
-'create_field_group' => 'Neue Feldgruppe',
+'create_field_group' => 'Neue Feldergruppe',
 
-'create_field_group_error' => 'Feldgruppe kann nicht angelegt werden.',
+'create_field_group_error' => 'Feldergruppe kann nicht angelegt werden.',
 
-'create_field_group_error_desc' => 'Diese Feldgruppe konnte nicht angelegt werden. Beachten Sie die unten aufgeführten Fehler und korrigieren Sie diese.',
+'create_field_group_error_desc' => 'Diese Feldergruppe konnte nicht angelegt werden. Beachten Sie die unten aufgeführten Fehler und korrigieren Sie diese.',
 
-'create_field_group_success' => 'Feldgruppe erstellt',
+'create_field_group_success' => 'Feldergruppe erstellt',
 
-'create_field_group_success_desc' => 'Die Feldgruppe <b>%s</b> wurde erstellt.',
+'create_field_group_success_desc' => 'Die Feldergruppe <b>%s</b> wurde erstellt.',
 
-'create_field_group_warning' => '<b>Achtung</b>: Feldgruppen benötigen benutzerdefinierte Felder.',
+'create_field_group_warning' => '<b>Achtung</b>: Feldergruppen benötigen benutzerdefinierte Felder.',
 
 'create_field_group_warning2' => 'Wir empfehlen, zuerst ein <a href="%s">benutzerdefiniertes Feld</a> anzulegen.',
 
@@ -210,15 +210,15 @@ $lang = array(
 
 'edit_field_error_desc' => 'Wir konnten dieses Feld nicht aktualisieren, bitte überprüfen und beheben Sie die Fehler unten.',
 
-'edit_field_group' => 'Feldgruppe bearbeiten',
+'edit_field_group' => 'Feldergruppe bearbeiten',
 
-'edit_field_group_error' => 'Feldgruppe konnte nicht aktualisiert werden',
+'edit_field_group_error' => 'Feldergruppe konnte nicht aktualisiert werden',
 
 'edit_field_group_error_desc' => 'Dieses Feld konnte nicht aktualisiert werden. Bitte sehen Sie sich die unten aufgeführten Fehler an und korrigieren Sie sie.',
 
-'edit_field_group_success' => 'Feldgruppe aktualisiert',
+'edit_field_group_success' => 'Feldergruppe aktualisiert',
 
-'edit_field_group_success_desc' => 'Die Feldgruppe <b>%s</b> wurde aktualisiert.',
+'edit_field_group_success_desc' => 'Die Feldergruppe <b>%s</b> wurde aktualisiert.',
 
 'edit_field_success' => 'Feld aktualisiert',
 
@@ -234,23 +234,23 @@ $lang = array(
 
 'field' => 'Feld',
 
-'fields_assign_to_group' => 'Weisen Sie dieser Feldgruppe ein Feld oder mehrere zu.',
+'fields_assign_to_group' => 'Weisen Sie dieser Feldergruppe ein Feld oder mehrere zu.',
 
 'field_content_text' => 'Erlaubter Inhalt',
 
 'field_content_text_desc' => 'Art des Inhaltes, den dieses Feld enthalten darf.',
 
-'field_groups_uc' => 'Feldgruppen',
+'field_groups_uc' => 'Feldergruppen',
 
 'field_groups_desc' => 'Benutzen, um verknüpfte benutzerdefinierte Felder zu gruppieren.',
 
-'field_groups_removed_desc' => 'Die folgenden Feldgruppen wurden entfernt',
+'field_groups_removed_desc' => 'Die folgenden Feldergruppen wurden entfernt',
 
 'field_is_hidden' => 'Dieses Feld standardmäßig zeigen?',
 
 'field_label_info' => 'Feldbezeichnung, die im Redakteursformular erscheint',
 
-'field_manager' => 'Feldverwaltung',
+'field_manager' => 'Felderverwaltung',
 
 'field_options' => 'Feldoptionen',
 
@@ -268,9 +268,9 @@ $lang = array(
 
 'fields' => 'Felder',
 
-'fields_removed_desc' => 'Die folgenden Felder wurden entfernt',
+'fields_deleted_desc' => 'Die folgenden Felder wurden entfernt',
 
-'filter_by_group' => 'Feldgruppe',
+'filter_by_group' => 'Feldergruppe',
 
 'fmt_has_changed' => 'Hinweis: Sie haben ein anderes Feldformat gewählt, als das zuvor gewählte.',
 
@@ -318,7 +318,7 @@ $lang = array(
 
 'instructions_desc' => 'Feldanweisungen, die im Redakteursformular erscheinen.',
 
-'invalid_field_group_selected' => 'Ungültige Feldgruppe',
+'invalid_field_group_selected' => 'Ungültige Feldergruppe',
 
 'invalid_short_name' => 'Der Channel-Name darf nur alphanumerische Zeichen enthalten und keine Leerzeichen.',
 
@@ -358,7 +358,7 @@ $lang = array(
 
 'no_channels_exist' => 'Zur Zeit gibt es keine Channels',
 
-'no_field_group_selected' => 'Es steht keine Feldgruppe für diesen Channel zur Verfügung',
+'no_field_group_selected' => 'Es steht keine Feldergruppe für diesen Channel zur Verfügung',
 
 'no_statuses' => 'Es wurden keine Status gefunden',
 
@@ -472,7 +472,6 @@ $lang = array(
 
 'versioning' => 'Optionen für die Versionierung',
 
-
 // Generic Phrases
 'delete' => 'Löschen',
 
@@ -489,7 +488,6 @@ $lang = array(
 'rename_group' => 'Gruppen umbenennen',
 
 'total_fields' => 'Felder gesamt',
-
 
 // Category Administration
 'add_edit_categories' => 'Kategorien ändern/hinzufügen',
@@ -598,7 +596,6 @@ $lang = array(
 
 'update_existing_cat_fields' => 'Alle bestehenden Kategorien in dieser Gruppe mit der neuen Formatierung aktualisieren?',
 
-
 // Custom field Administration
 'add_edit_fields' => 'Felder erstellen/bearbeiten',
 
@@ -620,9 +617,9 @@ $lang = array(
 
 'delete_field_confirmation' => 'Soll dieses Channel-Feld endgültig gelöschen werden?',
 
-'delete_field_group' => 'Feldgruppe löschen',
+'delete_field_group' => 'Feldergruppe löschen',
 
-'delete_field_group_confirmation' => 'Soll diese benutzerdefinierte Feldgruppe definitiv gelöscht werden?',
+'delete_field_group_confirmation' => 'Soll diese benutzerdefinierte Feldergruppe definitiv gelöscht werden?',
 
 'dropdown_sub' => 'Wenn Sie ein Drop-Down-Feld wählen',
 
@@ -644,13 +641,13 @@ $lang = array(
 
 'field_formatting_cont' => 'Wenn Sie den Feldtyp <em>Textarea</em> wählen (mehrere Eingabezeilen)',
 
-'field_group' => 'Channel-Feldgruppe',
+'field_group' => 'Channel-Feldergruppe',
 
-'field_group_created' => 'Feldgruppe erstellt:',
+'field_group_created' => 'Feldergruppe erstellt:',
 
-'field_group_deleted' => 'Feldgruppe gelöscht:',
+'field_group_deleted' => 'Feldergruppe gelöscht:',
 
-'field_group_updated' => 'Feldgruppe aktualisiert:',
+'field_group_updated' => 'Feldergruppe aktualisiert:',
 
 'field_id' => 'Feld-ID',
 
@@ -686,11 +683,11 @@ $lang = array(
 
 'multi_list_items' => 'Multi-Select-Optionen',
 
-'new_field_group' => 'Neue Feldgruppe',
+'new_field_group' => 'Neue Feldergruppe',
 
 'no_field_group_message' => 'Zur Zeit sind keine Channel-Felder vorhanden',
 
-'no_field_groups' => 'Keine <b>Feldgruppe</b> gefunden.',
+'no_field_groups' => 'Keine <b>Feldergruppe</b> gefunden.',
 
 'no_field_label' => 'Feldbezeichnung (Label) ist notwendig',
 
@@ -702,7 +699,7 @@ $lang = array(
 
 'select_list' => 'Liste wählen',
 
-'show_all_field_groups' => 'Alle %d Feldgruppen',
+'show_all_field_groups' => 'Alle %d Feldergruppen',
 
 'show_all_fields' => 'Alle %d Felder',
 
@@ -731,7 +728,6 @@ $lang = array(
 'type_integer' => 'Ganze Zahl',
 
 'type_numeric' => 'Numerisch',
-
 
 // Status Administration
 'add_edit_statuses' => 'Status erstellen/bearbeiten',
@@ -788,7 +784,6 @@ $lang = array(
 
 'url_title_prefix' => 'URL-Title-Prefix',
 
-
 // Channel Form Settings
 'channel_form_allow_guest_posts' => 'Beiträge von Gästen erlauben?',
 
@@ -803,7 +798,6 @@ $lang = array(
 'channel_form_settings' => 'Channel-Formulareinstellungen',
 
 'channel_form_settings_updated' => 'Channel-Formulareinstellungen gespeichert',
-
 
 // Channel Entries API
 'default_value' => 'Standardwert',
@@ -837,6 +831,12 @@ $lang = array(
 'toggle_default_value_desc_cont' => '<b>Hinweis</b>: Wenn Sie einen Channel mit bereits vorhandenen Einträgen zuordnen, wird diesen Channel-Einträgen die neue Position zugewiesen.',
 
 'unauthorized_for_this_channel' => 'Sie haben keine Berechtigung, um in diesem Channel zu schreiben',
+
+/* DB column type */
+
+'db_column_type' => 'Column type in database',
+
+'db_column_type_desc' => 'Wählen Sie den Datenbankspaltentyp für Ihre Daten. TEXT (64 KB) ist normalerweise gut für einen Artikel. Wenn Ihr Feldinhalt eher ein Buch ist, wählen Sie MEDIUMTEXT (16Mb).',
 
 );
 

@@ -32,6 +32,8 @@ $lang = array(
 
 'flagged_as_spam' => 'als potenziellen Spam markiert',
 
+'commented_on' => 'kommentiert',
+
 'has' => 'hat',
 
 'have_been' => 'ist gewesen',

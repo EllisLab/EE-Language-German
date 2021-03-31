@@ -77,6 +77,9 @@ $lang = array(
 
 'yes' => 'Ja',
 
+'required_fields' => 'Benötigte Felder',
+
+'edit_this' => 'Dies bearbeiten',
 
 /* Errors */
 'captcha_incorrect' => 'Sie haben das Wort nicht genau so eingetragen, wie es im Bild erscheint',
@@ -95,6 +98,12 @@ Die folgenden Dateien sind betroffen:
 Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen auf der Startseite des Control Panels. Wenn Sie diese Dateien nicht geändert haben, kann dies auf einen Hackerangriff hindeuten. Suchen Sie in den Dateien nach verdächtigen Inhalten (JavaScript oder iFrames), und lesen Sie die folgenden Informationen: '.DOC_URL.'troubleshooting/error_messages/expressionengine_has_detected_the_modification_of_a_core_file.html',
 
 'checksum_email_subject' => 'Eine Core-Datei wurde auf Ihrer Website geändert.',
+
+'warning_system_status_title' => 'Bitte überprüfen Sie den Online-Status des Systems',
+
+'warning_system_status_message' => 'Ihr aktueller Systemstatus ist auf <b>%s</b> gesetzt. Wenn Sie dies ändern müssen, besuchen Sie bitte die <a href="%s">Systemeinstellungen</a> oder klicken auf den Button unten',
+
+'warning_system_status_button' => 'System einstellen %s',
 
 'csrf_token_expired' => 'Dieses Formular ist abgelaufen. Bitte erneut aufrufen.',
 
@@ -118,6 +127,8 @@ Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen au
 
 'missing_encryption_key' => 'In Ihrer config.php ist für <code>%s</code> kein Wert festgelegt. Dadurch kann Ihre Installation Sicherheitslücken ausgesetzt sein. Stellen Sie die Schlüssel wieder her oder lesen Sie <a href="%s">diesen Artikel zur Problembehandlung</a> im Benutzerhandbuch.',
 
+'el_folder_present' => 'Das <code>%s</code>-Verzeichnis ist auf Ihrem Server. Bitte stellen Sie sicher, dass Sie Ihre <code>index.php</code> und <code>admin.php</code> gemäß den <a href="%s">Update-Anweisungen</a> ersetzt haben, um danach das obige Verzeichnis zu entfernen.',
+
 'missing_mime_config' => 'Kann Ihre Mime-Typ-Whitelist nicht importieren: die Datei %s existiert nicht oder kann nicht gelesen werden.',
 
 'new_version_error' => 'Beim Herunterladen der aktuellen ExpressionEngine-Versionsnummer ist ein unerwarteter Fehler aufgetreten. Weitere Informationen finden Sie in diesem <a href="%s" rel="external noreferrer">Dokument zur Fehlerbehebung</a>',
@@ -125,6 +136,14 @@ Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen au
 'nonexistent_page' => 'Die gewünschte Seite wurde nicht gefunden',
 
 'redirect_xss_fail' => 'Der Link, auf den Sie umgeleitet wurden, enthielt potentiellen Schadcode. Wir empfehlen, den Back-Button zu klicken und per Email den Link an %s zu melden, der diese Mitteilung hervorrief.',
+
+'redirect_warning_header' => 'Umleitungswarnung',
+
+    'redirect_description' => 'Sie öffnen eine neue Webseite, die nicht zum CMS gehört: <b>%s</b>',
+
+    'redirect_check_address' => 'Bitte überprüfen Sie noch einmal, ob die Adresse korrekt ist.',
+
+    'redirect_cancel' => 'Abbrechen',
 
 'submission_error' => 'Das abgeschickte Formular enthielt folgende Fehler:',
 
@@ -138,6 +157,7 @@ Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen au
 
 'version_mismatch' => 'Die Version Ihrer ExpressionEngine-Installation (%s) stimmt nicht mit der gemeldeten Version (%s) überein. <a href="'.DOC_URL.'installation/update.html" rel="external">Aktualisieren Sie Ihre Installation von ExpressionEngine erneut</a>.',
 
+'php72_intl_error' => 'Ihre <code>intl</code> PHP-Erweiterung ist veraltet. Bitte stellen Sie sicher, dass <code>ICU 4.6</code> oder neuer instwalliert ist.',
 
 /* Member Groups */
 'banned' => 'Gesperrt',
@@ -149,7 +169,6 @@ Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen au
 'pending' => 'Im Wartezustand',
 
 'super_admins' => 'Super-Admins',
-
 
 /* Template.php */
 'error_fix_module_processing' => 'Bitte überprüfen Sie, ob das Modul \'%x\' isntalliert ist und dass  \'%y\' eine verfügbare Methode des Moduls ist',
@@ -172,7 +191,6 @@ Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen au
 
 'template_loop' => 'Sie haben eine Templateschleife aufgrund nicht korrekt verschachtelter Sub-Templates verursacht (\'%s\' rekursiv aufgerufen)',
 
-
 /* Email */
 'error_sending_email' => 'Email senden zur Zeit nicht möglich.',
 
@@ -184,8 +202,9 @@ Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen au
 
 'password_reset_flood_lock' => 'Sie haben heute zu oft versucht, Ihr Passwort zurückzusetzen. Bitte überprüfen Sie Ihren Posteingang und Ihre Spam-Ordner auf frühere Anfragen oder wenden Sie sich an den Website-Administrator.',
 
-'your_new_login_info' => 'Login-Information',
+'forgotten_username_email_sent' => 'Wenn diese Email-Adresse einem Konto zugeordnet ist, wurde Ihnen gerade eine Email mit Ihrem Benutzernamen gesendet.',
 
+'your_new_login_info' => 'Login-Informationen',
 
 /* Timezone */
 'invalid_date_format' => 'Das von Ihnen übermittelte Datumsformat ist ungültig.',
@@ -195,7 +214,6 @@ Wenn Sie diese Änderungen vorgenommen haben, akzeptieren Sie die Änderungen au
 'no_timezones' => 'Keine Zeitzonen',
 
 'select_timezone' => 'Zeitzone wählen',
-
 
 /* Date */
 'singular' => 'eins',

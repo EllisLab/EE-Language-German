@@ -48,7 +48,7 @@ $lang = [
 
 'edit_consent_request' => 'Einverständniserklärung bearbeitren',
 
-'new_consent_version_destructive' => 'Dies ist eine zerstörende und irreversible Aktion.',
+'new_consent_version_destructive' => 'Dies ist eine irreversible Aktion.',
 
 'new_consent_version_notice' => 'Durch das Bearbeiten dieser Einverständniserklärung werden alle vorherigen Einwilligungen, die für diese Einverständniserklärung erteilt wurden, universell widerrufen.',
 
